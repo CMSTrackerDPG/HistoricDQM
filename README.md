@@ -1,7 +1,7 @@
 # HistoricDQM
 How to run historic DQM:
 
-First setup your grid environment (automatically done for cctrack), then run `trendPlots` script with params, for example:
+First setup your grid environment (automatically done for `cctrack` at `vocms061`), then run `trendPlots` script with params, for example:
 
 `./trendPlots.py -C cfg/trendPlotsDQM.ini -C cfg/trendPlotsExample.ini`
 
