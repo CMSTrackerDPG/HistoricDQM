@@ -15,7 +15,7 @@ First setup your grid environment (automatically done for `cctrack` at `vocms061
 
 `./trendPlots.py -C cfg/trendPlotsDQM.ini -C cfg/trendPlotsExample.ini -r "run > 190000 and run < 191000" -L runlist.txt`
 
-`./trendPlots.py -C cfg/trendPlotsDQM.ini -C cfg/aaaaa.ini -C cfg/trendPlotsExample.ini -r "run > 190000 and run < 191000" -J json.json`
+`./trendPlots.py -C cfg/trendPlotsDQM.ini -C cfg/trendPlotsExample.ini -r "run > 190000 and run < 191000" -J json.json`
 
 To run on online data:
 `./trendPlots.py -C cfg/trendPlotsDQMOnline.ini -C cfg/trendPlotsExample.ini -r "run > 194000 and run < 195000" --dataset Online/ALL --reco "*" --epoch "*" --tag "*"`
