@@ -80,12 +80,21 @@ height:500px;
 
 		<div class="buttons">
 			<span class="button-checkbox1">
-				<button type="button" class="btn" data-color="primary">NClust_OFFTk_TIB_count</button>
-				<input type="checkbox" value="NClust_OFFTk_TIB_count.json"
+				<button type="button" class="btn" data-color="primary">NClust_OFFTk_TID_MINUS_mean</button>
+				<input type="checkbox" value="NClust_OFFTk_TID_MINUS_mean.json"
 				name="container1" class="hidden" id="check11"
 				onchange='upgradeGraph(this)' />
 			</span>
+			<span class="button-checkbox1">
+				<button type="button" class="btn" data-color="primary">NClust_OFFTk_TID_PLUS_mean</button>
+				<input type="checkbox" value="NClust_OFFTk_TID_PLUS_mean.json"
+				name="container1" class="hidden" id="check12"
+				onchange='upgradeGraph(this)' />
+			</span>
 		</div>
+		<!--  span>
+		<button onclick="upgradeGraph(this);">CLICK ME BABY !!</button>
+	</span-->
 		<br></br>
 		<div class="chart">
 			<div id="container1"
@@ -95,16 +104,20 @@ height:500px;
 			onclick="popup(this);">Change Ranges</a>
 	</div>
 
+
 	<div class="chartarea">
 
 		<div class="buttons">
 			<span class="button-checkbox1">
-				<button type="button" class="btn" data-color="primary">NClust_OFFTk_TIB_mean</button>
-				<input type="checkbox" value="NClust_OFFTk_TIB_mean.json"
+				<button type="button" class="btn" data-color="primary">NClust_OFFTk_TOB_mean</button>
+				<input type="checkbox" value="NClust_OFFTk_TOB_mean.json"
 				name="container2" class="hidden" id="check21"
 				onchange='upgradeGraph(this)' />
-			</span> 
+			</span>
 		</div>
+		<!--  span>
+		<button onclick="upgradeGraph(this);">CLICK ME BABY !!</button>
+	</span-->
 		<br></br>
 		<div class="chart">
 			<div id="container2"
@@ -114,48 +127,43 @@ height:500px;
 			onclick="popup(this);">Change Ranges</a>
 	</div>
 
-	</div>
+
 
 	<div class="chartarea">
 
 		<div class="buttons">
-			<span class="button-checkbox1">
-				<button type="button" class="btn" data-color="primary">NClust_OFFTk_TID_MINUS_count</button>
-				<input type="checkbox" value="NClust_OFFTk_TID_MINUS_count.json"
+			<span class="button-checkbox2">
+				<button type="button" class="btn" data-color="primary">NClust_ONTk_TEC_MINUS_mean</button>
+				<input type="checkbox" value="NClust_ONTk_TEC_MINUS_mean.json"
 				name="container3" class="hidden" id="check31"
-				onchange='upgradeGraph(this)' />
+				onchange="upgradeGraph(this)" />
 			</span>
-			<span class="button-checkbox1">
-				<button type="button" class="btn" data-color="primary">NClust_OFFTk_TID_PLUS_count</button>
-				<input type="checkbox" value="NClust_OFFTk_TID_PLUS_count.json"
+			<span class="button-checkbox2">
+				<button type="button" class="btn" data-color="primary">NClust_ONTk_TEC_PLUS_mean</button>
+				<input type="checkbox" value="NClust_ONTk_TEC_PLUS_mean.json"
 				name="container3" class="hidden" id="check32"
-				onchange='upgradeGraph(this)' />
+				onchange="upgradeGraph(this)" />
 			</span>
 		</div>
+		<!--  span>
+		<button onclick="upgradeGraph(this);">CLICK ME BABY !!</button>
+	</span-->
 		<br></br>
 		<div class="chart">
 			<div id="container3"
 				style="min-width: 310px; height: 400px; max-width: 800px; margin: 0 auto"></div>
 		</div>
-		<a class="popUp" href="popup.html" rel="facebox" name="container3"
-			onclick="popup(this);">Change Ranges</a>
+		<a class="popUp" href="popup.html" name="container3"
+			onclick="popup(this);" rel="facebox">Change Ranges</a>
 	</div>
 
-
 	<div class="chartarea">
-
 		<div class="buttons">
-			<span class="button-checkbox1">
-				<button type="button" class="btn" data-color="primary">NClust_OFFTk_TID_MINUS_mean</button>
-				<input type="checkbox" value="NClust_OFFTk_TID_MINUS_mean.json"
+			<span class="button-checkbox3">
+				<button type="button" class="btn" data-color="primary">NClust_ONTk_TIB_mean</button>
+				<input type="checkbox" value="NClust_ONTk_TIB_mean.json"
 				name="container4" class="hidden" id="check41"
-				onchange='upgradeGraph(this)' />
-			</span>
-			<span class="button-checkbox1">
-				<button type="button" class="btn" data-color="primary">NClust_OFFTk_TID_PLUS_mean</button>
-				<input type="checkbox" value="NClust_OFFTk_TID_PLUS_mean.json"
-				name="container4" class="hidden" id="check42"
-				onchange='upgradeGraph(this)' />
+				onchange="upgradeGraph(this)" />
 			</span>
 		</div>
 		<!--  span>
@@ -166,23 +174,26 @@ height:500px;
 			<div id="container4"
 				style="min-width: 310px; height: 400px; max-width: 800px; margin: 0 auto"></div>
 		</div>
-		<a class="popUp" href="popup.html" rel="facebox" name="container4"
-			onclick="popup(this);">Change Ranges</a>
+		<a class="popUp" href="popup.html" name="container4"
+			onclick="popup(this);" rel="facebox">Change Ranges</a>
 	</div>
-
+	
 	<div class="chartarea">
 
 		<div class="buttons">
 			<span class="button-checkbox1">
-				<button type="button" class="btn" data-color="primary">NClust_OFFTk_TOB_count</button>
-				<input type="checkbox" value="NClust_OFFTk_TOB_count.json"
+				<button type="button" class="btn" data-color="primary">NClust_ONTk_TID_MINUS_mean</button>
+				<input type="checkbox" value="NClust_ONTk_TID_MINUS_mean.json"
 				name="container5" class="hidden" id="check51"
+				onchange='upgradeGraph(this)' />
+			</span> 
+			<span class="button-checkbox1">
+				<button type="button" class="btn" data-color="primary">NClust_ONTk_TID_PLUS_mean</button>
+				<input type="checkbox" value="NClust_ONTk_TID_PLUS_mean.json"
+				name="container5" class="hidden" id="check52"
 				onchange='upgradeGraph(this)' />
 			</span>
 		</div>
-		<!--  span>
-		<button onclick="upgradeGraph(this);">CLICK ME BABY !!</button>
-	</span-->
 		<br></br>
 		<div class="chart">
 			<div id="container5"
@@ -191,13 +202,13 @@ height:500px;
 		<a class="popUp" href="popup.html" rel="facebox" name="container5"
 			onclick="popup(this);">Change Ranges</a>
 	</div>
-
+	
 	<div class="chartarea">
 
 		<div class="buttons">
 			<span class="button-checkbox1">
-				<button type="button" class="btn" data-color="primary">NClust_OFFTk_TOB_mean</button>
-				<input type="checkbox" value="NClust_OFFTk_TOB_mean.json"
+				<button type="button" class="btn" data-color="primary">NClust_ONTk_TOB_mean</button>
+				<input type="checkbox" value="NClust_ONTk_TOB_mean.json"
 				name="container6" class="hidden" id="check61"
 				onchange='upgradeGraph(this)' />
 			</span>
@@ -213,107 +224,7 @@ height:500px;
 		<a class="popUp" href="popup.html" rel="facebox" name="container6"
 			onclick="popup(this);">Change Ranges</a>
 	</div>
-	<div class="chartarea">
-
-		<div class="buttons">
-			<span class="button-checkbox1">
-				<button type="button" class="btn" data-color="primary">NClust_ONTk_TEC_MINUS_count</button>
-				<input type="checkbox" value="NClust_ONTk_TEC_MINUS_count.json"
-				name="container7" class="hidden" id="check71"
-				onchange='upgradeGraph(this)' />
-			</span>
-			<span class="button-checkbox1">
-				<button type="button" class="btn" data-color="primary">NClust_ONTk_TEC_PLUS_count</button>
-				<input type="checkbox" value="NClust_ONTk_TEC_PLUS_count.json"
-				name="container7" class="hidden" id="check72"
-				onchange='upgradeGraph(this)' />
-			</span>
-		</div>
-		<!--  span>
-		<button onclick="upgradeGraph(this);">CLICK ME BABY !!</button>
-	</span-->
-		<br></br>
-		<div class="chart">
-			<div id="container7"
-				style="min-width: 310px; height: 400px; max-width: 800px; margin: 0 auto"></div>
-		</div>
-		<a class="popUp" href="popup.html" rel="facebox" name="container7"
-			onclick="popup(this);">Change Ranges</a>
-	</div>
-
-
-
-	<div class="chartarea">
-
-		<div class="buttons">
-			<span class="button-checkbox2">
-				<button type="button" class="btn" data-color="primary">NClust_ONTk_TEC_MINUS_mean</button>
-				<input type="checkbox" value="NClust_ONTk_TEC_MINUS_mean.json"
-				name="container8" class="hidden" id="check81"
-				onchange="upgradeGraph(this)" />
-			</span>
-			<span class="button-checkbox2">
-				<button type="button" class="btn" data-color="primary">NClust_ONTk_TEC_PLUS_mean</button>
-				<input type="checkbox" value="NClust_ONTk_TEC_PLUS_mean.json"
-				name="container8" class="hidden" id="check82"
-				onchange="upgradeGraph(this)" />
-			</span>
-		</div>
-		<!--  span>
-		<button onclick="upgradeGraph(this);">CLICK ME BABY !!</button>
-	</span-->
-		<br></br>
-		<div class="chart">
-			<div id="container8"
-				style="min-width: 310px; height: 400px; max-width: 800px; margin: 0 auto"></div>
-		</div>
-		<a class="popUp" href="popup.html" name="container8"
-			onclick="popup(this);" rel="facebox">Change Ranges</a>
-	</div>
-	<div class="chartarea">
-
-		<div class="buttons">
-			<span class="button-checkbox2">
-				<button type="button" class="btn" data-color="primary">NClust_ONTk_TIB_count</button>
-				<input type="checkbox" value="NClust_ONTk_TIB_count.json"
-				name="container9" class="hidden" id="check91"
-				onchange="upgradeGraph(this)" />
-			</span>
-		</div>
-		<!--  span>
-		<button onclick="upgradeGraph(this);">CLICK ME BABY !!</button>
-	</span-->
-		<br></br>
-		<div class="chart">
-			<div id="container9"
-				style="min-width: 310px; height: 400px; max-width: 800px; margin: 0 auto"></div>
-		</div>
-		<a class="popUp" href="popup.html" name="container9"
-			onclick="popup(this);" rel="facebox">Change Ranges</a>
-	</div>
-
-
-
-	<div class="chartarea">
-		<div class="buttons">
-			<span class="button-checkbox3">
-				<button type="button" class="btn" data-color="primary">NClust_ONTk_TIB_mean</button>
-				<input type="checkbox" value="NClust_ONTk_TIB_mean.json"
-				name="container10" class="hidden" id="check101"
-				onchange="upgradeGraph(this)" />
-			</span>
-		</div>
-		<!--  span>
-		<button onclick="upgradeGraph(this);">CLICK ME BABY !!</button>
-	</span-->
-		<br></br>
-		<div class="chart">
-			<div id="container10"
-				style="min-width: 310px; height: 400px; max-width: 800px; margin: 0 auto"></div>
-		</div>
-		<a class="popUp" href="popup.html" name="container10"
-			onclick="popup(this);" rel="facebox">Change Ranges</a>
-	</div>
+	
 	<div style="width: 360px; margin-left: auto; margin-right: auto">
 		<button style="margin-bottom: 50px; display: inline" class="popUp"
 			onclick="prev();">Previous Plots</button>
