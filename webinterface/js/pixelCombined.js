@@ -43,8 +43,13 @@ jQuery(document).ready(
 					urlLink = "/" + year + "/Prompt/" + dataSet + "/"
 							+ subsystem;
 				} else {
+				  if (dataSet == "StreamExpress") {
+					urlLink = "/" + year + "/" + dataSet + "/"
+							+ subsystem + "/" + apvMode;
+				  } else {
 					urlLink = "/" + year + "/Prompt/" + dataSet + "/"
 							+ subsystem + "/" + apvMode;
+				  }
 				}
 				console.log("urlLink : " + urlLink);
                                 
