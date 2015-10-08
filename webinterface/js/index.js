@@ -44,6 +44,14 @@ $(document).ready(
 									&& subsystem == "Strips"
 									&& apvMode == "DECO") {
 								$("#body").load("StripDeco.html");
+							} else if ( dataSet == "StreamExpressCosmics"
+									&& subsystem == "Strips"
+									&& apvMode == "PEAK") {
+								$("#body").load("StripPeakExprCosmics.html");
+							} else if ( dataSet == "Cosmics"
+									&& subsystem == "Strips"
+									&& apvMode == "PEAK") {
+								$("#body").load("StripPeakCosmics.html");
 							} else {
 								$("#body").load("404page.html");
 							}

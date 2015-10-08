@@ -46,6 +46,12 @@ jQuery(document).ready(
 				  if (dataSet == "StreamExpress") {
 					urlLink = "/" + year + "/" + dataSet + "/"
 							+ subsystem + "/" + apvMode;
+				  } else if (dataSet == "StreamExpressCosmics") {
+					urlLink = "/" + year + "/" + dataSet + "/"
+							+ subsystem + "/" + apvMode;
+				  } else if (dataSet == "Cosmics") {
+					urlLink = "/" + year + "/Prompt/" + dataSet + "/"
+							+ subsystem + "/" + apvMode;
 				  } else {
 					urlLink = "/" + year + "/Prompt/" + dataSet + "/"
 							+ subsystem + "/" + apvMode;
