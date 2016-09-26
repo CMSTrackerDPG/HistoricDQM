@@ -1,0 +1,31 @@
+{
+    "NClust_OFFTk_TOB_count": [
+        {
+            "run": 272760, 
+            "ymax": 0, 
+            "y": 4140.0, 
+            "x": 1.0, 
+            "ymin": 0, 
+            "yErr": 0.0, 
+            "yTitle": "N_{Clusters} (OFF-Track)"
+        }, 
+        {
+            "run": 272761, 
+            "ymax": 0, 
+            "y": 16100.0, 
+            "x": 2.0, 
+            "ymin": 0, 
+            "yErr": 0.0, 
+            "yTitle": "N_{Clusters} (OFF-Track)"
+        }, 
+        {
+            "run": 272762, 
+            "ymax": 0, 
+            "y": 23801.0, 
+            "x": 3.0, 
+            "ymin": 0, 
+            "yErr": 0.0, 
+            "yTitle": "N_{Clusters} (OFF-Track)"
+        }
+    ]
+}

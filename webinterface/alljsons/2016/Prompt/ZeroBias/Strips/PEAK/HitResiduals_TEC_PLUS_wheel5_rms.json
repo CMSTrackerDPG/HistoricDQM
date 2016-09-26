@@ -1,0 +1,31 @@
+{
+    "HitResiduals_TEC_PLUS_wheel5_rms": [
+        {
+            "run": 272760, 
+            "ymax": 0.1, 
+            "y": 0.01223931930315583, 
+            "x": 1.0, 
+            "ymin": -0.05, 
+            "yErr": 2.4355226728515546e-05, 
+            "yTitle": "HitResiduals TEC Wheel 5 RMS"
+        }, 
+        {
+            "run": 272761, 
+            "ymax": 0.1, 
+            "y": 0.014366613005070757, 
+            "x": 2.0, 
+            "ymin": -0.05, 
+            "yErr": 1.248496820703792e-05, 
+            "yTitle": "HitResiduals TEC Wheel 5 RMS"
+        }, 
+        {
+            "run": 272762, 
+            "ymax": 0.1, 
+            "y": 0.012983816403755344, 
+            "x": 3.0, 
+            "ymin": -0.05, 
+            "yErr": 9.421458909143403e-06, 
+            "yTitle": "HitResiduals TEC Wheel 5 RMS"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "centralCharge_OFFTk_mpv": [
+        {
+            "run": 272760, 
+            "ymax": 0, 
+            "y": -14439.60655056816, 
+            "x": 1.0, 
+            "ymin": 0, 
+            "yErr": 327.08616598706357, 
+            "yTitle": "Cluster Charge OFF-Track (mpv)"
+        }, 
+        {
+            "run": 272761, 
+            "ymax": 0, 
+            "y": -4090399.2237277436, 
+            "x": 2.0, 
+            "ymin": 0, 
+            "yErr": 119519.47493568249, 
+            "yTitle": "Cluster Charge OFF-Track (mpv)"
+        }, 
+        {
+            "run": 272762, 
+            "ymax": 0, 
+            "y": -5844408.207554581, 
+            "x": 3.0, 
+            "ymin": 0, 
+            "yErr": 132927.85446456439, 
+            "yTitle": "Cluster Charge OFF-Track (mpv)"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "NErr_FED_mean": [
+        {
+            "run": 272760, 
+            "ymax": 0, 
+            "y": 1.0, 
+            "x": 1.0, 
+            "ymin": 0, 
+            "yErr": 0.0, 
+            "yTitle": "Avg. FED N_{ERROR}"
+        }, 
+        {
+            "run": 272761, 
+            "ymax": 0, 
+            "y": 1.0, 
+            "x": 2.0, 
+            "ymin": 0, 
+            "yErr": 0.0, 
+            "yTitle": "Avg. FED N_{ERROR}"
+        }, 
+        {
+            "run": 272762, 
+            "ymax": 0, 
+            "y": 1.00005629996622, 
+            "x": 3.0, 
+            "ymin": 0, 
+            "yErr": 5.629917379293125e-05, 
+            "yTitle": "Avg. FED N_{ERROR}"
+        }
+    ]
+}

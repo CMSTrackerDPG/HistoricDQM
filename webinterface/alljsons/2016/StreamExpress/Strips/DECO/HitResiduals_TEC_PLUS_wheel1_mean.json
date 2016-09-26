@@ -1,0 +1,4414 @@
+{
+    "HitResiduals_TEC_PLUS_wheel1_mean": [
+        {
+            "run": 271037, 
+            "ymax": 0.0005, 
+            "y": 0.0004006978494630832, 
+            "x": 1.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0005081993457090125, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271044, 
+            "ymax": 0.0005, 
+            "y": -0.00031206442360099453, 
+            "x": 2.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00018730824030182238, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271045, 
+            "ymax": 0.0005, 
+            "y": -8.783810001317425e-05, 
+            "x": 3.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.8287305309928206e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271046, 
+            "ymax": 0.0005, 
+            "y": 0.0001590387489894255, 
+            "x": 4.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.000450350118825597, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271047, 
+            "ymax": 0.0005, 
+            "y": -4.630919132325119e-05, 
+            "x": 5.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.013396500480914e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271048, 
+            "ymax": 0.0005, 
+            "y": -3.0880315805012765e-05, 
+            "x": 6.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.3009981738314256e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271049, 
+            "ymax": 0.0005, 
+            "y": -0.0001063754520942447, 
+            "x": 7.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.539430885620916e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271050, 
+            "ymax": 0.0005, 
+            "y": -0.00012396367019915634, 
+            "x": 8.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0002301175494856573, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271052, 
+            "ymax": 0.0005, 
+            "y": 3.0067289817211508e-05, 
+            "x": 9.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.560022587236997e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271056, 
+            "ymax": 0.0005, 
+            "y": -3.657742217231957e-05, 
+            "x": 10.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.558515143625979e-06, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271304, 
+            "ymax": 0.0005, 
+            "y": -6.725893636379564e-05, 
+            "x": 11.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0268712426662996e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271305, 
+            "ymax": 0.0005, 
+            "y": 1.1820616341236756e-05, 
+            "x": 12.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.471195316698396e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271306, 
+            "ymax": 0.0005, 
+            "y": -7.619108525289843e-05, 
+            "x": 13.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.756503164060489e-06, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271307, 
+            "ymax": 0.0005, 
+            "y": -8.728485060444048e-05, 
+            "x": 14.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.535783505067636e-06, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271310, 
+            "ymax": 0.0005, 
+            "y": -4.262699279513366e-05, 
+            "x": 15.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1510638554403696e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271312, 
+            "ymax": 0.0005, 
+            "y": -4.635340447454297e-05, 
+            "x": 16.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.714873506875608e-06, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271313, 
+            "ymax": 0.0005, 
+            "y": -3.711592348250626e-05, 
+            "x": 17.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0969221402455036e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271314, 
+            "ymax": 0.0005, 
+            "y": -2.4416436865711793e-05, 
+            "x": 18.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.2177909083501506e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271317, 
+            "ymax": 0.0005, 
+            "y": -4.1109416933050566e-05, 
+            "x": 19.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.938366930246094e-06, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271318, 
+            "ymax": 0.0005, 
+            "y": -4.3347214415226293e-05, 
+            "x": 20.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1213312015559481e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271319, 
+            "ymax": 0.0005, 
+            "y": -3.1914236103804435e-05, 
+            "x": 21.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0840168525781347e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271321, 
+            "ymax": 0.0005, 
+            "y": -4.015525287855816e-05, 
+            "x": 22.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0065414770637442e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271322, 
+            "ymax": 0.0005, 
+            "y": -2.4585071055436036e-05, 
+            "x": 23.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1813406997693463e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271323, 
+            "ymax": 0.0005, 
+            "y": -4.424831206446309e-05, 
+            "x": 24.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1106097281259283e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271324, 
+            "ymax": 0.0005, 
+            "y": -3.9581054439035514e-05, 
+            "x": 25.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.177644831183877e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271327, 
+            "ymax": 0.0005, 
+            "y": -3.3195077063965753e-05, 
+            "x": 26.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1927248207791666e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271328, 
+            "ymax": 0.0005, 
+            "y": -4.301782751977045e-05, 
+            "x": 27.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1755443600001213e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271329, 
+            "ymax": 0.0005, 
+            "y": -1.0284075232787844e-05, 
+            "x": 28.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1851685664425887e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271330, 
+            "ymax": 0.0005, 
+            "y": -2.1757129845030112e-05, 
+            "x": 29.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.2001821528477235e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271331, 
+            "ymax": 0.0005, 
+            "y": -4.484318490478745e-05, 
+            "x": 30.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1781801115459795e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271332, 
+            "ymax": 0.0005, 
+            "y": -3.183193125842622e-05, 
+            "x": 31.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1531679977689732e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271336, 
+            "ymax": 0.0005, 
+            "y": -4.464373626202795e-05, 
+            "x": 32.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.64145228506417e-06, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271337, 
+            "ymax": 0.0005, 
+            "y": -3.5171884265144376e-05, 
+            "x": 33.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.0537821958991426e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271338, 
+            "ymax": 0.0005, 
+            "y": -9.841978590195778e-05, 
+            "x": 34.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.9773342963529714e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271342, 
+            "ymax": 0.0005, 
+            "y": -5.3090823655686645e-05, 
+            "x": 35.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.5073206561319432e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271645, 
+            "ymax": 0.0005, 
+            "y": -6.863887293954854e-05, 
+            "x": 36.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.233924263132531e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271646, 
+            "ymax": 0.0005, 
+            "y": -4.641897794979351e-05, 
+            "x": 37.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.874581171703041e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271648, 
+            "ymax": 0.0005, 
+            "y": -0.0004547154218493853, 
+            "x": 38.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0007344629263711737, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 271649, 
+            "ymax": 0.0005, 
+            "y": 0.00034700932829797107, 
+            "x": 39.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.001310690132204027, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 272007, 
+            "ymax": 0.0005, 
+            "y": 0.003036114780892874, 
+            "x": 40.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.004287230291897077, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 272008, 
+            "ymax": 0.0005, 
+            "y": -0.00017399613734056114, 
+            "x": 41.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.74343045460436e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 272010, 
+            "ymax": 0.0005, 
+            "y": -3.598635697745379e-05, 
+            "x": 42.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00012184620121738845, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 272011, 
+            "ymax": 0.0005, 
+            "y": -0.00013059404084813292, 
+            "x": 43.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.953648028084892e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 272012, 
+            "ymax": 0.0005, 
+            "y": -0.0002459170868884617, 
+            "x": 44.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.158374679705099e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 272014, 
+            "ymax": 0.0005, 
+            "y": -0.0001840159222405595, 
+            "x": 45.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.540334578757648e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 272016, 
+            "ymax": 0.0005, 
+            "y": -0.0001905078947120204, 
+            "x": 46.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.956006101048364e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 272017, 
+            "ymax": 0.0005, 
+            "y": -0.0005043431959599428, 
+            "x": 47.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00039692096477062503, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 272019, 
+            "ymax": 0.0005, 
+            "y": 0.0012635267564516555, 
+            "x": 48.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0033136276124193288, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 272021, 
+            "ymax": 0.0005, 
+            "y": -0.00013933338239839065, 
+            "x": 49.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.665945506855226e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 272022, 
+            "ymax": 0.0005, 
+            "y": -0.000211422714952978, 
+            "x": 50.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.878526065590837e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 272775, 
+            "ymax": 0.0005, 
+            "y": -0.00013020337171952776, 
+            "x": 51.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.93060120776319e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 272776, 
+            "ymax": 0.0005, 
+            "y": -2.1468901699623976e-05, 
+            "x": 52.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.010398494546285e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 272782, 
+            "ymax": 0.0005, 
+            "y": -0.00032438488453504595, 
+            "x": 53.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00014282883074648143, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 272783, 
+            "ymax": 0.0005, 
+            "y": -0.00010251951696603117, 
+            "x": 54.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.205409032869988e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 272784, 
+            "ymax": 0.0005, 
+            "y": -0.00010519608842893613, 
+            "x": 55.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.477843993693773e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 272785, 
+            "ymax": 0.0005, 
+            "y": -9.23622281332317e-05, 
+            "x": 56.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.64497016790565e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 272786, 
+            "ymax": 0.0005, 
+            "y": -0.00011653367109018798, 
+            "x": 57.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00011108567775577553, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 272798, 
+            "ymax": 0.0005, 
+            "y": -0.00016144904415341614, 
+            "x": 58.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.7269976070328644e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 272811, 
+            "ymax": 0.0005, 
+            "y": -0.00014434523825769, 
+            "x": 59.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.454342270304541e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 272812, 
+            "ymax": 0.0005, 
+            "y": -0.0001723068667302356, 
+            "x": 60.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.7996266711454436e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 272814, 
+            "ymax": 0.0005, 
+            "y": -0.0005281016385635326, 
+            "x": 61.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00020745497963267352, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 272815, 
+            "ymax": 0.0005, 
+            "y": -0.0003028872817867273, 
+            "x": 62.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00019850596514330514, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 272816, 
+            "ymax": 0.0005, 
+            "y": 2.3620085561969897e-05, 
+            "x": 63.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0001384188905701435, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 272818, 
+            "ymax": 0.0005, 
+            "y": -0.0001551715476659914, 
+            "x": 64.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.9193828403438518e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 272827, 
+            "ymax": 0.0005, 
+            "y": 0.00030490458813139444, 
+            "x": 65.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0006489745141015279, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 272828, 
+            "ymax": 0.0005, 
+            "y": -9.860933377152534e-05, 
+            "x": 66.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00017644439339621333, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 272930, 
+            "ymax": 0.0005, 
+            "y": -0.000245687246966531, 
+            "x": 67.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.376600702127963e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 272936, 
+            "ymax": 0.0005, 
+            "y": -0.00019718506983416807, 
+            "x": 68.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.835497459001497e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273013, 
+            "ymax": 0.0005, 
+            "y": -0.00015864954192864347, 
+            "x": 69.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.401115047598019e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273017, 
+            "ymax": 0.0005, 
+            "y": -0.0001763621518982834, 
+            "x": 70.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.4331800455016707e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273150, 
+            "ymax": 0.0005, 
+            "y": 1.8546133241060703e-05, 
+            "x": 71.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00020976533503662948, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273158, 
+            "ymax": 0.0005, 
+            "y": -0.0001718838502459818, 
+            "x": 72.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.4528406567188089e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273290, 
+            "ymax": 0.0005, 
+            "y": 0.0010172655721279707, 
+            "x": 73.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0032975858975079517, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273291, 
+            "ymax": 0.0005, 
+            "y": -0.00012196691047246625, 
+            "x": 74.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.0210061364543825e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273292, 
+            "ymax": 0.0005, 
+            "y": -6.075438908402034e-05, 
+            "x": 75.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0009042721869605084, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273294, 
+            "ymax": 0.0005, 
+            "y": -0.016389158603942633, 
+            "x": 76.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.013091346445098462, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273299, 
+            "ymax": 0.0005, 
+            "y": -0.0001428621257476275, 
+            "x": 77.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.432841990283101e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273301, 
+            "ymax": 0.0005, 
+            "y": -0.00014707940428569587, 
+            "x": 78.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.0681306887824046e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273302, 
+            "ymax": 0.0005, 
+            "y": -0.00016330648023574337, 
+            "x": 79.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.4270799035575515e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273402, 
+            "ymax": 0.0005, 
+            "y": -0.00013680228149667178, 
+            "x": 80.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.79257031307896e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273403, 
+            "ymax": 0.0005, 
+            "y": -0.00019648238027627208, 
+            "x": 81.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.373585969079866e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273404, 
+            "ymax": 0.0005, 
+            "y": -0.00019337115657298148, 
+            "x": 82.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00011975106695240536, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273405, 
+            "ymax": 0.0005, 
+            "y": -0.00023492303883499566, 
+            "x": 83.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00010457854807871945, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273406, 
+            "ymax": 0.0005, 
+            "y": -0.00018081426032270692, 
+            "x": 84.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.033359011718481e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273408, 
+            "ymax": 0.0005, 
+            "y": -0.00025407977396226677, 
+            "x": 85.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0001913446512225571, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273409, 
+            "ymax": 0.0005, 
+            "y": -0.0001544956566342539, 
+            "x": 86.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.943864058442042e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273410, 
+            "ymax": 0.0005, 
+            "y": -5.960641661892584e-05, 
+            "x": 87.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.810958958091253e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273411, 
+            "ymax": 0.0005, 
+            "y": -0.0002737801062205748, 
+            "x": 88.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.897620328461384e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273425, 
+            "ymax": 0.0005, 
+            "y": -0.00016229483640555677, 
+            "x": 89.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.9812414646169026e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273426, 
+            "ymax": 0.0005, 
+            "y": -0.00013754091278820953, 
+            "x": 90.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.575167537739507e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273446, 
+            "ymax": 0.0005, 
+            "y": -0.00024245749630291238, 
+            "x": 91.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.384091037048581e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273447, 
+            "ymax": 0.0005, 
+            "y": -0.0002014395915417478, 
+            "x": 92.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.4317674286311134e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273448, 
+            "ymax": 0.0005, 
+            "y": -0.00020701744249278003, 
+            "x": 93.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.5771098219140192e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273449, 
+            "ymax": 0.0005, 
+            "y": -0.00027984864454893063, 
+            "x": 94.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.338153906800542e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273450, 
+            "ymax": 0.0005, 
+            "y": -0.00017401548953377644, 
+            "x": 95.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.724701161732236e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273492, 
+            "ymax": 0.0005, 
+            "y": -0.00020467925905327485, 
+            "x": 96.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.2536241383723036e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273493, 
+            "ymax": 0.0005, 
+            "y": -0.00014825187241372553, 
+            "x": 97.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.4879153497119084e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273494, 
+            "ymax": 0.0005, 
+            "y": -0.0001520110513079473, 
+            "x": 98.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.849813602447787e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273502, 
+            "ymax": 0.0005, 
+            "y": -0.00018961975797342516, 
+            "x": 99.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.6377036015442716e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273503, 
+            "ymax": 0.0005, 
+            "y": -0.00016361621767745012, 
+            "x": 100.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.0979026848622223e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273523, 
+            "ymax": 0.0005, 
+            "y": -0.0003711791975449614, 
+            "x": 101.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00015701525042515158, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273526, 
+            "ymax": 0.0005, 
+            "y": -0.00012903168620897698, 
+            "x": 102.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0005590204045970204, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273537, 
+            "ymax": 0.0005, 
+            "y": 3.698936694148373e-05, 
+            "x": 103.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.517603282369964e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273554, 
+            "ymax": 0.0005, 
+            "y": -0.00016205460637975009, 
+            "x": 104.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.7325401201636502e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273555, 
+            "ymax": 0.0005, 
+            "y": -0.00014560317154605287, 
+            "x": 105.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.930604551829613e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273589, 
+            "ymax": 0.0005, 
+            "y": -9.842199853612602e-05, 
+            "x": 106.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00017614376772601722, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273590, 
+            "ymax": 0.0005, 
+            "y": -5.493978606260897e-05, 
+            "x": 107.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00015858514215205953, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273592, 
+            "ymax": 0.0005, 
+            "y": -5.0749691255332785e-05, 
+            "x": 108.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00013332165357228087, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273725, 
+            "ymax": 0.0005, 
+            "y": -0.00019950135897123147, 
+            "x": 109.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0504160114793074e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273728, 
+            "ymax": 0.0005, 
+            "y": -0.00021399325813474223, 
+            "x": 110.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.2334939918553475e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 273730, 
+            "ymax": 0.0005, 
+            "y": -0.0001834957957698607, 
+            "x": 111.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0878663696057104e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274094, 
+            "ymax": 0.0005, 
+            "y": -0.00026601060551920396, 
+            "x": 112.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.334721704608024e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274102, 
+            "ymax": 0.0005, 
+            "y": -0.0004523220635928977, 
+            "x": 113.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0006425896659258076, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274103, 
+            "ymax": 0.0005, 
+            "y": -1.2955102717085457e-05, 
+            "x": 114.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0008483182320986318, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274104, 
+            "ymax": 0.0005, 
+            "y": -0.0007414255314341959, 
+            "x": 115.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.000675779843120609, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274105, 
+            "ymax": 0.0005, 
+            "y": -0.00019039159625901787, 
+            "x": 116.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0006970664239583088, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274106, 
+            "ymax": 0.0005, 
+            "y": -0.00023981438933018181, 
+            "x": 117.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0006654081509311228, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274107, 
+            "ymax": 0.0005, 
+            "y": -0.00040926286708888596, 
+            "x": 118.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0008270146086812763, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274108, 
+            "ymax": 0.0005, 
+            "y": -0.0006986871410915005, 
+            "x": 119.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0009030921222646707, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274146, 
+            "ymax": 0.0005, 
+            "y": -0.00020940634118001288, 
+            "x": 120.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.271246427245097e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274157, 
+            "ymax": 0.0005, 
+            "y": -0.0001896147424491042, 
+            "x": 121.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.4223574060577403e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274159, 
+            "ymax": 0.0005, 
+            "y": -0.00011046022644819576, 
+            "x": 122.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.164630596194882e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274160, 
+            "ymax": 0.0005, 
+            "y": -0.00021670531290513163, 
+            "x": 123.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.5691399185427695e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274161, 
+            "ymax": 0.0005, 
+            "y": -0.0001945894859305104, 
+            "x": 124.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.222225074029594e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274172, 
+            "ymax": 0.0005, 
+            "y": -0.00018531120245674412, 
+            "x": 125.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.862914993471205e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274198, 
+            "ymax": 0.0005, 
+            "y": -0.00015553025361487346, 
+            "x": 126.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.7974330724860724e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274199, 
+            "ymax": 0.0005, 
+            "y": -0.00017900670431996945, 
+            "x": 127.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.0352977743589374e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274200, 
+            "ymax": 0.0005, 
+            "y": -0.00014872344980541312, 
+            "x": 128.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.9794596755858132e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274240, 
+            "ymax": 0.0005, 
+            "y": -0.0001728264346986983, 
+            "x": 129.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.355797833845316e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274241, 
+            "ymax": 0.0005, 
+            "y": -0.0001598757812481304, 
+            "x": 130.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.4981939997009507e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274243, 
+            "ymax": 0.0005, 
+            "y": 0.0001460689118356972, 
+            "x": 131.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.000296851768282042, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274244, 
+            "ymax": 0.0005, 
+            "y": -0.00019576337680746642, 
+            "x": 132.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.1270956507306e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274250, 
+            "ymax": 0.0005, 
+            "y": -0.00018187106489219135, 
+            "x": 133.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.7370891143010694e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274251, 
+            "ymax": 0.0005, 
+            "y": -0.00013166816290974425, 
+            "x": 134.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.4409984680492292e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274283, 
+            "ymax": 0.0005, 
+            "y": -0.00019008769881291316, 
+            "x": 135.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00045621929830600956, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274284, 
+            "ymax": 0.0005, 
+            "y": -7.870648979089671e-05, 
+            "x": 136.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.832763280943982e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274285, 
+            "ymax": 0.0005, 
+            "y": -0.000329571318931276, 
+            "x": 137.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0011655892718338363, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274286, 
+            "ymax": 0.0005, 
+            "y": -0.00019468958648894685, 
+            "x": 138.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.0865403712193004e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274314, 
+            "ymax": 0.0005, 
+            "y": -2.7369382945488825e-05, 
+            "x": 139.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.641284471101328e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274315, 
+            "ymax": 0.0005, 
+            "y": -8.019849976830349e-05, 
+            "x": 140.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.2890905573520142e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274316, 
+            "ymax": 0.0005, 
+            "y": -0.00013967577361255864, 
+            "x": 141.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.5676643324026832e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274317, 
+            "ymax": 0.0005, 
+            "y": 0.00035162747912230105, 
+            "x": 142.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00033893504506994865, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274318, 
+            "ymax": 0.0005, 
+            "y": 0.001702902432885986, 
+            "x": 143.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0013210264616736226, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274319, 
+            "ymax": 0.0005, 
+            "y": -0.00013774801776392947, 
+            "x": 144.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.2526415263549194e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274335, 
+            "ymax": 0.0005, 
+            "y": -0.00014223844423463518, 
+            "x": 145.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.5304879486043842e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274336, 
+            "ymax": 0.0005, 
+            "y": -0.0001245639788272575, 
+            "x": 146.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00012080964475890164, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274337, 
+            "ymax": 0.0005, 
+            "y": -0.00023733308727368684, 
+            "x": 147.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0001303196664013931, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274338, 
+            "ymax": 0.0005, 
+            "y": -0.00013006794113172763, 
+            "x": 148.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.507233157407463e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274339, 
+            "ymax": 0.0005, 
+            "y": -0.0001796654047509417, 
+            "x": 149.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.925713148840356e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274344, 
+            "ymax": 0.0005, 
+            "y": -0.00017149334945284008, 
+            "x": 150.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.5081499848599723e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274345, 
+            "ymax": 0.0005, 
+            "y": -0.00017491262312494793, 
+            "x": 151.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.8858295513748363e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274382, 
+            "ymax": 0.0005, 
+            "y": -0.00010006338674064013, 
+            "x": 152.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.50973654219977e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274387, 
+            "ymax": 0.0005, 
+            "y": -6.58765842263088e-05, 
+            "x": 153.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.6339711023848007e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274388, 
+            "ymax": 0.0005, 
+            "y": -0.00015443626031198357, 
+            "x": 154.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.132514545633673e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274420, 
+            "ymax": 0.0005, 
+            "y": -0.00010016276488032582, 
+            "x": 155.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.5023523967108654e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274421, 
+            "ymax": 0.0005, 
+            "y": -0.00012563054208231857, 
+            "x": 156.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.4646800759909394e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274422, 
+            "ymax": 0.0005, 
+            "y": -0.0001644072487075902, 
+            "x": 157.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.779165835136133e-06, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274440, 
+            "ymax": 0.0005, 
+            "y": -0.00012652192916908425, 
+            "x": 158.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.4080386894767725e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274441, 
+            "ymax": 0.0005, 
+            "y": -0.00011871163157770941, 
+            "x": 159.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.2076071202168124e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274442, 
+            "ymax": 0.0005, 
+            "y": -0.00015982417338134463, 
+            "x": 160.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.667311072668219e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274443, 
+            "ymax": 0.0005, 
+            "y": -0.0002276817862446766, 
+            "x": 161.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.515633811802766e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274954, 
+            "ymax": 0.0005, 
+            "y": -0.0001592189269441961, 
+            "x": 162.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00013869707773262255, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274955, 
+            "ymax": 0.0005, 
+            "y": -0.00028250730405881663, 
+            "x": 163.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.829441047743073e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274956, 
+            "ymax": 0.0005, 
+            "y": -8.960184265721688e-05, 
+            "x": 164.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.004177735577153e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274957, 
+            "ymax": 0.0005, 
+            "y": 3.534494060432782e-05, 
+            "x": 165.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00010763409275318916, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274958, 
+            "ymax": 0.0005, 
+            "y": -0.0001604573995001661, 
+            "x": 166.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.961658463757714e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274959, 
+            "ymax": 0.0005, 
+            "y": -0.00010367813390297941, 
+            "x": 167.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.797612390812777e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274967, 
+            "ymax": 0.0005, 
+            "y": 4.542413069173165e-05, 
+            "x": 168.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0001652224786119962, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274968, 
+            "ymax": 0.0005, 
+            "y": -7.616297778457632e-05, 
+            "x": 169.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.0842911102407056e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274969, 
+            "ymax": 0.0005, 
+            "y": -0.0001639134098695679, 
+            "x": 170.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.4448502797821617e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274970, 
+            "ymax": 0.0005, 
+            "y": -5.425782321255258e-05, 
+            "x": 171.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00013160000987946744, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274971, 
+            "ymax": 0.0005, 
+            "y": -0.00012200716120895111, 
+            "x": 172.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.6545868033007822e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274998, 
+            "ymax": 0.0005, 
+            "y": -4.69876985066187e-06, 
+            "x": 173.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.2803706148667e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 274999, 
+            "ymax": 0.0005, 
+            "y": -0.00012955489461770537, 
+            "x": 174.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.044317242487258e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275000, 
+            "ymax": 0.0005, 
+            "y": -9.276501625111282e-06, 
+            "x": 175.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.8138301184099584e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275001, 
+            "ymax": 0.0005, 
+            "y": -0.00014146249128501814, 
+            "x": 176.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.6869103258642902e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275059, 
+            "ymax": 0.0005, 
+            "y": -0.00010438556247768495, 
+            "x": 177.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.019428184457444e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275062, 
+            "ymax": 0.0005, 
+            "y": 0.00034583075268215227, 
+            "x": 178.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0011405248566593955, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275063, 
+            "ymax": 0.0005, 
+            "y": -0.0008073762331115595, 
+            "x": 179.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0013542635650732973, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275064, 
+            "ymax": 0.0005, 
+            "y": -2.4752787033430157e-05, 
+            "x": 180.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0001286048362172952, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275066, 
+            "ymax": 0.0005, 
+            "y": -0.00012495872783036284, 
+            "x": 181.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.042420684589852e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275067, 
+            "ymax": 0.0005, 
+            "y": -8.893772653705302e-06, 
+            "x": 182.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.8398573680741306e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275068, 
+            "ymax": 0.0005, 
+            "y": -9.12953120809435e-05, 
+            "x": 183.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.3190484178445157e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275073, 
+            "ymax": 0.0005, 
+            "y": -0.00011295146246643342, 
+            "x": 184.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.1594481167057725e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275074, 
+            "ymax": 0.0005, 
+            "y": -0.00015664926730310033, 
+            "x": 185.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.7860995314643574e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275124, 
+            "ymax": 0.0005, 
+            "y": -0.00010412463818144794, 
+            "x": 186.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.894200752606682e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275125, 
+            "ymax": 0.0005, 
+            "y": -8.642991715290574e-05, 
+            "x": 187.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.1880997234476356e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275282, 
+            "ymax": 0.0005, 
+            "y": -0.00015436465810719668, 
+            "x": 188.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.805216682318233e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275283, 
+            "ymax": 0.0005, 
+            "y": -8.305036375508882e-05, 
+            "x": 189.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.153804821706247e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275284, 
+            "ymax": 0.0005, 
+            "y": -0.00020479305471143757, 
+            "x": 190.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.107725071393655e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275285, 
+            "ymax": 0.0005, 
+            "y": -0.0006388491269617244, 
+            "x": 191.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0007742329268827757, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275286, 
+            "ymax": 0.0005, 
+            "y": -6.191017978832355e-05, 
+            "x": 192.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.163948482841739e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275289, 
+            "ymax": 0.0005, 
+            "y": 0.0002629994991170111, 
+            "x": 193.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0002575319587813355, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275290, 
+            "ymax": 0.0005, 
+            "y": -0.00021863825194050923, 
+            "x": 194.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.45964530102067e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275291, 
+            "ymax": 0.0005, 
+            "y": -0.00015663012767255024, 
+            "x": 195.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.8604275780910625e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275292, 
+            "ymax": 0.0005, 
+            "y": -0.00012053162492853508, 
+            "x": 196.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.907934916743956e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275293, 
+            "ymax": 0.0005, 
+            "y": -0.0001360453999364383, 
+            "x": 197.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.2395631681566235e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275309, 
+            "ymax": 0.0005, 
+            "y": -8.613266589352899e-05, 
+            "x": 198.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.003460171716974e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275310, 
+            "ymax": 0.0005, 
+            "y": -0.00013987206137950863, 
+            "x": 199.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.6109497510709128e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275311, 
+            "ymax": 0.0005, 
+            "y": -0.0001361937657738338, 
+            "x": 200.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.0931506847555632e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275319, 
+            "ymax": 0.0005, 
+            "y": -0.00011275218358861697, 
+            "x": 201.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.305834740607813e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275337, 
+            "ymax": 0.0005, 
+            "y": -0.00011337069181722461, 
+            "x": 202.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.345735760110228e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275338, 
+            "ymax": 0.0005, 
+            "y": -8.316127240087589e-05, 
+            "x": 203.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.27853904825225e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275344, 
+            "ymax": 0.0005, 
+            "y": -8.430399196077187e-06, 
+            "x": 204.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.3622465482263096e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275345, 
+            "ymax": 0.0005, 
+            "y": -0.00014576367206533568, 
+            "x": 205.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.695375805344801e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275370, 
+            "ymax": 0.0005, 
+            "y": -2.4641580241139025e-05, 
+            "x": 206.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.415929624455386e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275371, 
+            "ymax": 0.0005, 
+            "y": -9.805020820989809e-05, 
+            "x": 207.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.092768493008794e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275375, 
+            "ymax": 0.0005, 
+            "y": -0.00011983343234378415, 
+            "x": 208.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.9862585087179183e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275376, 
+            "ymax": 0.0005, 
+            "y": -0.00010132531948733747, 
+            "x": 209.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.3563827675675644e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275657, 
+            "ymax": 0.0005, 
+            "y": -2.2302940476594305e-05, 
+            "x": 210.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.689524516008193e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275658, 
+            "ymax": 0.0005, 
+            "y": -3.291181378487492e-05, 
+            "x": 211.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.2203462189891376e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275659, 
+            "ymax": 0.0005, 
+            "y": -9.632789320506356e-05, 
+            "x": 212.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0001869560572016711, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275757, 
+            "ymax": 0.0005, 
+            "y": -0.00043134786884293667, 
+            "x": 213.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00019931680116088462, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275758, 
+            "ymax": 0.0005, 
+            "y": 1.3368182549526937e-05, 
+            "x": 214.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0003584951797930535, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275759, 
+            "ymax": 0.0005, 
+            "y": -0.0001734870726090996, 
+            "x": 215.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0003016116424446727, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275761, 
+            "ymax": 0.0005, 
+            "y": -0.00026718368887197877, 
+            "x": 216.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0002141019151722101, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275763, 
+            "ymax": 0.0005, 
+            "y": 0.0003743893831521967, 
+            "x": 217.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00026568509862988924, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275764, 
+            "ymax": 0.0005, 
+            "y": 0.00018481661426965042, 
+            "x": 218.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00014568425868473608, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275766, 
+            "ymax": 0.0005, 
+            "y": -2.507372646234482e-05, 
+            "x": 219.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.440556574425432e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275767, 
+            "ymax": 0.0005, 
+            "y": 0.00028063619491758664, 
+            "x": 220.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00037903176125216834, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275768, 
+            "ymax": 0.0005, 
+            "y": 2.813417024149237e-05, 
+            "x": 221.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.474164444612544e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275772, 
+            "ymax": 0.0005, 
+            "y": -0.00011578614817513397, 
+            "x": 222.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.559365758836549e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275773, 
+            "ymax": 0.0005, 
+            "y": -8.284422832820969e-05, 
+            "x": 223.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00030228184252285866, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275774, 
+            "ymax": 0.0005, 
+            "y": -7.891860066937845e-05, 
+            "x": 224.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.1258580448664276e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275776, 
+            "ymax": 0.0005, 
+            "y": -6.827042673057063e-05, 
+            "x": 225.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.9257672171644806e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275777, 
+            "ymax": 0.0005, 
+            "y": -7.530715985168426e-05, 
+            "x": 226.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.146441291790881e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275778, 
+            "ymax": 0.0005, 
+            "y": 1.0936647832750332e-05, 
+            "x": 227.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.191457511448644e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275781, 
+            "ymax": 0.0005, 
+            "y": -0.0003092149929872304, 
+            "x": 228.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.000126622605881671, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275782, 
+            "ymax": 0.0005, 
+            "y": -0.00012888814985929404, 
+            "x": 229.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.5727947337927277e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275828, 
+            "ymax": 0.0005, 
+            "y": 0.00023543141670219275, 
+            "x": 230.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00010841018345841578, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275829, 
+            "ymax": 0.0005, 
+            "y": -9.403083564564801e-05, 
+            "x": 231.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00014444929644373962, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275831, 
+            "ymax": 0.0005, 
+            "y": 5.23770713105819e-05, 
+            "x": 232.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.8274964690489e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275832, 
+            "ymax": 0.0005, 
+            "y": 1.3558858130373453e-05, 
+            "x": 233.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.84759751400372e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275833, 
+            "ymax": 0.0005, 
+            "y": 1.5557366040296208e-05, 
+            "x": 234.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.595174401241328e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275834, 
+            "ymax": 0.0005, 
+            "y": -1.977055122325403e-05, 
+            "x": 235.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.11542623127352e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275835, 
+            "ymax": 0.0005, 
+            "y": 0.00017276620392976007, 
+            "x": 236.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00020474374753665404, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275836, 
+            "ymax": 0.0005, 
+            "y": -5.728210332589771e-05, 
+            "x": 237.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.0808829518433006e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275837, 
+            "ymax": 0.0005, 
+            "y": -0.00011956490175388135, 
+            "x": 238.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.68799759130405e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275841, 
+            "ymax": 0.0005, 
+            "y": -0.00016342803130537387, 
+            "x": 239.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00010732638275066716, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275846, 
+            "ymax": 0.0005, 
+            "y": -0.0007993905657373363, 
+            "x": 240.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0006933679558228208, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275847, 
+            "ymax": 0.0005, 
+            "y": -0.0001189894653591588, 
+            "x": 241.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.537231777717804e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275886, 
+            "ymax": 0.0005, 
+            "y": -0.0001055014122663962, 
+            "x": 242.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00011820315269273504, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275887, 
+            "ymax": 0.0005, 
+            "y": -7.718770365808138e-05, 
+            "x": 243.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00010858673838307654, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275890, 
+            "ymax": 0.0005, 
+            "y": -4.7852333387734495e-05, 
+            "x": 244.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.942960820922849e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275911, 
+            "ymax": 0.0005, 
+            "y": 2.4072782328557997e-05, 
+            "x": 245.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.808961331370301e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275912, 
+            "ymax": 0.0005, 
+            "y": -2.5514696963382976e-05, 
+            "x": 246.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.144591127172609e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275913, 
+            "ymax": 0.0005, 
+            "y": -1.248354569889571e-05, 
+            "x": 247.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.2217046038033534e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275918, 
+            "ymax": 0.0005, 
+            "y": -8.500038405091567e-05, 
+            "x": 248.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.727326367312096e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275920, 
+            "ymax": 0.0005, 
+            "y": -8.533763973719213e-05, 
+            "x": 249.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.288775931112908e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275921, 
+            "ymax": 0.0005, 
+            "y": -0.00011633352661487428, 
+            "x": 250.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00016792732690394216, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275922, 
+            "ymax": 0.0005, 
+            "y": 0.00042112980426898584, 
+            "x": 251.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00040613416192591847, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275923, 
+            "ymax": 0.0005, 
+            "y": -0.00015798338206735472, 
+            "x": 252.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.557540542548215e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275931, 
+            "ymax": 0.0005, 
+            "y": -0.000187580244637879, 
+            "x": 253.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.283548448603216e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 275963, 
+            "ymax": 0.0005, 
+            "y": 2.5925979405664012e-05, 
+            "x": 254.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.792179647596241e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276062, 
+            "ymax": 0.0005, 
+            "y": -0.0001228761433705951, 
+            "x": 255.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.001379599195574038, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276063, 
+            "ymax": 0.0005, 
+            "y": -0.002173444847335125, 
+            "x": 256.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.002314721151767868, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276064, 
+            "ymax": 0.0005, 
+            "y": 1.095016578855202e-06, 
+            "x": 257.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0012165054687554811, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276092, 
+            "ymax": 0.0005, 
+            "y": -4.440162770567952e-05, 
+            "x": 258.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.141797011406931e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276095, 
+            "ymax": 0.0005, 
+            "y": 0.000503257539896934, 
+            "x": 259.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0005387599615893026, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276097, 
+            "ymax": 0.0005, 
+            "y": 8.596764499349604e-06, 
+            "x": 260.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.2933556191571116e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276215, 
+            "ymax": 0.0005, 
+            "y": -1.3959985072892704e-05, 
+            "x": 261.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1283860666481784e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276216, 
+            "ymax": 0.0005, 
+            "y": 6.120041486491121e-06, 
+            "x": 262.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.5095297772590495e-06, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276217, 
+            "ymax": 0.0005, 
+            "y": 2.1407655915249492e-06, 
+            "x": 263.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.4743780551979322e-06, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276235, 
+            "ymax": 0.0005, 
+            "y": -0.00013415516253571682, 
+            "x": 264.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.940252243144657e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276242, 
+            "ymax": 0.0005, 
+            "y": -2.7033162177587264e-05, 
+            "x": 265.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.7744299262129642e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276243, 
+            "ymax": 0.0005, 
+            "y": -0.0001318823903530877, 
+            "x": 266.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.9713682180502752e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276244, 
+            "ymax": 0.0005, 
+            "y": -6.747871954342947e-05, 
+            "x": 267.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.0936615740138897e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276282, 
+            "ymax": 0.0005, 
+            "y": -7.046010717432921e-05, 
+            "x": 268.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.2715631232496613e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276283, 
+            "ymax": 0.0005, 
+            "y": -6.41556018714039e-05, 
+            "x": 269.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.16126028950331e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276315, 
+            "ymax": 0.0005, 
+            "y": -2.3856858427760456e-06, 
+            "x": 270.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.704118788136637e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276317, 
+            "ymax": 0.0005, 
+            "y": -0.00014689440624640658, 
+            "x": 271.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.459685252220187e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276318, 
+            "ymax": 0.0005, 
+            "y": -4.974753052786406e-05, 
+            "x": 272.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.047042351742308e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276327, 
+            "ymax": 0.0005, 
+            "y": -4.290758733100466e-06, 
+            "x": 273.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.362743091275602e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276352, 
+            "ymax": 0.0005, 
+            "y": -2.6539221316416326e-05, 
+            "x": 274.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00013167827714185372, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276355, 
+            "ymax": 0.0005, 
+            "y": -4.277784519889077e-05, 
+            "x": 275.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00011989732356605148, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276357, 
+            "ymax": 0.0005, 
+            "y": -9.50202357334891e-05, 
+            "x": 276.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.128252169275087e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276361, 
+            "ymax": 0.0005, 
+            "y": -6.140986659357149e-05, 
+            "x": 277.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.5628639922498193e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276363, 
+            "ymax": 0.0005, 
+            "y": -0.00010792101877083783, 
+            "x": 278.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.8620235505995627e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276384, 
+            "ymax": 0.0005, 
+            "y": -0.00010424087873883992, 
+            "x": 279.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.190817099256856e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276437, 
+            "ymax": 0.0005, 
+            "y": -5.676887206690179e-05, 
+            "x": 280.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.577821277113141e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276453, 
+            "ymax": 0.0005, 
+            "y": -0.0001621238302564942, 
+            "x": 281.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.0997284341543e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276454, 
+            "ymax": 0.0005, 
+            "y": -0.0001016300955545868, 
+            "x": 282.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.1219327217496805e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276458, 
+            "ymax": 0.0005, 
+            "y": -0.00014372835304845243, 
+            "x": 283.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.008990712573679e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276495, 
+            "ymax": 0.0005, 
+            "y": 7.77719442412832e-05, 
+            "x": 284.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.799514484434561e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276501, 
+            "ymax": 0.0005, 
+            "y": -9.240686342875798e-05, 
+            "x": 285.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.4264930321383616e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276502, 
+            "ymax": 0.0005, 
+            "y": -0.00013060922956832703, 
+            "x": 286.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.6272446581542798e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276525, 
+            "ymax": 0.0005, 
+            "y": -7.572333669895598e-05, 
+            "x": 287.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.3573715768030792e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276527, 
+            "ymax": 0.0005, 
+            "y": -0.0001790825519288065, 
+            "x": 288.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.9511958970186836e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276528, 
+            "ymax": 0.0005, 
+            "y": -0.00017243252512772847, 
+            "x": 289.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.7169238180141384e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276542, 
+            "ymax": 0.0005, 
+            "y": 1.927075398024771e-05, 
+            "x": 290.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.6391223162766548e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276543, 
+            "ymax": 0.0005, 
+            "y": -6.992501525300012e-05, 
+            "x": 291.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.301513739690352e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276544, 
+            "ymax": 0.0005, 
+            "y": -9.460631212331513e-05, 
+            "x": 292.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.63519868622837e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276545, 
+            "ymax": 0.0005, 
+            "y": -0.00018792861501274157, 
+            "x": 293.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.9039808004608645e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276581, 
+            "ymax": 0.0005, 
+            "y": -2.4666725453416866e-05, 
+            "x": 294.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.8472565806896595e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276582, 
+            "ymax": 0.0005, 
+            "y": -4.949880993779842e-05, 
+            "x": 295.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.4650429640685787e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276583, 
+            "ymax": 0.0005, 
+            "y": -0.00013652758785701283, 
+            "x": 296.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0001115518326027787, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276584, 
+            "ymax": 0.0005, 
+            "y": -0.0005801293655078769, 
+            "x": 297.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0004664539352229704, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276585, 
+            "ymax": 0.0005, 
+            "y": -3.464368974651727e-05, 
+            "x": 298.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.572013995341012e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276586, 
+            "ymax": 0.0005, 
+            "y": -7.25813108116872e-05, 
+            "x": 299.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.5694382905743813e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276587, 
+            "ymax": 0.0005, 
+            "y": -0.0001272892964898863, 
+            "x": 300.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.3765213235426316e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276653, 
+            "ymax": 0.0005, 
+            "y": -3.0507965035060334e-05, 
+            "x": 301.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.4502141555028213e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276655, 
+            "ymax": 0.0005, 
+            "y": -0.00012130684997918424, 
+            "x": 302.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.205111797464173e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276659, 
+            "ymax": 0.0005, 
+            "y": -0.00012102417332599543, 
+            "x": 303.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.610321004064722e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276775, 
+            "ymax": 0.0005, 
+            "y": -5.856738433263469e-05, 
+            "x": 304.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.1819458837540495e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276776, 
+            "ymax": 0.0005, 
+            "y": -0.00011233736039910184, 
+            "x": 305.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.7438266985641174e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276794, 
+            "ymax": 0.0005, 
+            "y": -0.00010153232866419502, 
+            "x": 306.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.6068120464487146e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276807, 
+            "ymax": 0.0005, 
+            "y": 0.00010426409651111407, 
+            "x": 307.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.881743019053364e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276808, 
+            "ymax": 0.0005, 
+            "y": 1.9790309947241696e-05, 
+            "x": 308.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.4735509525855382e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276810, 
+            "ymax": 0.0005, 
+            "y": -5.4199910188776136e-05, 
+            "x": 309.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.2963491085301224e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276811, 
+            "ymax": 0.0005, 
+            "y": -9.849217407654325e-05, 
+            "x": 310.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.4527533616401828e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276831, 
+            "ymax": 0.0005, 
+            "y": -7.190527716231703e-05, 
+            "x": 311.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.985230210695392e-06, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276832, 
+            "ymax": 0.0005, 
+            "y": -0.00017673260922584564, 
+            "x": 312.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.722376249582594e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276834, 
+            "ymax": 0.0005, 
+            "y": -0.00011030954597440226, 
+            "x": 313.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.821189981209866e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276837, 
+            "ymax": 0.0005, 
+            "y": 0.0005071489583747941, 
+            "x": 314.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0012187087024267454, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276870, 
+            "ymax": 0.0005, 
+            "y": -7.523270008003859e-05, 
+            "x": 315.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0979232214403418e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276935, 
+            "ymax": 0.0005, 
+            "y": -3.5304639599249905e-05, 
+            "x": 316.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.9703744442425633e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276940, 
+            "ymax": 0.0005, 
+            "y": -8.979868560467653e-06, 
+            "x": 317.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.198710237644655e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276941, 
+            "ymax": 0.0005, 
+            "y": -0.0006735353859696029, 
+            "x": 318.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0004101169639687544, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276942, 
+            "ymax": 0.0005, 
+            "y": -3.074690386758198e-05, 
+            "x": 319.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0005286695336098594, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276944, 
+            "ymax": 0.0005, 
+            "y": 0.0002953564302507409, 
+            "x": 320.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0005143919137666795, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276945, 
+            "ymax": 0.0005, 
+            "y": -7.341540184932461e-05, 
+            "x": 321.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0007392767629182468, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276946, 
+            "ymax": 0.0005, 
+            "y": -0.000252836595616625, 
+            "x": 322.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00012379359535508579, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276947, 
+            "ymax": 0.0005, 
+            "y": -0.0001084869606564177, 
+            "x": 323.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.472498815367145e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276948, 
+            "ymax": 0.0005, 
+            "y": -4.267143599095513e-05, 
+            "x": 324.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.5770281014306042e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 276950, 
+            "ymax": 0.0005, 
+            "y": -0.00010195418677951999, 
+            "x": 325.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.3425556884755145e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277069, 
+            "ymax": 0.0005, 
+            "y": 1.4477530330668012e-05, 
+            "x": 326.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.6109986487001756e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277070, 
+            "ymax": 0.0005, 
+            "y": -6.437730604750758e-05, 
+            "x": 327.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.680217645586809e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277071, 
+            "ymax": 0.0005, 
+            "y": -8.449649353639079e-05, 
+            "x": 328.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.9343322002426695e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277072, 
+            "ymax": 0.0005, 
+            "y": -7.50899297931089e-05, 
+            "x": 329.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.7287667950846863e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277073, 
+            "ymax": 0.0005, 
+            "y": -5.212990258993471e-05, 
+            "x": 330.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.861479442643226e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277075, 
+            "ymax": 0.0005, 
+            "y": -0.0023094496182705206, 
+            "x": 331.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.002125477858433295, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277076, 
+            "ymax": 0.0005, 
+            "y": -9.26226598890888e-05, 
+            "x": 332.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.5365786200955324e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277087, 
+            "ymax": 0.0005, 
+            "y": -9.603741881660404e-05, 
+            "x": 333.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.7509569704563572e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277094, 
+            "ymax": 0.0005, 
+            "y": 3.3259483488214744e-06, 
+            "x": 334.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.9142178383591495e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277096, 
+            "ymax": 0.0005, 
+            "y": -8.381488923436673e-05, 
+            "x": 335.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.829375155107944e-06, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277112, 
+            "ymax": 0.0005, 
+            "y": -1.5949887351437475e-05, 
+            "x": 336.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.5645079430985134e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277126, 
+            "ymax": 0.0005, 
+            "y": -6.274536441165987e-05, 
+            "x": 337.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00018250602959827804, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277127, 
+            "ymax": 0.0005, 
+            "y": -6.560305429730731e-05, 
+            "x": 338.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.45588262004999e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277148, 
+            "ymax": 0.0005, 
+            "y": -6.215138618885848e-05, 
+            "x": 339.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.715326775052421e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277166, 
+            "ymax": 0.0005, 
+            "y": -4.3094239242104146e-05, 
+            "x": 340.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.275940846557967e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277168, 
+            "ymax": 0.0005, 
+            "y": -8.121293674354685e-05, 
+            "x": 341.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.902289875977602e-06, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277180, 
+            "ymax": 0.0005, 
+            "y": -4.521645253277658e-05, 
+            "x": 342.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.870854119459831e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277194, 
+            "ymax": 0.0005, 
+            "y": -6.508416762568784e-05, 
+            "x": 343.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0028015151983066e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277202, 
+            "ymax": 0.0005, 
+            "y": -9.955428887534655e-05, 
+            "x": 344.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.8483053272518035e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277217, 
+            "ymax": 0.0005, 
+            "y": -4.7392442092518914e-05, 
+            "x": 345.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0014841645060357476, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277218, 
+            "ymax": 0.0005, 
+            "y": -2.359226854090373e-05, 
+            "x": 346.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.302584635521853e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277219, 
+            "ymax": 0.0005, 
+            "y": 0.0004204709635680143, 
+            "x": 347.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0001828265075720397, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277220, 
+            "ymax": 0.0005, 
+            "y": 1.2437924500872483e-05, 
+            "x": 348.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.107433381431366e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277305, 
+            "ymax": 0.0005, 
+            "y": -5.372743410784567e-05, 
+            "x": 349.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.7240576953934926e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277420, 
+            "ymax": 0.0005, 
+            "y": -3.0234310422126015e-05, 
+            "x": 350.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.8151666953589584e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277932, 
+            "ymax": 0.0005, 
+            "y": -0.00010418643830097067, 
+            "x": 351.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00022252442763031214, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277934, 
+            "ymax": 0.0005, 
+            "y": -2.2001111567121998e-05, 
+            "x": 352.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00019875817769301292, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277935, 
+            "ymax": 0.0005, 
+            "y": -9.267626451247633e-05, 
+            "x": 353.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.795693201511431e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277981, 
+            "ymax": 0.0005, 
+            "y": -9.611420946843551e-05, 
+            "x": 354.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.0935835695094776e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277982, 
+            "ymax": 0.0005, 
+            "y": -4.647254211411043e-05, 
+            "x": 355.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.442790962225039e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277983, 
+            "ymax": 0.0005, 
+            "y": -0.0005937059664176201, 
+            "x": 356.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00039005714985442403, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277984, 
+            "ymax": 0.0005, 
+            "y": -0.000383058153371872, 
+            "x": 357.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00016958656629653711, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277985, 
+            "ymax": 0.0005, 
+            "y": -0.00045229272455504907, 
+            "x": 358.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.000576932464088204, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277990, 
+            "ymax": 0.0005, 
+            "y": -0.000136193357365258, 
+            "x": 359.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.2026949795632544e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277991, 
+            "ymax": 0.0005, 
+            "y": -4.32555405742485e-05, 
+            "x": 360.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.4804184201627164e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 277992, 
+            "ymax": 0.0005, 
+            "y": -9.003200435731539e-05, 
+            "x": 361.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.317308639030325e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278017, 
+            "ymax": 0.0005, 
+            "y": -4.5690858386826576e-05, 
+            "x": 362.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.2239948899186963e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278018, 
+            "ymax": 0.0005, 
+            "y": -6.506774537152833e-05, 
+            "x": 363.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.4479188033323022e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278167, 
+            "ymax": 0.0005, 
+            "y": -0.00010435260344706915, 
+            "x": 364.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0582823447509327e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278175, 
+            "ymax": 0.0005, 
+            "y": -0.00010086993794481642, 
+            "x": 365.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.458876226340868e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278193, 
+            "ymax": 0.0005, 
+            "y": -0.00010505216227778845, 
+            "x": 366.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.770739066721004e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278239, 
+            "ymax": 0.0005, 
+            "y": -7.59054857310812e-05, 
+            "x": 367.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.846381433364144e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278240, 
+            "ymax": 0.0005, 
+            "y": -0.0001231883554347077, 
+            "x": 368.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.3185657082954015e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278273, 
+            "ymax": 0.0005, 
+            "y": 2.3790596452983653e-05, 
+            "x": 369.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.607205532915544e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278274, 
+            "ymax": 0.0005, 
+            "y": -0.00010312463349083735, 
+            "x": 370.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.427698674758568e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278288, 
+            "ymax": 0.0005, 
+            "y": -0.00012300929850880775, 
+            "x": 371.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0001145163105657854, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278289, 
+            "ymax": 0.0005, 
+            "y": -4.6974941410096845e-05, 
+            "x": 372.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.031951973378917e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278290, 
+            "ymax": 0.0005, 
+            "y": 7.329784087084278e-05, 
+            "x": 373.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0001232317188870418, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278308, 
+            "ymax": 0.0005, 
+            "y": -7.88943874798583e-05, 
+            "x": 374.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.37672043952947e-06, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278309, 
+            "ymax": 0.0005, 
+            "y": -8.683523852956066e-06, 
+            "x": 375.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0001456635354706039, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278310, 
+            "ymax": 0.0005, 
+            "y": -0.00010434850146208919, 
+            "x": 376.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.7657913246131963e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278315, 
+            "ymax": 0.0005, 
+            "y": -6.680703712043968e-05, 
+            "x": 377.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.8658432961723846e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278345, 
+            "ymax": 0.0005, 
+            "y": -0.00010953743704880672, 
+            "x": 378.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.8011487788226275e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278346, 
+            "ymax": 0.0005, 
+            "y": -0.00016188429656085963, 
+            "x": 379.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.2768887012829785e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278349, 
+            "ymax": 0.0005, 
+            "y": -9.718336555968053e-05, 
+            "x": 380.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.958348948510581e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278366, 
+            "ymax": 0.0005, 
+            "y": -0.0001248940875452748, 
+            "x": 381.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.2748048835303846e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278406, 
+            "ymax": 0.0005, 
+            "y": -9.928178666234423e-05, 
+            "x": 382.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.192366624411275e-06, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278509, 
+            "ymax": 0.0005, 
+            "y": -0.00010566073080958578, 
+            "x": 383.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.2775342454950538e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278761, 
+            "ymax": 0.0005, 
+            "y": -0.00012645059307051786, 
+            "x": 384.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00010841917316687158, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278769, 
+            "ymax": 0.0005, 
+            "y": -0.0001253894017889892, 
+            "x": 385.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.554553055324062e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278770, 
+            "ymax": 0.0005, 
+            "y": -0.0001034546055811654, 
+            "x": 386.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.7627675295547717e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278801, 
+            "ymax": 0.0005, 
+            "y": -6.503045582997249e-05, 
+            "x": 387.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.360834696591488e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278802, 
+            "ymax": 0.0005, 
+            "y": -0.0002075773933052815, 
+            "x": 388.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00017326162067920223, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278803, 
+            "ymax": 0.0005, 
+            "y": -8.366669452987148e-05, 
+            "x": 389.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.502534394849902e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278804, 
+            "ymax": 0.0005, 
+            "y": -0.00013955203041131925, 
+            "x": 390.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0002589815513560001, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278805, 
+            "ymax": 0.0005, 
+            "y": -4.0730206275922895e-05, 
+            "x": 391.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.7608255880163348e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278807, 
+            "ymax": 0.0005, 
+            "y": -0.0007041697086237406, 
+            "x": 392.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0015528437971044028, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278808, 
+            "ymax": 0.0005, 
+            "y": -8.954174047763051e-05, 
+            "x": 393.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0732131428124924e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278820, 
+            "ymax": 0.0005, 
+            "y": -9.567875486853815e-05, 
+            "x": 394.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1447286096327688e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278821, 
+            "ymax": 0.0005, 
+            "y": -8.983625562699887e-05, 
+            "x": 395.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.698087377742487e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278822, 
+            "ymax": 0.0005, 
+            "y": -9.534942554088774e-05, 
+            "x": 396.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1661467595274643e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278873, 
+            "ymax": 0.0005, 
+            "y": -3.642487639180617e-05, 
+            "x": 397.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0001384869546089352, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278874, 
+            "ymax": 0.0005, 
+            "y": -0.0001321904905101794, 
+            "x": 398.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.1653910465466763e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278875, 
+            "ymax": 0.0005, 
+            "y": -7.631592372379884e-05, 
+            "x": 399.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.6618843473029383e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278923, 
+            "ymax": 0.0005, 
+            "y": -7.44945347820641e-05, 
+            "x": 400.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.1882568700246117e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278957, 
+            "ymax": 0.0005, 
+            "y": -5.6909728361250504e-05, 
+            "x": 401.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.7528983863810576e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278962, 
+            "ymax": 0.0005, 
+            "y": -7.634589398635471e-05, 
+            "x": 402.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.5892557351625432e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278963, 
+            "ymax": 0.0005, 
+            "y": -3.0761342461535013e-05, 
+            "x": 403.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.448748469716519e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278969, 
+            "ymax": 0.0005, 
+            "y": -8.564553210895039e-05, 
+            "x": 404.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.2390386090683233e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278975, 
+            "ymax": 0.0005, 
+            "y": -6.367035952018855e-05, 
+            "x": 405.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.6172261547328283e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278976, 
+            "ymax": 0.0005, 
+            "y": -1.7703694360784653e-05, 
+            "x": 406.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00010245104924857362, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 278986, 
+            "ymax": 0.0005, 
+            "y": -9.869706399735798e-05, 
+            "x": 407.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.955562258052552e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279024, 
+            "ymax": 0.0005, 
+            "y": -0.00011762586524823273, 
+            "x": 408.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.6582536571451947e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279029, 
+            "ymax": 0.0005, 
+            "y": -8.803882411211812e-05, 
+            "x": 409.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.826117626316623e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279071, 
+            "ymax": 0.0005, 
+            "y": -7.961165347307423e-05, 
+            "x": 410.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.4077296720613695e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279080, 
+            "ymax": 0.0005, 
+            "y": -4.7175314343048486e-05, 
+            "x": 411.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.9306900215753665e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279115, 
+            "ymax": 0.0005, 
+            "y": -0.00011333421036119859, 
+            "x": 412.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.291153223021492e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279116, 
+            "ymax": 0.0005, 
+            "y": -9.133925605605495e-05, 
+            "x": 413.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.1147738042680077e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279479, 
+            "ymax": 0.0005, 
+            "y": -0.00010312798243854323, 
+            "x": 414.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.1821698841385116e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279480, 
+            "ymax": 0.0005, 
+            "y": 0.003496706348131112, 
+            "x": 415.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0016653601968947124, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279488, 
+            "ymax": 0.0005, 
+            "y": 9.04921646823e-06, 
+            "x": 416.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0002667826546141795, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279489, 
+            "ymax": 0.0005, 
+            "y": -1.0351308720718394e-05, 
+            "x": 417.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00010403331834799607, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279588, 
+            "ymax": 0.0005, 
+            "y": -7.282991038884602e-05, 
+            "x": 418.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.2960639025756692e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279653, 
+            "ymax": 0.0005, 
+            "y": -9.585190197003352e-05, 
+            "x": 419.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.1562932516561217e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279654, 
+            "ymax": 0.0005, 
+            "y": -0.00010791825731253362, 
+            "x": 420.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.261775864617843e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279656, 
+            "ymax": 0.0005, 
+            "y": -0.00010890879002092626, 
+            "x": 421.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.192636110925062e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279658, 
+            "ymax": 0.0005, 
+            "y": -0.00010373549273995432, 
+            "x": 422.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.7811254293727378e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279667, 
+            "ymax": 0.0005, 
+            "y": -9.188095365070958e-05, 
+            "x": 423.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.4012895268688321e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279681, 
+            "ymax": 0.0005, 
+            "y": -7.332846347967562e-05, 
+            "x": 424.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.526818483443228e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279682, 
+            "ymax": 0.0005, 
+            "y": -9.880797637725276e-05, 
+            "x": 425.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.248182219416117e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279683, 
+            "ymax": 0.0005, 
+            "y": -0.00029128874554677287, 
+            "x": 426.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.444627080659935e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279684, 
+            "ymax": 0.0005, 
+            "y": 1.6032198800431746e-05, 
+            "x": 427.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.325181309155976e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279685, 
+            "ymax": 0.0005, 
+            "y": -6.568456605125845e-05, 
+            "x": 428.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.98105267062392e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279691, 
+            "ymax": 0.0005, 
+            "y": -0.00014917104940508446, 
+            "x": 429.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.524264504246359e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279694, 
+            "ymax": 0.0005, 
+            "y": -8.494526491288634e-05, 
+            "x": 430.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.521782414906877e-06, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279715, 
+            "ymax": 0.0005, 
+            "y": -8.854856850222158e-05, 
+            "x": 431.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.7766242089553088e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279716, 
+            "ymax": 0.0005, 
+            "y": -5.5772475195369396e-05, 
+            "x": 432.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1592023804061233e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279760, 
+            "ymax": 0.0005, 
+            "y": -9.642434920489948e-05, 
+            "x": 433.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.6806908346154788e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279766, 
+            "ymax": 0.0005, 
+            "y": -9.819025883012535e-05, 
+            "x": 434.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1325242726179275e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279767, 
+            "ymax": 0.0005, 
+            "y": -8.2970802602773e-05, 
+            "x": 435.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.7361493170611294e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279794, 
+            "ymax": 0.0005, 
+            "y": -9.442434890975276e-05, 
+            "x": 436.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.3697930543746741e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279823, 
+            "ymax": 0.0005, 
+            "y": -0.00010927723408688763, 
+            "x": 437.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.317957076800703e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279841, 
+            "ymax": 0.0005, 
+            "y": -8.333040221721636e-05, 
+            "x": 438.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.002826389485728e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279844, 
+            "ymax": 0.0005, 
+            "y": -0.00014504033607114743, 
+            "x": 439.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.9671558435297388e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279846, 
+            "ymax": 0.0005, 
+            "y": -0.00020657769006108054, 
+            "x": 440.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.345495759209532e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279848, 
+            "ymax": 0.0005, 
+            "y": -1.4040943680252851e-06, 
+            "x": 441.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.74781522113212e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279849, 
+            "ymax": 0.0005, 
+            "y": -4.8201133652717963e-05, 
+            "x": 442.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.7111915609309124e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279851, 
+            "ymax": 0.0005, 
+            "y": -9.056745996223324e-06, 
+            "x": 443.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00010973420926996685, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279852, 
+            "ymax": 0.0005, 
+            "y": 7.69636041016971e-05, 
+            "x": 444.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.251681730362712e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279853, 
+            "ymax": 0.0005, 
+            "y": 7.514162075352445e-05, 
+            "x": 445.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.59404863725768e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279854, 
+            "ymax": 0.0005, 
+            "y": 4.688184594743803e-05, 
+            "x": 446.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00012476073528049618, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279855, 
+            "ymax": 0.0005, 
+            "y": 5.4206716357543226e-05, 
+            "x": 447.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0001422785242968536, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279856, 
+            "ymax": 0.0005, 
+            "y": -6.4075896478898e-05, 
+            "x": 448.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00012081147357511122, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279857, 
+            "ymax": 0.0005, 
+            "y": 0.0002632978679939476, 
+            "x": 449.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00014242015074449895, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279858, 
+            "ymax": 0.0005, 
+            "y": -9.461494002479798e-06, 
+            "x": 450.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.500821447961153e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279859, 
+            "ymax": 0.0005, 
+            "y": -0.0001429806426466129, 
+            "x": 451.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00021459589006572928, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279860, 
+            "ymax": 0.0005, 
+            "y": 0.00023038481380338336, 
+            "x": 452.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00016171713955307704, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279861, 
+            "ymax": 0.0005, 
+            "y": 0.0001268896053906994, 
+            "x": 453.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0001493567011261495, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279865, 
+            "ymax": 0.0005, 
+            "y": 2.1727622194705114e-05, 
+            "x": 454.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.3360208311586022e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279887, 
+            "ymax": 0.0005, 
+            "y": -0.00011151579367128134, 
+            "x": 455.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.370652609091773e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279931, 
+            "ymax": 0.0005, 
+            "y": -0.00010188927530387604, 
+            "x": 456.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.317460763809097e-06, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279966, 
+            "ymax": 0.0005, 
+            "y": -0.00012794108677299394, 
+            "x": 457.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.1950379594813893e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279975, 
+            "ymax": 0.0005, 
+            "y": -0.00012522320497501246, 
+            "x": 458.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.3454822121337025e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279993, 
+            "ymax": 0.0005, 
+            "y": 1.3115817015166954e-05, 
+            "x": 459.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.936512129933758e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279994, 
+            "ymax": 0.0005, 
+            "y": -6.287634617389874e-05, 
+            "x": 460.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.826512587245203e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 279995, 
+            "ymax": 0.0005, 
+            "y": -4.461942816778715e-05, 
+            "x": 461.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00018675884996367163, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 280002, 
+            "ymax": 0.0005, 
+            "y": -0.00012443433932843613, 
+            "x": 462.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.870438346622274e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 280006, 
+            "ymax": 0.0005, 
+            "y": -7.466407548461434e-05, 
+            "x": 463.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.892327799262744e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 280007, 
+            "ymax": 0.0005, 
+            "y": -0.00017192529997854587, 
+            "x": 464.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.748236294185627e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 280013, 
+            "ymax": 0.0005, 
+            "y": -0.00016741484095913754, 
+            "x": 465.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.75163544087721e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 280014, 
+            "ymax": 0.0005, 
+            "y": 0.00010562555594874278, 
+            "x": 466.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0011400636764057172, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 280015, 
+            "ymax": 0.0005, 
+            "y": -9.063601428540689e-05, 
+            "x": 467.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.7982987084103058e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 280016, 
+            "ymax": 0.0005, 
+            "y": -7.341143773886289e-05, 
+            "x": 468.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.65804924785483e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 280017, 
+            "ymax": 0.0005, 
+            "y": -0.0001121232539254944, 
+            "x": 469.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.7603898366549947e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 280018, 
+            "ymax": 0.0005, 
+            "y": -8.20567330603852e-05, 
+            "x": 470.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.302023273618465e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 280020, 
+            "ymax": 0.0005, 
+            "y": -0.00012408899550394052, 
+            "x": 471.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.023175644018576e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 280023, 
+            "ymax": 0.0005, 
+            "y": -0.0005493182848948777, 
+            "x": 472.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0018653381498627156, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 280024, 
+            "ymax": 0.0005, 
+            "y": -6.269664849422994e-05, 
+            "x": 473.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.3646652146746277e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 280187, 
+            "ymax": 0.0005, 
+            "y": -2.133958513313021e-05, 
+            "x": 474.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.63740560431313e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 280188, 
+            "ymax": 0.0005, 
+            "y": -8.227938750022249e-05, 
+            "x": 475.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.8034685007585007e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 280190, 
+            "ymax": 0.0005, 
+            "y": -0.0013392900472519718, 
+            "x": 476.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0013850918548905962, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 280191, 
+            "ymax": 0.0005, 
+            "y": -0.00011358861681092249, 
+            "x": 477.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.491672765763676e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 280194, 
+            "ymax": 0.0005, 
+            "y": -0.00010790391593568255, 
+            "x": 478.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.996769905584567e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 280242, 
+            "ymax": 0.0005, 
+            "y": -7.261176533204436e-05, 
+            "x": 479.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.668757664411281e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 280249, 
+            "ymax": 0.0005, 
+            "y": -7.249049550247806e-05, 
+            "x": 480.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1588087920744781e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 280251, 
+            "ymax": 0.0005, 
+            "y": -5.469498080782775e-05, 
+            "x": 481.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.3510176648386284e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 280327, 
+            "ymax": 0.0005, 
+            "y": -8.114917515583332e-05, 
+            "x": 482.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.918051981760179e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 280330, 
+            "ymax": 0.0005, 
+            "y": -8.674677326016887e-05, 
+            "x": 483.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.4578819589882915e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 280349, 
+            "ymax": 0.0005, 
+            "y": -8.921452292296161e-05, 
+            "x": 484.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.7565291559018975e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 280363, 
+            "ymax": 0.0005, 
+            "y": -6.024290777608798e-05, 
+            "x": 485.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.3339938148992442e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 280364, 
+            "ymax": 0.0005, 
+            "y": -8.167269866698952e-05, 
+            "x": 486.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.2643992622867107e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 280383, 
+            "ymax": 0.0005, 
+            "y": -0.0007750012158094179, 
+            "x": 487.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00035605208917479357, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 280384, 
+            "ymax": 0.0005, 
+            "y": -0.00021173658155430923, 
+            "x": 488.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.028788497113638e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 280385, 
+            "ymax": 0.0005, 
+            "y": -0.00011096525918712401, 
+            "x": 489.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0165563920016093e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }, 
+        {
+            "run": 281616, 
+            "ymax": 0.0005, 
+            "y": -0.0003108497002491677, 
+            "x": 490.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.9155501476645695e-05, 
+            "yTitle": "HitResiduals TEC Wheel 1 Mean"
+        }
+    ]
+}

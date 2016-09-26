@@ -1,0 +1,1453 @@
+{
+    "HitResiduals_TIB_layer1_rms": [
+        {
+            "run": 271037, 
+            "ymax": 0.05, 
+            "y": 0.012219608456829652, 
+            "x": 1.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00010779676469023875, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271044, 
+            "ymax": 0.05, 
+            "y": 0.010829784687959636, 
+            "x": 2.0, 
+            "ymin": -0.05, 
+            "yErr": 3.592052358907139e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271045, 
+            "ymax": 0.05, 
+            "y": 0.010930146646378477, 
+            "x": 3.0, 
+            "ymin": -0.05, 
+            "yErr": 8.374949565906021e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271046, 
+            "ymax": 0.05, 
+            "y": 0.011784716322908603, 
+            "x": 4.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00011829755129343218, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271047, 
+            "ymax": 0.05, 
+            "y": 0.0110986402688401, 
+            "x": 5.0, 
+            "ymin": -0.05, 
+            "yErr": 8.582164590281161e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271048, 
+            "ymax": 0.05, 
+            "y": 0.011132121902476982, 
+            "x": 6.0, 
+            "ymin": -0.05, 
+            "yErr": 4.987446742231476e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271049, 
+            "ymax": 0.05, 
+            "y": 0.011012062208145879, 
+            "x": 7.0, 
+            "ymin": -0.05, 
+            "yErr": 7.632288646980174e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271050, 
+            "ymax": 0.05, 
+            "y": 0.01175035931140214, 
+            "x": 8.0, 
+            "ymin": -0.05, 
+            "yErr": 5.324486727830228e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271052, 
+            "ymax": 0.05, 
+            "y": 0.01097777674013578, 
+            "x": 9.0, 
+            "ymin": -0.05, 
+            "yErr": 1.9372641035406198e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271056, 
+            "ymax": 0.05, 
+            "y": 0.014185216978738471, 
+            "x": 10.0, 
+            "ymin": -0.05, 
+            "yErr": 1.2685842006971245e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271304, 
+            "ymax": 0.05, 
+            "y": 0.012713539196839988, 
+            "x": 11.0, 
+            "ymin": -0.05, 
+            "yErr": 2.3030416478172523e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271305, 
+            "ymax": 0.05, 
+            "y": 0.012390594917944859, 
+            "x": 12.0, 
+            "ymin": -0.05, 
+            "yErr": 7.1071879529643816e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271306, 
+            "ymax": 0.05, 
+            "y": 0.012761728963466739, 
+            "x": 13.0, 
+            "ymin": -0.05, 
+            "yErr": 1.0730646831222565e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271307, 
+            "ymax": 0.05, 
+            "y": 0.011985662131759299, 
+            "x": 14.0, 
+            "ymin": -0.05, 
+            "yErr": 1.840780507573134e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271310, 
+            "ymax": 0.05, 
+            "y": 0.012108279594657115, 
+            "x": 15.0, 
+            "ymin": -0.05, 
+            "yErr": 2.4502642234466875e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271312, 
+            "ymax": 0.05, 
+            "y": 0.01186129443336361, 
+            "x": 16.0, 
+            "ymin": -0.05, 
+            "yErr": 1.416078756777344e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271313, 
+            "ymax": 0.05, 
+            "y": 0.011997797059717784, 
+            "x": 17.0, 
+            "ymin": -0.05, 
+            "yErr": 2.401693255623065e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271314, 
+            "ymax": 0.05, 
+            "y": 0.012749908996544842, 
+            "x": 18.0, 
+            "ymin": -0.05, 
+            "yErr": 2.806951610935221e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271317, 
+            "ymax": 0.05, 
+            "y": 0.011464258143146113, 
+            "x": 19.0, 
+            "ymin": -0.05, 
+            "yErr": 2.0894431763068e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271318, 
+            "ymax": 0.05, 
+            "y": 0.011887255398580395, 
+            "x": 20.0, 
+            "ymin": -0.05, 
+            "yErr": 2.4628153672487193e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271319, 
+            "ymax": 0.05, 
+            "y": 0.011384803768951988, 
+            "x": 21.0, 
+            "ymin": -0.05, 
+            "yErr": 2.247640387029419e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271321, 
+            "ymax": 0.05, 
+            "y": 0.011529629445326532, 
+            "x": 22.0, 
+            "ymin": -0.05, 
+            "yErr": 2.1211730527573565e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271322, 
+            "ymax": 0.05, 
+            "y": 0.011360174416054216, 
+            "x": 23.0, 
+            "ymin": -0.05, 
+            "yErr": 2.447192162234389e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271323, 
+            "ymax": 0.05, 
+            "y": 0.012819705681697994, 
+            "x": 24.0, 
+            "ymin": -0.05, 
+            "yErr": 2.6108774824040365e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271324, 
+            "ymax": 0.05, 
+            "y": 0.011297588127117784, 
+            "x": 25.0, 
+            "ymin": -0.05, 
+            "yErr": 2.443538381763185e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271327, 
+            "ymax": 0.05, 
+            "y": 0.011202072594047574, 
+            "x": 26.0, 
+            "ymin": -0.05, 
+            "yErr": 2.4518127793894635e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271328, 
+            "ymax": 0.05, 
+            "y": 0.011738436071336854, 
+            "x": 27.0, 
+            "ymin": -0.05, 
+            "yErr": 2.551974073887054e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271329, 
+            "ymax": 0.05, 
+            "y": 0.014020746527525952, 
+            "x": 28.0, 
+            "ymin": -0.05, 
+            "yErr": 3.0766226970469286e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271330, 
+            "ymax": 0.05, 
+            "y": 0.011532278993657767, 
+            "x": 29.0, 
+            "ymin": -0.05, 
+            "yErr": 2.5613691603800612e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271331, 
+            "ymax": 0.05, 
+            "y": 0.01813556449745713, 
+            "x": 30.0, 
+            "ymin": -0.05, 
+            "yErr": 3.999947727430516e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271332, 
+            "ymax": 0.05, 
+            "y": 0.011425883987600773, 
+            "x": 31.0, 
+            "ymin": -0.05, 
+            "yErr": 2.4591665953385258e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271336, 
+            "ymax": 0.05, 
+            "y": 0.011874937371969825, 
+            "x": 32.0, 
+            "ymin": -0.05, 
+            "yErr": 1.0091518286411192e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271337, 
+            "ymax": 0.05, 
+            "y": 0.011839376188368136, 
+            "x": 33.0, 
+            "ymin": -0.05, 
+            "yErr": 6.621877468291493e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271338, 
+            "ymax": 0.05, 
+            "y": 0.011777121191377478, 
+            "x": 34.0, 
+            "ymin": -0.05, 
+            "yErr": 8.407606509783661e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271342, 
+            "ymax": 0.05, 
+            "y": 0.01149392718958755, 
+            "x": 35.0, 
+            "ymin": -0.05, 
+            "yErr": 3.288344452464911e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271645, 
+            "ymax": 0.05, 
+            "y": 0.012224347947756394, 
+            "x": 36.0, 
+            "ymin": -0.05, 
+            "yErr": 1.0784134418883966e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271646, 
+            "ymax": 0.05, 
+            "y": 0.01220931715072405, 
+            "x": 37.0, 
+            "ymin": -0.05, 
+            "yErr": 3.989147795825336e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271648, 
+            "ymax": 0.05, 
+            "y": 0.01077932812759136, 
+            "x": 38.0, 
+            "ymin": -0.05, 
+            "yErr": 0.000139533113485995, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 271649, 
+            "ymax": 0.05, 
+            "y": 0.009995714280769294, 
+            "x": 39.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00015394427142830563, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 272007, 
+            "ymax": 0.05, 
+            "y": 0.04125749296841611, 
+            "x": 40.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0006710531732925146, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 272008, 
+            "ymax": 0.05, 
+            "y": 0.033930549654387195, 
+            "x": 41.0, 
+            "ymin": -0.05, 
+            "yErr": 1.3506618153195717e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 272010, 
+            "ymax": 0.05, 
+            "y": 0.034010411328925995, 
+            "x": 42.0, 
+            "ymin": -0.05, 
+            "yErr": 1.6416451794102337e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 272011, 
+            "ymax": 0.05, 
+            "y": 0.035894634597783595, 
+            "x": 43.0, 
+            "ymin": -0.05, 
+            "yErr": 5.892972137921269e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 272012, 
+            "ymax": 0.05, 
+            "y": 0.03499680297711553, 
+            "x": 44.0, 
+            "ymin": -0.05, 
+            "yErr": 5.918399172620267e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 272014, 
+            "ymax": 0.05, 
+            "y": 0.03526198285067923, 
+            "x": 45.0, 
+            "ymin": -0.05, 
+            "yErr": 8.420747112624613e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 272016, 
+            "ymax": 0.05, 
+            "y": 0.03206395624798551, 
+            "x": 46.0, 
+            "ymin": -0.05, 
+            "yErr": 1.3046906621727366e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 272017, 
+            "ymax": 0.05, 
+            "y": 0.0315567655419221, 
+            "x": 47.0, 
+            "ymin": -0.05, 
+            "yErr": 5.552637087497694e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 272019, 
+            "ymax": 0.05, 
+            "y": 0.02102607543314606, 
+            "x": 48.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00032490386798086516, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 272021, 
+            "ymax": 0.05, 
+            "y": 0.042117919766956675, 
+            "x": 49.0, 
+            "ymin": -0.05, 
+            "yErr": 1.0057343742135344e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 272022, 
+            "ymax": 0.05, 
+            "y": 0.031006023845186782, 
+            "x": 50.0, 
+            "ymin": -0.05, 
+            "yErr": 9.359959457897795e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 272775, 
+            "ymax": 0.05, 
+            "y": 0.03254011548378797, 
+            "x": 51.0, 
+            "ymin": -0.05, 
+            "yErr": 8.207974083914315e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 272776, 
+            "ymax": 0.05, 
+            "y": 0.029986054733038392, 
+            "x": 52.0, 
+            "ymin": -0.05, 
+            "yErr": 1.0566325325712602e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 272782, 
+            "ymax": 0.05, 
+            "y": 0.0376738597773488, 
+            "x": 53.0, 
+            "ymin": -0.05, 
+            "yErr": 2.4205764385825397e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 272783, 
+            "ymax": 0.05, 
+            "y": 0.03382820578806402, 
+            "x": 54.0, 
+            "ymin": -0.05, 
+            "yErr": 9.64242206854772e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 272784, 
+            "ymax": 0.05, 
+            "y": 0.03259497435679094, 
+            "x": 55.0, 
+            "ymin": -0.05, 
+            "yErr": 6.817742174387244e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 272785, 
+            "ymax": 0.05, 
+            "y": 0.030108535448412438, 
+            "x": 56.0, 
+            "ymin": -0.05, 
+            "yErr": 9.21204619908369e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 272786, 
+            "ymax": 0.05, 
+            "y": 0.029908950501766427, 
+            "x": 57.0, 
+            "ymin": -0.05, 
+            "yErr": 1.4324229723838322e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 272798, 
+            "ymax": 0.05, 
+            "y": 0.017224172037914365, 
+            "x": 58.0, 
+            "ymin": -0.05, 
+            "yErr": 1.6307168779513764e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 272811, 
+            "ymax": 0.05, 
+            "y": 0.0168049150157574, 
+            "x": 59.0, 
+            "ymin": -0.05, 
+            "yErr": 6.546412492963644e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 272812, 
+            "ymax": 0.05, 
+            "y": 0.019302568853056336, 
+            "x": 60.0, 
+            "ymin": -0.05, 
+            "yErr": 3.617090636844467e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 272814, 
+            "ymax": 0.05, 
+            "y": 0.015419577385504823, 
+            "x": 61.0, 
+            "ymin": -0.05, 
+            "yErr": 2.0567189520498804e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 272815, 
+            "ymax": 0.05, 
+            "y": 0.0146923448996039, 
+            "x": 62.0, 
+            "ymin": -0.05, 
+            "yErr": 1.3099142122385188e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 272816, 
+            "ymax": 0.05, 
+            "y": 0.014494186520923623, 
+            "x": 63.0, 
+            "ymin": -0.05, 
+            "yErr": 1.1090878107718261e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 272818, 
+            "ymax": 0.05, 
+            "y": 0.018535870832859975, 
+            "x": 64.0, 
+            "ymin": -0.05, 
+            "yErr": 2.8317878307812573e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 272827, 
+            "ymax": 0.05, 
+            "y": 0.016267800546389648, 
+            "x": 65.0, 
+            "ymin": -0.05, 
+            "yErr": 5.4502240973688975e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 272828, 
+            "ymax": 0.05, 
+            "y": 0.015504499652021938, 
+            "x": 66.0, 
+            "ymin": -0.05, 
+            "yErr": 1.3600542943411593e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 272930, 
+            "ymax": 0.05, 
+            "y": 0.01627646371487223, 
+            "x": 67.0, 
+            "ymin": -0.05, 
+            "yErr": 4.495842501045899e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 272936, 
+            "ymax": 0.05, 
+            "y": 0.020836282541225222, 
+            "x": 68.0, 
+            "ymin": -0.05, 
+            "yErr": 3.853111113812364e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273013, 
+            "ymax": 0.05, 
+            "y": 0.018632978566960223, 
+            "x": 69.0, 
+            "ymin": -0.05, 
+            "yErr": 3.7634686605733374e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273017, 
+            "ymax": 0.05, 
+            "y": 0.02026773126635456, 
+            "x": 70.0, 
+            "ymin": -0.05, 
+            "yErr": 2.457818194446598e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273150, 
+            "ymax": 0.05, 
+            "y": 0.03473809174045279, 
+            "x": 71.0, 
+            "ymin": -0.05, 
+            "yErr": 2.9168757215162703e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273158, 
+            "ymax": 0.05, 
+            "y": 0.01874892016737852, 
+            "x": 72.0, 
+            "ymin": -0.05, 
+            "yErr": 1.3694556786950432e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273290, 
+            "ymax": 0.05, 
+            "y": 0.020971552229319294, 
+            "x": 73.0, 
+            "ymin": -0.05, 
+            "yErr": 0.002056429885531334, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273291, 
+            "ymax": 0.05, 
+            "y": 0.019525506183374917, 
+            "x": 74.0, 
+            "ymin": -0.05, 
+            "yErr": 6.0575970339714045e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273292, 
+            "ymax": 0.05, 
+            "y": 0.014864117842312083, 
+            "x": 75.0, 
+            "ymin": -0.05, 
+            "yErr": 8.701547514084487e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273294, 
+            "ymax": 0.05, 
+            "y": 0.012152877584640898, 
+            "x": 76.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0006107050768390069, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273299, 
+            "ymax": 0.05, 
+            "y": 0.020494689730440906, 
+            "x": 77.0, 
+            "ymin": -0.05, 
+            "yErr": 8.027167332900643e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273301, 
+            "ymax": 0.05, 
+            "y": 0.01860541563956279, 
+            "x": 78.0, 
+            "ymin": -0.05, 
+            "yErr": 1.9834513284329166e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273302, 
+            "ymax": 0.05, 
+            "y": 0.020000347267599885, 
+            "x": 79.0, 
+            "ymin": -0.05, 
+            "yErr": 2.558055118779949e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273402, 
+            "ymax": 0.05, 
+            "y": 0.01940849957900303, 
+            "x": 80.0, 
+            "ymin": -0.05, 
+            "yErr": 3.8988355251131355e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273403, 
+            "ymax": 0.05, 
+            "y": 0.014256557429646469, 
+            "x": 81.0, 
+            "ymin": -0.05, 
+            "yErr": 5.4610328848819825e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273404, 
+            "ymax": 0.05, 
+            "y": 0.014475425528896635, 
+            "x": 82.0, 
+            "ymin": -0.05, 
+            "yErr": 9.50158405272487e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273405, 
+            "ymax": 0.05, 
+            "y": 0.014914717225922827, 
+            "x": 83.0, 
+            "ymin": -0.05, 
+            "yErr": 8.374794825592146e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273406, 
+            "ymax": 0.05, 
+            "y": 0.018993974248395364, 
+            "x": 84.0, 
+            "ymin": -0.05, 
+            "yErr": 5.044862661787929e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273408, 
+            "ymax": 0.05, 
+            "y": 0.014031238183134254, 
+            "x": 85.0, 
+            "ymin": -0.05, 
+            "yErr": 1.6991304990103648e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273409, 
+            "ymax": 0.05, 
+            "y": 0.015528898185036664, 
+            "x": 86.0, 
+            "ymin": -0.05, 
+            "yErr": 2.5960472760490802e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273410, 
+            "ymax": 0.05, 
+            "y": 0.019017186117155332, 
+            "x": 87.0, 
+            "ymin": -0.05, 
+            "yErr": 5.906187988239076e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273411, 
+            "ymax": 0.05, 
+            "y": 0.013758232500611743, 
+            "x": 88.0, 
+            "ymin": -0.05, 
+            "yErr": 8.15072609427464e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273425, 
+            "ymax": 0.05, 
+            "y": 0.020510614013225723, 
+            "x": 89.0, 
+            "ymin": -0.05, 
+            "yErr": 2.0519796214082145e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273426, 
+            "ymax": 0.05, 
+            "y": 0.015571537795851364, 
+            "x": 90.0, 
+            "ymin": -0.05, 
+            "yErr": 5.644801916554854e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273446, 
+            "ymax": 0.05, 
+            "y": 0.021792186566910357, 
+            "x": 91.0, 
+            "ymin": -0.05, 
+            "yErr": 9.460127061503821e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273447, 
+            "ymax": 0.05, 
+            "y": 0.020454866264513087, 
+            "x": 92.0, 
+            "ymin": -0.05, 
+            "yErr": 2.5446108446941377e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273448, 
+            "ymax": 0.05, 
+            "y": 0.017009795922402336, 
+            "x": 93.0, 
+            "ymin": -0.05, 
+            "yErr": 2.2880149489188804e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273449, 
+            "ymax": 0.05, 
+            "y": 0.02352561387220663, 
+            "x": 94.0, 
+            "ymin": -0.05, 
+            "yErr": 7.941789868697288e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273450, 
+            "ymax": 0.05, 
+            "y": 0.019032435336223744, 
+            "x": 95.0, 
+            "ymin": -0.05, 
+            "yErr": 3.849393483986822e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273492, 
+            "ymax": 0.05, 
+            "y": 0.019027025344062726, 
+            "x": 96.0, 
+            "ymin": -0.05, 
+            "yErr": 3.418808266990503e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273493, 
+            "ymax": 0.05, 
+            "y": 0.01689854285151749, 
+            "x": 97.0, 
+            "ymin": -0.05, 
+            "yErr": 3.289862920095865e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273494, 
+            "ymax": 0.05, 
+            "y": 0.016007918616297728, 
+            "x": 98.0, 
+            "ymin": -0.05, 
+            "yErr": 3.4486964230557805e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273502, 
+            "ymax": 0.05, 
+            "y": 0.018162834698432252, 
+            "x": 99.0, 
+            "ymin": -0.05, 
+            "yErr": 1.6655459485916017e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273503, 
+            "ymax": 0.05, 
+            "y": 0.016411627492604684, 
+            "x": 100.0, 
+            "ymin": -0.05, 
+            "yErr": 2.0407737912650996e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273523, 
+            "ymax": 0.05, 
+            "y": 0.010697832549410521, 
+            "x": 101.0, 
+            "ymin": -0.05, 
+            "yErr": 1.1221233793641339e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273526, 
+            "ymax": 0.05, 
+            "y": 0.010019767478346497, 
+            "x": 102.0, 
+            "ymin": -0.05, 
+            "yErr": 3.4247660389614486e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273537, 
+            "ymax": 0.05, 
+            "y": 0.010455657752987893, 
+            "x": 103.0, 
+            "ymin": -0.05, 
+            "yErr": 5.8086808236603735e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273554, 
+            "ymax": 0.05, 
+            "y": 0.0192981821738817, 
+            "x": 104.0, 
+            "ymin": -0.05, 
+            "yErr": 2.754234642572158e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273555, 
+            "ymax": 0.05, 
+            "y": 0.018708846230235516, 
+            "x": 105.0, 
+            "ymin": -0.05, 
+            "yErr": 3.940614766234547e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273589, 
+            "ymax": 0.05, 
+            "y": 0.010962246426029899, 
+            "x": 106.0, 
+            "ymin": -0.05, 
+            "yErr": 1.4551540588366035e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273590, 
+            "ymax": 0.05, 
+            "y": 0.0109770611402641, 
+            "x": 107.0, 
+            "ymin": -0.05, 
+            "yErr": 1.2238537897565492e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273592, 
+            "ymax": 0.05, 
+            "y": 0.010402337845284855, 
+            "x": 108.0, 
+            "ymin": -0.05, 
+            "yErr": 1.1178513221229717e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273725, 
+            "ymax": 0.05, 
+            "y": 0.02378207726611267, 
+            "x": 109.0, 
+            "ymin": -0.05, 
+            "yErr": 1.4003260524969204e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273728, 
+            "ymax": 0.05, 
+            "y": 0.014000301518651224, 
+            "x": 110.0, 
+            "ymin": -0.05, 
+            "yErr": 4.583306275167617e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 273730, 
+            "ymax": 0.05, 
+            "y": 0.015509966810489727, 
+            "x": 111.0, 
+            "ymin": -0.05, 
+            "yErr": 1.0741454061377275e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274094, 
+            "ymax": 0.05, 
+            "y": 0.022627441942960513, 
+            "x": 112.0, 
+            "ymin": -0.05, 
+            "yErr": 3.690280047739153e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274102, 
+            "ymax": 0.05, 
+            "y": 0.011061820090530484, 
+            "x": 113.0, 
+            "ymin": -0.05, 
+            "yErr": 6.263727100923139e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274103, 
+            "ymax": 0.05, 
+            "y": 0.01217429813615225, 
+            "x": 114.0, 
+            "ymin": -0.05, 
+            "yErr": 9.280657261350082e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274104, 
+            "ymax": 0.05, 
+            "y": 0.010863506207333557, 
+            "x": 115.0, 
+            "ymin": -0.05, 
+            "yErr": 6.560729480548322e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274105, 
+            "ymax": 0.05, 
+            "y": 0.01017845452039424, 
+            "x": 116.0, 
+            "ymin": -0.05, 
+            "yErr": 5.2513722253404765e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274106, 
+            "ymax": 0.05, 
+            "y": 0.010906311433139132, 
+            "x": 117.0, 
+            "ymin": -0.05, 
+            "yErr": 6.187187692412212e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274107, 
+            "ymax": 0.05, 
+            "y": 0.010990981116331424, 
+            "x": 118.0, 
+            "ymin": -0.05, 
+            "yErr": 7.059438416095227e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274108, 
+            "ymax": 0.05, 
+            "y": 0.010532669414374396, 
+            "x": 119.0, 
+            "ymin": -0.05, 
+            "yErr": 6.59866053247672e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274146, 
+            "ymax": 0.05, 
+            "y": 0.016136081096467136, 
+            "x": 120.0, 
+            "ymin": -0.05, 
+            "yErr": 5.2367096659792455e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274157, 
+            "ymax": 0.05, 
+            "y": 0.021421945716219217, 
+            "x": 121.0, 
+            "ymin": -0.05, 
+            "yErr": 2.780498405484583e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274159, 
+            "ymax": 0.05, 
+            "y": 0.018344731148180055, 
+            "x": 122.0, 
+            "ymin": -0.05, 
+            "yErr": 8.004015093768512e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274160, 
+            "ymax": 0.05, 
+            "y": 0.02590368843590547, 
+            "x": 123.0, 
+            "ymin": -0.05, 
+            "yErr": 5.006041378929903e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274161, 
+            "ymax": 0.05, 
+            "y": 0.01930282815800694, 
+            "x": 124.0, 
+            "ymin": -0.05, 
+            "yErr": 2.425572420873758e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274172, 
+            "ymax": 0.05, 
+            "y": 0.017237402369075967, 
+            "x": 125.0, 
+            "ymin": -0.05, 
+            "yErr": 6.154314181908034e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274198, 
+            "ymax": 0.05, 
+            "y": 0.01949604961153603, 
+            "x": 126.0, 
+            "ymin": -0.05, 
+            "yErr": 5.051201297828962e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274199, 
+            "ymax": 0.05, 
+            "y": 0.019564452008690038, 
+            "x": 127.0, 
+            "ymin": -0.05, 
+            "yErr": 2.159539000952813e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274200, 
+            "ymax": 0.05, 
+            "y": 0.02260375395400341, 
+            "x": 128.0, 
+            "ymin": -0.05, 
+            "yErr": 2.53145243126808e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274240, 
+            "ymax": 0.05, 
+            "y": 0.019841026331666074, 
+            "x": 129.0, 
+            "ymin": -0.05, 
+            "yErr": 5.741490552162566e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274241, 
+            "ymax": 0.05, 
+            "y": 0.036695849158141294, 
+            "x": 130.0, 
+            "ymin": -0.05, 
+            "yErr": 2.889845461915415e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274243, 
+            "ymax": 0.05, 
+            "y": 0.01586422675288017, 
+            "x": 131.0, 
+            "ymin": -0.05, 
+            "yErr": 2.973290745516093e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274244, 
+            "ymax": 0.05, 
+            "y": 0.018677786414989375, 
+            "x": 132.0, 
+            "ymin": -0.05, 
+            "yErr": 2.2060414653125697e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274250, 
+            "ymax": 0.05, 
+            "y": 0.022125044232176802, 
+            "x": 133.0, 
+            "ymin": -0.05, 
+            "yErr": 1.984420252913724e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274251, 
+            "ymax": 0.05, 
+            "y": 0.024267761141406496, 
+            "x": 134.0, 
+            "ymin": -0.05, 
+            "yErr": 3.1766586650998447e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274283, 
+            "ymax": 0.05, 
+            "y": 0.02154429308708652, 
+            "x": 135.0, 
+            "ymin": -0.05, 
+            "yErr": 4.6298956718561764e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274284, 
+            "ymax": 0.05, 
+            "y": 0.026596477145810433, 
+            "x": 136.0, 
+            "ymin": -0.05, 
+            "yErr": 6.01529441285912e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274285, 
+            "ymax": 0.05, 
+            "y": 0.01731344267239509, 
+            "x": 137.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00012072814217270381, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274286, 
+            "ymax": 0.05, 
+            "y": 0.020063939608419918, 
+            "x": 138.0, 
+            "ymin": -0.05, 
+            "yErr": 5.31814875800252e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274314, 
+            "ymax": 0.05, 
+            "y": 0.022278325839417985, 
+            "x": 139.0, 
+            "ymin": -0.05, 
+            "yErr": 6.754544192217262e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274315, 
+            "ymax": 0.05, 
+            "y": 0.022017192046445103, 
+            "x": 140.0, 
+            "ymin": -0.05, 
+            "yErr": 2.5056860237944807e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274316, 
+            "ymax": 0.05, 
+            "y": 0.02245992646027732, 
+            "x": 141.0, 
+            "ymin": -0.05, 
+            "yErr": 1.7937212259404438e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274317, 
+            "ymax": 0.05, 
+            "y": 0.01819588305007492, 
+            "x": 142.0, 
+            "ymin": -0.05, 
+            "yErr": 2.988341418614538e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274318, 
+            "ymax": 0.05, 
+            "y": 0.014185519639060893, 
+            "x": 143.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00015992379008850205, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274319, 
+            "ymax": 0.05, 
+            "y": 0.021604636821823515, 
+            "x": 144.0, 
+            "ymin": -0.05, 
+            "yErr": 3.7259438782931042e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274335, 
+            "ymax": 0.05, 
+            "y": 0.023558899179146428, 
+            "x": 145.0, 
+            "ymin": -0.05, 
+            "yErr": 1.8106114190363882e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274336, 
+            "ymax": 0.05, 
+            "y": 0.017876583464604752, 
+            "x": 146.0, 
+            "ymin": -0.05, 
+            "yErr": 1.2334822259106506e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274337, 
+            "ymax": 0.05, 
+            "y": 0.017786108649423166, 
+            "x": 147.0, 
+            "ymin": -0.05, 
+            "yErr": 1.2008926923164972e-05, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274338, 
+            "ymax": 0.05, 
+            "y": 0.021030161261704945, 
+            "x": 148.0, 
+            "ymin": -0.05, 
+            "yErr": 1.6522822413252699e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274339, 
+            "ymax": 0.05, 
+            "y": 0.021485455294062296, 
+            "x": 149.0, 
+            "ymin": -0.05, 
+            "yErr": 4.8632185756523225e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274344, 
+            "ymax": 0.05, 
+            "y": 0.01853376135702644, 
+            "x": 150.0, 
+            "ymin": -0.05, 
+            "yErr": 1.59806837258338e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274345, 
+            "ymax": 0.05, 
+            "y": 0.022439664105882957, 
+            "x": 151.0, 
+            "ymin": -0.05, 
+            "yErr": 3.822966435952014e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274382, 
+            "ymax": 0.05, 
+            "y": 0.024931725648253317, 
+            "x": 152.0, 
+            "ymin": -0.05, 
+            "yErr": 8.401729022390734e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274387, 
+            "ymax": 0.05, 
+            "y": 0.02333852577101127, 
+            "x": 153.0, 
+            "ymin": -0.05, 
+            "yErr": 2.852745355095916e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274388, 
+            "ymax": 0.05, 
+            "y": 0.020776866133056723, 
+            "x": 154.0, 
+            "ymin": -0.05, 
+            "yErr": 1.187481797173271e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274420, 
+            "ymax": 0.05, 
+            "y": 0.019079304364138808, 
+            "x": 155.0, 
+            "ymin": -0.05, 
+            "yErr": 3.3384348405268874e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274421, 
+            "ymax": 0.05, 
+            "y": 0.022263476501666817, 
+            "x": 156.0, 
+            "ymin": -0.05, 
+            "yErr": 2.7970290790088686e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274422, 
+            "ymax": 0.05, 
+            "y": 0.021106750431009343, 
+            "x": 157.0, 
+            "ymin": -0.05, 
+            "yErr": 1.1417802190107145e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274440, 
+            "ymax": 0.05, 
+            "y": 0.02261808222002631, 
+            "x": 158.0, 
+            "ymin": -0.05, 
+            "yErr": 2.6238582605650546e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274441, 
+            "ymax": 0.05, 
+            "y": 0.024340994869607956, 
+            "x": 159.0, 
+            "ymin": -0.05, 
+            "yErr": 2.7872700443840496e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274442, 
+            "ymax": 0.05, 
+            "y": 0.0206701603733774, 
+            "x": 160.0, 
+            "ymin": -0.05, 
+            "yErr": 1.8783279750586778e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }, 
+        {
+            "run": 274443, 
+            "ymax": 0.05, 
+            "y": 0.024482177692053114, 
+            "x": 161.0, 
+            "ymin": -0.05, 
+            "yErr": 8.824469885414246e-06, 
+            "yTitle": "HitResiduals TIB Layer 1 RMS"
+        }
+    ]
+}

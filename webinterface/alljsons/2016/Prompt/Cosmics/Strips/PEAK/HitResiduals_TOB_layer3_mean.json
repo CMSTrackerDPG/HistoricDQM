@@ -1,0 +1,49 @@
+{
+    "HitResiduals_TOB_layer3_mean": [
+        {
+            "run": 272711, 
+            "ymax": 0.01, 
+            "y": 0.0003721045637593686, 
+            "x": 1.0, 
+            "ymin": -0.01, 
+            "yErr": 0.0004877655477321782, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 272712, 
+            "ymax": 0.01, 
+            "y": 0.0003361887587555524, 
+            "x": 2.0, 
+            "ymin": -0.01, 
+            "yErr": 0.0009371605329857014, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 272714, 
+            "ymax": 0.01, 
+            "y": 0.0005187581208619204, 
+            "x": 3.0, 
+            "ymin": -0.01, 
+            "yErr": 0.0006089194449064929, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 272716, 
+            "ymax": 0.01, 
+            "y": -0.00015361180417558068, 
+            "x": 4.0, 
+            "ymin": -0.01, 
+            "yErr": 0.0006356997416964799, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 272717, 
+            "ymax": 0.01, 
+            "y": -0.0006300002336502075, 
+            "x": 5.0, 
+            "ymin": -0.01, 
+            "yErr": 0.0011006300615870293, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }
+    ]
+}

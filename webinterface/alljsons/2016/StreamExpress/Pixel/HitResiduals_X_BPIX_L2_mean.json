@@ -1,0 +1,4630 @@
+{
+    "HitResiduals_X_BPIX_L2_mean": [
+        {
+            "run": 271037, 
+            "ymax": 0.0005, 
+            "y": 0.0001113140693708151, 
+            "x": 1.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00012884080498396034, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271044, 
+            "ymax": 0.0005, 
+            "y": 1.9715353630924463e-05, 
+            "x": 2.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.8733319053857345e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271045, 
+            "ymax": 0.0005, 
+            "y": 4.133304512522041e-06, 
+            "x": 3.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1397268486371554e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271046, 
+            "ymax": 0.0005, 
+            "y": 0.0003805075723068126, 
+            "x": 4.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00014119122263353876, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271047, 
+            "ymax": 0.0005, 
+            "y": 9.538471154294467e-06, 
+            "x": 5.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.2930986415417135e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271048, 
+            "ymax": 0.0005, 
+            "y": 2.7010188025190148e-05, 
+            "x": 6.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1704670153247193e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271049, 
+            "ymax": 0.0005, 
+            "y": -5.097607396970009e-06, 
+            "x": 7.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1720094443559597e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271050, 
+            "ymax": 0.0005, 
+            "y": 4.9669409234100154e-05, 
+            "x": 8.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.549270197232169e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271052, 
+            "ymax": 0.0005, 
+            "y": 4.515163719102931e-05, 
+            "x": 9.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.5845401051802046e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271056, 
+            "ymax": 0.0005, 
+            "y": 1.779795533275021e-05, 
+            "x": 10.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.424861734344242e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271083, 
+            "ymax": 0.0005, 
+            "y": 3.828432740639849e-05, 
+            "x": 11.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.7467599200449163e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271084, 
+            "ymax": 0.0005, 
+            "y": 8.97677380458096e-06, 
+            "x": 12.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.20317175739594e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271184, 
+            "ymax": 0.0005, 
+            "y": 2.692745300205076e-05, 
+            "x": 13.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.2374081602904979e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271187, 
+            "ymax": 0.0005, 
+            "y": 9.873224480766754e-06, 
+            "x": 14.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0088259936134138e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271188, 
+            "ymax": 0.0005, 
+            "y": -2.3668031413672534e-05, 
+            "x": 15.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.6694193250793432e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271190, 
+            "ymax": 0.0005, 
+            "y": -3.963638583086882e-05, 
+            "x": 16.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.8866502898709524e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271191, 
+            "ymax": 0.0005, 
+            "y": 4.311481019394005e-06, 
+            "x": 17.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.248419781679428e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271192, 
+            "ymax": 0.0005, 
+            "y": 2.3826993710085224e-06, 
+            "x": 18.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0818871180439564e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271193, 
+            "ymax": 0.0005, 
+            "y": 2.8801039904970632e-05, 
+            "x": 19.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.835990579490818e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271195, 
+            "ymax": 0.0005, 
+            "y": 1.9100576055793246e-05, 
+            "x": 20.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.404933048211062e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271196, 
+            "ymax": 0.0005, 
+            "y": -0.00010743323190154412, 
+            "x": 21.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00013341761069814048, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271197, 
+            "ymax": 0.0005, 
+            "y": 3.1313420232525254e-05, 
+            "x": 22.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.08686384312936e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271214, 
+            "ymax": 0.0005, 
+            "y": 8.323535656489564e-06, 
+            "x": 23.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.591203540902408e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271304, 
+            "ymax": 0.0005, 
+            "y": -5.553320516699522e-05, 
+            "x": 24.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.516106526707517e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271305, 
+            "ymax": 0.0005, 
+            "y": 1.9751953156096837e-05, 
+            "x": 25.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.109880364837375e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271306, 
+            "ymax": 0.0005, 
+            "y": 6.934237184243955e-06, 
+            "x": 26.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.259827329548778e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271307, 
+            "ymax": 0.0005, 
+            "y": 1.6963706912797024e-05, 
+            "x": 27.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.4888084535621842e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271310, 
+            "ymax": 0.0005, 
+            "y": 9.893453955317767e-06, 
+            "x": 28.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0959175108827816e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271312, 
+            "ymax": 0.0005, 
+            "y": 8.800097597818106e-06, 
+            "x": 29.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.7709109782422005e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271313, 
+            "ymax": 0.0005, 
+            "y": 2.0384934902398197e-05, 
+            "x": 30.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.88320098052435e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271314, 
+            "ymax": 0.0005, 
+            "y": 2.944234485790504e-05, 
+            "x": 31.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.4562360913993895e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271317, 
+            "ymax": 0.0005, 
+            "y": 1.4042817607597379e-05, 
+            "x": 32.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.3618640757623818e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271318, 
+            "ymax": 0.0005, 
+            "y": 1.4319904099460639e-05, 
+            "x": 33.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.4206891775241833e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271319, 
+            "ymax": 0.0005, 
+            "y": 8.471719985693463e-06, 
+            "x": 34.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0320448803638135e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271321, 
+            "ymax": 0.0005, 
+            "y": 7.399491901057801e-06, 
+            "x": 35.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.49350514305492e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271322, 
+            "ymax": 0.0005, 
+            "y": -4.053433752491987e-05, 
+            "x": 36.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.780580547077741e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271323, 
+            "ymax": 0.0005, 
+            "y": 1.2258619644570443e-05, 
+            "x": 37.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.976291417235289e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271324, 
+            "ymax": 0.0005, 
+            "y": -7.457885556124331e-07, 
+            "x": 38.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.33819991935938e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271327, 
+            "ymax": 0.0005, 
+            "y": 7.788708895755856e-05, 
+            "x": 39.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.889038356765955e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271328, 
+            "ymax": 0.0005, 
+            "y": -7.142105704721212e-06, 
+            "x": 40.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0871618720764333e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271329, 
+            "ymax": 0.0005, 
+            "y": 1.3914835610182173e-05, 
+            "x": 41.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.045985286658382e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271330, 
+            "ymax": 0.0005, 
+            "y": 5.52822854850047e-06, 
+            "x": 42.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.586853907202977e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271331, 
+            "ymax": 0.0005, 
+            "y": 2.0412428954042957e-05, 
+            "x": 43.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.5216892317440496e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271332, 
+            "ymax": 0.0005, 
+            "y": -5.9878074020328466e-05, 
+            "x": 44.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.876415255079853e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271336, 
+            "ymax": 0.0005, 
+            "y": 1.8956601688046083e-05, 
+            "x": 45.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.7317614353043685e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271337, 
+            "ymax": 0.0005, 
+            "y": 9.276382901858392e-06, 
+            "x": 46.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.2636061433295693e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271338, 
+            "ymax": 0.0005, 
+            "y": 1.1724153088848672e-05, 
+            "x": 47.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.2342865346703112e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271342, 
+            "ymax": 0.0005, 
+            "y": 3.6432597980776935e-05, 
+            "x": 48.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.119680249126928e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271645, 
+            "ymax": 0.0005, 
+            "y": 2.5987995916389376e-05, 
+            "x": 49.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.3370183132190885e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271646, 
+            "ymax": 0.0005, 
+            "y": 3.6687856789549846e-06, 
+            "x": 50.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.482618228660884e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271648, 
+            "ymax": 0.0005, 
+            "y": 9.635242616378204e-05, 
+            "x": 51.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00018352104398459057, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 271649, 
+            "ymax": 0.0005, 
+            "y": 0.00017122691548782535, 
+            "x": 52.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00020510191331236805, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 272007, 
+            "ymax": 0.0005, 
+            "y": -1.3927893771870159e-05, 
+            "x": 53.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0003004904073081835, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 272008, 
+            "ymax": 0.0005, 
+            "y": -4.108118647403063e-05, 
+            "x": 54.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.415843099657433e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 272010, 
+            "ymax": 0.0005, 
+            "y": -5.296764579654673e-05, 
+            "x": 55.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.253078461291649e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 272011, 
+            "ymax": 0.0005, 
+            "y": -6.63439449948573e-05, 
+            "x": 56.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.651352329563675e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 272012, 
+            "ymax": 0.0005, 
+            "y": -0.00012256140527075162, 
+            "x": 57.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.619054698834833e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 272014, 
+            "ymax": 0.0005, 
+            "y": -6.388365675541303e-05, 
+            "x": 58.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.675620857024084e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 272016, 
+            "ymax": 0.0005, 
+            "y": -3.970009306994402e-05, 
+            "x": 59.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.686630080625474e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 272017, 
+            "ymax": 0.0005, 
+            "y": -9.933845930742124e-05, 
+            "x": 60.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.4378261169761625e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 272019, 
+            "ymax": 0.0005, 
+            "y": -8.687469061024744e-05, 
+            "x": 61.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00011363335621812198, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 272021, 
+            "ymax": 0.0005, 
+            "y": -6.755337409604853e-05, 
+            "x": 62.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.7925046038109256e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 272022, 
+            "ymax": 0.0005, 
+            "y": -7.338550358814517e-05, 
+            "x": 63.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.597061944488839e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 272760, 
+            "ymax": 0.0005, 
+            "y": 2.5946477872039295e-05, 
+            "x": 64.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1057011913898817e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 272761, 
+            "ymax": 0.0005, 
+            "y": -2.9589344800800227e-05, 
+            "x": 65.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.8957143787734792e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 272762, 
+            "ymax": 0.0005, 
+            "y": 4.976114023952976e-06, 
+            "x": 66.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.102442722694984e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 272774, 
+            "ymax": 0.0005, 
+            "y": 3.4263576539743064e-05, 
+            "x": 67.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.1591344103531107e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 272775, 
+            "ymax": 0.0005, 
+            "y": 1.640829497166931e-05, 
+            "x": 68.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.8739972121896195e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 272776, 
+            "ymax": 0.0005, 
+            "y": 1.979763502967418e-05, 
+            "x": 69.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.116010883933871e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 272782, 
+            "ymax": 0.0005, 
+            "y": 1.5897880565556605e-05, 
+            "x": 70.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.725220289319466e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 272783, 
+            "ymax": 0.0005, 
+            "y": 1.6018878330511233e-05, 
+            "x": 71.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.864345425287771e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 272784, 
+            "ymax": 0.0005, 
+            "y": 1.7941201967868428e-05, 
+            "x": 72.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.4730330178033757e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 272785, 
+            "ymax": 0.0005, 
+            "y": 1.2831246123042409e-05, 
+            "x": 73.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.4390320228434237e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 272786, 
+            "ymax": 0.0005, 
+            "y": 2.7748722420299552e-05, 
+            "x": 74.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.870124075706564e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 272798, 
+            "ymax": 0.0005, 
+            "y": 5.124654166922528e-06, 
+            "x": 75.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.956786084232691e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 272811, 
+            "ymax": 0.0005, 
+            "y": 4.291678945843637e-06, 
+            "x": 76.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.3167968749103096e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 272812, 
+            "ymax": 0.0005, 
+            "y": 4.99193620815998e-06, 
+            "x": 77.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.134870552097286e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 272814, 
+            "ymax": 0.0005, 
+            "y": 7.357277830970931e-06, 
+            "x": 78.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.4549889790520845e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 272815, 
+            "ymax": 0.0005, 
+            "y": 1.438159405752597e-06, 
+            "x": 79.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.532434495175262e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 272816, 
+            "ymax": 0.0005, 
+            "y": -3.1394527744559538e-06, 
+            "x": 80.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.365855680215044e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 272818, 
+            "ymax": 0.0005, 
+            "y": 1.7063583023679098e-06, 
+            "x": 81.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.606568835562653e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 272827, 
+            "ymax": 0.0005, 
+            "y": -1.2230774522540131e-05, 
+            "x": 82.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.6566259555593097e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 272828, 
+            "ymax": 0.0005, 
+            "y": -8.360145811917822e-06, 
+            "x": 83.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.865629486110063e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 272930, 
+            "ymax": 0.0005, 
+            "y": -1.8875922911533638e-06, 
+            "x": 84.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.57657206251797e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 272936, 
+            "ymax": 0.0005, 
+            "y": 4.510929594314997e-06, 
+            "x": 85.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0799253351769786e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273013, 
+            "ymax": 0.0005, 
+            "y": 3.008201235556175e-07, 
+            "x": 86.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.2252542035371175e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273017, 
+            "ymax": 0.0005, 
+            "y": -1.5693878451859416e-07, 
+            "x": 87.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.522528787139553e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273150, 
+            "ymax": 0.0005, 
+            "y": -1.2512883641124842e-05, 
+            "x": 88.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.949713881603086e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273158, 
+            "ymax": 0.0005, 
+            "y": 5.4640690586046797e-08, 
+            "x": 89.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.6983133873867e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273290, 
+            "ymax": 0.0005, 
+            "y": -1.311556333013998e-05, 
+            "x": 90.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.5735256241125053e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273291, 
+            "ymax": 0.0005, 
+            "y": -4.98273137547947e-06, 
+            "x": 91.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.7445657888910776e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273292, 
+            "ymax": 0.0005, 
+            "y": -1.3955912266979051e-05, 
+            "x": 92.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.595369852668256e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273294, 
+            "ymax": 0.0005, 
+            "y": -0.0003395144259605888, 
+            "x": 93.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.000501313656168478, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273295, 
+            "ymax": 0.0005, 
+            "y": -0.00029258511954844904, 
+            "x": 94.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00014635240731083478, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273299, 
+            "ymax": 0.0005, 
+            "y": 2.2786839862141253e-06, 
+            "x": 95.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.857637334317459e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273301, 
+            "ymax": 0.0005, 
+            "y": -1.1230542473809317e-06, 
+            "x": 96.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.245065579420791e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273302, 
+            "ymax": 0.0005, 
+            "y": -6.869714078352558e-07, 
+            "x": 97.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0200397576367728e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273402, 
+            "ymax": 0.0005, 
+            "y": -1.794150645151979e-06, 
+            "x": 98.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.4294750772899908e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273403, 
+            "ymax": 0.0005, 
+            "y": -3.6013602732762934e-06, 
+            "x": 99.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.67248017205047e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273404, 
+            "ymax": 0.0005, 
+            "y": -3.908943941018746e-06, 
+            "x": 100.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.572182874109289e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273405, 
+            "ymax": 0.0005, 
+            "y": -3.1461090639167673e-06, 
+            "x": 101.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.929295534760465e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273406, 
+            "ymax": 0.0005, 
+            "y": -1.0136427289416034e-06, 
+            "x": 102.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.9246661746160952e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273408, 
+            "ymax": 0.0005, 
+            "y": -7.304097735691754e-06, 
+            "x": 103.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.178348059840793e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273409, 
+            "ymax": 0.0005, 
+            "y": -1.0622850051043406e-06, 
+            "x": 104.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1663391547963426e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273410, 
+            "ymax": 0.0005, 
+            "y": -2.108539100896988e-06, 
+            "x": 105.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.186352001648519e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273411, 
+            "ymax": 0.0005, 
+            "y": -3.093059320396461e-07, 
+            "x": 106.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.193938543281422e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273425, 
+            "ymax": 0.0005, 
+            "y": -5.571917554765973e-07, 
+            "x": 107.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.487431324791582e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273426, 
+            "ymax": 0.0005, 
+            "y": -2.3700606505228178e-07, 
+            "x": 108.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.5284620430689757e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273446, 
+            "ymax": 0.0005, 
+            "y": 3.710062511780262e-06, 
+            "x": 109.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.89102944107547e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273447, 
+            "ymax": 0.0005, 
+            "y": 5.313709674924279e-07, 
+            "x": 110.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.5309982096923e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273448, 
+            "ymax": 0.0005, 
+            "y": -1.172311333826344e-06, 
+            "x": 111.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.025311072237941e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273449, 
+            "ymax": 0.0005, 
+            "y": -2.746195463840859e-07, 
+            "x": 112.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.512902845386712e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273450, 
+            "ymax": 0.0005, 
+            "y": -1.290467494216186e-06, 
+            "x": 113.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.833150695072598e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273492, 
+            "ymax": 0.0005, 
+            "y": -3.2238927332239597e-06, 
+            "x": 114.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.2043514834004341e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273493, 
+            "ymax": 0.0005, 
+            "y": -3.4299489871269214e-06, 
+            "x": 115.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.2923755769477613e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273494, 
+            "ymax": 0.0005, 
+            "y": -6.784294096974652e-06, 
+            "x": 116.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.9409311111169433e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273502, 
+            "ymax": 0.0005, 
+            "y": -3.478931257691446e-06, 
+            "x": 117.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.936788675882062e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273503, 
+            "ymax": 0.0005, 
+            "y": -5.482764912881986e-06, 
+            "x": 118.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.550716710876356e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273522, 
+            "ymax": 0.0005, 
+            "y": 7.211067140347981e-05, 
+            "x": 119.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.114655713534204e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273523, 
+            "ymax": 0.0005, 
+            "y": -6.209065690611196e-06, 
+            "x": 120.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.854597724252725e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273526, 
+            "ymax": 0.0005, 
+            "y": -8.520285105016554e-06, 
+            "x": 121.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.244170934065464e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273531, 
+            "ymax": 0.0005, 
+            "y": 3.9943272640905763e-07, 
+            "x": 122.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.3498560919851911e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273537, 
+            "ymax": 0.0005, 
+            "y": -4.116171700675094e-06, 
+            "x": 123.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.12980153957353e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273554, 
+            "ymax": 0.0005, 
+            "y": -3.7231400250923217e-06, 
+            "x": 124.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.536768889149412e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273555, 
+            "ymax": 0.0005, 
+            "y": -5.877410749411633e-06, 
+            "x": 125.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.7157049899558055e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273588, 
+            "ymax": 0.0005, 
+            "y": -5.3511473710930166e-05, 
+            "x": 126.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.15393637035419e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273589, 
+            "ymax": 0.0005, 
+            "y": -4.453072480427278e-06, 
+            "x": 127.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.700101204190313e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273590, 
+            "ymax": 0.0005, 
+            "y": -4.295188353030877e-06, 
+            "x": 128.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.075392679421441e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273591, 
+            "ymax": 0.0005, 
+            "y": -3.43852357439809e-05, 
+            "x": 129.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.938082277423183e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273592, 
+            "ymax": 0.0005, 
+            "y": -5.408324450940936e-06, 
+            "x": 130.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.84323598947115e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273593, 
+            "ymax": 0.0005, 
+            "y": 4.179420839184594e-06, 
+            "x": 131.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.592993682906875e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273725, 
+            "ymax": 0.0005, 
+            "y": -4.580343221545612e-06, 
+            "x": 132.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.915793773198475e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273728, 
+            "ymax": 0.0005, 
+            "y": -4.794093010290731e-06, 
+            "x": 133.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.0122053148904476e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 273730, 
+            "ymax": 0.0005, 
+            "y": -7.111637211040436e-06, 
+            "x": 134.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.628217979801988e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274094, 
+            "ymax": 0.0005, 
+            "y": -5.374683638687732e-06, 
+            "x": 135.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1942117530939473e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274100, 
+            "ymax": 0.0005, 
+            "y": -7.491374751930309e-06, 
+            "x": 136.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.820324302897394e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274102, 
+            "ymax": 0.0005, 
+            "y": -1.0528326815520823e-05, 
+            "x": 137.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.039654196485904e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274103, 
+            "ymax": 0.0005, 
+            "y": -1.1117536909775432e-05, 
+            "x": 138.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.222241161020559e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274104, 
+            "ymax": 0.0005, 
+            "y": -5.562723075652436e-06, 
+            "x": 139.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.167865613649429e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274105, 
+            "ymax": 0.0005, 
+            "y": -7.033570040670504e-06, 
+            "x": 140.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.941098928008174e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274106, 
+            "ymax": 0.0005, 
+            "y": -6.435661017232861e-06, 
+            "x": 141.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.070810581248863e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274107, 
+            "ymax": 0.0005, 
+            "y": -4.8952686654295445e-06, 
+            "x": 142.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.587847971963967e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274108, 
+            "ymax": 0.0005, 
+            "y": -1.5622627298318833e-05, 
+            "x": 143.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.467832088777459e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274146, 
+            "ymax": 0.0005, 
+            "y": -3.235645054095223e-06, 
+            "x": 144.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.182455720619888e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274157, 
+            "ymax": 0.0005, 
+            "y": -4.876900912750473e-06, 
+            "x": 145.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.696474736168778e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274159, 
+            "ymax": 0.0005, 
+            "y": -9.120555462327482e-06, 
+            "x": 146.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.5909063180917687e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274160, 
+            "ymax": 0.0005, 
+            "y": -5.2013904480290015e-06, 
+            "x": 147.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.2472038531572097e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274161, 
+            "ymax": 0.0005, 
+            "y": -7.537737696396943e-06, 
+            "x": 148.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.803931922211249e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274172, 
+            "ymax": 0.0005, 
+            "y": -7.000655448114659e-06, 
+            "x": 149.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.309610355671069e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274198, 
+            "ymax": 0.0005, 
+            "y": -5.712023308175288e-06, 
+            "x": 150.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.6196216504428986e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274199, 
+            "ymax": 0.0005, 
+            "y": -6.725507577670611e-06, 
+            "x": 151.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.20837505714825e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274200, 
+            "ymax": 0.0005, 
+            "y": -1.0371639519750329e-05, 
+            "x": 152.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.014933353599387e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274240, 
+            "ymax": 0.0005, 
+            "y": -4.13913180308629e-06, 
+            "x": 153.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.738667570805748e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274241, 
+            "ymax": 0.0005, 
+            "y": -8.651890395323164e-06, 
+            "x": 154.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.475701629574669e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274243, 
+            "ymax": 0.0005, 
+            "y": -1.3807371383857503e-05, 
+            "x": 155.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.4760181455997408e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274244, 
+            "ymax": 0.0005, 
+            "y": -9.994012023562575e-06, 
+            "x": 156.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.649041677023123e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274250, 
+            "ymax": 0.0005, 
+            "y": -6.030152662925579e-06, 
+            "x": 157.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.560945907630166e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274251, 
+            "ymax": 0.0005, 
+            "y": -8.695946774265175e-06, 
+            "x": 158.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.620521108396187e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274283, 
+            "ymax": 0.0005, 
+            "y": -9.381052669515602e-06, 
+            "x": 159.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0073086335035217e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274284, 
+            "ymax": 0.0005, 
+            "y": -5.83125323748712e-06, 
+            "x": 160.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.208735204381305e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274285, 
+            "ymax": 0.0005, 
+            "y": 1.3802637677810877e-05, 
+            "x": 161.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.09649842158784e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274286, 
+            "ymax": 0.0005, 
+            "y": -5.944707480928883e-06, 
+            "x": 162.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.3919151630638288e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274314, 
+            "ymax": 0.0005, 
+            "y": -2.929849929476413e-06, 
+            "x": 163.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.947013431015007e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274315, 
+            "ymax": 0.0005, 
+            "y": -6.2514620188733895e-06, 
+            "x": 164.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.017744913492122e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274316, 
+            "ymax": 0.0005, 
+            "y": -9.40213576909342e-06, 
+            "x": 165.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.750465019158011e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274317, 
+            "ymax": 0.0005, 
+            "y": -2.3905864038767687e-05, 
+            "x": 166.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0097568393068184e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274318, 
+            "ymax": 0.0005, 
+            "y": -1.152607285279206e-05, 
+            "x": 167.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.709090967488854e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274319, 
+            "ymax": 0.0005, 
+            "y": -8.41824743026773e-06, 
+            "x": 168.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.2594529254092476e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274335, 
+            "ymax": 0.0005, 
+            "y": -8.002311212601083e-06, 
+            "x": 169.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.838080800786322e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274336, 
+            "ymax": 0.0005, 
+            "y": -1.0988631758221378e-05, 
+            "x": 170.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.010693526938628e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274337, 
+            "ymax": 0.0005, 
+            "y": -6.118417213377553e-06, 
+            "x": 171.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.335351732690265e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274338, 
+            "ymax": 0.0005, 
+            "y": -9.681548705983966e-06, 
+            "x": 172.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.54398272275869e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274339, 
+            "ymax": 0.0005, 
+            "y": -1.163807092628607e-05, 
+            "x": 173.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.5669976719365469e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274344, 
+            "ymax": 0.0005, 
+            "y": -1.188832815314043e-05, 
+            "x": 174.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.083163467717463e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274345, 
+            "ymax": 0.0005, 
+            "y": -1.4506825089243952e-05, 
+            "x": 175.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.2453415010646621e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274382, 
+            "ymax": 0.0005, 
+            "y": -1.2232688576981418e-05, 
+            "x": 176.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.3660730777633907e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274387, 
+            "ymax": 0.0005, 
+            "y": -7.48148819532122e-06, 
+            "x": 177.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.191992252603896e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274388, 
+            "ymax": 0.0005, 
+            "y": -9.87480262748152e-06, 
+            "x": 178.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.9154859855231485e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274420, 
+            "ymax": 0.0005, 
+            "y": -7.64661050343882e-06, 
+            "x": 179.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.188154365504258e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274421, 
+            "ymax": 0.0005, 
+            "y": -6.473264419555207e-06, 
+            "x": 180.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.705405161595959e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274422, 
+            "ymax": 0.0005, 
+            "y": -1.1510571016965945e-05, 
+            "x": 181.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.969289430575529e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274440, 
+            "ymax": 0.0005, 
+            "y": -8.32342869847048e-06, 
+            "x": 182.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.416804638618712e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274441, 
+            "ymax": 0.0005, 
+            "y": -9.002170970141398e-06, 
+            "x": 183.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.082546309061167e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274442, 
+            "ymax": 0.0005, 
+            "y": -1.2592247534042376e-05, 
+            "x": 184.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.344787217361181e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274443, 
+            "ymax": 0.0005, 
+            "y": -1.6480311810932317e-05, 
+            "x": 185.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.769205592985044e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274954, 
+            "ymax": 0.0005, 
+            "y": -4.191585724876611e-06, 
+            "x": 186.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.1833262301663053e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274955, 
+            "ymax": 0.0005, 
+            "y": -7.915237141967416e-06, 
+            "x": 187.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.376220400077241e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274956, 
+            "ymax": 0.0005, 
+            "y": -1.0789497505632785e-05, 
+            "x": 188.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.1265093093825413e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274957, 
+            "ymax": 0.0005, 
+            "y": -8.10362445427685e-06, 
+            "x": 189.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.246236375990881e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274958, 
+            "ymax": 0.0005, 
+            "y": -1.0668225035505445e-05, 
+            "x": 190.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.565106458993952e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274959, 
+            "ymax": 0.0005, 
+            "y": -9.595791181341566e-06, 
+            "x": 191.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.483959196278372e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274967, 
+            "ymax": 0.0005, 
+            "y": -1.584809541841066e-05, 
+            "x": 192.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.760479248824987e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274968, 
+            "ymax": 0.0005, 
+            "y": -1.3682439467599863e-05, 
+            "x": 193.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.7451812447754793e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274969, 
+            "ymax": 0.0005, 
+            "y": -1.538802776178697e-05, 
+            "x": 194.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.31147651875718e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274970, 
+            "ymax": 0.0005, 
+            "y": -1.9674837589631078e-05, 
+            "x": 195.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.28956063754721e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274971, 
+            "ymax": 0.0005, 
+            "y": -1.8131541993557277e-05, 
+            "x": 196.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.595175797058703e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274998, 
+            "ymax": 0.0005, 
+            "y": -8.165135972768327e-06, 
+            "x": 197.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.0740932600525114e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 274999, 
+            "ymax": 0.0005, 
+            "y": -1.2586683408138868e-05, 
+            "x": 198.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.616475669098024e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275000, 
+            "ymax": 0.0005, 
+            "y": -1.3246300069455784e-05, 
+            "x": 199.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.892795476805192e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275001, 
+            "ymax": 0.0005, 
+            "y": -1.8536025469348175e-05, 
+            "x": 200.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.198143809416962e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275059, 
+            "ymax": 0.0005, 
+            "y": -6.468317666294055e-06, 
+            "x": 201.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.6695387167574726e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275062, 
+            "ymax": 0.0005, 
+            "y": -5.509380160322172e-05, 
+            "x": 202.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.4695653524564515e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275063, 
+            "ymax": 0.0005, 
+            "y": -1.1821890905883132e-05, 
+            "x": 203.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.645137500510206e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275064, 
+            "ymax": 0.0005, 
+            "y": -8.677858374925492e-06, 
+            "x": 204.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.0072444953201276e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275066, 
+            "ymax": 0.0005, 
+            "y": -8.261137121035249e-06, 
+            "x": 205.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.7408636912397828e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275067, 
+            "ymax": 0.0005, 
+            "y": -1.1769309930284476e-05, 
+            "x": 206.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.222533192750063e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275068, 
+            "ymax": 0.0005, 
+            "y": -1.4717882447871774e-05, 
+            "x": 207.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.636745597125397e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275073, 
+            "ymax": 0.0005, 
+            "y": -1.68268484619303e-05, 
+            "x": 208.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.57163340294214e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275074, 
+            "ymax": 0.0005, 
+            "y": -2.0003050900376275e-05, 
+            "x": 209.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0513143188510966e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275124, 
+            "ymax": 0.0005, 
+            "y": -1.0284149730324022e-05, 
+            "x": 210.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.607620905030062e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275125, 
+            "ymax": 0.0005, 
+            "y": -1.4785492276797495e-05, 
+            "x": 211.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.117930533916935e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275282, 
+            "ymax": 0.0005, 
+            "y": -9.993380113706716e-06, 
+            "x": 212.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.8222981476584606e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275283, 
+            "ymax": 0.0005, 
+            "y": -1.175693205111512e-05, 
+            "x": 213.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.10879193490448e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275284, 
+            "ymax": 0.0005, 
+            "y": -9.608673276175072e-06, 
+            "x": 214.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.7211055811224364e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275285, 
+            "ymax": 0.0005, 
+            "y": -1.9045895258643845e-05, 
+            "x": 215.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.8482362268954178e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275286, 
+            "ymax": 0.0005, 
+            "y": -9.696555470582511e-06, 
+            "x": 216.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.758504985195137e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275289, 
+            "ymax": 0.0005, 
+            "y": -6.712785014079551e-06, 
+            "x": 217.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.766730854640121e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275290, 
+            "ymax": 0.0005, 
+            "y": -1.2926885341063187e-05, 
+            "x": 218.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.1740243384087673e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275291, 
+            "ymax": 0.0005, 
+            "y": -1.3090005508457414e-05, 
+            "x": 219.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0168970966786466e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275292, 
+            "ymax": 0.0005, 
+            "y": -1.5852965455198013e-05, 
+            "x": 220.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.634973996793049e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275293, 
+            "ymax": 0.0005, 
+            "y": -1.7251445565378604e-05, 
+            "x": 221.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.4841530777553974e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275309, 
+            "ymax": 0.0005, 
+            "y": -1.1821653209709368e-05, 
+            "x": 222.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.916396175281975e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275310, 
+            "ymax": 0.0005, 
+            "y": -1.7812894678133528e-05, 
+            "x": 223.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.693273717104103e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275311, 
+            "ymax": 0.0005, 
+            "y": -2.2494946389291592e-05, 
+            "x": 224.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.98938584101491e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275319, 
+            "ymax": 0.0005, 
+            "y": -1.2198325715182474e-05, 
+            "x": 225.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.3596941640726114e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275337, 
+            "ymax": 0.0005, 
+            "y": -1.3915010952723171e-05, 
+            "x": 226.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.082945002744567e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275338, 
+            "ymax": 0.0005, 
+            "y": -1.7814138556718544e-05, 
+            "x": 227.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.05760793796886e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275344, 
+            "ymax": 0.0005, 
+            "y": -1.1586580545574305e-05, 
+            "x": 228.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.593640951891356e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275345, 
+            "ymax": 0.0005, 
+            "y": -1.3900307347228867e-05, 
+            "x": 229.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.60663701735249e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275370, 
+            "ymax": 0.0005, 
+            "y": -1.1695931277234938e-05, 
+            "x": 230.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.045782433665985e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275371, 
+            "ymax": 0.0005, 
+            "y": -1.3730737335408703e-05, 
+            "x": 231.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.968323538630679e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275375, 
+            "ymax": 0.0005, 
+            "y": -1.5617190385163333e-05, 
+            "x": 232.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.7462145770799655e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275376, 
+            "ymax": 0.0005, 
+            "y": -2.2089893507898242e-05, 
+            "x": 233.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.9263395892444964e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275657, 
+            "ymax": 0.0005, 
+            "y": -8.834062770212173e-06, 
+            "x": 234.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.349748767454906e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275658, 
+            "ymax": 0.0005, 
+            "y": -1.1768085177026006e-05, 
+            "x": 235.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.938402955351883e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275659, 
+            "ymax": 0.0005, 
+            "y": -8.37474914218317e-06, 
+            "x": 236.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.336822723351163e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275757, 
+            "ymax": 0.0005, 
+            "y": -1.2898863414813254e-06, 
+            "x": 237.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.088289755617431e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275758, 
+            "ymax": 0.0005, 
+            "y": 1.2288164640193708e-06, 
+            "x": 238.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.917932589139977e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275759, 
+            "ymax": 0.0005, 
+            "y": -5.7793469112842595e-06, 
+            "x": 239.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.338535590837787e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275761, 
+            "ymax": 0.0005, 
+            "y": -4.326522004970473e-06, 
+            "x": 240.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.312594122124615e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275763, 
+            "ymax": 0.0005, 
+            "y": -1.1788081711031217e-05, 
+            "x": 241.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.1851391594074725e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275764, 
+            "ymax": 0.0005, 
+            "y": -8.113823410596333e-06, 
+            "x": 242.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.991346884521633e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275766, 
+            "ymax": 0.0005, 
+            "y": -3.6475222252021133e-06, 
+            "x": 243.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.9034913696102055e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275767, 
+            "ymax": 0.0005, 
+            "y": -2.512601885737079e-05, 
+            "x": 244.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.256057741473583e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275768, 
+            "ymax": 0.0005, 
+            "y": -8.21056353933573e-06, 
+            "x": 245.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.5626166812839108e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275772, 
+            "ymax": 0.0005, 
+            "y": -1.145364521480334e-05, 
+            "x": 246.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.8378911266593747e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275773, 
+            "ymax": 0.0005, 
+            "y": -5.6905655459522734e-06, 
+            "x": 247.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.110711999441171e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275774, 
+            "ymax": 0.0005, 
+            "y": -9.656020382139309e-06, 
+            "x": 248.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.400826094378315e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275776, 
+            "ymax": 0.0005, 
+            "y": -1.0112810750933458e-05, 
+            "x": 249.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.2799723476835067e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275777, 
+            "ymax": 0.0005, 
+            "y": -1.114075455652386e-05, 
+            "x": 250.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.853551564790545e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275778, 
+            "ymax": 0.0005, 
+            "y": -1.333736424631601e-05, 
+            "x": 251.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.000236169702494e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275781, 
+            "ymax": 0.0005, 
+            "y": -1.8432828481489296e-05, 
+            "x": 252.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.648165688796717e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275782, 
+            "ymax": 0.0005, 
+            "y": -1.5403053941524402e-05, 
+            "x": 253.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.448025066546113e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275828, 
+            "ymax": 0.0005, 
+            "y": -9.764231766938972e-06, 
+            "x": 254.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.4866255553830915e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275829, 
+            "ymax": 0.0005, 
+            "y": -1.1798000978088637e-05, 
+            "x": 255.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.2840292832873414e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275831, 
+            "ymax": 0.0005, 
+            "y": -6.504490117566971e-07, 
+            "x": 256.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.124974207357962e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275832, 
+            "ymax": 0.0005, 
+            "y": -7.893238669748726e-06, 
+            "x": 257.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.249279895994925e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275833, 
+            "ymax": 0.0005, 
+            "y": -8.551037784287936e-06, 
+            "x": 258.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0657797154175043e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275834, 
+            "ymax": 0.0005, 
+            "y": -9.955099086860184e-06, 
+            "x": 259.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.84442069482113e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275835, 
+            "ymax": 0.0005, 
+            "y": -3.441924136191696e-06, 
+            "x": 260.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.948753691241113e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275836, 
+            "ymax": 0.0005, 
+            "y": -1.4187005455418459e-05, 
+            "x": 261.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.492471572421203e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275837, 
+            "ymax": 0.0005, 
+            "y": -1.6523397299463288e-05, 
+            "x": 262.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.814599072944766e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275841, 
+            "ymax": 0.0005, 
+            "y": -1.2494426727356405e-05, 
+            "x": 263.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.112034484802809e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275846, 
+            "ymax": 0.0005, 
+            "y": -2.049054329080185e-05, 
+            "x": 264.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.147375270209256e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275847, 
+            "ymax": 0.0005, 
+            "y": -1.6030922778786957e-05, 
+            "x": 265.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.6508138142550156e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275886, 
+            "ymax": 0.0005, 
+            "y": -5.961404452288612e-06, 
+            "x": 266.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.691945926158351e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275887, 
+            "ymax": 0.0005, 
+            "y": -6.839176759925002e-06, 
+            "x": 267.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.389920393702983e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275890, 
+            "ymax": 0.0005, 
+            "y": -8.757023312215549e-06, 
+            "x": 268.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.650992009011866e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275911, 
+            "ymax": 0.0005, 
+            "y": -5.0702172428651474e-06, 
+            "x": 269.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.352318804459738e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275912, 
+            "ymax": 0.0005, 
+            "y": -8.927025214000514e-06, 
+            "x": 270.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.759871321890883e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275913, 
+            "ymax": 0.0005, 
+            "y": -9.979474578086433e-06, 
+            "x": 271.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.341057899310538e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275918, 
+            "ymax": 0.0005, 
+            "y": -1.2514063901584659e-05, 
+            "x": 272.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.842553707440846e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275920, 
+            "ymax": 0.0005, 
+            "y": -1.598371242190948e-05, 
+            "x": 273.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.124773054925359e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275921, 
+            "ymax": 0.0005, 
+            "y": -1.1143299509150628e-05, 
+            "x": 274.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.870218572833108e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275922, 
+            "ymax": 0.0005, 
+            "y": -2.764145924653212e-05, 
+            "x": 275.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0742610004372272e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275923, 
+            "ymax": 0.0005, 
+            "y": -1.3875374982415682e-05, 
+            "x": 276.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.9861621420007897e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275931, 
+            "ymax": 0.0005, 
+            "y": -1.6342538548931427e-05, 
+            "x": 277.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.8343796460008329e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 275963, 
+            "ymax": 0.0005, 
+            "y": -2.4315565813103034e-06, 
+            "x": 278.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.4699511076856993e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276062, 
+            "ymax": 0.0005, 
+            "y": -1.1426821622332346e-05, 
+            "x": 279.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.9875134858648627e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276063, 
+            "ymax": 0.0005, 
+            "y": -4.116935595544445e-05, 
+            "x": 280.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.68268151393112e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276064, 
+            "ymax": 0.0005, 
+            "y": -7.725057191053813e-06, 
+            "x": 281.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.073371673155202e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276092, 
+            "ymax": 0.0005, 
+            "y": -2.108427235291502e-06, 
+            "x": 282.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.629742956593834e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276095, 
+            "ymax": 0.0005, 
+            "y": 3.029404201537256e-07, 
+            "x": 283.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.424316199399658e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276097, 
+            "ymax": 0.0005, 
+            "y": -2.7674120198532667e-06, 
+            "x": 284.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.501973198464002e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276215, 
+            "ymax": 0.0005, 
+            "y": -4.477928952113051e-05, 
+            "x": 285.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.200413888435e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276216, 
+            "ymax": 0.0005, 
+            "y": 6.30796887022433e-05, 
+            "x": 286.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.5277812851554244e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276217, 
+            "ymax": 0.0005, 
+            "y": 4.608970048276447e-05, 
+            "x": 287.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.156822540569423e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276235, 
+            "ymax": 0.0005, 
+            "y": -7.327362367354079e-05, 
+            "x": 288.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.1032416164146335e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276242, 
+            "ymax": 0.0005, 
+            "y": -1.1116155397992522e-05, 
+            "x": 289.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.1604239095023687e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276243, 
+            "ymax": 0.0005, 
+            "y": -1.585986828086637e-05, 
+            "x": 290.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.582976559571294e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276244, 
+            "ymax": 0.0005, 
+            "y": -1.9452544854261104e-05, 
+            "x": 291.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.617659345570299e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276282, 
+            "ymax": 0.0005, 
+            "y": -7.549100886086838e-06, 
+            "x": 292.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.5247859336195175e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276283, 
+            "ymax": 0.0005, 
+            "y": -1.5193628395198678e-05, 
+            "x": 293.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.338739757066956e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276315, 
+            "ymax": 0.0005, 
+            "y": -7.276139636744466e-06, 
+            "x": 294.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1008629650792183e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276317, 
+            "ymax": 0.0005, 
+            "y": -9.408374504441485e-06, 
+            "x": 295.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.7347746352065802e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276318, 
+            "ymax": 0.0005, 
+            "y": -6.852093104612608e-06, 
+            "x": 296.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.780306764551015e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276327, 
+            "ymax": 0.0005, 
+            "y": -1.8646785567946845e-05, 
+            "x": 297.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.0313702085132597e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276352, 
+            "ymax": 0.0005, 
+            "y": -1.847784147506982e-05, 
+            "x": 298.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.3768305710917505e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276355, 
+            "ymax": 0.0005, 
+            "y": -1.2999853766087028e-05, 
+            "x": 299.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.4371834641593378e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276357, 
+            "ymax": 0.0005, 
+            "y": -1.337602733541212e-05, 
+            "x": 300.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.5774422759317647e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276361, 
+            "ymax": 0.0005, 
+            "y": -1.5780767972801358e-05, 
+            "x": 301.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.805333465841257e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276363, 
+            "ymax": 0.0005, 
+            "y": -2.1049504913953033e-05, 
+            "x": 302.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.732151462733534e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276384, 
+            "ymax": 0.0005, 
+            "y": -2.7629808024780064e-05, 
+            "x": 303.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.655119001677452e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276437, 
+            "ymax": 0.0005, 
+            "y": -1.9242145308043836e-05, 
+            "x": 304.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.5705622010109047e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276453, 
+            "ymax": 0.0005, 
+            "y": -3.258931721015974e-05, 
+            "x": 305.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.38928595020199e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276454, 
+            "ymax": 0.0005, 
+            "y": -2.7855076497865737e-05, 
+            "x": 306.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.720051171802233e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276458, 
+            "ymax": 0.0005, 
+            "y": -3.145772881406115e-05, 
+            "x": 307.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.31172250241293e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276495, 
+            "ymax": 0.0005, 
+            "y": -1.1293773239871463e-05, 
+            "x": 308.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1418357991717467e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276501, 
+            "ymax": 0.0005, 
+            "y": -2.182234237536789e-05, 
+            "x": 309.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.445984520318345e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276502, 
+            "ymax": 0.0005, 
+            "y": -3.059165552765354e-05, 
+            "x": 310.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.284060366419286e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276525, 
+            "ymax": 0.0005, 
+            "y": -2.3911953609992544e-05, 
+            "x": 311.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.40651205715092e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276527, 
+            "ymax": 0.0005, 
+            "y": -3.257617170713039e-05, 
+            "x": 312.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.3196491432003573e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276528, 
+            "ymax": 0.0005, 
+            "y": -3.314462159364145e-05, 
+            "x": 313.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0480635329056131e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276542, 
+            "ymax": 0.0005, 
+            "y": -1.5691415015857898e-05, 
+            "x": 314.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.447848582095247e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276543, 
+            "ymax": 0.0005, 
+            "y": -2.5109764000670436e-05, 
+            "x": 315.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.920543657585544e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276544, 
+            "ymax": 0.0005, 
+            "y": -2.6574193952472172e-05, 
+            "x": 316.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.373484638175667e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276545, 
+            "ymax": 0.0005, 
+            "y": -2.940042896920624e-05, 
+            "x": 317.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.4968814093370785e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276581, 
+            "ymax": 0.0005, 
+            "y": -1.4646297156444913e-05, 
+            "x": 318.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.604233707463192e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276582, 
+            "ymax": 0.0005, 
+            "y": -2.321428554972811e-05, 
+            "x": 319.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.010496796187782e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276583, 
+            "ymax": 0.0005, 
+            "y": -2.6049870117795812e-05, 
+            "x": 320.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.1349229584176797e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276584, 
+            "ymax": 0.0005, 
+            "y": -2.705793195610792e-05, 
+            "x": 321.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0474648527889546e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276585, 
+            "ymax": 0.0005, 
+            "y": -3.0456085324148762e-05, 
+            "x": 322.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.242277167660305e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276586, 
+            "ymax": 0.0005, 
+            "y": -2.9658632193219157e-05, 
+            "x": 323.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.687632560281958e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276587, 
+            "ymax": 0.0005, 
+            "y": -3.581191175491252e-05, 
+            "x": 324.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.2181280267695e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276653, 
+            "ymax": 0.0005, 
+            "y": -1.4666295685751057e-05, 
+            "x": 325.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.193430524844508e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276655, 
+            "ymax": 0.0005, 
+            "y": -2.298174889627757e-05, 
+            "x": 326.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.15444110593921e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276659, 
+            "ymax": 0.0005, 
+            "y": -2.950915710610316e-05, 
+            "x": 327.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1591761988050467e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276775, 
+            "ymax": 0.0005, 
+            "y": -1.8954349344672654e-05, 
+            "x": 328.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.772037785382984e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276776, 
+            "ymax": 0.0005, 
+            "y": -3.1119240611147134e-05, 
+            "x": 329.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.3202023574804495e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276794, 
+            "ymax": 0.0005, 
+            "y": -3.7682552561501264e-05, 
+            "x": 330.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.335047285382201e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276807, 
+            "ymax": 0.0005, 
+            "y": -1.2745977483767333e-05, 
+            "x": 331.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1698859635663542e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276808, 
+            "ymax": 0.0005, 
+            "y": -1.9055054448955676e-05, 
+            "x": 332.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.553542899153896e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276810, 
+            "ymax": 0.0005, 
+            "y": -2.6549269525041574e-05, 
+            "x": 333.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0306664345333975e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276811, 
+            "ymax": 0.0005, 
+            "y": -3.40205053815265e-05, 
+            "x": 334.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.1263185220764383e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276831, 
+            "ymax": 0.0005, 
+            "y": -2.9277930940760435e-05, 
+            "x": 335.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.964410872567678e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276832, 
+            "ymax": 0.0005, 
+            "y": -3.9224497801368366e-05, 
+            "x": 336.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.0141403241079057e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276834, 
+            "ymax": 0.0005, 
+            "y": -4.016020916679382e-05, 
+            "x": 337.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.301533244421929e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276837, 
+            "ymax": 0.0005, 
+            "y": -0.0003469239906361171, 
+            "x": 338.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00014129687694044193, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276870, 
+            "ymax": 0.0005, 
+            "y": -3.366339307001866e-05, 
+            "x": 339.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.120075162734618e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276935, 
+            "ymax": 0.0005, 
+            "y": -2.4265205850864534e-05, 
+            "x": 340.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.556818425916754e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276940, 
+            "ymax": 0.0005, 
+            "y": -1.9879683950878498e-05, 
+            "x": 341.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.4726603624561055e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276941, 
+            "ymax": 0.0005, 
+            "y": -9.716259101072217e-06, 
+            "x": 342.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.301919869723769e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276942, 
+            "ymax": 0.0005, 
+            "y": -1.4505021035910582e-05, 
+            "x": 343.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0054737820185648e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276944, 
+            "ymax": 0.0005, 
+            "y": -1.2732159294762894e-05, 
+            "x": 344.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.518266145100607e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276945, 
+            "ymax": 0.0005, 
+            "y": -3.4592408687627594e-05, 
+            "x": 345.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.615296033436774e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276946, 
+            "ymax": 0.0005, 
+            "y": -2.536784985632237e-05, 
+            "x": 346.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.331507638184037e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276947, 
+            "ymax": 0.0005, 
+            "y": -2.260516132200105e-05, 
+            "x": 347.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.4349374719156686e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276948, 
+            "ymax": 0.0005, 
+            "y": -2.8228855832355442e-05, 
+            "x": 348.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1200457882693443e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 276950, 
+            "ymax": 0.0005, 
+            "y": -3.963627965064828e-05, 
+            "x": 349.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.2146595316198643e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277069, 
+            "ymax": 0.0005, 
+            "y": -1.919196625911901e-05, 
+            "x": 350.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0277995028525713e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277070, 
+            "ymax": 0.0005, 
+            "y": -2.9084103009046166e-05, 
+            "x": 351.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.893933330802431e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277071, 
+            "ymax": 0.0005, 
+            "y": -3.576624624216872e-05, 
+            "x": 352.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.250537308683553e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277072, 
+            "ymax": 0.0005, 
+            "y": -3.8506093210541906e-05, 
+            "x": 353.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.943070693284591e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277073, 
+            "ymax": 0.0005, 
+            "y": -4.021681077088982e-05, 
+            "x": 354.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.7368893052361307e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277075, 
+            "ymax": 0.0005, 
+            "y": 0.00020223331570722698, 
+            "x": 355.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0001518230574462788, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277076, 
+            "ymax": 0.0005, 
+            "y": -4.344819415433055e-05, 
+            "x": 356.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.018139829845234e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277087, 
+            "ymax": 0.0005, 
+            "y": -3.461646880965773e-05, 
+            "x": 357.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.776883416714617e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277094, 
+            "ymax": 0.0005, 
+            "y": -2.294256187711007e-05, 
+            "x": 358.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.707406935191558e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277096, 
+            "ymax": 0.0005, 
+            "y": -3.752489105927708e-05, 
+            "x": 359.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.643326969484053e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277112, 
+            "ymax": 0.0005, 
+            "y": -4.249352716290914e-05, 
+            "x": 360.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.3601777247652835e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277126, 
+            "ymax": 0.0005, 
+            "y": -2.125851399710397e-05, 
+            "x": 361.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.674812168209334e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277127, 
+            "ymax": 0.0005, 
+            "y": -2.5564691395277383e-05, 
+            "x": 362.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.312230272425081e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277148, 
+            "ymax": 0.0005, 
+            "y": -2.4356910490900118e-05, 
+            "x": 363.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.498207088021797e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277166, 
+            "ymax": 0.0005, 
+            "y": -2.333119479567974e-05, 
+            "x": 364.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0893915240598853e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277168, 
+            "ymax": 0.0005, 
+            "y": -3.88472977518483e-05, 
+            "x": 365.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.5724922501035884e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277180, 
+            "ymax": 0.0005, 
+            "y": -2.1115821566084546e-05, 
+            "x": 366.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1924321297056566e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277194, 
+            "ymax": 0.0005, 
+            "y": -3.2317525929549195e-05, 
+            "x": 367.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.7385538210107407e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277202, 
+            "ymax": 0.0005, 
+            "y": -4.4272786851227e-05, 
+            "x": 368.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.02624434632392e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277217, 
+            "ymax": 0.0005, 
+            "y": 3.756598844379456e-05, 
+            "x": 369.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.2326476687383765e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277218, 
+            "ymax": 0.0005, 
+            "y": -2.1729635539636097e-05, 
+            "x": 370.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.6148788213231642e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277219, 
+            "ymax": 0.0005, 
+            "y": -2.9364736664867553e-05, 
+            "x": 371.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.725865773140155e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277220, 
+            "ymax": 0.0005, 
+            "y": -2.734751942698068e-05, 
+            "x": 372.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0106086480029698e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277305, 
+            "ymax": 0.0005, 
+            "y": -2.58901833514424e-05, 
+            "x": 373.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.85599146543653e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277420, 
+            "ymax": 0.0005, 
+            "y": -2.078911339016778e-05, 
+            "x": 374.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.15463636446962e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277932, 
+            "ymax": 0.0005, 
+            "y": -1.6482423752595106e-05, 
+            "x": 375.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.317687251368871e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277934, 
+            "ymax": 0.0005, 
+            "y": -1.618060447888059e-05, 
+            "x": 376.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.931310015432106e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277935, 
+            "ymax": 0.0005, 
+            "y": -2.470159336212758e-05, 
+            "x": 377.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.4411885361641507e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277981, 
+            "ymax": 0.0005, 
+            "y": -2.0012430944674207e-05, 
+            "x": 378.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.3704938367791413e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277982, 
+            "ymax": 0.0005, 
+            "y": -2.786592487489985e-05, 
+            "x": 379.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.522921090342269e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277983, 
+            "ymax": 0.0005, 
+            "y": 2.265541201959664e-06, 
+            "x": 380.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.8310805307685793e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277984, 
+            "ymax": 0.0005, 
+            "y": -2.0513871981015166e-05, 
+            "x": 381.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.866219594749152e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277985, 
+            "ymax": 0.0005, 
+            "y": 1.4475864169265057e-05, 
+            "x": 382.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.5400950512603224e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277990, 
+            "ymax": 0.0005, 
+            "y": -2.5853171195563935e-05, 
+            "x": 383.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.39998039549742e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277991, 
+            "ymax": 0.0005, 
+            "y": -2.7851353939630844e-05, 
+            "x": 384.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.3428918670943956e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 277992, 
+            "ymax": 0.0005, 
+            "y": -2.6330892869522604e-05, 
+            "x": 385.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.113329741060598e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278017, 
+            "ymax": 0.0005, 
+            "y": -2.6862031528619865e-05, 
+            "x": 386.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.078040146351032e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278018, 
+            "ymax": 0.0005, 
+            "y": -3.3555905879068366e-05, 
+            "x": 387.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.526293816908588e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278167, 
+            "ymax": 0.0005, 
+            "y": -2.519698235137206e-05, 
+            "x": 388.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.3242438286817925e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278175, 
+            "ymax": 0.0005, 
+            "y": -2.83248144324813e-05, 
+            "x": 389.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.045783643143726e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278193, 
+            "ymax": 0.0005, 
+            "y": -1.2173136175242205e-05, 
+            "x": 390.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1522428748916934e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278239, 
+            "ymax": 0.0005, 
+            "y": -1.5933308036322342e-05, 
+            "x": 391.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.314231475749228e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278240, 
+            "ymax": 0.0005, 
+            "y": -2.7928658535325186e-05, 
+            "x": 392.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.519250165921071e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278273, 
+            "ymax": 0.0005, 
+            "y": -1.4404796878656804e-05, 
+            "x": 393.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.4132516333991584e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278274, 
+            "ymax": 0.0005, 
+            "y": -1.3155689233101942e-05, 
+            "x": 394.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.3760324872951785e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278288, 
+            "ymax": 0.0005, 
+            "y": -1.772688577988623e-05, 
+            "x": 395.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.577101089692504e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278289, 
+            "ymax": 0.0005, 
+            "y": -1.4034474597340958e-05, 
+            "x": 396.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.922138948442725e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278290, 
+            "ymax": 0.0005, 
+            "y": -9.207188207703877e-06, 
+            "x": 397.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.7529584709468674e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278308, 
+            "ymax": 0.0005, 
+            "y": -2.6155524565853103e-05, 
+            "x": 398.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.3377711722804084e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278309, 
+            "ymax": 0.0005, 
+            "y": -3.0309582519532706e-05, 
+            "x": 399.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.27759926930155e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278310, 
+            "ymax": 0.0005, 
+            "y": -3.55775085652185e-05, 
+            "x": 400.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.933827108638799e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278315, 
+            "ymax": 0.0005, 
+            "y": -1.8984682768289297e-05, 
+            "x": 401.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.564742321794053e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278345, 
+            "ymax": 0.0005, 
+            "y": -2.0499067526447624e-05, 
+            "x": 402.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.933815281723728e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278346, 
+            "ymax": 0.0005, 
+            "y": -2.690712902438379e-05, 
+            "x": 403.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.4881795314304968e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278349, 
+            "ymax": 0.0005, 
+            "y": -3.301016160357515e-05, 
+            "x": 404.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.923869553540234e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278366, 
+            "ymax": 0.0005, 
+            "y": -3.737813832644717e-05, 
+            "x": 405.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.908520470480534e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278406, 
+            "ymax": 0.0005, 
+            "y": -2.581178931982964e-05, 
+            "x": 406.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.4023740106745403e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278509, 
+            "ymax": 0.0005, 
+            "y": -2.599213558129239e-05, 
+            "x": 407.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.421088959827828e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278761, 
+            "ymax": 0.0005, 
+            "y": -1.213155583953678e-05, 
+            "x": 408.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.865289576056082e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278769, 
+            "ymax": 0.0005, 
+            "y": -1.6778574602924094e-05, 
+            "x": 409.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.6425115393297607e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278770, 
+            "ymax": 0.0005, 
+            "y": -2.0283063983520693e-05, 
+            "x": 410.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.050220776032004e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278801, 
+            "ymax": 0.0005, 
+            "y": -2.2240016735949778e-05, 
+            "x": 411.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.5180339191796643e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278802, 
+            "ymax": 0.0005, 
+            "y": -2.8961989473483904e-05, 
+            "x": 412.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.278416805492013e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278803, 
+            "ymax": 0.0005, 
+            "y": -2.385865071077476e-05, 
+            "x": 413.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0294021778356035e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278804, 
+            "ymax": 0.0005, 
+            "y": -2.7813637415008267e-05, 
+            "x": 414.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.80945053663988e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278805, 
+            "ymax": 0.0005, 
+            "y": -2.9385626363843978e-05, 
+            "x": 415.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.935803996531447e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278807, 
+            "ymax": 0.0005, 
+            "y": -0.00016441281099921406, 
+            "x": 416.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0001039802338485865, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278808, 
+            "ymax": 0.0005, 
+            "y": -3.973085962635209e-05, 
+            "x": 417.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.5727926226565584e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278820, 
+            "ymax": 0.0005, 
+            "y": -3.283186109405059e-05, 
+            "x": 418.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.2078190363801535e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278821, 
+            "ymax": 0.0005, 
+            "y": -4.5717741963314237e-05, 
+            "x": 419.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.0388170249670897e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278822, 
+            "ymax": 0.0005, 
+            "y": -4.769357613600188e-05, 
+            "x": 420.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.841212951679561e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278873, 
+            "ymax": 0.0005, 
+            "y": -3.166541964838875e-05, 
+            "x": 421.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.5440700423393477e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278874, 
+            "ymax": 0.0005, 
+            "y": -2.3776618762361008e-05, 
+            "x": 422.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0985878617191071e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278875, 
+            "ymax": 0.0005, 
+            "y": -3.5338126711635534e-05, 
+            "x": 423.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.939931054585157e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278923, 
+            "ymax": 0.0005, 
+            "y": -2.2121382574377113e-05, 
+            "x": 424.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.354090086825291e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278957, 
+            "ymax": 0.0005, 
+            "y": -2.0289811748537676e-05, 
+            "x": 425.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1906426959144596e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278962, 
+            "ymax": 0.0005, 
+            "y": -2.433309346762114e-05, 
+            "x": 426.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.799269753580441e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278963, 
+            "ymax": 0.0005, 
+            "y": -2.8099490699002535e-05, 
+            "x": 427.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.821004036647643e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278969, 
+            "ymax": 0.0005, 
+            "y": -3.4003107580939396e-05, 
+            "x": 428.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.918318694581278e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278975, 
+            "ymax": 0.0005, 
+            "y": -4.6244773237652455e-05, 
+            "x": 429.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.01576161785288e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278976, 
+            "ymax": 0.0005, 
+            "y": -5.28040490020756e-05, 
+            "x": 430.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.929321151188173e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 278986, 
+            "ymax": 0.0005, 
+            "y": -2.3771795690928283e-05, 
+            "x": 431.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.294134476684841e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279024, 
+            "ymax": 0.0005, 
+            "y": -2.2735352782880272e-05, 
+            "x": 432.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.720297545453319e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279029, 
+            "ymax": 0.0005, 
+            "y": -2.673107405934976e-05, 
+            "x": 433.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.989718580685079e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279071, 
+            "ymax": 0.0005, 
+            "y": -2.1388562254158304e-05, 
+            "x": 434.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.3843690121194446e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279080, 
+            "ymax": 0.0005, 
+            "y": -2.246267287455957e-05, 
+            "x": 435.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.7043506518150155e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279115, 
+            "ymax": 0.0005, 
+            "y": -2.5128957224160783e-05, 
+            "x": 436.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.524636397380218e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279116, 
+            "ymax": 0.0005, 
+            "y": -2.5885009005057405e-05, 
+            "x": 437.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.296643873617033e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279479, 
+            "ymax": 0.0005, 
+            "y": -7.03811786270295e-06, 
+            "x": 438.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.3204966272067707e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279480, 
+            "ymax": 0.0005, 
+            "y": -0.00010653900065279808, 
+            "x": 439.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.595568298037308e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279488, 
+            "ymax": 0.0005, 
+            "y": -1.6045409492236865e-05, 
+            "x": 440.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1326463860280063e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279489, 
+            "ymax": 0.0005, 
+            "y": -1.7638658497447413e-05, 
+            "x": 441.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.2610669614964115e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279588, 
+            "ymax": 0.0005, 
+            "y": -3.183068696238566e-05, 
+            "x": 442.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.298748733527223e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279653, 
+            "ymax": 0.0005, 
+            "y": -1.4943065019091762e-05, 
+            "x": 443.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0703589452134146e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279654, 
+            "ymax": 0.0005, 
+            "y": -3.105218033496218e-05, 
+            "x": 444.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.861061220714005e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279656, 
+            "ymax": 0.0005, 
+            "y": -3.830145435655804e-05, 
+            "x": 445.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.681370850147343e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279658, 
+            "ymax": 0.0005, 
+            "y": -4.282566172513422e-05, 
+            "x": 446.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.201548601926307e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279667, 
+            "ymax": 0.0005, 
+            "y": -4.297420354701004e-05, 
+            "x": 447.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.093056217426741e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279681, 
+            "ymax": 0.0005, 
+            "y": -2.5219638385578866e-05, 
+            "x": 448.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.3254645965012636e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279682, 
+            "ymax": 0.0005, 
+            "y": -3.054287306090004e-05, 
+            "x": 449.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.9179586573588787e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279683, 
+            "ymax": 0.0005, 
+            "y": -3.246702996293656e-05, 
+            "x": 450.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.11196251136521e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279684, 
+            "ymax": 0.0005, 
+            "y": -2.7554006046562903e-05, 
+            "x": 451.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.7195100011278447e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279685, 
+            "ymax": 0.0005, 
+            "y": -3.802033159910235e-05, 
+            "x": 452.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.204354161948717e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279691, 
+            "ymax": 0.0005, 
+            "y": -2.7799915566889152e-05, 
+            "x": 453.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.6020003653980117e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279694, 
+            "ymax": 0.0005, 
+            "y": -4.7058723522670774e-05, 
+            "x": 454.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.324641086816001e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279715, 
+            "ymax": 0.0005, 
+            "y": -3.264317921917804e-05, 
+            "x": 455.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.507687853379196e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279716, 
+            "ymax": 0.0005, 
+            "y": -4.9846173654206497e-05, 
+            "x": 456.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.431206453242751e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279760, 
+            "ymax": 0.0005, 
+            "y": -3.0479142619697208e-05, 
+            "x": 457.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.347432142588357e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279766, 
+            "ymax": 0.0005, 
+            "y": -4.8848095791167096e-05, 
+            "x": 458.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.1917362327584954e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279767, 
+            "ymax": 0.0005, 
+            "y": -5.741646201338806e-05, 
+            "x": 459.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.008817152878082e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279794, 
+            "ymax": 0.0005, 
+            "y": -3.4348657696398066e-05, 
+            "x": 460.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.65293213394193e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279823, 
+            "ymax": 0.0005, 
+            "y": -2.4884127661703963e-05, 
+            "x": 461.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.319211759275898e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279841, 
+            "ymax": 0.0005, 
+            "y": -4.2068441988967735e-05, 
+            "x": 462.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.264765037748013e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279844, 
+            "ymax": 0.0005, 
+            "y": -2.482777799410553e-05, 
+            "x": 463.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.426704169530479e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279846, 
+            "ymax": 0.0005, 
+            "y": -4.168419259167698e-05, 
+            "x": 464.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.3423405789804514e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279848, 
+            "ymax": 0.0005, 
+            "y": -4.939422799539045e-05, 
+            "x": 465.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.1063550979151318e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279849, 
+            "ymax": 0.0005, 
+            "y": -1.5568901849650203e-05, 
+            "x": 466.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.68584933557375e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279851, 
+            "ymax": 0.0005, 
+            "y": -4.2021509377656337e-05, 
+            "x": 467.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.544650440335773e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279852, 
+            "ymax": 0.0005, 
+            "y": -4.69455707565245e-05, 
+            "x": 468.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.0227551030622435e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279853, 
+            "ymax": 0.0005, 
+            "y": -4.317796452109936e-05, 
+            "x": 469.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.0370730888781015e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279854, 
+            "ymax": 0.0005, 
+            "y": -4.388583752504872e-05, 
+            "x": 470.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.619545912005842e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279855, 
+            "ymax": 0.0005, 
+            "y": -4.570483748185986e-05, 
+            "x": 471.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.2854059462171835e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279856, 
+            "ymax": 0.0005, 
+            "y": -4.1902190598247186e-05, 
+            "x": 472.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.011692476547331e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279857, 
+            "ymax": 0.0005, 
+            "y": -4.658616626033996e-05, 
+            "x": 473.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0494916024940013e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279858, 
+            "ymax": 0.0005, 
+            "y": -3.403001879593377e-05, 
+            "x": 474.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.241008040245482e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279859, 
+            "ymax": 0.0005, 
+            "y": -3.773880752672961e-05, 
+            "x": 475.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0989201958397598e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279860, 
+            "ymax": 0.0005, 
+            "y": -4.9834510459342904e-05, 
+            "x": 476.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.2176433430769858e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279861, 
+            "ymax": 0.0005, 
+            "y": -6.0605218354394895e-05, 
+            "x": 477.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1057346753590264e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279865, 
+            "ymax": 0.0005, 
+            "y": -3.877249407470732e-05, 
+            "x": 478.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.7151754952050032e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279887, 
+            "ymax": 0.0005, 
+            "y": -1.812955623040835e-05, 
+            "x": 479.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.118553041299803e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279931, 
+            "ymax": 0.0005, 
+            "y": -3.5337131361989236e-05, 
+            "x": 480.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.71410767006276e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279966, 
+            "ymax": 0.0005, 
+            "y": -1.7511294541357005e-05, 
+            "x": 481.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.068865644539267e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279975, 
+            "ymax": 0.0005, 
+            "y": -2.7226567582499693e-05, 
+            "x": 482.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.405413328439459e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279993, 
+            "ymax": 0.0005, 
+            "y": -2.1935559688850125e-05, 
+            "x": 483.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.691770964352556e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279994, 
+            "ymax": 0.0005, 
+            "y": -2.1828820346497843e-05, 
+            "x": 484.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.008424908038064e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 279995, 
+            "ymax": 0.0005, 
+            "y": -3.0143582427264325e-05, 
+            "x": 485.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.327055096371127e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 280002, 
+            "ymax": 0.0005, 
+            "y": -3.219599583898116e-05, 
+            "x": 486.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.410266526371787e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 280006, 
+            "ymax": 0.0005, 
+            "y": -3.575355846068097e-05, 
+            "x": 487.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.6894225886154256e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 280007, 
+            "ymax": 0.0005, 
+            "y": -3.4218323133191107e-05, 
+            "x": 488.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.4009368916945203e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 280013, 
+            "ymax": 0.0005, 
+            "y": -4.411660068558946e-05, 
+            "x": 489.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.912297122313119e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 280014, 
+            "ymax": 0.0005, 
+            "y": -1.4033454636431012e-05, 
+            "x": 490.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.426272567051344e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 280015, 
+            "ymax": 0.0005, 
+            "y": -4.289671945377735e-05, 
+            "x": 491.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.333288332302492e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 280016, 
+            "ymax": 0.0005, 
+            "y": -4.9741665059648964e-05, 
+            "x": 492.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.260021446762983e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 280017, 
+            "ymax": 0.0005, 
+            "y": -5.317157038808139e-05, 
+            "x": 493.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.606484686510838e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 280018, 
+            "ymax": 0.0005, 
+            "y": -5.552240337987243e-05, 
+            "x": 494.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.413619359396535e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 280020, 
+            "ymax": 0.0005, 
+            "y": -6.013187167816638e-05, 
+            "x": 495.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.9181466595837887e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 280023, 
+            "ymax": 0.0005, 
+            "y": -6.801985272102321e-05, 
+            "x": 496.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.088030212290292e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 280024, 
+            "ymax": 0.0005, 
+            "y": -5.902452923922998e-05, 
+            "x": 497.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.2355732771838189e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 280187, 
+            "ymax": 0.0005, 
+            "y": -1.653362756707841e-05, 
+            "x": 498.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.067450957137912e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 280188, 
+            "ymax": 0.0005, 
+            "y": -2.4327347014729983e-05, 
+            "x": 499.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0502432525102593e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 280190, 
+            "ymax": 0.0005, 
+            "y": 3.7325128959566176e-05, 
+            "x": 500.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.647076592264337e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 280191, 
+            "ymax": 0.0005, 
+            "y": -4.3655015554176384e-05, 
+            "x": 501.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.419871571465414e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 280194, 
+            "ymax": 0.0005, 
+            "y": -5.24914941510258e-05, 
+            "x": 502.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1026492305727543e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 280242, 
+            "ymax": 0.0005, 
+            "y": -4.924276605544844e-05, 
+            "x": 503.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.768086839116518e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 280249, 
+            "ymax": 0.0005, 
+            "y": -6.259688059600201e-05, 
+            "x": 504.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.185615076633651e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 280251, 
+            "ymax": 0.0005, 
+            "y": -5.4476303491872744e-05, 
+            "x": 505.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.521086795610494e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 280327, 
+            "ymax": 0.0005, 
+            "y": -8.630057712350476e-06, 
+            "x": 506.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.10872728011219e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 280330, 
+            "ymax": 0.0005, 
+            "y": -2.765668740372798e-05, 
+            "x": 507.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.066696662309319e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 280349, 
+            "ymax": 0.0005, 
+            "y": -4.434908257754827e-05, 
+            "x": 508.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.761018252564274e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 280363, 
+            "ymax": 0.0005, 
+            "y": -5.2059290646415224e-05, 
+            "x": 509.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1024648981094491e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 280364, 
+            "ymax": 0.0005, 
+            "y": -5.586463394515964e-05, 
+            "x": 510.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.235715811696208e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 280383, 
+            "ymax": 0.0005, 
+            "y": -2.5387362836728713e-05, 
+            "x": 511.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.3731554336311821e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 280384, 
+            "ymax": 0.0005, 
+            "y": -1.9623993061418326e-05, 
+            "x": 512.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.457265826928425e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 280385, 
+            "ymax": 0.0005, 
+            "y": -4.45859503562169e-05, 
+            "x": 513.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.2479347720306693e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 281616, 
+            "ymax": 0.0005, 
+            "y": 1.3573270337642582e-05, 
+            "x": 514.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.996574525636878e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }
+    ]
+}

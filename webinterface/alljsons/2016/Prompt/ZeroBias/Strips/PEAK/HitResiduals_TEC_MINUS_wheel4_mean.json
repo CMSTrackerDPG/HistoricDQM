@@ -1,0 +1,31 @@
+{
+    "HitResiduals_TEC_MINUS_wheel4_mean": [
+        {
+            "run": 272760, 
+            "ymax": 0.0005, 
+            "y": -4.549028365523179e-05, 
+            "x": 1.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.611310410494291e-05, 
+            "yTitle": "HitResiduals TEC Wheel 4 Mean"
+        }, 
+        {
+            "run": 272761, 
+            "ymax": 0.0005, 
+            "y": -8.050666867851663e-05, 
+            "x": 2.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.6128803981570875e-05, 
+            "yTitle": "HitResiduals TEC Wheel 4 Mean"
+        }, 
+        {
+            "run": 272762, 
+            "ymax": 0.0005, 
+            "y": -7.112931863762464e-05, 
+            "x": 3.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.4280338342745382e-05, 
+            "yTitle": "HitResiduals TEC Wheel 4 Mean"
+        }
+    ]
+}

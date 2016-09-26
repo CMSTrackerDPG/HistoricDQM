@@ -1,0 +1,4405 @@
+{
+    "HitResiduals_TOB_layer3_mean": [
+        {
+            "run": 271037, 
+            "ymax": 0.0005, 
+            "y": 0.0011497005657800632, 
+            "x": 1.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0009456596750642674, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271044, 
+            "ymax": 0.0005, 
+            "y": 2.248164815497131e-05, 
+            "x": 2.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00022094138788882512, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271045, 
+            "ymax": 0.0005, 
+            "y": 0.00013928105392856682, 
+            "x": 3.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.2209481991456364e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271046, 
+            "ymax": 0.0005, 
+            "y": 0.0006234081449000152, 
+            "x": 4.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0007494061023831327, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271047, 
+            "ymax": 0.0005, 
+            "y": 0.00014823391710385833, 
+            "x": 5.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.35864624507541e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271048, 
+            "ymax": 0.0005, 
+            "y": 9.17984361238603e-05, 
+            "x": 6.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.0770188339125815e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271049, 
+            "ymax": 0.0005, 
+            "y": 0.0001387861444665425, 
+            "x": 7.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.820625924079696e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271050, 
+            "ymax": 0.0005, 
+            "y": -0.0002169457468853304, 
+            "x": 8.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0003156477841434583, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271052, 
+            "ymax": 0.0005, 
+            "y": -3.762780433649385e-05, 
+            "x": 9.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00011957861074049786, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271056, 
+            "ymax": 0.0005, 
+            "y": 0.0001403759509809141, 
+            "x": 10.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.42724192668564e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271304, 
+            "ymax": 0.0005, 
+            "y": 0.00011969813027538132, 
+            "x": 11.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.3832891265268616e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271305, 
+            "ymax": 0.0005, 
+            "y": 0.00010341354945410473, 
+            "x": 12.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.453438443749217e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271306, 
+            "ymax": 0.0005, 
+            "y": 0.00012275521853702257, 
+            "x": 13.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.302368029816415e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271307, 
+            "ymax": 0.0005, 
+            "y": 0.00011133326825834405, 
+            "x": 14.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1610707839169034e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271310, 
+            "ymax": 0.0005, 
+            "y": 0.00011690437447597499, 
+            "x": 15.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.5288550066418833e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271312, 
+            "ymax": 0.0005, 
+            "y": 0.00012330564673905506, 
+            "x": 16.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.870396917162669e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271313, 
+            "ymax": 0.0005, 
+            "y": 0.0001251765909589193, 
+            "x": 17.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.460006341329482e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271314, 
+            "ymax": 0.0005, 
+            "y": 0.00013599670641431625, 
+            "x": 18.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.5945145971305573e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271317, 
+            "ymax": 0.0005, 
+            "y": 0.00013938560038878663, 
+            "x": 19.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.3164653695868392e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271318, 
+            "ymax": 0.0005, 
+            "y": 9.304088160452725e-05, 
+            "x": 20.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.4953918086133478e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271319, 
+            "ymax": 0.0005, 
+            "y": 0.00013297387785008122, 
+            "x": 21.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.423227060033885e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271321, 
+            "ymax": 0.0005, 
+            "y": 0.00013192283552911668, 
+            "x": 22.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.3120508350301835e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271322, 
+            "ymax": 0.0005, 
+            "y": 0.00011424536505281864, 
+            "x": 23.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.5373514412732293e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271323, 
+            "ymax": 0.0005, 
+            "y": 0.00012557018687153645, 
+            "x": 24.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.4461367731295304e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271324, 
+            "ymax": 0.0005, 
+            "y": 0.00010881940452625704, 
+            "x": 25.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.540704735924989e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271327, 
+            "ymax": 0.0005, 
+            "y": 0.0001117780366228718, 
+            "x": 26.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.571436234731337e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271328, 
+            "ymax": 0.0005, 
+            "y": 0.00013389826085871844, 
+            "x": 27.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.5500669674491852e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271329, 
+            "ymax": 0.0005, 
+            "y": 0.00010645775473828465, 
+            "x": 28.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.5746601409725773e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271330, 
+            "ymax": 0.0005, 
+            "y": 0.00011779318492551445, 
+            "x": 29.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.6029666821431058e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271331, 
+            "ymax": 0.0005, 
+            "y": 0.00011273361153557877, 
+            "x": 30.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.577919950049898e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271332, 
+            "ymax": 0.0005, 
+            "y": 0.00013440061667969157, 
+            "x": 31.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.552127511035626e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271336, 
+            "ymax": 0.0005, 
+            "y": 0.00011888990067781116, 
+            "x": 32.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.1851298553560595e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271337, 
+            "ymax": 0.0005, 
+            "y": 0.00013471930781638197, 
+            "x": 33.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.001271743793281e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271338, 
+            "ymax": 0.0005, 
+            "y": 0.00021272764053121573, 
+            "x": 34.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.113173617418036e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271342, 
+            "ymax": 0.0005, 
+            "y": 0.0001328887388134209, 
+            "x": 35.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.067752338891395e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271645, 
+            "ymax": 0.0005, 
+            "y": 0.00021241778762269684, 
+            "x": 36.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.11537129849258e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271646, 
+            "ymax": 0.0005, 
+            "y": 0.00016176396292322913, 
+            "x": 37.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.4752489863176616e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271648, 
+            "ymax": 0.0005, 
+            "y": 0.001231618867152267, 
+            "x": 38.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0008916816688225512, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 271649, 
+            "ymax": 0.0005, 
+            "y": 0.0005455976946556821, 
+            "x": 39.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0015231732367675076, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 272007, 
+            "ymax": 0.0005, 
+            "y": -0.0022335549990723288, 
+            "x": 40.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.001108912461098522, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 272008, 
+            "ymax": 0.0005, 
+            "y": -0.0004059164301588506, 
+            "x": 41.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.6112890268612672e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 272010, 
+            "ymax": 0.0005, 
+            "y": -0.00038370121556870657, 
+            "x": 42.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.1539892951926144e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 272011, 
+            "ymax": 0.0005, 
+            "y": -0.0003751838795398069, 
+            "x": 43.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.063296055943608e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 272012, 
+            "ymax": 0.0005, 
+            "y": -0.00039101253318574544, 
+            "x": 44.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0839093958106602e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 272014, 
+            "ymax": 0.0005, 
+            "y": -0.00039126374598623436, 
+            "x": 45.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.5335091543801824e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 272016, 
+            "ymax": 0.0005, 
+            "y": -0.00041884451482245987, 
+            "x": 46.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.593783451287255e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 272017, 
+            "ymax": 0.0005, 
+            "y": -0.00047905892767598473, 
+            "x": 47.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00010971663543865434, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 272019, 
+            "ymax": 0.0005, 
+            "y": 0.00023252376033220727, 
+            "x": 48.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0008405584725395823, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 272021, 
+            "ymax": 0.0005, 
+            "y": -0.00039073153003780413, 
+            "x": 49.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.4967416186525856e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 272022, 
+            "ymax": 0.0005, 
+            "y": -0.0004222906733295286, 
+            "x": 50.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.8832194182062555e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 272775, 
+            "ymax": 0.0005, 
+            "y": -0.0003497372225914542, 
+            "x": 51.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.5849393241786726e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 272776, 
+            "ymax": 0.0005, 
+            "y": -0.00036753353828708, 
+            "x": 52.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.189777670788234e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 272782, 
+            "ymax": 0.0005, 
+            "y": -0.0003604575905151846, 
+            "x": 53.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.041066820362536e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 272783, 
+            "ymax": 0.0005, 
+            "y": -0.0003457827902336804, 
+            "x": 54.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.7811202560906324e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 272784, 
+            "ymax": 0.0005, 
+            "y": -0.00037579812854551846, 
+            "x": 55.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.2926734705781012e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 272785, 
+            "ymax": 0.0005, 
+            "y": -0.0003902938905636697, 
+            "x": 56.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.8858487972307423e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 272786, 
+            "ymax": 0.0005, 
+            "y": -0.00036041428175087484, 
+            "x": 57.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.9599673009024787e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 272798, 
+            "ymax": 0.0005, 
+            "y": -0.0003540929228160579, 
+            "x": 58.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.616388790853107e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 272811, 
+            "ymax": 0.0005, 
+            "y": -0.00035542952815546797, 
+            "x": 59.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.404431950273056e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 272812, 
+            "ymax": 0.0005, 
+            "y": -0.00035108391576984377, 
+            "x": 60.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1495155233765337e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 272814, 
+            "ymax": 0.0005, 
+            "y": -0.00026545875295071295, 
+            "x": 61.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.142928680823669e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 272815, 
+            "ymax": 0.0005, 
+            "y": -0.00026007641446634247, 
+            "x": 62.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.472696435112051e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 272816, 
+            "ymax": 0.0005, 
+            "y": -0.00031875441228919663, 
+            "x": 63.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.649860651793723e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 272818, 
+            "ymax": 0.0005, 
+            "y": -0.0003306463705373982, 
+            "x": 64.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.317363419068441e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 272827, 
+            "ymax": 0.0005, 
+            "y": -0.0004036989378406772, 
+            "x": 65.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0002027319189345201, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 272828, 
+            "ymax": 0.0005, 
+            "y": -0.00032594964971770034, 
+            "x": 66.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.310600701373857e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 272930, 
+            "ymax": 0.0005, 
+            "y": -0.00036804863372335374, 
+            "x": 67.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.733194096292702e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 272936, 
+            "ymax": 0.0005, 
+            "y": -0.00030383149001049026, 
+            "x": 68.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1781554424468418e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273013, 
+            "ymax": 0.0005, 
+            "y": -0.00029958185142035955, 
+            "x": 69.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.2734844031323298e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273017, 
+            "ymax": 0.0005, 
+            "y": -0.00033241778818247133, 
+            "x": 70.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.50846830357005e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273150, 
+            "ymax": 0.0005, 
+            "y": -0.0002956489180050919, 
+            "x": 71.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.3638578886141324e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273158, 
+            "ymax": 0.0005, 
+            "y": -0.0002971608799546516, 
+            "x": 72.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.691217078765146e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273291, 
+            "ymax": 0.0005, 
+            "y": -0.0002818646263908174, 
+            "x": 73.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.9673444972448387e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273292, 
+            "ymax": 0.0005, 
+            "y": 0.00021020980403251797, 
+            "x": 74.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.000376442030209726, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273294, 
+            "ymax": 0.0005, 
+            "y": -0.002812414839863777, 
+            "x": 75.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0033979831894932894, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273299, 
+            "ymax": 0.0005, 
+            "y": -0.0002869554368472079, 
+            "x": 76.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.574432293626753e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273301, 
+            "ymax": 0.0005, 
+            "y": -0.0003035706812375259, 
+            "x": 77.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.703989845981392e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273302, 
+            "ymax": 0.0005, 
+            "y": -0.0003093594679786916, 
+            "x": 78.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.898160901008257e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273402, 
+            "ymax": 0.0005, 
+            "y": -0.0002818243472199157, 
+            "x": 79.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.2404660823765529e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273403, 
+            "ymax": 0.0005, 
+            "y": -0.00033604041933404564, 
+            "x": 80.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.377938350999019e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273404, 
+            "ymax": 0.0005, 
+            "y": -0.00024720987011280366, 
+            "x": 81.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.017756966793755e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273405, 
+            "ymax": 0.0005, 
+            "y": -0.00030472458296475116, 
+            "x": 82.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.3835299679102873e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273406, 
+            "ymax": 0.0005, 
+            "y": -0.0003186333533408581, 
+            "x": 83.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.6187384718666032e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273408, 
+            "ymax": 0.0005, 
+            "y": -0.0002572678396107244, 
+            "x": 84.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.374798864864944e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273409, 
+            "ymax": 0.0005, 
+            "y": -0.00031732277194685484, 
+            "x": 85.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0105267936224013e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273410, 
+            "ymax": 0.0005, 
+            "y": -0.00032814826997053264, 
+            "x": 86.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.8601690541334082e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273411, 
+            "ymax": 0.0005, 
+            "y": -0.00035396011279259623, 
+            "x": 87.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.556614284301216e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273425, 
+            "ymax": 0.0005, 
+            "y": -0.00029277858171937286, 
+            "x": 88.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.322154723671084e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273426, 
+            "ymax": 0.0005, 
+            "y": -0.0002920329130817444, 
+            "x": 89.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.2343567999748238e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273446, 
+            "ymax": 0.0005, 
+            "y": -0.0002915905032699725, 
+            "x": 90.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.8670747150261725e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273447, 
+            "ymax": 0.0005, 
+            "y": -0.0002806383919324429, 
+            "x": 91.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.112022704294844e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273448, 
+            "ymax": 0.0005, 
+            "y": -0.00029063239690538386, 
+            "x": 92.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.610603950037766e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273449, 
+            "ymax": 0.0005, 
+            "y": -0.0003104461051956938, 
+            "x": 93.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.121590920486279e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273450, 
+            "ymax": 0.0005, 
+            "y": -0.00028456954458764617, 
+            "x": 94.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.2468909304405923e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273492, 
+            "ymax": 0.0005, 
+            "y": -0.00027312501407497983, 
+            "x": 95.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1070050120857267e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273493, 
+            "ymax": 0.0005, 
+            "y": -0.0003078058743373749, 
+            "x": 96.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1793024320399266e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273494, 
+            "ymax": 0.0005, 
+            "y": -0.0002943696625938471, 
+            "x": 97.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.3029691095953419e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273502, 
+            "ymax": 0.0005, 
+            "y": -0.00029495706172536407, 
+            "x": 98.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.6131172811198535e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273503, 
+            "ymax": 0.0005, 
+            "y": -0.00029469913437714065, 
+            "x": 99.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.443523724871609e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273523, 
+            "ymax": 0.0005, 
+            "y": -0.00035947778420655595, 
+            "x": 100.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.359589226469099e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273526, 
+            "ymax": 0.0005, 
+            "y": -0.0005344773616234331, 
+            "x": 101.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0001773031538768651, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273537, 
+            "ymax": 0.0005, 
+            "y": -0.00029532326634372074, 
+            "x": 102.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.8967794465300152e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273554, 
+            "ymax": 0.0005, 
+            "y": -0.0002680706282785096, 
+            "x": 103.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.37760542397479e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273555, 
+            "ymax": 0.0005, 
+            "y": -0.0002773646182230896, 
+            "x": 104.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.339149966912288e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273589, 
+            "ymax": 0.0005, 
+            "y": -0.000256455629586322, 
+            "x": 105.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.84937030110857e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273590, 
+            "ymax": 0.0005, 
+            "y": -0.00038897124852515797, 
+            "x": 106.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.9054890394695854e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273592, 
+            "ymax": 0.0005, 
+            "y": -0.0003769960045025523, 
+            "x": 107.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.650789456194417e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273725, 
+            "ymax": 0.0005, 
+            "y": -0.00026902899819208556, 
+            "x": 108.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.6595960622661047e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273728, 
+            "ymax": 0.0005, 
+            "y": -0.00028726144273663834, 
+            "x": 109.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.944637308397483e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 273730, 
+            "ymax": 0.0005, 
+            "y": -0.00031217842870693083, 
+            "x": 110.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.9857417627381285e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274094, 
+            "ymax": 0.0005, 
+            "y": -0.0003035746717865565, 
+            "x": 111.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0619279982361629e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274102, 
+            "ymax": 0.0005, 
+            "y": 8.943233836525042e-06, 
+            "x": 112.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0003016201592684141, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274103, 
+            "ymax": 0.0005, 
+            "y": -0.0009051363105925971, 
+            "x": 113.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00043423693415581873, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274104, 
+            "ymax": 0.0005, 
+            "y": -0.00016259016060154432, 
+            "x": 114.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00029761511171478753, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274105, 
+            "ymax": 0.0005, 
+            "y": -0.0007303595229064513, 
+            "x": 115.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0002400549842116712, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274106, 
+            "ymax": 0.0005, 
+            "y": -2.713118500781025e-05, 
+            "x": 116.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0002875766469921252, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274107, 
+            "ymax": 0.0005, 
+            "y": -3.56197786202542e-05, 
+            "x": 117.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00033388544275838764, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274108, 
+            "ymax": 0.0005, 
+            "y": -0.0004144630187305288, 
+            "x": 118.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00033039013246573647, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274146, 
+            "ymax": 0.0005, 
+            "y": -0.00023210617356939745, 
+            "x": 119.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.146663135146755e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274157, 
+            "ymax": 0.0005, 
+            "y": -0.00025015657220448244, 
+            "x": 120.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.795478042758798e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274159, 
+            "ymax": 0.0005, 
+            "y": -0.0002868761354236274, 
+            "x": 121.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.888643654218463e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274160, 
+            "ymax": 0.0005, 
+            "y": -0.0002353887033930208, 
+            "x": 122.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.2647993231416351e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274161, 
+            "ymax": 0.0005, 
+            "y": -0.0002555194095450817, 
+            "x": 123.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.089899191392349e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274172, 
+            "ymax": 0.0005, 
+            "y": -0.0002647598429561649, 
+            "x": 124.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.46108035862799e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274198, 
+            "ymax": 0.0005, 
+            "y": -0.00023563945977758417, 
+            "x": 125.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.8421147833266088e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274199, 
+            "ymax": 0.0005, 
+            "y": -0.00024166966552825576, 
+            "x": 126.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.497885081097852e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274200, 
+            "ymax": 0.0005, 
+            "y": -0.00023970478520612598, 
+            "x": 127.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.2485768291405304e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274240, 
+            "ymax": 0.0005, 
+            "y": -0.00020160370522260987, 
+            "x": 128.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.124332623239729e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274241, 
+            "ymax": 0.0005, 
+            "y": -0.00023884349866166752, 
+            "x": 129.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.462680311518249e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274243, 
+            "ymax": 0.0005, 
+            "y": -8.47872571862412e-05, 
+            "x": 130.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00012304550435483127, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274244, 
+            "ymax": 0.0005, 
+            "y": -0.00023696349729446684, 
+            "x": 131.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.68027392894389e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274250, 
+            "ymax": 0.0005, 
+            "y": -0.0002197118349658854, 
+            "x": 132.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.650134135048016e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274251, 
+            "ymax": 0.0005, 
+            "y": -0.0002362017649194242, 
+            "x": 133.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.054342836335906e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274283, 
+            "ymax": 0.0005, 
+            "y": -0.00013027230748303368, 
+            "x": 134.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00017019911488554815, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274284, 
+            "ymax": 0.0005, 
+            "y": -0.00020930342776102025, 
+            "x": 135.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.733423335170762e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274285, 
+            "ymax": 0.0005, 
+            "y": -4.240575097284577e-05, 
+            "x": 136.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0004894395719444985, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274286, 
+            "ymax": 0.0005, 
+            "y": -0.00016056737233815832, 
+            "x": 137.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.9905195367421795e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274314, 
+            "ymax": 0.0005, 
+            "y": -0.00013975295727538669, 
+            "x": 138.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.502123799910734e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274315, 
+            "ymax": 0.0005, 
+            "y": -0.0002082277160681228, 
+            "x": 139.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.076887970146429e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274316, 
+            "ymax": 0.0005, 
+            "y": -0.00021811306057099581, 
+            "x": 140.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.80695836645262e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274317, 
+            "ymax": 0.0005, 
+            "y": -0.00032598075867291813, 
+            "x": 141.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00011200678333736113, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274318, 
+            "ymax": 0.0005, 
+            "y": 0.0005702694140122708, 
+            "x": 142.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0007137637227472045, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274319, 
+            "ymax": 0.0005, 
+            "y": -0.00022187766198426668, 
+            "x": 143.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1856064633778252e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274335, 
+            "ymax": 0.0005, 
+            "y": -0.0002032320561461675, 
+            "x": 144.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.964817817538423e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274336, 
+            "ymax": 0.0005, 
+            "y": -0.0001947012346013501, 
+            "x": 145.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.1281999004167746e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274337, 
+            "ymax": 0.0005, 
+            "y": -0.00013920762887817355, 
+            "x": 146.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.939371333352576e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274338, 
+            "ymax": 0.0005, 
+            "y": -0.00023052614420727757, 
+            "x": 147.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.639317106601183e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274339, 
+            "ymax": 0.0005, 
+            "y": -0.00023852974078244834, 
+            "x": 148.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.543378187086563e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274344, 
+            "ymax": 0.0005, 
+            "y": -0.00024133658128132817, 
+            "x": 149.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.7501781245430085e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274345, 
+            "ymax": 0.0005, 
+            "y": -0.00023020211132244672, 
+            "x": 150.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.104231464065374e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274382, 
+            "ymax": 0.0005, 
+            "y": -0.0002149881398202957, 
+            "x": 151.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.68588442657936e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274387, 
+            "ymax": 0.0005, 
+            "y": -0.00022370615895752523, 
+            "x": 152.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.008950726339515e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274388, 
+            "ymax": 0.0005, 
+            "y": -0.00022292872932302505, 
+            "x": 153.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.1861489371021755e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274420, 
+            "ymax": 0.0005, 
+            "y": -0.00020308832287225872, 
+            "x": 154.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.4075948774271306e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274421, 
+            "ymax": 0.0005, 
+            "y": -0.00021707169056186108, 
+            "x": 155.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.816009376514942e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274422, 
+            "ymax": 0.0005, 
+            "y": -0.00023258028306736498, 
+            "x": 156.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.788159604300732e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274440, 
+            "ymax": 0.0005, 
+            "y": -0.00020260438650761072, 
+            "x": 157.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.113114354613532e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274441, 
+            "ymax": 0.0005, 
+            "y": -0.0002237262911656191, 
+            "x": 158.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.56548817380525e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274442, 
+            "ymax": 0.0005, 
+            "y": -0.00021315342903711128, 
+            "x": 159.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.479436918546675e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274443, 
+            "ymax": 0.0005, 
+            "y": -0.00021316195814983393, 
+            "x": 160.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.4723611969893902e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274954, 
+            "ymax": 0.0005, 
+            "y": -0.0003604595703947536, 
+            "x": 161.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.067118948634963e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274955, 
+            "ymax": 0.0005, 
+            "y": -0.000364403481804595, 
+            "x": 162.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.2410482209526806e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274956, 
+            "ymax": 0.0005, 
+            "y": -0.00039148583497626175, 
+            "x": 163.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.2970477046115687e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274957, 
+            "ymax": 0.0005, 
+            "y": -0.00038561145227243815, 
+            "x": 164.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.501772066842555e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274958, 
+            "ymax": 0.0005, 
+            "y": -0.00037899400608993965, 
+            "x": 165.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.250191953164204e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274959, 
+            "ymax": 0.0005, 
+            "y": -0.0003990759955083097, 
+            "x": 166.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.261932373972775e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274967, 
+            "ymax": 0.0005, 
+            "y": -0.0003304738501281385, 
+            "x": 167.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.064613150524838e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274968, 
+            "ymax": 0.0005, 
+            "y": -0.00031149855078470556, 
+            "x": 168.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.215811295974632e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274969, 
+            "ymax": 0.0005, 
+            "y": -0.0003268354173132732, 
+            "x": 169.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.802527449277813e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274970, 
+            "ymax": 0.0005, 
+            "y": -0.00030312232867303536, 
+            "x": 170.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.538611496388896e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274971, 
+            "ymax": 0.0005, 
+            "y": -0.0003498169797391101, 
+            "x": 171.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.144352531025037e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274998, 
+            "ymax": 0.0005, 
+            "y": -0.00031650951668518273, 
+            "x": 172.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.3390982057889494e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 274999, 
+            "ymax": 0.0005, 
+            "y": -0.0003278061384384542, 
+            "x": 173.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.821874399403708e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275000, 
+            "ymax": 0.0005, 
+            "y": -0.0003284685769789911, 
+            "x": 174.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.3306458628622855e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275001, 
+            "ymax": 0.0005, 
+            "y": -0.00035498132890543065, 
+            "x": 175.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.132538313529044e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275059, 
+            "ymax": 0.0005, 
+            "y": -0.0003363673294411759, 
+            "x": 176.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.960846340284826e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275062, 
+            "ymax": 0.0005, 
+            "y": 7.283234331658455e-05, 
+            "x": 177.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0005233922195796652, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275063, 
+            "ymax": 0.0005, 
+            "y": 0.0002466688050665486, 
+            "x": 178.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0019067670131327082, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275064, 
+            "ymax": 0.0005, 
+            "y": -0.0003239441663992619, 
+            "x": 179.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.510974790928302e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275066, 
+            "ymax": 0.0005, 
+            "y": -0.0003035119792774422, 
+            "x": 180.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.0204723276084215e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275067, 
+            "ymax": 0.0005, 
+            "y": -0.00033278476748395603, 
+            "x": 181.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.464460839843651e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275068, 
+            "ymax": 0.0005, 
+            "y": -0.0003397871633750271, 
+            "x": 182.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.23820904562316e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275073, 
+            "ymax": 0.0005, 
+            "y": -0.00034593148415798346, 
+            "x": 183.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.193541810665774e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275074, 
+            "ymax": 0.0005, 
+            "y": -0.00034512775672052503, 
+            "x": 184.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0698807739091774e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275124, 
+            "ymax": 0.0005, 
+            "y": -0.00028715277942511016, 
+            "x": 185.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.630981205307636e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275125, 
+            "ymax": 0.0005, 
+            "y": -0.0003226094190674602, 
+            "x": 186.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.140156963358398e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275282, 
+            "ymax": 0.0005, 
+            "y": -0.0003033270351450238, 
+            "x": 187.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.1413854551685123e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275283, 
+            "ymax": 0.0005, 
+            "y": -0.0003291318118425257, 
+            "x": 188.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.4993823996773797e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275284, 
+            "ymax": 0.0005, 
+            "y": -0.00032150500919788034, 
+            "x": 189.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.716658316025852e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275285, 
+            "ymax": 0.0005, 
+            "y": -0.00015901818826448942, 
+            "x": 190.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0003108903776047943, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275286, 
+            "ymax": 0.0005, 
+            "y": -0.0003567745544670936, 
+            "x": 191.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.0093373295731523e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275289, 
+            "ymax": 0.0005, 
+            "y": -0.0003164323946070448, 
+            "x": 192.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00010760433912454627, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275290, 
+            "ymax": 0.0005, 
+            "y": -0.00036518671163562427, 
+            "x": 193.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.285216474291431e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275291, 
+            "ymax": 0.0005, 
+            "y": -0.0003365316926402355, 
+            "x": 194.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.4856228720413353e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275292, 
+            "ymax": 0.0005, 
+            "y": -0.0003527976650482949, 
+            "x": 195.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.6070111320911686e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275293, 
+            "ymax": 0.0005, 
+            "y": -0.0003266980963834903, 
+            "x": 196.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.945796988213055e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275309, 
+            "ymax": 0.0005, 
+            "y": -0.00033766056455055354, 
+            "x": 197.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1626519169647047e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275310, 
+            "ymax": 0.0005, 
+            "y": -0.0003451264418358697, 
+            "x": 198.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.303221931364098e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275311, 
+            "ymax": 0.0005, 
+            "y": -0.000363330568478563, 
+            "x": 199.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.029382475509691e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275319, 
+            "ymax": 0.0005, 
+            "y": -0.0002728076339215508, 
+            "x": 200.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.4611355232714292e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275337, 
+            "ymax": 0.0005, 
+            "y": -0.00032802049035955834, 
+            "x": 201.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.3666813197589048e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275338, 
+            "ymax": 0.0005, 
+            "y": -0.0003246705783409054, 
+            "x": 202.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.2127972484387996e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275344, 
+            "ymax": 0.0005, 
+            "y": -0.00033597836831162286, 
+            "x": 203.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.7438550366431233e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275345, 
+            "ymax": 0.0005, 
+            "y": -0.0003432717888678706, 
+            "x": 204.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.5223625174874197e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275370, 
+            "ymax": 0.0005, 
+            "y": -0.00030719646370804807, 
+            "x": 205.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.7404569755568352e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275371, 
+            "ymax": 0.0005, 
+            "y": -0.0003026976971478274, 
+            "x": 206.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1994708722278656e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275375, 
+            "ymax": 0.0005, 
+            "y": -0.0003221971618883605, 
+            "x": 207.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.651606819439613e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275376, 
+            "ymax": 0.0005, 
+            "y": -0.0003643326694387759, 
+            "x": 208.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.995225680996101e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275657, 
+            "ymax": 0.0005, 
+            "y": -0.0003056791065671843, 
+            "x": 209.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.09339443211272e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275658, 
+            "ymax": 0.0005, 
+            "y": -0.0002877020490244682, 
+            "x": 210.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.6584664304825727e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275659, 
+            "ymax": 0.0005, 
+            "y": -0.00034381319501056395, 
+            "x": 211.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.976318705777742e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275757, 
+            "ymax": 0.0005, 
+            "y": -0.00019420135766813173, 
+            "x": 212.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.884798435652881e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275758, 
+            "ymax": 0.0005, 
+            "y": -0.0004505313023950278, 
+            "x": 213.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00015699128572226983, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275759, 
+            "ymax": 0.0005, 
+            "y": -0.0003272855005094969, 
+            "x": 214.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00012801619349743452, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275761, 
+            "ymax": 0.0005, 
+            "y": -0.00019022047319434005, 
+            "x": 215.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00011025558650056434, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275763, 
+            "ymax": 0.0005, 
+            "y": -0.00027301062347374986, 
+            "x": 216.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00010195527662441319, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275764, 
+            "ymax": 0.0005, 
+            "y": -0.00024427396612599635, 
+            "x": 217.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.415396711935477e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275766, 
+            "ymax": 0.0005, 
+            "y": -0.00021725513797358578, 
+            "x": 218.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.868970617828642e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275767, 
+            "ymax": 0.0005, 
+            "y": -0.00023998934373600442, 
+            "x": 219.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0001533025260656385, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275768, 
+            "ymax": 0.0005, 
+            "y": -0.00029273513740753904, 
+            "x": 220.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.300117323914666e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275772, 
+            "ymax": 0.0005, 
+            "y": -0.0002902080631451412, 
+            "x": 221.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.925696140199015e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275773, 
+            "ymax": 0.0005, 
+            "y": -0.0003703202581632475, 
+            "x": 222.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00010734147863087476, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275774, 
+            "ymax": 0.0005, 
+            "y": -0.0003075354888833775, 
+            "x": 223.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.6278827065109455e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275776, 
+            "ymax": 0.0005, 
+            "y": -0.0003081649823992112, 
+            "x": 224.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.380891974643759e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275777, 
+            "ymax": 0.0005, 
+            "y": -0.0003114496501288593, 
+            "x": 225.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.615615227510588e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275778, 
+            "ymax": 0.0005, 
+            "y": -0.000312000494998863, 
+            "x": 226.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.5712437119782538e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275781, 
+            "ymax": 0.0005, 
+            "y": -0.0003236295674298438, 
+            "x": 227.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.157704427277299e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275782, 
+            "ymax": 0.0005, 
+            "y": -0.00034254357823884207, 
+            "x": 228.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.8168793279402e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275828, 
+            "ymax": 0.0005, 
+            "y": -0.00039149727392001475, 
+            "x": 229.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.4745033514603845e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275829, 
+            "ymax": 0.0005, 
+            "y": -0.0004806425970096878, 
+            "x": 230.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.7814707993524605e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275831, 
+            "ymax": 0.0005, 
+            "y": -0.000310785153944004, 
+            "x": 231.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.834683771200803e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275832, 
+            "ymax": 0.0005, 
+            "y": -0.00028232334452433914, 
+            "x": 232.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.6250462158018034e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275833, 
+            "ymax": 0.0005, 
+            "y": -0.0002883605751956181, 
+            "x": 233.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.851422692393666e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275834, 
+            "ymax": 0.0005, 
+            "y": -0.00029920916882012996, 
+            "x": 234.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.6512966589160674e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275835, 
+            "ymax": 0.0005, 
+            "y": -0.00039228272547748536, 
+            "x": 235.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.8372025605896e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275836, 
+            "ymax": 0.0005, 
+            "y": -0.00031344159552623463, 
+            "x": 236.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.689304356413938e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275837, 
+            "ymax": 0.0005, 
+            "y": -0.00034033217798670344, 
+            "x": 237.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.01459523223406e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275841, 
+            "ymax": 0.0005, 
+            "y": -0.00031733059578917223, 
+            "x": 238.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.897059880538508e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275846, 
+            "ymax": 0.0005, 
+            "y": -0.0005031557134074047, 
+            "x": 239.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00010980261396694643, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275847, 
+            "ymax": 0.0005, 
+            "y": -0.0003568184554763717, 
+            "x": 240.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.883488724819061e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275886, 
+            "ymax": 0.0005, 
+            "y": -0.00040430534185651265, 
+            "x": 241.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.6831369084782396e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275887, 
+            "ymax": 0.0005, 
+            "y": -0.0003271742207101582, 
+            "x": 242.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.5110477096837236e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275890, 
+            "ymax": 0.0005, 
+            "y": -0.00031914006819897477, 
+            "x": 243.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.714704422719589e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275911, 
+            "ymax": 0.0005, 
+            "y": -0.0002964418542604247, 
+            "x": 244.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.527123930757385e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275912, 
+            "ymax": 0.0005, 
+            "y": -0.00033421084957585854, 
+            "x": 245.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.7378370710835095e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275913, 
+            "ymax": 0.0005, 
+            "y": -0.00031719587798387943, 
+            "x": 246.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.2959338418686096e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275918, 
+            "ymax": 0.0005, 
+            "y": -0.0003242754158863415, 
+            "x": 247.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.447446053920612e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275920, 
+            "ymax": 0.0005, 
+            "y": -0.0003418424450611376, 
+            "x": 248.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.2875709249075046e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275921, 
+            "ymax": 0.0005, 
+            "y": -0.00030642375613707895, 
+            "x": 249.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.963950635083765e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275922, 
+            "ymax": 0.0005, 
+            "y": -0.00031077125459185806, 
+            "x": 250.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00018080612038093297, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275923, 
+            "ymax": 0.0005, 
+            "y": -0.00033985513521900626, 
+            "x": 251.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.4422212282528955e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275931, 
+            "ymax": 0.0005, 
+            "y": -0.0003496469787452874, 
+            "x": 252.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.8598905540349356e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 275963, 
+            "ymax": 0.0005, 
+            "y": -0.00022134341789982977, 
+            "x": 253.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.253495210462073e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276062, 
+            "ymax": 0.0005, 
+            "y": -0.0008382017694094537, 
+            "x": 254.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0006075013204463035, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276063, 
+            "ymax": 0.0005, 
+            "y": 0.0010273789455467754, 
+            "x": 255.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0012275706085997874, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276064, 
+            "ymax": 0.0005, 
+            "y": 0.0004931407479909799, 
+            "x": 256.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0004971413168052302, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276092, 
+            "ymax": 0.0005, 
+            "y": -0.00027821151750755466, 
+            "x": 257.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.560420567435491e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276095, 
+            "ymax": 0.0005, 
+            "y": -0.0002226269368803492, 
+            "x": 258.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0003099065005220445, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276097, 
+            "ymax": 0.0005, 
+            "y": -0.000294303943150355, 
+            "x": 259.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.3213900776406912e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276215, 
+            "ymax": 0.0005, 
+            "y": 8.778078282345647e-05, 
+            "x": 260.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.7549579617460604e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276216, 
+            "ymax": 0.0005, 
+            "y": 0.0001266934826909141, 
+            "x": 261.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.4485733875064967e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276217, 
+            "ymax": 0.0005, 
+            "y": 0.0001365216776978333, 
+            "x": 262.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.696459633653663e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276235, 
+            "ymax": 0.0005, 
+            "y": -0.0003824550652273317, 
+            "x": 263.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.452942167559835e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276242, 
+            "ymax": 0.0005, 
+            "y": -0.0003274380411444641, 
+            "x": 264.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.28595666136237e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276243, 
+            "ymax": 0.0005, 
+            "y": -0.00033339347588954763, 
+            "x": 265.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1511762430628044e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276244, 
+            "ymax": 0.0005, 
+            "y": -0.0003580571701679099, 
+            "x": 266.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.182366109405794e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276282, 
+            "ymax": 0.0005, 
+            "y": -0.00032455041527932444, 
+            "x": 267.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.135929293222712e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276283, 
+            "ymax": 0.0005, 
+            "y": -0.00031728999508238135, 
+            "x": 268.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.504545416369565e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276315, 
+            "ymax": 0.0005, 
+            "y": -0.00029920416101009514, 
+            "x": 269.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.271407018319499e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276317, 
+            "ymax": 0.0005, 
+            "y": -0.0003264812588502904, 
+            "x": 270.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.5363638949884078e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276318, 
+            "ymax": 0.0005, 
+            "y": -0.0003161166874214741, 
+            "x": 271.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.2016756067398596e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276327, 
+            "ymax": 0.0005, 
+            "y": -0.0003586404129520357, 
+            "x": 272.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.5375610844596557e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276352, 
+            "ymax": 0.0005, 
+            "y": -0.0002842230827088226, 
+            "x": 273.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.019329374195481e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276355, 
+            "ymax": 0.0005, 
+            "y": -0.0004133895692136412, 
+            "x": 274.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.3545606926513295e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276357, 
+            "ymax": 0.0005, 
+            "y": -0.0003059588912298069, 
+            "x": 275.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.4846163384157784e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276361, 
+            "ymax": 0.0005, 
+            "y": -0.00031527581742830094, 
+            "x": 276.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0050375857053682e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276363, 
+            "ymax": 0.0005, 
+            "y": -0.0003319407904430951, 
+            "x": 277.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.191123505165207e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276384, 
+            "ymax": 0.0005, 
+            "y": -0.0003420251755861837, 
+            "x": 278.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.248253370770561e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276437, 
+            "ymax": 0.0005, 
+            "y": -0.00032008150149180804, 
+            "x": 279.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.19761184434879e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276453, 
+            "ymax": 0.0005, 
+            "y": 0.0002896610205433779, 
+            "x": 280.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.66833400071146e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276454, 
+            "ymax": 0.0005, 
+            "y": -0.00036260359139276427, 
+            "x": 281.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1726115083612659e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276458, 
+            "ymax": 0.0005, 
+            "y": -0.00033410473483406756, 
+            "x": 282.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.5168796016240637e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276495, 
+            "ymax": 0.0005, 
+            "y": -0.00029827020019869877, 
+            "x": 283.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.3270620917333008e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276501, 
+            "ymax": 0.0005, 
+            "y": -0.00032200985774832533, 
+            "x": 284.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.582816268049593e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276502, 
+            "ymax": 0.0005, 
+            "y": -0.00035275322569640707, 
+            "x": 285.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0006037690015221e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276525, 
+            "ymax": 0.0005, 
+            "y": -0.00031444878047416104, 
+            "x": 286.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.26455946670931e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276527, 
+            "ymax": 0.0005, 
+            "y": -0.0003591797652338086, 
+            "x": 287.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.86624484282616e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276528, 
+            "ymax": 0.0005, 
+            "y": -0.0003469803677250407, 
+            "x": 288.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.396187219093994e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276542, 
+            "ymax": 0.0005, 
+            "y": -0.00030255925755898763, 
+            "x": 289.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0753131821856174e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276543, 
+            "ymax": 0.0005, 
+            "y": -0.0003036248213326079, 
+            "x": 290.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.114718523950161e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276544, 
+            "ymax": 0.0005, 
+            "y": -0.0002886216969648884, 
+            "x": 291.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.1758136807246254e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276545, 
+            "ymax": 0.0005, 
+            "y": -0.00036071329287456057, 
+            "x": 292.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.8760195048220275e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276581, 
+            "ymax": 0.0005, 
+            "y": -0.0003165010967888281, 
+            "x": 293.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.5859164252785416e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276582, 
+            "ymax": 0.0005, 
+            "y": -0.0003389943153000083, 
+            "x": 294.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.658236830939188e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276583, 
+            "ymax": 0.0005, 
+            "y": -0.00035510598861017174, 
+            "x": 295.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.870047882422875e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276584, 
+            "ymax": 0.0005, 
+            "y": -0.00019252256284277823, 
+            "x": 296.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00020809632796758016, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276585, 
+            "ymax": 0.0005, 
+            "y": -0.00034138173826684417, 
+            "x": 297.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.7508760067889746e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276586, 
+            "ymax": 0.0005, 
+            "y": -0.0003410473946528631, 
+            "x": 298.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.877167691519384e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276587, 
+            "ymax": 0.0005, 
+            "y": -0.0003587853702792057, 
+            "x": 299.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.6708205429969e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276653, 
+            "ymax": 0.0005, 
+            "y": -0.00029710609570654664, 
+            "x": 300.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.32065404136844e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276655, 
+            "ymax": 0.0005, 
+            "y": -0.0003167845359303224, 
+            "x": 301.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.434899690674075e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276659, 
+            "ymax": 0.0005, 
+            "y": -0.00030062850854140836, 
+            "x": 302.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.7630085232121107e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276775, 
+            "ymax": 0.0005, 
+            "y": -0.0003113373526173684, 
+            "x": 303.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.60243464465359e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276776, 
+            "ymax": 0.0005, 
+            "y": -0.0003370349963702018, 
+            "x": 304.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.43817163714655e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276794, 
+            "ymax": 0.0005, 
+            "y": -0.00034696739674245784, 
+            "x": 305.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.300640600128518e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276807, 
+            "ymax": 0.0005, 
+            "y": -0.0003084820390447871, 
+            "x": 306.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.48180800677936e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276808, 
+            "ymax": 0.0005, 
+            "y": -0.00028929775368230465, 
+            "x": 307.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.75904008910176e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276810, 
+            "ymax": 0.0005, 
+            "y": -0.0003078978865963246, 
+            "x": 308.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.6327779352142332e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276811, 
+            "ymax": 0.0005, 
+            "y": -0.00033477802472894495, 
+            "x": 309.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.431690262122279e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276831, 
+            "ymax": 0.0005, 
+            "y": -0.0002709629632727411, 
+            "x": 310.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.326884213834544e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276832, 
+            "ymax": 0.0005, 
+            "y": -0.0002792634178313846, 
+            "x": 311.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.1899621616733478e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276834, 
+            "ymax": 0.0005, 
+            "y": -0.00029343701704764044, 
+            "x": 312.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.866385949116238e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276837, 
+            "ymax": 0.0005, 
+            "y": 0.00016435512131260287, 
+            "x": 313.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0018053804190466512, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276870, 
+            "ymax": 0.0005, 
+            "y": -0.00024193475642964287, 
+            "x": 314.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.0378110908333965e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276935, 
+            "ymax": 0.0005, 
+            "y": -0.00021871036029423834, 
+            "x": 315.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.736299956100773e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276940, 
+            "ymax": 0.0005, 
+            "y": -0.00020091664661107343, 
+            "x": 316.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.1310157777102074e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276941, 
+            "ymax": 0.0005, 
+            "y": -0.0005584308609899112, 
+            "x": 317.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0001498770404503398, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276942, 
+            "ymax": 0.0005, 
+            "y": -0.0002524547717214102, 
+            "x": 318.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00016595773534763705, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276944, 
+            "ymax": 0.0005, 
+            "y": -0.0004829938151075254, 
+            "x": 319.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00014724557525278345, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276945, 
+            "ymax": 0.0005, 
+            "y": 1.4386152980692898e-05, 
+            "x": 320.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00029861288733805294, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276946, 
+            "ymax": 0.0005, 
+            "y": -0.0002594984841136886, 
+            "x": 321.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.1512353104132634e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276947, 
+            "ymax": 0.0005, 
+            "y": -0.00023262628311359937, 
+            "x": 322.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.0502264555593837e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276948, 
+            "ymax": 0.0005, 
+            "y": -0.0002250001406078088, 
+            "x": 323.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0040955319025322e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 276950, 
+            "ymax": 0.0005, 
+            "y": -0.00025485457180065684, 
+            "x": 324.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.952528215951452e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277069, 
+            "ymax": 0.0005, 
+            "y": -0.00021829388258082048, 
+            "x": 325.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.5023213959420595e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277070, 
+            "ymax": 0.0005, 
+            "y": -0.00023376294668419825, 
+            "x": 326.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.602141401869293e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277071, 
+            "ymax": 0.0005, 
+            "y": -0.000255237528811328, 
+            "x": 327.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.5378000987512546e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277072, 
+            "ymax": 0.0005, 
+            "y": -0.000255739450172817, 
+            "x": 328.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0050545059538864e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277073, 
+            "ymax": 0.0005, 
+            "y": -0.0003059153129142687, 
+            "x": 329.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.841094583691899e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277075, 
+            "ymax": 0.0005, 
+            "y": -0.0009002276807136479, 
+            "x": 330.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0011525358036575883, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277076, 
+            "ymax": 0.0005, 
+            "y": -0.00030343502422484176, 
+            "x": 331.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.7337911807355615e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277087, 
+            "ymax": 0.0005, 
+            "y": -0.00029585088210193675, 
+            "x": 332.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.3900301195562824e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277094, 
+            "ymax": 0.0005, 
+            "y": -0.00023944186049534166, 
+            "x": 333.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.731056400065185e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277096, 
+            "ymax": 0.0005, 
+            "y": -0.0002719723756945308, 
+            "x": 334.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.3284695016361245e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277112, 
+            "ymax": 0.0005, 
+            "y": -0.00028447106462927205, 
+            "x": 335.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.2708523961516702e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277126, 
+            "ymax": 0.0005, 
+            "y": -0.0003420085059611054, 
+            "x": 336.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.017401093288248e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277127, 
+            "ymax": 0.0005, 
+            "y": -0.0002649408988916616, 
+            "x": 337.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.2965242629454964e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277148, 
+            "ymax": 0.0005, 
+            "y": -0.00024479804799533916, 
+            "x": 338.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.092090841432547e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277166, 
+            "ymax": 0.0005, 
+            "y": -0.0002478165934416485, 
+            "x": 339.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.029125528758424e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277168, 
+            "ymax": 0.0005, 
+            "y": -0.000293448939985925, 
+            "x": 340.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.1449511848698833e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277180, 
+            "ymax": 0.0005, 
+            "y": -0.00024311972820112332, 
+            "x": 341.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.3466672124070887e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277194, 
+            "ymax": 0.0005, 
+            "y": -0.00025584250832164427, 
+            "x": 342.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.494302983468311e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277202, 
+            "ymax": 0.0005, 
+            "y": -0.0002773020238252512, 
+            "x": 343.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.6826552724189585e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277217, 
+            "ymax": 0.0005, 
+            "y": -0.0010819920897483825, 
+            "x": 344.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0022289477871992327, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277218, 
+            "ymax": 0.0005, 
+            "y": -0.000254134373521123, 
+            "x": 345.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.590971987948524e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277219, 
+            "ymax": 0.0005, 
+            "y": -0.00028902458984914606, 
+            "x": 346.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.343719892454536e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277220, 
+            "ymax": 0.0005, 
+            "y": -0.0002615260736250924, 
+            "x": 347.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1477971523004237e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277305, 
+            "ymax": 0.0005, 
+            "y": -0.0002521620044589985, 
+            "x": 348.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.177473677329239e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277420, 
+            "ymax": 0.0005, 
+            "y": -0.00022699813668648904, 
+            "x": 349.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.03440642332718e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277932, 
+            "ymax": 0.0005, 
+            "y": -0.0003845499633759601, 
+            "x": 350.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.65526069506222e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277934, 
+            "ymax": 0.0005, 
+            "y": -0.0003333491104818762, 
+            "x": 351.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.600184112874044e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277935, 
+            "ymax": 0.0005, 
+            "y": -0.00026917245286957396, 
+            "x": 352.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.651478917638608e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277981, 
+            "ymax": 0.0005, 
+            "y": -0.0002876932104850344, 
+            "x": 353.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.502763013120701e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277982, 
+            "ymax": 0.0005, 
+            "y": -0.00031917481245000623, 
+            "x": 354.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.3737838390332558e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277983, 
+            "ymax": 0.0005, 
+            "y": -4.701340359492225e-05, 
+            "x": 355.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00013190078245498945, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277984, 
+            "ymax": 0.0005, 
+            "y": -0.00028180108080520284, 
+            "x": 356.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.6914880871255885e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277985, 
+            "ymax": 0.0005, 
+            "y": -0.00030959042685460775, 
+            "x": 357.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0001828001551454886, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277990, 
+            "ymax": 0.0005, 
+            "y": -0.00028612323568319377, 
+            "x": 358.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.641793389268983e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277991, 
+            "ymax": 0.0005, 
+            "y": -0.00028698592288146956, 
+            "x": 359.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.497515552945591e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 277992, 
+            "ymax": 0.0005, 
+            "y": -0.0002921326638956222, 
+            "x": 360.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.494638110301639e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278017, 
+            "ymax": 0.0005, 
+            "y": -0.0002154273655960169, 
+            "x": 361.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.077050194011176e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278018, 
+            "ymax": 0.0005, 
+            "y": -0.00024407887283905397, 
+            "x": 362.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.252954815940498e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278167, 
+            "ymax": 0.0005, 
+            "y": -0.00025058025152527183, 
+            "x": 363.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.8066631752307032e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278175, 
+            "ymax": 0.0005, 
+            "y": -0.0002753381672486946, 
+            "x": 364.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.027807537099441e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278193, 
+            "ymax": 0.0005, 
+            "y": -0.0002624864424165065, 
+            "x": 365.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.3627242903740462e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278239, 
+            "ymax": 0.0005, 
+            "y": -0.00023125124767537644, 
+            "x": 366.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.746897295161918e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278240, 
+            "ymax": 0.0005, 
+            "y": -0.00024229286662067633, 
+            "x": 367.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.8415141833180994e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278273, 
+            "ymax": 0.0005, 
+            "y": -0.000222351168592751, 
+            "x": 368.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.7871869740119803e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278274, 
+            "ymax": 0.0005, 
+            "y": -0.0002199474573765215, 
+            "x": 369.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.6076270433865433e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278288, 
+            "ymax": 0.0005, 
+            "y": -0.00020925899547201288, 
+            "x": 370.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.415657637756206e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278289, 
+            "ymax": 0.0005, 
+            "y": -0.00018542211721987004, 
+            "x": 371.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.2281688593699736e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278290, 
+            "ymax": 0.0005, 
+            "y": -0.00018379565477759274, 
+            "x": 372.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.529194317971013e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278308, 
+            "ymax": 0.0005, 
+            "y": -0.00022487526619982518, 
+            "x": 373.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.0948730233057097e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278309, 
+            "ymax": 0.0005, 
+            "y": -0.0002582099104494056, 
+            "x": 374.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.396716000502421e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278310, 
+            "ymax": 0.0005, 
+            "y": -0.00025254049239218295, 
+            "x": 375.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.613058004662452e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278315, 
+            "ymax": 0.0005, 
+            "y": -0.00022014342864682274, 
+            "x": 376.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.754113374859933e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278345, 
+            "ymax": 0.0005, 
+            "y": -0.0002227862456363118, 
+            "x": 377.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.675384062479624e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278346, 
+            "ymax": 0.0005, 
+            "y": -0.0002349332762993326, 
+            "x": 378.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.629108486864481e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278349, 
+            "ymax": 0.0005, 
+            "y": -0.00023565364623477243, 
+            "x": 379.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.06069256583829e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278366, 
+            "ymax": 0.0005, 
+            "y": -0.00025441903777103855, 
+            "x": 380.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.537325132710046e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278406, 
+            "ymax": 0.0005, 
+            "y": -0.00021925148498419148, 
+            "x": 381.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.3421217581133166e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278509, 
+            "ymax": 0.0005, 
+            "y": -0.00022921670167760726, 
+            "x": 382.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.690124330336823e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278761, 
+            "ymax": 0.0005, 
+            "y": -0.0002953571413355522, 
+            "x": 383.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.2761037236131395e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278769, 
+            "ymax": 0.0005, 
+            "y": -0.0004112292552507856, 
+            "x": 384.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.3506406210520673e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278770, 
+            "ymax": 0.0005, 
+            "y": -0.000223726317745512, 
+            "x": 385.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.487022677726954e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278801, 
+            "ymax": 0.0005, 
+            "y": -0.0003885644204795946, 
+            "x": 386.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.323132549312382e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278802, 
+            "ymax": 0.0005, 
+            "y": -0.00033952863947807294, 
+            "x": 387.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.722293685355761e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278803, 
+            "ymax": 0.0005, 
+            "y": -0.0003733029991164852, 
+            "x": 388.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.436956153261261e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278804, 
+            "ymax": 0.0005, 
+            "y": -0.00029047770650911676, 
+            "x": 389.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.193787103427358e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278805, 
+            "ymax": 0.0005, 
+            "y": -0.0003913490429421021, 
+            "x": 390.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.216245136677998e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278807, 
+            "ymax": 0.0005, 
+            "y": -0.0015418448426097713, 
+            "x": 391.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0010617302989615377, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278808, 
+            "ymax": 0.0005, 
+            "y": -0.00038526309570222035, 
+            "x": 392.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.600592901474268e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278820, 
+            "ymax": 0.0005, 
+            "y": -0.00039020859724158915, 
+            "x": 393.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.5995065790382586e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278821, 
+            "ymax": 0.0005, 
+            "y": -0.00038723146342446637, 
+            "x": 394.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.718980740326054e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278822, 
+            "ymax": 0.0005, 
+            "y": -0.00038727247899518843, 
+            "x": 395.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.154607933346324e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278873, 
+            "ymax": 0.0005, 
+            "y": -0.0003437651353173226, 
+            "x": 396.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.0190741305801696e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278874, 
+            "ymax": 0.0005, 
+            "y": -0.0003649504212632115, 
+            "x": 397.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.5395093371226064e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278875, 
+            "ymax": 0.0005, 
+            "y": -0.0003784856009590168, 
+            "x": 398.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.2339035133756146e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278923, 
+            "ymax": 0.0005, 
+            "y": -0.0003810897048921954, 
+            "x": 399.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.471374365371414e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278957, 
+            "ymax": 0.0005, 
+            "y": -0.00036795731152430307, 
+            "x": 400.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0968251750502561e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278962, 
+            "ymax": 0.0005, 
+            "y": -0.0003667236311303281, 
+            "x": 401.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.310868547974442e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278963, 
+            "ymax": 0.0005, 
+            "y": -0.0003957629546750787, 
+            "x": 402.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0273363707395737e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278969, 
+            "ymax": 0.0005, 
+            "y": -0.0003815557487097246, 
+            "x": 403.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.6498221090976348e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278975, 
+            "ymax": 0.0005, 
+            "y": -0.0003883008057665442, 
+            "x": 404.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.317356373833072e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278976, 
+            "ymax": 0.0005, 
+            "y": -0.00033915204714788977, 
+            "x": 405.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.52925337915111e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 278986, 
+            "ymax": 0.0005, 
+            "y": -0.00038575280257989474, 
+            "x": 406.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1228672787620365e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279024, 
+            "ymax": 0.0005, 
+            "y": -0.0003632560182112279, 
+            "x": 407.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.994310550699717e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279029, 
+            "ymax": 0.0005, 
+            "y": -0.0003774538822880255, 
+            "x": 408.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.968658987421627e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279071, 
+            "ymax": 0.0005, 
+            "y": -0.0003801813802803181, 
+            "x": 409.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1562890657210006e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279080, 
+            "ymax": 0.0005, 
+            "y": -0.0003664733728708802, 
+            "x": 410.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.5768670782648524e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279115, 
+            "ymax": 0.0005, 
+            "y": -0.00037148868518759596, 
+            "x": 411.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.8590775904839755e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279116, 
+            "ymax": 0.0005, 
+            "y": -0.00037792415276989344, 
+            "x": 412.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.488238060111243e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279479, 
+            "ymax": 0.0005, 
+            "y": -0.0003867625706518785, 
+            "x": 413.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.44384245139862e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279480, 
+            "ymax": 0.0005, 
+            "y": -0.0011163106690888845, 
+            "x": 414.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0006615204411046007, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279488, 
+            "ymax": 0.0005, 
+            "y": -0.00047788921682516997, 
+            "x": 415.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.118604149520724e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279489, 
+            "ymax": 0.0005, 
+            "y": -0.00037452124510396246, 
+            "x": 416.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.32533722425679e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279588, 
+            "ymax": 0.0005, 
+            "y": -0.000399531788874987, 
+            "x": 417.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.224443375395877e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279653, 
+            "ymax": 0.0005, 
+            "y": -0.0003859327398153264, 
+            "x": 418.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.689774900545528e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279654, 
+            "ymax": 0.0005, 
+            "y": -0.00039707008661338543, 
+            "x": 419.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.948833134279014e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279656, 
+            "ymax": 0.0005, 
+            "y": -0.00042337055512654045, 
+            "x": 420.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.473984795374915e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279658, 
+            "ymax": 0.0005, 
+            "y": -0.000416234904005065, 
+            "x": 421.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.071753127586017e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279667, 
+            "ymax": 0.0005, 
+            "y": -0.0003899480950540332, 
+            "x": 422.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.282135129074854e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279681, 
+            "ymax": 0.0005, 
+            "y": -0.0003642908973875928, 
+            "x": 423.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.530986501401703e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279682, 
+            "ymax": 0.0005, 
+            "y": -0.00035597114545168874, 
+            "x": 424.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.3439014410689785e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279683, 
+            "ymax": 0.0005, 
+            "y": -0.00033364728698369783, 
+            "x": 425.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.5793040724730434e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279684, 
+            "ymax": 0.0005, 
+            "y": -0.000353255699215233, 
+            "x": 426.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.812013362612688e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279685, 
+            "ymax": 0.0005, 
+            "y": -0.0003934028683226113, 
+            "x": 427.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.231094530425658e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279691, 
+            "ymax": 0.0005, 
+            "y": -0.0003702230870022958, 
+            "x": 428.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.0718070881581756e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279694, 
+            "ymax": 0.0005, 
+            "y": -0.0003858399569544733, 
+            "x": 429.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.008939590895417e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279715, 
+            "ymax": 0.0005, 
+            "y": -0.000381599554430833, 
+            "x": 430.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.455089626979936e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279716, 
+            "ymax": 0.0005, 
+            "y": -0.00040353137532995786, 
+            "x": 431.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.829754855410671e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279760, 
+            "ymax": 0.0005, 
+            "y": -0.0003872783459126798, 
+            "x": 432.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.990126003690431e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279766, 
+            "ymax": 0.0005, 
+            "y": -0.0003911374750978212, 
+            "x": 433.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.5525337325187453e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279767, 
+            "ymax": 0.0005, 
+            "y": -0.0003935723021123207, 
+            "x": 434.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.894212820035024e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279794, 
+            "ymax": 0.0005, 
+            "y": -0.00039808679428536624, 
+            "x": 435.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.082560800622982e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279823, 
+            "ymax": 0.0005, 
+            "y": -0.00039619609999585255, 
+            "x": 436.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.928670818154728e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279841, 
+            "ymax": 0.0005, 
+            "y": -0.00039698461170429883, 
+            "x": 437.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.158427059198666e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279844, 
+            "ymax": 0.0005, 
+            "y": -0.00038393231879250067, 
+            "x": 438.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.403773057458018e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279846, 
+            "ymax": 0.0005, 
+            "y": -0.00021174111005253617, 
+            "x": 439.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.1453337099542158e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279848, 
+            "ymax": 0.0005, 
+            "y": -0.000185963260563327, 
+            "x": 440.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.2469708066680957e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279849, 
+            "ymax": 0.0005, 
+            "y": 0.0003227745960945203, 
+            "x": 441.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.091566803845903e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279851, 
+            "ymax": 0.0005, 
+            "y": 4.516903603132646e-05, 
+            "x": 442.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.4533247292105584e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279852, 
+            "ymax": 0.0005, 
+            "y": 7.17183081672059e-05, 
+            "x": 443.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.140512143902894e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279853, 
+            "ymax": 0.0005, 
+            "y": 1.893304695552741e-05, 
+            "x": 444.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.8550233413492862e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279854, 
+            "ymax": 0.0005, 
+            "y": 1.4916362136757214e-05, 
+            "x": 445.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.031100623536294e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279855, 
+            "ymax": 0.0005, 
+            "y": 5.659376292803572e-06, 
+            "x": 446.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.650326210926996e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279856, 
+            "ymax": 0.0005, 
+            "y": -5.190145669871301e-05, 
+            "x": 447.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.7739348187331436e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279857, 
+            "ymax": 0.0005, 
+            "y": 8.231611898621712e-08, 
+            "x": 448.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.401131350491809e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279858, 
+            "ymax": 0.0005, 
+            "y": 8.605780467519403e-06, 
+            "x": 449.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.4005015337800824e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279859, 
+            "ymax": 0.0005, 
+            "y": 2.3262747269313704e-05, 
+            "x": 450.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.073064914913377e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279860, 
+            "ymax": 0.0005, 
+            "y": 1.3973807113180487e-05, 
+            "x": 451.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.089250900237009e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279861, 
+            "ymax": 0.0005, 
+            "y": 8.784980125749115e-05, 
+            "x": 452.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.447414692750054e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279865, 
+            "ymax": 0.0005, 
+            "y": 3.398763382364458e-05, 
+            "x": 453.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.75459786171868e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279887, 
+            "ymax": 0.0005, 
+            "y": -0.00038698685283057057, 
+            "x": 454.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.25682367575427e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279931, 
+            "ymax": 0.0005, 
+            "y": -0.0004048522976623405, 
+            "x": 455.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.6692344146311873e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279966, 
+            "ymax": 0.0005, 
+            "y": -0.00040351068845647715, 
+            "x": 456.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.395623073323288e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279975, 
+            "ymax": 0.0005, 
+            "y": -0.00040605634636094943, 
+            "x": 457.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.027376675927176e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279993, 
+            "ymax": 0.0005, 
+            "y": -0.0004041898942313559, 
+            "x": 458.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.5631543841803168e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279994, 
+            "ymax": 0.0005, 
+            "y": -0.00036934118202165385, 
+            "x": 459.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.891502484874001e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 279995, 
+            "ymax": 0.0005, 
+            "y": -0.0004934429157827575, 
+            "x": 460.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.769298721572357e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 280002, 
+            "ymax": 0.0005, 
+            "y": -0.00038035125423484316, 
+            "x": 461.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.2175763473097318e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 280006, 
+            "ymax": 0.0005, 
+            "y": -0.0004065700424422042, 
+            "x": 462.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.561711542825107e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 280007, 
+            "ymax": 0.0005, 
+            "y": -0.0004004971026151765, 
+            "x": 463.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.1554817579959758e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 280013, 
+            "ymax": 0.0005, 
+            "y": -0.00036997952558234613, 
+            "x": 464.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.58096229624654e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 280014, 
+            "ymax": 0.0005, 
+            "y": -0.0005286489516870406, 
+            "x": 465.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0006553400652388513, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 280015, 
+            "ymax": 0.0005, 
+            "y": -0.000401355011404177, 
+            "x": 466.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.575729340673598e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 280016, 
+            "ymax": 0.0005, 
+            "y": -0.0004023336351220093, 
+            "x": 467.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.1453384646085338e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 280017, 
+            "ymax": 0.0005, 
+            "y": -0.0004043749509305658, 
+            "x": 468.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.8794538199380065e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 280018, 
+            "ymax": 0.0005, 
+            "y": -0.00041159343163389575, 
+            "x": 469.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.475326414069968e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 280020, 
+            "ymax": 0.0005, 
+            "y": -0.00037338509881529964, 
+            "x": 470.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.570192957196687e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 280023, 
+            "ymax": 0.0005, 
+            "y": 0.0002688510261557914, 
+            "x": 471.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0006441056311670845, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 280024, 
+            "ymax": 0.0005, 
+            "y": -0.0003979324712906104, 
+            "x": 472.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.554502092621499e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 280187, 
+            "ymax": 0.0005, 
+            "y": -0.00038703538702862436, 
+            "x": 473.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.7563630320972406e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 280188, 
+            "ymax": 0.0005, 
+            "y": -0.0003954891817702226, 
+            "x": 474.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.114265209278452e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 280190, 
+            "ymax": 0.0005, 
+            "y": -0.000626188858874968, 
+            "x": 475.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.0008600389505298361, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 280191, 
+            "ymax": 0.0005, 
+            "y": -0.0004032874110588841, 
+            "x": 476.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.493285572115306e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 280194, 
+            "ymax": 0.0005, 
+            "y": -0.0003914572002526315, 
+            "x": 477.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.50061264348256e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 280242, 
+            "ymax": 0.0005, 
+            "y": -0.00039493799267720795, 
+            "x": 478.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.27286587576481e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 280249, 
+            "ymax": 0.0005, 
+            "y": -0.00039895221229872336, 
+            "x": 479.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.92356589246372e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 280251, 
+            "ymax": 0.0005, 
+            "y": -0.0004151688661681762, 
+            "x": 480.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.474804285700467e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 280327, 
+            "ymax": 0.0005, 
+            "y": -0.0004170189481538439, 
+            "x": 481.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.1197125680890537e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 280330, 
+            "ymax": 0.0005, 
+            "y": -0.0004050991942926813, 
+            "x": 482.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.4277071933793955e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 280349, 
+            "ymax": 0.0005, 
+            "y": -0.0004041267039849346, 
+            "x": 483.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.659115636890245e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 280363, 
+            "ymax": 0.0005, 
+            "y": -0.00039669420995250016, 
+            "x": 484.0, 
+            "ymin": -0.0005, 
+            "yErr": 7.953419846157296e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 280364, 
+            "ymax": 0.0005, 
+            "y": -0.0003974054260090964, 
+            "x": 485.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.429838158240549e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 280383, 
+            "ymax": 0.0005, 
+            "y": -0.00039883057454925857, 
+            "x": 486.0, 
+            "ymin": -0.0005, 
+            "yErr": 0.00012819608659090206, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 280384, 
+            "ymax": 0.0005, 
+            "y": -0.00040765535441973855, 
+            "x": 487.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.2355342696938174e-05, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 280385, 
+            "ymax": 0.0005, 
+            "y": -0.00039958289285741696, 
+            "x": 488.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.121603096652767e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }, 
+        {
+            "run": 281616, 
+            "ymax": 0.0005, 
+            "y": -0.0003750237433014145, 
+            "x": 489.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.53946641072533e-06, 
+            "yTitle": "HitResiduals TOB Layer 3 Mean"
+        }
+    ]
+}
