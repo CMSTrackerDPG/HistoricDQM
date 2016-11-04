@@ -1,0 +1,31 @@
+{
+    "NUnlocked_Channels_mean": [
+        {
+            "run": 272760, 
+            "ymax": 0, 
+            "y": 79.81182273372693, 
+            "x": 1.0, 
+            "ymin": 0, 
+            "yErr": 0.02046582599642956, 
+            "yTitle": "Avg. N_{UNLOCKED} Channels"
+        }, 
+        {
+            "run": 272761, 
+            "ymax": 0, 
+            "y": 86.0, 
+            "x": 2.0, 
+            "ymin": 0, 
+            "yErr": 0.0, 
+            "yTitle": "Avg. N_{UNLOCKED} Channels"
+        }, 
+        {
+            "run": 272762, 
+            "ymax": 0, 
+            "y": 86.49496115302331, 
+            "x": 3.0, 
+            "ymin": 0, 
+            "yErr": 0.013151378617033364, 
+            "yTitle": "Avg. N_{UNLOCKED} Channels"
+        }
+    ]
+}

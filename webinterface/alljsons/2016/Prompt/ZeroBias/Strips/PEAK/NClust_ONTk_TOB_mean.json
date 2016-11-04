@@ -1,0 +1,31 @@
+{
+    "NClust_ONTk_TOB_mean": [
+        {
+            "run": 272760, 
+            "ymax": 0, 
+            "y": 638.4646153846154, 
+            "x": 1.0, 
+            "ymin": 0, 
+            "yErr": 6.100073258723734, 
+            "yTitle": "Avg. N_{Clusters} (ON-Track)"
+        }, 
+        {
+            "run": 272761, 
+            "ymax": 0, 
+            "y": 732.8408949658173, 
+            "x": 2.0, 
+            "ymin": 0, 
+            "yErr": 1.9481653939614685, 
+            "yTitle": "Avg. N_{Clusters} (ON-Track)"
+        }, 
+        {
+            "run": 272762, 
+            "ymax": 0, 
+            "y": 720.2979847057333, 
+            "x": 3.0, 
+            "ymin": 0, 
+            "yErr": 1.623086258281809, 
+            "yTitle": "Avg. N_{Clusters} (ON-Track)"
+        }
+    ]
+}

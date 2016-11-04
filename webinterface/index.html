@@ -192,6 +192,7 @@ header {
 					<option>2012</option>
 					<option>2013</option>
 					<option>2015</option>
+					<option>2016</option>
 			</select></label>
 		</p>
 		<p class="contact-input">
@@ -210,6 +211,7 @@ header {
 					<option value="" selected>Choose Strip APV Mode...</option>
 					<option>DECO</option>
 					<option>PEAK</option>
+					<option>PEAK + DECO</option>
 			</select></label>
 		</p>
 		<p class="contact-input">
@@ -219,8 +221,8 @@ header {
 					<option>Pixel</option>
 					<option>Strips</option>
 					<option>Tracking</option>
-					<option>Reco Errors</option>
-					<option>Alignment</option>
+					<option>RecoErrors</option>
+					<!--<option>Alignment</option></p-->
 			</select></label>
 		</p>
 		<br />
@@ -233,7 +235,9 @@ header {
 			<label><input id="runTo" name="runto"
 				placeholder=" Run range (To)"></label>
 		</p>
-		<p class="contact-text">(optional)</p>
+		<p class="contact-text">(Optional: Put 0 in  Run Selection Windows for geting First/Last Run or Both)</p>
+		<br>
+		<p class="contact-text">Notification: Please use APV Mode: PEAK/DECO in Strips  Sub-System and PEAK + DECO in Tracking and RecoErrors Sub-System, while in Pixel Sub-System the APV Mode is diactivated</p>
 		<br>
 
 		<p class="contact-submit">

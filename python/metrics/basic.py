@@ -19,7 +19,12 @@ class BaseMetric:
             result, entries = self.__cache[cacheLocation]
         else:
             assert (not histo==None), "reading from cache failed but no histo givento compute metric!"
-            result = self.calculate(histo)
+            result = (0,0)
+            try:
+                result = self.calculate(histo)
+            except StandardError as msg :
+              print "Warning: fit failed, returning 0"
+
             entries = histo.GetEntries()
             if not self.__cache == None:
                 self.__cache[cacheLocation] = (result, entries)
@@ -87,6 +92,18 @@ class MeanY(BaseMetric):
         sumw     = histo.GetSumOfWeights()
         nentries = histo.GetEntries()
         return (sumw/nentries if nentries else 0, 0) 
+
+class MeanYAxis(BaseMetric):
+    def calculate(self, histo):
+        return (histo.GetMean(2), histo.GetMeanError(2)) 
+
+class RMSXAxis(BaseMetric):
+    def calculate(self, histo):
+        return (histo.GetRMS(1), histo.GetRMSError(1)) 
+
+class RMSYAxis(BaseMetric):
+    def calculate(self, histo):
+        return (histo.GetRMS(2), histo.GetRMSError(2)) 
 
 #class WeightedMeanY(BaseMetric):
 #    def calculate(self, histo):

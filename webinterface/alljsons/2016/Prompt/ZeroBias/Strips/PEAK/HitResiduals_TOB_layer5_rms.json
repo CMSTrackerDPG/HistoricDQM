@@ -1,0 +1,31 @@
+{
+    "HitResiduals_TOB_layer5_rms": [
+        {
+            "run": 272760, 
+            "ymax": 0.1, 
+            "y": 0.03322024225311164, 
+            "x": 1.0, 
+            "ymin": -0.05, 
+            "yErr": 6.396532480230693e-05, 
+            "yTitle": "HitResiduals TOB Layer 5 RMS"
+        }, 
+        {
+            "run": 272761, 
+            "ymax": 0.1, 
+            "y": 0.03588167427118853, 
+            "x": 2.0, 
+            "ymin": -0.05, 
+            "yErr": 2.9947746116469084e-05, 
+            "yTitle": "HitResiduals TOB Layer 5 RMS"
+        }, 
+        {
+            "run": 272762, 
+            "ymax": 0.1, 
+            "y": 0.0352465993775439, 
+            "x": 3.0, 
+            "ymin": -0.05, 
+            "yErr": 2.4629310057465607e-05, 
+            "yTitle": "HitResiduals TOB Layer 5 RMS"
+        }
+    ]
+}

@@ -1,3 +1,5 @@
+var start;
+var end;
 var yArray = [];
 var yMinArray = [];
 var yMaxArray = [];
@@ -7,14 +9,12 @@ var myYValues = [];
 var myYValue_max = 0;
 var myYValue_min = 0;
 var myYErrValues = [];
-var start;
-var end;
 var urlLink = "";
 var colors = [];
 var type = "";
 var yTitle = "";
-var runFrom = "";
-var runTo = "";
+var runFrom = 0;
+var runTo = 0;
 jQuery(document).ready(
 		function($) {
 			colors.push("#669999");
@@ -35,13 +35,21 @@ jQuery(document).ready(
 			var subsystem = sessionStorage.getItem("subsystem");
 			runFrom = sessionStorage.getItem("runFrom");
 			runTo = sessionStorage.getItem("runTo");
+			runFrom = sessionStorage.getItem("runFrom");
 			var urlFromSession = sessionStorage.getItem("url");
-			if (urlFromSession != null) {
-				urlLink = urlFromSession;
-			} else {
-				if (apvMode == "") {
+			console.log("urlFromSession : " + urlFromSession);
+			console.log("apvMode : " + apvMode);
+ 
+			console.log("runFrom: " + runFrom);
+			console.log("runTo: " + runTo);
+			
+				if (apvMode == "" || apvMode == "null" || apvMode == "PEAK + DECO") { 
 					urlLink = "/" + year + "/Prompt/" + dataSet + "/"
 							+ subsystem;
+				     if (dataSet == "StreamExpress" || dataSet == "StreamExpressCosmics") {
+				          urlLink = "/" + year + "/" + dataSet + "/"
+							+ subsystem;
+				     }							     			
 				} else {
 				  if (dataSet == "StreamExpress") {
 					urlLink = "/" + year + "/" + dataSet + "/"
@@ -59,12 +67,15 @@ jQuery(document).ready(
 				}
 				console.log("urlLink : " + urlLink);
                                 
-			}
-			if (runFrom == -1 || runTo == -1) {
+			
+			if (runFrom == -1 && runTo == -1) {
 				type = 0;
-			} else if (runFrom > 0 && runTo > 0) {
+				console.log("type : " + type);
+			} else if (runFrom >= 0 || runTo >= 0) {
 				type = 1;
+				console.log("type : " + type);
 			}
+                       
 			$("input:checkbox").each(function() {
 				$(this).prop('checked', true);
 				upgradeGraph(this);
@@ -151,10 +162,10 @@ $(function() {
 
 function upgradeGraph(sel) {
 
-	yArray = [];
-	yErrArray = [];
 	start = 0;
 	end = 0;
+	yArray = [];
+	yErrArray = [];
 	var name = sel.name;
 	myYValues = [];
 	myYErrValues = [];
@@ -248,11 +259,14 @@ function scatterData(jsons, check) {
 	var maxYValue = 0;
 	var minYValue = 0;
 	var jsonYminValue = 0;
-	var jsonYmaxValue = 0;	
+	var jsonYmaxValue = 0;
+	var lowRun = 0;
+	var upRun = 0;
+	var upRunId = 0;	
 	for (var i = 0; i < jsons.length; i++) {
 		myYValues = [];
 		myYErrValues = [];
-		xAxisValue = [];
+		xAxisValues = [];
 		var jsonURL = jsons[i];
 		var xmlhttp = new XMLHttpRequest();
 		var url = "alljsons" + urlLink + "/" + jsons[i];
@@ -273,28 +287,44 @@ function scatterData(jsons, check) {
 				i = i - 100;
 				if (i < 0)
 					i = 0;
+                                var j = 0;
 
 				if (check == "1") {
 					console.log("In 1: " + value.length);
 					console.log("runFrom: " + runFrom);
 					console.log("runTo: " + runTo);
-					for (var x = 0; x < value.length; x++) {
+				        
+					upRunId = value.length -1;
+				        lowRun = runFrom;
+					upRun = runTo;
+					if(lowRun == 0) lowRun = value[0].run;
+					if(upRun == 0 ) upRun = value[upRunId].run;
+					
+					console.log("lowRun: " + lowRun);
+					console.log("upRun: " + upRun);
+					for (j; j < value.length; j++) {
+                                                
+						if (value[j].run >= lowRun && value[j].run <= upRun) {
+							yTitle = value[j].yTitle;
+							xAxisValues.push(value[j].run);
+							myYValues.push(value[j].y);
+                                                        
+							if( value[j].y > maxYValue ){ maxYValue  = value[j].y;} 
+                                                        if( value[j].y < minYValue ){ minYValue  = value[j].y;} 
 
-						if (value[x].run >= runFrom && value[x].run <= runTo) {
-							yTitle = value[x].yTitle;
-							xAxisValues.push(value[x].run);
-							myYValues.push(value[x].y);
-                                     if( value[x].y > maxYValue ){ maxYValue  = value[x].y;} 
-                                     if( value[x].y < minYValue ){ minYValue  = value[x].y;} 
+                                                        jsonYminValue = value[j].yMin;
+				                        jsonYmaxValue = value[j].yMax;
 
-                                                jsonYminValue = value[x].ymin;
-				                jsonYmaxValue = value[x].ymax;
-
-							var yErrUp = value[x].y + value[x].yErr;
-							var yErrDown = value[x].y - value[x].yErr;
+							var yErrUp = value[j].y + value[j].yErr;
+							var yErrDown = value[j].y - value[j].yErr;
 
 							// myYErrValues.push([ value[i].x, yErr ]);
 							myYErrValues.push([ yErrDown, yErrUp ]);
+					               
+//						        console.log("J value  : " + j );
+//	                                                console.log("Run 1 : " +  value[j].run);
+//	                                                console.log("Run 2 : " +  xAxisValues);
+//					                console.log("Y  : " + value[j].y );
 						}
 
 					}
@@ -307,43 +337,52 @@ function scatterData(jsons, check) {
 						xAxisValues.push(value[i].run);
 						myYValues.push(value[i].y);
 
-                                if( value[i].y > maxYValue ){ maxYValue  = value[i].y;} 
-                                if( value[i].y < minYValue ){ minYValue  = value[i].y;} 
+                                                if( value[i].y > maxYValue ){ maxYValue  = value[i].y;} 
+                                                if( value[i].y < minYValue ){ minYValue  = value[i].y;} 
 
-                                                jsonYminValue = value[i].ymin;
-				                jsonYmaxValue = value[i].ymax;
+                                                jsonYminValue = value[i].yMin;
+				                jsonYmaxValue = value[i].yMax;
 								      
 
 						var yErrUp = value[i].y + value[i].yErr;
 						var yErrDown = value[i].y - value[i].yErr;
 						// myYErrValues.push([ value[i].x, yErr ]);
 						myYErrValues.push([ yErrDown, yErrUp ]);
+                                             
+					       console.log("i value  : " + i );
+	                                       console.log("Run  : " + value[i].run );
+					       console.log("Y  : " + value[i].y );
 
 					}
 				}
 				yArray.push(myYValues);
 				yErrArray.push(myYErrValues);
                      
-		      console.log("JsonYValue Max : " + jsonYmaxValue );
-	                console.log("JsonYValue Min : " + jsonYminValue );
+		                console.log("JsonYValue Max : " + jsonYmaxValue );
+	                        console.log("JsonYValue Min : " + jsonYminValue );
                     
-		     myYValue_max  =   jsonYmaxValue;
-		     myYValue_min  = jsonYminValue;
+		                myYValue_max  =   jsonYmaxValue;
+		                myYValue_min  = jsonYminValue;
 		       
-		     if( (jsonYmaxValue == 0 ) || (jsonYmaxValue == jsonYminValue ) ) {  
-                       myYValue_max  = 1.5*maxYValue;
-                       myYValue_min  = 1.5*minYValue;
-                       if( myYValue_min == 0) { myYValue_min = -20;
-                       if( maxYValue < 10  ) myYValue_min = -2.0;
+		                if( (jsonYmaxValue == 0 ) || (jsonYmaxValue == jsonYminValue ) ) {  
+                                    myYValue_max  = 1.5*maxYValue;
+                                    myYValue_min  = 1.5*minYValue;
+                                    if( myYValue_min == 0) { 
+		                        myYValue_min = -20;
+                                        if( maxYValue < 10  ) myYValue_min = -0.2;
+					if( maxYValue < 0.001  ) {
+					   myYValue_max = 0.0005;
+					   myYValue_min = -0.0001;
+					}   
+                                    }
+                                }
+                                
+				console.log("MyYValue Max : " + myYValue_max );
+	                        console.log("MyYValue Min : " + myYValue_min );
 
-                     }
-}
-                     console.log("MyYValue Max : " + myYValue_max );
-	                console.log("MyYValue Min : " + myYValue_min );
+	               }
 
-			}
-
-		};
+		}
 
 		xmlhttp.open("GET", url, false);
 		xmlhttp.send();

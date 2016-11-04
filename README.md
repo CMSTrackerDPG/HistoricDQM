@@ -3,22 +3,15 @@ How to run historic DQM:
 
 Make sure you have your user certificate installed (automatically done for `cctrack` at `vocms061`) and CMSSW initialized (needed only for ROOT), then run `trendPlots` script with params, for example:
 
-`python ./trendPlots.py -C cfg/trendPlotsDQM.ini -C cfg/trendPlotsExample.ini --epoch Run2015D --dataset ZeroBias --reco Prompt`
+bash autoPlotandPublish_2016_v2.sh
 
-`python ./trendPlots.py -C cfg/trendPlotsDQM.ini -C cfg/trendPlotsExample.ini -r "run > 250000 and run < 260000" --dataset ZeroBias --reco Prompt`
+Inside autoPlotandPublish_2016_v2.sh you find commands of the type:
 
-`python ./trendPlots.py -C cfg/trendPlotsDQM.ini -C cfg/trendPlotsExample.ini -r "run > 250000 and run < 260000" -L runlist.txt`
-
-`python ./trendPlots.py -C cfg/trendPlotsDQM.ini -C cfg/trendPlotsExample.ini -r "run > 250000 and run < 260000" -J json.json`
-
-`python ./trendPlots.py -C cfg/trendPlotsDQM.ini -C cfg/trendPlotsExample.ini --dataset Cosmics --state PEAK`
-
-To run on online data:
-`python ./trendPlots.py -C cfg/trendPlotsDQMOnline.ini -C cfg/trendPlotsExample.ini -r "run > 250000 and run < 260000" --dataset Online/ALL --reco "*" --epoch "*" --tag "*"`
+python ./trendPlots.py -C cfg/trendPlotsDQM_cronPPExpressStrips.ini -C cfg/trendPlotsStrip_General_2015.ini -C cfg/trendPlotsStrip_TEC_2015.ini -C cfg/trendPlotsStrip_TID_2015.ini -C cfg/trendPlotsStrip_TIB.ini \
+ -C cfg/trendPlotsStrip_TOB.ini -C cfg/trendPlotsStripG2.ini -C cfg/trendPlotsStrip_StoN.ini --dataset StreamExpress --epoch Run2016 -r "run >= 271036" --reco Express -J json_DCSONLY_DECO.txt
 
 Type `trendPlots.py --help` for all defaults. Any plot cfg file can be used from list in `cfg/*.ini`.
 
 All output trend plots (PNG/ROOT/PDF/...) are saved in a corresponding directory `fig/`.
 
-(OBSOLETE) Plot comparisons together: `python -i plotTogether.py`
 

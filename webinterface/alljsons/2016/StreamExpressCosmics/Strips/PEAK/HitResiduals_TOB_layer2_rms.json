@@ -1,0 +1,49 @@
+{
+    "HitResiduals_TOB_layer2_rms": [
+        {
+            "run": 272711, 
+            "ymax": 0.1, 
+            "y": 0.01558417149657334, 
+            "x": 1.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0007515354843695223, 
+            "yTitle": "HitResiduals TOB Layer 2 RMS"
+        }, 
+        {
+            "run": 272712, 
+            "ymax": 0.1, 
+            "y": 0.012393587012856, 
+            "x": 2.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0011041084856018629, 
+            "yTitle": "HitResiduals TOB Layer 2 RMS"
+        }, 
+        {
+            "run": 272714, 
+            "ymax": 0.1, 
+            "y": 0.016385795115895767, 
+            "x": 3.0, 
+            "ymin": -0.05, 
+            "yErr": 0.000735743920184828, 
+            "yTitle": "HitResiduals TOB Layer 2 RMS"
+        }, 
+        {
+            "run": 272716, 
+            "ymax": 0.1, 
+            "y": 0.046120492195831767, 
+            "x": 4.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0021457194882013677, 
+            "yTitle": "HitResiduals TOB Layer 2 RMS"
+        }, 
+        {
+            "run": 272717, 
+            "ymax": 0.1, 
+            "y": 0.020700710519688165, 
+            "x": 5.0, 
+            "ymin": -0.05, 
+            "yErr": 0.002548081322199974, 
+            "yTitle": "HitResiduals TOB Layer 2 RMS"
+        }
+    ]
+}

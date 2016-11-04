@@ -34,24 +34,59 @@ $(document).ready(
 							if (dataSet == "ZeroBias"
 									&& subsystem == "Pixel"
 									&& (apvMode == "" || apvMode == null)) {
-								$("#body").load("PixelCombined.html");
+								$("#body").load("Pixel.html");
 							} else if (dataSet == "ZeroBias"
 									&& subsystem == "Tracking"
-									&& (apvMode == "" || apvMode == null)) {
+									&& apvMode == "PEAK + DECO") {
 								$("#body").load("Tracking.html");
-
+							} else if (dataSet == "ZeroBias"
+									&& subsystem == "RecoErrors"
+									&& apvMode == "PEAK + DECO") {
+								$("#body").load("StreamExprRecoErrors.html");
+							} else if (dataSet == "StreamExpress"
+									&& subsystem == "Pixel"
+									&& (apvMode == "" || apvMode == null)) {
+								$("#body").load("StreamExprPixel.html");
+							} else if (dataSet == "StreamExpress"
+									&& subsystem == "RecoErrors"
+									&& apvMode == "PEAK + DECO") {
+								$("#body").load("StreamExprRecoErrors.html");
+							} else if (dataSet == "StreamExpress"
+									&& subsystem == "Tracking"
+									&& apvMode == "PEAK + DECO") {
+								$("#body").load("StreamExprTracking.html");
 							} else if ((dataSet == "ZeroBias" || dataSet == "StreamExpress")
 									&& subsystem == "Strips"
-									&& apvMode == "DECO") {
+									&& (apvMode == "PEAK" || apvMode == "DECO")) {
 								$("#body").load("StripDeco.html");
 							} else if ( dataSet == "StreamExpressCosmics"
 									&& subsystem == "Strips"
-									&& apvMode == "PEAK") {
+									&& (apvMode == "PEAK" || apvMode == "DECO" )) {
 								$("#body").load("StripPeakExprCosmics.html");
+							} else if ( dataSet == "StreamExpressCosmics"
+									&& subsystem == "Tracking"
+									&& apvMode == "PEAK + DECO") {
+								$("#body").load("StreamExprCosmicTracking.html");
+							} else if ( dataSet == "StreamExpressCosmics"
+									&& subsystem == "Pixel"
+									&& (apvMode == "" || apvMode == null)) {
+								$("#body").load("CosmicPixel.html");
+							} else if ( dataSet == "Cosmics" 
+									&& subsystem == "Tracking"
+									&& apvMode == "PEAK + DECO") {
+								$("#body").load("CosmicTracking.html");
+							} else if ( dataSet == "Cosmics" 
+									&& subsystem == "Pixel"
+									&& (apvMode == "" || apvMode == null)) {
+								$("#body").load("CosmicPixel.html");
 							} else if ( dataSet == "Cosmics"
 									&& subsystem == "Strips"
 									&& apvMode == "PEAK") {
 								$("#body").load("StripPeakCosmics.html");
+							} else if ( dataSet == "Cosmics"
+									&& subsystem == "Strips"
+									&& apvMode == "DECO") {
+								$("#body").load("StripDecoCosmics.html");
 							} else {
 								$("#body").load("404page.html");
 							}
@@ -63,7 +98,7 @@ $(document).ready(
 		});
 
 function subsystem() {
-	if ($("#subsystem").val() == "Pixel" || $("#subsystem").val() == "Tracking") {
+	if ($("#subsystem").val() == "Pixel" ) {
 		$("#apvMode").prop("disabled", true);
 		$("#apvMode").val("No Selection");
 	} else {

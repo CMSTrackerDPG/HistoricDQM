@@ -17,16 +17,27 @@ def dqm_get_json(server, run, dataset, folder, rootContent=False):
                { "__builtins__": None }, {})
     if rootContent:
         # Now convert into real ROOT histograms   
+        print "Now convert into real ROOT histograms 1"  
         for idx,item in enumerate(data['contents']):
+            #print "Now convert into real ROOT histograms 2"  
             if 'obj' in item.keys():
-                if 'rootobj' in item.keys(): 
+               #print "Now convert into real ROOT histograms 3"  
+               if 'rootobj' in item.keys(): 
+                    #print "Now convert into real ROOT histograms 4"  
                     a = array('B')
+                    #print "Now convert into real ROOT histograms 5"  
                     a.fromstring(item['rootobj'].decode('hex'))
+                    #print "Now convert into real ROOT histograms 6"  
                     t = TBufferFile(TBufferFile.kRead, len(a), a, False)
+                    #print "Now convert into real ROOT histograms 7"  
                     rootType = item['properties']['type']
+                    #print "Now convert into real ROOT histograms 8"  
                     if rootType == 'TPROF': rootType = 'TProfile'
+                    #print "Now convert into real ROOT histograms 9"  
                     if rootType == 'TPROF2D': rootType = 'TProfile'
+		    #print "Now convert into real ROOT histograms 10"
                     data['contents'][idx]['rootobj'] = t.ReadObject(eval(rootType+'.Class()'))
+		    #print "Now convert into real ROOT histograms 11"
     return dict( [ (x['obj'], x) for x in data['contents'][1:] if 'obj' in x] )
 
 def dqm_get_samples(server, match, type="offline_data"):

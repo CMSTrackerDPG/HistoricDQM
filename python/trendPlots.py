@@ -124,8 +124,6 @@ class TrendPlot:
               histo1 = getHistoFromDQM( serverUrl, runNr, dataset, histoPath)
               histosFile = self.__config.get(self.__section, "saveHistos")
               if not os.path.exists(histosFile): os.makedirs(histosFile)
-              if self.__FileHisto==None:
-                    print "prazan",self.__FileHisto
 
               if self.__histoSum==None:
                   self.__histoSum=histo1
@@ -139,7 +137,7 @@ class TrendPlot:
                 histo1.Write()
 
           except StandardError as msg :
-              print "WARNING: something went wrong gettin the histogram ", runNr, msg
+              print "WARNING: something went wrong getting the histogram ", runNr, msg
 
         try:
             if self.__cache == None or cacheLocation not in self.__cache:
@@ -147,11 +145,12 @@ class TrendPlot:
                 Entr=0
                 Entr=histo.GetEntries()
                 print "###############    GOT HISTO #################" 
-
                 y=0
                 yErr    = (0.0,0.0)
                 if Entr>self.__threshold:
-                       (y, yErr) = self.__metric(histo, cacheLocation)
+                    (y, yErr) = self.__metric(histo, cacheLocation)
+                else:
+                    self.__cache[cacheLocation] = ((0.,0.),0.)
             elif cacheLocation in self.__cache:
                 (y, yErr) = self.__metric(None, cacheLocation)
         except StandardError as msg :
@@ -471,8 +470,8 @@ def getRunsFromDQM(config, mask, pd, mode, runMask="all",runlistfile=[],jsonfile
         decoded = jsonn.loads(info)
         print decoded
         runs1=[]
-        for sranje in decoded:
-            runs1.append(sranje)           
+        for item in decoded:
+            runs1.append(item)           
 
     for runNr, dataset in json:
         if dataset not in masks: masks.append(dataset)
@@ -570,7 +569,6 @@ def initPlots( config ):
     cache = {}
     if pathExisits(cachePath):
         cacheFile = open(cachePath,"r")
-        print "cacheFile " , cachePath
         cache.update( eval(cacheFile.read()) )
         cacheFile.close()
     for section in sorted(config.sections()):
@@ -620,7 +618,8 @@ def main(argv=None):
     import os
     from optparse import OptionParser
     from ROOT import TCanvas,TFile
-    
+    from src.dqmjson import dqm_get_json    
+
     if argv == None:
         argv = sys.argv[1:]
     parser = OptionParser()
@@ -657,7 +656,12 @@ def main(argv=None):
     initStyle(config)
 
     dsetmask = ".*/" + opts.dset +"/"+opts.epoch+".*"+opts.reco+"*.*"+opts.tag+"/"+opts.datatier
-    print dsetmask
+    print "dsetmask = ",dsetmask
+    print "opts.state = ",opts.state
+    print "opts.runs = ",opts.runs
+    print "opts.list = ",opts.list
+    print "opts.json = ",opts.json
+     
     runs = getRunsFromDQM(config, dsetmask, opts.dset, opts.state, opts.runs,opts.list,opts.json)
     if not runs : raise StandardError, "*** Number of runs matching run/mask/etc criteria is equal to zero!!!"
 
@@ -666,9 +670,25 @@ def main(argv=None):
     print "got %s run between %s and %s"%(len(runs), min(runs.keys()), max(runs.keys()))
 #    getReferenceRun(config, runs)
     plots, cache = initPlots(config)
+
+    runInCache = []
+    for itest in range(0,len(cache.keys())):
+        runInCache.append(cache.keys()[itest][1])
+
     for run in sorted(runs.keys()):
-        for plot in plots:
-            plot.addRun(*(runs[run]))
+        if cache == None or runs[run][1] not in runInCache:
+            print "............------------>>> RUN %s NOT IN CACHE"%(runs[run][1])
+            rc = dqm_get_json(runs[run][0],runs[run][1],runs[run][2], "Info/ProvInfo")
+            print "............------------>>> RunIsComplete flag: " , rc['runIsComplete']['value']
+            isDone = int(rc['runIsComplete']['value'])
+        else:
+            isDone = 1
+            print "............------------>>> RUN %s IN CACHE"%(runs[run][1])
+        if isDone == 1 :
+            for plot in plots:
+                plot.addRun(*(runs[run]))
+        else:
+            print "################### RUN %s NOT FULLY PROCESSED, SKIP #############"%(runs[run][1])
 
     cachePath = config.get("output","cachePath")
     cacheFile = open(cachePath,"w")
@@ -690,12 +710,8 @@ def main(argv=None):
 
 
     if makeSummary: canvas.Print(os.path.join(outPath,"trendPlots.ps["))
-    print "plots = ", plots
-    for plot in plots:
-        print "plot = ", plot
     for plot in plots:
         #(graph, legend, refLabel) = plot.getGraph()
-        print "plot = ", plot
         try: plot.getGraph()
         except:
             print "Error producing plot:", plot.getName()

@@ -1,0 +1,31 @@
+{
+    "HitResiduals_TEC_PLUS_wheel5_mean": [
+        {
+            "run": 272760, 
+            "ymax": 0.0005, 
+            "y": 4.7294059450787255e-05, 
+            "x": 1.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.444349195413839e-05, 
+            "yTitle": "HitResiduals TEC Wheel 5 Mean"
+        }, 
+        {
+            "run": 272761, 
+            "ymax": 0.0005, 
+            "y": 3.455493464866479e-05, 
+            "x": 2.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.765641136418993e-05, 
+            "yTitle": "HitResiduals TEC Wheel 5 Mean"
+        }, 
+        {
+            "run": 272762, 
+            "ymax": 0.0005, 
+            "y": 2.6271293748716347e-05, 
+            "x": 3.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.3323954966651427e-05, 
+            "yTitle": "HitResiduals TEC Wheel 5 Mean"
+        }
+    ]
+}

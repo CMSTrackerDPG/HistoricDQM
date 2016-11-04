@@ -1,0 +1,31 @@
+{
+    "HitResiduals_TOB_layer5_mean": [
+        {
+            "run": 272760, 
+            "ymax": 0.0005, 
+            "y": -5.1833217624612216e-05, 
+            "x": 1.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.046062985702257e-05, 
+            "yTitle": "HitResiduals TOB Layer 5 Mean"
+        }, 
+        {
+            "run": 272761, 
+            "ymax": 0.0005, 
+            "y": -5.213518399990277e-05, 
+            "x": 2.0, 
+            "ymin": -0.0005, 
+            "yErr": 4.235250872041677e-05, 
+            "yTitle": "HitResiduals TOB Layer 5 Mean"
+        }, 
+        {
+            "run": 272762, 
+            "ymax": 0.0005, 
+            "y": -0.00010953341707946861, 
+            "x": 3.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.4831104315159937e-05, 
+            "yTitle": "HitResiduals TOB Layer 5 Mean"
+        }
+    ]
+}

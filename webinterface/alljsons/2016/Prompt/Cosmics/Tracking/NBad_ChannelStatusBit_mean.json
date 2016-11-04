@@ -1,0 +1,31 @@
+{
+    "NBad_ChannelStatusBit_mean": [
+        {
+            "run": 272760, 
+            "ymax": 0, 
+            "y": 86.77979971601525, 
+            "x": 1.0, 
+            "ymin": 0, 
+            "yErr": 0.020538254157163646, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 272761, 
+            "ymax": 0, 
+            "y": 92.96833362173386, 
+            "x": 2.0, 
+            "ymin": 0, 
+            "yErr": 0.0016534295637312285, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 272762, 
+            "ymax": 0, 
+            "y": 93.46419322148407, 
+            "x": 3.0, 
+            "ymin": 0, 
+            "yErr": 0.013216812896085868, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }
+    ]
+}
