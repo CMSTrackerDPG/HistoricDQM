@@ -62,7 +62,7 @@ def getRunList(save=False):
             filename = 'DT_json_DCSONLY.txt'
             if options.cosmics: 
                 filename = 'DT_json_DCSONLY_cosmics.txt'
-            lumiSummary = open('/afs/cern.ch/user/r/rossia/workspace/CMSSW_8_1_0_pre12/HistoricDQM/python/'+filename, 'w')
+            lumiSummary = open('/data/users/HDQM/CMSSW_8_1_0/HistoricDQM/python/'+filename, 'w')
             json.dump(toOrdinaryJSON(dcs_only, verbose=False), lumiSummary, indent=2, sort_keys=True)
             lumiSummary.close()
     else:
