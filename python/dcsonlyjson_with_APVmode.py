@@ -124,7 +124,8 @@ def getRunList(save=False):
           #      else:
           #         filename = 'json_DCSONLY_DECO.txt'
 
-            lumiSummary = open('/data/users/HDQM/CMSSW_9_1_0_pre1/HistoricDQM/python/'+filename, 'w')
+#            lumiSummary = open('/data/users/HDQM/CMSSW_9_1_0_pre1/HistoricDQM/python/'+filename, 'w')
+            lumiSummary = open('/afs/cern.ch/user/r/rossia/workspace/CMSSW_9_1_0_pre1/HistoricDQM/python//'+filename, 'w')
             json.dump(toOrdinaryJSON(dcs_only, verbose=False), lumiSummary, indent=2, sort_keys=True)
             lumiSummary.close()
 

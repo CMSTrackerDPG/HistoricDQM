@@ -11,6 +11,34 @@ python dcsonlyjson_with_APVmode.py --min 290129 --cosmics
 python dcsonlyjson_with_APVmode.py --min 290129 --cosmics --PEAK 
 
 
+# ++++++++++++++++++++++++++++++++   Cosmics  +++++++++++++++++++++++++++++++++++++++
+
+
+#Cosmics STRIPS Commissioning2017
+rm -rf ./JSON/*
+python ./trendPlots.py -C cfg/trendPlotsDQM_cronCPrompt.ini -C cfg/trendPlotsStrip_TotalClusterMultiplicity.ini -C cfg/trendPlotsStrip_StoN.ini -C cfg/trendPlotsStrip_StoN_mean.ini --dataset Cosmics --epoch Commissioning2017 -r "run >= 290129" --reco Prompt -J json_DCSONLY_cosmics_DECO.txt
+cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/Prompt/Cosmics/Strips/DECO/
+cp ./JSON/* /data/users/event_display/HDQM/v2/alljsons/2017/Prompt/Cosmics/Strips/DECO/
+touch .doneCosmics
+
+rm -rf ./JSON/*
+python ./trendPlots.py -C cfg/trendPlotsDQM_cronCPrompt.ini -C cfg/trendPlotsStrip_TotalClusterMultiplicity.ini -C cfg/trendPlotsStrip_StoN.ini -C cfg/trendPlotsStrip_StoN_mean.ini --dataset Cosmics --epoch Commissioning2017 -r "run >= 290129" --reco Prompt -J json_DCSONLY_cosmics_PEAK.txt
+cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/Prompt/Cosmics/Strips/PEAK/
+cp ./JSON/* /data/users/event_display/HDQM/v2/alljsons/2017/Prompt/Cosmics/Strips/PEAK/
+touch .doneCosmics
+
+rm -rf ./JSON/*
+python ./trendPlots.py -C cfg/trendPlotsDQM_cronCPrompt.ini -C cfg/trendPlotsCStrip_TIB_Residuals.ini -C cfg/trendPlotsCStrip_TOB_Residuals.ini -C cfg/trendPlotsCStrip_TEC_Minus_Residuals.ini -C cfg/trendPlotsCStrip_TEC_Plus_Residuals.ini --dataset Cosmics --epoch Commissioning2017 -r "run >= 290129" --reco Prompt -J json_DCSONLY_cosmics_DECO.txt
+cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/Prompt/Cosmics/Strips/DECO/
+cp ./JSON/* /data/users/event_display/HDQM/v2/alljsons/2017/Prompt/Cosmics/Strips/DECO/
+touch .doneCosmics
+
+rm -rf ./JSON/*
+python ./trendPlots.py -C cfg/trendPlotsDQM_cronCPrompt.ini -C cfg/trendPlotsCStrip_TIB_Residuals.ini -C cfg/trendPlotsCStrip_TOB_Residuals.ini -C cfg/trendPlotsCStrip_TEC_Minus_Residuals.ini -C cfg/trendPlotsCStrip_TEC_Plus_Residuals.ini --dataset Cosmics --epoch Commissioning2017 -r "run >= 290129" --reco Prompt -J json_DCSONLY_cosmics_PEAK.txt
+cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/Prompt/Cosmics/Strips/PEAK/
+cp ./JSON/* /data/users/event_display/HDQM/v2/alljsons/2017/Prompt/Cosmics/Strips/PEAK/
+touch .doneCosmics
+
 # ++++++++++++++++++++++++++++++++   StreamExpressCosmics  +++++++++++++++++++++++++++++++++++++++
 
 
