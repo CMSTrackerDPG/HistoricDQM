@@ -1,0 +1,40 @@
+#!/bin/bash
+
+#DCS JSON file production for collisions and cosmics
+ 
+python dcsonlyjson.py --min 290129
+#python dcsonlyjson_with_APVmode.py --min 290129
+#python dcsonlyjson_with_APVmode.py --min 290129 --PEAK
+
+python dcsonlyjson.py --min 290129 --cosmics
+#python dcsonlyjson_with_APVmode.py --min 290129 --cosmics
+#python dcsonlyjson_with_APVmode.py --min 290129 --cosmics --PEAK 
+
+
+# ++++++++++++++++++++++++++++++++   StreamExpressCosmics  +++++++++++++++++++++++++++++++++++++++
+
+
+#StreamExpressCosmics STRIPS Commissioning2017
+rm -rf ./JSON/*
+python ./trendPlots.py -C cfg/trendPlotsDQM_cronCExpress.ini -C cfg/trendPlotsStrip_TotalClusterMultiplicity.ini -C cfg/trendPlotsStrip_StoN.ini -C cfg/trendPlotsStrip_StoN_mean.ini --dataset StreamExpressCosmics --epoch Commissioning2017 -r "run >= 290129" --reco Express -J json_DCSONLY_cosmics.txt
+cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/StreamExpressCosmics/Strips/DECO/
+cp ./JSON/* /data/users/event_display/HDQM/v2/alljsons/2017/StreamExpressCosmics/Strips/DECO/
+touch .doneStreamExpressCosmics
+
+rm -rf ./JSON/*
+python ./trendPlots.py -C cfg/trendPlotsDQM_cronCExpress.ini -C cfg/trendPlotsStrip_TotalClusterMultiplicity.ini -C cfg/trendPlotsStrip_StoN.ini -C cfg/trendPlotsStrip_StoN_mean.ini --dataset StreamExpressCosmics --epoch Commissioning2017 -r "run >= 290129" --reco Express -J json_DCSONLY_cosmics.txt
+cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/StreamExpressCosmics/Strips/PEAK/
+cp ./JSON/* /data/users/event_display/HDQM/v2/alljsons/2017/StreamExpressCosmics/Strips/PEAK/
+touch .doneStreamExpressCosmics
+
+rm -rf ./JSON/*
+python ./trendPlots.py -C cfg/trendPlotsDQM_cronCExpress.ini -C cfg/trendPlotsCStrip_TIB_Residuals.ini -C cfg/trendPlotsCStrip_TOB_Residuals.ini -C cfg/trendPlotsCStrip_TEC_Minus_Residuals.ini -C cfg/trendPlotsCStrip_TEC_Plus_Residuals.ini --dataset StreamExpressCosmics --epoch Commissioning2017 -r "run >= 290129" --reco Express -J json_DCSONLY_cosmics.txt
+cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/StreamExpressCosmics/Strips/DECO/
+cp ./JSON/* /data/users/event_display/HDQM/v2/alljsons/2017/StreamExpressCosmics/Strips/DECO/
+touch .doneStreamExpressCosmics
+
+rm -rf ./JSON/*
+python ./trendPlots.py -C cfg/trendPlotsDQM_cronCExpress.ini -C cfg/trendPlotsCStrip_TIB_Residuals.ini -C cfg/trendPlotsCStrip_TOB_Residuals.ini -C cfg/trendPlotsCStrip_TEC_Minus_Residuals.ini -C cfg/trendPlotsCStrip_TEC_Plus_Residuals.ini --dataset StreamExpressCosmics --epoch Commissioning2017 -r "run >= 290129" --reco Express -J json_DCSONLY_cosmics.txt
+cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/StreamExpressCosmics/Strips/PEAK/
+cp ./JSON/* /data/users/event_display/HDQM/v2/alljsons/2017/StreamExpressCosmics/Strips/PEAK/
+touch .doneStreamExpressCosmics

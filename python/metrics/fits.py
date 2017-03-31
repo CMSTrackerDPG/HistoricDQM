@@ -79,9 +79,9 @@ class Landau(BaseMetric):
         fit = TF1("landau","[2]*TMath::Landau(x,[0],[1],0)", *(self.range))
         fit.SetParameters(*(self.parameters))
         #3x to stabilise minimization
-        histo.Fit(fit,"QOR")
-        histo.Fit(fit,"QOR")
-        histo.Fit(fit,"QOR")
+        histo.Fit(fit,"OR")
+        histo.Fit(fit,"OR")
+        histo.Fit(fit,"OR")
         result = (fit.GetParameter(self.desired), fit.GetParError(self.desired))
         del fit
         return result
