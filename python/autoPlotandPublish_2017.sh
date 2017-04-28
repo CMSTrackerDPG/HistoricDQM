@@ -2,13 +2,14 @@
 
 #DCS JSON file production for collisions and cosmics
  
-python dcsonlyjson.py --min 290129
+python dcsonlyjson_all.py --min 290129
 #python dcsonlyjson_with_APVmode.py --min 290129
 #python dcsonlyjson_with_APVmode.py --min 290129 --PEAK
 
-python dcsonlyjson.py --min 290129 --cosmics
-python dcsonlyjson_with_APVmode.py --min 290129 --cosmics
-python dcsonlyjson_with_APVmode.py --min 290129 --cosmics --PEAK 
+python dcsonlyjson_all.py --min 290129 --cosmics
+#python dcsonlyjson.py --min 290129 --cosmics
+#python dcsonlyjson_with_APVmode.py --min 290129 --cosmics
+#python dcsonlyjson_with_APVmode.py --min 290129 --cosmics --PEAK 
 
 
 # ++++++++++++++++++++++++++++++++   Cosmics  +++++++++++++++++++++++++++++++++++++++
