@@ -42,10 +42,10 @@ touch .doneCosmics
 
 #Cosmics PIXEL Commissioning2017
 rm -rf ./JSON/*
-python trendPlots.py -C cfg/trendPlotsDQM_cronCExpressPixel.ini -C cfg/trendPlotsPixelPhase1_clusters.ini -C cfg/trendPlotsPixelPhase1_ADCDIGI.ini --dataset Cosmics --epoch Commissioning2017 -r "run>=292505" --reco Prompt -J json_DCSONLY_cosmics.txt
-cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/StreamExpressCosmics/PixelPhase1/
-cp ./JSON/* /data/users/event_display/HDQM/v2/alljsons/2017/StreamExpressCosmics/PixelPhase1/
-touch .doneStreamExpressCosmics
+python trendPlots.py -C cfg/trendPlotsDQM_cronCPromptPixel.ini -C cfg/trendPlotsPixelPhase1_ADCDIGI.ini -C cfg/trendPlotsPixelPhase1_clusters.ini --dataset Cosmics --epoch Commissioning2017 -r "run>=292505" --reco Prompt -J json_DCSONLY_cosmics.txt
+cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/Prompt/Cosmics/PixelPhase1/
+cp ./JSON/* /data/users/event_display/HDQM/v2/alljsons/2017/Prompt/Cosmics/PixelPhase1/
+touch .doneCosmics
 
 # ++++++++++++++++++++++++++++++++   StreamExpressCosmics  +++++++++++++++++++++++++++++++++++++++
 
@@ -77,7 +77,7 @@ touch .doneStreamExpressCosmics
 
 #StreamExpressCosmics PIXEL Commissioning2017
 rm -rf ./JSON/*
-python trendPlots.py -C cfg/trendPlotsDQM_cronCExpressPixel.ini -C cfg/trendPlotsPixelPhase1_clusters.ini -C cfg/trendPlotsPixelPhase1_ADCDIGI.ini --dataset StreamExpressCosmics --epoch Commissioning2017 -r "run>=292505" --reco Express -J json_DCSONLY_cosmics.txt
+python trendPlots.py -C cfg/trendPlotsDQM_cronCExpressPixel.ini -C cfg/trendPlotsPixelPhase1_ADCDIGI.ini -C cfg/trendPlotsPixelPhase1_clusters.ini --dataset StreamExpressCosmics --epoch Commissioning2017 -r "run>=292505" --reco Express -J json_DCSONLY_cosmics.txt
 cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/StreamExpressCosmics/PixelPhase1/
 cp ./JSON/* /data/users/event_display/HDQM/v2/alljsons/2017/StreamExpressCosmics/PixelPhase1/
 touch .doneStreamExpressCosmics
