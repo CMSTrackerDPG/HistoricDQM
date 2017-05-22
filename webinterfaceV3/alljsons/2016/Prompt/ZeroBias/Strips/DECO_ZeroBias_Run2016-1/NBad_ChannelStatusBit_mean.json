@@ -1,0 +1,4837 @@
+{
+    "NBad_ChannelStatusBit_mean": [
+        {
+            "run": 272774, 
+            "ymax": 0, 
+            "y": 90.07357555739058, 
+            "x": 1.0, 
+            "ymin": 0, 
+            "yErr": 0.03329635457861705, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 272775, 
+            "ymax": 0, 
+            "y": 101.0096629904053, 
+            "x": 2.0, 
+            "ymin": 0, 
+            "yErr": 0.00321707709405612, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 272776, 
+            "ymax": 0, 
+            "y": 101.27323180867607, 
+            "x": 3.0, 
+            "ymin": 0, 
+            "yErr": 0.00547146571055645, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 272782, 
+            "ymax": 0, 
+            "y": 87.48204879993168, 
+            "x": 4.0, 
+            "ymin": 0, 
+            "yErr": 0.014385664188172009, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 272783, 
+            "ymax": 0, 
+            "y": 92.02251814478609, 
+            "x": 5.0, 
+            "ymin": 0, 
+            "yErr": 0.004191454473175476, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 272784, 
+            "ymax": 0, 
+            "y": 92.18692939107127, 
+            "x": 6.0, 
+            "ymin": 0, 
+            "yErr": 0.0028945893060083384, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 272785, 
+            "ymax": 0, 
+            "y": 92.26732567800762, 
+            "x": 7.0, 
+            "ymin": 0, 
+            "yErr": 0.0047294273132292355, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 272786, 
+            "ymax": 0, 
+            "y": 92.61094014130293, 
+            "x": 8.0, 
+            "ymin": 0, 
+            "yErr": 0.005043142051537489, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 272798, 
+            "ymax": 0, 
+            "y": 94.01090522680481, 
+            "x": 9.0, 
+            "ymin": 0, 
+            "yErr": 0.001731865928291029, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 272811, 
+            "ymax": 0, 
+            "y": 91.86776809912892, 
+            "x": 10.0, 
+            "ymin": 0, 
+            "yErr": 0.014758786167390202, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 272812, 
+            "ymax": 0, 
+            "y": 97.47066812705367, 
+            "x": 11.0, 
+            "ymin": 0, 
+            "yErr": 0.0016009695682447688, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 272814, 
+            "ymax": 0, 
+            "y": 96.34752321981424, 
+            "x": 12.0, 
+            "ymin": 0, 
+            "yErr": 0.012212951211916472, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 272815, 
+            "ymax": 0, 
+            "y": 96.61125623367371, 
+            "x": 13.0, 
+            "ymin": 0, 
+            "yErr": 0.006995647070735427, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 272816, 
+            "ymax": 0, 
+            "y": 96.53504690717718, 
+            "x": 14.0, 
+            "ymin": 0, 
+            "yErr": 0.004717550631455767, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 272818, 
+            "ymax": 0, 
+            "y": 98.91461595824012, 
+            "x": 15.0, 
+            "ymin": 0, 
+            "yErr": 0.002756184949419947, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 272827, 
+            "ymax": 0, 
+            "y": 90.0142800393067, 
+            "x": 16.0, 
+            "ymin": 0, 
+            "yErr": 0.01127071473513806, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 272828, 
+            "ymax": 0, 
+            "y": 93.19550895425444, 
+            "x": 17.0, 
+            "ymin": 0, 
+            "yErr": 0.004289540202702353, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 272930, 
+            "ymax": 0, 
+            "y": 102.1024444568183, 
+            "x": 18.0, 
+            "ymin": 0, 
+            "yErr": 0.004674092700982879, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 272936, 
+            "ymax": 0, 
+            "y": 96.46356598850365, 
+            "x": 19.0, 
+            "ymin": 0, 
+            "yErr": 0.0025905589375864284, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273013, 
+            "ymax": 0, 
+            "y": 95.49823219485141, 
+            "x": 20.0, 
+            "ymin": 0, 
+            "yErr": 0.004464124588959033, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273017, 
+            "ymax": 0, 
+            "y": 100.6973900938421, 
+            "x": 21.0, 
+            "ymin": 0, 
+            "yErr": 0.0037940223885595138, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273150, 
+            "ymax": 0, 
+            "y": 95.56205505678544, 
+            "x": 22.0, 
+            "ymin": 0, 
+            "yErr": 0.01670184343382648, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273158, 
+            "ymax": 0, 
+            "y": 111.52508336861486, 
+            "x": 23.0, 
+            "ymin": 0, 
+            "yErr": 0.0037532796034093424, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273290, 
+            "ymax": 0, 
+            "y": 96.64216594605723, 
+            "x": 24.0, 
+            "ymin": 0, 
+            "yErr": 0.029713688153777933, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273291, 
+            "ymax": 0, 
+            "y": 101.96545648103961, 
+            "x": 25.0, 
+            "ymin": 0, 
+            "yErr": 0.004838296229804526, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273292, 
+            "ymax": 0, 
+            "y": 101.71317829457364, 
+            "x": 26.0, 
+            "ymin": 0, 
+            "yErr": 0.05716895117974026, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273299, 
+            "ymax": 0, 
+            "y": 102.45632144948078, 
+            "x": 27.0, 
+            "ymin": 0, 
+            "yErr": 0.004084581233625046, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273301, 
+            "ymax": 0, 
+            "y": 106.93801197007267, 
+            "x": 28.0, 
+            "ymin": 0, 
+            "yErr": 0.002335003367317704, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273302, 
+            "ymax": 0, 
+            "y": 111.42002969963252, 
+            "x": 29.0, 
+            "ymin": 0, 
+            "yErr": 0.003698240390084967, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273402, 
+            "ymax": 0, 
+            "y": 99.83778762646611, 
+            "x": 30.0, 
+            "ymin": 0, 
+            "yErr": 0.006111070487121033, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273403, 
+            "ymax": 0, 
+            "y": 102.14074659683277, 
+            "x": 31.0, 
+            "ymin": 0, 
+            "yErr": 0.008569713633788317, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273404, 
+            "ymax": 0, 
+            "y": 103.53752535496957, 
+            "x": 32.0, 
+            "ymin": 0, 
+            "yErr": 0.012270351599629796, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273405, 
+            "ymax": 0, 
+            "y": 103.08668209551863, 
+            "x": 33.0, 
+            "ymin": 0, 
+            "yErr": 0.004355559520817496, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273406, 
+            "ymax": 0, 
+            "y": 104.23117218779927, 
+            "x": 34.0, 
+            "ymin": 0, 
+            "yErr": 0.0026610368156896086, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273408, 
+            "ymax": 0, 
+            "y": 104.09377990430622, 
+            "x": 35.0, 
+            "ymin": 0, 
+            "yErr": 0.00786655211617968, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273409, 
+            "ymax": 0, 
+            "y": 106.94066354369528, 
+            "x": 36.0, 
+            "ymin": 0, 
+            "yErr": 0.0033315670251067068, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273410, 
+            "ymax": 0, 
+            "y": 108.31560798010892, 
+            "x": 37.0, 
+            "ymin": 0, 
+            "yErr": 0.0030239165536484255, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273411, 
+            "ymax": 0, 
+            "y": 111.59348165495706, 
+            "x": 38.0, 
+            "ymin": 0, 
+            "yErr": 0.011535196418712987, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273425, 
+            "ymax": 0, 
+            "y": 105.11371645143775, 
+            "x": 39.0, 
+            "ymin": 0, 
+            "yErr": 0.0042965594439338265, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273426, 
+            "ymax": 0, 
+            "y": 108.93029214664273, 
+            "x": 40.0, 
+            "ymin": 0, 
+            "yErr": 0.004361636374285061, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273445, 
+            "ymax": 0, 
+            "y": 101.98698481561821, 
+            "x": 41.0, 
+            "ymin": 0, 
+            "yErr": 0.02355525142289221, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273446, 
+            "ymax": 0, 
+            "y": 103.92676134781398, 
+            "x": 42.0, 
+            "ymin": 0, 
+            "yErr": 0.007815128822238955, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273447, 
+            "ymax": 0, 
+            "y": 107.14447652256509, 
+            "x": 43.0, 
+            "ymin": 0, 
+            "yErr": 0.003932321433498552, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273448, 
+            "ymax": 0, 
+            "y": 112.01121223980546, 
+            "x": 44.0, 
+            "ymin": 0, 
+            "yErr": 0.002681541666834097, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273449, 
+            "ymax": 0, 
+            "y": 113.53735690509052, 
+            "x": 45.0, 
+            "ymin": 0, 
+            "yErr": 0.004050393973484483, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273450, 
+            "ymax": 0, 
+            "y": 119.05344025360898, 
+            "x": 46.0, 
+            "ymin": 0, 
+            "yErr": 0.006936977755850164, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273492, 
+            "ymax": 0, 
+            "y": 103.53838550247117, 
+            "x": 47.0, 
+            "ymin": 0, 
+            "yErr": 0.004765258898086094, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273493, 
+            "ymax": 0, 
+            "y": 109.1662569894259, 
+            "x": 48.0, 
+            "ymin": 0, 
+            "yErr": 0.008100510327953598, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273494, 
+            "ymax": 0, 
+            "y": 115.01668989272191, 
+            "x": 49.0, 
+            "ymin": 0, 
+            "yErr": 0.00412868157437303, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273502, 
+            "ymax": 0, 
+            "y": 104.55692501129549, 
+            "x": 50.0, 
+            "ymin": 0, 
+            "yErr": 0.004014118778682859, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273503, 
+            "ymax": 0, 
+            "y": 112.72422620146453, 
+            "x": 51.0, 
+            "ymin": 0, 
+            "yErr": 0.0054799178883765814, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273523, 
+            "ymax": 0, 
+            "y": 100.67432503581595, 
+            "x": 52.0, 
+            "ymin": 0, 
+            "yErr": 0.0004650204869373589, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273526, 
+            "ymax": 0, 
+            "y": 100.97944918216133, 
+            "x": 53.0, 
+            "ymin": 0, 
+            "yErr": 0.001700637936437508, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273537, 
+            "ymax": 0, 
+            "y": 100.0675026768822, 
+            "x": 54.0, 
+            "ymin": 0, 
+            "yErr": 0.0005022417203316875, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273554, 
+            "ymax": 0, 
+            "y": 106.6968170391016, 
+            "x": 55.0, 
+            "ymin": 0, 
+            "yErr": 0.009333218441638907, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273555, 
+            "ymax": 0, 
+            "y": 110.4915999316025, 
+            "x": 56.0, 
+            "ymin": 0, 
+            "yErr": 0.010586512720706188, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273589, 
+            "ymax": 0, 
+            "y": 99.54365488638166, 
+            "x": 57.0, 
+            "ymin": 0, 
+            "yErr": 0.0008754224186603273, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273590, 
+            "ymax": 0, 
+            "y": 99.74796494590998, 
+            "x": 58.0, 
+            "ymin": 0, 
+            "yErr": 0.0008215250029549715, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273592, 
+            "ymax": 0, 
+            "y": 100.93719592340044, 
+            "x": 59.0, 
+            "ymin": 0, 
+            "yErr": 0.0010206559275316013, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273725, 
+            "ymax": 0, 
+            "y": 125.00530515052805, 
+            "x": 60.0, 
+            "ymin": 0, 
+            "yErr": 0.009038119955613629, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273728, 
+            "ymax": 0, 
+            "y": 102.2170826328721, 
+            "x": 61.0, 
+            "ymin": 0, 
+            "yErr": 0.011559908916338868, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 273730, 
+            "ymax": 0, 
+            "y": 106.82927985905742, 
+            "x": 62.0, 
+            "ymin": 0, 
+            "yErr": 0.004469514934989284, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274094, 
+            "ymax": 0, 
+            "y": 105.58664572295733, 
+            "x": 63.0, 
+            "ymin": 0, 
+            "yErr": 0.011599858655158776, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274102, 
+            "ymax": 0, 
+            "y": 97.06595727398262, 
+            "x": 64.0, 
+            "ymin": 0, 
+            "yErr": 0.0018343645830893888, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274103, 
+            "ymax": 0, 
+            "y": 96.9709452664847, 
+            "x": 65.0, 
+            "ymin": 0, 
+            "yErr": 0.0010268590930591886, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274104, 
+            "ymax": 0, 
+            "y": 97.62027459529662, 
+            "x": 66.0, 
+            "ymin": 0, 
+            "yErr": 0.002503654237661957, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274105, 
+            "ymax": 0, 
+            "y": 96.94310181487192, 
+            "x": 67.0, 
+            "ymin": 0, 
+            "yErr": 0.0010158728580462865, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274106, 
+            "ymax": 0, 
+            "y": 96.97666688679038, 
+            "x": 68.0, 
+            "ymin": 0, 
+            "yErr": 0.0007724011739694458, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274107, 
+            "ymax": 0, 
+            "y": 96.96897522522522, 
+            "x": 69.0, 
+            "ymin": 0, 
+            "yErr": 0.0009353504130906004, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274108, 
+            "ymax": 0, 
+            "y": 103.19687683527339, 
+            "x": 70.0, 
+            "ymin": 0, 
+            "yErr": 0.028276815445304925, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274142, 
+            "ymax": 0, 
+            "y": 99.88341026897388, 
+            "x": 71.0, 
+            "ymin": 0, 
+            "yErr": 0.015911367468973713, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274146, 
+            "ymax": 0, 
+            "y": 109.38357867714893, 
+            "x": 72.0, 
+            "ymin": 0, 
+            "yErr": 0.01030407400266177, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274157, 
+            "ymax": 0, 
+            "y": 103.21213626077916, 
+            "x": 73.0, 
+            "ymin": 0, 
+            "yErr": 0.008844356347654719, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274159, 
+            "ymax": 0, 
+            "y": 107.04703966277064, 
+            "x": 74.0, 
+            "ymin": 0, 
+            "yErr": 0.006001811019668456, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274160, 
+            "ymax": 0, 
+            "y": 115.80816189692482, 
+            "x": 75.0, 
+            "ymin": 0, 
+            "yErr": 0.013518985584573045, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274161, 
+            "ymax": 0, 
+            "y": 119.5538068155703, 
+            "x": 76.0, 
+            "ymin": 0, 
+            "yErr": 0.0066614428150737525, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274172, 
+            "ymax": 0, 
+            "y": 106.7633632691478, 
+            "x": 77.0, 
+            "ymin": 0, 
+            "yErr": 0.018770228253947197, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274198, 
+            "ymax": 0, 
+            "y": 108.10258820463662, 
+            "x": 78.0, 
+            "ymin": 0, 
+            "yErr": 0.019381108926778016, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274199, 
+            "ymax": 0, 
+            "y": 124.71594788622988, 
+            "x": 79.0, 
+            "ymin": 0, 
+            "yErr": 0.012612690967410883, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274200, 
+            "ymax": 0, 
+            "y": 137.57245583003356, 
+            "x": 80.0, 
+            "ymin": 0, 
+            "yErr": 0.006990564461605415, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274240, 
+            "ymax": 0, 
+            "y": 106.88250305590701, 
+            "x": 81.0, 
+            "ymin": 0, 
+            "yErr": 0.010034849666882065, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274241, 
+            "ymax": 0, 
+            "y": 124.59337997018876, 
+            "x": 82.0, 
+            "ymin": 0, 
+            "yErr": 0.011247191601429457, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274243, 
+            "ymax": 0, 
+            "y": 134.98987206823028, 
+            "x": 83.0, 
+            "ymin": 0, 
+            "yErr": 0.03787577910942007, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274244, 
+            "ymax": 0, 
+            "y": 137.46765956598395, 
+            "x": 84.0, 
+            "ymin": 0, 
+            "yErr": 0.004772513338235532, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274250, 
+            "ymax": 0, 
+            "y": 121.79618505107469, 
+            "x": 85.0, 
+            "ymin": 0, 
+            "yErr": 0.009503930222699374, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274251, 
+            "ymax": 0, 
+            "y": 132.8554049356969, 
+            "x": 86.0, 
+            "ymin": 0, 
+            "yErr": 0.0082614262306342, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274282, 
+            "ymax": 0, 
+            "y": 96.87112537378746, 
+            "x": 87.0, 
+            "ymin": 0, 
+            "yErr": 0.01685945789244332, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274283, 
+            "ymax": 0, 
+            "y": 104.41951219512195, 
+            "x": 88.0, 
+            "ymin": 0, 
+            "yErr": 0.09277098563071771, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274284, 
+            "ymax": 0, 
+            "y": 106.25659955437871, 
+            "x": 89.0, 
+            "ymin": 0, 
+            "yErr": 0.006315456574874842, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274285, 
+            "ymax": 0, 
+            "y": 108.68316831683168, 
+            "x": 90.0, 
+            "ymin": 0, 
+            "yErr": 0.09343980734869421, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274286, 
+            "ymax": 0, 
+            "y": 111.55228383351361, 
+            "x": 91.0, 
+            "ymin": 0, 
+            "yErr": 0.007277671105846755, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274314, 
+            "ymax": 0, 
+            "y": 102.74817733404005, 
+            "x": 92.0, 
+            "ymin": 0, 
+            "yErr": 0.009478935427535641, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274315, 
+            "ymax": 0, 
+            "y": 116.2871732309528, 
+            "x": 93.0, 
+            "ymin": 0, 
+            "yErr": 0.005260446641413827, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274316, 
+            "ymax": 0, 
+            "y": 142.30278759890248, 
+            "x": 94.0, 
+            "ymin": 0, 
+            "yErr": 0.006229761701845497, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274317, 
+            "ymax": 0, 
+            "y": 146.41729195088678, 
+            "x": 95.0, 
+            "ymin": 0, 
+            "yErr": 0.009039625418625833, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274318, 
+            "ymax": 0, 
+            "y": 144.045871559633, 
+            "x": 96.0, 
+            "ymin": 0, 
+            "yErr": 0.05857971820872298, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274319, 
+            "ymax": 0, 
+            "y": 155.25859436016648, 
+            "x": 97.0, 
+            "ymin": 0, 
+            "yErr": 0.007496205833493639, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274335, 
+            "ymax": 0, 
+            "y": 115.75348618632769, 
+            "x": 98.0, 
+            "ymin": 0, 
+            "yErr": 0.006079146708633007, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274336, 
+            "ymax": 0, 
+            "y": 126.36516316362557, 
+            "x": 99.0, 
+            "ymin": 0, 
+            "yErr": 0.008147844097338186, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274337, 
+            "ymax": 0, 
+            "y": 126.31295820241836, 
+            "x": 100.0, 
+            "ymin": 0, 
+            "yErr": 0.006171588597603279, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274338, 
+            "ymax": 0, 
+            "y": 142.09835233592298, 
+            "x": 101.0, 
+            "ymin": 0, 
+            "yErr": 0.004211887580721935, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274339, 
+            "ymax": 0, 
+            "y": 99.26274658672915, 
+            "x": 102.0, 
+            "ymin": 0, 
+            "yErr": 0.008674478560765614, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274344, 
+            "ymax": 0, 
+            "y": 110.75223018520023, 
+            "x": 103.0, 
+            "ymin": 0, 
+            "yErr": 0.004456193494334725, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274345, 
+            "ymax": 0, 
+            "y": 124.60659701703821, 
+            "x": 104.0, 
+            "ymin": 0, 
+            "yErr": 0.005642258238874045, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274382, 
+            "ymax": 0, 
+            "y": 101.86346803496593, 
+            "x": 105.0, 
+            "ymin": 0, 
+            "yErr": 0.01097083144790993, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274387, 
+            "ymax": 0, 
+            "y": 107.56141342906467, 
+            "x": 106.0, 
+            "ymin": 0, 
+            "yErr": 0.007352487213580995, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274388, 
+            "ymax": 0, 
+            "y": 149.2482279801984, 
+            "x": 107.0, 
+            "ymin": 0, 
+            "yErr": 0.008495463564647854, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274420, 
+            "ymax": 0, 
+            "y": 103.59832504311024, 
+            "x": 108.0, 
+            "ymin": 0, 
+            "yErr": 0.00838583227759264, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274421, 
+            "ymax": 0, 
+            "y": 115.11802551357945, 
+            "x": 109.0, 
+            "ymin": 0, 
+            "yErr": 0.005098210992641969, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274422, 
+            "ymax": 0, 
+            "y": 135.16944206383513, 
+            "x": 110.0, 
+            "ymin": 0, 
+            "yErr": 0.007865546065954618, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274440, 
+            "ymax": 0, 
+            "y": 111.75805001801164, 
+            "x": 111.0, 
+            "ymin": 0, 
+            "yErr": 0.007539598256912602, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274441, 
+            "ymax": 0, 
+            "y": 129.46434903626164, 
+            "x": 112.0, 
+            "ymin": 0, 
+            "yErr": 0.005918622920009108, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274442, 
+            "ymax": 0, 
+            "y": 146.42739107845648, 
+            "x": 113.0, 
+            "ymin": 0, 
+            "yErr": 0.00587478897423451, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274443, 
+            "ymax": 0, 
+            "y": 158.89832666573568, 
+            "x": 114.0, 
+            "ymin": 0, 
+            "yErr": 0.015453940388783234, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274954, 
+            "ymax": 0, 
+            "y": 95.37950709872395, 
+            "x": 115.0, 
+            "ymin": 0, 
+            "yErr": 0.00925212651439742, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274955, 
+            "ymax": 0, 
+            "y": 104.03545495079462, 
+            "x": 116.0, 
+            "ymin": 0, 
+            "yErr": 0.004295336768695358, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274957, 
+            "ymax": 0, 
+            "y": 94.38940827620073, 
+            "x": 117.0, 
+            "ymin": 0, 
+            "yErr": 0.013212544086983951, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274958, 
+            "ymax": 0, 
+            "y": 94.55274558126997, 
+            "x": 118.0, 
+            "ymin": 0, 
+            "yErr": 0.0030441115110370325, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274959, 
+            "ymax": 0, 
+            "y": 92.06337082740885, 
+            "x": 119.0, 
+            "ymin": 0, 
+            "yErr": 0.00412964367429549, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274967, 
+            "ymax": 0, 
+            "y": 104.59107073209903, 
+            "x": 120.0, 
+            "ymin": 0, 
+            "yErr": 0.006945487403034561, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274968, 
+            "ymax": 0, 
+            "y": 120.82029438767117, 
+            "x": 121.0, 
+            "ymin": 0, 
+            "yErr": 0.005852843709986001, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274969, 
+            "ymax": 0, 
+            "y": 148.73853803737356, 
+            "x": 122.0, 
+            "ymin": 0, 
+            "yErr": 0.004558369752535628, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274970, 
+            "ymax": 0, 
+            "y": 161.28076266363118, 
+            "x": 123.0, 
+            "ymin": 0, 
+            "yErr": 0.008399387166341001, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274971, 
+            "ymax": 0, 
+            "y": 172.96434888863294, 
+            "x": 124.0, 
+            "ymin": 0, 
+            "yErr": 0.0048983436788320005, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274998, 
+            "ymax": 0, 
+            "y": 116.67703078111252, 
+            "x": 125.0, 
+            "ymin": 0, 
+            "yErr": 0.019026191373478607, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 274999, 
+            "ymax": 0, 
+            "y": 150.44992776503352, 
+            "x": 126.0, 
+            "ymin": 0, 
+            "yErr": 0.014739804503299467, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275000, 
+            "ymax": 0, 
+            "y": 166.8945114076625, 
+            "x": 127.0, 
+            "ymin": 0, 
+            "yErr": 0.017861095310680055, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275001, 
+            "ymax": 0, 
+            "y": 192.9391213297603, 
+            "x": 128.0, 
+            "ymin": 0, 
+            "yErr": 0.014626608500356244, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275059, 
+            "ymax": 0, 
+            "y": 107.51671388838346, 
+            "x": 129.0, 
+            "ymin": 0, 
+            "yErr": 0.03917246710268614, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275062, 
+            "ymax": 0, 
+            "y": 119.22105263157894, 
+            "x": 130.0, 
+            "ymin": 0, 
+            "yErr": 0.045493839793008174, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275063, 
+            "ymax": 0, 
+            "y": 119.86538461538461, 
+            "x": 131.0, 
+            "ymin": 0, 
+            "yErr": 0.0667772845744121, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275064, 
+            "ymax": 0, 
+            "y": 122.12735737859501, 
+            "x": 132.0, 
+            "ymin": 0, 
+            "yErr": 0.018933083759561743, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275066, 
+            "ymax": 0, 
+            "y": 122.39493048365627, 
+            "x": 133.0, 
+            "ymin": 0, 
+            "yErr": 0.009740396770697102, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275067, 
+            "ymax": 0, 
+            "y": 129.91114273185312, 
+            "x": 134.0, 
+            "ymin": 0, 
+            "yErr": 0.011799922338755818, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275068, 
+            "ymax": 0, 
+            "y": 111.81982134313532, 
+            "x": 135.0, 
+            "ymin": 0, 
+            "yErr": 0.010828295977954316, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275073, 
+            "ymax": 0, 
+            "y": 115.88235771642731, 
+            "x": 136.0, 
+            "ymin": 0, 
+            "yErr": 0.02160829227940885, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275074, 
+            "ymax": 0, 
+            "y": 143.25079127906042, 
+            "x": 137.0, 
+            "ymin": 0, 
+            "yErr": 0.010770960902955528, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275124, 
+            "ymax": 0, 
+            "y": 118.3409234531831, 
+            "x": 138.0, 
+            "ymin": 0, 
+            "yErr": 0.023328032890517957, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275125, 
+            "ymax": 0, 
+            "y": 146.13589346712212, 
+            "x": 139.0, 
+            "ymin": 0, 
+            "yErr": 0.013589783447111576, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275282, 
+            "ymax": 0, 
+            "y": 107.11435985312117, 
+            "x": 140.0, 
+            "ymin": 0, 
+            "yErr": 0.03199871364774215, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275283, 
+            "ymax": 0, 
+            "y": 117.316847855192, 
+            "x": 141.0, 
+            "ymin": 0, 
+            "yErr": 0.007982708709550226, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275284, 
+            "ymax": 0, 
+            "y": 123.42688081149619, 
+            "x": 142.0, 
+            "ymin": 0, 
+            "yErr": 0.009596235762021458, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275285, 
+            "ymax": 0, 
+            "y": 123.90582959641256, 
+            "x": 143.0, 
+            "ymin": 0, 
+            "yErr": 0.06205720878238969, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275286, 
+            "ymax": 0, 
+            "y": 126.78519707150737, 
+            "x": 144.0, 
+            "ymin": 0, 
+            "yErr": 0.012406827392693486, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275289, 
+            "ymax": 0, 
+            "y": 127.5173864894795, 
+            "x": 145.0, 
+            "ymin": 0, 
+            "yErr": 0.0827755707880508, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275290, 
+            "ymax": 0, 
+            "y": 129.7163993608333, 
+            "x": 146.0, 
+            "ymin": 0, 
+            "yErr": 0.03145184942919939, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275291, 
+            "ymax": 0, 
+            "y": 138.31071399782354, 
+            "x": 147.0, 
+            "ymin": 0, 
+            "yErr": 0.010483727576830774, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275292, 
+            "ymax": 0, 
+            "y": 144.333343035101, 
+            "x": 148.0, 
+            "ymin": 0, 
+            "yErr": 0.012861205302996403, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275293, 
+            "ymax": 0, 
+            "y": 150.6535055861091, 
+            "x": 149.0, 
+            "ymin": 0, 
+            "yErr": 0.013566031332908414, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275309, 
+            "ymax": 0, 
+            "y": 111.5537521492618, 
+            "x": 150.0, 
+            "ymin": 0, 
+            "yErr": 0.009887149153502335, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275310, 
+            "ymax": 0, 
+            "y": 136.06258528696128, 
+            "x": 151.0, 
+            "ymin": 0, 
+            "yErr": 0.010228613240326005, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275311, 
+            "ymax": 0, 
+            "y": 163.51583585789038, 
+            "x": 152.0, 
+            "ymin": 0, 
+            "yErr": 0.008095066906788819, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275319, 
+            "ymax": 0, 
+            "y": 108.07364519459198, 
+            "x": 153.0, 
+            "ymin": 0, 
+            "yErr": 0.021994601821151236, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275337, 
+            "ymax": 0, 
+            "y": 109.66225810310759, 
+            "x": 154.0, 
+            "ymin": 0, 
+            "yErr": 0.010166055339295137, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275338, 
+            "ymax": 0, 
+            "y": 121.08246120956024, 
+            "x": 155.0, 
+            "ymin": 0, 
+            "yErr": 0.008933931412716214, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275344, 
+            "ymax": 0, 
+            "y": 110.71767856791193, 
+            "x": 156.0, 
+            "ymin": 0, 
+            "yErr": 0.014651961483693438, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275345, 
+            "ymax": 0, 
+            "y": 125.24451042708007, 
+            "x": 157.0, 
+            "ymin": 0, 
+            "yErr": 0.014412096489807551, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275370, 
+            "ymax": 0, 
+            "y": 115.50397381051249, 
+            "x": 158.0, 
+            "ymin": 0, 
+            "yErr": 0.018468891923057337, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275371, 
+            "ymax": 0, 
+            "y": 112.00828043917457, 
+            "x": 159.0, 
+            "ymin": 0, 
+            "yErr": 0.010890464530176613, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275375, 
+            "ymax": 0, 
+            "y": 132.43480170029926, 
+            "x": 160.0, 
+            "ymin": 0, 
+            "yErr": 0.014518599471428315, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275376, 
+            "ymax": 0, 
+            "y": 192.84604079034588, 
+            "x": 161.0, 
+            "ymin": 0, 
+            "yErr": 0.01748405837163208, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275656, 
+            "ymax": 0, 
+            "y": 101.79718391826573, 
+            "x": 162.0, 
+            "ymin": 0, 
+            "yErr": 0.0071987630876824355, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275657, 
+            "ymax": 0, 
+            "y": 113.78670746765448, 
+            "x": 163.0, 
+            "ymin": 0, 
+            "yErr": 0.008493417354066637, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275658, 
+            "ymax": 0, 
+            "y": 122.1972199224367, 
+            "x": 164.0, 
+            "ymin": 0, 
+            "yErr": 0.012309050229074761, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275659, 
+            "ymax": 0, 
+            "y": 130.57197626654497, 
+            "x": 165.0, 
+            "ymin": 0, 
+            "yErr": 0.03113951621846781, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275757, 
+            "ymax": 0, 
+            "y": 97.44777646482405, 
+            "x": 166.0, 
+            "ymin": 0, 
+            "yErr": 0.018798438583051597, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275758, 
+            "ymax": 0, 
+            "y": 103.9331514324693, 
+            "x": 167.0, 
+            "ymin": 0, 
+            "yErr": 0.02755352779872471, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275759, 
+            "ymax": 0, 
+            "y": 106.47627906976744, 
+            "x": 168.0, 
+            "ymin": 0, 
+            "yErr": 0.023138588995676862, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275761, 
+            "ymax": 0, 
+            "y": 108.6150895140665, 
+            "x": 169.0, 
+            "ymin": 0, 
+            "yErr": 0.02383695177049794, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275763, 
+            "ymax": 0, 
+            "y": 108.26168224299066, 
+            "x": 170.0, 
+            "ymin": 0, 
+            "yErr": 0.018813813470965716, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275764, 
+            "ymax": 0, 
+            "y": 109.72609686609687, 
+            "x": 171.0, 
+            "ymin": 0, 
+            "yErr": 0.01669703786795233, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275766, 
+            "ymax": 0, 
+            "y": 112.39706815777542, 
+            "x": 172.0, 
+            "ymin": 0, 
+            "yErr": 0.011778698401174155, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275767, 
+            "ymax": 0, 
+            "y": 112.62263257575758, 
+            "x": 173.0, 
+            "ymin": 0, 
+            "yErr": 0.02184319683903747, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275768, 
+            "ymax": 0, 
+            "y": 115.43125110599894, 
+            "x": 174.0, 
+            "ymin": 0, 
+            "yErr": 0.011566577473405238, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275772, 
+            "ymax": 0, 
+            "y": 132.17213548970116, 
+            "x": 175.0, 
+            "ymin": 0, 
+            "yErr": 0.012328379722868444, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275773, 
+            "ymax": 0, 
+            "y": 134.87881177707675, 
+            "x": 176.0, 
+            "ymin": 0, 
+            "yErr": 0.04329257318591131, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275774, 
+            "ymax": 0, 
+            "y": 139.14884916527922, 
+            "x": 177.0, 
+            "ymin": 0, 
+            "yErr": 0.008576635194470696, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275776, 
+            "ymax": 0, 
+            "y": 98.2284612848411, 
+            "x": 178.0, 
+            "ymin": 0, 
+            "yErr": 0.007458705262538394, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275777, 
+            "ymax": 0, 
+            "y": 107.02855766104686, 
+            "x": 179.0, 
+            "ymin": 0, 
+            "yErr": 0.009731200020997192, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275778, 
+            "ymax": 0, 
+            "y": 115.59036812938572, 
+            "x": 180.0, 
+            "ymin": 0, 
+            "yErr": 0.011155621070003077, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275781, 
+            "ymax": 0, 
+            "y": 121.76028547439127, 
+            "x": 181.0, 
+            "ymin": 0, 
+            "yErr": 0.02338777553279166, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275782, 
+            "ymax": 0, 
+            "y": 134.3510549583614, 
+            "x": 182.0, 
+            "ymin": 0, 
+            "yErr": 0.014206799396709288, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275828, 
+            "ymax": 0, 
+            "y": 100.5278881341934, 
+            "x": 183.0, 
+            "ymin": 0, 
+            "yErr": 0.019652233952807255, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275829, 
+            "ymax": 0, 
+            "y": 107.62965134875786, 
+            "x": 184.0, 
+            "ymin": 0, 
+            "yErr": 0.009489013211132212, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275831, 
+            "ymax": 0, 
+            "y": 95.20109259387317, 
+            "x": 185.0, 
+            "ymin": 0, 
+            "yErr": 0.007604419085657373, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275832, 
+            "ymax": 0, 
+            "y": 102.12930519512315, 
+            "x": 186.0, 
+            "ymin": 0, 
+            "yErr": 0.009690268490094987, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275833, 
+            "ymax": 0, 
+            "y": 112.09050328349478, 
+            "x": 187.0, 
+            "ymin": 0, 
+            "yErr": 0.012788812331946989, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275834, 
+            "ymax": 0, 
+            "y": 125.98289475998148, 
+            "x": 188.0, 
+            "ymin": 0, 
+            "yErr": 0.011610142351458203, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275835, 
+            "ymax": 0, 
+            "y": 128.43716690042075, 
+            "x": 189.0, 
+            "ymin": 0, 
+            "yErr": 0.02228838363228511, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275836, 
+            "ymax": 0, 
+            "y": 147.828778183123, 
+            "x": 190.0, 
+            "ymin": 0, 
+            "yErr": 0.01138100513212709, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275837, 
+            "ymax": 0, 
+            "y": 171.7171162346195, 
+            "x": 191.0, 
+            "ymin": 0, 
+            "yErr": 0.011628497649886521, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275841, 
+            "ymax": 0, 
+            "y": 98.05160173160174, 
+            "x": 192.0, 
+            "ymin": 0, 
+            "yErr": 0.029789370485682438, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275846, 
+            "ymax": 0, 
+            "y": 106.80788919000301, 
+            "x": 193.0, 
+            "ymin": 0, 
+            "yErr": 0.06624061282230875, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275847, 
+            "ymax": 0, 
+            "y": 135.1573653799046, 
+            "x": 194.0, 
+            "ymin": 0, 
+            "yErr": 0.01666825920912616, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275886, 
+            "ymax": 0, 
+            "y": 105.65503109782556, 
+            "x": 195.0, 
+            "ymin": 0, 
+            "yErr": 0.03255584987844877, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275887, 
+            "ymax": 0, 
+            "y": 114.1780022274281, 
+            "x": 196.0, 
+            "ymin": 0, 
+            "yErr": 0.020261339760187545, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275890, 
+            "ymax": 0, 
+            "y": 142.58444862971328, 
+            "x": 197.0, 
+            "ymin": 0, 
+            "yErr": 0.013845474423471997, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275911, 
+            "ymax": 0, 
+            "y": 116.42222883558519, 
+            "x": 198.0, 
+            "ymin": 0, 
+            "yErr": 0.018332863719942524, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275912, 
+            "ymax": 0, 
+            "y": 136.81799418218688, 
+            "x": 199.0, 
+            "ymin": 0, 
+            "yErr": 0.01230440683865286, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275913, 
+            "ymax": 0, 
+            "y": 147.4540787137136, 
+            "x": 200.0, 
+            "ymin": 0, 
+            "yErr": 0.01025355727783644, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275918, 
+            "ymax": 0, 
+            "y": 161.33255528019518, 
+            "x": 201.0, 
+            "ymin": 0, 
+            "yErr": 0.013940988213046004, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275920, 
+            "ymax": 0, 
+            "y": 171.87225547381294, 
+            "x": 202.0, 
+            "ymin": 0, 
+            "yErr": 0.008862038997776439, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275921, 
+            "ymax": 0, 
+            "y": 177.1576736139715, 
+            "x": 203.0, 
+            "ymin": 0, 
+            "yErr": 0.031045036011702914, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275922, 
+            "ymax": 0, 
+            "y": 176.5673374613003, 
+            "x": 204.0, 
+            "ymin": 0, 
+            "yErr": 0.040434355423918246, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275923, 
+            "ymax": 0, 
+            "y": 180.16838445299888, 
+            "x": 205.0, 
+            "ymin": 0, 
+            "yErr": 0.01635339094771106, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275931, 
+            "ymax": 0, 
+            "y": 182.9355340315117, 
+            "x": 206.0, 
+            "ymin": 0, 
+            "yErr": 0.013701957430689799, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 275963, 
+            "ymax": 0, 
+            "y": 106.04518759208057, 
+            "x": 207.0, 
+            "ymin": 0, 
+            "yErr": 0.02084119959808571, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276062, 
+            "ymax": 0, 
+            "y": 123.6574074074074, 
+            "x": 208.0, 
+            "ymin": 0, 
+            "yErr": 2.015720199160253, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276063, 
+            "ymax": 0, 
+            "y": 95.16216216216216, 
+            "x": 209.0, 
+            "ymin": 0, 
+            "yErr": 0.551925394744452, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276064, 
+            "ymax": 0, 
+            "y": 95.08494208494209, 
+            "x": 210.0, 
+            "ymin": 0, 
+            "yErr": 0.8670178943545052, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276092, 
+            "ymax": 0, 
+            "y": 101.65172052997261, 
+            "x": 211.0, 
+            "ymin": 0, 
+            "yErr": 0.02228966044426472, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276095, 
+            "ymax": 0, 
+            "y": 107.79672131147541, 
+            "x": 212.0, 
+            "ymin": 0, 
+            "yErr": 0.032407370845121054, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276097, 
+            "ymax": 0, 
+            "y": 123.88859450171822, 
+            "x": 213.0, 
+            "ymin": 0, 
+            "yErr": 0.009559650357266707, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276215, 
+            "ymax": 0, 
+            "y": 102.87588758390514, 
+            "x": 214.0, 
+            "ymin": 0, 
+            "yErr": 0.014252897749695043, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276216, 
+            "ymax": 0, 
+            "y": 116.94600745242204, 
+            "x": 215.0, 
+            "ymin": 0, 
+            "yErr": 0.004430522429973486, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276217, 
+            "ymax": 0, 
+            "y": 129.64410992075287, 
+            "x": 216.0, 
+            "ymin": 0, 
+            "yErr": 0.0069753681102105005, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276235, 
+            "ymax": 0, 
+            "y": 100.85744026496333, 
+            "x": 217.0, 
+            "ymin": 0, 
+            "yErr": 0.02972904429980492, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276242, 
+            "ymax": 0, 
+            "y": 128.85909158269118, 
+            "x": 218.0, 
+            "ymin": 0, 
+            "yErr": 0.01387592780821667, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276243, 
+            "ymax": 0, 
+            "y": 166.88271363416044, 
+            "x": 219.0, 
+            "ymin": 0, 
+            "yErr": 0.014076643344621805, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276244, 
+            "ymax": 0, 
+            "y": 200.13947238840345, 
+            "x": 220.0, 
+            "ymin": 0, 
+            "yErr": 0.011728949993383538, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276282, 
+            "ymax": 0, 
+            "y": 122.9214769545116, 
+            "x": 221.0, 
+            "ymin": 0, 
+            "yErr": 0.018203921072834507, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276283, 
+            "ymax": 0, 
+            "y": 166.78353429058853, 
+            "x": 222.0, 
+            "ymin": 0, 
+            "yErr": 0.013021726325697803, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276315, 
+            "ymax": 0, 
+            "y": 102.77925486392424, 
+            "x": 223.0, 
+            "ymin": 0, 
+            "yErr": 0.01700949706255621, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276317, 
+            "ymax": 0, 
+            "y": 112.8589552333958, 
+            "x": 224.0, 
+            "ymin": 0, 
+            "yErr": 0.015873302118411897, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276318, 
+            "ymax": 0, 
+            "y": 132.79092984241356, 
+            "x": 225.0, 
+            "ymin": 0, 
+            "yErr": 0.012975595946257358, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276327, 
+            "ymax": 0, 
+            "y": 148.7052398114777, 
+            "x": 226.0, 
+            "ymin": 0, 
+            "yErr": 0.024122700408227428, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276352, 
+            "ymax": 0, 
+            "y": 105.76170273619982, 
+            "x": 227.0, 
+            "ymin": 0, 
+            "yErr": 0.018142402461746792, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276355, 
+            "ymax": 0, 
+            "y": 109.54902899707369, 
+            "x": 228.0, 
+            "ymin": 0, 
+            "yErr": 0.026052817782346617, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276357, 
+            "ymax": 0, 
+            "y": 109.78255369928401, 
+            "x": 229.0, 
+            "ymin": 0, 
+            "yErr": 0.01415429096331316, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276361, 
+            "ymax": 0, 
+            "y": 128.42874707026954, 
+            "x": 230.0, 
+            "ymin": 0, 
+            "yErr": 0.014507933924181392, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276363, 
+            "ymax": 0, 
+            "y": 163.87437553495937, 
+            "x": 231.0, 
+            "ymin": 0, 
+            "yErr": 0.014424469392235907, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276384, 
+            "ymax": 0, 
+            "y": 195.01963963742207, 
+            "x": 232.0, 
+            "ymin": 0, 
+            "yErr": 0.009872582891026056, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276437, 
+            "ymax": 0, 
+            "y": 132.97910602356538, 
+            "x": 233.0, 
+            "ymin": 0, 
+            "yErr": 0.01711741566102831, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276453, 
+            "ymax": 0, 
+            "y": 113.73728587287981, 
+            "x": 234.0, 
+            "ymin": 0, 
+            "yErr": 0.028087294729356272, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276454, 
+            "ymax": 0, 
+            "y": 121.11184387617766, 
+            "x": 235.0, 
+            "ymin": 0, 
+            "yErr": 0.009373694072674174, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276458, 
+            "ymax": 0, 
+            "y": 107.57122746916315, 
+            "x": 236.0, 
+            "ymin": 0, 
+            "yErr": 0.021469438844811208, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276495, 
+            "ymax": 0, 
+            "y": 117.95635346537874, 
+            "x": 237.0, 
+            "ymin": 0, 
+            "yErr": 0.05196287164571877, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276501, 
+            "ymax": 0, 
+            "y": 195.4990495200401, 
+            "x": 238.0, 
+            "ymin": 0, 
+            "yErr": 0.02140003994209505, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276502, 
+            "ymax": 0, 
+            "y": 114.31893254358765, 
+            "x": 239.0, 
+            "ymin": 0, 
+            "yErr": 0.009881373963070365, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276525, 
+            "ymax": 0, 
+            "y": 160.3848925116822, 
+            "x": 240.0, 
+            "ymin": 0, 
+            "yErr": 0.02216309427657912, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276527, 
+            "ymax": 0, 
+            "y": 202.07497175141242, 
+            "x": 241.0, 
+            "ymin": 0, 
+            "yErr": 0.013673542199298904, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276528, 
+            "ymax": 0, 
+            "y": 206.5337951841372, 
+            "x": 242.0, 
+            "ymin": 0, 
+            "yErr": 0.01006955359630878, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276542, 
+            "ymax": 0, 
+            "y": 125.00058171443371, 
+            "x": 243.0, 
+            "ymin": 0, 
+            "yErr": 0.0179270403491817, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276543, 
+            "ymax": 0, 
+            "y": 153.28992724641833, 
+            "x": 244.0, 
+            "ymin": 0, 
+            "yErr": 0.011229215208003112, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276544, 
+            "ymax": 0, 
+            "y": 162.68681444117104, 
+            "x": 245.0, 
+            "ymin": 0, 
+            "yErr": 0.0127227487737023, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276545, 
+            "ymax": 0, 
+            "y": 169.69200845530023, 
+            "x": 246.0, 
+            "ymin": 0, 
+            "yErr": 0.019161892923414987, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276581, 
+            "ymax": 0, 
+            "y": 127.91541745805013, 
+            "x": 247.0, 
+            "ymin": 0, 
+            "yErr": 0.02941268087332308, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276582, 
+            "ymax": 0, 
+            "y": 158.57730273323403, 
+            "x": 248.0, 
+            "ymin": 0, 
+            "yErr": 0.014055051939206935, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276583, 
+            "ymax": 0, 
+            "y": 174.0802168206457, 
+            "x": 249.0, 
+            "ymin": 0, 
+            "yErr": 0.029056351187577954, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276584, 
+            "ymax": 0, 
+            "y": 171.49214145383104, 
+            "x": 250.0, 
+            "ymin": 0, 
+            "yErr": 0.055380775745801164, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276585, 
+            "ymax": 0, 
+            "y": 108.98016819107893, 
+            "x": 251.0, 
+            "ymin": 0, 
+            "yErr": 0.015043306714024322, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276586, 
+            "ymax": 0, 
+            "y": 114.93091176241721, 
+            "x": 252.0, 
+            "ymin": 0, 
+            "yErr": 0.01152867580642868, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276587, 
+            "ymax": 0, 
+            "y": 133.02949621508745, 
+            "x": 253.0, 
+            "ymin": 0, 
+            "yErr": 0.008794683917727024, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276653, 
+            "ymax": 0, 
+            "y": 116.10248656974579, 
+            "x": 254.0, 
+            "ymin": 0, 
+            "yErr": 0.016406786164129585, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276655, 
+            "ymax": 0, 
+            "y": 143.24455977655256, 
+            "x": 255.0, 
+            "ymin": 0, 
+            "yErr": 0.013000978619879247, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276659, 
+            "ymax": 0, 
+            "y": 161.59253334486263, 
+            "x": 256.0, 
+            "ymin": 0, 
+            "yErr": 0.012317964785632863, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276775, 
+            "ymax": 0, 
+            "y": 134.76414199656008, 
+            "x": 257.0, 
+            "ymin": 0, 
+            "yErr": 0.02039866932499427, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276776, 
+            "ymax": 0, 
+            "y": 186.1645996510423, 
+            "x": 258.0, 
+            "ymin": 0, 
+            "yErr": 0.014810372529460089, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276794, 
+            "ymax": 0, 
+            "y": 219.15230535637016, 
+            "x": 259.0, 
+            "ymin": 0, 
+            "yErr": 0.012318612325821687, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276807, 
+            "ymax": 0, 
+            "y": 111.77885462555066, 
+            "x": 260.0, 
+            "ymin": 0, 
+            "yErr": 0.020888603399021793, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276808, 
+            "ymax": 0, 
+            "y": 147.21717545304284, 
+            "x": 261.0, 
+            "ymin": 0, 
+            "yErr": 0.021189253824071237, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276810, 
+            "ymax": 0, 
+            "y": 174.250749677837, 
+            "x": 262.0, 
+            "ymin": 0, 
+            "yErr": 0.013104462836069962, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276811, 
+            "ymax": 0, 
+            "y": 211.63856555553386, 
+            "x": 263.0, 
+            "ymin": 0, 
+            "yErr": 0.01321273668647738, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276831, 
+            "ymax": 0, 
+            "y": 162.17400012287277, 
+            "x": 264.0, 
+            "ymin": 0, 
+            "yErr": 0.02138053734724236, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276832, 
+            "ymax": 0, 
+            "y": 208.88660651603007, 
+            "x": 265.0, 
+            "ymin": 0, 
+            "yErr": 0.030210016304245895, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276834, 
+            "ymax": 0, 
+            "y": 215.26448536745568, 
+            "x": 266.0, 
+            "ymin": 0, 
+            "yErr": 0.009041159799175243, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276870, 
+            "ymax": 0, 
+            "y": 169.0181136458005, 
+            "x": 267.0, 
+            "ymin": 0, 
+            "yErr": 0.02805246430025835, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276935, 
+            "ymax": 0, 
+            "y": 134.38437235703597, 
+            "x": 268.0, 
+            "ymin": 0, 
+            "yErr": 0.018366935957244278, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276940, 
+            "ymax": 0, 
+            "y": 116.1838189459291, 
+            "x": 269.0, 
+            "ymin": 0, 
+            "yErr": 0.02387371429836466, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276941, 
+            "ymax": 0, 
+            "y": 119.19128508124076, 
+            "x": 270.0, 
+            "ymin": 0, 
+            "yErr": 0.016272594146090533, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276942, 
+            "ymax": 0, 
+            "y": 119.27773212818406, 
+            "x": 271.0, 
+            "ymin": 0, 
+            "yErr": 0.017816270858931192, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276944, 
+            "ymax": 0, 
+            "y": 124.72194062273715, 
+            "x": 272.0, 
+            "ymin": 0, 
+            "yErr": 0.022025716638005552, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276945, 
+            "ymax": 0, 
+            "y": 125.18020304568527, 
+            "x": 273.0, 
+            "ymin": 0, 
+            "yErr": 0.030689213445009453, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276946, 
+            "ymax": 0, 
+            "y": 125.90271386984693, 
+            "x": 274.0, 
+            "ymin": 0, 
+            "yErr": 0.007345796745519614, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276947, 
+            "ymax": 0, 
+            "y": 110.10763093631027, 
+            "x": 275.0, 
+            "ymin": 0, 
+            "yErr": 0.01142753215956544, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276948, 
+            "ymax": 0, 
+            "y": 125.36757720889213, 
+            "x": 276.0, 
+            "ymin": 0, 
+            "yErr": 0.018859938437993527, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 276950, 
+            "ymax": 0, 
+            "y": 176.19669114362796, 
+            "x": 277.0, 
+            "ymin": 0, 
+            "yErr": 0.023391787340127583, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 277069, 
+            "ymax": 0, 
+            "y": 112.87611619519356, 
+            "x": 278.0, 
+            "ymin": 0, 
+            "yErr": 0.019948487943496313, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 277070, 
+            "ymax": 0, 
+            "y": 146.81829403652753, 
+            "x": 279.0, 
+            "ymin": 0, 
+            "yErr": 0.018604228206292994, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 277071, 
+            "ymax": 0, 
+            "y": 175.71814356591094, 
+            "x": 280.0, 
+            "ymin": 0, 
+            "yErr": 0.013545942952712428, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 277072, 
+            "ymax": 0, 
+            "y": 185.30296837657164, 
+            "x": 281.0, 
+            "ymin": 0, 
+            "yErr": 0.012546715705710932, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 277073, 
+            "ymax": 0, 
+            "y": 107.3260753725447, 
+            "x": 282.0, 
+            "ymin": 0, 
+            "yErr": 0.016615780732050264, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 277076, 
+            "ymax": 0, 
+            "y": 118.70281016567208, 
+            "x": 283.0, 
+            "ymin": 0, 
+            "yErr": 0.010543361900407876, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 277087, 
+            "ymax": 0, 
+            "y": 167.3682074985706, 
+            "x": 284.0, 
+            "ymin": 0, 
+            "yErr": 0.011800067086351802, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 277093, 
+            "ymax": 0, 
+            "y": 101.87529197759265, 
+            "x": 285.0, 
+            "ymin": 0, 
+            "yErr": 0.022477052196670413, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 277094, 
+            "ymax": 0, 
+            "y": 129.35715081657395, 
+            "x": 286.0, 
+            "ymin": 0, 
+            "yErr": 0.015482968622331216, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 277096, 
+            "ymax": 0, 
+            "y": 177.4513255151895, 
+            "x": 287.0, 
+            "ymin": 0, 
+            "yErr": 0.017738516335464763, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 277112, 
+            "ymax": 0, 
+            "y": 219.7532904805632, 
+            "x": 288.0, 
+            "ymin": 0, 
+            "yErr": 0.014461768021305877, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 277126, 
+            "ymax": 0, 
+            "y": 105.10696552702511, 
+            "x": 289.0, 
+            "ymin": 0, 
+            "yErr": 0.020975908585738223, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 277127, 
+            "ymax": 0, 
+            "y": 138.8532330864395, 
+            "x": 290.0, 
+            "ymin": 0, 
+            "yErr": 0.0161410592917104, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 277148, 
+            "ymax": 0, 
+            "y": 129.5754846349867, 
+            "x": 291.0, 
+            "ymin": 0, 
+            "yErr": 0.016830810871322738, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 277166, 
+            "ymax": 0, 
+            "y": 119.34641119771416, 
+            "x": 292.0, 
+            "ymin": 0, 
+            "yErr": 0.015680387915345893, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 277168, 
+            "ymax": 0, 
+            "y": 170.65005167204953, 
+            "x": 293.0, 
+            "ymin": 0, 
+            "yErr": 0.013100011219826214, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 277180, 
+            "ymax": 0, 
+            "y": 114.6265221519174, 
+            "x": 294.0, 
+            "ymin": 0, 
+            "yErr": 0.016879135777631168, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 277194, 
+            "ymax": 0, 
+            "y": 151.1333466797312, 
+            "x": 295.0, 
+            "ymin": 0, 
+            "yErr": 0.016467549646929255, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 277202, 
+            "ymax": 0, 
+            "y": 119.1801670243653, 
+            "x": 296.0, 
+            "ymin": 0, 
+            "yErr": 0.01057874191672416, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 277217, 
+            "ymax": 0, 
+            "y": 118.98544282698077, 
+            "x": 297.0, 
+            "ymin": 0, 
+            "yErr": 0.04770330780713295, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 277218, 
+            "ymax": 0, 
+            "y": 108.59198131832181, 
+            "x": 298.0, 
+            "ymin": 0, 
+            "yErr": 0.014373801389884, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 277219, 
+            "ymax": 0, 
+            "y": 114.84114517354953, 
+            "x": 299.0, 
+            "ymin": 0, 
+            "yErr": 0.03017118701320458, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 277220, 
+            "ymax": 0, 
+            "y": 127.04960169990014, 
+            "x": 300.0, 
+            "ymin": 0, 
+            "yErr": 0.026022726735033724, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 277305, 
+            "ymax": 0, 
+            "y": 138.07929762384782, 
+            "x": 301.0, 
+            "ymin": 0, 
+            "yErr": 0.021736409598569966, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 277420, 
+            "ymax": 0, 
+            "y": 121.5504312982373, 
+            "x": 302.0, 
+            "ymin": 0, 
+            "yErr": 0.017615243033282022, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 277932, 
+            "ymax": 0, 
+            "y": 134.39536972358047, 
+            "x": 303.0, 
+            "ymin": 0, 
+            "yErr": 0.00806642034305056, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 277934, 
+            "ymax": 0, 
+            "y": 137.9019728729963, 
+            "x": 304.0, 
+            "ymin": 0, 
+            "yErr": 0.007261592482078915, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 277981, 
+            "ymax": 0, 
+            "y": 117.18518305293412, 
+            "x": 305.0, 
+            "ymin": 0, 
+            "yErr": 0.014442351826652253, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 277991, 
+            "ymax": 0, 
+            "y": 112.78482564093954, 
+            "x": 306.0, 
+            "ymin": 0, 
+            "yErr": 0.011758048286545225, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 277992, 
+            "ymax": 0, 
+            "y": 115.61914904554263, 
+            "x": 307.0, 
+            "ymin": 0, 
+            "yErr": 0.007590920770463409, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278017, 
+            "ymax": 0, 
+            "y": 130.8861605325618, 
+            "x": 308.0, 
+            "ymin": 0, 
+            "yErr": 0.020564994956664643, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278018, 
+            "ymax": 0, 
+            "y": 132.9818945361761, 
+            "x": 309.0, 
+            "ymin": 0, 
+            "yErr": 0.015850590043333022, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278167, 
+            "ymax": 0, 
+            "y": 153.97347379364277, 
+            "x": 310.0, 
+            "ymin": 0, 
+            "yErr": 0.025535471386844054, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278175, 
+            "ymax": 0, 
+            "y": 211.45223799126637, 
+            "x": 311.0, 
+            "ymin": 0, 
+            "yErr": 0.017892763917969564, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278193, 
+            "ymax": 0, 
+            "y": 103.05433677503898, 
+            "x": 312.0, 
+            "ymin": 0, 
+            "yErr": 0.02251043183100348, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278239, 
+            "ymax": 0, 
+            "y": 113.00065026994601, 
+            "x": 313.0, 
+            "ymin": 0, 
+            "yErr": 0.01532400092111275, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278240, 
+            "ymax": 0, 
+            "y": 171.7363200667359, 
+            "x": 314.0, 
+            "ymin": 0, 
+            "yErr": 0.015989977340873793, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278273, 
+            "ymax": 0, 
+            "y": 117.14132397888302, 
+            "x": 315.0, 
+            "ymin": 0, 
+            "yErr": 0.022687713210736735, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278274, 
+            "ymax": 0, 
+            "y": 130.73013220328866, 
+            "x": 316.0, 
+            "ymin": 0, 
+            "yErr": 0.013509127713538927, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278288, 
+            "ymax": 0, 
+            "y": 116.68733285089513, 
+            "x": 317.0, 
+            "ymin": 0, 
+            "yErr": 0.03112459104186161, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278289, 
+            "ymax": 0, 
+            "y": 122.4108595354295, 
+            "x": 318.0, 
+            "ymin": 0, 
+            "yErr": 0.010954298473677227, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278290, 
+            "ymax": 0, 
+            "y": 125.05752439650745, 
+            "x": 319.0, 
+            "ymin": 0, 
+            "yErr": 0.03105162699460259, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278308, 
+            "ymax": 0, 
+            "y": 156.48206521255182, 
+            "x": 320.0, 
+            "ymin": 0, 
+            "yErr": 0.010754357832914486, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278309, 
+            "ymax": 0, 
+            "y": 178.17517991925575, 
+            "x": 321.0, 
+            "ymin": 0, 
+            "yErr": 0.03684192933706355, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278310, 
+            "ymax": 0, 
+            "y": 189.25186573771305, 
+            "x": 322.0, 
+            "ymin": 0, 
+            "yErr": 0.010252021839135981, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278315, 
+            "ymax": 0, 
+            "y": 141.1970827663812, 
+            "x": 323.0, 
+            "ymin": 0, 
+            "yErr": 0.021578539384990034, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278345, 
+            "ymax": 0, 
+            "y": 137.93950268603544, 
+            "x": 324.0, 
+            "ymin": 0, 
+            "yErr": 0.02060290330387532, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278346, 
+            "ymax": 0, 
+            "y": 162.56956351122918, 
+            "x": 325.0, 
+            "ymin": 0, 
+            "yErr": 0.020826395847445188, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278349, 
+            "ymax": 0, 
+            "y": 174.6973290057966, 
+            "x": 326.0, 
+            "ymin": 0, 
+            "yErr": 0.01252579321335721, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278366, 
+            "ymax": 0, 
+            "y": 188.4022593190296, 
+            "x": 327.0, 
+            "ymin": 0, 
+            "yErr": 0.008497024552282215, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278406, 
+            "ymax": 0, 
+            "y": 155.66208892242295, 
+            "x": 328.0, 
+            "ymin": 0, 
+            "yErr": 0.018461553422178978, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278509, 
+            "ymax": 0, 
+            "y": 153.28653502592294, 
+            "x": 329.0, 
+            "ymin": 0, 
+            "yErr": 0.019917364355737117, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278761, 
+            "ymax": 0, 
+            "y": 93.61138348137055, 
+            "x": 330.0, 
+            "ymin": 0, 
+            "yErr": 0.016467699080675635, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278769, 
+            "ymax": 0, 
+            "y": 116.5933992149301, 
+            "x": 331.0, 
+            "ymin": 0, 
+            "yErr": 0.022711827875962768, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278770, 
+            "ymax": 0, 
+            "y": 136.7764126701611, 
+            "x": 332.0, 
+            "ymin": 0, 
+            "yErr": 0.019034112226906832, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278801, 
+            "ymax": 0, 
+            "y": 118.97689322140988, 
+            "x": 333.0, 
+            "ymin": 0, 
+            "yErr": 0.02606678080047259, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278802, 
+            "ymax": 0, 
+            "y": 135.65351629502572, 
+            "x": 334.0, 
+            "ymin": 0, 
+            "yErr": 0.02140657892752422, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278803, 
+            "ymax": 0, 
+            "y": 144.58281241972222, 
+            "x": 335.0, 
+            "ymin": 0, 
+            "yErr": 0.012629955292722195, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278804, 
+            "ymax": 0, 
+            "y": 115.54554919312858, 
+            "x": 336.0, 
+            "ymin": 0, 
+            "yErr": 0.05225434562936083, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278805, 
+            "ymax": 0, 
+            "y": 122.70425912878224, 
+            "x": 337.0, 
+            "ymin": 0, 
+            "yErr": 0.01711437792183022, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278807, 
+            "ymax": 0, 
+            "y": 178.69230769230768, 
+            "x": 338.0, 
+            "ymin": 0, 
+            "yErr": 1.2610909871712719, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278808, 
+            "ymax": 0, 
+            "y": 148.5836116183088, 
+            "x": 339.0, 
+            "ymin": 0, 
+            "yErr": 0.015201750255505684, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278820, 
+            "ymax": 0, 
+            "y": 155.82090614078882, 
+            "x": 340.0, 
+            "ymin": 0, 
+            "yErr": 0.02007263376587373, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278821, 
+            "ymax": 0, 
+            "y": 187.52324080051648, 
+            "x": 341.0, 
+            "ymin": 0, 
+            "yErr": 0.018279100681278852, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278822, 
+            "ymax": 0, 
+            "y": 207.8253717194843, 
+            "x": 342.0, 
+            "ymin": 0, 
+            "yErr": 0.01106157655977458, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278873, 
+            "ymax": 0, 
+            "y": 103.63736238792418, 
+            "x": 343.0, 
+            "ymin": 0, 
+            "yErr": 0.035393869395913796, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278874, 
+            "ymax": 0, 
+            "y": 126.88740667322018, 
+            "x": 344.0, 
+            "ymin": 0, 
+            "yErr": 0.01056255969364697, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278875, 
+            "ymax": 0, 
+            "y": 142.97672008653836, 
+            "x": 345.0, 
+            "ymin": 0, 
+            "yErr": 0.009947358514512498, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278923, 
+            "ymax": 0, 
+            "y": 116.85141521721333, 
+            "x": 346.0, 
+            "ymin": 0, 
+            "yErr": 0.019244447116689777, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278957, 
+            "ymax": 0, 
+            "y": 106.45321350177291, 
+            "x": 347.0, 
+            "ymin": 0, 
+            "yErr": 0.02385884530351614, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278962, 
+            "ymax": 0, 
+            "y": 116.09923590669926, 
+            "x": 348.0, 
+            "ymin": 0, 
+            "yErr": 0.020143127761243912, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278963, 
+            "ymax": 0, 
+            "y": 129.99003028277028, 
+            "x": 349.0, 
+            "ymin": 0, 
+            "yErr": 0.018908715843208655, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278969, 
+            "ymax": 0, 
+            "y": 134.24826019543505, 
+            "x": 350.0, 
+            "ymin": 0, 
+            "yErr": 0.01782943693405958, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278975, 
+            "ymax": 0, 
+            "y": 170.8679093286403, 
+            "x": 351.0, 
+            "ymin": 0, 
+            "yErr": 0.011380138808852747, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278976, 
+            "ymax": 0, 
+            "y": 184.00520416333066, 
+            "x": 352.0, 
+            "ymin": 0, 
+            "yErr": 0.04156864024890191, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 278986, 
+            "ymax": 0, 
+            "y": 108.24276599292617, 
+            "x": 353.0, 
+            "ymin": 0, 
+            "yErr": 0.020387217202339013, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279024, 
+            "ymax": 0, 
+            "y": 117.16904850305464, 
+            "x": 354.0, 
+            "ymin": 0, 
+            "yErr": 0.022289432897657113, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279029, 
+            "ymax": 0, 
+            "y": 107.29930392822973, 
+            "x": 355.0, 
+            "ymin": 0, 
+            "yErr": 0.013051606252558584, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279071, 
+            "ymax": 0, 
+            "y": 113.81136628884536, 
+            "x": 356.0, 
+            "ymin": 0, 
+            "yErr": 0.018628093369304558, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279080, 
+            "ymax": 0, 
+            "y": 117.49678094841714, 
+            "x": 357.0, 
+            "ymin": 0, 
+            "yErr": 0.01821452542658451, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279115, 
+            "ymax": 0, 
+            "y": 129.86166227398806, 
+            "x": 358.0, 
+            "ymin": 0, 
+            "yErr": 0.021279651236280707, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279116, 
+            "ymax": 0, 
+            "y": 159.44556629090948, 
+            "x": 359.0, 
+            "ymin": 0, 
+            "yErr": 0.014517238561765136, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279479, 
+            "ymax": 0, 
+            "y": 116.6229283282002, 
+            "x": 360.0, 
+            "ymin": 0, 
+            "yErr": 0.007162780266426353, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279480, 
+            "ymax": 0, 
+            "y": 118.28722157092615, 
+            "x": 361.0, 
+            "ymin": 0, 
+            "yErr": 0.04289250017454547, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279488, 
+            "ymax": 0, 
+            "y": 112.50490834675392, 
+            "x": 362.0, 
+            "ymin": 0, 
+            "yErr": 0.002344287209970673, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279489, 
+            "ymax": 0, 
+            "y": 109.8184592025574, 
+            "x": 363.0, 
+            "ymin": 0, 
+            "yErr": 0.0016217349511467513, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279588, 
+            "ymax": 0, 
+            "y": 168.2415034966962, 
+            "x": 364.0, 
+            "ymin": 0, 
+            "yErr": 0.023190926617526728, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279653, 
+            "ymax": 0, 
+            "y": 139.54165561684522, 
+            "x": 365.0, 
+            "ymin": 0, 
+            "yErr": 0.04390991819985948, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279654, 
+            "ymax": 0, 
+            "y": 187.42775633991423, 
+            "x": 366.0, 
+            "ymin": 0, 
+            "yErr": 0.020642541307461695, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279656, 
+            "ymax": 0, 
+            "y": 213.0114900767519, 
+            "x": 367.0, 
+            "ymin": 0, 
+            "yErr": 0.02910311188202612, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279658, 
+            "ymax": 0, 
+            "y": 232.08695787406003, 
+            "x": 368.0, 
+            "ymin": 0, 
+            "yErr": 0.011481899499461441, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279667, 
+            "ymax": 0, 
+            "y": 156.1701916352171, 
+            "x": 369.0, 
+            "ymin": 0, 
+            "yErr": 0.01780356884405214, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279681, 
+            "ymax": 0, 
+            "y": 134.6385215210745, 
+            "x": 370.0, 
+            "ymin": 0, 
+            "yErr": 0.024388766954581254, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279682, 
+            "ymax": 0, 
+            "y": 142.0605976140038, 
+            "x": 371.0, 
+            "ymin": 0, 
+            "yErr": 0.027944893716378597, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279683, 
+            "ymax": 0, 
+            "y": 145.9334636645544, 
+            "x": 372.0, 
+            "ymin": 0, 
+            "yErr": 0.02952070805574035, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279684, 
+            "ymax": 0, 
+            "y": 146.8535220276645, 
+            "x": 373.0, 
+            "ymin": 0, 
+            "yErr": 0.03343884401967802, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279685, 
+            "ymax": 0, 
+            "y": 155.29528784717695, 
+            "x": 374.0, 
+            "ymin": 0, 
+            "yErr": 0.01766291838968849, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279691, 
+            "ymax": 0, 
+            "y": 134.78288333869955, 
+            "x": 375.0, 
+            "ymin": 0, 
+            "yErr": 0.023777806817312536, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279694, 
+            "ymax": 0, 
+            "y": 196.94158251506147, 
+            "x": 376.0, 
+            "ymin": 0, 
+            "yErr": 0.02241007218425407, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279715, 
+            "ymax": 0, 
+            "y": 161.69031714509237, 
+            "x": 377.0, 
+            "ymin": 0, 
+            "yErr": 0.02336279864549737, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279716, 
+            "ymax": 0, 
+            "y": 212.9193081769829, 
+            "x": 378.0, 
+            "ymin": 0, 
+            "yErr": 0.017681635988111934, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279760, 
+            "ymax": 0, 
+            "y": 157.88090496276797, 
+            "x": 379.0, 
+            "ymin": 0, 
+            "yErr": 0.023727927349853944, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279766, 
+            "ymax": 0, 
+            "y": 223.12968572394715, 
+            "x": 380.0, 
+            "ymin": 0, 
+            "yErr": 0.014797045882059006, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279767, 
+            "ymax": 0, 
+            "y": 257.8546119810135, 
+            "x": 381.0, 
+            "ymin": 0, 
+            "yErr": 0.014172369101665276, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279794, 
+            "ymax": 0, 
+            "y": 174.4527365891121, 
+            "x": 382.0, 
+            "ymin": 0, 
+            "yErr": 0.026080642972286322, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279823, 
+            "ymax": 0, 
+            "y": 145.6631391714448, 
+            "x": 383.0, 
+            "ymin": 0, 
+            "yErr": 0.015867452991729897, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279841, 
+            "ymax": 0, 
+            "y": 184.49063541186328, 
+            "x": 384.0, 
+            "ymin": 0, 
+            "yErr": 0.021980260166211203, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279844, 
+            "ymax": 0, 
+            "y": 145.40162278971448, 
+            "x": 385.0, 
+            "ymin": 0, 
+            "yErr": 0.01752974766512774, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279846, 
+            "ymax": 0, 
+            "y": 164.06768450642122, 
+            "x": 386.0, 
+            "ymin": 0, 
+            "yErr": 0.02819455733043978, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279848, 
+            "ymax": 0, 
+            "y": 174.40316994922134, 
+            "x": 387.0, 
+            "ymin": 0, 
+            "yErr": 0.043695095398036676, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279849, 
+            "ymax": 0, 
+            "y": 183.292476323778, 
+            "x": 388.0, 
+            "ymin": 0, 
+            "yErr": 0.0230366844392074, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279851, 
+            "ymax": 0, 
+            "y": 188.98543689320388, 
+            "x": 389.0, 
+            "ymin": 0, 
+            "yErr": 0.03508655518261959, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279852, 
+            "ymax": 0, 
+            "y": 192.30166803799835, 
+            "x": 390.0, 
+            "ymin": 0, 
+            "yErr": 0.03711525815702277, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279853, 
+            "ymax": 0, 
+            "y": 193.74283659033688, 
+            "x": 391.0, 
+            "ymin": 0, 
+            "yErr": 0.04222456472280703, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279854, 
+            "ymax": 0, 
+            "y": 194.06100577081617, 
+            "x": 392.0, 
+            "ymin": 0, 
+            "yErr": 0.04358229751302668, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279855, 
+            "ymax": 0, 
+            "y": 196.97342995169083, 
+            "x": 393.0, 
+            "ymin": 0, 
+            "yErr": 0.07990685528220419, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279856, 
+            "ymax": 0, 
+            "y": 198.53197674418604, 
+            "x": 394.0, 
+            "ymin": 0, 
+            "yErr": 0.04877474999380556, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279857, 
+            "ymax": 0, 
+            "y": 198.94495412844037, 
+            "x": 395.0, 
+            "ymin": 0, 
+            "yErr": 0.03205004049367183, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279858, 
+            "ymax": 0, 
+            "y": 201.3406844106464, 
+            "x": 396.0, 
+            "ymin": 0, 
+            "yErr": 0.05554113238837688, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279859, 
+            "ymax": 0, 
+            "y": 199.98723157283808, 
+            "x": 397.0, 
+            "ymin": 0, 
+            "yErr": 0.019351393986299675, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279860, 
+            "ymax": 0, 
+            "y": 201.14954954954956, 
+            "x": 398.0, 
+            "ymin": 0, 
+            "yErr": 0.043333914626552665, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279861, 
+            "ymax": 0, 
+            "y": 201.44170168067228, 
+            "x": 399.0, 
+            "ymin": 0, 
+            "yErr": 0.050418879334393624, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279865, 
+            "ymax": 0, 
+            "y": 150.22207519001086, 
+            "x": 400.0, 
+            "ymin": 0, 
+            "yErr": 0.009050500686629083, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279887, 
+            "ymax": 0, 
+            "y": 171.7386501832944, 
+            "x": 401.0, 
+            "ymin": 0, 
+            "yErr": 0.036257399609164534, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279931, 
+            "ymax": 0, 
+            "y": 209.9798588015039, 
+            "x": 402.0, 
+            "ymin": 0, 
+            "yErr": 0.022996163182082422, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279966, 
+            "ymax": 0, 
+            "y": 153.48392868353318, 
+            "x": 403.0, 
+            "ymin": 0, 
+            "yErr": 0.017428103920604322, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279975, 
+            "ymax": 0, 
+            "y": 173.31359848286604, 
+            "x": 404.0, 
+            "ymin": 0, 
+            "yErr": 0.026318310566771516, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279993, 
+            "ymax": 0, 
+            "y": 153.23088447391075, 
+            "x": 405.0, 
+            "ymin": 0, 
+            "yErr": 0.03150187522041846, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279994, 
+            "ymax": 0, 
+            "y": 158.25896172792724, 
+            "x": 406.0, 
+            "ymin": 0, 
+            "yErr": 0.016981466012132025, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 279995, 
+            "ymax": 0, 
+            "y": 159.2684515195369, 
+            "x": 407.0, 
+            "ymin": 0, 
+            "yErr": 0.028434398553204173, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 280002, 
+            "ymax": 0, 
+            "y": 145.16566609261076, 
+            "x": 408.0, 
+            "ymin": 0, 
+            "yErr": 0.02732594843810715, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 280006, 
+            "ymax": 0, 
+            "y": 152.60340213083535, 
+            "x": 409.0, 
+            "ymin": 0, 
+            "yErr": 0.030083675397144825, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 280007, 
+            "ymax": 0, 
+            "y": 164.82211283239226, 
+            "x": 410.0, 
+            "ymin": 0, 
+            "yErr": 0.021983486397012846, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 280013, 
+            "ymax": 0, 
+            "y": 138.08101106287634, 
+            "x": 411.0, 
+            "ymin": 0, 
+            "yErr": 0.02705143804437985, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 280014, 
+            "ymax": 0, 
+            "y": 164.03703703703704, 
+            "x": 412.0, 
+            "ymin": 0, 
+            "yErr": 1.3623201800332827, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 280015, 
+            "ymax": 0, 
+            "y": 148.22510613691588, 
+            "x": 413.0, 
+            "ymin": 0, 
+            "yErr": 0.01016171385603268, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 280016, 
+            "ymax": 0, 
+            "y": 157.93741635925662, 
+            "x": 414.0, 
+            "ymin": 0, 
+            "yErr": 0.013327984357802983, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 280017, 
+            "ymax": 0, 
+            "y": 153.86203754276835, 
+            "x": 415.0, 
+            "ymin": 0, 
+            "yErr": 0.01735703600319016, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 280018, 
+            "ymax": 0, 
+            "y": 186.92162942228234, 
+            "x": 416.0, 
+            "ymin": 0, 
+            "yErr": 0.01351109752991863, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 280020, 
+            "ymax": 0, 
+            "y": 204.5953293830603, 
+            "x": 417.0, 
+            "ymin": 0, 
+            "yErr": 0.040041227662122765, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 280023, 
+            "ymax": 0, 
+            "y": 200.25, 
+            "x": 418.0, 
+            "ymin": 0, 
+            "yErr": 0.12028130608145209, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 280024, 
+            "ymax": 0, 
+            "y": 208.60096899301269, 
+            "x": 419.0, 
+            "ymin": 0, 
+            "yErr": 0.012240549857893414, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 280187, 
+            "ymax": 0, 
+            "y": 125.73329398241636, 
+            "x": 420.0, 
+            "ymin": 0, 
+            "yErr": 0.022590959531275708, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 280188, 
+            "ymax": 0, 
+            "y": 135.09602934368434, 
+            "x": 421.0, 
+            "ymin": 0, 
+            "yErr": 0.014817776453614644, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 280190, 
+            "ymax": 0, 
+            "y": 140.8, 
+            "x": 422.0, 
+            "ymin": 0, 
+            "yErr": 0.1932183566154575, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 280191, 
+            "ymax": 0, 
+            "y": 177.2552928835131, 
+            "x": 423.0, 
+            "ymin": 0, 
+            "yErr": 0.022517731522619655, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 280194, 
+            "ymax": 0, 
+            "y": 211.03533237045627, 
+            "x": 424.0, 
+            "ymin": 0, 
+            "yErr": 0.015185115325829158, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 280242, 
+            "ymax": 0, 
+            "y": 125.20933108769121, 
+            "x": 425.0, 
+            "ymin": 0, 
+            "yErr": 0.015144347500951614, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 280249, 
+            "ymax": 0, 
+            "y": 143.73312593711287, 
+            "x": 426.0, 
+            "ymin": 0, 
+            "yErr": 0.016412234935015896, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 280251, 
+            "ymax": 0, 
+            "y": 174.22023638199403, 
+            "x": 427.0, 
+            "ymin": 0, 
+            "yErr": 0.014865420505485963, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 280327, 
+            "ymax": 0, 
+            "y": 116.6962257466186, 
+            "x": 428.0, 
+            "ymin": 0, 
+            "yErr": 0.026704138528887946, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 280330, 
+            "ymax": 0, 
+            "y": 150.89156236338025, 
+            "x": 429.0, 
+            "ymin": 0, 
+            "yErr": 0.02161987781728501, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 280349, 
+            "ymax": 0, 
+            "y": 129.85000036827802, 
+            "x": 430.0, 
+            "ymin": 0, 
+            "yErr": 0.012906806233340994, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 280363, 
+            "ymax": 0, 
+            "y": 120.24401347449471, 
+            "x": 431.0, 
+            "ymin": 0, 
+            "yErr": 0.011349546302053684, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 280364, 
+            "ymax": 0, 
+            "y": 140.95419990614735, 
+            "x": 432.0, 
+            "ymin": 0, 
+            "yErr": 0.014210525332261754, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 280383, 
+            "ymax": 0, 
+            "y": 117.58800067411943, 
+            "x": 433.0, 
+            "ymin": 0, 
+            "yErr": 0.03469151628719124, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 280384, 
+            "ymax": 0, 
+            "y": 123.28470808342045, 
+            "x": 434.0, 
+            "ymin": 0, 
+            "yErr": 0.027024486591564957, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 280385, 
+            "ymax": 0, 
+            "y": 192.1272769601358, 
+            "x": 435.0, 
+            "ymin": 0, 
+            "yErr": 0.028315356649311008, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 281613, 
+            "ymax": 0, 
+            "y": 115.42285734563224, 
+            "x": 436.0, 
+            "ymin": 0, 
+            "yErr": 0.007604319287459363, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 281616, 
+            "ymax": 0, 
+            "y": 108.4991845772003, 
+            "x": 437.0, 
+            "ymin": 0, 
+            "yErr": 0.003927511110679092, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 281638, 
+            "ymax": 0, 
+            "y": 127.85035971223022, 
+            "x": 438.0, 
+            "ymin": 0, 
+            "yErr": 0.036184616250982085, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 281639, 
+            "ymax": 0, 
+            "y": 133.3913699082872, 
+            "x": 439.0, 
+            "ymin": 0, 
+            "yErr": 0.012849886499819475, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 281641, 
+            "ymax": 0, 
+            "y": 144.11614711057783, 
+            "x": 440.0, 
+            "ymin": 0, 
+            "yErr": 0.009849402571276965, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 281663, 
+            "ymax": 0, 
+            "y": 110.32792448828084, 
+            "x": 441.0, 
+            "ymin": 0, 
+            "yErr": 0.08977094800710776, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 281674, 
+            "ymax": 0, 
+            "y": 105.98182552504039, 
+            "x": 442.0, 
+            "ymin": 0, 
+            "yErr": 0.06809636101497288, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 281680, 
+            "ymax": 0, 
+            "y": 103.7156368221942, 
+            "x": 443.0, 
+            "ymin": 0, 
+            "yErr": 0.06035451828049444, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 281686, 
+            "ymax": 0, 
+            "y": 105.81831459033152, 
+            "x": 444.0, 
+            "ymin": 0, 
+            "yErr": 0.030077654288165324, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 281689, 
+            "ymax": 0, 
+            "y": 108.56819277108434, 
+            "x": 445.0, 
+            "ymin": 0, 
+            "yErr": 0.037264889151988737, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 281691, 
+            "ymax": 0, 
+            "y": 112.5255206206615, 
+            "x": 446.0, 
+            "ymin": 0, 
+            "yErr": 0.044442970819917056, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 281693, 
+            "ymax": 0, 
+            "y": 164.12137256878552, 
+            "x": 447.0, 
+            "ymin": 0, 
+            "yErr": 0.02282113705972372, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 281707, 
+            "ymax": 0, 
+            "y": 127.84205334885903, 
+            "x": 448.0, 
+            "ymin": 0, 
+            "yErr": 0.026252715195967072, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 281726, 
+            "ymax": 0, 
+            "y": 106.49377280660003, 
+            "x": 449.0, 
+            "ymin": 0, 
+            "yErr": 0.009223384448913994, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 281727, 
+            "ymax": 0, 
+            "y": 133.73417608681393, 
+            "x": 450.0, 
+            "ymin": 0, 
+            "yErr": 0.01861135901703503, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 281797, 
+            "ymax": 0, 
+            "y": 163.52088551408247, 
+            "x": 451.0, 
+            "ymin": 0, 
+            "yErr": 0.02221515769648498, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 281974, 
+            "ymax": 0, 
+            "y": 108.44547938966068, 
+            "x": 452.0, 
+            "ymin": 0, 
+            "yErr": 0.0212266381519527, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 281975, 
+            "ymax": 0, 
+            "y": 123.13549550764459, 
+            "x": 453.0, 
+            "ymin": 0, 
+            "yErr": 0.013336025024952432, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 281976, 
+            "ymax": 0, 
+            "y": 171.035314555701, 
+            "x": 454.0, 
+            "ymin": 0, 
+            "yErr": 0.019627032850688713, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 282033, 
+            "ymax": 0, 
+            "y": 110.70588089422326, 
+            "x": 455.0, 
+            "ymin": 0, 
+            "yErr": 0.026570753194527685, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 282034, 
+            "ymax": 0, 
+            "y": 118.81785172588133, 
+            "x": 456.0, 
+            "ymin": 0, 
+            "yErr": 0.014239474252876033, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 282035, 
+            "ymax": 0, 
+            "y": 119.73259461441317, 
+            "x": 457.0, 
+            "ymin": 0, 
+            "yErr": 0.0102633324325498, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 282037, 
+            "ymax": 0, 
+            "y": 169.23598629418723, 
+            "x": 458.0, 
+            "ymin": 0, 
+            "yErr": 0.01680362800687824, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 282092, 
+            "ymax": 0, 
+            "y": 186.9077373254718, 
+            "x": 459.0, 
+            "ymin": 0, 
+            "yErr": 0.019769416765615673, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 282663, 
+            "ymax": 0, 
+            "y": 112.05304627151186, 
+            "x": 460.0, 
+            "ymin": 0, 
+            "yErr": 0.004569667216899936, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 282707, 
+            "ymax": 0, 
+            "y": 98.08361023798832, 
+            "x": 461.0, 
+            "ymin": 0, 
+            "yErr": 0.02783169357306512, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 282708, 
+            "ymax": 0, 
+            "y": 116.3170182265001, 
+            "x": 462.0, 
+            "ymin": 0, 
+            "yErr": 0.02229626429979667, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 282710, 
+            "ymax": 0, 
+            "y": 116.18437118437119, 
+            "x": 463.0, 
+            "ymin": 0, 
+            "yErr": 0.03507398960932377, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 282712, 
+            "ymax": 0, 
+            "y": 120.64477249183201, 
+            "x": 464.0, 
+            "ymin": 0, 
+            "yErr": 0.012697944454762598, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 282730, 
+            "ymax": 0, 
+            "y": 104.6436328981911, 
+            "x": 465.0, 
+            "ymin": 0, 
+            "yErr": 0.02756198748254693, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 282731, 
+            "ymax": 0, 
+            "y": 119.32972637673168, 
+            "x": 466.0, 
+            "ymin": 0, 
+            "yErr": 0.013662288634291276, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 282732, 
+            "ymax": 0, 
+            "y": 131.35083486762744, 
+            "x": 467.0, 
+            "ymin": 0, 
+            "yErr": 0.03363228118071808, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 282733, 
+            "ymax": 0, 
+            "y": 137.68309697139006, 
+            "x": 468.0, 
+            "ymin": 0, 
+            "yErr": 0.015283349760655568, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 282734, 
+            "ymax": 0, 
+            "y": 149.11399883443144, 
+            "x": 469.0, 
+            "ymin": 0, 
+            "yErr": 0.01151481110438679, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 282735, 
+            "ymax": 0, 
+            "y": 194.15935041165665, 
+            "x": 470.0, 
+            "ymin": 0, 
+            "yErr": 0.015802668206186043, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 282800, 
+            "ymax": 0, 
+            "y": 120.45816963923559, 
+            "x": 471.0, 
+            "ymin": 0, 
+            "yErr": 0.014278885326190377, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 282807, 
+            "ymax": 0, 
+            "y": 139.4242300335746, 
+            "x": 472.0, 
+            "ymin": 0, 
+            "yErr": 0.015040663886330307, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 282814, 
+            "ymax": 0, 
+            "y": 130.05954924561587, 
+            "x": 473.0, 
+            "ymin": 0, 
+            "yErr": 0.015496621234674181, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 282842, 
+            "ymax": 0, 
+            "y": 103.96589816643653, 
+            "x": 474.0, 
+            "ymin": 0, 
+            "yErr": 0.011848630752287403, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 282917, 
+            "ymax": 0, 
+            "y": 103.55575111138084, 
+            "x": 475.0, 
+            "ymin": 0, 
+            "yErr": 0.02600198414079893, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 282918, 
+            "ymax": 0, 
+            "y": 109.76300776882722, 
+            "x": 476.0, 
+            "ymin": 0, 
+            "yErr": 0.01661741351032644, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 282919, 
+            "ymax": 0, 
+            "y": 118.78577058107044, 
+            "x": 477.0, 
+            "ymin": 0, 
+            "yErr": 0.013588210618378886, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 282922, 
+            "ymax": 0, 
+            "y": 111.31408241125071, 
+            "x": 478.0, 
+            "ymin": 0, 
+            "yErr": 0.013825734458541211, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 282923, 
+            "ymax": 0, 
+            "y": 121.04138196611241, 
+            "x": 479.0, 
+            "ymin": 0, 
+            "yErr": 0.013082792933331375, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 282924, 
+            "ymax": 0, 
+            "y": 124.98021606143433, 
+            "x": 480.0, 
+            "ymin": 0, 
+            "yErr": 0.0066533179298266945, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283042, 
+            "ymax": 0, 
+            "y": 117.77927112949082, 
+            "x": 481.0, 
+            "ymin": 0, 
+            "yErr": 0.0169358453675679, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283043, 
+            "ymax": 0, 
+            "y": 132.74157426751736, 
+            "x": 482.0, 
+            "ymin": 0, 
+            "yErr": 0.012645205611635759, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283049, 
+            "ymax": 0, 
+            "y": 101.59175848253412, 
+            "x": 483.0, 
+            "ymin": 0, 
+            "yErr": 0.026851763220729602, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283050, 
+            "ymax": 0, 
+            "y": 132.94141539503005, 
+            "x": 484.0, 
+            "ymin": 0, 
+            "yErr": 0.04765230360985158, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283052, 
+            "ymax": 0, 
+            "y": 173.44471001478976, 
+            "x": 485.0, 
+            "ymin": 0, 
+            "yErr": 0.012003903814577128, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283059, 
+            "ymax": 0, 
+            "y": 114.25472032117348, 
+            "x": 486.0, 
+            "ymin": 0, 
+            "yErr": 0.011842896593856527, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283270, 
+            "ymax": 0, 
+            "y": 174.53660617454506, 
+            "x": 487.0, 
+            "ymin": 0, 
+            "yErr": 0.0211951033207175, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283283, 
+            "ymax": 0, 
+            "y": 226.36178738590394, 
+            "x": 488.0, 
+            "ymin": 0, 
+            "yErr": 0.011888001844866615, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283305, 
+            "ymax": 0, 
+            "y": 100.67732594737505, 
+            "x": 489.0, 
+            "ymin": 0, 
+            "yErr": 0.01944980559075774, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283306, 
+            "ymax": 0, 
+            "y": 116.9431453579404, 
+            "x": 490.0, 
+            "ymin": 0, 
+            "yErr": 0.016716844268040966, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283307, 
+            "ymax": 0, 
+            "y": 144.72033823428353, 
+            "x": 491.0, 
+            "ymin": 0, 
+            "yErr": 0.034140226961702345, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283308, 
+            "ymax": 0, 
+            "y": 192.7931014355374, 
+            "x": 492.0, 
+            "ymin": 0, 
+            "yErr": 0.013486259113377782, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283353, 
+            "ymax": 0, 
+            "y": 126.93930758663984, 
+            "x": 493.0, 
+            "ymin": 0, 
+            "yErr": 0.01726774616607799, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283358, 
+            "ymax": 0, 
+            "y": 170.33499551663616, 
+            "x": 494.0, 
+            "ymin": 0, 
+            "yErr": 0.014401198099585483, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283359, 
+            "ymax": 0, 
+            "y": 113.8998395887287, 
+            "x": 495.0, 
+            "ymin": 0, 
+            "yErr": 0.012539198199902887, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283407, 
+            "ymax": 0, 
+            "y": 129.07775719338247, 
+            "x": 496.0, 
+            "ymin": 0, 
+            "yErr": 0.02676892449256289, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283408, 
+            "ymax": 0, 
+            "y": 213.35493723914618, 
+            "x": 497.0, 
+            "ymin": 0, 
+            "yErr": 0.020937472821096682, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283416, 
+            "ymax": 0, 
+            "y": 129.46924879928676, 
+            "x": 498.0, 
+            "ymin": 0, 
+            "yErr": 0.019091258422313885, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283453, 
+            "ymax": 0, 
+            "y": 138.35385192299393, 
+            "x": 499.0, 
+            "ymin": 0, 
+            "yErr": 0.019848962155340457, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283469, 
+            "ymax": 0, 
+            "y": 121.27823780198958, 
+            "x": 500.0, 
+            "ymin": 0, 
+            "yErr": 0.032002518324263304, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283478, 
+            "ymax": 0, 
+            "y": 162.05828839306162, 
+            "x": 501.0, 
+            "ymin": 0, 
+            "yErr": 0.028339420250244718, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283548, 
+            "ymax": 0, 
+            "y": 108.26991756152465, 
+            "x": 502.0, 
+            "ymin": 0, 
+            "yErr": 0.02868238223117125, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283672, 
+            "ymax": 0, 
+            "y": 94.58759997962198, 
+            "x": 503.0, 
+            "ymin": 0, 
+            "yErr": 0.0021881907290750317, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283675, 
+            "ymax": 0, 
+            "y": 104.6745283018868, 
+            "x": 504.0, 
+            "ymin": 0, 
+            "yErr": 0.08780967334705184, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283676, 
+            "ymax": 0, 
+            "y": 108.0859375, 
+            "x": 505.0, 
+            "ymin": 0, 
+            "yErr": 0.10826859129086061, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283680, 
+            "ymax": 0, 
+            "y": 130.69414238726029, 
+            "x": 506.0, 
+            "ymin": 0, 
+            "yErr": 0.020548955085066913, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283681, 
+            "ymax": 0, 
+            "y": 136.9767623341715, 
+            "x": 507.0, 
+            "ymin": 0, 
+            "yErr": 0.02766747354524443, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283682, 
+            "ymax": 0, 
+            "y": 165.12039679155689, 
+            "x": 508.0, 
+            "ymin": 0, 
+            "yErr": 0.010585672680040986, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283685, 
+            "ymax": 0, 
+            "y": 175.71953629201624, 
+            "x": 509.0, 
+            "ymin": 0, 
+            "yErr": 0.011705610125520734, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283820, 
+            "ymax": 0, 
+            "y": 138.23749008090908, 
+            "x": 510.0, 
+            "ymin": 0, 
+            "yErr": 0.013613400180714354, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283830, 
+            "ymax": 0, 
+            "y": 180.46775554672465, 
+            "x": 511.0, 
+            "ymin": 0, 
+            "yErr": 0.00973476130112423, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283834, 
+            "ymax": 0, 
+            "y": 186.60248091603054, 
+            "x": 512.0, 
+            "ymin": 0, 
+            "yErr": 0.004264440465118306, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283835, 
+            "ymax": 0, 
+            "y": 187.22346193530115, 
+            "x": 513.0, 
+            "ymin": 0, 
+            "yErr": 0.009019552523615056, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283863, 
+            "ymax": 0, 
+            "y": 120.03333333333333, 
+            "x": 514.0, 
+            "ymin": 0, 
+            "yErr": 0.7781507042459777, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283865, 
+            "ymax": 0, 
+            "y": 149.3074409024967, 
+            "x": 515.0, 
+            "ymin": 0, 
+            "yErr": 0.014800079238327142, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283876, 
+            "ymax": 0, 
+            "y": 141.34253508408895, 
+            "x": 516.0, 
+            "ymin": 0, 
+            "yErr": 0.014374398157491067, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283877, 
+            "ymax": 0, 
+            "y": 178.2118561101326, 
+            "x": 517.0, 
+            "ymin": 0, 
+            "yErr": 0.010568538311125478, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283884, 
+            "ymax": 0, 
+            "y": 129.84647777996187, 
+            "x": 518.0, 
+            "ymin": 0, 
+            "yErr": 0.02793001776355774, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283885, 
+            "ymax": 0, 
+            "y": 203.48859530079372, 
+            "x": 519.0, 
+            "ymin": 0, 
+            "yErr": 0.016122876832481103, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283933, 
+            "ymax": 0, 
+            "y": 108.66549754155935, 
+            "x": 520.0, 
+            "ymin": 0, 
+            "yErr": 0.01790905940511258, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283934, 
+            "ymax": 0, 
+            "y": 151.62968569176326, 
+            "x": 521.0, 
+            "ymin": 0, 
+            "yErr": 0.012773867973362957, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283946, 
+            "ymax": 0, 
+            "y": 156.31852714014258, 
+            "x": 522.0, 
+            "ymin": 0, 
+            "yErr": 0.024700907747333533, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 283964, 
+            "ymax": 0, 
+            "y": 115.92843652090713, 
+            "x": 523.0, 
+            "ymin": 0, 
+            "yErr": 0.022179685950076508, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 284006, 
+            "ymax": 0, 
+            "y": 112.95213777607248, 
+            "x": 524.0, 
+            "ymin": 0, 
+            "yErr": 0.013981027369406918, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 284014, 
+            "ymax": 0, 
+            "y": 126.28919627128302, 
+            "x": 525.0, 
+            "ymin": 0, 
+            "yErr": 0.013213764254325059, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 284025, 
+            "ymax": 0, 
+            "y": 101.89776257698806, 
+            "x": 526.0, 
+            "ymin": 0, 
+            "yErr": 0.01631237244232464, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 284029, 
+            "ymax": 0, 
+            "y": 112.09113886410942, 
+            "x": 527.0, 
+            "ymin": 0, 
+            "yErr": 0.016971051491904646, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 284035, 
+            "ymax": 0, 
+            "y": 126.92575796331683, 
+            "x": 528.0, 
+            "ymin": 0, 
+            "yErr": 0.012932999729829047, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 284036, 
+            "ymax": 0, 
+            "y": 141.92988192265855, 
+            "x": 529.0, 
+            "ymin": 0, 
+            "yErr": 0.011267364077122945, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 284037, 
+            "ymax": 0, 
+            "y": 156.55511622372074, 
+            "x": 530.0, 
+            "ymin": 0, 
+            "yErr": 0.01184885991308956, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 284038, 
+            "ymax": 0, 
+            "y": 163.86738701340985, 
+            "x": 531.0, 
+            "ymin": 0, 
+            "yErr": 0.010561912867134834, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 284039, 
+            "ymax": 0, 
+            "y": 166.12344934203085, 
+            "x": 532.0, 
+            "ymin": 0, 
+            "yErr": 0.011925452392366503, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 284040, 
+            "ymax": 0, 
+            "y": 110.89219281725973, 
+            "x": 533.0, 
+            "ymin": 0, 
+            "yErr": 0.03539016604382122, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 284041, 
+            "ymax": 0, 
+            "y": 112.46764891071653, 
+            "x": 534.0, 
+            "ymin": 0, 
+            "yErr": 0.013671909300396336, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 284042, 
+            "ymax": 0, 
+            "y": 114.21520848295383, 
+            "x": 535.0, 
+            "ymin": 0, 
+            "yErr": 0.016140657935934048, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 284043, 
+            "ymax": 0, 
+            "y": 119.20834548034128, 
+            "x": 536.0, 
+            "ymin": 0, 
+            "yErr": 0.011662799896820024, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }, 
+        {
+            "run": 284044, 
+            "ymax": 0, 
+            "y": 126.14432877900673, 
+            "x": 537.0, 
+            "ymin": 0, 
+            "yErr": 0.05269900239706172, 
+            "yTitle": "Avg. N_{BAD CHANNEL} Status Bits"
+        }
+    ]
+}

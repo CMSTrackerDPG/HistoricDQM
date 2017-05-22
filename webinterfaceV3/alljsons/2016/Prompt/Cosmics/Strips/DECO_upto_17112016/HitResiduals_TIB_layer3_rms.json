@@ -1,0 +1,31 @@
+{
+    "HitResiduals_TIB_layer3_rms": [
+        {
+            "run": 284512, 
+            "ymax": 0.05, 
+            "y": 0.004781220466953746, 
+            "x": 1.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0006630359828038311, 
+            "yTitle": "HitResiduals TIB Layer 3 RMS"
+        }, 
+        {
+            "run": 284681, 
+            "ymax": 0.05, 
+            "y": 0.005021349354347967, 
+            "x": 2.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00102497864486719, 
+            "yTitle": "HitResiduals TIB Layer 3 RMS"
+        }, 
+        {
+            "run": 285238, 
+            "ymax": 0.05, 
+            "y": 0.02634608672393528, 
+            "x": 3.0, 
+            "ymin": -0.05, 
+            "yErr": 0.005377872432729628, 
+            "yTitle": "HitResiduals TIB Layer 3 RMS"
+        }
+    ]
+}

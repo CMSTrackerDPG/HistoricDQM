@@ -1,0 +1,31 @@
+{
+    "ClusterProbabilityXY_BPIX_L1_Plus": [
+        {
+            "run": 285090, 
+            "ymax": 0.0, 
+            "y": -0.5442532399200015, 
+            "x": 1.0, 
+            "ymin": -5.0, 
+            "yErr": 0.011893172443033957, 
+            "yTitle": "ClusterProbabilityXY BPIX L1 Plus"
+        }, 
+        {
+            "run": 285216, 
+            "ymax": 0.0, 
+            "y": -0.5471821125825752, 
+            "x": 2.0, 
+            "ymin": -5.0, 
+            "yErr": 0.0028959182525856346, 
+            "yTitle": "ClusterProbabilityXY BPIX L1 Plus"
+        }, 
+        {
+            "run": 285244, 
+            "ymax": 0.0, 
+            "y": -0.5546512803227953, 
+            "x": 3.0, 
+            "ymin": -5.0, 
+            "yErr": 0.0025606005635848764, 
+            "yTitle": "ClusterProbabilityXY BPIX L1 Plus"
+        }
+    ]
+}

@@ -1,0 +1,5548 @@
+{
+    "clustCharge_ONTk_Endcap_mpv": [
+        {
+            "run": 271037, 
+            "ymax": 0.0, 
+            "y": 17.184453848243102, 
+            "x": 1.0, 
+            "ymin": 0.0, 
+            "yErr": 0.1690010877351229, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271044, 
+            "ymax": 0.0, 
+            "y": 17.194738242673978, 
+            "x": 2.0, 
+            "ymin": 0.0, 
+            "yErr": 0.061584348344651235, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271045, 
+            "ymax": 0.0, 
+            "y": 17.25507017805823, 
+            "x": 3.0, 
+            "ymin": 0.0, 
+            "yErr": 0.013813333405202223, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271046, 
+            "ymax": 0.0, 
+            "y": 17.072288633121044, 
+            "x": 4.0, 
+            "ymin": 0.0, 
+            "yErr": 0.19790053578994093, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271047, 
+            "ymax": 0.0, 
+            "y": 17.261378294908102, 
+            "x": 5.0, 
+            "ymin": 0.0, 
+            "yErr": 0.013804066704047553, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271048, 
+            "ymax": 0.0, 
+            "y": 17.260543011873345, 
+            "x": 6.0, 
+            "ymin": 0.0, 
+            "yErr": 0.007990206727082514, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271049, 
+            "ymax": 0.0, 
+            "y": 17.27880678148019, 
+            "x": 7.0, 
+            "ymin": 0.0, 
+            "yErr": 0.012194432782584317, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271050, 
+            "ymax": 0.0, 
+            "y": 17.176499223189587, 
+            "x": 8.0, 
+            "ymin": 0.0, 
+            "yErr": 0.08909105209922308, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271052, 
+            "ymax": 0.0, 
+            "y": 17.2168671085313, 
+            "x": 9.0, 
+            "ymin": 0.0, 
+            "yErr": 0.032742668737503484, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271056, 
+            "ymax": 0.0, 
+            "y": 17.250856719155987, 
+            "x": 10.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001565460444466014, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271083, 
+            "ymax": 0.0, 
+            "y": 17.2538927625398, 
+            "x": 11.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00516958300655436, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271084, 
+            "ymax": 0.0, 
+            "y": 17.25211456266741, 
+            "x": 12.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0021028619532019585, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271184, 
+            "ymax": 0.0, 
+            "y": 17.277674774500404, 
+            "x": 13.0, 
+            "ymin": 0.0, 
+            "yErr": 0.014294078848760819, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271187, 
+            "ymax": 0.0, 
+            "y": 17.249474903456033, 
+            "x": 14.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0027915625784750552, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271188, 
+            "ymax": 0.0, 
+            "y": 17.212093311673442, 
+            "x": 15.0, 
+            "ymin": 0.0, 
+            "yErr": 0.004376275978199307, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271190, 
+            "ymax": 0.0, 
+            "y": 17.21296724043526, 
+            "x": 16.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03506968713345249, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271191, 
+            "ymax": 0.0, 
+            "y": 17.27387618085062, 
+            "x": 17.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00239195180293678, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271192, 
+            "ymax": 0.0, 
+            "y": 17.204156616954233, 
+            "x": 18.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0036344063850286537, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271193, 
+            "ymax": 0.0, 
+            "y": 17.202280609865944, 
+            "x": 19.0, 
+            "ymin": 0.0, 
+            "yErr": 0.002411546458726384, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271195, 
+            "ymax": 0.0, 
+            "y": 16.959596329674564, 
+            "x": 20.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001978845349877468, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271196, 
+            "ymax": 0.0, 
+            "y": 17.204963227005674, 
+            "x": 21.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0018190161901578052, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271197, 
+            "ymax": 0.0, 
+            "y": 17.220315301697443, 
+            "x": 22.0, 
+            "ymin": 0.0, 
+            "yErr": 0.003708142061204965, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271214, 
+            "ymax": 0.0, 
+            "y": 17.20918496873169, 
+            "x": 23.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0026596314437833655, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271304, 
+            "ymax": 0.0, 
+            "y": 17.247910376787807, 
+            "x": 24.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0031589711475322373, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271305, 
+            "ymax": 0.0, 
+            "y": 17.21248596311272, 
+            "x": 25.0, 
+            "ymin": 0.0, 
+            "yErr": 0.01036804767595653, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271306, 
+            "ymax": 0.0, 
+            "y": 17.295255997604333, 
+            "x": 26.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0015957138612098204, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271307, 
+            "ymax": 0.0, 
+            "y": 17.283733992815502, 
+            "x": 27.0, 
+            "ymin": 0.0, 
+            "yErr": 0.002883235957564473, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271310, 
+            "ymax": 0.0, 
+            "y": 17.268102102672625, 
+            "x": 28.0, 
+            "ymin": 0.0, 
+            "yErr": 0.003675208694500471, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271312, 
+            "ymax": 0.0, 
+            "y": 17.26847496060617, 
+            "x": 29.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0021662561403149997, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271313, 
+            "ymax": 0.0, 
+            "y": 17.266682972008873, 
+            "x": 30.0, 
+            "ymin": 0.0, 
+            "yErr": 0.003611178420121593, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271314, 
+            "ymax": 0.0, 
+            "y": 17.268153455808164, 
+            "x": 31.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00394511164244056, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271317, 
+            "ymax": 0.0, 
+            "y": 17.26512620165523, 
+            "x": 32.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0032992598394138224, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271318, 
+            "ymax": 0.0, 
+            "y": 17.262334750113194, 
+            "x": 33.0, 
+            "ymin": 0.0, 
+            "yErr": 0.003777855060886793, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271319, 
+            "ymax": 0.0, 
+            "y": 17.268342327501493, 
+            "x": 34.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0035766441547893423, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271321, 
+            "ymax": 0.0, 
+            "y": 17.26046989453595, 
+            "x": 35.0, 
+            "ymin": 0.0, 
+            "yErr": 0.003348820165668862, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271322, 
+            "ymax": 0.0, 
+            "y": 17.256050752068823, 
+            "x": 36.0, 
+            "ymin": 0.0, 
+            "yErr": 0.003931291797542612, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271323, 
+            "ymax": 0.0, 
+            "y": 17.255768127970864, 
+            "x": 37.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0037279812229703197, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271324, 
+            "ymax": 0.0, 
+            "y": 17.256605142456497, 
+            "x": 38.0, 
+            "ymin": 0.0, 
+            "yErr": 0.003944850676813071, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271327, 
+            "ymax": 0.0, 
+            "y": 17.255185284574605, 
+            "x": 39.0, 
+            "ymin": 0.0, 
+            "yErr": 0.004005871729941247, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271328, 
+            "ymax": 0.0, 
+            "y": 17.261870459904667, 
+            "x": 40.0, 
+            "ymin": 0.0, 
+            "yErr": 0.003937812666905392, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271329, 
+            "ymax": 0.0, 
+            "y": 17.257408732396097, 
+            "x": 41.0, 
+            "ymin": 0.0, 
+            "yErr": 0.003991212800591053, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271330, 
+            "ymax": 0.0, 
+            "y": 17.26639543106921, 
+            "x": 42.0, 
+            "ymin": 0.0, 
+            "yErr": 0.003998625290719764, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271331, 
+            "ymax": 0.0, 
+            "y": 17.255784024876256, 
+            "x": 43.0, 
+            "ymin": 0.0, 
+            "yErr": 0.004012395632537227, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271332, 
+            "ymax": 0.0, 
+            "y": 17.261811439525392, 
+            "x": 44.0, 
+            "ymin": 0.0, 
+            "yErr": 0.003936938734498107, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271336, 
+            "ymax": 0.0, 
+            "y": 17.219017152079243, 
+            "x": 45.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001424882339339806, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271337, 
+            "ymax": 0.0, 
+            "y": 17.197076255283775, 
+            "x": 46.0, 
+            "ymin": 0.0, 
+            "yErr": 0.004083920120030126, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271338, 
+            "ymax": 0.0, 
+            "y": 17.166718371283807, 
+            "x": 47.0, 
+            "ymin": 0.0, 
+            "yErr": 0.012376954659743407, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271342, 
+            "ymax": 0.0, 
+            "y": 17.211612303495734, 
+            "x": 48.0, 
+            "ymin": 0.0, 
+            "yErr": 0.004871496159667573, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271645, 
+            "ymax": 0.0, 
+            "y": 17.20062067735483, 
+            "x": 49.0, 
+            "ymin": 0.0, 
+            "yErr": 0.014306492043624278, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271646, 
+            "ymax": 0.0, 
+            "y": 17.227442676504882, 
+            "x": 50.0, 
+            "ymin": 0.0, 
+            "yErr": 0.005354211557236471, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271648, 
+            "ymax": 0.0, 
+            "y": 17.15580624985096, 
+            "x": 51.0, 
+            "ymin": 0.0, 
+            "yErr": 0.19559265359317352, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 271649, 
+            "ymax": 0.0, 
+            "y": 17.332720887321585, 
+            "x": 52.0, 
+            "ymin": 0.0, 
+            "yErr": 0.1879542450998302, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 272007, 
+            "ymax": 0.0, 
+            "y": 16.049977409842917, 
+            "x": 53.0, 
+            "ymin": 0.0, 
+            "yErr": 0.4945591339868279, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 272008, 
+            "ymax": 0.0, 
+            "y": 16.592268596957638, 
+            "x": 54.0, 
+            "ymin": 0.0, 
+            "yErr": 0.012814087727379759, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 272010, 
+            "ymax": 0.0, 
+            "y": 16.480513599374085, 
+            "x": 55.0, 
+            "ymin": 0.0, 
+            "yErr": 0.012615912841108268, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 272011, 
+            "ymax": 0.0, 
+            "y": 16.68853765939169, 
+            "x": 56.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0035180482828661283, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 272012, 
+            "ymax": 0.0, 
+            "y": 16.78888302006706, 
+            "x": 57.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0029640104902643786, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 272014, 
+            "ymax": 0.0, 
+            "y": 16.77766290907632, 
+            "x": 58.0, 
+            "ymin": 0.0, 
+            "yErr": 0.004061454150190065, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 272016, 
+            "ymax": 0.0, 
+            "y": 16.776209777548814, 
+            "x": 59.0, 
+            "ymin": 0.0, 
+            "yErr": 0.007002031359837164, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 272017, 
+            "ymax": 0.0, 
+            "y": 16.78956907937086, 
+            "x": 60.0, 
+            "ymin": 0.0, 
+            "yErr": 0.030214277493145123, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 272019, 
+            "ymax": 0.0, 
+            "y": 16.710106711815342, 
+            "x": 61.0, 
+            "ymin": 0.0, 
+            "yErr": 0.15337762305419536, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 272021, 
+            "ymax": 0.0, 
+            "y": 16.76948581325195, 
+            "x": 62.0, 
+            "ymin": 0.0, 
+            "yErr": 0.004203859273521777, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 272022, 
+            "ymax": 0.0, 
+            "y": 16.780689238105946, 
+            "x": 63.0, 
+            "ymin": 0.0, 
+            "yErr": 0.005149143259942235, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 272760, 
+            "ymax": 0.0, 
+            "y": 16.948280834558286, 
+            "x": 64.0, 
+            "ymin": 0.0, 
+            "yErr": 0.013433696242243704, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 272761, 
+            "ymax": 0.0, 
+            "y": 16.68185620364255, 
+            "x": 65.0, 
+            "ymin": 0.0, 
+            "yErr": 0.006566809112847397, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 272762, 
+            "ymax": 0.0, 
+            "y": 16.674226622162568, 
+            "x": 66.0, 
+            "ymin": 0.0, 
+            "yErr": 0.010158658951962508, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 272774, 
+            "ymax": 0.0, 
+            "y": 16.791541700970438, 
+            "x": 67.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02699084002348068, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 272775, 
+            "ymax": 0.0, 
+            "y": 16.79570151701692, 
+            "x": 68.0, 
+            "ymin": 0.0, 
+            "yErr": 0.003595963336239829, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 272776, 
+            "ymax": 0.0, 
+            "y": 16.78996451678722, 
+            "x": 69.0, 
+            "ymin": 0.0, 
+            "yErr": 0.005066676435903281, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 272782, 
+            "ymax": 0.0, 
+            "y": 16.8044142480304, 
+            "x": 70.0, 
+            "ymin": 0.0, 
+            "yErr": 0.009176027444092193, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 272783, 
+            "ymax": 0.0, 
+            "y": 16.790410587224045, 
+            "x": 71.0, 
+            "ymin": 0.0, 
+            "yErr": 0.004114855869030763, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 272784, 
+            "ymax": 0.0, 
+            "y": 16.787732081849285, 
+            "x": 72.0, 
+            "ymin": 0.0, 
+            "yErr": 0.003091157373202236, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 272785, 
+            "ymax": 0.0, 
+            "y": 16.786390403365363, 
+            "x": 73.0, 
+            "ymin": 0.0, 
+            "yErr": 0.004443598669169253, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 272786, 
+            "ymax": 0.0, 
+            "y": 16.81858231071608, 
+            "x": 74.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0047541639712867356, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 272798, 
+            "ymax": 0.0, 
+            "y": 16.828962341179476, 
+            "x": 75.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0007502187801670505, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 272811, 
+            "ymax": 0.0, 
+            "y": 16.694322633379088, 
+            "x": 76.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001902819944844979, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 272812, 
+            "ymax": 0.0, 
+            "y": 16.683294624589422, 
+            "x": 77.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0018200311697550665, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 272814, 
+            "ymax": 0.0, 
+            "y": 16.564106927171185, 
+            "x": 78.0, 
+            "ymin": 0.0, 
+            "yErr": 0.025766952832603492, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 272815, 
+            "ymax": 0.0, 
+            "y": 16.67964069863874, 
+            "x": 79.0, 
+            "ymin": 0.0, 
+            "yErr": 0.009631288726798354, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 272816, 
+            "ymax": 0.0, 
+            "y": 16.682186799724054, 
+            "x": 80.0, 
+            "ymin": 0.0, 
+            "yErr": 0.003764971702188769, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 272818, 
+            "ymax": 0.0, 
+            "y": 16.68340813836359, 
+            "x": 81.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0014938823379294886, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 272827, 
+            "ymax": 0.0, 
+            "y": 16.741211421877594, 
+            "x": 82.0, 
+            "ymin": 0.0, 
+            "yErr": 0.028718761192985564, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 272828, 
+            "ymax": 0.0, 
+            "y": 16.701459374271426, 
+            "x": 83.0, 
+            "ymin": 0.0, 
+            "yErr": 0.008084660732957574, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 272930, 
+            "ymax": 0.0, 
+            "y": 16.67248684175867, 
+            "x": 84.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0025271085043392936, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 272936, 
+            "ymax": 0.0, 
+            "y": 16.663554974890623, 
+            "x": 85.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00161409957454539, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273013, 
+            "ymax": 0.0, 
+            "y": 16.642140156633463, 
+            "x": 86.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001769087693356857, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273017, 
+            "ymax": 0.0, 
+            "y": 16.643553527920368, 
+            "x": 87.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0010644636976615994, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273150, 
+            "ymax": 0.0, 
+            "y": 16.667063949390037, 
+            "x": 88.0, 
+            "ymin": 0.0, 
+            "yErr": 0.009829549810792726, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273158, 
+            "ymax": 0.0, 
+            "y": 16.652917014283275, 
+            "x": 89.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0008537127957415777, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273290, 
+            "ymax": 0.0, 
+            "y": 16.532802213190017, 
+            "x": 90.0, 
+            "ymin": 0.0, 
+            "yErr": 0.08062419114403495, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273291, 
+            "ymax": 0.0, 
+            "y": 16.650086715480352, 
+            "x": 91.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0037695495634190953, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273292, 
+            "ymax": 0.0, 
+            "y": 16.7106600311274, 
+            "x": 92.0, 
+            "ymin": 0.0, 
+            "yErr": 0.06629936978699018, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273294, 
+            "ymax": 0.0, 
+            "y": 15.729758455659926, 
+            "x": 93.0, 
+            "ymin": 0.0, 
+            "yErr": 1.2536843849219428, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273295, 
+            "ymax": 0.0, 
+            "y": 15.953126429752723, 
+            "x": 94.0, 
+            "ymin": 0.0, 
+            "yErr": 0.5390198818074415, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273299, 
+            "ymax": 0.0, 
+            "y": 16.635086054968934, 
+            "x": 95.0, 
+            "ymin": 0.0, 
+            "yErr": 0.004844808405449088, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273301, 
+            "ymax": 0.0, 
+            "y": 16.6429036690888, 
+            "x": 96.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00131558139469905, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273302, 
+            "ymax": 0.0, 
+            "y": 16.653222776905775, 
+            "x": 97.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0015937945897389727, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273402, 
+            "ymax": 0.0, 
+            "y": 16.717507212752103, 
+            "x": 98.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00228012675468357, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273403, 
+            "ymax": 0.0, 
+            "y": 16.703778047171078, 
+            "x": 99.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0044299032654800275, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273404, 
+            "ymax": 0.0, 
+            "y": 16.70183361887561, 
+            "x": 100.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0075566918157131836, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273405, 
+            "ymax": 0.0, 
+            "y": 16.705297000003995, 
+            "x": 101.0, 
+            "ymin": 0.0, 
+            "yErr": 0.006421746370843336, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273406, 
+            "ymax": 0.0, 
+            "y": 16.709069600782, 
+            "x": 102.0, 
+            "ymin": 0.0, 
+            "yErr": 0.003047687189494756, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273408, 
+            "ymax": 0.0, 
+            "y": 16.710012503716026, 
+            "x": 103.0, 
+            "ymin": 0.0, 
+            "yErr": 0.01360450670367779, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273409, 
+            "ymax": 0.0, 
+            "y": 16.710094849763166, 
+            "x": 104.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0018936115993719608, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273410, 
+            "ymax": 0.0, 
+            "y": 16.710076377140766, 
+            "x": 105.0, 
+            "ymin": 0.0, 
+            "yErr": 0.003519718734927444, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273411, 
+            "ymax": 0.0, 
+            "y": 16.738103651993143, 
+            "x": 106.0, 
+            "ymin": 0.0, 
+            "yErr": 0.006515178857886269, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273425, 
+            "ymax": 0.0, 
+            "y": 16.681877453751344, 
+            "x": 107.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001140518321154276, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273426, 
+            "ymax": 0.0, 
+            "y": 16.68369720259952, 
+            "x": 108.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001970277666612356, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273446, 
+            "ymax": 0.0, 
+            "y": 16.698556591974132, 
+            "x": 109.0, 
+            "ymin": 0.0, 
+            "yErr": 0.004504851903039429, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273447, 
+            "ymax": 0.0, 
+            "y": 16.6892112300142, 
+            "x": 110.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0013254011587480565, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273448, 
+            "ymax": 0.0, 
+            "y": 16.69437515871861, 
+            "x": 111.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0014273910595118673, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273449, 
+            "ymax": 0.0, 
+            "y": 16.733893051758965, 
+            "x": 112.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0022440978562843594, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273450, 
+            "ymax": 0.0, 
+            "y": 16.725551907845226, 
+            "x": 113.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0013858393600591514, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273492, 
+            "ymax": 0.0, 
+            "y": 16.738065444622784, 
+            "x": 114.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009241098678587153, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273493, 
+            "ymax": 0.0, 
+            "y": 16.72732032959071, 
+            "x": 115.0, 
+            "ymin": 0.0, 
+            "yErr": 0.002054845666048552, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273494, 
+            "ymax": 0.0, 
+            "y": 16.729526582401622, 
+            "x": 116.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0022723750734874723, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273502, 
+            "ymax": 0.0, 
+            "y": 16.725966010040338, 
+            "x": 117.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009669410778975905, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273503, 
+            "ymax": 0.0, 
+            "y": 16.73083272291713, 
+            "x": 118.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0013101174830505, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273522, 
+            "ymax": 0.0, 
+            "y": 16.72879253817392, 
+            "x": 119.0, 
+            "ymin": 0.0, 
+            "yErr": 0.048150953771141945, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273523, 
+            "ymax": 0.0, 
+            "y": 16.760822062556983, 
+            "x": 120.0, 
+            "ymin": 0.0, 
+            "yErr": 0.002040945055560748, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273526, 
+            "ymax": 0.0, 
+            "y": 16.76302865355436, 
+            "x": 121.0, 
+            "ymin": 0.0, 
+            "yErr": 0.01429715062896735, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273531, 
+            "ymax": 0.0, 
+            "y": 16.682802334752775, 
+            "x": 122.0, 
+            "ymin": 0.0, 
+            "yErr": 0.023363956637883123, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273537, 
+            "ymax": 0.0, 
+            "y": 16.75348230927195, 
+            "x": 123.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00107783838045645, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273554, 
+            "ymax": 0.0, 
+            "y": 16.758164716025195, 
+            "x": 124.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0012970687418128383, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273555, 
+            "ymax": 0.0, 
+            "y": 16.748672586585833, 
+            "x": 125.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0019620321001794787, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273588, 
+            "ymax": 0.0, 
+            "y": 16.845105729482032, 
+            "x": 126.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05247602965480275, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273589, 
+            "ymax": 0.0, 
+            "y": 16.889963338852322, 
+            "x": 127.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001934828696393363, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273590, 
+            "ymax": 0.0, 
+            "y": 16.88266278646569, 
+            "x": 128.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0016000884105607867, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273591, 
+            "ymax": 0.0, 
+            "y": 16.781686271552925, 
+            "x": 129.0, 
+            "ymin": 0.0, 
+            "yErr": 0.01598784596725808, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273592, 
+            "ymax": 0.0, 
+            "y": 16.87594340125383, 
+            "x": 130.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0015505389022369438, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273593, 
+            "ymax": 0.0, 
+            "y": 16.79191054193013, 
+            "x": 131.0, 
+            "ymin": 0.0, 
+            "yErr": 0.025067894323652338, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273725, 
+            "ymax": 0.0, 
+            "y": 16.887493907348322, 
+            "x": 132.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004819605619848855, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273728, 
+            "ymax": 0.0, 
+            "y": 16.913607365101164, 
+            "x": 133.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0027399218215833085, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 273730, 
+            "ymax": 0.0, 
+            "y": 16.950720584121765, 
+            "x": 134.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005642293227097958, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274094, 
+            "ymax": 0.0, 
+            "y": 16.759004864635823, 
+            "x": 135.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0016428669339173783, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274100, 
+            "ymax": 0.0, 
+            "y": 16.98622573085458, 
+            "x": 136.0, 
+            "ymin": 0.0, 
+            "yErr": 0.010167900924432892, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274102, 
+            "ymax": 0.0, 
+            "y": 17.05844930742002, 
+            "x": 137.0, 
+            "ymin": 0.0, 
+            "yErr": 0.006542269764457314, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274103, 
+            "ymax": 0.0, 
+            "y": 17.06802438891514, 
+            "x": 138.0, 
+            "ymin": 0.0, 
+            "yErr": 0.004348812880708014, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274104, 
+            "ymax": 0.0, 
+            "y": 17.079468787710457, 
+            "x": 139.0, 
+            "ymin": 0.0, 
+            "yErr": 0.006664927065128041, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274105, 
+            "ymax": 0.0, 
+            "y": 17.070371541842423, 
+            "x": 140.0, 
+            "ymin": 0.0, 
+            "yErr": 0.005941549024561035, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274106, 
+            "ymax": 0.0, 
+            "y": 17.080798366268745, 
+            "x": 141.0, 
+            "ymin": 0.0, 
+            "yErr": 0.006487244946323787, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274107, 
+            "ymax": 0.0, 
+            "y": 17.077063684487406, 
+            "x": 142.0, 
+            "ymin": 0.0, 
+            "yErr": 0.007379692620877192, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274108, 
+            "ymax": 0.0, 
+            "y": 17.07818526217992, 
+            "x": 143.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00703705433111023, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274146, 
+            "ymax": 0.0, 
+            "y": 16.85313422509666, 
+            "x": 144.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0027271583438071363, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274157, 
+            "ymax": 0.0, 
+            "y": 16.90017789560469, 
+            "x": 145.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009840470855273739, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274159, 
+            "ymax": 0.0, 
+            "y": 16.90508573400307, 
+            "x": 146.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0033500059592349576, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274160, 
+            "ymax": 0.0, 
+            "y": 16.909296890523073, 
+            "x": 147.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0014679726620221484, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274161, 
+            "ymax": 0.0, 
+            "y": 16.919555238710583, 
+            "x": 148.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009614868370869119, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274172, 
+            "ymax": 0.0, 
+            "y": 16.82893423544734, 
+            "x": 149.0, 
+            "ymin": 0.0, 
+            "yErr": 0.003176914599106122, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274198, 
+            "ymax": 0.0, 
+            "y": 16.81479046755809, 
+            "x": 150.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00224932498475692, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274199, 
+            "ymax": 0.0, 
+            "y": 16.83477261700938, 
+            "x": 151.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000951520608730318, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274200, 
+            "ymax": 0.0, 
+            "y": 16.858136384943073, 
+            "x": 152.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009735837295985456, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274240, 
+            "ymax": 0.0, 
+            "y": 16.797622760266908, 
+            "x": 153.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0025012179887893534, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274241, 
+            "ymax": 0.0, 
+            "y": 16.83364060460549, 
+            "x": 154.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0006864800602268171, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274243, 
+            "ymax": 0.0, 
+            "y": 16.844903671978624, 
+            "x": 155.0, 
+            "ymin": 0.0, 
+            "yErr": 0.021528514854195747, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274244, 
+            "ymax": 0.0, 
+            "y": 16.86894237279143, 
+            "x": 156.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0010154618392445068, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274250, 
+            "ymax": 0.0, 
+            "y": 16.828465305519643, 
+            "x": 157.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0007742648564566399, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274251, 
+            "ymax": 0.0, 
+            "y": 16.857548229234727, 
+            "x": 158.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009996358521213117, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274283, 
+            "ymax": 0.0, 
+            "y": 16.808862329828013, 
+            "x": 159.0, 
+            "ymin": 0.0, 
+            "yErr": 0.014516582198722004, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274284, 
+            "ymax": 0.0, 
+            "y": 16.82001939021584, 
+            "x": 160.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0015501305549920075, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274285, 
+            "ymax": 0.0, 
+            "y": 16.731820559847524, 
+            "x": 161.0, 
+            "ymin": 0.0, 
+            "yErr": 0.047535953467549054, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274286, 
+            "ymax": 0.0, 
+            "y": 16.82697602835566, 
+            "x": 162.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0017710337003743965, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274314, 
+            "ymax": 0.0, 
+            "y": 16.83136330031347, 
+            "x": 163.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0025098791826885783, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274315, 
+            "ymax": 0.0, 
+            "y": 16.84985536723592, 
+            "x": 164.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000976170419802592, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274316, 
+            "ymax": 0.0, 
+            "y": 16.884394802862865, 
+            "x": 165.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0006507083342280008, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274317, 
+            "ymax": 0.0, 
+            "y": 16.859322007796216, 
+            "x": 166.0, 
+            "ymin": 0.0, 
+            "yErr": 0.014312999092637694, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274318, 
+            "ymax": 0.0, 
+            "y": 16.778747480004448, 
+            "x": 167.0, 
+            "ymin": 0.0, 
+            "yErr": 0.1282509643370533, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274319, 
+            "ymax": 0.0, 
+            "y": 16.904680990270275, 
+            "x": 168.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0014194826978363945, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274335, 
+            "ymax": 0.0, 
+            "y": 16.868624983696936, 
+            "x": 169.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0006292222586635984, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274336, 
+            "ymax": 0.0, 
+            "y": 16.85590076068373, 
+            "x": 170.0, 
+            "ymin": 0.0, 
+            "yErr": 0.005814038037568795, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274337, 
+            "ymax": 0.0, 
+            "y": 16.881584147874516, 
+            "x": 171.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00565919506549622, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274338, 
+            "ymax": 0.0, 
+            "y": 16.904477054961575, 
+            "x": 172.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0007260598986964541, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274339, 
+            "ymax": 0.0, 
+            "y": 16.90599703713713, 
+            "x": 173.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0021237053531001616, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274344, 
+            "ymax": 0.0, 
+            "y": 16.930934859615146, 
+            "x": 174.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0008033338885527946, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274345, 
+            "ymax": 0.0, 
+            "y": 16.94375796139747, 
+            "x": 175.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0015714828718871169, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274382, 
+            "ymax": 0.0, 
+            "y": 16.856437600363442, 
+            "x": 176.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0028209504674752053, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274387, 
+            "ymax": 0.0, 
+            "y": 16.86361183172509, 
+            "x": 177.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000983643048308739, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274388, 
+            "ymax": 0.0, 
+            "y": 16.9129474785218, 
+            "x": 178.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000464887108384158, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274420, 
+            "ymax": 0.0, 
+            "y": 16.884112298636772, 
+            "x": 179.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0014183557749976418, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274421, 
+            "ymax": 0.0, 
+            "y": 16.901770734869856, 
+            "x": 180.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0010084455218132857, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274422, 
+            "ymax": 0.0, 
+            "y": 16.94605983392291, 
+            "x": 181.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00043827840748311827, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274440, 
+            "ymax": 0.0, 
+            "y": 16.917011427121647, 
+            "x": 182.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009237480142202558, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274441, 
+            "ymax": 0.0, 
+            "y": 16.935483463400956, 
+            "x": 183.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009125259510118995, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274442, 
+            "ymax": 0.0, 
+            "y": 16.960238263042548, 
+            "x": 184.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0007264401013006018, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274443, 
+            "ymax": 0.0, 
+            "y": 16.960426558875543, 
+            "x": 185.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0029641671154717933, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274954, 
+            "ymax": 0.0, 
+            "y": 16.746056585746192, 
+            "x": 186.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0040665310128141065, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274955, 
+            "ymax": 0.0, 
+            "y": 16.75807280812804, 
+            "x": 187.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0017901725374319586, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274956, 
+            "ymax": 0.0, 
+            "y": 16.678631519919143, 
+            "x": 188.0, 
+            "ymin": 0.0, 
+            "yErr": 0.003223623825854654, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274957, 
+            "ymax": 0.0, 
+            "y": 16.764170734729014, 
+            "x": 189.0, 
+            "ymin": 0.0, 
+            "yErr": 0.002901103606189319, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274958, 
+            "ymax": 0.0, 
+            "y": 16.768326683106764, 
+            "x": 190.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0010111832313841362, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274959, 
+            "ymax": 0.0, 
+            "y": 16.7958093942419, 
+            "x": 191.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0010491478196694407, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274967, 
+            "ymax": 0.0, 
+            "y": 16.836998678621683, 
+            "x": 192.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0031841764490057136, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274968, 
+            "ymax": 0.0, 
+            "y": 16.893339687143204, 
+            "x": 193.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00038514712166201934, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274969, 
+            "ymax": 0.0, 
+            "y": 16.931372897207652, 
+            "x": 194.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004257317376860461, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274970, 
+            "ymax": 0.0, 
+            "y": 16.952363933576112, 
+            "x": 195.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0011659117240516185, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274971, 
+            "ymax": 0.0, 
+            "y": 16.966203584453748, 
+            "x": 196.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004928610236286631, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274998, 
+            "ymax": 0.0, 
+            "y": 16.902993579068035, 
+            "x": 197.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000461118171252123, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 274999, 
+            "ymax": 0.0, 
+            "y": 16.946207565565846, 
+            "x": 198.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0006542675174446289, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275000, 
+            "ymax": 0.0, 
+            "y": 16.971638812768333, 
+            "x": 199.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0020941980223955206, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275001, 
+            "ymax": 0.0, 
+            "y": 17.006379188700876, 
+            "x": 200.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005923025858525186, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275059, 
+            "ymax": 0.0, 
+            "y": 16.848421789620378, 
+            "x": 201.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0035382825309447645, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275062, 
+            "ymax": 0.0, 
+            "y": 16.77326752871561, 
+            "x": 202.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05331459770341382, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275063, 
+            "ymax": 0.0, 
+            "y": 16.892484066741595, 
+            "x": 203.0, 
+            "ymin": 0.0, 
+            "yErr": 0.10066644351533628, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275064, 
+            "ymax": 0.0, 
+            "y": 16.856840683478097, 
+            "x": 204.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0037387483197987934, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275066, 
+            "ymax": 0.0, 
+            "y": 16.86809138634928, 
+            "x": 205.0, 
+            "ymin": 0.0, 
+            "yErr": 0.002073140283307376, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275067, 
+            "ymax": 0.0, 
+            "y": 16.890201121786664, 
+            "x": 206.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0010343769177670772, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275068, 
+            "ymax": 0.0, 
+            "y": 16.928946456597462, 
+            "x": 207.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0007053404571554046, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275073, 
+            "ymax": 0.0, 
+            "y": 16.96063328609914, 
+            "x": 208.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0010045445857505123, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275074, 
+            "ymax": 0.0, 
+            "y": 16.981381814177617, 
+            "x": 209.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009574965997153063, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275124, 
+            "ymax": 0.0, 
+            "y": 16.908070898026406, 
+            "x": 210.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0011482110836573951, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275125, 
+            "ymax": 0.0, 
+            "y": 16.94656669990249, 
+            "x": 211.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000681700743389749, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275282, 
+            "ymax": 0.0, 
+            "y": 16.91526025075557, 
+            "x": 212.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0022335164230505317, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275283, 
+            "ymax": 0.0, 
+            "y": 16.927400571477296, 
+            "x": 213.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0017734926259855624, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275284, 
+            "ymax": 0.0, 
+            "y": 16.934014383839667, 
+            "x": 214.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0019702318360647624, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275285, 
+            "ymax": 0.0, 
+            "y": 16.87878574692294, 
+            "x": 215.0, 
+            "ymin": 0.0, 
+            "yErr": 0.025211710716994535, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275286, 
+            "ymax": 0.0, 
+            "y": 16.930372629911005, 
+            "x": 216.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0022484906417849023, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275289, 
+            "ymax": 0.0, 
+            "y": 16.925021619474215, 
+            "x": 217.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00769819202600765, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275290, 
+            "ymax": 0.0, 
+            "y": 16.95232162526909, 
+            "x": 218.0, 
+            "ymin": 0.0, 
+            "yErr": 0.002757999312581665, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275291, 
+            "ymax": 0.0, 
+            "y": 16.958950901658657, 
+            "x": 219.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001158649418743128, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275292, 
+            "ymax": 0.0, 
+            "y": 16.97216853336485, 
+            "x": 220.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0020798643786690005, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275293, 
+            "ymax": 0.0, 
+            "y": 16.98149875150241, 
+            "x": 221.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0016678855312272217, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275309, 
+            "ymax": 0.0, 
+            "y": 16.95552450959587, 
+            "x": 222.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009113266229932826, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275310, 
+            "ymax": 0.0, 
+            "y": 17.00983753373963, 
+            "x": 223.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005508653803510654, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275311, 
+            "ymax": 0.0, 
+            "y": 17.064427129036662, 
+            "x": 224.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0007874697995518103, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275319, 
+            "ymax": 0.0, 
+            "y": 17.03772414606538, 
+            "x": 225.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001503412742239187, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275337, 
+            "ymax": 0.0, 
+            "y": 17.068616298963672, 
+            "x": 226.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0008666151116617479, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275338, 
+            "ymax": 0.0, 
+            "y": 17.085899689112296, 
+            "x": 227.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000819427281396066, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275344, 
+            "ymax": 0.0, 
+            "y": 17.024067327487845, 
+            "x": 228.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001086887659707534, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275345, 
+            "ymax": 0.0, 
+            "y": 17.04370594119261, 
+            "x": 229.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009728742454780169, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275370, 
+            "ymax": 0.0, 
+            "y": 17.058490639889538, 
+            "x": 230.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00019149653040907374, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275371, 
+            "ymax": 0.0, 
+            "y": 17.07901755911916, 
+            "x": 231.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0007363842487799976, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275375, 
+            "ymax": 0.0, 
+            "y": 17.09590127254061, 
+            "x": 232.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00048643950430708933, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275376, 
+            "ymax": 0.0, 
+            "y": 17.14971347163154, 
+            "x": 233.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00039260735292847687, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275657, 
+            "ymax": 0.0, 
+            "y": 17.070120456746807, 
+            "x": 234.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0018468621206266143, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275658, 
+            "ymax": 0.0, 
+            "y": 17.063072542564477, 
+            "x": 235.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009277260199409832, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275659, 
+            "ymax": 0.0, 
+            "y": 17.062544354276522, 
+            "x": 236.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0040703057178377074, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275757, 
+            "ymax": 0.0, 
+            "y": 17.13867058486725, 
+            "x": 237.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00498327117678154, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275758, 
+            "ymax": 0.0, 
+            "y": 17.176755475048513, 
+            "x": 238.0, 
+            "ymin": 0.0, 
+            "yErr": 0.009814826680158149, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275759, 
+            "ymax": 0.0, 
+            "y": 17.137928600172327, 
+            "x": 239.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00825411947170367, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275761, 
+            "ymax": 0.0, 
+            "y": 17.13654432522797, 
+            "x": 240.0, 
+            "ymin": 0.0, 
+            "yErr": 0.007041879156635572, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275763, 
+            "ymax": 0.0, 
+            "y": 17.130510468829634, 
+            "x": 241.0, 
+            "ymin": 0.0, 
+            "yErr": 0.007587234201708391, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275764, 
+            "ymax": 0.0, 
+            "y": 17.11662719000915, 
+            "x": 242.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0036518195827799126, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275766, 
+            "ymax": 0.0, 
+            "y": 17.091191608929822, 
+            "x": 243.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0022905461974440083, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275767, 
+            "ymax": 0.0, 
+            "y": 17.072427722603514, 
+            "x": 244.0, 
+            "ymin": 0.0, 
+            "yErr": 0.008602798236879533, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275768, 
+            "ymax": 0.0, 
+            "y": 17.096760228391247, 
+            "x": 245.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0019458143249854486, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275772, 
+            "ymax": 0.0, 
+            "y": 17.091817527477836, 
+            "x": 246.0, 
+            "ymin": 0.0, 
+            "yErr": 0.002210296819947841, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275773, 
+            "ymax": 0.0, 
+            "y": 17.099939208784264, 
+            "x": 247.0, 
+            "ymin": 0.0, 
+            "yErr": 0.006513954592293668, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275774, 
+            "ymax": 0.0, 
+            "y": 17.106213091296162, 
+            "x": 248.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000966512996062397, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275776, 
+            "ymax": 0.0, 
+            "y": 17.115065839394763, 
+            "x": 249.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0014522993987764804, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275777, 
+            "ymax": 0.0, 
+            "y": 17.125822015040598, 
+            "x": 250.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000991275684614186, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275778, 
+            "ymax": 0.0, 
+            "y": 17.13292274902824, 
+            "x": 251.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009858966059948053, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275781, 
+            "ymax": 0.0, 
+            "y": 17.126745926325196, 
+            "x": 252.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0034926730321847266, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275782, 
+            "ymax": 0.0, 
+            "y": 17.1521824677246, 
+            "x": 253.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0006811902259752037, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275828, 
+            "ymax": 0.0, 
+            "y": 17.19543747403326, 
+            "x": 254.0, 
+            "ymin": 0.0, 
+            "yErr": 0.002635787207793546, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275829, 
+            "ymax": 0.0, 
+            "y": 17.20844341064476, 
+            "x": 255.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0032513804410674164, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275831, 
+            "ymax": 0.0, 
+            "y": 17.205843176662434, 
+            "x": 256.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0021444339644905203, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275832, 
+            "ymax": 0.0, 
+            "y": 17.164826163788575, 
+            "x": 257.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009032771268805053, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275833, 
+            "ymax": 0.0, 
+            "y": 17.136945625430563, 
+            "x": 258.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0010031111030534743, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275834, 
+            "ymax": 0.0, 
+            "y": 17.14615410255176, 
+            "x": 259.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009392503732197192, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275835, 
+            "ymax": 0.0, 
+            "y": 17.12716163543021, 
+            "x": 260.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0024811589802152803, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275836, 
+            "ymax": 0.0, 
+            "y": 17.1628098829555, 
+            "x": 261.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004923142803213024, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275837, 
+            "ymax": 0.0, 
+            "y": 17.186644066552457, 
+            "x": 262.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0007341971525612653, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275841, 
+            "ymax": 0.0, 
+            "y": 17.149732840666132, 
+            "x": 263.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0030880757126200142, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275846, 
+            "ymax": 0.0, 
+            "y": 17.166416365185206, 
+            "x": 264.0, 
+            "ymin": 0.0, 
+            "yErr": 0.008854883449279531, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275847, 
+            "ymax": 0.0, 
+            "y": 17.20933377997427, 
+            "x": 265.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005012526769932952, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275886, 
+            "ymax": 0.0, 
+            "y": 17.1871235999367, 
+            "x": 266.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0032976274559637373, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275887, 
+            "ymax": 0.0, 
+            "y": 17.199594299240772, 
+            "x": 267.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0027713058862265856, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275890, 
+            "ymax": 0.0, 
+            "y": 17.166640238560984, 
+            "x": 268.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00042619542741649617, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275911, 
+            "ymax": 0.0, 
+            "y": 17.1971843614953, 
+            "x": 269.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00087815431654729, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275912, 
+            "ymax": 0.0, 
+            "y": 17.181104045325633, 
+            "x": 270.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009360637775276738, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275913, 
+            "ymax": 0.0, 
+            "y": 17.191211953819636, 
+            "x": 271.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0007574320295791219, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275918, 
+            "ymax": 0.0, 
+            "y": 17.209368491182456, 
+            "x": 272.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009006163278146461, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275920, 
+            "ymax": 0.0, 
+            "y": 17.219069498844988, 
+            "x": 273.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0008362821987259261, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275921, 
+            "ymax": 0.0, 
+            "y": 17.22594639717261, 
+            "x": 274.0, 
+            "ymin": 0.0, 
+            "yErr": 0.003985704850721534, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275922, 
+            "ymax": 0.0, 
+            "y": 17.227998022160868, 
+            "x": 275.0, 
+            "ymin": 0.0, 
+            "yErr": 0.012389887263309286, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275923, 
+            "ymax": 0.0, 
+            "y": 17.22156210178235, 
+            "x": 276.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0016490273284978786, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275931, 
+            "ymax": 0.0, 
+            "y": 17.221116472204336, 
+            "x": 277.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0019923875255257835, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 275963, 
+            "ymax": 0.0, 
+            "y": 17.178139434737613, 
+            "x": 278.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0016056632590171823, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276062, 
+            "ymax": 0.0, 
+            "y": 17.01302634821333, 
+            "x": 279.0, 
+            "ymin": 0.0, 
+            "yErr": 0.023330822954012193, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276063, 
+            "ymax": 0.0, 
+            "y": 16.963111853550014, 
+            "x": 280.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03527924161633197, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276064, 
+            "ymax": 0.0, 
+            "y": 17.017501292117164, 
+            "x": 281.0, 
+            "ymin": 0.0, 
+            "yErr": 0.013609043261779795, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276092, 
+            "ymax": 0.0, 
+            "y": 17.155558073645626, 
+            "x": 282.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0019074333611402926, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276095, 
+            "ymax": 0.0, 
+            "y": 17.144736894169338, 
+            "x": 283.0, 
+            "ymin": 0.0, 
+            "yErr": 0.015808397907008605, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276097, 
+            "ymax": 0.0, 
+            "y": 17.173671593641554, 
+            "x": 284.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0006928423506497298, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276215, 
+            "ymax": 0.0, 
+            "y": 17.21104595292544, 
+            "x": 285.0, 
+            "ymin": 0.0, 
+            "yErr": 0.002438998698970888, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276216, 
+            "ymax": 0.0, 
+            "y": 17.23234823747588, 
+            "x": 286.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009616419690559695, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276217, 
+            "ymax": 0.0, 
+            "y": 17.25027275385563, 
+            "x": 287.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005554773029971642, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276235, 
+            "ymax": 0.0, 
+            "y": 17.309291384746974, 
+            "x": 288.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0027122239987580603, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276242, 
+            "ymax": 0.0, 
+            "y": 17.21931082265496, 
+            "x": 289.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00039751872952041687, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276243, 
+            "ymax": 0.0, 
+            "y": 17.247054881404363, 
+            "x": 290.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0007308669379531827, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276244, 
+            "ymax": 0.0, 
+            "y": 17.26680599202532, 
+            "x": 291.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005684653882890441, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276282, 
+            "ymax": 0.0, 
+            "y": 17.221599267780537, 
+            "x": 292.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00011278216060635526, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276283, 
+            "ymax": 0.0, 
+            "y": 17.248777662377034, 
+            "x": 293.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004979562661491601, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276315, 
+            "ymax": 0.0, 
+            "y": 17.22938044070789, 
+            "x": 294.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0011371872910347217, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276317, 
+            "ymax": 0.0, 
+            "y": 17.23555976165023, 
+            "x": 295.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0012744443421896401, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276318, 
+            "ymax": 0.0, 
+            "y": 17.25135992039535, 
+            "x": 296.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0006475981482957704, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276327, 
+            "ymax": 0.0, 
+            "y": 17.25946631414246, 
+            "x": 297.0, 
+            "ymin": 0.0, 
+            "yErr": 0.002150111614555054, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276352, 
+            "ymax": 0.0, 
+            "y": 17.24127041479567, 
+            "x": 298.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0024560146213501643, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276355, 
+            "ymax": 0.0, 
+            "y": 17.24916680142315, 
+            "x": 299.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0027001948558791067, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276357, 
+            "ymax": 0.0, 
+            "y": 17.25301120131274, 
+            "x": 300.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0016894619501075837, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276361, 
+            "ymax": 0.0, 
+            "y": 17.273633193474158, 
+            "x": 301.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005088101693503201, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276363, 
+            "ymax": 0.0, 
+            "y": 17.295947594904405, 
+            "x": 302.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004342822367482667, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276384, 
+            "ymax": 0.0, 
+            "y": 17.32603158715903, 
+            "x": 303.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005771738220075353, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276437, 
+            "ymax": 0.0, 
+            "y": 17.29042923741925, 
+            "x": 304.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00033559133363763395, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276453, 
+            "ymax": 0.0, 
+            "y": 17.31509299432463, 
+            "x": 305.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0017091012689451443, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276454, 
+            "ymax": 0.0, 
+            "y": 17.322476600927388, 
+            "x": 306.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0007872221678505852, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276458, 
+            "ymax": 0.0, 
+            "y": 17.342887180254987, 
+            "x": 307.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0011162669219771499, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276495, 
+            "ymax": 0.0, 
+            "y": 17.273788914664884, 
+            "x": 308.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0011060861680777575, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276501, 
+            "ymax": 0.0, 
+            "y": 17.311968095148945, 
+            "x": 309.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00031911657811253314, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276502, 
+            "ymax": 0.0, 
+            "y": 17.348716424955064, 
+            "x": 310.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000690280149555544, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276525, 
+            "ymax": 0.0, 
+            "y": 17.34005001309025, 
+            "x": 311.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00030858556067580955, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276527, 
+            "ymax": 0.0, 
+            "y": 17.380815719605078, 
+            "x": 312.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0013171314277714162, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276528, 
+            "ymax": 0.0, 
+            "y": 17.3849888136345, 
+            "x": 313.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0010399526209551458, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276542, 
+            "ymax": 0.0, 
+            "y": 17.33967490686478, 
+            "x": 314.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005293569157687728, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276543, 
+            "ymax": 0.0, 
+            "y": 17.363059446809203, 
+            "x": 315.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004726981791250104, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276544, 
+            "ymax": 0.0, 
+            "y": 17.376656894288143, 
+            "x": 316.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0013378049148287739, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276545, 
+            "ymax": 0.0, 
+            "y": 17.382033223371423, 
+            "x": 317.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0011988540327843103, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276581, 
+            "ymax": 0.0, 
+            "y": 17.30495703253065, 
+            "x": 318.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000780349116423124, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276582, 
+            "ymax": 0.0, 
+            "y": 17.327048075622855, 
+            "x": 319.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005430851027678439, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276583, 
+            "ymax": 0.0, 
+            "y": 17.33388354092657, 
+            "x": 320.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0023221335670062663, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276584, 
+            "ymax": 0.0, 
+            "y": 17.326206706560303, 
+            "x": 321.0, 
+            "ymin": 0.0, 
+            "yErr": 0.01250275061055531, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276585, 
+            "ymax": 0.0, 
+            "y": 17.337191423909477, 
+            "x": 322.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0010994978370363023, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276586, 
+            "ymax": 0.0, 
+            "y": 17.355463219817594, 
+            "x": 323.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00022570954952641904, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276587, 
+            "ymax": 0.0, 
+            "y": 17.377543924834864, 
+            "x": 324.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0006330722095379494, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276653, 
+            "ymax": 0.0, 
+            "y": 17.32362380839637, 
+            "x": 325.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0007085193410227141, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276655, 
+            "ymax": 0.0, 
+            "y": 17.349245243563548, 
+            "x": 326.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005082847367404579, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276659, 
+            "ymax": 0.0, 
+            "y": 17.367134814226176, 
+            "x": 327.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0011900819201037538, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276775, 
+            "ymax": 0.0, 
+            "y": 17.329947725287465, 
+            "x": 328.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00014987714615736917, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276776, 
+            "ymax": 0.0, 
+            "y": 17.37024285452923, 
+            "x": 329.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004436941637826135, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276794, 
+            "ymax": 0.0, 
+            "y": 17.402182549745046, 
+            "x": 330.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000700428315492566, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276807, 
+            "ymax": 0.0, 
+            "y": 17.333876040076365, 
+            "x": 331.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001206008803693166, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276808, 
+            "ymax": 0.0, 
+            "y": 17.357779109900036, 
+            "x": 332.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000516071078757151, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276810, 
+            "ymax": 0.0, 
+            "y": 17.370554042743468, 
+            "x": 333.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000959234343178281, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276811, 
+            "ymax": 0.0, 
+            "y": 17.403565483808265, 
+            "x": 334.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00037113495759428014, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276831, 
+            "ymax": 0.0, 
+            "y": 17.401724529714333, 
+            "x": 335.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0003184437208795051, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276832, 
+            "ymax": 0.0, 
+            "y": 17.427659053658825, 
+            "x": 336.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0023830623627884174, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276834, 
+            "ymax": 0.0, 
+            "y": 17.4401202339577, 
+            "x": 337.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00015932343598833412, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276837, 
+            "ymax": 0.0, 
+            "y": 17.501265707026313, 
+            "x": 338.0, 
+            "ymin": 0.0, 
+            "yErr": 0.14368964090168643, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276870, 
+            "ymax": 0.0, 
+            "y": 17.31041499590064, 
+            "x": 339.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00036986678386348866, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276935, 
+            "ymax": 0.0, 
+            "y": 17.2533113978458, 
+            "x": 340.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0006548393708191745, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276940, 
+            "ymax": 0.0, 
+            "y": 17.221746530245074, 
+            "x": 341.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0016826601983009832, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276941, 
+            "ymax": 0.0, 
+            "y": 17.2596039436905, 
+            "x": 342.0, 
+            "ymin": 0.0, 
+            "yErr": 0.011768980478781959, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276942, 
+            "ymax": 0.0, 
+            "y": 17.216367746972747, 
+            "x": 343.0, 
+            "ymin": 0.0, 
+            "yErr": 0.012840663224313362, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276944, 
+            "ymax": 0.0, 
+            "y": 17.19328583524969, 
+            "x": 344.0, 
+            "ymin": 0.0, 
+            "yErr": 0.011966384688714277, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276945, 
+            "ymax": 0.0, 
+            "y": 17.214471761266502, 
+            "x": 345.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02189004932104989, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276946, 
+            "ymax": 0.0, 
+            "y": 17.237148297263293, 
+            "x": 346.0, 
+            "ymin": 0.0, 
+            "yErr": 0.004153262273973907, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276947, 
+            "ymax": 0.0, 
+            "y": 17.250848487791675, 
+            "x": 347.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0017228542187004918, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276948, 
+            "ymax": 0.0, 
+            "y": 17.271446320689495, 
+            "x": 348.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0008980444648699986, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 276950, 
+            "ymax": 0.0, 
+            "y": 17.330379659525626, 
+            "x": 349.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004770184552905932, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277069, 
+            "ymax": 0.0, 
+            "y": 17.192276691485393, 
+            "x": 350.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00110275954527532, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277070, 
+            "ymax": 0.0, 
+            "y": 17.244681126280142, 
+            "x": 351.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005976310817404675, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277071, 
+            "ymax": 0.0, 
+            "y": 17.276742756287273, 
+            "x": 352.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0015658538192468787, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277072, 
+            "ymax": 0.0, 
+            "y": 17.29324822207094, 
+            "x": 353.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001019765131893444, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277073, 
+            "ymax": 0.0, 
+            "y": 17.41553585544374, 
+            "x": 354.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0021789341862847155, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277075, 
+            "ymax": 0.0, 
+            "y": 17.250383508455453, 
+            "x": 355.0, 
+            "ymin": 0.0, 
+            "yErr": 0.24463939698108433, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277076, 
+            "ymax": 0.0, 
+            "y": 17.43478033854522, 
+            "x": 356.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000692903819081331, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277087, 
+            "ymax": 0.0, 
+            "y": 17.448379903607837, 
+            "x": 357.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0008119017128501584, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277094, 
+            "ymax": 0.0, 
+            "y": 17.37521334139406, 
+            "x": 358.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0006584763668497113, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277096, 
+            "ymax": 0.0, 
+            "y": 17.407998085880603, 
+            "x": 359.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00039255912536657824, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277112, 
+            "ymax": 0.0, 
+            "y": 17.438245732604194, 
+            "x": 360.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0016835525586634608, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277126, 
+            "ymax": 0.0, 
+            "y": 17.323953846816913, 
+            "x": 361.0, 
+            "ymin": 0.0, 
+            "yErr": 0.005861308746068687, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277127, 
+            "ymax": 0.0, 
+            "y": 17.376904443951542, 
+            "x": 362.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005382441291496493, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277148, 
+            "ymax": 0.0, 
+            "y": 17.4239264192336, 
+            "x": 363.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005743016868628484, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277166, 
+            "ymax": 0.0, 
+            "y": 17.422905174719375, 
+            "x": 364.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0008202689186412237, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277168, 
+            "ymax": 0.0, 
+            "y": 17.445823638743672, 
+            "x": 365.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0003738297017819398, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277180, 
+            "ymax": 0.0, 
+            "y": 17.4204445008987, 
+            "x": 366.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0012944568977468335, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277194, 
+            "ymax": 0.0, 
+            "y": 17.41862259936035, 
+            "x": 367.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00037094683386631425, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277202, 
+            "ymax": 0.0, 
+            "y": 17.447606354197152, 
+            "x": 368.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00042827971892855617, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277217, 
+            "ymax": 0.0, 
+            "y": 17.382962817948496, 
+            "x": 369.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0964106286983142, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277218, 
+            "ymax": 0.0, 
+            "y": 17.3843648133521, 
+            "x": 370.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0014335230607827713, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277219, 
+            "ymax": 0.0, 
+            "y": 17.39039740735039, 
+            "x": 371.0, 
+            "ymin": 0.0, 
+            "yErr": 0.006851555166958882, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277220, 
+            "ymax": 0.0, 
+            "y": 17.388985234496406, 
+            "x": 372.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0010960365709527015, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277305, 
+            "ymax": 0.0, 
+            "y": 17.42948050369075, 
+            "x": 373.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005925790153790514, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277420, 
+            "ymax": 0.0, 
+            "y": 17.419456674818196, 
+            "x": 374.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009565669679274656, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277932, 
+            "ymax": 0.0, 
+            "y": 17.571894469652186, 
+            "x": 375.0, 
+            "ymin": 0.0, 
+            "yErr": 0.014399994058337645, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277934, 
+            "ymax": 0.0, 
+            "y": 17.572888693236386, 
+            "x": 376.0, 
+            "ymin": 0.0, 
+            "yErr": 0.008917204474939128, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277935, 
+            "ymax": 0.0, 
+            "y": 17.566538895878818, 
+            "x": 377.0, 
+            "ymin": 0.0, 
+            "yErr": 0.002754379567643251, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277981, 
+            "ymax": 0.0, 
+            "y": 17.163546896530033, 
+            "x": 378.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0017104878597716906, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277982, 
+            "ymax": 0.0, 
+            "y": 17.13382053086756, 
+            "x": 379.0, 
+            "ymin": 0.0, 
+            "yErr": 0.004617947602474585, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277983, 
+            "ymax": 0.0, 
+            "y": 17.03604386636624, 
+            "x": 380.0, 
+            "ymin": 0.0, 
+            "yErr": 0.024941532330760012, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277984, 
+            "ymax": 0.0, 
+            "y": 17.025630467466996, 
+            "x": 381.0, 
+            "ymin": 0.0, 
+            "yErr": 0.011258370615873339, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277985, 
+            "ymax": 0.0, 
+            "y": 17.008330031903927, 
+            "x": 382.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03567831469480442, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277990, 
+            "ymax": 0.0, 
+            "y": 16.888807897039953, 
+            "x": 383.0, 
+            "ymin": 0.0, 
+            "yErr": 0.004140898800592438, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277991, 
+            "ymax": 0.0, 
+            "y": 17.176098635085133, 
+            "x": 384.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0016990274248724938, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 277992, 
+            "ymax": 0.0, 
+            "y": 17.193396524454432, 
+            "x": 385.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0008925858633536114, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278017, 
+            "ymax": 0.0, 
+            "y": 17.44314844393, 
+            "x": 386.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0007649840385958408, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278018, 
+            "ymax": 0.0, 
+            "y": 17.44761381867271, 
+            "x": 387.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005404319565839104, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278167, 
+            "ymax": 0.0, 
+            "y": 17.47290940239374, 
+            "x": 388.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00042522381438110847, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278175, 
+            "ymax": 0.0, 
+            "y": 17.494497140707466, 
+            "x": 389.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0024996289056095165, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278193, 
+            "ymax": 0.0, 
+            "y": 17.48212765890795, 
+            "x": 390.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001322444915958436, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278239, 
+            "ymax": 0.0, 
+            "y": 17.465830084147374, 
+            "x": 391.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0006579518008761875, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278240, 
+            "ymax": 0.0, 
+            "y": 17.480380404535552, 
+            "x": 392.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005360771628895021, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278273, 
+            "ymax": 0.0, 
+            "y": 17.451520021497792, 
+            "x": 393.0, 
+            "ymin": 0.0, 
+            "yErr": 0.002921230510692512, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278274, 
+            "ymax": 0.0, 
+            "y": 17.46512593809232, 
+            "x": 394.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001637873098722104, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278288, 
+            "ymax": 0.0, 
+            "y": 17.42607213452177, 
+            "x": 395.0, 
+            "ymin": 0.0, 
+            "yErr": 0.004369603493956957, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278289, 
+            "ymax": 0.0, 
+            "y": 17.452168980242817, 
+            "x": 396.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0023101628496586583, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278290, 
+            "ymax": 0.0, 
+            "y": 17.440085500242102, 
+            "x": 397.0, 
+            "ymin": 0.0, 
+            "yErr": 0.004556101720779155, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278308, 
+            "ymax": 0.0, 
+            "y": 16.78284128870991, 
+            "x": 398.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04671168046894591, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278309, 
+            "ymax": 0.0, 
+            "y": 17.511828708320667, 
+            "x": 399.0, 
+            "ymin": 0.0, 
+            "yErr": 0.006434563878635039, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278310, 
+            "ymax": 0.0, 
+            "y": 17.516719995293922, 
+            "x": 400.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0007967840850743787, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278315, 
+            "ymax": 0.0, 
+            "y": 17.485898772841736, 
+            "x": 401.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0006647070701383638, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278345, 
+            "ymax": 0.0, 
+            "y": 17.485543140723316, 
+            "x": 402.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005866507645936855, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278346, 
+            "ymax": 0.0, 
+            "y": 17.490805645660327, 
+            "x": 403.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0016888900356460841, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278349, 
+            "ymax": 0.0, 
+            "y": 17.50325519484404, 
+            "x": 404.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0007765574423277112, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278366, 
+            "ymax": 0.0, 
+            "y": 17.515972000843686, 
+            "x": 405.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009739882549887454, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278406, 
+            "ymax": 0.0, 
+            "y": 17.643892292127838, 
+            "x": 406.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0003675828651149868, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278509, 
+            "ymax": 0.0, 
+            "y": 17.532217557877324, 
+            "x": 407.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004676748453990186, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278761, 
+            "ymax": 0.0, 
+            "y": 17.628416794753566, 
+            "x": 408.0, 
+            "ymin": 0.0, 
+            "yErr": 0.005269297274894497, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278769, 
+            "ymax": 0.0, 
+            "y": 17.47589891405425, 
+            "x": 409.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0026881368465121705, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278770, 
+            "ymax": 0.0, 
+            "y": 17.53870864317727, 
+            "x": 410.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0006095117515202095, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278801, 
+            "ymax": 0.0, 
+            "y": 17.46171024250564, 
+            "x": 411.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0026152633160985784, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278802, 
+            "ymax": 0.0, 
+            "y": 17.494370860465438, 
+            "x": 412.0, 
+            "ymin": 0.0, 
+            "yErr": 0.005516231626341665, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278803, 
+            "ymax": 0.0, 
+            "y": 17.503169173365823, 
+            "x": 413.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0007964258872328678, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278804, 
+            "ymax": 0.0, 
+            "y": 17.495785818590008, 
+            "x": 414.0, 
+            "ymin": 0.0, 
+            "yErr": 0.008479372638744364, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278805, 
+            "ymax": 0.0, 
+            "y": 17.520292826909486, 
+            "x": 415.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009558309302739277, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278807, 
+            "ymax": 0.0, 
+            "y": 17.468705297703035, 
+            "x": 416.0, 
+            "ymin": 0.0, 
+            "yErr": 0.10417195353345587, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278808, 
+            "ymax": 0.0, 
+            "y": 17.55085400717962, 
+            "x": 417.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00043710187701042415, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278820, 
+            "ymax": 0.0, 
+            "y": 17.544814649477512, 
+            "x": 418.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004233602994135743, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278821, 
+            "ymax": 0.0, 
+            "y": 17.561209734288003, 
+            "x": 419.0, 
+            "ymin": 0.0, 
+            "yErr": 0.003411354118159244, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278822, 
+            "ymax": 0.0, 
+            "y": 17.594623150392543, 
+            "x": 420.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005262479270619608, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278873, 
+            "ymax": 0.0, 
+            "y": 16.76612423975947, 
+            "x": 421.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00724614814815123, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278874, 
+            "ymax": 0.0, 
+            "y": 16.774115391036315, 
+            "x": 422.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00108901309772862, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278875, 
+            "ymax": 0.0, 
+            "y": 16.796660326647206, 
+            "x": 423.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009233470577340234, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278923, 
+            "ymax": 0.0, 
+            "y": 16.777862671779864, 
+            "x": 424.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0010505867993115478, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278957, 
+            "ymax": 0.0, 
+            "y": 16.76227895982187, 
+            "x": 425.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0017619188921376215, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278962, 
+            "ymax": 0.0, 
+            "y": 16.77921093328297, 
+            "x": 426.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0011992150307915186, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278963, 
+            "ymax": 0.0, 
+            "y": 16.794267581643545, 
+            "x": 427.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0016926645653190025, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278969, 
+            "ymax": 0.0, 
+            "y": 16.81590378224095, 
+            "x": 428.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005328764340281449, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278975, 
+            "ymax": 0.0, 
+            "y": 16.84784589390086, 
+            "x": 429.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00045521697625268594, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278976, 
+            "ymax": 0.0, 
+            "y": 16.864829705737368, 
+            "x": 430.0, 
+            "ymin": 0.0, 
+            "yErr": 0.006235789597370223, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 278986, 
+            "ymax": 0.0, 
+            "y": 16.81222798874293, 
+            "x": 431.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0017831240558526737, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279024, 
+            "ymax": 0.0, 
+            "y": 16.841018352678663, 
+            "x": 432.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0013501307869887846, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279029, 
+            "ymax": 0.0, 
+            "y": 16.84784576960449, 
+            "x": 433.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0015598037174535553, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279071, 
+            "ymax": 0.0, 
+            "y": 16.84393068229253, 
+            "x": 434.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0020379309917927246, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279080, 
+            "ymax": 0.0, 
+            "y": 16.855140937052226, 
+            "x": 435.0, 
+            "ymin": 0.0, 
+            "yErr": 0.002844113127414028, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279115, 
+            "ymax": 0.0, 
+            "y": 16.804295722555842, 
+            "x": 436.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0011127769441539941, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279116, 
+            "ymax": 0.0, 
+            "y": 16.80452446455102, 
+            "x": 437.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009756080809637821, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279479, 
+            "ymax": 0.0, 
+            "y": 16.766562502211098, 
+            "x": 438.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0021408683294725467, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279480, 
+            "ymax": 0.0, 
+            "y": 17.005356458453704, 
+            "x": 439.0, 
+            "ymin": 0.0, 
+            "yErr": 0.16781061407283912, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279488, 
+            "ymax": 0.0, 
+            "y": 16.926072560416493, 
+            "x": 440.0, 
+            "ymin": 0.0, 
+            "yErr": 0.01908453106731387, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279489, 
+            "ymax": 0.0, 
+            "y": 16.907249814204953, 
+            "x": 441.0, 
+            "ymin": 0.0, 
+            "yErr": 0.008987299326491996, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279588, 
+            "ymax": 0.0, 
+            "y": 16.820657455388965, 
+            "x": 442.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000669885546939228, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279653, 
+            "ymax": 0.0, 
+            "y": 16.795687324312937, 
+            "x": 443.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0015542341246449526, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279654, 
+            "ymax": 0.0, 
+            "y": 16.832800441019373, 
+            "x": 444.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0006460456022707109, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279656, 
+            "ymax": 0.0, 
+            "y": 16.843002984418895, 
+            "x": 445.0, 
+            "ymin": 0.0, 
+            "yErr": 0.004269904932926209, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279658, 
+            "ymax": 0.0, 
+            "y": 16.86139748139181, 
+            "x": 446.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0010526596695716649, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279667, 
+            "ymax": 0.0, 
+            "y": 16.852014916890283, 
+            "x": 447.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0006807882329406838, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279681, 
+            "ymax": 0.0, 
+            "y": 16.78167910166713, 
+            "x": 448.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0041194298059647055, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279682, 
+            "ymax": 0.0, 
+            "y": 16.801303948788245, 
+            "x": 449.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0036023077695685295, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279683, 
+            "ymax": 0.0, 
+            "y": 16.813307098712865, 
+            "x": 450.0, 
+            "ymin": 0.0, 
+            "yErr": 0.004059487825650631, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279684, 
+            "ymax": 0.0, 
+            "y": 16.817492679468554, 
+            "x": 451.0, 
+            "ymin": 0.0, 
+            "yErr": 0.004467066266754854, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279685, 
+            "ymax": 0.0, 
+            "y": 16.827222561880443, 
+            "x": 452.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001453783959393059, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279691, 
+            "ymax": 0.0, 
+            "y": 16.806592999252103, 
+            "x": 453.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0033552535572493303, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279694, 
+            "ymax": 0.0, 
+            "y": 16.872378013943912, 
+            "x": 454.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004967799106599333, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279715, 
+            "ymax": 0.0, 
+            "y": 16.845025753785265, 
+            "x": 455.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0008539224215680392, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279716, 
+            "ymax": 0.0, 
+            "y": 16.883025608315492, 
+            "x": 456.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0006238456960448253, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279760, 
+            "ymax": 0.0, 
+            "y": 16.88774471426429, 
+            "x": 457.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0007708106653453615, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279766, 
+            "ymax": 0.0, 
+            "y": 16.924233783808262, 
+            "x": 458.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0006078485714788017, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279767, 
+            "ymax": 0.0, 
+            "y": 16.95034651610565, 
+            "x": 459.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001012812735566766, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279794, 
+            "ymax": 0.0, 
+            "y": 16.91297550736855, 
+            "x": 460.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0006505067083425981, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279823, 
+            "ymax": 0.0, 
+            "y": 16.89992848999078, 
+            "x": 461.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0010500783447298862, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279841, 
+            "ymax": 0.0, 
+            "y": 16.907916403023627, 
+            "x": 462.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004957531658124887, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279844, 
+            "ymax": 0.0, 
+            "y": 16.92208914962866, 
+            "x": 463.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0012398064602665792, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279846, 
+            "ymax": 0.0, 
+            "y": 16.97458565667971, 
+            "x": 464.0, 
+            "ymin": 0.0, 
+            "yErr": 0.004277503732905352, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279848, 
+            "ymax": 0.0, 
+            "y": 16.99830046186784, 
+            "x": 465.0, 
+            "ymin": 0.0, 
+            "yErr": 0.002596190453694679, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279849, 
+            "ymax": 0.0, 
+            "y": 16.974019090588868, 
+            "x": 466.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001188240600664867, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279851, 
+            "ymax": 0.0, 
+            "y": 17.00604062035257, 
+            "x": 467.0, 
+            "ymin": 0.0, 
+            "yErr": 0.009971992546492867, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279852, 
+            "ymax": 0.0, 
+            "y": 17.013096172246048, 
+            "x": 468.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00488285601006404, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279853, 
+            "ymax": 0.0, 
+            "y": 17.007852377781617, 
+            "x": 469.0, 
+            "ymin": 0.0, 
+            "yErr": 0.006199137602463535, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279854, 
+            "ymax": 0.0, 
+            "y": 17.00703338487907, 
+            "x": 470.0, 
+            "ymin": 0.0, 
+            "yErr": 0.011547888804580976, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279855, 
+            "ymax": 0.0, 
+            "y": 17.023834741018916, 
+            "x": 471.0, 
+            "ymin": 0.0, 
+            "yErr": 0.012724838895205927, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279856, 
+            "ymax": 0.0, 
+            "y": 17.007410551640405, 
+            "x": 472.0, 
+            "ymin": 0.0, 
+            "yErr": 0.011068682514272633, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279857, 
+            "ymax": 0.0, 
+            "y": 16.982430769352163, 
+            "x": 473.0, 
+            "ymin": 0.0, 
+            "yErr": 0.009062118701611615, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279858, 
+            "ymax": 0.0, 
+            "y": 16.99103050740158, 
+            "x": 474.0, 
+            "ymin": 0.0, 
+            "yErr": 0.008027310926973272, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279859, 
+            "ymax": 0.0, 
+            "y": 17.00578484426313, 
+            "x": 475.0, 
+            "ymin": 0.0, 
+            "yErr": 0.01378571710828893, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279860, 
+            "ymax": 0.0, 
+            "y": 17.001291724773317, 
+            "x": 476.0, 
+            "ymin": 0.0, 
+            "yErr": 0.014186369403248461, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279861, 
+            "ymax": 0.0, 
+            "y": 16.989719421309985, 
+            "x": 477.0, 
+            "ymin": 0.0, 
+            "yErr": 0.013355028947311613, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279865, 
+            "ymax": 0.0, 
+            "y": 17.068708480818632, 
+            "x": 478.0, 
+            "ymin": 0.0, 
+            "yErr": 0.002142961685368486, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279887, 
+            "ymax": 0.0, 
+            "y": 16.928600613060546, 
+            "x": 479.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001091110142416651, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279931, 
+            "ymax": 0.0, 
+            "y": 16.925101900967068, 
+            "x": 480.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004367311272627648, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279966, 
+            "ymax": 0.0, 
+            "y": 16.903892538460433, 
+            "x": 481.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009982635407387536, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279975, 
+            "ymax": 0.0, 
+            "y": 16.907637754563627, 
+            "x": 482.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0006174120463277268, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279993, 
+            "ymax": 0.0, 
+            "y": 16.887265307630447, 
+            "x": 483.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0023088988106891983, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279994, 
+            "ymax": 0.0, 
+            "y": 16.898333025953885, 
+            "x": 484.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0027683943556741325, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 279995, 
+            "ymax": 0.0, 
+            "y": 16.884401996810713, 
+            "x": 485.0, 
+            "ymin": 0.0, 
+            "yErr": 0.008647935411793813, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 280002, 
+            "ymax": 0.0, 
+            "y": 16.930240352460803, 
+            "x": 486.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0019565087936313516, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 280006, 
+            "ymax": 0.0, 
+            "y": 16.906174011351318, 
+            "x": 487.0, 
+            "ymin": 0.0, 
+            "yErr": 0.002431363281137306, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 280007, 
+            "ymax": 0.0, 
+            "y": 16.91956564309273, 
+            "x": 488.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0018417077763831671, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 280013, 
+            "ymax": 0.0, 
+            "y": 16.901201962990786, 
+            "x": 489.0, 
+            "ymin": 0.0, 
+            "yErr": 0.004127350333584022, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 280014, 
+            "ymax": 0.0, 
+            "y": 16.710544929009448, 
+            "x": 490.0, 
+            "ymin": 0.0, 
+            "yErr": 0.13734541639832604, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 280015, 
+            "ymax": 0.0, 
+            "y": 16.9306683093574, 
+            "x": 491.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0008818284091856716, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 280016, 
+            "ymax": 0.0, 
+            "y": 16.942905354230405, 
+            "x": 492.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001835053435482329, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 280017, 
+            "ymax": 0.0, 
+            "y": 16.950010924822568, 
+            "x": 493.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009845387408020361, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 280018, 
+            "ymax": 0.0, 
+            "y": 16.965065223082394, 
+            "x": 494.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00015893974652106844, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 280020, 
+            "ymax": 0.0, 
+            "y": 16.974810979434306, 
+            "x": 495.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0044010970983397995, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 280023, 
+            "ymax": 0.0, 
+            "y": 17.069265160040448, 
+            "x": 496.0, 
+            "ymin": 0.0, 
+            "yErr": 0.10261850385441242, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 280024, 
+            "ymax": 0.0, 
+            "y": 16.982440472904752, 
+            "x": 497.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0014469324062676007, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 280187, 
+            "ymax": 0.0, 
+            "y": 16.886878014214595, 
+            "x": 498.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0027208513491744227, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 280188, 
+            "ymax": 0.0, 
+            "y": 16.912564655442715, 
+            "x": 499.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0012216855328201742, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 280190, 
+            "ymax": 0.0, 
+            "y": 16.763588878487766, 
+            "x": 500.0, 
+            "ymin": 0.0, 
+            "yErr": 0.12690288357791243, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 280191, 
+            "ymax": 0.0, 
+            "y": 16.935405410375683, 
+            "x": 501.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000715421106394274, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 280194, 
+            "ymax": 0.0, 
+            "y": 16.953129945852115, 
+            "x": 502.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0015891531128213933, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 280242, 
+            "ymax": 0.0, 
+            "y": 16.925700895652984, 
+            "x": 503.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0007731728135073867, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 280249, 
+            "ymax": 0.0, 
+            "y": 16.964445008486205, 
+            "x": 504.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000611736242623059, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 280251, 
+            "ymax": 0.0, 
+            "y": 16.98064206017364, 
+            "x": 505.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001391926065905422, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 280327, 
+            "ymax": 0.0, 
+            "y": 16.91950904728726, 
+            "x": 506.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0032127512857659905, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 280330, 
+            "ymax": 0.0, 
+            "y": 16.947948718371034, 
+            "x": 507.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000683834680394696, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 280349, 
+            "ymax": 0.0, 
+            "y": 16.96377780008012, 
+            "x": 508.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0008756495577429418, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 280363, 
+            "ymax": 0.0, 
+            "y": 16.98176715332066, 
+            "x": 509.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0013253974311195624, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 280364, 
+            "ymax": 0.0, 
+            "y": 16.989512437188537, 
+            "x": 510.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0007582598411948121, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 280383, 
+            "ymax": 0.0, 
+            "y": 16.838684307898433, 
+            "x": 511.0, 
+            "ymin": 0.0, 
+            "yErr": 0.020544101226192945, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 280384, 
+            "ymax": 0.0, 
+            "y": 16.8987103417644, 
+            "x": 512.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0034970467294555647, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 280385, 
+            "ymax": 0.0, 
+            "y": 16.95872095691601, 
+            "x": 513.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004947076498659794, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 281613, 
+            "ymax": 0.0, 
+            "y": 16.896432140858632, 
+            "x": 514.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0010103596182771159, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 281616, 
+            "ymax": 0.0, 
+            "y": 16.88538322146334, 
+            "x": 515.0, 
+            "ymin": 0.0, 
+            "yErr": 0.002006882914911763, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 281638, 
+            "ymax": 0.0, 
+            "y": 16.724977990642756, 
+            "x": 516.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02224852977500396, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 281639, 
+            "ymax": 0.0, 
+            "y": 16.82680948390613, 
+            "x": 517.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0018723190387634103, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 281641, 
+            "ymax": 0.0, 
+            "y": 16.832997712272565, 
+            "x": 518.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0011916687694299981, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 281663, 
+            "ymax": 0.0, 
+            "y": 16.645787397824527, 
+            "x": 519.0, 
+            "ymin": 0.0, 
+            "yErr": 0.006664158514820909, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 281671, 
+            "ymax": 0.0, 
+            "y": 17.369370835724723, 
+            "x": 520.0, 
+            "ymin": 0.0, 
+            "yErr": 0.34739513193450033, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 281674, 
+            "ymax": 0.0, 
+            "y": 16.668453819068556, 
+            "x": 521.0, 
+            "ymin": 0.0, 
+            "yErr": 0.010597466873848499, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 281680, 
+            "ymax": 0.0, 
+            "y": 16.653955922283075, 
+            "x": 522.0, 
+            "ymin": 0.0, 
+            "yErr": 0.012322005057024724, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 281686, 
+            "ymax": 0.0, 
+            "y": 16.704917027532773, 
+            "x": 523.0, 
+            "ymin": 0.0, 
+            "yErr": 0.005524308341384154, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 281689, 
+            "ymax": 0.0, 
+            "y": 16.66504690692008, 
+            "x": 524.0, 
+            "ymin": 0.0, 
+            "yErr": 0.010439982139829518, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 281691, 
+            "ymax": 0.0, 
+            "y": 16.70324476182329, 
+            "x": 525.0, 
+            "ymin": 0.0, 
+            "yErr": 0.006769153449786097, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 281693, 
+            "ymax": 0.0, 
+            "y": 16.81394825644079, 
+            "x": 526.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005794359253278581, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 281707, 
+            "ymax": 0.0, 
+            "y": 16.775904500235605, 
+            "x": 527.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0008259931358068849, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 281726, 
+            "ymax": 0.0, 
+            "y": 16.83202484649076, 
+            "x": 528.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001510214187817097, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 281727, 
+            "ymax": 0.0, 
+            "y": 16.8799981868876, 
+            "x": 529.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0008350155950079363, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 281797, 
+            "ymax": 0.0, 
+            "y": 16.956769781035824, 
+            "x": 530.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00046457410268459877, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 281975, 
+            "ymax": 0.0, 
+            "y": 16.943704459831327, 
+            "x": 531.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0013620015367294608, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 281976, 
+            "ymax": 0.0, 
+            "y": 16.98264423600089, 
+            "x": 532.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005045530134135839, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 282033, 
+            "ymax": 0.0, 
+            "y": 16.92593480231666, 
+            "x": 533.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0034134503452153565, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 282034, 
+            "ymax": 0.0, 
+            "y": 16.93541036676915, 
+            "x": 534.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0032283338348977953, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 282035, 
+            "ymax": 0.0, 
+            "y": 16.94502980237302, 
+            "x": 535.0, 
+            "ymin": 0.0, 
+            "yErr": 0.003048040038145138, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 282037, 
+            "ymax": 0.0, 
+            "y": 16.98050947905044, 
+            "x": 536.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004884980441550102, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 282092, 
+            "ymax": 0.0, 
+            "y": 16.979932200318874, 
+            "x": 537.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00045308982760922724, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 282663, 
+            "ymax": 0.0, 
+            "y": 17.038882118444803, 
+            "x": 538.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001551892764435889, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 282707, 
+            "ymax": 0.0, 
+            "y": 17.37688356713684, 
+            "x": 539.0, 
+            "ymin": 0.0, 
+            "yErr": 0.2168337593085026, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 282708, 
+            "ymax": 0.0, 
+            "y": 17.002359301057208, 
+            "x": 540.0, 
+            "ymin": 0.0, 
+            "yErr": 0.006352081187502835, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 282710, 
+            "ymax": 0.0, 
+            "y": 16.92850168334234, 
+            "x": 541.0, 
+            "ymin": 0.0, 
+            "yErr": 0.016644320896283076, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 282712, 
+            "ymax": 0.0, 
+            "y": 17.003326145577287, 
+            "x": 542.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0021394689182342268, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 282730, 
+            "ymax": 0.0, 
+            "y": 16.962839472864875, 
+            "x": 543.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0021016365161718614, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 282731, 
+            "ymax": 0.0, 
+            "y": 16.978062694564535, 
+            "x": 544.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0013447089134252233, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 282732, 
+            "ymax": 0.0, 
+            "y": 16.98706483153243, 
+            "x": 545.0, 
+            "ymin": 0.0, 
+            "yErr": 0.002176054299803192, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 282733, 
+            "ymax": 0.0, 
+            "y": 16.993690599998914, 
+            "x": 546.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00139767371279381, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 282734, 
+            "ymax": 0.0, 
+            "y": 17.007621054214585, 
+            "x": 547.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005676695559839247, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 282735, 
+            "ymax": 0.0, 
+            "y": 17.02340143120508, 
+            "x": 548.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005207207962850565, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 282800, 
+            "ymax": 0.0, 
+            "y": 17.00108201897987, 
+            "x": 549.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000930089972868602, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 282807, 
+            "ymax": 0.0, 
+            "y": 17.0162569265975, 
+            "x": 550.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0010745000364627806, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 282814, 
+            "ymax": 0.0, 
+            "y": 17.038997354360383, 
+            "x": 551.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00020088311427713185, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 282842, 
+            "ymax": 0.0, 
+            "y": 17.00558281343166, 
+            "x": 552.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001887847036826698, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 282917, 
+            "ymax": 0.0, 
+            "y": 17.014361257498088, 
+            "x": 553.0, 
+            "ymin": 0.0, 
+            "yErr": 0.002144140224461225, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 282918, 
+            "ymax": 0.0, 
+            "y": 17.020712801289815, 
+            "x": 554.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0025203841235141595, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 282919, 
+            "ymax": 0.0, 
+            "y": 17.030348181886488, 
+            "x": 555.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0011797985944922483, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 282922, 
+            "ymax": 0.0, 
+            "y": 17.028746949838872, 
+            "x": 556.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001769804733022163, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 282923, 
+            "ymax": 0.0, 
+            "y": 17.023387600933745, 
+            "x": 557.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0012755958899035799, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 282924, 
+            "ymax": 0.0, 
+            "y": 17.022089102889296, 
+            "x": 558.0, 
+            "ymin": 0.0, 
+            "yErr": 0.01622545548905043, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283042, 
+            "ymax": 0.0, 
+            "y": 17.001421923499308, 
+            "x": 559.0, 
+            "ymin": 0.0, 
+            "yErr": 0.007682342779105097, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283043, 
+            "ymax": 0.0, 
+            "y": 17.02986520266205, 
+            "x": 560.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0008304222554261864, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283049, 
+            "ymax": 0.0, 
+            "y": 16.97009824927384, 
+            "x": 561.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00542869590552763, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283050, 
+            "ymax": 0.0, 
+            "y": 17.02380658388429, 
+            "x": 562.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0011876294405747374, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283052, 
+            "ymax": 0.0, 
+            "y": 17.031561640145124, 
+            "x": 563.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001679134497077794, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283059, 
+            "ymax": 0.0, 
+            "y": 17.044527056977913, 
+            "x": 564.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0008926024336858681, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283270, 
+            "ymax": 0.0, 
+            "y": 17.049011543186655, 
+            "x": 565.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00043996560081471727, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283283, 
+            "ymax": 0.0, 
+            "y": 17.106682275634324, 
+            "x": 566.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00031995540448431754, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283305, 
+            "ymax": 0.0, 
+            "y": 16.986059679840405, 
+            "x": 567.0, 
+            "ymin": 0.0, 
+            "yErr": 0.008044982922020905, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283306, 
+            "ymax": 0.0, 
+            "y": 17.035510508515685, 
+            "x": 568.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0010248332387698472, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283307, 
+            "ymax": 0.0, 
+            "y": 17.055522202048657, 
+            "x": 569.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0008762890935446693, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283308, 
+            "ymax": 0.0, 
+            "y": 17.056238126520437, 
+            "x": 570.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0006336472267059684, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283353, 
+            "ymax": 0.0, 
+            "y": 17.07552603787553, 
+            "x": 571.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000631437441823398, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283358, 
+            "ymax": 0.0, 
+            "y": 17.084644887492246, 
+            "x": 572.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0006158560180429598, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283359, 
+            "ymax": 0.0, 
+            "y": 17.103299595943344, 
+            "x": 573.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0010258807367541963, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283407, 
+            "ymax": 0.0, 
+            "y": 17.04051865345096, 
+            "x": 574.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0028739140239516245, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283408, 
+            "ymax": 0.0, 
+            "y": 17.087301924264175, 
+            "x": 575.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0003914161227209234, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283413, 
+            "ymax": 0.0, 
+            "y": 17.038058332010593, 
+            "x": 576.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03234619374644404, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283415, 
+            "ymax": 0.0, 
+            "y": 17.000906931619397, 
+            "x": 577.0, 
+            "ymin": 0.0, 
+            "yErr": 0.036581044513257235, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283416, 
+            "ymax": 0.0, 
+            "y": 17.12907882882785, 
+            "x": 578.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0018382594078867618, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283453, 
+            "ymax": 0.0, 
+            "y": 17.076754081054332, 
+            "x": 579.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0007408712426022736, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283469, 
+            "ymax": 0.0, 
+            "y": 16.999404679249203, 
+            "x": 580.0, 
+            "ymin": 0.0, 
+            "yErr": 0.022117682740012117, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283478, 
+            "ymax": 0.0, 
+            "y": 17.09688157027597, 
+            "x": 581.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005711019874801499, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283548, 
+            "ymax": 0.0, 
+            "y": 17.100849854663725, 
+            "x": 582.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0016352080048125184, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283675, 
+            "ymax": 0.0, 
+            "y": 17.310238697427103, 
+            "x": 583.0, 
+            "ymin": 0.0, 
+            "yErr": 0.022695078864856544, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283676, 
+            "ymax": 0.0, 
+            "y": 17.269673668148737, 
+            "x": 584.0, 
+            "ymin": 0.0, 
+            "yErr": 0.029559068361470948, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283680, 
+            "ymax": 0.0, 
+            "y": 17.07030926275118, 
+            "x": 585.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0020266038153340642, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283681, 
+            "ymax": 0.0, 
+            "y": 17.064525486033943, 
+            "x": 586.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0045308631502065325, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283682, 
+            "ymax": 0.0, 
+            "y": 17.085804893481967, 
+            "x": 587.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009660667696972883, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283685, 
+            "ymax": 0.0, 
+            "y": 17.108303139496577, 
+            "x": 588.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001753266384322828, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283820, 
+            "ymax": 0.0, 
+            "y": 17.092149862687705, 
+            "x": 589.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004910572953634683, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283830, 
+            "ymax": 0.0, 
+            "y": 17.1097065850603, 
+            "x": 590.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0007874835908826865, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283834, 
+            "ymax": 0.0, 
+            "y": 17.122011091920854, 
+            "x": 591.0, 
+            "ymin": 0.0, 
+            "yErr": 0.002632930238002514, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283835, 
+            "ymax": 0.0, 
+            "y": 17.126161159857173, 
+            "x": 592.0, 
+            "ymin": 0.0, 
+            "yErr": 0.002254714759187953, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283863, 
+            "ymax": 0.0, 
+            "y": 17.23065428735178, 
+            "x": 593.0, 
+            "ymin": 0.0, 
+            "yErr": 0.07613779546019496, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283865, 
+            "ymax": 0.0, 
+            "y": 17.070838958360508, 
+            "x": 594.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000497561299681355, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283876, 
+            "ymax": 0.0, 
+            "y": 17.0679971725451, 
+            "x": 595.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0006338490275776216, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283877, 
+            "ymax": 0.0, 
+            "y": 17.110244885783285, 
+            "x": 596.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005070343370667516, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283884, 
+            "ymax": 0.0, 
+            "y": 17.074307426418645, 
+            "x": 597.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0008074062168714857, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283885, 
+            "ymax": 0.0, 
+            "y": 17.115027318678496, 
+            "x": 598.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004671489543810785, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283933, 
+            "ymax": 0.0, 
+            "y": 17.065687414860257, 
+            "x": 599.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0012987159786569786, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283934, 
+            "ymax": 0.0, 
+            "y": 17.102631143973014, 
+            "x": 600.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00048199666021282614, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283946, 
+            "ymax": 0.0, 
+            "y": 17.086876660524673, 
+            "x": 601.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00047190291499127563, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 283964, 
+            "ymax": 0.0, 
+            "y": 17.136568559482637, 
+            "x": 602.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001044820816811749, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 284006, 
+            "ymax": 0.0, 
+            "y": 17.115359026722608, 
+            "x": 603.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001041685903198514, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 284014, 
+            "ymax": 0.0, 
+            "y": 17.12591266350613, 
+            "x": 604.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0006058365554104317, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 284025, 
+            "ymax": 0.0, 
+            "y": 17.056994464882838, 
+            "x": 605.0, 
+            "ymin": 0.0, 
+            "yErr": 0.002418079145481852, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 284029, 
+            "ymax": 0.0, 
+            "y": 17.076290607602868, 
+            "x": 606.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0014959018074060374, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 284035, 
+            "ymax": 0.0, 
+            "y": 17.091617508597157, 
+            "x": 607.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004470778701598067, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 284036, 
+            "ymax": 0.0, 
+            "y": 17.11067103421506, 
+            "x": 608.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009687181304148771, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 284037, 
+            "ymax": 0.0, 
+            "y": 17.124292777481845, 
+            "x": 609.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0010061052578779102, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 284038, 
+            "ymax": 0.0, 
+            "y": 17.13515118238566, 
+            "x": 610.0, 
+            "ymin": 0.0, 
+            "yErr": 0.002630678767894701, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 284039, 
+            "ymax": 0.0, 
+            "y": 17.129900981394734, 
+            "x": 611.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0036215629997704483, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 284040, 
+            "ymax": 0.0, 
+            "y": 17.12912037808201, 
+            "x": 612.0, 
+            "ymin": 0.0, 
+            "yErr": 0.003432004035055563, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 284041, 
+            "ymax": 0.0, 
+            "y": 17.14006671143216, 
+            "x": 613.0, 
+            "ymin": 0.0, 
+            "yErr": 0.003003781429715399, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 284042, 
+            "ymax": 0.0, 
+            "y": 17.139971710120875, 
+            "x": 614.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001799718974816768, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 284043, 
+            "ymax": 0.0, 
+            "y": 17.151358956323136, 
+            "x": 615.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0014162943455234252, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 284044, 
+            "ymax": 0.0, 
+            "y": 17.14709939726808, 
+            "x": 616.0, 
+            "ymin": 0.0, 
+            "yErr": 0.003825048664367064, 
+            "yTitle": "FPIX Cluster Charge (mpv)"
+        }
+    ]
+}

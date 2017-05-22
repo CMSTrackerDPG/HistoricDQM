@@ -1,0 +1,5548 @@
+{
+    "size_ONTk_Barrel_mean": [
+        {
+            "run": 271037, 
+            "ymax": 5.0, 
+            "y": 3.6674126733368437, 
+            "x": 1.0, 
+            "ymin": 0.0, 
+            "yErr": 0.018801199553351428, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271044, 
+            "ymax": 5.0, 
+            "y": 3.64555351071462, 
+            "x": 2.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0069082730271284925, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271045, 
+            "ymax": 5.0, 
+            "y": 3.657500716818306, 
+            "x": 3.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0015947721595884975, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271046, 
+            "ymax": 5.0, 
+            "y": 3.7033661787321295, 
+            "x": 4.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02120994722692342, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271047, 
+            "ymax": 5.0, 
+            "y": 3.6590167326214145, 
+            "x": 5.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0016107696310414825, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271048, 
+            "ymax": 5.0, 
+            "y": 3.659553546794279, 
+            "x": 6.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009334934405796245, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271049, 
+            "ymax": 5.0, 
+            "y": 3.659499109226325, 
+            "x": 7.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001441553916153304, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271050, 
+            "ymax": 5.0, 
+            "y": 3.645834530472458, 
+            "x": 8.0, 
+            "ymin": 0.0, 
+            "yErr": 0.009323603680311118, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271052, 
+            "ymax": 5.0, 
+            "y": 3.659182842885708, 
+            "x": 9.0, 
+            "ymin": 0.0, 
+            "yErr": 0.003695109230416699, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271056, 
+            "ymax": 5.0, 
+            "y": 3.648152087788784, 
+            "x": 10.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00017962426892404018, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271083, 
+            "ymax": 5.0, 
+            "y": 3.657579745674369, 
+            "x": 11.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005974914019939108, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271084, 
+            "ymax": 5.0, 
+            "y": 3.6571808260416505, 
+            "x": 12.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00024362063623773505, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271184, 
+            "ymax": 5.0, 
+            "y": 3.635068297480061, 
+            "x": 13.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001676120307637718, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271187, 
+            "ymax": 5.0, 
+            "y": 3.6400884627516383, 
+            "x": 14.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001348877081120627, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271188, 
+            "ymax": 5.0, 
+            "y": 3.6601309425744972, 
+            "x": 15.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005078994672942264, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271190, 
+            "ymax": 5.0, 
+            "y": 3.674986361156574, 
+            "x": 16.0, 
+            "ymin": 0.0, 
+            "yErr": 0.004102113072561755, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271191, 
+            "ymax": 5.0, 
+            "y": 3.5951156012452348, 
+            "x": 17.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0002783499731482011, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271192, 
+            "ymax": 5.0, 
+            "y": 3.561472862342832, 
+            "x": 18.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0003784936596679691, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271193, 
+            "ymax": 5.0, 
+            "y": 3.541441083499659, 
+            "x": 19.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0002515944550686187, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271195, 
+            "ymax": 5.0, 
+            "y": 3.5860642122040893, 
+            "x": 20.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001895267079110934, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271196, 
+            "ymax": 5.0, 
+            "y": 3.4129218214337316, 
+            "x": 21.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001981996864556602, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271197, 
+            "ymax": 5.0, 
+            "y": 3.5245896100044316, 
+            "x": 22.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004357541514877543, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271214, 
+            "ymax": 5.0, 
+            "y": 3.5843768837700694, 
+            "x": 23.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0003169981828677203, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271304, 
+            "ymax": 5.0, 
+            "y": 3.4195343844343977, 
+            "x": 24.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00039387408474504226, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271305, 
+            "ymax": 5.0, 
+            "y": 3.5987446959145926, 
+            "x": 25.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0011963657730706522, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271306, 
+            "ymax": 5.0, 
+            "y": 3.0559375594934988, 
+            "x": 26.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00016182520085089716, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271307, 
+            "ymax": 5.0, 
+            "y": 3.3395811404006226, 
+            "x": 27.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00031732156402973895, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271310, 
+            "ymax": 5.0, 
+            "y": 3.590608389616304, 
+            "x": 28.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000421763496844012, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271312, 
+            "ymax": 5.0, 
+            "y": 3.5903991584886894, 
+            "x": 29.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0002481361929829941, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271313, 
+            "ymax": 5.0, 
+            "y": 3.5930080078637725, 
+            "x": 30.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004162695920147834, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271314, 
+            "ymax": 5.0, 
+            "y": 3.5941291886492515, 
+            "x": 31.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000457504242672993, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271317, 
+            "ymax": 5.0, 
+            "y": 3.5958448061881065, 
+            "x": 32.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0003788103249057238, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271318, 
+            "ymax": 5.0, 
+            "y": 3.594683220855614, 
+            "x": 33.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00043090514874768397, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271319, 
+            "ymax": 5.0, 
+            "y": 3.596597987321693, 
+            "x": 34.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004105406006452829, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271321, 
+            "ymax": 5.0, 
+            "y": 3.5977306292830415, 
+            "x": 35.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0003829193923019406, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271322, 
+            "ymax": 5.0, 
+            "y": 3.5984201979339057, 
+            "x": 36.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00044833136257819555, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271323, 
+            "ymax": 5.0, 
+            "y": 3.5988362281761286, 
+            "x": 37.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00042419899147022784, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271324, 
+            "ymax": 5.0, 
+            "y": 3.5996023706209677, 
+            "x": 38.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004504873511029395, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271327, 
+            "ymax": 5.0, 
+            "y": 3.598564057534647, 
+            "x": 39.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004556528152149376, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271328, 
+            "ymax": 5.0, 
+            "y": 3.6001215191465965, 
+            "x": 40.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00045217767710159105, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271329, 
+            "ymax": 5.0, 
+            "y": 3.601330772473477, 
+            "x": 41.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004562723298562124, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271330, 
+            "ymax": 5.0, 
+            "y": 3.6005401097032093, 
+            "x": 42.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00046150713505563264, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271331, 
+            "ymax": 5.0, 
+            "y": 3.6002417595832137, 
+            "x": 43.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00045818097724810664, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271332, 
+            "ymax": 5.0, 
+            "y": 3.600623873977264, 
+            "x": 44.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004471761057528353, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271336, 
+            "ymax": 5.0, 
+            "y": 3.6350263502702593, 
+            "x": 45.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00016541168904557694, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271337, 
+            "ymax": 5.0, 
+            "y": 3.657662520471728, 
+            "x": 46.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0011058820428057063, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271338, 
+            "ymax": 5.0, 
+            "y": 3.657008476151691, 
+            "x": 47.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0013983429949186344, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271342, 
+            "ymax": 5.0, 
+            "y": 3.621557692773879, 
+            "x": 48.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005531768246009825, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271645, 
+            "ymax": 5.0, 
+            "y": 3.66516427787225, 
+            "x": 49.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0017130116130142177, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271646, 
+            "ymax": 5.0, 
+            "y": 3.6520972825904634, 
+            "x": 50.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000623256036050542, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271648, 
+            "ymax": 5.0, 
+            "y": 3.629909237424718, 
+            "x": 51.0, 
+            "ymin": 0.0, 
+            "yErr": 0.025367348410171173, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 271649, 
+            "ymax": 5.0, 
+            "y": 3.6610369206598588, 
+            "x": 52.0, 
+            "ymin": 0.0, 
+            "yErr": 0.027433002783297567, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 272007, 
+            "ymax": 5.0, 
+            "y": 4.0632285411515365, 
+            "x": 53.0, 
+            "ymin": 0.0, 
+            "yErr": 0.028626611379495504, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 272008, 
+            "ymax": 5.0, 
+            "y": 3.7646800137902843, 
+            "x": 54.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0006284029634688426, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 272010, 
+            "ymax": 5.0, 
+            "y": 3.9349331326006127, 
+            "x": 55.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0007951817745874966, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 272011, 
+            "ymax": 5.0, 
+            "y": 3.6197728698977283, 
+            "x": 56.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0002656029745933446, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 272012, 
+            "ymax": 5.0, 
+            "y": 3.6208324296550334, 
+            "x": 57.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00027359851468855225, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 272014, 
+            "ymax": 5.0, 
+            "y": 3.8983325674715643, 
+            "x": 58.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00040009006281175723, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 272016, 
+            "ymax": 5.0, 
+            "y": 4.022620877190947, 
+            "x": 59.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0006647178144865446, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 272017, 
+            "ymax": 5.0, 
+            "y": 4.006886066358271, 
+            "x": 60.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0028883695834892352, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 272019, 
+            "ymax": 5.0, 
+            "y": 4.024358170304882, 
+            "x": 61.0, 
+            "ymin": 0.0, 
+            "yErr": 0.012745821930700367, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 272021, 
+            "ymax": 5.0, 
+            "y": 3.569609591021975, 
+            "x": 62.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00037982340199912875, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 272022, 
+            "ymax": 5.0, 
+            "y": 4.007864519811791, 
+            "x": 63.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004883354171897136, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 272760, 
+            "ymax": 5.0, 
+            "y": 4.06366140760292, 
+            "x": 64.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001401437477715544, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 272761, 
+            "ymax": 5.0, 
+            "y": 2.1327357415999173, 
+            "x": 65.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009133498584635404, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 272762, 
+            "ymax": 5.0, 
+            "y": 3.6660919735583475, 
+            "x": 66.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0008863930451429279, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 272774, 
+            "ymax": 5.0, 
+            "y": 4.010648119606012, 
+            "x": 67.0, 
+            "ymin": 0.0, 
+            "yErr": 0.002563085952043342, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 272775, 
+            "ymax": 5.0, 
+            "y": 4.010263227660995, 
+            "x": 68.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0003464887362003867, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 272776, 
+            "ymax": 5.0, 
+            "y": 4.0152567062999145, 
+            "x": 69.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004824685978285505, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 272782, 
+            "ymax": 5.0, 
+            "y": 4.012160667603686, 
+            "x": 70.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000882704636214683, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 272783, 
+            "ymax": 5.0, 
+            "y": 4.011117895958424, 
+            "x": 71.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00039130435948513175, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 272784, 
+            "ymax": 5.0, 
+            "y": 4.014807014647312, 
+            "x": 72.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00028620556743973847, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 272785, 
+            "ymax": 5.0, 
+            "y": 4.018178633437065, 
+            "x": 73.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004211530548731778, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 272786, 
+            "ymax": 5.0, 
+            "y": 4.044809709922292, 
+            "x": 74.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00046356516720133235, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 272798, 
+            "ymax": 5.0, 
+            "y": 4.049052226487956, 
+            "x": 75.0, 
+            "ymin": 0.0, 
+            "yErr": 7.306369718873804e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 272811, 
+            "ymax": 5.0, 
+            "y": 3.9562005241255607, 
+            "x": 76.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00032639288278429223, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 272812, 
+            "ymax": 5.0, 
+            "y": 3.9617051003529156, 
+            "x": 77.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001568719412646843, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 272814, 
+            "ymax": 5.0, 
+            "y": 3.971176404265376, 
+            "x": 78.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0020333389765364277, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 272815, 
+            "ymax": 5.0, 
+            "y": 3.97109982269439, 
+            "x": 79.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0008327028174819827, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 272816, 
+            "ymax": 5.0, 
+            "y": 3.965811656395297, 
+            "x": 80.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000631182924996963, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 272818, 
+            "ymax": 5.0, 
+            "y": 3.9721896336815656, 
+            "x": 81.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001287550274860555, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 272827, 
+            "ymax": 5.0, 
+            "y": 3.9444600451640834, 
+            "x": 82.0, 
+            "ymin": 0.0, 
+            "yErr": 0.002561589413673399, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 272828, 
+            "ymax": 5.0, 
+            "y": 3.9604283769662394, 
+            "x": 83.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000709785522390404, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 272930, 
+            "ymax": 5.0, 
+            "y": 3.9715567265722886, 
+            "x": 84.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00021884374819234524, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 272936, 
+            "ymax": 5.0, 
+            "y": 3.952711279893705, 
+            "x": 85.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000141078397429649, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273013, 
+            "ymax": 5.0, 
+            "y": 3.947802300612613, 
+            "x": 86.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00015378132009361692, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273017, 
+            "ymax": 5.0, 
+            "y": 3.965167564416713, 
+            "x": 87.0, 
+            "ymin": 0.0, 
+            "yErr": 9.326524759506912e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273150, 
+            "ymax": 5.0, 
+            "y": 3.9271427403285766, 
+            "x": 88.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0008585650208332222, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273158, 
+            "ymax": 5.0, 
+            "y": 3.941796221487575, 
+            "x": 89.0, 
+            "ymin": 0.0, 
+            "yErr": 7.480943276322321e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273290, 
+            "ymax": 5.0, 
+            "y": 3.9442156476540795, 
+            "x": 90.0, 
+            "ymin": 0.0, 
+            "yErr": 0.006225675014653152, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273291, 
+            "ymax": 5.0, 
+            "y": 3.8951018694475184, 
+            "x": 91.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00032671726332819835, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273292, 
+            "ymax": 5.0, 
+            "y": 3.8983201818618984, 
+            "x": 92.0, 
+            "ymin": 0.0, 
+            "yErr": 0.006371707671137987, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273294, 
+            "ymax": 5.0, 
+            "y": 4.082120582120582, 
+            "x": 93.0, 
+            "ymin": 0.0, 
+            "yErr": 0.057842009862351634, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273295, 
+            "ymax": 5.0, 
+            "y": 3.8562140268599445, 
+            "x": 94.0, 
+            "ymin": 0.0, 
+            "yErr": 0.028284169530045797, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273299, 
+            "ymax": 5.0, 
+            "y": 3.922748158052754, 
+            "x": 95.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004183060881064743, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273301, 
+            "ymax": 5.0, 
+            "y": 3.9370688254044217, 
+            "x": 96.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00011474866917249578, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273302, 
+            "ymax": 5.0, 
+            "y": 3.9539659240077816, 
+            "x": 97.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00013887360808475922, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273402, 
+            "ymax": 5.0, 
+            "y": 3.962160904664263, 
+            "x": 98.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00021195487848595798, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273403, 
+            "ymax": 5.0, 
+            "y": 3.9551201732469177, 
+            "x": 99.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00040727390859286164, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273404, 
+            "ymax": 5.0, 
+            "y": 3.965786789988949, 
+            "x": 100.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0006977661430435524, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273405, 
+            "ymax": 5.0, 
+            "y": 3.9648739921298586, 
+            "x": 101.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005927458383151172, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273406, 
+            "ymax": 5.0, 
+            "y": 3.9689576000783804, 
+            "x": 102.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0002805631400050806, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273408, 
+            "ymax": 5.0, 
+            "y": 3.965186864417966, 
+            "x": 103.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0012766577421943308, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273409, 
+            "ymax": 5.0, 
+            "y": 3.9598624435185052, 
+            "x": 104.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00017471654859808233, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273410, 
+            "ymax": 5.0, 
+            "y": 3.964826396106428, 
+            "x": 105.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00032480917057497777, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273411, 
+            "ymax": 5.0, 
+            "y": 3.9684721097347637, 
+            "x": 106.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000618583257348923, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273425, 
+            "ymax": 5.0, 
+            "y": 3.9452816871361818, 
+            "x": 107.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010143181142878355, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273426, 
+            "ymax": 5.0, 
+            "y": 3.961684794971366, 
+            "x": 108.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0003705200668174837, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273446, 
+            "ymax": 5.0, 
+            "y": 3.8964350729307657, 
+            "x": 109.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004070068044051407, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273447, 
+            "ymax": 5.0, 
+            "y": 3.909231934899084, 
+            "x": 110.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00011809359228880773, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273448, 
+            "ymax": 5.0, 
+            "y": 3.928500195427494, 
+            "x": 111.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00012845624490685745, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273449, 
+            "ymax": 5.0, 
+            "y": 3.9484441029886015, 
+            "x": 112.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00021357852998298867, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273450, 
+            "ymax": 5.0, 
+            "y": 3.9592018245394933, 
+            "x": 113.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00012949803045275365, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273492, 
+            "ymax": 5.0, 
+            "y": 3.965726720264114, 
+            "x": 114.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00017613781148714073, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273493, 
+            "ymax": 5.0, 
+            "y": 3.970043039139211, 
+            "x": 115.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00019137532780875603, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273494, 
+            "ymax": 5.0, 
+            "y": 3.972568408450607, 
+            "x": 116.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00021210760827561906, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273502, 
+            "ymax": 5.0, 
+            "y": 3.961506622196128, 
+            "x": 117.0, 
+            "ymin": 0.0, 
+            "yErr": 8.987555620507356e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273503, 
+            "ymax": 5.0, 
+            "y": 3.973065547197731, 
+            "x": 118.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001230719814024377, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273522, 
+            "ymax": 5.0, 
+            "y": 4.039627899470609, 
+            "x": 119.0, 
+            "ymin": 0.0, 
+            "yErr": 0.004571445103006, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273523, 
+            "ymax": 5.0, 
+            "y": 3.9749998857717035, 
+            "x": 120.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001950331534335043, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273526, 
+            "ymax": 5.0, 
+            "y": 4.009536418491078, 
+            "x": 121.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001404922780777155, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273531, 
+            "ymax": 5.0, 
+            "y": 4.0540001090465125, 
+            "x": 122.0, 
+            "ymin": 0.0, 
+            "yErr": 0.002260062656347142, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273537, 
+            "ymax": 5.0, 
+            "y": 3.9758252440974116, 
+            "x": 123.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010237475989807619, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273554, 
+            "ymax": 5.0, 
+            "y": 3.9412770475420853, 
+            "x": 124.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00012327533013007999, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273555, 
+            "ymax": 5.0, 
+            "y": 3.9468893019588243, 
+            "x": 125.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001837629449377385, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273588, 
+            "ymax": 5.0, 
+            "y": 4.043505272205816, 
+            "x": 126.0, 
+            "ymin": 0.0, 
+            "yErr": 0.005578539105154355, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273589, 
+            "ymax": 5.0, 
+            "y": 3.9816163663431747, 
+            "x": 127.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00019374733243890545, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273590, 
+            "ymax": 5.0, 
+            "y": 3.982993581908881, 
+            "x": 128.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00016156897976137976, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273591, 
+            "ymax": 5.0, 
+            "y": 4.058498200713121, 
+            "x": 129.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001584090769672795, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273592, 
+            "ymax": 5.0, 
+            "y": 3.9840176196032835, 
+            "x": 130.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001560092819972949, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273593, 
+            "ymax": 5.0, 
+            "y": 4.061366377017202, 
+            "x": 131.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00256274085801055, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273725, 
+            "ymax": 5.0, 
+            "y": 3.9435053634005435, 
+            "x": 132.0, 
+            "ymin": 0.0, 
+            "yErr": 5.4813681589186944e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273728, 
+            "ymax": 5.0, 
+            "y": 3.9750214022632524, 
+            "x": 133.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0003151153589281731, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 273730, 
+            "ymax": 5.0, 
+            "y": 3.9870566697396357, 
+            "x": 134.0, 
+            "ymin": 0.0, 
+            "yErr": 6.682257271638784e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274094, 
+            "ymax": 5.0, 
+            "y": 3.9081320706858147, 
+            "x": 135.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001659839475445692, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274100, 
+            "ymax": 5.0, 
+            "y": 4.040633867395668, 
+            "x": 136.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0012555760709316644, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274102, 
+            "ymax": 5.0, 
+            "y": 3.9672013514548645, 
+            "x": 137.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000796979714311655, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274103, 
+            "ymax": 5.0, 
+            "y": 3.964955458920014, 
+            "x": 138.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0010364584898143957, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274104, 
+            "ymax": 5.0, 
+            "y": 3.9728146954517176, 
+            "x": 139.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0008361845168852489, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274105, 
+            "ymax": 5.0, 
+            "y": 3.9745827482003295, 
+            "x": 140.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000744252976476736, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274106, 
+            "ymax": 5.0, 
+            "y": 3.975056197897241, 
+            "x": 141.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0008159019758825077, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274107, 
+            "ymax": 5.0, 
+            "y": 3.9731807159330135, 
+            "x": 142.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000916463332233526, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274108, 
+            "ymax": 5.0, 
+            "y": 3.9421433244018735, 
+            "x": 143.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0008738933032845454, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274146, 
+            "ymax": 5.0, 
+            "y": 3.892647622499568, 
+            "x": 144.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00029240949415151147, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274157, 
+            "ymax": 5.0, 
+            "y": 3.8982910187377606, 
+            "x": 145.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00011114362493437054, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274159, 
+            "ymax": 5.0, 
+            "y": 3.912591702327279, 
+            "x": 146.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0003778520820891396, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274160, 
+            "ymax": 5.0, 
+            "y": 3.916685881043922, 
+            "x": 147.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00016659228641948423, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274161, 
+            "ymax": 5.0, 
+            "y": 3.927601029647506, 
+            "x": 148.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001101278563897289, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274172, 
+            "ymax": 5.0, 
+            "y": 3.856207094652436, 
+            "x": 149.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0003259653299599796, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274198, 
+            "ymax": 5.0, 
+            "y": 3.845696299904317, 
+            "x": 150.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00023368747276861844, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274199, 
+            "ymax": 5.0, 
+            "y": 3.8688031715542732, 
+            "x": 151.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001016168659143333, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274200, 
+            "ymax": 5.0, 
+            "y": 3.897394381940865, 
+            "x": 152.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010667675713771826, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274240, 
+            "ymax": 5.0, 
+            "y": 3.8154958153949448, 
+            "x": 153.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0002543626770691785, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274241, 
+            "ymax": 5.0, 
+            "y": 3.8568634045839842, 
+            "x": 154.0, 
+            "ymin": 0.0, 
+            "yErr": 7.209076595879015e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274243, 
+            "ymax": 5.0, 
+            "y": 3.911957154678354, 
+            "x": 155.0, 
+            "ymin": 0.0, 
+            "yErr": 0.002350552395373388, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274244, 
+            "ymax": 5.0, 
+            "y": 3.893955625016819, 
+            "x": 156.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00011186101168062712, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274250, 
+            "ymax": 5.0, 
+            "y": 3.7981613496462865, 
+            "x": 157.0, 
+            "ymin": 0.0, 
+            "yErr": 8.02934097463692e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274251, 
+            "ymax": 5.0, 
+            "y": 3.847755019354673, 
+            "x": 158.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010789483597932306, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274283, 
+            "ymax": 5.0, 
+            "y": 3.7495640748990673, 
+            "x": 159.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0014381723017933183, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274284, 
+            "ymax": 5.0, 
+            "y": 3.7729056751613474, 
+            "x": 160.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00015801243068812925, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274285, 
+            "ymax": 5.0, 
+            "y": 3.8026139125907163, 
+            "x": 161.0, 
+            "ymin": 0.0, 
+            "yErr": 0.004577809160813216, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274286, 
+            "ymax": 5.0, 
+            "y": 3.7937660662643933, 
+            "x": 162.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001879437471536768, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274314, 
+            "ymax": 5.0, 
+            "y": 3.721031254825945, 
+            "x": 163.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00024870534831877026, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274315, 
+            "ymax": 5.0, 
+            "y": 3.7509664227656185, 
+            "x": 164.0, 
+            "ymin": 0.0, 
+            "yErr": 9.535755659942943e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274316, 
+            "ymax": 5.0, 
+            "y": 3.81417448031452, 
+            "x": 165.0, 
+            "ymin": 0.0, 
+            "yErr": 7.046361986985677e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274317, 
+            "ymax": 5.0, 
+            "y": 3.8423280165907014, 
+            "x": 166.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001524640808975557, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274318, 
+            "ymax": 5.0, 
+            "y": 3.8184572032405777, 
+            "x": 167.0, 
+            "ymin": 0.0, 
+            "yErr": 0.012763687213073848, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274319, 
+            "ymax": 5.0, 
+            "y": 3.8497500494836854, 
+            "x": 168.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00015781842513260173, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274335, 
+            "ymax": 5.0, 
+            "y": 3.7706976797875753, 
+            "x": 169.0, 
+            "ymin": 0.0, 
+            "yErr": 6.620790588770893e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274336, 
+            "ymax": 5.0, 
+            "y": 3.814543074424991, 
+            "x": 170.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0006132299252798383, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274337, 
+            "ymax": 5.0, 
+            "y": 3.8176604810507015, 
+            "x": 171.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0006132488788193429, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274338, 
+            "ymax": 5.0, 
+            "y": 3.83013412381805, 
+            "x": 172.0, 
+            "ymin": 0.0, 
+            "yErr": 7.957403570464162e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274339, 
+            "ymax": 5.0, 
+            "y": 3.8493222113072347, 
+            "x": 173.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00023563984148507945, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274344, 
+            "ymax": 5.0, 
+            "y": 3.8622707184904304, 
+            "x": 174.0, 
+            "ymin": 0.0, 
+            "yErr": 9.093071692531993e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274345, 
+            "ymax": 5.0, 
+            "y": 3.873080282999255, 
+            "x": 175.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00018067662862794194, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274382, 
+            "ymax": 5.0, 
+            "y": 3.753106473761274, 
+            "x": 176.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00028968736792178696, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274387, 
+            "ymax": 5.0, 
+            "y": 3.722821369325143, 
+            "x": 177.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001026602244658857, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274388, 
+            "ymax": 5.0, 
+            "y": 3.798145186316678, 
+            "x": 178.0, 
+            "ymin": 0.0, 
+            "yErr": 5.096227115832179e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274420, 
+            "ymax": 5.0, 
+            "y": 3.732370109622692, 
+            "x": 179.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00014818487486638297, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274421, 
+            "ymax": 5.0, 
+            "y": 3.758910472903915, 
+            "x": 180.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010818412777318904, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274422, 
+            "ymax": 5.0, 
+            "y": 3.821521678148597, 
+            "x": 181.0, 
+            "ymin": 0.0, 
+            "yErr": 4.9605201458779465e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274440, 
+            "ymax": 5.0, 
+            "y": 3.752420313528118, 
+            "x": 182.0, 
+            "ymin": 0.0, 
+            "yErr": 9.982463239727039e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274441, 
+            "ymax": 5.0, 
+            "y": 3.7823072784850087, 
+            "x": 183.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010117743138253044, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274442, 
+            "ymax": 5.0, 
+            "y": 3.812432598569728, 
+            "x": 184.0, 
+            "ymin": 0.0, 
+            "yErr": 8.27131088773532e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274443, 
+            "ymax": 5.0, 
+            "y": 3.8283658158107587, 
+            "x": 185.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000338538506750697, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274954, 
+            "ymax": 5.0, 
+            "y": 3.8111928815357867, 
+            "x": 186.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0003949688444383637, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274955, 
+            "ymax": 5.0, 
+            "y": 3.8220548976754785, 
+            "x": 187.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001764962093660526, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274956, 
+            "ymax": 5.0, 
+            "y": 3.8510329975884106, 
+            "x": 188.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00030554613093032747, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274957, 
+            "ymax": 5.0, 
+            "y": 3.8403928485850196, 
+            "x": 189.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00028833137697555414, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274958, 
+            "ymax": 5.0, 
+            "y": 3.8466446388432782, 
+            "x": 190.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010145811020408166, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274959, 
+            "ymax": 5.0, 
+            "y": 3.8707018786379948, 
+            "x": 191.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010903369844410963, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274967, 
+            "ymax": 5.0, 
+            "y": 3.6803712004318645, 
+            "x": 192.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00030508014057202456, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274968, 
+            "ymax": 5.0, 
+            "y": 3.73899365837692, 
+            "x": 193.0, 
+            "ymin": 0.0, 
+            "yErr": 4.008369970783655e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274969, 
+            "ymax": 5.0, 
+            "y": 3.801725747455499, 
+            "x": 194.0, 
+            "ymin": 0.0, 
+            "yErr": 4.6739509672412375e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274970, 
+            "ymax": 5.0, 
+            "y": 3.830168441833475, 
+            "x": 195.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00026468375831895596, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274971, 
+            "ymax": 5.0, 
+            "y": 3.841959794542159, 
+            "x": 196.0, 
+            "ymin": 0.0, 
+            "yErr": 5.727410113033902e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274998, 
+            "ymax": 5.0, 
+            "y": 3.7266571938492565, 
+            "x": 197.0, 
+            "ymin": 0.0, 
+            "yErr": 4.743514602753564e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 274999, 
+            "ymax": 5.0, 
+            "y": 3.7887985655579284, 
+            "x": 198.0, 
+            "ymin": 0.0, 
+            "yErr": 7.228777289702333e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275000, 
+            "ymax": 5.0, 
+            "y": 3.8325651168170216, 
+            "x": 199.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0002387822942903369, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275001, 
+            "ymax": 5.0, 
+            "y": 3.8590891845559367, 
+            "x": 200.0, 
+            "ymin": 0.0, 
+            "yErr": 6.970345835368952e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275059, 
+            "ymax": 5.0, 
+            "y": 3.630600635250373, 
+            "x": 201.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0003378338543870027, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275062, 
+            "ymax": 5.0, 
+            "y": 3.644602841119747, 
+            "x": 202.0, 
+            "ymin": 0.0, 
+            "yErr": 0.004841832307076638, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275063, 
+            "ymax": 5.0, 
+            "y": 3.6211915279193567, 
+            "x": 203.0, 
+            "ymin": 0.0, 
+            "yErr": 0.009660708835705592, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275064, 
+            "ymax": 5.0, 
+            "y": 3.6318879167905798, 
+            "x": 204.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0003582135124870809, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275066, 
+            "ymax": 5.0, 
+            "y": 3.6484972031726906, 
+            "x": 205.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00020389484497278863, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275067, 
+            "ymax": 5.0, 
+            "y": 3.6800879490107796, 
+            "x": 206.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010468574431311935, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275068, 
+            "ymax": 5.0, 
+            "y": 3.7392258427424037, 
+            "x": 207.0, 
+            "ymin": 0.0, 
+            "yErr": 7.563843387488454e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275073, 
+            "ymax": 5.0, 
+            "y": 3.7922494218728775, 
+            "x": 208.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00011209626715997057, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275074, 
+            "ymax": 5.0, 
+            "y": 3.817417194526305, 
+            "x": 209.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000109416043352888, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275124, 
+            "ymax": 5.0, 
+            "y": 3.686900866939233, 
+            "x": 210.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00011838883613863543, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275125, 
+            "ymax": 5.0, 
+            "y": 3.7421262637659747, 
+            "x": 211.0, 
+            "ymin": 0.0, 
+            "yErr": 7.414375650342646e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275282, 
+            "ymax": 5.0, 
+            "y": 3.694298063108753, 
+            "x": 212.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00023088366837401304, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275283, 
+            "ymax": 5.0, 
+            "y": 3.6980790506033903, 
+            "x": 213.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00018620649050317729, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275284, 
+            "ymax": 5.0, 
+            "y": 3.7123578313736165, 
+            "x": 214.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00020919970013166675, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275285, 
+            "ymax": 5.0, 
+            "y": 3.7121078529498024, 
+            "x": 215.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0025342911600609017, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275286, 
+            "ymax": 5.0, 
+            "y": 3.7256875077006577, 
+            "x": 216.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000238247807726812, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275289, 
+            "ymax": 5.0, 
+            "y": 3.720015640991791, 
+            "x": 217.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0008029671348306187, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275290, 
+            "ymax": 5.0, 
+            "y": 3.727357323259893, 
+            "x": 218.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00029481225607700415, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275291, 
+            "ymax": 5.0, 
+            "y": 3.759017734981344, 
+            "x": 219.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00012746292870365037, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275292, 
+            "ymax": 5.0, 
+            "y": 3.775431854343632, 
+            "x": 220.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00023266034779775003, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275293, 
+            "ymax": 5.0, 
+            "y": 3.791797804974401, 
+            "x": 221.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00018582877261667428, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275309, 
+            "ymax": 5.0, 
+            "y": 3.753040664584573, 
+            "x": 222.0, 
+            "ymin": 0.0, 
+            "yErr": 9.9879893810966e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275310, 
+            "ymax": 5.0, 
+            "y": 3.8105035795146955, 
+            "x": 223.0, 
+            "ymin": 0.0, 
+            "yErr": 6.410325552873914e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275311, 
+            "ymax": 5.0, 
+            "y": 3.850828432966715, 
+            "x": 224.0, 
+            "ymin": 0.0, 
+            "yErr": 9.559097295174367e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275319, 
+            "ymax": 5.0, 
+            "y": 3.714569497084084, 
+            "x": 225.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00016772666896434346, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275337, 
+            "ymax": 5.0, 
+            "y": 3.746455821501254, 
+            "x": 226.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010063772856592694, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275338, 
+            "ymax": 5.0, 
+            "y": 3.776637691880684, 
+            "x": 227.0, 
+            "ymin": 0.0, 
+            "yErr": 9.751149325397988e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275344, 
+            "ymax": 5.0, 
+            "y": 3.690912399888579, 
+            "x": 228.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00011973321054145477, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275345, 
+            "ymax": 5.0, 
+            "y": 3.708723082982736, 
+            "x": 229.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010956685885969483, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275370, 
+            "ymax": 5.0, 
+            "y": 3.693098533121008, 
+            "x": 230.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00011470553896774414, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275371, 
+            "ymax": 5.0, 
+            "y": 3.7217088201935264, 
+            "x": 231.0, 
+            "ymin": 0.0, 
+            "yErr": 8.506699914888365e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275375, 
+            "ymax": 5.0, 
+            "y": 3.7431611942486755, 
+            "x": 232.0, 
+            "ymin": 0.0, 
+            "yErr": 5.748428875248142e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275376, 
+            "ymax": 5.0, 
+            "y": 3.8192055103943576, 
+            "x": 233.0, 
+            "ymin": 0.0, 
+            "yErr": 4.933475367724983e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275657, 
+            "ymax": 5.0, 
+            "y": 3.6513918592696637, 
+            "x": 234.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00020188620293641417, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275658, 
+            "ymax": 5.0, 
+            "y": 3.6652765035098898, 
+            "x": 235.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010254453348544365, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275659, 
+            "ymax": 5.0, 
+            "y": 3.692033984647045, 
+            "x": 236.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004546758957986163, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275757, 
+            "ymax": 5.0, 
+            "y": 3.677692467285337, 
+            "x": 237.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005612815639626255, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275758, 
+            "ymax": 5.0, 
+            "y": 3.684923158712114, 
+            "x": 238.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001163171398726995, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275759, 
+            "ymax": 5.0, 
+            "y": 3.6814370967457677, 
+            "x": 239.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009451435134692097, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275761, 
+            "ymax": 5.0, 
+            "y": 3.696157066923752, 
+            "x": 240.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0008011063980913787, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275763, 
+            "ymax": 5.0, 
+            "y": 3.64140196370512, 
+            "x": 241.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0008007258794534045, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275764, 
+            "ymax": 5.0, 
+            "y": 3.6335851400635413, 
+            "x": 242.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00038563184619044947, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275766, 
+            "ymax": 5.0, 
+            "y": 3.6204664518859953, 
+            "x": 243.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0002366429512773209, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275767, 
+            "ymax": 5.0, 
+            "y": 3.6853621901782225, 
+            "x": 244.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009544616965361316, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275768, 
+            "ymax": 5.0, 
+            "y": 3.637505994966827, 
+            "x": 245.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00020704205471824193, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275772, 
+            "ymax": 5.0, 
+            "y": 3.7092403152453977, 
+            "x": 246.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0002517011529779194, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275773, 
+            "ymax": 5.0, 
+            "y": 3.718602081777109, 
+            "x": 247.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0007489835279783914, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275774, 
+            "ymax": 5.0, 
+            "y": 3.722469495212017, 
+            "x": 248.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010960951178798684, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275776, 
+            "ymax": 5.0, 
+            "y": 3.7327055240802376, 
+            "x": 249.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00016778720082625482, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275777, 
+            "ymax": 5.0, 
+            "y": 3.7529019171666227, 
+            "x": 250.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00011801237773082934, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275778, 
+            "ymax": 5.0, 
+            "y": 3.772314404715032, 
+            "x": 251.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001226565438615572, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275781, 
+            "ymax": 5.0, 
+            "y": 3.7839797088018194, 
+            "x": 252.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00041994736391727186, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275782, 
+            "ymax": 5.0, 
+            "y": 3.794255286557453, 
+            "x": 253.0, 
+            "ymin": 0.0, 
+            "yErr": 8.387046306426447e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275828, 
+            "ymax": 5.0, 
+            "y": 3.6569115187352548, 
+            "x": 254.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0003043604312544568, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275829, 
+            "ymax": 5.0, 
+            "y": 3.6566893713196356, 
+            "x": 255.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00038076052669054237, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275831, 
+            "ymax": 5.0, 
+            "y": 3.666690822448322, 
+            "x": 256.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0002527122205881054, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275832, 
+            "ymax": 5.0, 
+            "y": 3.6742611152306623, 
+            "x": 257.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010550719414673571, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275833, 
+            "ymax": 5.0, 
+            "y": 3.6931811318459022, 
+            "x": 258.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00011727790135387052, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275834, 
+            "ymax": 5.0, 
+            "y": 3.7166542551055857, 
+            "x": 259.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00011178169560945699, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275835, 
+            "ymax": 5.0, 
+            "y": 3.721876448168694, 
+            "x": 260.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005561942428785236, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275836, 
+            "ymax": 5.0, 
+            "y": 3.7606268054899123, 
+            "x": 261.0, 
+            "ymin": 0.0, 
+            "yErr": 6.009465961995899e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275837, 
+            "ymax": 5.0, 
+            "y": 3.8046384576974166, 
+            "x": 262.0, 
+            "ymin": 0.0, 
+            "yErr": 9.309561906011608e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275841, 
+            "ymax": 5.0, 
+            "y": 3.8329997952895387, 
+            "x": 263.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00037695691822092764, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275846, 
+            "ymax": 5.0, 
+            "y": 3.8305190304828054, 
+            "x": 264.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0011191960366542558, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275847, 
+            "ymax": 5.0, 
+            "y": 3.84242634415684, 
+            "x": 265.0, 
+            "ymin": 0.0, 
+            "yErr": 6.244834122508745e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275886, 
+            "ymax": 5.0, 
+            "y": 3.6658548656270975, 
+            "x": 266.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000346896002015035, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275887, 
+            "ymax": 5.0, 
+            "y": 3.6737275191391667, 
+            "x": 267.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0003382721520514442, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275890, 
+            "ymax": 5.0, 
+            "y": 3.7074236222394603, 
+            "x": 268.0, 
+            "ymin": 0.0, 
+            "yErr": 5.323320884362812e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275911, 
+            "ymax": 5.0, 
+            "y": 3.6785227809951486, 
+            "x": 269.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010471126129781743, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275912, 
+            "ymax": 5.0, 
+            "y": 3.696977196090122, 
+            "x": 270.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00011254381736771169, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275913, 
+            "ymax": 5.0, 
+            "y": 3.719454600738159, 
+            "x": 271.0, 
+            "ymin": 0.0, 
+            "yErr": 9.277807495321827e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275918, 
+            "ymax": 5.0, 
+            "y": 3.746827454207725, 
+            "x": 272.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00011299337363953905, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275920, 
+            "ymax": 5.0, 
+            "y": 3.759912602880528, 
+            "x": 273.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010621101001092489, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275921, 
+            "ymax": 5.0, 
+            "y": 3.7718129745419997, 
+            "x": 274.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005107612591924724, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275922, 
+            "ymax": 5.0, 
+            "y": 3.7717315038874633, 
+            "x": 275.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0015860084127542384, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275923, 
+            "ymax": 5.0, 
+            "y": 3.7728444285534586, 
+            "x": 276.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00021078410690711428, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275931, 
+            "ymax": 5.0, 
+            "y": 3.7779639788110164, 
+            "x": 277.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00025446817191435053, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 275963, 
+            "ymax": 5.0, 
+            "y": 3.6053031564130156, 
+            "x": 278.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001828101472167098, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276062, 
+            "ymax": 5.0, 
+            "y": 3.5486034553854697, 
+            "x": 279.0, 
+            "ymin": 0.0, 
+            "yErr": 0.002347038538477537, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276063, 
+            "ymax": 5.0, 
+            "y": 3.522602100701237, 
+            "x": 280.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0034952006120125166, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276064, 
+            "ymax": 5.0, 
+            "y": 3.5356613194292157, 
+            "x": 281.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001394342937459564, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276092, 
+            "ymax": 5.0, 
+            "y": 3.6229580314881566, 
+            "x": 282.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0002154317643688852, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276095, 
+            "ymax": 5.0, 
+            "y": 3.6265602481541435, 
+            "x": 283.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0017966506717278564, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276097, 
+            "ymax": 5.0, 
+            "y": 3.6495649543642474, 
+            "x": 284.0, 
+            "ymin": 0.0, 
+            "yErr": 8.074820484591881e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276215, 
+            "ymax": 5.0, 
+            "y": 3.3400978028277866, 
+            "x": 285.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0003182626782429487, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276216, 
+            "ymax": 5.0, 
+            "y": 3.3533298177052964, 
+            "x": 286.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00013117205390628895, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276217, 
+            "ymax": 5.0, 
+            "y": 3.384602581747757, 
+            "x": 287.0, 
+            "ymin": 0.0, 
+            "yErr": 7.723908329151183e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276235, 
+            "ymax": 5.0, 
+            "y": 2.872498225080669, 
+            "x": 288.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0002603381879188532, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276242, 
+            "ymax": 5.0, 
+            "y": 3.6924264836367806, 
+            "x": 289.0, 
+            "ymin": 0.0, 
+            "yErr": 4.86414099836333e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276243, 
+            "ymax": 5.0, 
+            "y": 3.75061201908153, 
+            "x": 290.0, 
+            "ymin": 0.0, 
+            "yErr": 9.348321773379685e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276244, 
+            "ymax": 5.0, 
+            "y": 3.780569576942959, 
+            "x": 291.0, 
+            "ymin": 0.0, 
+            "yErr": 7.430266206499626e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276282, 
+            "ymax": 5.0, 
+            "y": 3.6394063225815207, 
+            "x": 292.0, 
+            "ymin": 0.0, 
+            "yErr": 5.547211306089064e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276283, 
+            "ymax": 5.0, 
+            "y": 3.706248707445373, 
+            "x": 293.0, 
+            "ymin": 0.0, 
+            "yErr": 6.276963357758836e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276315, 
+            "ymax": 5.0, 
+            "y": 3.6142524094767294, 
+            "x": 294.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00013560147504548025, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276317, 
+            "ymax": 5.0, 
+            "y": 3.6207741693956272, 
+            "x": 295.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000152821100588034, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276318, 
+            "ymax": 5.0, 
+            "y": 3.670938970007329, 
+            "x": 296.0, 
+            "ymin": 0.0, 
+            "yErr": 8.072087117660237e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276327, 
+            "ymax": 5.0, 
+            "y": 3.7186289427314114, 
+            "x": 297.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0002731212747810629, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276352, 
+            "ymax": 5.0, 
+            "y": 3.618051101507331, 
+            "x": 298.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00029139349727850703, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276355, 
+            "ymax": 5.0, 
+            "y": 3.6334157305849795, 
+            "x": 299.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0003253124186468251, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276357, 
+            "ymax": 5.0, 
+            "y": 3.6225260957478924, 
+            "x": 300.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00020385524387014025, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276361, 
+            "ymax": 5.0, 
+            "y": 3.6594941521694087, 
+            "x": 301.0, 
+            "ymin": 0.0, 
+            "yErr": 6.345863624352943e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276363, 
+            "ymax": 5.0, 
+            "y": 3.7217384727109115, 
+            "x": 302.0, 
+            "ymin": 0.0, 
+            "yErr": 5.650314165190198e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276384, 
+            "ymax": 5.0, 
+            "y": 3.760886299347546, 
+            "x": 303.0, 
+            "ymin": 0.0, 
+            "yErr": 7.733714156026797e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276437, 
+            "ymax": 5.0, 
+            "y": 3.663732449255195, 
+            "x": 304.0, 
+            "ymin": 0.0, 
+            "yErr": 4.240349130593676e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276453, 
+            "ymax": 5.0, 
+            "y": 3.7168841636979217, 
+            "x": 305.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00022009017598702382, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276454, 
+            "ymax": 5.0, 
+            "y": 3.740991147179579, 
+            "x": 306.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010525354044019477, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276458, 
+            "ymax": 5.0, 
+            "y": 3.7433161734224045, 
+            "x": 307.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00015044104540251984, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276495, 
+            "ymax": 5.0, 
+            "y": 3.5775073140117004, 
+            "x": 308.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001314676717457968, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276501, 
+            "ymax": 5.0, 
+            "y": 3.666979841732005, 
+            "x": 309.0, 
+            "ymin": 0.0, 
+            "yErr": 4.0906702747846024e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276502, 
+            "ymax": 5.0, 
+            "y": 3.7296133423042863, 
+            "x": 310.0, 
+            "ymin": 0.0, 
+            "yErr": 9.242512436288719e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276525, 
+            "ymax": 5.0, 
+            "y": 3.682803291704143, 
+            "x": 311.0, 
+            "ymin": 0.0, 
+            "yErr": 4.1822305668477814e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276527, 
+            "ymax": 5.0, 
+            "y": 3.741945668411256, 
+            "x": 312.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00018696841139637625, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276528, 
+            "ymax": 5.0, 
+            "y": 3.744767714193956, 
+            "x": 313.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00014355255192208353, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276542, 
+            "ymax": 5.0, 
+            "y": 3.6129970303839976, 
+            "x": 314.0, 
+            "ymin": 0.0, 
+            "yErr": 6.664371772698961e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276543, 
+            "ymax": 5.0, 
+            "y": 3.66899243975271, 
+            "x": 315.0, 
+            "ymin": 0.0, 
+            "yErr": 6.781681361495995e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276544, 
+            "ymax": 5.0, 
+            "y": 3.6899320856090236, 
+            "x": 316.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00017810345733891537, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276545, 
+            "ymax": 5.0, 
+            "y": 3.698333494487306, 
+            "x": 317.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001610099327029899, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276581, 
+            "ymax": 5.0, 
+            "y": 3.5755767187062495, 
+            "x": 318.0, 
+            "ymin": 0.0, 
+            "yErr": 9.396311939298719e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276582, 
+            "ymax": 5.0, 
+            "y": 3.6351824367307306, 
+            "x": 319.0, 
+            "ymin": 0.0, 
+            "yErr": 6.7338554891496e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276583, 
+            "ymax": 5.0, 
+            "y": 3.6639804048991187, 
+            "x": 320.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0002969916640068623, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276584, 
+            "ymax": 5.0, 
+            "y": 3.6672869686689284, 
+            "x": 321.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0016158685706648753, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276585, 
+            "ymax": 5.0, 
+            "y": 3.6757211781982333, 
+            "x": 322.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001422060763204484, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276586, 
+            "ymax": 5.0, 
+            "y": 3.684982301649064, 
+            "x": 323.0, 
+            "ymin": 0.0, 
+            "yErr": 8.623426197401849e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276587, 
+            "ymax": 5.0, 
+            "y": 3.710128655126744, 
+            "x": 324.0, 
+            "ymin": 0.0, 
+            "yErr": 8.471677977473477e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276653, 
+            "ymax": 5.0, 
+            "y": 3.629404281513857, 
+            "x": 325.0, 
+            "ymin": 0.0, 
+            "yErr": 8.834312547174479e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276655, 
+            "ymax": 5.0, 
+            "y": 3.669440783799091, 
+            "x": 326.0, 
+            "ymin": 0.0, 
+            "yErr": 6.565363189490605e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276659, 
+            "ymax": 5.0, 
+            "y": 3.6971841386800173, 
+            "x": 327.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000155685916059769, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276775, 
+            "ymax": 5.0, 
+            "y": 3.6059858649969634, 
+            "x": 328.0, 
+            "ymin": 0.0, 
+            "yErr": 5.6839675115206254e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276776, 
+            "ymax": 5.0, 
+            "y": 3.6717464410663605, 
+            "x": 329.0, 
+            "ymin": 0.0, 
+            "yErr": 5.567755680814283e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276794, 
+            "ymax": 5.0, 
+            "y": 3.7018675450682803, 
+            "x": 330.0, 
+            "ymin": 0.0, 
+            "yErr": 9.424030668425001e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276807, 
+            "ymax": 5.0, 
+            "y": 3.559508364549721, 
+            "x": 331.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00014576074889314835, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276808, 
+            "ymax": 5.0, 
+            "y": 3.6006491729836103, 
+            "x": 332.0, 
+            "ymin": 0.0, 
+            "yErr": 6.493496595673413e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276810, 
+            "ymax": 5.0, 
+            "y": 3.6399203246840464, 
+            "x": 333.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00012412514785768185, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276811, 
+            "ymax": 5.0, 
+            "y": 3.6771266873971027, 
+            "x": 334.0, 
+            "ymin": 0.0, 
+            "yErr": 4.961908980671734e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276831, 
+            "ymax": 5.0, 
+            "y": 3.618242005587471, 
+            "x": 335.0, 
+            "ymin": 0.0, 
+            "yErr": 4.108142769007867e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276832, 
+            "ymax": 5.0, 
+            "y": 3.67110509459606, 
+            "x": 336.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000318708859308494, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276834, 
+            "ymax": 5.0, 
+            "y": 3.6785900745816, 
+            "x": 337.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010147840091580974, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276837, 
+            "ymax": 5.0, 
+            "y": 3.6841973034084248, 
+            "x": 338.0, 
+            "ymin": 0.0, 
+            "yErr": 0.024112782411887742, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276870, 
+            "ymax": 5.0, 
+            "y": 3.5261307693927266, 
+            "x": 339.0, 
+            "ymin": 0.0, 
+            "yErr": 4.466183246884767e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276935, 
+            "ymax": 5.0, 
+            "y": 3.4628393684154157, 
+            "x": 340.0, 
+            "ymin": 0.0, 
+            "yErr": 7.372214638268803e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276940, 
+            "ymax": 5.0, 
+            "y": 3.400485254276205, 
+            "x": 341.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001786943574123589, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276941, 
+            "ymax": 5.0, 
+            "y": 3.41363284096858, 
+            "x": 342.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0012903235951113735, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276942, 
+            "ymax": 5.0, 
+            "y": 3.4187411429390315, 
+            "x": 343.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0013701637413233616, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276944, 
+            "ymax": 5.0, 
+            "y": 3.43346893792022, 
+            "x": 344.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0012723746872192242, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276945, 
+            "ymax": 5.0, 
+            "y": 3.4353474014091527, 
+            "x": 345.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0023527338372486503, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276946, 
+            "ymax": 5.0, 
+            "y": 3.4339492155689086, 
+            "x": 346.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00046747408188429243, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276947, 
+            "ymax": 5.0, 
+            "y": 3.445855776226228, 
+            "x": 347.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00019146838839043855, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276948, 
+            "ymax": 5.0, 
+            "y": 3.4827768544723727, 
+            "x": 348.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010312444315510278, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 276950, 
+            "ymax": 5.0, 
+            "y": 3.5638468260901894, 
+            "x": 349.0, 
+            "ymin": 0.0, 
+            "yErr": 5.883866223701952e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277069, 
+            "ymax": 5.0, 
+            "y": 3.3604300007026375, 
+            "x": 350.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00011152045674886956, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277070, 
+            "ymax": 5.0, 
+            "y": 3.473758087511473, 
+            "x": 351.0, 
+            "ymin": 0.0, 
+            "yErr": 6.653358968807849e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277071, 
+            "ymax": 5.0, 
+            "y": 3.5351184472351505, 
+            "x": 352.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001835037092833315, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277072, 
+            "ymax": 5.0, 
+            "y": 3.55681385450729, 
+            "x": 353.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00012188590791538667, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277073, 
+            "ymax": 5.0, 
+            "y": 3.614559041940178, 
+            "x": 354.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0002771541514114441, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277075, 
+            "ymax": 5.0, 
+            "y": 3.6295031892911687, 
+            "x": 355.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0230531751936102, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277076, 
+            "ymax": 5.0, 
+            "y": 3.6345597157844307, 
+            "x": 356.0, 
+            "ymin": 0.0, 
+            "yErr": 9.011153612687042e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277087, 
+            "ymax": 5.0, 
+            "y": 3.706311775660528, 
+            "x": 357.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001085825967071534, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277094, 
+            "ymax": 5.0, 
+            "y": 3.4652153010344695, 
+            "x": 358.0, 
+            "ymin": 0.0, 
+            "yErr": 7.612634472430314e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277096, 
+            "ymax": 5.0, 
+            "y": 3.5660443157072037, 
+            "x": 359.0, 
+            "ymin": 0.0, 
+            "yErr": 4.899964863392203e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277112, 
+            "ymax": 5.0, 
+            "y": 3.619129608254232, 
+            "x": 360.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00021858007030779877, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277126, 
+            "ymax": 5.0, 
+            "y": 3.43202068826941, 
+            "x": 361.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0006361588972329441, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277127, 
+            "ymax": 5.0, 
+            "y": 3.48699045821219, 
+            "x": 362.0, 
+            "ymin": 0.0, 
+            "yErr": 6.42277925919214e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277148, 
+            "ymax": 5.0, 
+            "y": 3.4984069539760827, 
+            "x": 363.0, 
+            "ymin": 0.0, 
+            "yErr": 7.50788948319364e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277166, 
+            "ymax": 5.0, 
+            "y": 3.520467845226412, 
+            "x": 364.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010049213194381221, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277168, 
+            "ymax": 5.0, 
+            "y": 3.5804857304810107, 
+            "x": 365.0, 
+            "ymin": 0.0, 
+            "yErr": 4.81279318099413e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277180, 
+            "ymax": 5.0, 
+            "y": 3.4530715619824752, 
+            "x": 366.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001520156030473415, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277194, 
+            "ymax": 5.0, 
+            "y": 3.487753491310064, 
+            "x": 367.0, 
+            "ymin": 0.0, 
+            "yErr": 4.488339708781772e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277202, 
+            "ymax": 5.0, 
+            "y": 3.5757351278926564, 
+            "x": 368.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010805112209591878, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277217, 
+            "ymax": 5.0, 
+            "y": 3.4743267732807683, 
+            "x": 369.0, 
+            "ymin": 0.0, 
+            "yErr": 0.010200490637081195, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277218, 
+            "ymax": 5.0, 
+            "y": 3.375096155282884, 
+            "x": 370.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00015851892325208664, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277219, 
+            "ymax": 5.0, 
+            "y": 3.3971981872871533, 
+            "x": 371.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0007698147257377217, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277220, 
+            "ymax": 5.0, 
+            "y": 3.413727903393338, 
+            "x": 372.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001246081570774107, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277305, 
+            "ymax": 5.0, 
+            "y": 3.4392558547042396, 
+            "x": 373.0, 
+            "ymin": 0.0, 
+            "yErr": 6.952240194989787e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277420, 
+            "ymax": 5.0, 
+            "y": 3.420853333095861, 
+            "x": 374.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00011033141012934385, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277932, 
+            "ymax": 5.0, 
+            "y": 3.90688173530723, 
+            "x": 375.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0022773562069567485, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277934, 
+            "ymax": 5.0, 
+            "y": 3.895721678226047, 
+            "x": 376.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001355290665847083, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277935, 
+            "ymax": 5.0, 
+            "y": 3.894168387634748, 
+            "x": 377.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00041613138492165166, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277981, 
+            "ymax": 5.0, 
+            "y": 3.644503151867245, 
+            "x": 378.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000191912344420603, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277982, 
+            "ymax": 5.0, 
+            "y": 3.680026583480139, 
+            "x": 379.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005223124123516878, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277983, 
+            "ymax": 5.0, 
+            "y": 3.623252278125031, 
+            "x": 380.0, 
+            "ymin": 0.0, 
+            "yErr": 0.002634144197983833, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277984, 
+            "ymax": 5.0, 
+            "y": 3.5773039629493897, 
+            "x": 381.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001112872827767049, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277985, 
+            "ymax": 5.0, 
+            "y": 3.63335015794339, 
+            "x": 382.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0036572485883663865, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277990, 
+            "ymax": 5.0, 
+            "y": 3.4936593578125974, 
+            "x": 383.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00032363167673511945, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277991, 
+            "ymax": 5.0, 
+            "y": 3.689267957206433, 
+            "x": 384.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00019645849769118587, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 277992, 
+            "ymax": 5.0, 
+            "y": 3.695465451080213, 
+            "x": 385.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001047839665971998, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278017, 
+            "ymax": 5.0, 
+            "y": 3.498545515083884, 
+            "x": 386.0, 
+            "ymin": 0.0, 
+            "yErr": 8.713753648083238e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278018, 
+            "ymax": 5.0, 
+            "y": 3.6185885341319937, 
+            "x": 387.0, 
+            "ymin": 0.0, 
+            "yErr": 6.713898377519101e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278167, 
+            "ymax": 5.0, 
+            "y": 3.6875030895831094, 
+            "x": 388.0, 
+            "ymin": 0.0, 
+            "yErr": 5.5550648799318146e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278175, 
+            "ymax": 5.0, 
+            "y": 3.731380996721136, 
+            "x": 389.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0003378203578234731, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278193, 
+            "ymax": 5.0, 
+            "y": 3.5499026451864317, 
+            "x": 390.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000160111011006218, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278239, 
+            "ymax": 5.0, 
+            "y": 3.5908153781465555, 
+            "x": 391.0, 
+            "ymin": 0.0, 
+            "yErr": 8.284240593868698e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278240, 
+            "ymax": 5.0, 
+            "y": 3.6687721070718866, 
+            "x": 392.0, 
+            "ymin": 0.0, 
+            "yErr": 6.96174631683145e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278273, 
+            "ymax": 5.0, 
+            "y": 3.563781939700454, 
+            "x": 393.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0003504744931682742, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278274, 
+            "ymax": 5.0, 
+            "y": 3.5507203034068278, 
+            "x": 394.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00019691908533419752, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278288, 
+            "ymax": 5.0, 
+            "y": 3.517954818194774, 
+            "x": 395.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004996621715222414, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278289, 
+            "ymax": 5.0, 
+            "y": 3.5337824474813018, 
+            "x": 396.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0002708953065287348, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278290, 
+            "ymax": 5.0, 
+            "y": 3.535197556523934, 
+            "x": 397.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005361779869852098, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278308, 
+            "ymax": 5.0, 
+            "y": 3.6081056226476274, 
+            "x": 398.0, 
+            "ymin": 0.0, 
+            "yErr": 4.517398527770206e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278309, 
+            "ymax": 5.0, 
+            "y": 3.6909154505784723, 
+            "x": 399.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0008540801269706019, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278310, 
+            "ymax": 5.0, 
+            "y": 3.7011028565438058, 
+            "x": 400.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010731976080990351, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278315, 
+            "ymax": 5.0, 
+            "y": 3.5727689358816948, 
+            "x": 401.0, 
+            "ymin": 0.0, 
+            "yErr": 8.178156039723851e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278345, 
+            "ymax": 5.0, 
+            "y": 3.5531272738981134, 
+            "x": 402.0, 
+            "ymin": 0.0, 
+            "yErr": 7.816820758169877e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278346, 
+            "ymax": 5.0, 
+            "y": 3.6108080636770885, 
+            "x": 403.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00021365674584258393, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278349, 
+            "ymax": 5.0, 
+            "y": 3.6438870492659308, 
+            "x": 404.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010016092886003395, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278366, 
+            "ymax": 5.0, 
+            "y": 3.66531572018462, 
+            "x": 405.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00012912281591899972, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278406, 
+            "ymax": 5.0, 
+            "y": 3.651502405386951, 
+            "x": 406.0, 
+            "ymin": 0.0, 
+            "yErr": 5.005903785258819e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278509, 
+            "ymax": 5.0, 
+            "y": 3.5846638297221793, 
+            "x": 407.0, 
+            "ymin": 0.0, 
+            "yErr": 5.926929402484827e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278761, 
+            "ymax": 5.0, 
+            "y": 3.871691887414827, 
+            "x": 408.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0008084815309936274, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278769, 
+            "ymax": 5.0, 
+            "y": 3.5031040616361167, 
+            "x": 409.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0003299687335469916, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278770, 
+            "ymax": 5.0, 
+            "y": 3.55125912808736, 
+            "x": 410.0, 
+            "ymin": 0.0, 
+            "yErr": 7.566732259059498e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278801, 
+            "ymax": 5.0, 
+            "y": 3.4843179269175617, 
+            "x": 411.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00031694751742936095, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278802, 
+            "ymax": 5.0, 
+            "y": 3.5347311069649985, 
+            "x": 412.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0006968942864940191, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278803, 
+            "ymax": 5.0, 
+            "y": 3.5293064925466533, 
+            "x": 413.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010752266914402889, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278804, 
+            "ymax": 5.0, 
+            "y": 3.5679902215147314, 
+            "x": 414.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0010856382850583997, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278805, 
+            "ymax": 5.0, 
+            "y": 3.5844469628500533, 
+            "x": 415.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001248373771633842, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278807, 
+            "ymax": 5.0, 
+            "y": 3.617376217803283, 
+            "x": 416.0, 
+            "ymin": 0.0, 
+            "yErr": 0.013420054627771086, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278808, 
+            "ymax": 5.0, 
+            "y": 3.6463513642016423, 
+            "x": 417.0, 
+            "ymin": 0.0, 
+            "yErr": 5.932286637692758e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278820, 
+            "ymax": 5.0, 
+            "y": 3.5953880390369086, 
+            "x": 418.0, 
+            "ymin": 0.0, 
+            "yErr": 5.6154824960567636e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278821, 
+            "ymax": 5.0, 
+            "y": 3.66207158156116, 
+            "x": 419.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00046864468891550466, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278822, 
+            "ymax": 5.0, 
+            "y": 3.6702702072005193, 
+            "x": 420.0, 
+            "ymin": 0.0, 
+            "yErr": 7.334510323076306e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278873, 
+            "ymax": 5.0, 
+            "y": 3.5623753334777484, 
+            "x": 421.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0006252848204842531, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278874, 
+            "ymax": 5.0, 
+            "y": 3.5598605941396, 
+            "x": 422.0, 
+            "ymin": 0.0, 
+            "yErr": 9.688988434011832e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278875, 
+            "ymax": 5.0, 
+            "y": 3.6226747331336107, 
+            "x": 423.0, 
+            "ymin": 0.0, 
+            "yErr": 8.522419244239941e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278923, 
+            "ymax": 5.0, 
+            "y": 3.514429019147152, 
+            "x": 424.0, 
+            "ymin": 0.0, 
+            "yErr": 9.208674825888913e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278957, 
+            "ymax": 5.0, 
+            "y": 3.498169597822444, 
+            "x": 425.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00015064771038698525, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278962, 
+            "ymax": 5.0, 
+            "y": 3.534085267933482, 
+            "x": 426.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001059600910942774, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278963, 
+            "ymax": 5.0, 
+            "y": 3.5673387090246287, 
+            "x": 427.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00015438284675150878, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278969, 
+            "ymax": 5.0, 
+            "y": 3.564398411025556, 
+            "x": 428.0, 
+            "ymin": 0.0, 
+            "yErr": 5.555278776018481e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278975, 
+            "ymax": 5.0, 
+            "y": 3.641484075741403, 
+            "x": 429.0, 
+            "ymin": 0.0, 
+            "yErr": 9.028363349295237e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278976, 
+            "ymax": 5.0, 
+            "y": 3.6472785157808296, 
+            "x": 430.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0006185259799787986, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 278986, 
+            "ymax": 5.0, 
+            "y": 3.473926351539388, 
+            "x": 431.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00015702766249527035, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279024, 
+            "ymax": 5.0, 
+            "y": 3.6567922057502873, 
+            "x": 432.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00013035812212986502, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279029, 
+            "ymax": 5.0, 
+            "y": 3.684630937036764, 
+            "x": 433.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00015273213709845294, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279071, 
+            "ymax": 5.0, 
+            "y": 3.7087054769625047, 
+            "x": 434.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00019950880634907238, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279080, 
+            "ymax": 5.0, 
+            "y": 3.746421173915179, 
+            "x": 435.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00028136541387264536, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279115, 
+            "ymax": 5.0, 
+            "y": 3.572353235872486, 
+            "x": 436.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010171365467506334, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279116, 
+            "ymax": 5.0, 
+            "y": 3.590947030193039, 
+            "x": 437.0, 
+            "ymin": 0.0, 
+            "yErr": 9.933706301027372e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279479, 
+            "ymax": 5.0, 
+            "y": 3.6797285363558605, 
+            "x": 438.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00019318929686795364, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279480, 
+            "ymax": 5.0, 
+            "y": 3.7318799669952663, 
+            "x": 439.0, 
+            "ymin": 0.0, 
+            "yErr": 0.016659818205156395, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279488, 
+            "ymax": 5.0, 
+            "y": 3.785509029260092, 
+            "x": 440.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001963271745934741, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279489, 
+            "ymax": 5.0, 
+            "y": 3.7884635779049387, 
+            "x": 441.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009183436881157274, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279588, 
+            "ymax": 5.0, 
+            "y": 3.579873801780299, 
+            "x": 442.0, 
+            "ymin": 0.0, 
+            "yErr": 6.177445541931924e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279653, 
+            "ymax": 5.0, 
+            "y": 3.4967543964436283, 
+            "x": 443.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00013553187225606362, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279654, 
+            "ymax": 5.0, 
+            "y": 3.575222059884435, 
+            "x": 444.0, 
+            "ymin": 0.0, 
+            "yErr": 6.0611176018880033e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279656, 
+            "ymax": 5.0, 
+            "y": 3.6322642520440658, 
+            "x": 445.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004133354764903428, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279658, 
+            "ymax": 5.0, 
+            "y": 3.6528041515258165, 
+            "x": 446.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010440250788702146, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279667, 
+            "ymax": 5.0, 
+            "y": 3.551715411212752, 
+            "x": 447.0, 
+            "ymin": 0.0, 
+            "yErr": 6.432834690394144e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279681, 
+            "ymax": 5.0, 
+            "y": 3.4781829983267887, 
+            "x": 448.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00035133594300078264, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279682, 
+            "ymax": 5.0, 
+            "y": 3.484925074882524, 
+            "x": 449.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0003255564228968444, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279683, 
+            "ymax": 5.0, 
+            "y": 3.4980863783421485, 
+            "x": 450.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00036277102113260664, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279684, 
+            "ymax": 5.0, 
+            "y": 3.5147592926097904, 
+            "x": 451.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004028868880533761, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279685, 
+            "ymax": 5.0, 
+            "y": 3.527497805047804, 
+            "x": 452.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001332609478267573, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279691, 
+            "ymax": 5.0, 
+            "y": 3.4746448138229784, 
+            "x": 453.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00029127690243241784, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279694, 
+            "ymax": 5.0, 
+            "y": 3.571244922335573, 
+            "x": 454.0, 
+            "ymin": 0.0, 
+            "yErr": 4.757025537118841e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279715, 
+            "ymax": 5.0, 
+            "y": 3.511203563028654, 
+            "x": 455.0, 
+            "ymin": 0.0, 
+            "yErr": 7.904685729359137e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279716, 
+            "ymax": 5.0, 
+            "y": 3.5802012914749857, 
+            "x": 456.0, 
+            "ymin": 0.0, 
+            "yErr": 6.144546401784211e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279760, 
+            "ymax": 5.0, 
+            "y": 3.4953669369657425, 
+            "x": 457.0, 
+            "ymin": 0.0, 
+            "yErr": 7.2650797806251e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279766, 
+            "ymax": 5.0, 
+            "y": 3.570955553519386, 
+            "x": 458.0, 
+            "ymin": 0.0, 
+            "yErr": 5.857209042815072e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279767, 
+            "ymax": 5.0, 
+            "y": 3.591712779608125, 
+            "x": 459.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010483966261075972, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279794, 
+            "ymax": 5.0, 
+            "y": 3.511316959951611, 
+            "x": 460.0, 
+            "ymin": 0.0, 
+            "yErr": 6.118882603526463e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279823, 
+            "ymax": 5.0, 
+            "y": 3.4717276162798982, 
+            "x": 461.0, 
+            "ymin": 0.0, 
+            "yErr": 9.892302962561805e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279841, 
+            "ymax": 5.0, 
+            "y": 3.5291434336735454, 
+            "x": 462.0, 
+            "ymin": 0.0, 
+            "yErr": 4.870145724427703e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279844, 
+            "ymax": 5.0, 
+            "y": 3.437062562372463, 
+            "x": 463.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00011656110831338701, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279846, 
+            "ymax": 5.0, 
+            "y": 3.5467500889267907, 
+            "x": 464.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004656924197095736, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279848, 
+            "ymax": 5.0, 
+            "y": 3.549869909191547, 
+            "x": 465.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00029445418929159616, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279849, 
+            "ymax": 5.0, 
+            "y": 3.520446230715338, 
+            "x": 466.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00013547951382407314, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279851, 
+            "ymax": 5.0, 
+            "y": 3.5517240394101135, 
+            "x": 467.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001168115861327348, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279852, 
+            "ymax": 5.0, 
+            "y": 3.549881002737844, 
+            "x": 468.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005749278261550816, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279853, 
+            "ymax": 5.0, 
+            "y": 3.5481939265941924, 
+            "x": 469.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000730188706956829, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279854, 
+            "ymax": 5.0, 
+            "y": 3.5572841815662413, 
+            "x": 470.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0013701354583039828, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279855, 
+            "ymax": 5.0, 
+            "y": 3.570465095462449, 
+            "x": 471.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0015116579758307493, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279856, 
+            "ymax": 5.0, 
+            "y": 3.57336014944517, 
+            "x": 472.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0013100576655856956, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279857, 
+            "ymax": 5.0, 
+            "y": 3.51206914529636, 
+            "x": 473.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0014576231463138821, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279858, 
+            "ymax": 5.0, 
+            "y": 3.5161882373060678, 
+            "x": 474.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009150097179244814, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279859, 
+            "ymax": 5.0, 
+            "y": 3.5138634916029265, 
+            "x": 475.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0015994522539701029, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279860, 
+            "ymax": 5.0, 
+            "y": 3.518625270998944, 
+            "x": 476.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0016173641483225357, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279861, 
+            "ymax": 5.0, 
+            "y": 3.5078734268574805, 
+            "x": 477.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001512612799325973, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279865, 
+            "ymax": 5.0, 
+            "y": 3.5471954581125122, 
+            "x": 478.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0002454711962777294, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279887, 
+            "ymax": 5.0, 
+            "y": 3.490998065682754, 
+            "x": 479.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010589617810461445, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279931, 
+            "ymax": 5.0, 
+            "y": 3.53710222187722, 
+            "x": 480.0, 
+            "ymin": 0.0, 
+            "yErr": 4.329060291772541e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279966, 
+            "ymax": 5.0, 
+            "y": 3.427845051002421, 
+            "x": 481.0, 
+            "ymin": 0.0, 
+            "yErr": 9.115786373864587e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279975, 
+            "ymax": 5.0, 
+            "y": 3.4447980881677696, 
+            "x": 482.0, 
+            "ymin": 0.0, 
+            "yErr": 5.757309522873765e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279993, 
+            "ymax": 5.0, 
+            "y": 3.3933831808393466, 
+            "x": 483.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0002039199672205494, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279994, 
+            "ymax": 5.0, 
+            "y": 3.40541789525038, 
+            "x": 484.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00024931965410893457, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 279995, 
+            "ymax": 5.0, 
+            "y": 3.3756691507110825, 
+            "x": 485.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0007524241402062529, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 280002, 
+            "ymax": 5.0, 
+            "y": 3.4760530614106546, 
+            "x": 486.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00018672282685345753, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 280006, 
+            "ymax": 5.0, 
+            "y": 3.450354038258095, 
+            "x": 487.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0002251986580093787, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 280007, 
+            "ymax": 5.0, 
+            "y": 3.4762218489329926, 
+            "x": 488.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0003255277707482548, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 280013, 
+            "ymax": 5.0, 
+            "y": 3.4759266704028424, 
+            "x": 489.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00038789521869032965, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 280014, 
+            "ymax": 5.0, 
+            "y": 3.4511964735516374, 
+            "x": 490.0, 
+            "ymin": 0.0, 
+            "yErr": 0.010309038811962304, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 280015, 
+            "ymax": 5.0, 
+            "y": 3.4892573363484987, 
+            "x": 491.0, 
+            "ymin": 0.0, 
+            "yErr": 8.577133909986963e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 280016, 
+            "ymax": 5.0, 
+            "y": 3.5039361982973927, 
+            "x": 492.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00018123887571672796, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 280017, 
+            "ymax": 5.0, 
+            "y": 3.5164204756192468, 
+            "x": 493.0, 
+            "ymin": 0.0, 
+            "yErr": 9.635790954646967e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 280018, 
+            "ymax": 5.0, 
+            "y": 3.530225189781437, 
+            "x": 494.0, 
+            "ymin": 0.0, 
+            "yErr": 7.5738020848929e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 280020, 
+            "ymax": 5.0, 
+            "y": 3.5380160175799733, 
+            "x": 495.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000446063669517588, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 280023, 
+            "ymax": 5.0, 
+            "y": 3.514144974692697, 
+            "x": 496.0, 
+            "ymin": 0.0, 
+            "yErr": 0.011779918819987781, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 280024, 
+            "ymax": 5.0, 
+            "y": 3.536788488878514, 
+            "x": 497.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00014913881268883926, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 280187, 
+            "ymax": 5.0, 
+            "y": 3.4063002751889035, 
+            "x": 498.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00023828646193363142, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 280188, 
+            "ymax": 5.0, 
+            "y": 3.429474134434988, 
+            "x": 499.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00011212228239543223, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 280190, 
+            "ymax": 5.0, 
+            "y": 3.4611819440991582, 
+            "x": 500.0, 
+            "ymin": 0.0, 
+            "yErr": 0.011248797684589761, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 280191, 
+            "ymax": 5.0, 
+            "y": 3.483817844622637, 
+            "x": 501.0, 
+            "ymin": 0.0, 
+            "yErr": 6.865722885275015e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 280194, 
+            "ymax": 5.0, 
+            "y": 3.51899900790273, 
+            "x": 502.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00015826905112839446, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 280242, 
+            "ymax": 5.0, 
+            "y": 3.4438438127396624, 
+            "x": 503.0, 
+            "ymin": 0.0, 
+            "yErr": 7.345567319759433e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 280249, 
+            "ymax": 5.0, 
+            "y": 3.49924154498083, 
+            "x": 504.0, 
+            "ymin": 0.0, 
+            "yErr": 6.090259321445815e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 280251, 
+            "ymax": 5.0, 
+            "y": 3.514443063886916, 
+            "x": 505.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00014065110200196776, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 280327, 
+            "ymax": 5.0, 
+            "y": 3.4285950484720424, 
+            "x": 506.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00029118690041797084, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 280330, 
+            "ymax": 5.0, 
+            "y": 3.475579816838332, 
+            "x": 507.0, 
+            "ymin": 0.0, 
+            "yErr": 6.596689935103817e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 280349, 
+            "ymax": 5.0, 
+            "y": 3.5151592705950723, 
+            "x": 508.0, 
+            "ymin": 0.0, 
+            "yErr": 8.924496169968584e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 280363, 
+            "ymax": 5.0, 
+            "y": 3.5289441407760025, 
+            "x": 509.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000135134342969857, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 280364, 
+            "ymax": 5.0, 
+            "y": 3.5308383621789936, 
+            "x": 510.0, 
+            "ymin": 0.0, 
+            "yErr": 7.747679124945534e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 280383, 
+            "ymax": 5.0, 
+            "y": 3.4112108434940307, 
+            "x": 511.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0017168525072350752, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 280384, 
+            "ymax": 5.0, 
+            "y": 3.4180004719298616, 
+            "x": 512.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00031247810739481183, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 280385, 
+            "ymax": 5.0, 
+            "y": 3.4746708354900093, 
+            "x": 513.0, 
+            "ymin": 0.0, 
+            "yErr": 4.849547273477139e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 281613, 
+            "ymax": 5.0, 
+            "y": 3.7780731748077634, 
+            "x": 514.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010337215193782402, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 281616, 
+            "ymax": 5.0, 
+            "y": 3.652008602899503, 
+            "x": 515.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001923330300001992, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 281638, 
+            "ymax": 5.0, 
+            "y": 3.3367816997261546, 
+            "x": 516.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0016078506570591645, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 281639, 
+            "ymax": 5.0, 
+            "y": 3.4840545742825473, 
+            "x": 517.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00016030501626563092, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 281641, 
+            "ymax": 5.0, 
+            "y": 3.5666122485650678, 
+            "x": 518.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010674831163330354, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 281663, 
+            "ymax": 5.0, 
+            "y": 3.045335811625064, 
+            "x": 519.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004268879598881267, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 281671, 
+            "ymax": 5.0, 
+            "y": 2.9847908745247147, 
+            "x": 520.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04270195606491541, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 281674, 
+            "ymax": 5.0, 
+            "y": 3.086893850014527, 
+            "x": 521.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0007059866000889087, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 281680, 
+            "ymax": 5.0, 
+            "y": 3.0870503582264024, 
+            "x": 522.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0008146665301097604, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 281686, 
+            "ymax": 5.0, 
+            "y": 3.3620154445194097, 
+            "x": 523.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00042413398204622986, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 281689, 
+            "ymax": 5.0, 
+            "y": 3.376183836245046, 
+            "x": 524.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0007788710494940741, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 281691, 
+            "ymax": 5.0, 
+            "y": 3.3888188836161794, 
+            "x": 525.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005264689215312569, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 281693, 
+            "ymax": 5.0, 
+            "y": 3.5305096714035322, 
+            "x": 526.0, 
+            "ymin": 0.0, 
+            "yErr": 5.217089014236979e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 281707, 
+            "ymax": 5.0, 
+            "y": 3.4379501927435876, 
+            "x": 527.0, 
+            "ymin": 0.0, 
+            "yErr": 6.917615222093329e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 281726, 
+            "ymax": 5.0, 
+            "y": 3.54404892306518, 
+            "x": 528.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00013878029469407418, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 281727, 
+            "ymax": 5.0, 
+            "y": 3.5840821318390055, 
+            "x": 529.0, 
+            "ymin": 0.0, 
+            "yErr": 7.802544498950737e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 281797, 
+            "ymax": 5.0, 
+            "y": 3.5222977291513544, 
+            "x": 530.0, 
+            "ymin": 0.0, 
+            "yErr": 4.517784362635038e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 281975, 
+            "ymax": 5.0, 
+            "y": 3.4376858200156932, 
+            "x": 531.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001218349339476852, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 281976, 
+            "ymax": 5.0, 
+            "y": 3.576522383980257, 
+            "x": 532.0, 
+            "ymin": 0.0, 
+            "yErr": 5.0974260148372845e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 282033, 
+            "ymax": 5.0, 
+            "y": 3.417895844142559, 
+            "x": 533.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0003012097068507163, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 282034, 
+            "ymax": 5.0, 
+            "y": 3.3951357679527305, 
+            "x": 534.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00028753888875412736, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 282035, 
+            "ymax": 5.0, 
+            "y": 3.4023054962022283, 
+            "x": 535.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0002749389700573029, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 282037, 
+            "ymax": 5.0, 
+            "y": 3.536320603673812, 
+            "x": 536.0, 
+            "ymin": 0.0, 
+            "yErr": 4.860770988381004e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 282092, 
+            "ymax": 5.0, 
+            "y": 3.525366010472886, 
+            "x": 537.0, 
+            "ymin": 0.0, 
+            "yErr": 4.483577728951897e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 282663, 
+            "ymax": 5.0, 
+            "y": 3.739137255952208, 
+            "x": 538.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00016751099162622411, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 282707, 
+            "ymax": 5.0, 
+            "y": 3.458745874587459, 
+            "x": 539.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05961288451914469, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 282708, 
+            "ymax": 5.0, 
+            "y": 3.3603653180846016, 
+            "x": 540.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005574092249777857, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 282710, 
+            "ymax": 5.0, 
+            "y": 3.378060286782467, 
+            "x": 541.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0013889386365762346, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 282712, 
+            "ymax": 5.0, 
+            "y": 3.433572449385277, 
+            "x": 542.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000194238552303746, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 282730, 
+            "ymax": 5.0, 
+            "y": 3.353330454067644, 
+            "x": 543.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00018311356442459598, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 282731, 
+            "ymax": 5.0, 
+            "y": 3.411902906048489, 
+            "x": 544.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00012340936096576146, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 282732, 
+            "ymax": 5.0, 
+            "y": 3.4693860914392407, 
+            "x": 545.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00020576019476771471, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 282733, 
+            "ymax": 5.0, 
+            "y": 3.5064367502128375, 
+            "x": 546.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00013458714258850793, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 282734, 
+            "ymax": 5.0, 
+            "y": 3.558012206091671, 
+            "x": 547.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010772277898599325, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 282735, 
+            "ymax": 5.0, 
+            "y": 3.6405834251232836, 
+            "x": 548.0, 
+            "ymin": 0.0, 
+            "yErr": 5.423258345054698e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 282800, 
+            "ymax": 5.0, 
+            "y": 3.483292033103668, 
+            "x": 549.0, 
+            "ymin": 0.0, 
+            "yErr": 9.009870409501165e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 282807, 
+            "ymax": 5.0, 
+            "y": 3.5450353175045417, 
+            "x": 550.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010661566384343893, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 282814, 
+            "ymax": 5.0, 
+            "y": 3.62537775804424, 
+            "x": 551.0, 
+            "ymin": 0.0, 
+            "yErr": 5.343250299849433e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 282842, 
+            "ymax": 5.0, 
+            "y": 3.389714495763161, 
+            "x": 552.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00017253383218586866, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 282917, 
+            "ymax": 5.0, 
+            "y": 3.4681131866428307, 
+            "x": 553.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00020534800730328406, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 282918, 
+            "ymax": 5.0, 
+            "y": 3.476299639721019, 
+            "x": 554.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00024223726621871888, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 282919, 
+            "ymax": 5.0, 
+            "y": 3.5192755478755693, 
+            "x": 555.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00011710146398656639, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 282922, 
+            "ymax": 5.0, 
+            "y": 3.5780513547995842, 
+            "x": 556.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00017958592149223526, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 282923, 
+            "ymax": 5.0, 
+            "y": 3.589153874497022, 
+            "x": 557.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00013047394781705502, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 282924, 
+            "ymax": 5.0, 
+            "y": 3.613285906048859, 
+            "x": 558.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0016435006906060545, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283042, 
+            "ymax": 5.0, 
+            "y": 3.4450623319864584, 
+            "x": 559.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0007198756883622808, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283043, 
+            "ymax": 5.0, 
+            "y": 3.5168001379103297, 
+            "x": 560.0, 
+            "ymin": 0.0, 
+            "yErr": 8.242343682540818e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283049, 
+            "ymax": 5.0, 
+            "y": 3.320150066497457, 
+            "x": 561.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004616866089748166, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283050, 
+            "ymax": 5.0, 
+            "y": 3.390168570978899, 
+            "x": 562.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001110231160159785, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283052, 
+            "ymax": 5.0, 
+            "y": 3.4586629183127267, 
+            "x": 563.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001628928363211938, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283059, 
+            "ymax": 5.0, 
+            "y": 3.5304831660600446, 
+            "x": 564.0, 
+            "ymin": 0.0, 
+            "yErr": 9.039839903323207e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283270, 
+            "ymax": 5.0, 
+            "y": 3.520979497977317, 
+            "x": 565.0, 
+            "ymin": 0.0, 
+            "yErr": 4.455910266751862e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283283, 
+            "ymax": 5.0, 
+            "y": 3.632785274685827, 
+            "x": 566.0, 
+            "ymin": 0.0, 
+            "yErr": 6.862555979742941e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283305, 
+            "ymax": 5.0, 
+            "y": 3.326892888160334, 
+            "x": 567.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000686789684852402, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283306, 
+            "ymax": 5.0, 
+            "y": 3.4096900573516593, 
+            "x": 568.0, 
+            "ymin": 0.0, 
+            "yErr": 9.646169162844818e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283307, 
+            "ymax": 5.0, 
+            "y": 3.5068551557428354, 
+            "x": 569.0, 
+            "ymin": 0.0, 
+            "yErr": 8.795500012281014e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283308, 
+            "ymax": 5.0, 
+            "y": 3.571933880412343, 
+            "x": 570.0, 
+            "ymin": 0.0, 
+            "yErr": 6.599773985869456e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283353, 
+            "ymax": 5.0, 
+            "y": 3.4370449432773476, 
+            "x": 571.0, 
+            "ymin": 0.0, 
+            "yErr": 6.257311679633249e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283358, 
+            "ymax": 5.0, 
+            "y": 3.5537473515600806, 
+            "x": 572.0, 
+            "ymin": 0.0, 
+            "yErr": 6.522129678957263e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283359, 
+            "ymax": 5.0, 
+            "y": 3.5915443646539797, 
+            "x": 573.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00011180377634249051, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283407, 
+            "ymax": 5.0, 
+            "y": 3.298761025156915, 
+            "x": 574.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0002583858776435273, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283408, 
+            "ymax": 5.0, 
+            "y": 3.506267365210456, 
+            "x": 575.0, 
+            "ymin": 0.0, 
+            "yErr": 4.0757820574562675e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283413, 
+            "ymax": 5.0, 
+            "y": 3.6703459649478125, 
+            "x": 576.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0034133474336872634, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283415, 
+            "ymax": 5.0, 
+            "y": 3.669544943747659, 
+            "x": 577.0, 
+            "ymin": 0.0, 
+            "yErr": 0.003726137629183477, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283416, 
+            "ymax": 5.0, 
+            "y": 3.689696884638946, 
+            "x": 578.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00020638204140519683, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283453, 
+            "ymax": 5.0, 
+            "y": 3.3984689369073506, 
+            "x": 579.0, 
+            "ymin": 0.0, 
+            "yErr": 7.734797588629136e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283469, 
+            "ymax": 5.0, 
+            "y": 3.2945652401490726, 
+            "x": 580.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001840942836487216, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283478, 
+            "ymax": 5.0, 
+            "y": 3.4592244371068404, 
+            "x": 581.0, 
+            "ymin": 0.0, 
+            "yErr": 5.993429612913495e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283548, 
+            "ymax": 5.0, 
+            "y": 3.612504350111752, 
+            "x": 582.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001754621092508949, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283675, 
+            "ymax": 5.0, 
+            "y": 3.4125700223610504, 
+            "x": 583.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0024844422028434177, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283676, 
+            "ymax": 5.0, 
+            "y": 3.426817549085745, 
+            "x": 584.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0030896010435519585, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283680, 
+            "ymax": 5.0, 
+            "y": 3.4997227071294916, 
+            "x": 585.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00020587101983925483, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283681, 
+            "ymax": 5.0, 
+            "y": 3.5007407006808737, 
+            "x": 586.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00045531953009552914, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283682, 
+            "ymax": 5.0, 
+            "y": 3.524225124107617, 
+            "x": 587.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010049727430514301, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283685, 
+            "ymax": 5.0, 
+            "y": 3.6061746870875306, 
+            "x": 588.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001906663331395118, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283820, 
+            "ymax": 5.0, 
+            "y": 3.5780716001393316, 
+            "x": 589.0, 
+            "ymin": 0.0, 
+            "yErr": 5.2356683527395856e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283830, 
+            "ymax": 5.0, 
+            "y": 3.5583800205437974, 
+            "x": 590.0, 
+            "ymin": 0.0, 
+            "yErr": 8.459944096327423e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283834, 
+            "ymax": 5.0, 
+            "y": 3.567346353586247, 
+            "x": 591.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00028632294315213136, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283835, 
+            "ymax": 5.0, 
+            "y": 3.5662962761296817, 
+            "x": 592.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0002569435009355762, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283863, 
+            "ymax": 5.0, 
+            "y": 3.3862368430840184, 
+            "x": 593.0, 
+            "ymin": 0.0, 
+            "yErr": 0.007866129265147504, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283865, 
+            "ymax": 5.0, 
+            "y": 3.4497665696636006, 
+            "x": 594.0, 
+            "ymin": 0.0, 
+            "yErr": 4.998461803330401e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283876, 
+            "ymax": 5.0, 
+            "y": 3.408889600618237, 
+            "x": 595.0, 
+            "ymin": 0.0, 
+            "yErr": 6.235352568396666e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283877, 
+            "ymax": 5.0, 
+            "y": 3.5080154931616425, 
+            "x": 596.0, 
+            "ymin": 0.0, 
+            "yErr": 5.370576374640381e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283884, 
+            "ymax": 5.0, 
+            "y": 3.4047777600206466, 
+            "x": 597.0, 
+            "ymin": 0.0, 
+            "yErr": 7.927914580748961e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283885, 
+            "ymax": 5.0, 
+            "y": 3.5001775769658336, 
+            "x": 598.0, 
+            "ymin": 0.0, 
+            "yErr": 4.952228281443355e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283933, 
+            "ymax": 5.0, 
+            "y": 3.3318141836567956, 
+            "x": 599.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00012197972842094427, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283934, 
+            "ymax": 5.0, 
+            "y": 3.438736383257765, 
+            "x": 600.0, 
+            "ymin": 0.0, 
+            "yErr": 4.923761219347723e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283946, 
+            "ymax": 5.0, 
+            "y": 3.4168897272920686, 
+            "x": 601.0, 
+            "ymin": 0.0, 
+            "yErr": 4.7125586320276795e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 283964, 
+            "ymax": 5.0, 
+            "y": 3.4889097196675904, 
+            "x": 602.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00011136441068890019, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 284006, 
+            "ymax": 5.0, 
+            "y": 3.5474865890022165, 
+            "x": 603.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00011044897351164572, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 284014, 
+            "ymax": 5.0, 
+            "y": 3.5295121140328543, 
+            "x": 604.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00012176361273965037, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 284025, 
+            "ymax": 5.0, 
+            "y": 3.350311668449409, 
+            "x": 605.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0002254480805737763, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 284029, 
+            "ymax": 5.0, 
+            "y": 3.35613639525775, 
+            "x": 606.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00014347411009830904, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 284035, 
+            "ymax": 5.0, 
+            "y": 3.404038432658503, 
+            "x": 607.0, 
+            "ymin": 0.0, 
+            "yErr": 8.599823390665198e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 284036, 
+            "ymax": 5.0, 
+            "y": 3.44285155333532, 
+            "x": 608.0, 
+            "ymin": 0.0, 
+            "yErr": 9.741966850875936e-05, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 284037, 
+            "ymax": 5.0, 
+            "y": 3.4605460286870624, 
+            "x": 609.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010547951752265013, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 284038, 
+            "ymax": 5.0, 
+            "y": 3.4654332685235585, 
+            "x": 610.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00027829939650840985, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 284039, 
+            "ymax": 5.0, 
+            "y": 3.4681744224839095, 
+            "x": 611.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0003843676063114342, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 284040, 
+            "ymax": 5.0, 
+            "y": 3.467387002002395, 
+            "x": 612.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0003611459156120529, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 284041, 
+            "ymax": 5.0, 
+            "y": 3.476391843035194, 
+            "x": 613.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00032454027780061954, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 284042, 
+            "ymax": 5.0, 
+            "y": 3.477550975631437, 
+            "x": 614.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001913260513533346, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 284043, 
+            "ymax": 5.0, 
+            "y": 3.4820677693033772, 
+            "x": 615.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00015224739014819865, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }, 
+        {
+            "run": 284044, 
+            "ymax": 5.0, 
+            "y": 3.468024743606365, 
+            "x": 616.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004066144667802413, 
+            "yTitle": "BPIX average cluster size (in pixels)"
+        }
+    ]
+}

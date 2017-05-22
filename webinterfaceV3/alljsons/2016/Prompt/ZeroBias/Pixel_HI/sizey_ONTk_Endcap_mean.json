@@ -1,0 +1,40 @@
+{
+    "sizey_ONTk_Endcap_mean": [
+        {
+            "run": 285090, 
+            "ymax": 5.0, 
+            "y": 1.3009897083484037, 
+            "x": 1.0, 
+            "ymin": 0.0, 
+            "yErr": 0.002846931178290939, 
+            "yTitle": "FPIX average cluster sizeY (in pixels)"
+        }, 
+        {
+            "run": 285216, 
+            "ymax": 5.0, 
+            "y": 1.2984659392137576, 
+            "x": 2.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000669010903362988, 
+            "yTitle": "FPIX average cluster sizeY (in pixels)"
+        }, 
+        {
+            "run": 285244, 
+            "ymax": 5.0, 
+            "y": 1.298121138357376, 
+            "x": 3.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005984204741516728, 
+            "yTitle": "FPIX average cluster sizeY (in pixels)"
+        }, 
+        {
+            "run": 285368, 
+            "ymax": 5.0, 
+            "y": 1.3013304409913176, 
+            "x": 4.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0012227194719684404, 
+            "yTitle": "FPIX average cluster sizeY (in pixels)"
+        }
+    ]
+}

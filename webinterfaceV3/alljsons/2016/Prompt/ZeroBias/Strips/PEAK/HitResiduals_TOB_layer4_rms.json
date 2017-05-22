@@ -1,0 +1,31 @@
+{
+    "HitResiduals_TOB_layer4_rms": [
+        {
+            "run": 272760, 
+            "ymax": 0.1, 
+            "y": 0.025105104293210667, 
+            "x": 1.0, 
+            "ymin": -0.05, 
+            "yErr": 4.6129608265801156e-05, 
+            "yTitle": "HitResiduals TOB Layer 4 RMS"
+        }, 
+        {
+            "run": 272761, 
+            "ymax": 0.1, 
+            "y": 0.02702684088203057, 
+            "x": 2.0, 
+            "ymin": -0.05, 
+            "yErr": 2.1664553474830208e-05, 
+            "yTitle": "HitResiduals TOB Layer 4 RMS"
+        }, 
+        {
+            "run": 272762, 
+            "ymax": 0.1, 
+            "y": 0.026268327948237306, 
+            "x": 3.0, 
+            "ymin": -0.05, 
+            "yErr": 1.7629845593258168e-05, 
+            "yTitle": "HitResiduals TOB Layer 4 RMS"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "HitResiduals_Y_BPIX_L3_mean": [
+        {
+            "run": 285090, 
+            "ymax": 0.005, 
+            "y": 0.0004532071913757678, 
+            "x": 1.0, 
+            "ymin": -0.005, 
+            "yErr": 0.00014396655382258074, 
+            "yTitle": "HitResiduals Y BPIX Mean"
+        }, 
+        {
+            "run": 285216, 
+            "ymax": 0.005, 
+            "y": -6.126568590757281e-05, 
+            "x": 2.0, 
+            "ymin": -0.005, 
+            "yErr": 5.006774349860215e-05, 
+            "yTitle": "HitResiduals Y BPIX Mean"
+        }, 
+        {
+            "run": 285244, 
+            "ymax": 0.005, 
+            "y": 4.804878869551833e-05, 
+            "x": 3.0, 
+            "ymin": -0.005, 
+            "yErr": 3.92531300343862e-05, 
+            "yTitle": "HitResiduals Y BPIX Mean"
+        }, 
+        {
+            "run": 285368, 
+            "ymax": 0.005, 
+            "y": -1.3059856721407152e-06, 
+            "x": 4.0, 
+            "ymin": -0.005, 
+            "yErr": 8.268927383631158e-05, 
+            "yTitle": "HitResiduals Y BPIX Mean"
+        }
+    ]
+}

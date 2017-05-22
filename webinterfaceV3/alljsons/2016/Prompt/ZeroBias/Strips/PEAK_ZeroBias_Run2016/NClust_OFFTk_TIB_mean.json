@@ -1,0 +1,31 @@
+{
+    "NClust_OFFTk_TIB_mean": [
+        {
+            "run": 272760, 
+            "ymax": 0, 
+            "y": 3635.424879227053, 
+            "x": 1.0, 
+            "ymin": 0, 
+            "yErr": 35.60152786793883, 
+            "yTitle": "Avg. N_{Clusters} (OFF-Track)"
+        }, 
+        {
+            "run": 272761, 
+            "ymax": 0, 
+            "y": 5987.2511801242235, 
+            "x": 2.0, 
+            "ymin": 0, 
+            "yErr": 13.439586348716098, 
+            "yTitle": "Avg. N_{Clusters} (OFF-Track)"
+        }, 
+        {
+            "run": 272762, 
+            "ymax": 0, 
+            "y": 5708.476240494097, 
+            "x": 3.0, 
+            "ymin": 0, 
+            "yErr": 11.09310789291691, 
+            "yTitle": "Avg. N_{Clusters} (OFF-Track)"
+        }
+    ]
+}

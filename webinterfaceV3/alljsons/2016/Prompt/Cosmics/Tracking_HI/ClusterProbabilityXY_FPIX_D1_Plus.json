@@ -1,0 +1,31 @@
+{
+    "ClusterProbabilityXY_FPIX_D1_Plus": [
+        {
+            "run": 285090, 
+            "ymax": 0.0, 
+            "y": -0.22058992507718028, 
+            "x": 1.0, 
+            "ymin": -2.0, 
+            "yErr": 0.012506736945189, 
+            "yTitle": "ClusterProbabilityXY FPIX D1 Plus"
+        }, 
+        {
+            "run": 285216, 
+            "ymax": 0.0, 
+            "y": -0.20681715687476068, 
+            "x": 2.0, 
+            "ymin": -2.0, 
+            "yErr": 0.0026379245136677987, 
+            "yTitle": "ClusterProbabilityXY FPIX D1 Plus"
+        }, 
+        {
+            "run": 285244, 
+            "ymax": 0.0, 
+            "y": -0.2018722486814009, 
+            "x": 3.0, 
+            "ymin": -2.0, 
+            "yErr": 0.002177906167625427, 
+            "yTitle": "ClusterProbabilityXY FPIX D1 Plus"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "summary_ccpercmfromtrack__tib_mpv": [
+        {
+            "run": 272760, 
+            "ymax": 3550.0, 
+            "y": 2879.952523229368, 
+            "x": 1.0, 
+            "ymin": 2950.0, 
+            "yErr": 6.052814848321091, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 272761, 
+            "ymax": 3550.0, 
+            "y": 2894.7150350405586, 
+            "x": 2.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.568322408512899, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 272762, 
+            "ymax": 3550.0, 
+            "y": 2890.071311457459, 
+            "x": 3.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.230816456922484, 
+            "yTitle": "cluster charge per cm (from track)"
+        }
+    ]
+}

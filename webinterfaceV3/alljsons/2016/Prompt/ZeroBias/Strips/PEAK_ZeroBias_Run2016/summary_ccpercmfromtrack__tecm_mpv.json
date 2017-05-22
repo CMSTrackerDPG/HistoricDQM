@@ -1,0 +1,31 @@
+{
+    "summary_ccpercmfromtrack__tecm_mpv": [
+        {
+            "run": 272760, 
+            "ymax": 3550.0, 
+            "y": 3177.921366167881, 
+            "x": 1.0, 
+            "ymin": 2950.0, 
+            "yErr": 4.128931622970955, 
+            "yTitle": "cluster charge\tper cm (from track)"
+        }, 
+        {
+            "run": 272761, 
+            "ymax": 3550.0, 
+            "y": 3176.2786003731326, 
+            "x": 2.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.7515567076920446, 
+            "yTitle": "cluster charge\tper cm (from track)"
+        }, 
+        {
+            "run": 272762, 
+            "ymax": 3550.0, 
+            "y": 3174.1462398523568, 
+            "x": 3.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.4490598998875692, 
+            "yTitle": "cluster charge\tper cm (from track)"
+        }
+    ]
+}

@@ -1,0 +1,5629 @@
+{
+    "averageDigiOccupancyFED15": [
+        {
+            "run": 271036, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 1.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271037, 
+            "ymax": 10.0, 
+            "y": 1.0568284839391708, 
+            "x": 2.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0280216359295027, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271044, 
+            "ymax": 10.0, 
+            "y": 0.6665796488523483, 
+            "x": 3.0, 
+            "ymin": 0.0, 
+            "yErr": 0.816443291877855, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271045, 
+            "ymax": 10.0, 
+            "y": 1.0877356827259064, 
+            "x": 4.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0429456758268412, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271046, 
+            "ymax": 10.0, 
+            "y": 1.016682431101799, 
+            "x": 5.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0083067147955522, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271047, 
+            "ymax": 10.0, 
+            "y": 1.0425714254379272, 
+            "x": 6.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0210638694214613, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271048, 
+            "ymax": 10.0, 
+            "y": 1.023951381444931, 
+            "x": 7.0, 
+            "ymin": 0.0, 
+            "yErr": 1.01190482825458, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271049, 
+            "ymax": 10.0, 
+            "y": 1.0053866356611252, 
+            "x": 8.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0026897005859416, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271050, 
+            "ymax": 10.0, 
+            "y": 1.0195597410202026, 
+            "x": 9.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0097325096381728, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271052, 
+            "ymax": 10.0, 
+            "y": 1.031871572136879, 
+            "x": 10.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0158107954421822, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271056, 
+            "ymax": 10.0, 
+            "y": 1.0303637385368347, 
+            "x": 11.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0150683418060258, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271083, 
+            "ymax": 10.0, 
+            "y": 1.0105212330818176, 
+            "x": 12.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0052468518139301, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271084, 
+            "ymax": 10.0, 
+            "y": 1.0004309564828873, 
+            "x": 13.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0002154550310085, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271184, 
+            "ymax": 10.0, 
+            "y": 1.0156237483024597, 
+            "x": 14.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0077815975212385, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271187, 
+            "ymax": 10.0, 
+            "y": 1.0214024186134338, 
+            "x": 15.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0106445560202824, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271188, 
+            "ymax": 10.0, 
+            "y": 1.005342185497284, 
+            "x": 16.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0026675348774807, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271190, 
+            "ymax": 10.0, 
+            "y": 1.0156656205654144, 
+            "x": 17.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0078023717800104, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271191, 
+            "ymax": 10.0, 
+            "y": 1.0121076703071594, 
+            "x": 18.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0060356207943928, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271192, 
+            "ymax": 10.0, 
+            "y": 1.0222846865653992, 
+            "x": 19.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0110809495611117, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271193, 
+            "ymax": 10.0, 
+            "y": 1.0268549025058746, 
+            "x": 20.0, 
+            "ymin": 0.0, 
+            "yErr": 1.013338493547874, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271195, 
+            "ymax": 10.0, 
+            "y": 1.0108277797698975, 
+            "x": 21.0, 
+            "ymin": 0.0, 
+            "yErr": 1.00539931359132, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271196, 
+            "ymax": 10.0, 
+            "y": 1.0589301884174347, 
+            "x": 22.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0290433365108753, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271197, 
+            "ymax": 10.0, 
+            "y": 1.0188369452953339, 
+            "x": 23.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0093745317251341, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271214, 
+            "ymax": 10.0, 
+            "y": 1.033590704202652, 
+            "x": 24.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0166566304326412, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271304, 
+            "ymax": 10.0, 
+            "y": 1.0063778311014175, 
+            "x": 25.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0031838471095005, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271305, 
+            "ymax": 10.0, 
+            "y": 1.011583760380745, 
+            "x": 26.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0057752037014758, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271306, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 27.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271307, 
+            "ymax": 10.0, 
+            "y": 0.8757720589637756, 
+            "x": 28.0, 
+            "ymin": 0.0, 
+            "yErr": 0.9358269385755977, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271310, 
+            "ymax": 10.0, 
+            "y": 1.0065653622150421, 
+            "x": 29.0, 
+            "ymin": 0.0, 
+            "yErr": 1.003277310724728, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271312, 
+            "ymax": 10.0, 
+            "y": 1.0066929012537003, 
+            "x": 30.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0033408699209359, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271313, 
+            "ymax": 10.0, 
+            "y": 1.001929149031639, 
+            "x": 31.0, 
+            "ymin": 0.0, 
+            "yErr": 1.000964109762003, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271314, 
+            "ymax": 10.0, 
+            "y": 1.0137774646282196, 
+            "x": 32.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0068651670547648, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271317, 
+            "ymax": 10.0, 
+            "y": 1.0363270342350006, 
+            "x": 33.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0180014902911492, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271318, 
+            "ymax": 10.0, 
+            "y": 1.0085899531841278, 
+            "x": 34.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0042857925830315, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271319, 
+            "ymax": 10.0, 
+            "y": 1.0147354155778885, 
+            "x": 35.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0073407643781167, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271321, 
+            "ymax": 10.0, 
+            "y": 1.0049091577529907, 
+            "x": 36.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0024515737695217, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271322, 
+            "ymax": 10.0, 
+            "y": 0.9840485006570816, 
+            "x": 37.0, 
+            "ymin": 0.0, 
+            "yErr": 0.991992187800429, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271323, 
+            "ymax": 10.0, 
+            "y": 0.9886593073606491, 
+            "x": 38.0, 
+            "ymin": 0.0, 
+            "yErr": 0.9943134854564978, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271324, 
+            "ymax": 10.0, 
+            "y": 1.0055220425128937, 
+            "x": 39.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0027572201250379, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271327, 
+            "ymax": 10.0, 
+            "y": 1.0070137530565262, 
+            "x": 40.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0035007489068088, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271328, 
+            "ymax": 10.0, 
+            "y": 1.0040953606367111, 
+            "x": 41.0, 
+            "ymin": 0.0, 
+            "yErr": 1.002045588103012, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271329, 
+            "ymax": 10.0, 
+            "y": 1.0076585561037064, 
+            "x": 42.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0038219743080474, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271330, 
+            "ymax": 10.0, 
+            "y": 1.0058404058218002, 
+            "x": 43.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0029159515242543, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271331, 
+            "ymax": 10.0, 
+            "y": 1.00472854077816, 
+            "x": 44.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0023614820902487, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271332, 
+            "ymax": 10.0, 
+            "y": 1.0176693499088287, 
+            "x": 45.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0087959902323307, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271336, 
+            "ymax": 10.0, 
+            "y": 1.004027932882309, 
+            "x": 46.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0020119424848732, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271337, 
+            "ymax": 10.0, 
+            "y": 0.9883358925580978, 
+            "x": 47.0, 
+            "ymin": 0.0, 
+            "yErr": 0.994150839942359, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271338, 
+            "ymax": 10.0, 
+            "y": 1.0247373133897781, 
+            "x": 48.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0122930965830885, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271342, 
+            "ymax": 10.0, 
+            "y": 1.0106000155210495, 
+            "x": 49.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0052860366686933, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271645, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 50.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271646, 
+            "ymax": 10.0, 
+            "y": 1.0148954391479492, 
+            "x": 51.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0074201899644206, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271648, 
+            "ymax": 10.0, 
+            "y": 0.524218961596489, 
+            "x": 52.0, 
+            "ymin": 0.0, 
+            "yErr": 0.7240296690029276, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 271649, 
+            "ymax": 10.0, 
+            "y": 0.5830466747283936, 
+            "x": 53.0, 
+            "ymin": 0.0, 
+            "yErr": 0.7635749306573609, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 272007, 
+            "ymax": 10.0, 
+            "y": 1.0886927843093872, 
+            "x": 54.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0434044203037416, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 272008, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 55.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 272010, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 56.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 272011, 
+            "ymax": 10.0, 
+            "y": 1.0682984590530396, 
+            "x": 57.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0335852451796317, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 272012, 
+            "ymax": 10.0, 
+            "y": 1.072529137134552, 
+            "x": 58.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0356298263059789, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 272014, 
+            "ymax": 10.0, 
+            "y": 1.0300557315349579, 
+            "x": 59.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0149166130943752, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 272016, 
+            "ymax": 10.0, 
+            "y": 1.0317290127277374, 
+            "x": 60.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0157406227614103, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 272017, 
+            "ymax": 10.0, 
+            "y": 1.0477358400821686, 
+            "x": 61.0, 
+            "ymin": 0.0, 
+            "yErr": 1.023589683458254, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 272019, 
+            "ymax": 10.0, 
+            "y": 0.801368311047554, 
+            "x": 62.0, 
+            "ymin": 0.0, 
+            "yErr": 0.8951917733354983, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 272021, 
+            "ymax": 10.0, 
+            "y": 1.0729795098304749, 
+            "x": 63.0, 
+            "ymin": 0.0, 
+            "yErr": 1.035847242517194, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 272022, 
+            "ymax": 10.0, 
+            "y": 1.014447420835495, 
+            "x": 64.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0071978062106246, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 272760, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 65.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 272761, 
+            "ymax": 10.0, 
+            "y": 1.016948163509369, 
+            "x": 66.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0084384778008864, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 272762, 
+            "ymax": 10.0, 
+            "y": 1.00912044942379, 
+            "x": 67.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0045498740350276, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 272774, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 68.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 272775, 
+            "ymax": 10.0, 
+            "y": 1.0417563319206238, 
+            "x": 69.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0206646520383782, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 272776, 
+            "ymax": 10.0, 
+            "y": 1.0279834270477295, 
+            "x": 70.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0138951755717795, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 272782, 
+            "ymax": 10.0, 
+            "y": 1.0044835656881332, 
+            "x": 71.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0022392756663117, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 272783, 
+            "ymax": 10.0, 
+            "y": 1.028739094734192, 
+            "x": 72.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0142677628388825, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 272784, 
+            "ymax": 10.0, 
+            "y": 1.024826630949974, 
+            "x": 73.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0123372120741063, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 272785, 
+            "ymax": 10.0, 
+            "y": 1.0370659530162811, 
+            "x": 74.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0183643517996304, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 272786, 
+            "ymax": 10.0, 
+            "y": 1.0289951264858246, 
+            "x": 75.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0143939700559268, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 272798, 
+            "ymax": 10.0, 
+            "y": 1.0341808795928955, 
+            "x": 76.0, 
+            "ymin": 0.0, 
+            "yErr": 1.016946842068402, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 272811, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 77.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 272812, 
+            "ymax": 10.0, 
+            "y": 1.0328778624534607, 
+            "x": 78.0, 
+            "ymin": 0.0, 
+            "yErr": 1.016305988594705, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 272814, 
+            "ymax": 10.0, 
+            "y": 1.0440176129341125, 
+            "x": 79.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0217718008117627, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 272815, 
+            "ymax": 10.0, 
+            "y": 1.0356996059417725, 
+            "x": 80.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0176932769463363, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 272816, 
+            "ymax": 10.0, 
+            "y": 1.0528858304023743, 
+            "x": 81.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0261022514361686, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 272818, 
+            "ymax": 10.0, 
+            "y": 1.028118759393692, 
+            "x": 82.0, 
+            "ymin": 0.0, 
+            "yErr": 1.013961912200696, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 272827, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 83.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 272828, 
+            "ymax": 10.0, 
+            "y": 1.025932252407074, 
+            "x": 84.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0128831385737813, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 272930, 
+            "ymax": 10.0, 
+            "y": 1.0304383635520935, 
+            "x": 85.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0151050997567166, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 272936, 
+            "ymax": 10.0, 
+            "y": 1.033222883939743, 
+            "x": 86.0, 
+            "ymin": 0.0, 
+            "yErr": 1.016475717338955, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273013, 
+            "ymax": 10.0, 
+            "y": 1.031067967414856, 
+            "x": 87.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0154151699747527, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273017, 
+            "ymax": 10.0, 
+            "y": 1.0271611511707306, 
+            "x": 88.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0134895910519903, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273150, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 89.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273158, 
+            "ymax": 10.0, 
+            "y": 1.0324806571006775, 
+            "x": 90.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0161105535819799, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273290, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 91.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273291, 
+            "ymax": 10.0, 
+            "y": 1.0426643788814545, 
+            "x": 92.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0211093863448002, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273292, 
+            "ymax": 10.0, 
+            "y": 0.23809868097305298, 
+            "x": 93.0, 
+            "ymin": 0.0, 
+            "yErr": 0.4879535643614595, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273294, 
+            "ymax": 10.0, 
+            "y": 0.29591113328933716, 
+            "x": 94.0, 
+            "ymin": 0.0, 
+            "yErr": 0.543977144087265, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273295, 
+            "ymax": 10.0, 
+            "y": 0.26132404804229736, 
+            "x": 95.0, 
+            "ymin": 0.0, 
+            "yErr": 0.5111986385372103, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273299, 
+            "ymax": 10.0, 
+            "y": 1.0356502830982208, 
+            "x": 96.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0176690439913267, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273301, 
+            "ymax": 10.0, 
+            "y": 1.0257023572921753, 
+            "x": 97.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0127696467075695, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273302, 
+            "ymax": 10.0, 
+            "y": 1.0240508615970612, 
+            "x": 98.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0119539819562258, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273402, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 99.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273403, 
+            "ymax": 10.0, 
+            "y": 1.029410868883133, 
+            "x": 100.0, 
+            "ymin": 0.0, 
+            "yErr": 1.014598870925418, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273404, 
+            "ymax": 10.0, 
+            "y": 1.0144528448581696, 
+            "x": 101.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0072004988373315, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273405, 
+            "ymax": 10.0, 
+            "y": 1.0444051921367645, 
+            "x": 102.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0219614435666173, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273406, 
+            "ymax": 10.0, 
+            "y": 1.0443487167358398, 
+            "x": 103.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0219338123067656, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273408, 
+            "ymax": 10.0, 
+            "y": 1.043760746717453, 
+            "x": 104.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0216460966095122, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273409, 
+            "ymax": 10.0, 
+            "y": 1.0307447612285614, 
+            "x": 105.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0152560077283765, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273410, 
+            "ymax": 10.0, 
+            "y": 1.0251535177230835, 
+            "x": 106.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0124986507265497, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273411, 
+            "ymax": 10.0, 
+            "y": 1.0274021923542023, 
+            "x": 107.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0136085005337132, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273425, 
+            "ymax": 10.0, 
+            "y": 1.0306594371795654, 
+            "x": 108.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0152139859062057, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273426, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 109.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273445, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 110.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273446, 
+            "ymax": 10.0, 
+            "y": 1.0328898429870605, 
+            "x": 111.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0163118827343605, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273447, 
+            "ymax": 10.0, 
+            "y": 1.0273513197898865, 
+            "x": 112.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0135834054432258, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273448, 
+            "ymax": 10.0, 
+            "y": 1.0276256799697876, 
+            "x": 113.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0137187380974013, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273449, 
+            "ymax": 10.0, 
+            "y": 1.033282607793808, 
+            "x": 114.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0165050948194052, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273450, 
+            "ymax": 10.0, 
+            "y": 1.0243873596191406, 
+            "x": 115.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0121202298240761, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273492, 
+            "ymax": 10.0, 
+            "y": 1.0369274616241455, 
+            "x": 116.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0182963525536883, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273493, 
+            "ymax": 10.0, 
+            "y": 1.0370106101036072, 
+            "x": 117.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0183371789852353, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273494, 
+            "ymax": 10.0, 
+            "y": 1.0255121737718582, 
+            "x": 118.0, 
+            "ymin": 0.0, 
+            "yErr": 1.012675749572319, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273502, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 119.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273503, 
+            "ymax": 10.0, 
+            "y": 1.037199229001999, 
+            "x": 120.0, 
+            "ymin": 0.0, 
+            "yErr": 1.018429785995087, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273522, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 121.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273523, 
+            "ymax": 10.0, 
+            "y": 1.0331754982471466, 
+            "x": 122.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0164524082548807, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273526, 
+            "ymax": 10.0, 
+            "y": 1.0341499149799347, 
+            "x": 123.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0169316176518137, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273531, 
+            "ymax": 10.0, 
+            "y": 0.7525910139083862, 
+            "x": 124.0, 
+            "ymin": 0.0, 
+            "yErr": 0.8675200366034126, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273537, 
+            "ymax": 10.0, 
+            "y": 1.0423701405525208, 
+            "x": 125.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0209652984076005, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273554, 
+            "ymax": 10.0, 
+            "y": 1.0263482928276062, 
+            "x": 126.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0130884921010632, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273555, 
+            "ymax": 10.0, 
+            "y": 1.0284852385520935, 
+            "x": 127.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0141426125314394, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273588, 
+            "ymax": 10.0, 
+            "y": 0.8669453263282776, 
+            "x": 128.0, 
+            "ymin": 0.0, 
+            "yErr": 0.9310989884691517, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273589, 
+            "ymax": 10.0, 
+            "y": 1.0287302434444427, 
+            "x": 129.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0142633994404229, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273590, 
+            "ymax": 10.0, 
+            "y": 1.0423474609851837, 
+            "x": 130.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0209541914234859, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273591, 
+            "ymax": 10.0, 
+            "y": 0.9655899405479431, 
+            "x": 131.0, 
+            "ymin": 0.0, 
+            "yErr": 0.9826443611744501, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273592, 
+            "ymax": 10.0, 
+            "y": 1.0410149097442627, 
+            "x": 132.0, 
+            "ymin": 0.0, 
+            "yErr": 1.020301381820226, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273593, 
+            "ymax": 10.0, 
+            "y": 0.1066666692495346, 
+            "x": 133.0, 
+            "ymin": 0.0, 
+            "yErr": 0.32659863632528324, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273725, 
+            "ymax": 10.0, 
+            "y": 1.0230055749416351, 
+            "x": 134.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0114373806329462, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273728, 
+            "ymax": 10.0, 
+            "y": 1.046047031879425, 
+            "x": 135.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0227644068305393, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 273730, 
+            "ymax": 10.0, 
+            "y": 1.0475049316883087, 
+            "x": 136.0, 
+            "ymin": 0.0, 
+            "yErr": 1.023476883807499, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274094, 
+            "ymax": 10.0, 
+            "y": 1.0206133425235748, 
+            "x": 137.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0102540979989019, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274100, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 138.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274102, 
+            "ymax": 10.0, 
+            "y": 1.0325064957141876, 
+            "x": 139.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0161232679720447, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274103, 
+            "ymax": 10.0, 
+            "y": 1.0324881374835968, 
+            "x": 140.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0161142344655925, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274104, 
+            "ymax": 10.0, 
+            "y": 1.0313487946987152, 
+            "x": 141.0, 
+            "ymin": 0.0, 
+            "yErr": 1.015553442561599, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274105, 
+            "ymax": 10.0, 
+            "y": 1.0238048136234283, 
+            "x": 142.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0118324039204458, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274106, 
+            "ymax": 10.0, 
+            "y": 1.025953322649002, 
+            "x": 143.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0128935396422478, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274107, 
+            "ymax": 10.0, 
+            "y": 1.0261063277721405, 
+            "x": 144.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0129690655553805, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274108, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 145.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274142, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 146.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274146, 
+            "ymax": 10.0, 
+            "y": 1.0324033498764038, 
+            "x": 147.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0160725121153529, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274157, 
+            "ymax": 10.0, 
+            "y": 1.0336953997612, 
+            "x": 148.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0167081192560625, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274159, 
+            "ymax": 10.0, 
+            "y": 1.0395136773586273, 
+            "x": 149.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0195654355452755, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274160, 
+            "ymax": 10.0, 
+            "y": 1.0228500366210938, 
+            "x": 150.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0113604879671214, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274161, 
+            "ymax": 10.0, 
+            "y": 1.032900333404541, 
+            "x": 151.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0163170437439988, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274172, 
+            "ymax": 10.0, 
+            "y": 1.0274557769298553, 
+            "x": 152.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0136349327691185, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274198, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 153.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274199, 
+            "ymax": 10.0, 
+            "y": 1.0382646322250366, 
+            "x": 154.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0189527134391647, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274200, 
+            "ymax": 10.0, 
+            "y": 1.0211556255817413, 
+            "x": 155.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0105224517949818, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274240, 
+            "ymax": 10.0, 
+            "y": 1.031483680009842, 
+            "x": 156.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0156198501456348, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274241, 
+            "ymax": 10.0, 
+            "y": 1.0277514159679413, 
+            "x": 157.0, 
+            "ymin": 0.0, 
+            "yErr": 1.01378075340181, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274243, 
+            "ymax": 10.0, 
+            "y": 1.021958440542221, 
+            "x": 158.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0109196014234867, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274244, 
+            "ymax": 10.0, 
+            "y": 1.0154253542423248, 
+            "x": 159.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0076831616348092, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274250, 
+            "ymax": 10.0, 
+            "y": 1.036213368177414, 
+            "x": 160.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0179456607193795, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274251, 
+            "ymax": 10.0, 
+            "y": 1.0298199355602264, 
+            "x": 161.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0148004412495228, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274282, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 162.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274283, 
+            "ymax": 10.0, 
+            "y": 1.0160309374332428, 
+            "x": 163.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0079835997838669, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274284, 
+            "ymax": 10.0, 
+            "y": 1.0240188539028168, 
+            "x": 164.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0119381670353267, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274285, 
+            "ymax": 10.0, 
+            "y": 1.033704400062561, 
+            "x": 165.0, 
+            "ymin": 0.0, 
+            "yErr": 1.016712545443677, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274286, 
+            "ymax": 10.0, 
+            "y": 1.0339880585670471, 
+            "x": 166.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0168520337625564, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274314, 
+            "ymax": 10.0, 
+            "y": 1.0311783850193024, 
+            "x": 167.0, 
+            "ymin": 0.0, 
+            "yErr": 1.015469539188302, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274315, 
+            "ymax": 10.0, 
+            "y": 1.0222168564796448, 
+            "x": 168.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0110474056539807, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274316, 
+            "ymax": 10.0, 
+            "y": 1.037006676197052, 
+            "x": 169.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0183352474490177, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274317, 
+            "ymax": 10.0, 
+            "y": 1.027967780828476, 
+            "x": 170.0, 
+            "ymin": 0.0, 
+            "yErr": 1.013887459646521, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274318, 
+            "ymax": 10.0, 
+            "y": 1.0843846648931503, 
+            "x": 171.0, 
+            "ymin": 0.0, 
+            "yErr": 1.041337920606539, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274319, 
+            "ymax": 10.0, 
+            "y": 1.036732703447342, 
+            "x": 172.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0182007186440902, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274335, 
+            "ymax": 10.0, 
+            "y": 1.0401588678359985, 
+            "x": 173.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0198817911091453, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274336, 
+            "ymax": 10.0, 
+            "y": 1.0479583740234375, 
+            "x": 174.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0236983803950446, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274337, 
+            "ymax": 10.0, 
+            "y": 1.0427042543888092, 
+            "x": 175.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0211289117387723, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274338, 
+            "ymax": 10.0, 
+            "y": 1.0291525423526764, 
+            "x": 176.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0144715581782844, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274339, 
+            "ymax": 10.0, 
+            "y": 1.0180146992206573, 
+            "x": 177.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0089671447676865, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274344, 
+            "ymax": 10.0, 
+            "y": 1.040241301059723, 
+            "x": 178.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0199222034350086, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274345, 
+            "ymax": 10.0, 
+            "y": 1.0339086055755615, 
+            "x": 179.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0168129648935254, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274382, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 180.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274387, 
+            "ymax": 10.0, 
+            "y": 1.0634338855743408, 
+            "x": 181.0, 
+            "ymin": 0.0, 
+            "yErr": 1.031229307949663, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274388, 
+            "ymax": 10.0, 
+            "y": 1.0221412777900696, 
+            "x": 182.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0110100285309092, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274420, 
+            "ymax": 10.0, 
+            "y": 1.020932376384735, 
+            "x": 183.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0104119834922463, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274421, 
+            "ymax": 10.0, 
+            "y": 1.0281994938850403, 
+            "x": 184.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0140017228215346, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274422, 
+            "ymax": 10.0, 
+            "y": 1.0325964391231537, 
+            "x": 185.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0161675251272073, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274440, 
+            "ymax": 10.0, 
+            "y": 1.0279682874679565, 
+            "x": 186.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0138877094964494, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274441, 
+            "ymax": 10.0, 
+            "y": 1.028847873210907, 
+            "x": 187.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0143213855632283, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274442, 
+            "ymax": 10.0, 
+            "y": 1.0338915586471558, 
+            "x": 188.0, 
+            "ymin": 0.0, 
+            "yErr": 1.016804582329936, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274443, 
+            "ymax": 10.0, 
+            "y": 1.0282362699508667, 
+            "x": 189.0, 
+            "ymin": 0.0, 
+            "yErr": 1.014019856783321, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274954, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 190.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274955, 
+            "ymax": 10.0, 
+            "y": 1.0277823209762573, 
+            "x": 191.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0137959957389147, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274956, 
+            "ymax": 10.0, 
+            "y": 1.0369455814361572, 
+            "x": 192.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0183052496359613, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274957, 
+            "ymax": 10.0, 
+            "y": 1.0273368656635284, 
+            "x": 193.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0135762752075093, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274958, 
+            "ymax": 10.0, 
+            "y": 1.0223448574543, 
+            "x": 194.0, 
+            "ymin": 0.0, 
+            "yErr": 1.011110704846062, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274959, 
+            "ymax": 10.0, 
+            "y": 1.0241748541593552, 
+            "x": 195.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0120152440350665, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274967, 
+            "ymax": 10.0, 
+            "y": 1.0199796557426453, 
+            "x": 196.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0099404218777686, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274968, 
+            "ymax": 10.0, 
+            "y": 1.0388425290584564, 
+            "x": 197.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0192362479123553, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274969, 
+            "ymax": 10.0, 
+            "y": 1.0258849263191223, 
+            "x": 198.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0128597762371268, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274970, 
+            "ymax": 10.0, 
+            "y": 1.0294101536273956, 
+            "x": 199.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0145985184433277, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274971, 
+            "ymax": 10.0, 
+            "y": 1.0334339141845703, 
+            "x": 200.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0165795169019345, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274998, 
+            "ymax": 10.0, 
+            "y": 1.0264452695846558, 
+            "x": 201.0, 
+            "ymin": 0.0, 
+            "yErr": 1.01313635290846, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 274999, 
+            "ymax": 10.0, 
+            "y": 1.032094955444336, 
+            "x": 202.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0159207426981378, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275000, 
+            "ymax": 10.0, 
+            "y": 1.0240050554275513, 
+            "x": 203.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0119313491672997, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275001, 
+            "ymax": 10.0, 
+            "y": 1.0318132936954498, 
+            "x": 204.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0157821093598025, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275059, 
+            "ymax": 10.0, 
+            "y": 1.0231151729822159, 
+            "x": 205.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0114915585323567, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275062, 
+            "ymax": 10.0, 
+            "y": 1.0085489600896835, 
+            "x": 206.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0042653832975044, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275063, 
+            "ymax": 10.0, 
+            "y": 1.0283810645341873, 
+            "x": 207.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0140912505954223, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275064, 
+            "ymax": 10.0, 
+            "y": 1.0399963855743408, 
+            "x": 208.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0198021305990397, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275066, 
+            "ymax": 10.0, 
+            "y": 1.0300095677375793, 
+            "x": 209.0, 
+            "ymin": 0.0, 
+            "yErr": 1.014893870184257, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275067, 
+            "ymax": 10.0, 
+            "y": 1.029137372970581, 
+            "x": 210.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0144640816562118, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275068, 
+            "ymax": 10.0, 
+            "y": 1.0194674730300903, 
+            "x": 211.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0096868192811523, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275073, 
+            "ymax": 10.0, 
+            "y": 1.0206942558288574, 
+            "x": 212.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0102941432220902, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275074, 
+            "ymax": 10.0, 
+            "y": 1.0309642255306244, 
+            "x": 213.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0153640852081702, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275124, 
+            "ymax": 10.0, 
+            "y": 1.0209652781486511, 
+            "x": 214.0, 
+            "ymin": 0.0, 
+            "yErr": 1.010428264721772, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275125, 
+            "ymax": 10.0, 
+            "y": 1.0290860533714294, 
+            "x": 215.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0144387873949958, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275282, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 216.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275283, 
+            "ymax": 10.0, 
+            "y": 1.0251799821853638, 
+            "x": 217.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0125117195298847, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275284, 
+            "ymax": 10.0, 
+            "y": 1.0294160544872284, 
+            "x": 218.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0146014264169099, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275285, 
+            "ymax": 10.0, 
+            "y": 1.0329144597053528, 
+            "x": 219.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0163239934712516, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275286, 
+            "ymax": 10.0, 
+            "y": 1.025265246629715, 
+            "x": 220.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0125538240655234, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275289, 
+            "ymax": 10.0, 
+            "y": 1.0453792214393616, 
+            "x": 221.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0224378814575297, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275290, 
+            "ymax": 10.0, 
+            "y": 1.0387214720249176, 
+            "x": 222.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0191768600321132, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275291, 
+            "ymax": 10.0, 
+            "y": 1.02369886636734, 
+            "x": 223.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0117800484133594, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275292, 
+            "ymax": 10.0, 
+            "y": 1.0237934589385986, 
+            "x": 224.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0118267929535167, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275293, 
+            "ymax": 10.0, 
+            "y": 1.0271669924259186, 
+            "x": 225.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0134924728018055, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275309, 
+            "ymax": 10.0, 
+            "y": 1.0338102877140045, 
+            "x": 226.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0167646176544523, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275310, 
+            "ymax": 10.0, 
+            "y": 1.0277180671691895, 
+            "x": 227.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0137643055312164, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275311, 
+            "ymax": 10.0, 
+            "y": 1.0395165085792542, 
+            "x": 228.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0195668239891165, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275319, 
+            "ymax": 10.0, 
+            "y": 1.0409200191497803, 
+            "x": 229.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0202548795030486, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275337, 
+            "ymax": 10.0, 
+            "y": 1.0359621345996857, 
+            "x": 230.0, 
+            "ymin": 0.0, 
+            "yErr": 1.017822250984761, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275338, 
+            "ymax": 10.0, 
+            "y": 1.0290689170360565, 
+            "x": 231.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0144303411452442, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275344, 
+            "ymax": 10.0, 
+            "y": 1.0185885429382324, 
+            "x": 232.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0092514765598475, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275345, 
+            "ymax": 10.0, 
+            "y": 1.029239445924759, 
+            "x": 233.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0145143892152337, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275370, 
+            "ymax": 10.0, 
+            "y": 1.0208489298820496, 
+            "x": 234.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0103706893423074, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275371, 
+            "ymax": 10.0, 
+            "y": 1.028835505247116, 
+            "x": 235.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0143152888757598, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275375, 
+            "ymax": 10.0, 
+            "y": 1.0300618708133698, 
+            "x": 236.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0149196376134269, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275376, 
+            "ymax": 10.0, 
+            "y": 1.0311009287834167, 
+            "x": 237.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0154314003335807, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275656, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 238.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275657, 
+            "ymax": 10.0, 
+            "y": 1.0364760756492615, 
+            "x": 239.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0180746906044083, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275658, 
+            "ymax": 10.0, 
+            "y": 1.029924750328064, 
+            "x": 240.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0148520829796153, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275659, 
+            "ymax": 10.0, 
+            "y": 1.0195930302143097, 
+            "x": 241.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0097489936683817, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275757, 
+            "ymax": 10.0, 
+            "y": 1.0124471783638, 
+            "x": 242.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0062043422505191, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275758, 
+            "ymax": 10.0, 
+            "y": 1.015021562576294, 
+            "x": 243.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0074827852505936, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275759, 
+            "ymax": 10.0, 
+            "y": 1.028130978345871, 
+            "x": 244.0, 
+            "ymin": 0.0, 
+            "yErr": 1.013967937533466, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275761, 
+            "ymax": 10.0, 
+            "y": 1.0329566895961761, 
+            "x": 245.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0163447690602714, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275763, 
+            "ymax": 10.0, 
+            "y": 1.001602664589882, 
+            "x": 246.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0008010114852413, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275764, 
+            "ymax": 10.0, 
+            "y": 1.0242462754249573, 
+            "x": 247.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0120505300749352, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275766, 
+            "ymax": 10.0, 
+            "y": 1.029134601354599, 
+            "x": 248.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0144627156059502, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275767, 
+            "ymax": 10.0, 
+            "y": 1.0386435687541962, 
+            "x": 249.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0191386405951823, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275768, 
+            "ymax": 10.0, 
+            "y": 1.0483340919017792, 
+            "x": 250.0, 
+            "ymin": 0.0, 
+            "yErr": 1.02388187399806, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275772, 
+            "ymax": 10.0, 
+            "y": 1.0308634042739868, 
+            "x": 251.0, 
+            "ymin": 0.0, 
+            "yErr": 1.015314436159551, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275773, 
+            "ymax": 10.0, 
+            "y": 1.0352175533771515, 
+            "x": 252.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0174564135023925, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275774, 
+            "ymax": 10.0, 
+            "y": 1.0323169827461243, 
+            "x": 253.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0160300107507279, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275776, 
+            "ymax": 10.0, 
+            "y": 1.0332660973072052, 
+            "x": 254.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0164969735848726, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275777, 
+            "ymax": 10.0, 
+            "y": 1.027371495962143, 
+            "x": 255.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0135933582863212, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275778, 
+            "ymax": 10.0, 
+            "y": 1.0245317220687866, 
+            "x": 256.0, 
+            "ymin": 0.0, 
+            "yErr": 1.012191544159892, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275781, 
+            "ymax": 10.0, 
+            "y": 1.0278290510177612, 
+            "x": 257.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0138190425405125, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275782, 
+            "ymax": 10.0, 
+            "y": 1.1247433722019196, 
+            "x": 258.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0605391893758191, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275828, 
+            "ymax": 10.0, 
+            "y": 1.031994342803955, 
+            "x": 259.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0158712235337484, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275829, 
+            "ymax": 10.0, 
+            "y": 1.0217142403125763, 
+            "x": 260.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0107988129754488, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275831, 
+            "ymax": 10.0, 
+            "y": 1.0302828252315521, 
+            "x": 261.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0150284849360396, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275832, 
+            "ymax": 10.0, 
+            "y": 1.0301522612571716, 
+            "x": 262.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0149641674744836, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275833, 
+            "ymax": 10.0, 
+            "y": 1.0215806812047958, 
+            "x": 263.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0107327446980214, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275834, 
+            "ymax": 10.0, 
+            "y": 1.026768147945404, 
+            "x": 264.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0132956863351408, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275835, 
+            "ymax": 10.0, 
+            "y": 1.0310148894786835, 
+            "x": 265.0, 
+            "ymin": 0.0, 
+            "yErr": 1.01538903356235, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275836, 
+            "ymax": 10.0, 
+            "y": 1.0314224362373352, 
+            "x": 266.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0155896987648778, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275837, 
+            "ymax": 10.0, 
+            "y": 1.0267224311828613, 
+            "x": 267.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0132731276328517, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275841, 
+            "ymax": 10.0, 
+            "y": 1.037016123533249, 
+            "x": 268.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0183398860563446, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275846, 
+            "ymax": 10.0, 
+            "y": 1.0388700067996979, 
+            "x": 269.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0192497273974117, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275847, 
+            "ymax": 10.0, 
+            "y": 1.0278594195842743, 
+            "x": 270.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0138340197410394, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275886, 
+            "ymax": 10.0, 
+            "y": 1.0237034857273102, 
+            "x": 271.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0117823311994087, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275887, 
+            "ymax": 10.0, 
+            "y": 1.0423448085784912, 
+            "x": 272.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0209528924384765, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275890, 
+            "ymax": 10.0, 
+            "y": 1.0280848443508148, 
+            "x": 273.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0139451880406627, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275911, 
+            "ymax": 10.0, 
+            "y": 1.0301873981952667, 
+            "x": 274.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0149814767744616, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275912, 
+            "ymax": 10.0, 
+            "y": 1.0358383655548096, 
+            "x": 275.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0177614482553412, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275913, 
+            "ymax": 10.0, 
+            "y": 1.0314615219831467, 
+            "x": 276.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0156089414647484, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275918, 
+            "ymax": 10.0, 
+            "y": 1.027541160583496, 
+            "x": 277.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0136770494509069, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275920, 
+            "ymax": 10.0, 
+            "y": 1.0469727218151093, 
+            "x": 278.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0232168498490968, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275921, 
+            "ymax": 10.0, 
+            "y": 1.0404308140277863, 
+            "x": 279.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0200151048037407, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275922, 
+            "ymax": 10.0, 
+            "y": 1.0384079217910767, 
+            "x": 280.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0190230231898967, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275923, 
+            "ymax": 10.0, 
+            "y": 1.0392633974552155, 
+            "x": 281.0, 
+            "ymin": 0.0, 
+            "yErr": 1.019442689637439, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275931, 
+            "ymax": 10.0, 
+            "y": 1.0379867255687714, 
+            "x": 282.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0188163355427569, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 275963, 
+            "ymax": 10.0, 
+            "y": 1.0313698947429657, 
+            "x": 283.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0155638309544928, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276062, 
+            "ymax": 10.0, 
+            "y": 0.9454285651445389, 
+            "x": 284.0, 
+            "ymin": 0.0, 
+            "yErr": 0.9723315099000643, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276063, 
+            "ymax": 10.0, 
+            "y": 1.0480091720819473, 
+            "x": 285.0, 
+            "ymin": 0.0, 
+            "yErr": 1.023723191141994, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276064, 
+            "ymax": 10.0, 
+            "y": 1.0584255754947662, 
+            "x": 286.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0287981218367217, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276092, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 287.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276095, 
+            "ymax": 10.0, 
+            "y": 1.0322740077972412, 
+            "x": 288.0, 
+            "ymin": 0.0, 
+            "yErr": 1.016008862066292, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276097, 
+            "ymax": 10.0, 
+            "y": 1.0335948467254639, 
+            "x": 289.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0166586677570126, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276215, 
+            "ymax": 10.0, 
+            "y": 1.0285189747810364, 
+            "x": 290.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0141592452771095, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276216, 
+            "ymax": 10.0, 
+            "y": 1.0383473634719849, 
+            "x": 291.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0189933088455414, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276217, 
+            "ymax": 10.0, 
+            "y": 1.0334343016147614, 
+            "x": 292.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0165797074576894, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276235, 
+            "ymax": 10.0, 
+            "y": 1.0432159900665283, 
+            "x": 293.0, 
+            "ymin": 0.0, 
+            "yErr": 1.021379454495991, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276242, 
+            "ymax": 10.0, 
+            "y": 1.046615481376648, 
+            "x": 294.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0230422676393425, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276243, 
+            "ymax": 10.0, 
+            "y": 1.0337445139884949, 
+            "x": 295.0, 
+            "ymin": 0.0, 
+            "yErr": 1.016732272522366, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276244, 
+            "ymax": 10.0, 
+            "y": 1.045478880405426, 
+            "x": 296.0, 
+            "ymin": 0.0, 
+            "yErr": 1.02248661624758, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276282, 
+            "ymax": 10.0, 
+            "y": 1.0278343856334686, 
+            "x": 297.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0138216734877337, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276283, 
+            "ymax": 10.0, 
+            "y": 1.0345159471035004, 
+            "x": 298.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0171115706270872, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276315, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 299.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276317, 
+            "ymax": 10.0, 
+            "y": 1.0343815386295319, 
+            "x": 300.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0170454948671332, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276318, 
+            "ymax": 10.0, 
+            "y": 1.0349944829940796, 
+            "x": 301.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0173467860046934, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276327, 
+            "ymax": 10.0, 
+            "y": 1.0276664793491364, 
+            "x": 302.0, 
+            "ymin": 0.0, 
+            "yErr": 1.013738861516681, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276352, 
+            "ymax": 10.0, 
+            "y": 1.0241384506225586, 
+            "x": 303.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0119972582090124, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276355, 
+            "ymax": 10.0, 
+            "y": 1.0447231829166412, 
+            "x": 304.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0221170103841541, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276357, 
+            "ymax": 10.0, 
+            "y": 1.0367623567581177, 
+            "x": 305.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0182152801633442, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276361, 
+            "ymax": 10.0, 
+            "y": 1.0275202095508575, 
+            "x": 306.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0136667152229364, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276363, 
+            "ymax": 10.0, 
+            "y": 1.017391413450241, 
+            "x": 307.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0086582243010964, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276384, 
+            "ymax": 10.0, 
+            "y": 1.0345186293125153, 
+            "x": 308.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0171128891684125, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276437, 
+            "ymax": 10.0, 
+            "y": 1.0293083488941193, 
+            "x": 309.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0145483472433037, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276453, 
+            "ymax": 10.0, 
+            "y": 1.0238389670848846, 
+            "x": 310.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0118492808145314, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276454, 
+            "ymax": 10.0, 
+            "y": 1.021578997373581, 
+            "x": 311.0, 
+            "ymin": 0.0, 
+            "yErr": 1.010731911722184, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276458, 
+            "ymax": 10.0, 
+            "y": 1.029793918132782, 
+            "x": 312.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0147876221814995, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276495, 
+            "ymax": 10.0, 
+            "y": 1.032780259847641, 
+            "x": 313.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0162579691434852, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276501, 
+            "ymax": 10.0, 
+            "y": 1.0309666693210602, 
+            "x": 314.0, 
+            "ymin": 0.0, 
+            "yErr": 1.015365288613443, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276502, 
+            "ymax": 10.0, 
+            "y": 1.0319012105464935, 
+            "x": 315.0, 
+            "ymin": 0.0, 
+            "yErr": 1.015825383885682, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276525, 
+            "ymax": 10.0, 
+            "y": 1.0349114835262299, 
+            "x": 316.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0173059930651298, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276527, 
+            "ymax": 10.0, 
+            "y": 1.0382585227489471, 
+            "x": 317.0, 
+            "ymin": 0.0, 
+            "yErr": 1.018949715515416, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276528, 
+            "ymax": 10.0, 
+            "y": 1.0339017510414124, 
+            "x": 318.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0168095942905988, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276542, 
+            "ymax": 10.0, 
+            "y": 1.0225938558578491, 
+            "x": 319.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0112338284777904, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276543, 
+            "ymax": 10.0, 
+            "y": 1.03517547249794, 
+            "x": 320.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0174357338416713, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276544, 
+            "ymax": 10.0, 
+            "y": 1.0505324006080627, 
+            "x": 321.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0249548285695633, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276545, 
+            "ymax": 10.0, 
+            "y": 1.0263037085533142, 
+            "x": 322.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0130664877259115, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276581, 
+            "ymax": 10.0, 
+            "y": 1.0318975746631622, 
+            "x": 323.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0158235942638674, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276582, 
+            "ymax": 10.0, 
+            "y": 1.031810849905014, 
+            "x": 324.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0157809064483414, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276583, 
+            "ymax": 10.0, 
+            "y": 1.0269321501255035, 
+            "x": 325.0, 
+            "ymin": 0.0, 
+            "yErr": 1.013376608238765, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276584, 
+            "ymax": 10.0, 
+            "y": 1.0159960836172104, 
+            "x": 326.0, 
+            "ymin": 0.0, 
+            "yErr": 1.007966310755082, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276585, 
+            "ymax": 10.0, 
+            "y": 1.028799295425415, 
+            "x": 327.0, 
+            "ymin": 0.0, 
+            "yErr": 1.014297439327052, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276586, 
+            "ymax": 10.0, 
+            "y": 1.0303787589073181, 
+            "x": 328.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0150757404781765, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276587, 
+            "ymax": 10.0, 
+            "y": 1.0398893058300018, 
+            "x": 329.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0197496289923336, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276653, 
+            "ymax": 10.0, 
+            "y": 1.027382880449295, 
+            "x": 330.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0135989741753368, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276655, 
+            "ymax": 10.0, 
+            "y": 1.035283476114273, 
+            "x": 331.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0174888088398186, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276659, 
+            "ymax": 10.0, 
+            "y": 1.0273831486701965, 
+            "x": 332.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0135991064864829, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276775, 
+            "ymax": 10.0, 
+            "y": 1.0337066650390625, 
+            "x": 333.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0167136593156711, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276776, 
+            "ymax": 10.0, 
+            "y": 1.0373497307300568, 
+            "x": 334.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0185036724185421, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276794, 
+            "ymax": 10.0, 
+            "y": 1.0321641862392426, 
+            "x": 335.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0159548150578561, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276807, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 336.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276808, 
+            "ymax": 10.0, 
+            "y": 1.0221398770809174, 
+            "x": 337.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0110093358030465, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276810, 
+            "ymax": 10.0, 
+            "y": 1.0355320870876312, 
+            "x": 338.0, 
+            "ymin": 0.0, 
+            "yErr": 1.017610970404521, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276811, 
+            "ymax": 10.0, 
+            "y": 1.0412571430206299, 
+            "x": 339.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0204200816431583, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276831, 
+            "ymax": 10.0, 
+            "y": 1.0301572382450104, 
+            "x": 340.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0149666192762254, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276832, 
+            "ymax": 10.0, 
+            "y": 1.0329062342643738, 
+            "x": 341.0, 
+            "ymin": 0.0, 
+            "yErr": 1.016319946800403, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276834, 
+            "ymax": 10.0, 
+            "y": 1.02398082613945, 
+            "x": 342.0, 
+            "ymin": 0.0, 
+            "yErr": 1.011919377292208, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276836, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 343.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276837, 
+            "ymax": 10.0, 
+            "y": 0.4583805799484253, 
+            "x": 344.0, 
+            "ymin": 0.0, 
+            "yErr": 0.6770380934249013, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276870, 
+            "ymax": 10.0, 
+            "y": 1.0543325543403625, 
+            "x": 345.0, 
+            "ymin": 0.0, 
+            "yErr": 1.026806970340756, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276935, 
+            "ymax": 10.0, 
+            "y": 1.0266843140125275, 
+            "x": 346.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0132543185264633, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276940, 
+            "ymax": 10.0, 
+            "y": 1.0229918360710144, 
+            "x": 347.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0114305888547244, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276941, 
+            "ymax": 10.0, 
+            "y": 1.032052993774414, 
+            "x": 348.0, 
+            "ymin": 0.0, 
+            "yErr": 1.015900090449063, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276942, 
+            "ymax": 10.0, 
+            "y": 0.8455913811922073, 
+            "x": 349.0, 
+            "ymin": 0.0, 
+            "yErr": 0.9195604282439558, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276944, 
+            "ymax": 10.0, 
+            "y": 1.0232483595609665, 
+            "x": 350.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0115573931127024, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276945, 
+            "ymax": 10.0, 
+            "y": 1.0147294998168945, 
+            "x": 351.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0073378280482146, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276946, 
+            "ymax": 10.0, 
+            "y": 1.0405173897743225, 
+            "x": 352.0, 
+            "ymin": 0.0, 
+            "yErr": 1.02005754238392, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276947, 
+            "ymax": 10.0, 
+            "y": 1.004774197936058, 
+            "x": 353.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0023842566281944, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276948, 
+            "ymax": 10.0, 
+            "y": 1.02580988407135, 
+            "x": 354.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0128227308227982, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 276950, 
+            "ymax": 10.0, 
+            "y": 1.024608165025711, 
+            "x": 355.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0122293045677502, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277069, 
+            "ymax": 10.0, 
+            "y": 1.0286501944065094, 
+            "x": 356.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0142239370112054, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277070, 
+            "ymax": 10.0, 
+            "y": 1.024636298418045, 
+            "x": 357.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0122432012209541, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277071, 
+            "ymax": 10.0, 
+            "y": 1.0333139300346375, 
+            "x": 358.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0165205015318861, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277072, 
+            "ymax": 10.0, 
+            "y": 1.028219848871231, 
+            "x": 359.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0140117597302465, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277073, 
+            "ymax": 10.0, 
+            "y": 1.0288476645946503, 
+            "x": 360.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0143212827278398, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277075, 
+            "ymax": 10.0, 
+            "y": 0.42025433480739594, 
+            "x": 361.0, 
+            "ymin": 0.0, 
+            "yErr": 0.6482702637075034, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277076, 
+            "ymax": 10.0, 
+            "y": 1.044115662574768, 
+            "x": 362.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0218197798901565, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277087, 
+            "ymax": 10.0, 
+            "y": 1.0263440310955048, 
+            "x": 363.0, 
+            "ymin": 0.0, 
+            "yErr": 1.013086388762333, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277093, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 364.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277094, 
+            "ymax": 10.0, 
+            "y": 1.027279019355774, 
+            "x": 365.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0135477390610537, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277096, 
+            "ymax": 10.0, 
+            "y": 1.0251608788967133, 
+            "x": 366.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0125022858723398, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277112, 
+            "ymax": 10.0, 
+            "y": 1.0151561498641968, 
+            "x": 367.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0075495768765905, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277126, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 368.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277127, 
+            "ymax": 10.0, 
+            "y": 1.0318425297737122, 
+            "x": 369.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0157965001779206, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277148, 
+            "ymax": 10.0, 
+            "y": 1.0317974984645844, 
+            "x": 370.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0157743344191092, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277166, 
+            "ymax": 10.0, 
+            "y": 1.0271196961402893, 
+            "x": 371.0, 
+            "ymin": 0.0, 
+            "yErr": 1.013469139214554, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277168, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 372.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277180, 
+            "ymax": 10.0, 
+            "y": 1.0292201936244965, 
+            "x": 373.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0145049007395166, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277194, 
+            "ymax": 10.0, 
+            "y": 1.0316736996173859, 
+            "x": 374.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0157133944264918, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277202, 
+            "ymax": 10.0, 
+            "y": 1.0369027853012085, 
+            "x": 375.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0182842360074167, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277217, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 376.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277218, 
+            "ymax": 10.0, 
+            "y": 1.0379596054553986, 
+            "x": 377.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0188030258373788, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277219, 
+            "ymax": 10.0, 
+            "y": 1.0381657779216766, 
+            "x": 378.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0189042044871914, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277220, 
+            "ymax": 10.0, 
+            "y": 1.0334307849407196, 
+            "x": 379.0, 
+            "ymin": 0.0, 
+            "yErr": 1.01657797779645, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277305, 
+            "ymax": 10.0, 
+            "y": 1.0289544463157654, 
+            "x": 380.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0143739183929, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277420, 
+            "ymax": 10.0, 
+            "y": 1.0348991453647614, 
+            "x": 381.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0172999289121971, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277932, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 382.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277934, 
+            "ymax": 10.0, 
+            "y": 1.0403667390346527, 
+            "x": 383.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0199836954749093, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277935, 
+            "ymax": 10.0, 
+            "y": 1.0336945354938507, 
+            "x": 384.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0167076942237876, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277981, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 385.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277982, 
+            "ymax": 10.0, 
+            "y": 1.0269188284873962, 
+            "x": 386.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0133700353214496, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277983, 
+            "ymax": 10.0, 
+            "y": 1.0318653881549835, 
+            "x": 387.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0158077515726012, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277984, 
+            "ymax": 10.0, 
+            "y": 0.2216823548078537, 
+            "x": 388.0, 
+            "ymin": 0.0, 
+            "yErr": 0.47083155672475235, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277985, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 389.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277990, 
+            "ymax": 10.0, 
+            "y": 1.038633018732071, 
+            "x": 390.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0191334646316306, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277991, 
+            "ymax": 10.0, 
+            "y": 1.037390261888504, 
+            "x": 391.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0185235696283637, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 277992, 
+            "ymax": 10.0, 
+            "y": 1.0286131799221039, 
+            "x": 392.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0142056891588136, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278017, 
+            "ymax": 10.0, 
+            "y": 1.0276191234588623, 
+            "x": 393.0, 
+            "ymin": 0.0, 
+            "yErr": 1.013715504201678, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278018, 
+            "ymax": 10.0, 
+            "y": 1.0315966606140137, 
+            "x": 394.0, 
+            "ymin": 0.0, 
+            "yErr": 1.015675470125184, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278167, 
+            "ymax": 10.0, 
+            "y": 1.033068209886551, 
+            "x": 395.0, 
+            "ymin": 0.0, 
+            "yErr": 1.016399630994891, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278175, 
+            "ymax": 10.0, 
+            "y": 1.03980153799057, 
+            "x": 396.0, 
+            "ymin": 0.0, 
+            "yErr": 1.019706594070358, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278193, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 397.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278239, 
+            "ymax": 10.0, 
+            "y": 1.0256664454936981, 
+            "x": 398.0, 
+            "ymin": 0.0, 
+            "yErr": 1.012751917052591, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278240, 
+            "ymax": 10.0, 
+            "y": 1.0289568305015564, 
+            "x": 399.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0143750935928761, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278273, 
+            "ymax": 10.0, 
+            "y": 1.033096581697464, 
+            "x": 400.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0164135879146166, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278274, 
+            "ymax": 10.0, 
+            "y": 1.0336111187934875, 
+            "x": 401.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0166666704448846, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278288, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 402.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278289, 
+            "ymax": 10.0, 
+            "y": 1.032997190952301, 
+            "x": 403.0, 
+            "ymin": 0.0, 
+            "yErr": 1.016364693873366, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278290, 
+            "ymax": 10.0, 
+            "y": 1.0383934676647186, 
+            "x": 404.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0190159310161537, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278308, 
+            "ymax": 10.0, 
+            "y": 1.040131539106369, 
+            "x": 405.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0198683930323407, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278309, 
+            "ymax": 10.0, 
+            "y": 1.0237849950790405, 
+            "x": 406.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0118226104802366, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278310, 
+            "ymax": 10.0, 
+            "y": 1.0292826890945435, 
+            "x": 407.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0145357012419738, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278315, 
+            "ymax": 10.0, 
+            "y": 1.0359612107276917, 
+            "x": 408.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0178217971372452, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278345, 
+            "ymax": 10.0, 
+            "y": 1.0364373326301575, 
+            "x": 409.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0180556628348754, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278346, 
+            "ymax": 10.0, 
+            "y": 1.0379147231578827, 
+            "x": 410.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0187809986242788, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278349, 
+            "ymax": 10.0, 
+            "y": 1.0420618951320648, 
+            "x": 411.0, 
+            "ymin": 0.0, 
+            "yErr": 1.020814329411605, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278366, 
+            "ymax": 10.0, 
+            "y": 1.0349920690059662, 
+            "x": 412.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0173455995904077, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278406, 
+            "ymax": 10.0, 
+            "y": 1.0314649045467377, 
+            "x": 413.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0156106067517894, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278509, 
+            "ymax": 10.0, 
+            "y": 1.0328426659107208, 
+            "x": 414.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0162886725289821, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278761, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 415.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278769, 
+            "ymax": 10.0, 
+            "y": 1.0249541103839874, 
+            "x": 416.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0124001730462058, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278770, 
+            "ymax": 10.0, 
+            "y": 1.0243908762931824, 
+            "x": 417.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0121219671033637, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278801, 
+            "ymax": 10.0, 
+            "y": 1.0256510972976685, 
+            "x": 418.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0127443395535067, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278802, 
+            "ymax": 10.0, 
+            "y": 1.0618148446083069, 
+            "x": 419.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0304440036257705, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278803, 
+            "ymax": 10.0, 
+            "y": 1.0303341448307037, 
+            "x": 420.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0150537645025035, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278804, 
+            "ymax": 10.0, 
+            "y": 1.0335831046104431, 
+            "x": 421.0, 
+            "ymin": 0.0, 
+            "yErr": 1.01665289288451, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278805, 
+            "ymax": 10.0, 
+            "y": 1.0282378494739532, 
+            "x": 422.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0140206356253079, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278807, 
+            "ymax": 10.0, 
+            "y": 1.012442097067833, 
+            "x": 423.0, 
+            "ymin": 0.0, 
+            "yErr": 1.006201817265221, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278808, 
+            "ymax": 10.0, 
+            "y": 1.0294469594955444, 
+            "x": 424.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0146166564252455, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278820, 
+            "ymax": 10.0, 
+            "y": 1.0335696041584015, 
+            "x": 425.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0166462532062968, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278821, 
+            "ymax": 10.0, 
+            "y": 1.0404142141342163, 
+            "x": 426.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0200069676890529, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278822, 
+            "ymax": 10.0, 
+            "y": 1.0404736995697021, 
+            "x": 427.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0200361266002798, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278873, 
+            "ymax": 10.0, 
+            "y": 1.0489520728588104, 
+            "x": 428.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0241836128638313, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278874, 
+            "ymax": 10.0, 
+            "y": 1.0177017152309418, 
+            "x": 429.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0088120316644433, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278875, 
+            "ymax": 10.0, 
+            "y": 1.0356125235557556, 
+            "x": 430.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0176504918466633, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278923, 
+            "ymax": 10.0, 
+            "y": 1.0256700217723846, 
+            "x": 431.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0127536826753012, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278957, 
+            "ymax": 10.0, 
+            "y": 1.0270887911319733, 
+            "x": 432.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0134538919615304, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278962, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 433.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278963, 
+            "ymax": 10.0, 
+            "y": 1.0341435372829437, 
+            "x": 434.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0169284818918898, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278969, 
+            "ymax": 10.0, 
+            "y": 1.034774661064148, 
+            "x": 435.0, 
+            "ymin": 0.0, 
+            "yErr": 1.017238743395152, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278975, 
+            "ymax": 10.0, 
+            "y": 1.0280392169952393, 
+            "x": 436.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0139226878787353, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278976, 
+            "ymax": 10.0, 
+            "y": 1.0409921407699585, 
+            "x": 437.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0202902237941704, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 278986, 
+            "ymax": 10.0, 
+            "y": 1.0192315876483917, 
+            "x": 438.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0095700013611695, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279024, 
+            "ymax": 10.0, 
+            "y": 1.0276835262775421, 
+            "x": 439.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0137472694303753, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279029, 
+            "ymax": 10.0, 
+            "y": 1.0429157614707947, 
+            "x": 440.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0212324718059032, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279071, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 441.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279080, 
+            "ymax": 10.0, 
+            "y": 1.0118832141160965, 
+            "x": 442.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0059240598156982, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279115, 
+            "ymax": 10.0, 
+            "y": 1.0303617417812347, 
+            "x": 443.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0150673582483256, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279116, 
+            "ymax": 10.0, 
+            "y": 1.020557016134262, 
+            "x": 444.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0102262202765586, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279479, 
+            "ymax": 10.0, 
+            "y": 1.0306018590927124, 
+            "x": 445.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0151856278990126, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279480, 
+            "ymax": 10.0, 
+            "y": 0.7425467570622762, 
+            "x": 446.0, 
+            "ymin": 0.0, 
+            "yErr": 0.8617115277529228, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279488, 
+            "ymax": 10.0, 
+            "y": 1.0445902794599533, 
+            "x": 447.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0220519944992785, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279489, 
+            "ymax": 10.0, 
+            "y": 1.0317209959030151, 
+            "x": 448.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0157366764585274, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279588, 
+            "ymax": 10.0, 
+            "y": 1.025506317615509, 
+            "x": 449.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0126728581410234, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279653, 
+            "ymax": 10.0, 
+            "y": 1.0364022850990295, 
+            "x": 450.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0180384497154464, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279654, 
+            "ymax": 10.0, 
+            "y": 1.036440372467041, 
+            "x": 451.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0180571557958036, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279656, 
+            "ymax": 10.0, 
+            "y": 1.0260630995035172, 
+            "x": 452.0, 
+            "ymin": 0.0, 
+            "yErr": 1.01294772792258, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279658, 
+            "ymax": 10.0, 
+            "y": 0.7943590432405472, 
+            "x": 453.0, 
+            "ymin": 0.0, 
+            "yErr": 0.8912682218280573, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279667, 
+            "ymax": 10.0, 
+            "y": 0.7795629501342773, 
+            "x": 454.0, 
+            "ymin": 0.0, 
+            "yErr": 0.8829286212000816, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279681, 
+            "ymax": 10.0, 
+            "y": 0.7961114346981049, 
+            "x": 455.0, 
+            "ymin": 0.0, 
+            "yErr": 0.892250768953496, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279682, 
+            "ymax": 10.0, 
+            "y": 0.7969168275594711, 
+            "x": 456.0, 
+            "ymin": 0.0, 
+            "yErr": 0.8927019813798281, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279683, 
+            "ymax": 10.0, 
+            "y": 0.8020720928907394, 
+            "x": 457.0, 
+            "ymin": 0.0, 
+            "yErr": 0.8955847770539311, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279684, 
+            "ymax": 10.0, 
+            "y": 0.8009281009435654, 
+            "x": 458.0, 
+            "ymin": 0.0, 
+            "yErr": 0.8949458648117021, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279685, 
+            "ymax": 10.0, 
+            "y": 0.805091068148613, 
+            "x": 459.0, 
+            "ymin": 0.0, 
+            "yErr": 0.8972686711061593, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279691, 
+            "ymax": 10.0, 
+            "y": 1.0767657160758972, 
+            "x": 460.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0376732222023932, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279694, 
+            "ymax": 10.0, 
+            "y": 0.8246798515319824, 
+            "x": 461.0, 
+            "ymin": 0.0, 
+            "yErr": 0.9081188531970815, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279715, 
+            "ymax": 10.0, 
+            "y": 1.0406554043293, 
+            "x": 462.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0201251905179578, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279716, 
+            "ymax": 10.0, 
+            "y": 1.03592649102211, 
+            "x": 463.0, 
+            "ymin": 0.0, 
+            "yErr": 1.017804741108092, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279760, 
+            "ymax": 10.0, 
+            "y": 1.0185812711715698, 
+            "x": 464.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0092478739990338, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279766, 
+            "ymax": 10.0, 
+            "y": 1.0334711372852325, 
+            "x": 465.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0165978247494103, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279767, 
+            "ymax": 10.0, 
+            "y": 1.0239907205104828, 
+            "x": 466.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0119242661931191, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279794, 
+            "ymax": 10.0, 
+            "y": 1.0280416011810303, 
+            "x": 467.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0139238636017156, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279823, 
+            "ymax": 10.0, 
+            "y": 1.0467768013477325, 
+            "x": 468.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0231211078595401, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279841, 
+            "ymax": 10.0, 
+            "y": 1.0317308604717255, 
+            "x": 469.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0157415323160344, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279844, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 470.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279846, 
+            "ymax": 10.0, 
+            "y": 1.3673519492149353, 
+            "x": 471.0, 
+            "ymin": 0.0, 
+            "yErr": 1.169338252694632, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279848, 
+            "ymax": 10.0, 
+            "y": 1.351979821920395, 
+            "x": 472.0, 
+            "ymin": 0.0, 
+            "yErr": 1.1627466714295056, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279849, 
+            "ymax": 10.0, 
+            "y": 1.3549586236476898, 
+            "x": 473.0, 
+            "ymin": 0.0, 
+            "yErr": 1.1640268998814802, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279851, 
+            "ymax": 10.0, 
+            "y": 1.3138566315174103, 
+            "x": 474.0, 
+            "ymin": 0.0, 
+            "yErr": 1.1462358533554122, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279852, 
+            "ymax": 10.0, 
+            "y": 1.3571904301643372, 
+            "x": 475.0, 
+            "ymin": 0.0, 
+            "yErr": 1.1649851630661814, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279853, 
+            "ymax": 10.0, 
+            "y": 1.3748130202293396, 
+            "x": 476.0, 
+            "ymin": 0.0, 
+            "yErr": 1.1725242088031016, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279854, 
+            "ymax": 10.0, 
+            "y": 1.3489644527435303, 
+            "x": 477.0, 
+            "ymin": 0.0, 
+            "yErr": 1.161449289785624, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279855, 
+            "ymax": 10.0, 
+            "y": 1.3752725720405579, 
+            "x": 478.0, 
+            "ymin": 0.0, 
+            "yErr": 1.1727201593050909, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279856, 
+            "ymax": 10.0, 
+            "y": 1.3752324879169464, 
+            "x": 479.0, 
+            "ymin": 0.0, 
+            "yErr": 1.1727030689466735, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279857, 
+            "ymax": 10.0, 
+            "y": 1.375393569469452, 
+            "x": 480.0, 
+            "ymin": 0.0, 
+            "yErr": 1.1727717465344447, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279858, 
+            "ymax": 10.0, 
+            "y": 1.366723656654358, 
+            "x": 481.0, 
+            "ymin": 0.0, 
+            "yErr": 1.1690695687829522, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279859, 
+            "ymax": 10.0, 
+            "y": 1.3677666783332825, 
+            "x": 482.0, 
+            "ymin": 0.0, 
+            "yErr": 1.1695155742157872, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279860, 
+            "ymax": 10.0, 
+            "y": 1.3646458089351654, 
+            "x": 483.0, 
+            "ymin": 0.0, 
+            "yErr": 1.1681805549379622, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279861, 
+            "ymax": 10.0, 
+            "y": 1.3853218853473663, 
+            "x": 484.0, 
+            "ymin": 0.0, 
+            "yErr": 1.1769969776288154, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279865, 
+            "ymax": 10.0, 
+            "y": 1.05992990732193, 
+            "x": 485.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0295289735223239, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279887, 
+            "ymax": 10.0, 
+            "y": 1.0280971229076385, 
+            "x": 486.0, 
+            "ymin": 0.0, 
+            "yErr": 1.013951242865079, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279931, 
+            "ymax": 10.0, 
+            "y": 1.0463257133960724, 
+            "x": 487.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0229006371080587, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279966, 
+            "ymax": 10.0, 
+            "y": 1.0214950442314148, 
+            "x": 488.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0106903800033988, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279975, 
+            "ymax": 10.0, 
+            "y": 1.0419501066207886, 
+            "x": 489.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0207595733672001, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279993, 
+            "ymax": 10.0, 
+            "y": 1.027066707611084, 
+            "x": 490.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0134429967250669, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279994, 
+            "ymax": 10.0, 
+            "y": 1.032574087381363, 
+            "x": 491.0, 
+            "ymin": 0.0, 
+            "yErr": 1.016156527008198, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 279995, 
+            "ymax": 10.0, 
+            "y": 1.0221821665763855, 
+            "x": 492.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0110302500797814, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 280002, 
+            "ymax": 10.0, 
+            "y": 1.031397670507431, 
+            "x": 493.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0155775059085501, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 280006, 
+            "ymax": 10.0, 
+            "y": 1.0444095730781555, 
+            "x": 494.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0219635869629384, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 280007, 
+            "ymax": 10.0, 
+            "y": 1.0364727973937988, 
+            "x": 495.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0180730805761435, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 280013, 
+            "ymax": 10.0, 
+            "y": 1.0231491923332214, 
+            "x": 496.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0115083748210993, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 280014, 
+            "ymax": 10.0, 
+            "y": 1.0654138624668121, 
+            "x": 497.0, 
+            "ymin": 0.0, 
+            "yErr": 1.032188869571268, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 280015, 
+            "ymax": 10.0, 
+            "y": 1.026545137166977, 
+            "x": 498.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0131856380579902, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 280016, 
+            "ymax": 10.0, 
+            "y": 1.0356643497943878, 
+            "x": 499.0, 
+            "ymin": 0.0, 
+            "yErr": 1.017675955201059, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 280017, 
+            "ymax": 10.0, 
+            "y": 1.0439119935035706, 
+            "x": 500.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0217201150528312, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 280018, 
+            "ymax": 10.0, 
+            "y": 1.0378413498401642, 
+            "x": 501.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0187449876392836, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 280020, 
+            "ymax": 10.0, 
+            "y": 1.0335683822631836, 
+            "x": 502.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0166456522619784, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 280023, 
+            "ymax": 10.0, 
+            "y": 1.0000019520521164, 
+            "x": 503.0, 
+            "ymin": 0.0, 
+            "yErr": 1.000000976025582, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 280024, 
+            "ymax": 10.0, 
+            "y": 1.0282870829105377, 
+            "x": 504.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0140449116831747, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 280187, 
+            "ymax": 10.0, 
+            "y": 1.0221111178398132, 
+            "x": 505.0, 
+            "ymin": 0.0, 
+            "yErr": 1.010995112668609, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 280188, 
+            "ymax": 10.0, 
+            "y": 1.026660442352295, 
+            "x": 506.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0132425387597457, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 280190, 
+            "ymax": 10.0, 
+            "y": 1.0224047601222992, 
+            "x": 507.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0111403266225214, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 280191, 
+            "ymax": 10.0, 
+            "y": 1.0360801815986633, 
+            "x": 508.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0178802393202568, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 280194, 
+            "ymax": 10.0, 
+            "y": 1.0263983011245728, 
+            "x": 509.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0131131729103975, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 280242, 
+            "ymax": 10.0, 
+            "y": 1.0300072133541107, 
+            "x": 510.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0148927102674996, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 280249, 
+            "ymax": 10.0, 
+            "y": 1.0399637520313263, 
+            "x": 511.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0197861305348912, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 280251, 
+            "ymax": 10.0, 
+            "y": 1.0291432738304138, 
+            "x": 512.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0144669900151575, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 280327, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 513.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 280330, 
+            "ymax": 10.0, 
+            "y": 1.0380303263664246, 
+            "x": 514.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0188377330892415, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 280349, 
+            "ymax": 10.0, 
+            "y": 1.0308874547481537, 
+            "x": 515.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0153262799455915, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 280363, 
+            "ymax": 10.0, 
+            "y": 1.0330131649971008, 
+            "x": 516.0, 
+            "ymin": 0.0, 
+            "yErr": 1.01637255226472, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 280364, 
+            "ymax": 10.0, 
+            "y": 1.0318781435489655, 
+            "x": 517.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0158140300020302, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 280383, 
+            "ymax": 10.0, 
+            "y": 1.0363102853298187, 
+            "x": 518.0, 
+            "ymin": 0.0, 
+            "yErr": 1.017993263892163, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 280384, 
+            "ymax": 10.0, 
+            "y": 1.037899762392044, 
+            "x": 519.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0187736561140772, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 280385, 
+            "ymax": 10.0, 
+            "y": 1.025830626487732, 
+            "x": 520.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0128329706756845, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 281613, 
+            "ymax": 10.0, 
+            "y": 1.0344823598861694, 
+            "x": 521.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0170950594148855, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 281616, 
+            "ymax": 10.0, 
+            "y": 1.0507628321647644, 
+            "x": 522.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0250672329973114, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 281638, 
+            "ymax": 10.0, 
+            "y": 1.0295818746089935, 
+            "x": 523.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0146831400043037, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 281639, 
+            "ymax": 10.0, 
+            "y": 1.044516235589981, 
+            "x": 524.0, 
+            "ymin": 0.0, 
+            "yErr": 1.022015770714905, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 281641, 
+            "ymax": 10.0, 
+            "y": 1.0721595287322998, 
+            "x": 525.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0354513647353505, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 281663, 
+            "ymax": 10.0, 
+            "y": 1.0135187208652496, 
+            "x": 526.0, 
+            "ymin": 0.0, 
+            "yErr": 1.006736669077495, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 281671, 
+            "ymax": 10.0, 
+            "y": 0.05387205258011818, 
+            "x": 527.0, 
+            "ymin": 0.0, 
+            "yErr": 0.2321035384911617, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 281674, 
+            "ymax": 10.0, 
+            "y": 1.0253224968910217, 
+            "x": 528.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0125820939020311, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 281680, 
+            "ymax": 10.0, 
+            "y": 1.0493614375591278, 
+            "x": 529.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0243834426420255, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 281686, 
+            "ymax": 10.0, 
+            "y": 1.036808580160141, 
+            "x": 530.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0182379781564528, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 281689, 
+            "ymax": 10.0, 
+            "y": 1.0360978543758392, 
+            "x": 531.0, 
+            "ymin": 0.0, 
+            "yErr": 1.017888920450478, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 281691, 
+            "ymax": 10.0, 
+            "y": 1.0470325350761414, 
+            "x": 532.0, 
+            "ymin": 0.0, 
+            "yErr": 1.023246077478991, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 281693, 
+            "ymax": 10.0, 
+            "y": 1.0303840339183807, 
+            "x": 533.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0150783388085773, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 281707, 
+            "ymax": 10.0, 
+            "y": 1.033106654882431, 
+            "x": 534.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0164185431614434, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 281726, 
+            "ymax": 10.0, 
+            "y": 1.029680460691452, 
+            "x": 535.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0147317185795721, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 281727, 
+            "ymax": 10.0, 
+            "y": 1.034154236316681, 
+            "x": 536.0, 
+            "ymin": 0.0, 
+            "yErr": 1.016933742343463, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 281797, 
+            "ymax": 10.0, 
+            "y": 1.0411039292812347, 
+            "x": 537.0, 
+            "ymin": 0.0, 
+            "yErr": 1.020345005025866, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 281974, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 538.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 281975, 
+            "ymax": 10.0, 
+            "y": 1.0404602885246277, 
+            "x": 539.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0200295527702261, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 281976, 
+            "ymax": 10.0, 
+            "y": 1.0644381940364838, 
+            "x": 540.0, 
+            "ymin": 0.0, 
+            "yErr": 1.031716140242307, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 282033, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 541.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 282034, 
+            "ymax": 10.0, 
+            "y": 1.030606597661972, 
+            "x": 542.0, 
+            "ymin": 0.0, 
+            "yErr": 1.015187961740077, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 282035, 
+            "ymax": 10.0, 
+            "y": 1.0224682986736298, 
+            "x": 543.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0111717453892932, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 282037, 
+            "ymax": 10.0, 
+            "y": 1.0391401946544647, 
+            "x": 544.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0193822613006687, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 282092, 
+            "ymax": 10.0, 
+            "y": 1.036863535642624, 
+            "x": 545.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0182649633777172, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 282663, 
+            "ymax": 10.0, 
+            "y": 1.0010285824537277, 
+            "x": 546.0, 
+            "ymin": 0.0, 
+            "yErr": 1.000514159047101, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 282707, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 547.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 282708, 
+            "ymax": 10.0, 
+            "y": 1.026587963104248, 
+            "x": 548.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0132067721369848, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 282710, 
+            "ymax": 10.0, 
+            "y": 1.0305418968200684, 
+            "x": 549.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0151560948051626, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 282712, 
+            "ymax": 10.0, 
+            "y": 1.0407476425170898, 
+            "x": 550.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0201703987653679, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 282730, 
+            "ymax": 10.0, 
+            "y": 1.0441677272319794, 
+            "x": 551.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0218452560108988, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 282731, 
+            "ymax": 10.0, 
+            "y": 1.03025683760643, 
+            "x": 552.0, 
+            "ymin": 0.0, 
+            "yErr": 1.015015683428798, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 282732, 
+            "ymax": 10.0, 
+            "y": 1.0453825294971466, 
+            "x": 553.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0224394991866983, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 282733, 
+            "ymax": 10.0, 
+            "y": 1.046350121498108, 
+            "x": 554.0, 
+            "ymin": 0.0, 
+            "yErr": 1.022912567865948, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 282734, 
+            "ymax": 10.0, 
+            "y": 1.0236363112926483, 
+            "x": 555.0, 
+            "ymin": 0.0, 
+            "yErr": 1.011749134564813, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 282735, 
+            "ymax": 10.0, 
+            "y": 1.0435281693935394, 
+            "x": 556.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0215322654686632, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 282800, 
+            "ymax": 10.0, 
+            "y": 1.0452636182308197, 
+            "x": 557.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0223813467737073, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 282807, 
+            "ymax": 10.0, 
+            "y": 1.0415615737438202, 
+            "x": 558.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0205692400537163, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 282814, 
+            "ymax": 10.0, 
+            "y": 1.04158154129982, 
+            "x": 559.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0205790225650437, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 282842, 
+            "ymax": 10.0, 
+            "y": 1.0403195023536682, 
+            "x": 560.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0199605396061497, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 282917, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 561.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 282918, 
+            "ymax": 10.0, 
+            "y": 1.0347539186477661, 
+            "x": 562.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0172285478926386, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 282919, 
+            "ymax": 10.0, 
+            "y": 1.037136435508728, 
+            "x": 563.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0183989569460135, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 282922, 
+            "ymax": 10.0, 
+            "y": 1.0328180491924286, 
+            "x": 564.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0162765613711795, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 282923, 
+            "ymax": 10.0, 
+            "y": 1.0445720851421356, 
+            "x": 565.0, 
+            "ymin": 0.0, 
+            "yErr": 1.022043093583698, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 282924, 
+            "ymax": 10.0, 
+            "y": 0.7517482191324234, 
+            "x": 566.0, 
+            "ymin": 0.0, 
+            "yErr": 0.8670341510761981, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283042, 
+            "ymax": 10.0, 
+            "y": 1.0404541492462158, 
+            "x": 567.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0200265434027762, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283043, 
+            "ymax": 10.0, 
+            "y": 1.0350411534309387, 
+            "x": 568.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0173697230756078, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283049, 
+            "ymax": 10.0, 
+            "y": 1.0403823852539062, 
+            "x": 569.0, 
+            "ymin": 0.0, 
+            "yErr": 1.019991365283994, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283050, 
+            "ymax": 10.0, 
+            "y": 1.0297591388225555, 
+            "x": 570.0, 
+            "ymin": 0.0, 
+            "yErr": 1.014770485786099, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283052, 
+            "ymax": 10.0, 
+            "y": 1.0344643294811249, 
+            "x": 571.0, 
+            "ymin": 0.0, 
+            "yErr": 1.017086195698833, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283059, 
+            "ymax": 10.0, 
+            "y": 1.0276988744735718, 
+            "x": 572.0, 
+            "ymin": 0.0, 
+            "yErr": 1.013754839432874, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283270, 
+            "ymax": 10.0, 
+            "y": 1.0357015430927277, 
+            "x": 573.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0176942286820376, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283283, 
+            "ymax": 10.0, 
+            "y": 1.051402598619461, 
+            "x": 574.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0253792462398783, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283305, 
+            "ymax": 10.0, 
+            "y": 1.0416337549686432, 
+            "x": 575.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0206046026589548, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283306, 
+            "ymax": 10.0, 
+            "y": 1.029866099357605, 
+            "x": 576.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0148231862534502, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283307, 
+            "ymax": 10.0, 
+            "y": 1.041000247001648, 
+            "x": 577.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0202941962991106, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283308, 
+            "ymax": 10.0, 
+            "y": 1.0393497049808502, 
+            "x": 578.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0194850194980063, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283353, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 579.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283358, 
+            "ymax": 10.0, 
+            "y": 1.0284076929092407, 
+            "x": 580.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0141043796913811, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283359, 
+            "ymax": 10.0, 
+            "y": 1.0379595458507538, 
+            "x": 581.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0188029965850876, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283407, 
+            "ymax": 10.0, 
+            "y": 1.040113776922226, 
+            "x": 582.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0198596849185804, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283408, 
+            "ymax": 10.0, 
+            "y": 1.044128656387329, 
+            "x": 583.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0218261380427343, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283413, 
+            "ymax": 10.0, 
+            "y": 1.0090543627738953, 
+            "x": 584.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0045169798335394, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283415, 
+            "ymax": 10.0, 
+            "y": 1.038823515176773, 
+            "x": 585.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0192269203552136, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283416, 
+            "ymax": 10.0, 
+            "y": 1.012979045510292, 
+            "x": 586.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0064686013534114, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283453, 
+            "ymax": 10.0, 
+            "y": 1.0356467962265015, 
+            "x": 587.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0176673308240278, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283469, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 588.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283478, 
+            "ymax": 10.0, 
+            "y": 1.035022646188736, 
+            "x": 589.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0173606274024645, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283548, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 590.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283672, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 591.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283675, 
+            "ymax": 10.0, 
+            "y": 1.0703210532665253, 
+            "x": 592.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0345632185934919, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283676, 
+            "ymax": 10.0, 
+            "y": 1.0321237295866013, 
+            "x": 593.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0159349042072534, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283680, 
+            "ymax": 10.0, 
+            "y": 1.0357563197612762, 
+            "x": 594.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0177211404708444, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283681, 
+            "ymax": 10.0, 
+            "y": 1.0348623991012573, 
+            "x": 595.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0172818680686575, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283682, 
+            "ymax": 10.0, 
+            "y": 1.0412208139896393, 
+            "x": 596.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0204022804706188, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283685, 
+            "ymax": 10.0, 
+            "y": 1.0527421236038208, 
+            "x": 597.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0260322234724506, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283820, 
+            "ymax": 10.0, 
+            "y": 1.0347013175487518, 
+            "x": 598.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0172026924604318, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283830, 
+            "ymax": 10.0, 
+            "y": 1.041990876197815, 
+            "x": 599.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0207795433872169, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283834, 
+            "ymax": 10.0, 
+            "y": 1.0404344201087952, 
+            "x": 600.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0200168724628016, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283835, 
+            "ymax": 10.0, 
+            "y": 1.0539835691452026, 
+            "x": 601.0, 
+            "ymin": 0.0, 
+            "yErr": 1.026637019177276, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283863, 
+            "ymax": 10.0, 
+            "y": 0.8117330372333527, 
+            "x": 602.0, 
+            "ymin": 0.0, 
+            "yErr": 0.9009622840237834, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283865, 
+            "ymax": 10.0, 
+            "y": 1.0466916263103485, 
+            "x": 603.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0230794819124995, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283876, 
+            "ymax": 10.0, 
+            "y": 1.0449413359165192, 
+            "x": 604.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0222237210691791, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283877, 
+            "ymax": 10.0, 
+            "y": 1.0426531434059143, 
+            "x": 605.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0211038847276581, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283884, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 606.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283885, 
+            "ymax": 10.0, 
+            "y": 1.0500064194202423, 
+            "x": 607.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0246982089475136, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283933, 
+            "ymax": 10.0, 
+            "y": 1.0362026393413544, 
+            "x": 608.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0179403908585976, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283934, 
+            "ymax": 10.0, 
+            "y": 1.0532918870449066, 
+            "x": 609.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0263000959977089, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283946, 
+            "ymax": 10.0, 
+            "y": 1.040283739566803, 
+            "x": 610.0, 
+            "ymin": 0.0, 
+            "yErr": 1.01994300799937, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 283964, 
+            "ymax": 10.0, 
+            "y": 1.0510500073432922, 
+            "x": 611.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0252072996927462, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 284006, 
+            "ymax": 10.0, 
+            "y": 0.0, 
+            "x": 612.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 284014, 
+            "ymax": 10.0, 
+            "y": 1.0561578869819641, 
+            "x": 613.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0276954252024109, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 284025, 
+            "ymax": 10.0, 
+            "y": 1.0673699975013733, 
+            "x": 614.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0331360014544906, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 284029, 
+            "ymax": 10.0, 
+            "y": 1.0386288464069366, 
+            "x": 615.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0191314176331414, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 284035, 
+            "ymax": 10.0, 
+            "y": 1.0343020260334015, 
+            "x": 616.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0170064041260514, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 284036, 
+            "ymax": 10.0, 
+            "y": 1.0449307262897491, 
+            "x": 617.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0222185315722607, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 284037, 
+            "ymax": 10.0, 
+            "y": 1.0516838729381561, 
+            "x": 618.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0255163933054197, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 284038, 
+            "ymax": 10.0, 
+            "y": 1.057366520166397, 
+            "x": 619.0, 
+            "ymin": 0.0, 
+            "yErr": 1.028283287896092, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 284039, 
+            "ymax": 10.0, 
+            "y": 1.0427648425102234, 
+            "x": 620.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0211585785323567, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 284040, 
+            "ymax": 10.0, 
+            "y": 1.0439735651016235, 
+            "x": 621.0, 
+            "ymin": 0.0, 
+            "yErr": 1.02175024595134, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 284041, 
+            "ymax": 10.0, 
+            "y": 1.063826709985733, 
+            "x": 622.0, 
+            "ymin": 0.0, 
+            "yErr": 1.03141975450625, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 284042, 
+            "ymax": 10.0, 
+            "y": 1.0503580570220947, 
+            "x": 623.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0248697756408347, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 284043, 
+            "ymax": 10.0, 
+            "y": 1.0621054470539093, 
+            "x": 624.0, 
+            "ymin": 0.0, 
+            "yErr": 1.0305850023428, 
+            "yTitle": "Average digi occupancy FED 15"
+        }, 
+        {
+            "run": 284044, 
+            "ymax": 10.0, 
+            "y": 1.045924425125122, 
+            "x": 625.0, 
+            "ymin": 0.0, 
+            "yErr": 1.022704466170517, 
+            "yTitle": "Average digi occupancy FED 15"
+        }
+    ]
+}

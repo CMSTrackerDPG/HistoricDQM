@@ -1,0 +1,85 @@
+{
+    "clustCharge_ONTk_Barrel_mpv": [
+        {
+            "run": 285090, 
+            "ymax": 25.0, 
+            "y": 17.98025716763985, 
+            "x": 1.0, 
+            "ymin": 15.0, 
+            "yErr": 0.0012893920737793467, 
+            "yTitle": "BPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 285216, 
+            "ymax": 25.0, 
+            "y": 18.15785541264372, 
+            "x": 2.0, 
+            "ymin": 15.0, 
+            "yErr": 0.0002286438421035106, 
+            "yTitle": "BPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 285244, 
+            "ymax": 25.0, 
+            "y": 18.107640672380562, 
+            "x": 3.0, 
+            "ymin": 15.0, 
+            "yErr": 0.00019538431749605435, 
+            "yTitle": "BPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 285368, 
+            "ymax": 25.0, 
+            "y": 18.304283140223372, 
+            "x": 4.0, 
+            "ymin": 15.0, 
+            "yErr": 0.00040472575048179535, 
+            "yTitle": "BPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 285369, 
+            "ymax": 25.0, 
+            "y": 18.137046033172194, 
+            "x": 5.0, 
+            "ymin": 15.0, 
+            "yErr": 0.0003287211230146404, 
+            "yTitle": "BPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 285371, 
+            "ymax": 25.0, 
+            "y": 18.1088286369299, 
+            "x": 6.0, 
+            "ymin": 15.0, 
+            "yErr": 0.00038822299605003057, 
+            "yTitle": "BPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 285374, 
+            "ymax": 25.0, 
+            "y": 18.091423669302934, 
+            "x": 7.0, 
+            "ymin": 15.0, 
+            "yErr": 0.0011188989371872346, 
+            "yTitle": "BPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 285383, 
+            "ymax": 25.0, 
+            "y": 18.302258848496404, 
+            "x": 8.0, 
+            "ymin": 15.0, 
+            "yErr": 0.0002724513659800306, 
+            "yTitle": "BPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 285479, 
+            "ymax": 25.0, 
+            "y": 18.358794448672562, 
+            "x": 9.0, 
+            "ymin": 15.0, 
+            "yErr": 0.01154251390935117, 
+            "yTitle": "BPIX Cluster Charge (mpv)"
+        }
+    ]
+}

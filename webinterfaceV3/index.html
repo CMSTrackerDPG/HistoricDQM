@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+<script src="js/jquery-3.1.1.min.js"></script>
+
+<script src="js/highcharts.js"></script>
+<script src="js/highcharts-more.js"></script>
+<script src="js/exporting.js"></script>
+
+<script src="js/chart.js"></script>
+<script src="js/chartList.js"></script>
+<script src="js/index.js"></script>
+
+<link href="facebox/src/facebox.css" media="screen" rel="stylesheet"
+	type="text/css" />
+<script src="facebox/src/facebox.js" type="text/javascript"></script>
+<script src="js/popup.js"></script>
+<title>HDQM</title>
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/chart.css">
+<link rel="stylesheet" href="css/chartList.css">
+<link rel="stylesheet" href="css/popup.css">
+<style>
+header {
+	margin: 10px;
+	font-size: 15px;
+}
+
+.contact-text {
+	overflow: hidden;
+	/*margin-bottom: 20px;*/
+	margin: 10px;
+	/*padding: 5px;*/
+	padding-bottom: 12px;
+	display: inline-block;
+	font-size: 15px;
+	margin-left: 0px;
+}
+
+.contact-input {
+	width: 20%;
+	overflow: hidden;
+	/*margin-bottom: 20px;*/
+	margin: 10px;
+	padding: 5px;
+	background: #eef7f9;
+	border-radius: 2px;
+	display: inline-block;
+}
+.contact-input1 {
+	width: 23%;
+	overflow: hidden;
+	/*margin-bottom: 20px;*/
+	margin: 10px;
+	padding: 5px;
+	background: #eef7f9;
+	border-radius: 2px;
+	display: inline-block;
+}
+
+.contact-input>input,.contact-input>textarea { //
+	display: block;
+	width: 30%;
+	height: 29px;
+	padding: 0 9px;
+	color: #4d5a5e;
+	background: white;
+	border: 1px solid #cfdfe3;
+	border-bottom-color: #d2e2e7;
+	border-radius: 2px;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05), 0 1px
+		rgba(255, 255, 255, 0.2);
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05), 0 1px
+		rgba(255, 255, 255, 0.2);
+}
+
+.contact-input>input:focus,.contact-input>textarea:focus {
+	border-color: #93c2ec;
+	outline: 0;
+	-webkit-box-shadow: 0 0 0 8px #e1ecf5;
+	box-shadow: 0 0 0 8px #e1ecf5;
+}
+
+.lt-ie9 .contact-input>input,.lt-ie9 .contact-input>textarea {
+	line-height: 27px;
+}
+
+.contact-input>textarea {
+	padding: 4px 8px;
+	height: 90px;
+	line-height: 20px;
+	resize: none;
+}
+
+.select {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	background: white;
+	border: 1px solid #d2e2e7;
+	border-bottom-color: #c5d4d9;
+	border-radius: 2px;
+	background-image: -webkit-linear-gradient(top, #fcfdff, #f2f7f7);
+	background-image: -moz-linear-gradient(top, #fcfdff, #f2f7f7);
+	background-image: -o-linear-gradient(top, #fcfdff, #f2f7f7);
+	background-image: linear-gradient(to bottom, #fcfdff, #f2f7f7);
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+.select:before,.select:after {
+	content: '';
+	position: absolute;
+	right: 11px;
+	width: 0;
+	height: 0;
+	border-left: 3px outset transparent;
+	border-right: 3px outset transparent;
+}
+
+.select:before {
+	top: 10px;
+	border-bottom: 3px solid #7f9298;
+}
+
+.select:after {
+	top: 16px;
+	border-top: 3px solid #7f9298;
+}
+
+.select>select {
+	position: relative;
+	z-index: 2;
+	width: 112%;
+	height: 29px;
+	line-height: 17px;
+	padding: 5px 9px;
+	padding-right: 0;
+	color: #80989f;
+	background: transparent;
+	background: rgba(0, 0, 0, 0);
+	border: 0;
+	-webkit-appearance: none;
+}
+
+.select>select:focus {
+	color: #4d5a5e;
+	outline: 0;
+}
+
+.contact-submit { //
+	text-align: right;
+	margin-left: auto;
+	margin-right: auto;
+	width: 10%;
+}
+
+.contact-submit>button {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 14px;
+	height: 29px;
+	font-weight: bold;
+	color: #729fb2;
+	text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+	background: #deeef4;
+	border: 1px solid #bed6e3;
+	border-bottom-color: #accbd9;
+	border-radius: 15px;
+	cursor: pointer;
+	background-image: -webkit-linear-gradient(top, #e6f2f7, #d0e6ee);
+	background-image: -moz-linear-gradient(top, #e6f2f7, #d0e6ee);
+	background-image: -o-linear-gradient(top, #e6f2f7, #d0e6ee);
+	background-image: linear-gradient(to bottom, #e6f2f7, #d0e6ee);
+	-webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), 0 1px 1px
+		rgba(0, 0, 0, 0.06), 0 0 0 4px #eef7f9;
+	box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), 0 1px 1px
+		rgba(0, 0, 0, 0.06), 0 0 0 4px #eef7f9;
+}
+
+.contact-submit>button:active {
+	color: #6a95a9;
+	text-shadow: 0 1px rgba(255, 255, 255, 0.3);
+	background: #c9dfe9;
+	border-color: #a3bed0 #b5ccda #b5ccda;
+	-webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px
+		rgba(255, 255, 255, 0.2), 0 0 0 4px #eef7f9;
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px
+		rgba(255, 255, 255, 0.2), 0 0 0 4px #eef7f9;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-dialog{
+    overflow-y: initial !important
+}
+.modal-body {
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;    
+}
+</style>
+
+</head>
+
+<body>
+	<header>
+		<p class="contact-input"> 		 
+			<label for="select" class="select"> <select id="year"
+				name="Year">
+					<option value="" selected>Choose Year...</option>
+					<option>2011</option>
+					<option>2012</option>
+					<option>2013</option>
+					<option>2015</option>
+					<option>2016</option>
+					<option>2017</option>
+			</select></label>
+		</p>
+		<p class="contact-input">
+			<label for="select" class="select"> <select id="dataSet"
+				name="dataset">
+					<option value="" selected>Choose DataSet...</option>
+					<option>StreamExpress</option>
+					<option>StreamExpressCosmics</option>
+					<option>ZeroBias</option>
+					<option>Cosmics</option>
+			</select></label>
+		</p>
+		<p class="contact-input1">
+			<label for="select" class="select"> <select id="apvMode"
+				name="apvmode">
+					<option value="" selected>Choose Strip APV Mode...</option>
+					<option>DECO</option>
+					<option>PEAK</option>
+					<option>PEAK + DECO</option>
+			</select></label>
+		</p>
+		<p class="contact-input">
+			<label for="select" class="select"> <select id="subsystem"
+				name="subsystem"  onchange="update_subsystem();">
+					<option value="" selected>Choose Sub-System...</option>
+					<option>Pixel</option>
+					<option>PixelPhase1</option>
+					<option>Strips</option>
+					<option>Tracking</option>
+					<option>RecoErrors</option>
+					<!--<option>Alignment</option></p-->
+			</select></label>
+		</p>
+		<br />
+		<!-- p class="contact-text">Run range</p-->
+		<p class="contact-input">
+			<label><input id="runFrom" name="runfrom"
+				placeholder=" Run Range (From)"> </label>
+		</p>
+		<p class="contact-input">
+			<label><input id="runTo" name="runto"
+				placeholder=" Run range (To)"></label>
+		</p>
+		<div>
+			<span style="float:left">Charts per page:
+			<input id="per-page" type="number" value="6" style="display: inline; width: 40px">
+			</span>
+			<p class="contact-submit" style="text-align: center">
+				<button id="search">Submit</button>
+			</p>
+
+		</div>
+		<!-- Trigger/Open The Modal -->
+   			<button id="myBtn"><font color="red">Short Help Instructions</font></button>
+
+		<!-- The Modal -->
+			<div id="myModal" class="modal">
+
+	     		  <!-- Modal content -->
+  				<div class="modal-content">
+    					<div class="modal-header">
+      					    <span class="close">&times;</span>
+      					    <h2>How to use the hDQM</h2>
+    					</div>
+				        <div class="modal-body">
+                                            <ul>
+					        <li>In the <b>RunRange(From)</b>, put <b>0</b> if you want to start from the first run of the collection </li>
+     					        <br>      
+      						<li>In the <b>RunRange(To)</b>, put <b>0</b> if you want to end  with the last run of the collection</li>
+      						<br>
+						
+						<li>Otherwise, set  a <b>Starting run</b>  and a <b>Final run</b>  in the appropriate <b>RunRange </b> buttons</li>
+						<br>
+      						<li><b>Notification 1:</b> If you select <b>Strips</b> you have the option to choose <b>PEAK</b> or <b>DECO</b> mode</li>
+      						<br>
+     					        <li><b>Notification 2:</b> If you select <b>Tracking</b> or <b>RecoErrors</b>  the only option you have is <b>PEAK+DECO</b> mode</li>
+						<br>
+						<li>There is a <b>Charts per page</b> counter left to the <b>Submit</b> button that specifies the number of plots to be drawn per page</li>
+      						<br>
+      						<li>Initially all the check buttons are ON(Activated)</li>
+     					        <br>      
+      						<li>Clicking <b>TWICE</b> in any check button you  select or de-select all the plots</li>
+      						<br>
+      						<li>Clicking <b>ONCE</b> in a button you can select individual plots or groups of plots</li>
+      						<br>
+     					        <li>By clicking in a legend, you can show or hide the points on the specific plot</li>
+      						<br>
+     						<li>With the left mouse button, you can do dynamic zooming</li>
+      						<br>
+      						<li>The <b>Reset zoom</b> button on the plot area resets the initial view of the plot</li>
+ 						<br>
+						<li> There is a square button in the uper right place of each plot where you can left click and localy save an image of the plot</li>	
+      						<br>
+      						
+   
+    					    </ul> 
+
+
+					</div>
+      					<div class="modal-footer">
+      					     <h3></h3>
+    					</div>
+  				</div>
+
+			</div>
+		
+		
+		
+		
+	</header>
+	<hr>
+	<div id="list-cotnainer">
+	</div>
+	<div style="width:100%">
+		<div id="body">
+		</div>
+	</div>
+	<div id="nav-buttons" hidden style="width: 360px; margin-left: auto; margin-right: auto;">
+		<button id="prev-button" style="margin-bottom: 50px; display: inline" class="popUp">Previous Plots</button>
+		<button id="next-button" style="margin-bottom: 50px; display: inline" class="popUp">Next Plots</button>
+	</div>
+	<div id="popup" style="width:700px" hidden>
+		<div id="inputArea">
+			<p class="contact-input1">
+				<label><input id="start" placeholder="From"></input></label>
+			</p>
+			<p class="contact-input1">
+				<label><input id="end" placeholder="To"></input></label>
+			</p>
+			<br />
+			<p class="contact-submit1"><button onclick="updatePopup();">Submit</button></p>
+			<br /> 
+		</div>
+		<div id="popup-chart" class="chart">
+		</div>
+	</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+{
+    "HitResiduals_X_BPIX_L1_mean": [
+        {
+            "run": 285090, 
+            "ymax": 0.0005, 
+            "y": -0.00013371210888306974, 
+            "x": 1.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.161328823126978e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 285216, 
+            "ymax": 0.0005, 
+            "y": 9.71082512444859e-06, 
+            "x": 2.0, 
+            "ymin": -0.0005, 
+            "yErr": 6.430050685957339e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 285244, 
+            "ymax": 0.0005, 
+            "y": 1.190160359985012e-05, 
+            "x": 3.0, 
+            "ymin": -0.0005, 
+            "yErr": 5.310850425836142e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 285368, 
+            "ymax": 0.0005, 
+            "y": -5.382614206537327e-05, 
+            "x": 4.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.2300517605362303e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 285369, 
+            "ymax": 0.0005, 
+            "y": -6.2487221018891555e-06, 
+            "x": 5.0, 
+            "ymin": -0.0005, 
+            "yErr": 9.612551075960932e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 285371, 
+            "ymax": 0.0005, 
+            "y": 2.8840867088840942e-05, 
+            "x": 6.0, 
+            "ymin": -0.0005, 
+            "yErr": 1.0457303070556157e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 285374, 
+            "ymax": 0.0005, 
+            "y": 3.655563990228083e-05, 
+            "x": 7.0, 
+            "ymin": -0.0005, 
+            "yErr": 2.97030586055699e-06, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 285383, 
+            "ymax": 0.0005, 
+            "y": -2.8369192301429313e-05, 
+            "x": 8.0, 
+            "ymin": -0.0005, 
+            "yErr": 8.128681175607582e-07, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }, 
+        {
+            "run": 285479, 
+            "ymax": 0.0005, 
+            "y": -3.6327318482290765e-05, 
+            "x": 9.0, 
+            "ymin": -0.0005, 
+            "yErr": 3.271331496438567e-05, 
+            "yTitle": "HitResiduals X BPIX Mean"
+        }
+    ]
+}

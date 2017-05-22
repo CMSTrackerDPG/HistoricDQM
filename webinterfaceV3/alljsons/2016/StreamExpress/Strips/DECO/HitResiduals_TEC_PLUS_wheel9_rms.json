@@ -1,0 +1,5881 @@
+{
+    "HitResiduals_TEC_PLUS_wheel9_rms": [
+        {
+            "run": 271037, 
+            "ymax": 0.1, 
+            "y": 0.02009846137357372, 
+            "x": 1.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0006121437660702118, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271044, 
+            "ymax": 0.1, 
+            "y": 0.020536735045839208, 
+            "x": 2.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00024046314372674977, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271045, 
+            "ymax": 0.1, 
+            "y": 0.020267110974710647, 
+            "x": 3.0, 
+            "ymin": -0.05, 
+            "yErr": 5.391371403141242e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271046, 
+            "ymax": 0.1, 
+            "y": 0.020405307752554058, 
+            "x": 4.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0006824555811331127, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271047, 
+            "ymax": 0.1, 
+            "y": 0.020504879783941287, 
+            "x": 5.0, 
+            "ymin": -0.05, 
+            "yErr": 5.543155249889182e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271048, 
+            "ymax": 0.1, 
+            "y": 0.020228483768291047, 
+            "x": 6.0, 
+            "ymin": -0.05, 
+            "yErr": 3.156242155196097e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271049, 
+            "ymax": 0.1, 
+            "y": 0.02019615990903289, 
+            "x": 7.0, 
+            "ymin": -0.05, 
+            "yErr": 4.842660787143225e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271050, 
+            "ymax": 0.1, 
+            "y": 0.021048549382759265, 
+            "x": 8.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00033465246567177117, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271052, 
+            "ymax": 0.1, 
+            "y": 0.01995382991966184, 
+            "x": 9.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00012235858158967123, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271056, 
+            "ymax": 0.1, 
+            "y": 0.019976628766734124, 
+            "x": 10.0, 
+            "ymin": -0.05, 
+            "yErr": 6.621220306824481e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271304, 
+            "ymax": 0.1, 
+            "y": 0.02113396512107126, 
+            "x": 11.0, 
+            "ymin": -0.05, 
+            "yErr": 1.3007071166060464e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271305, 
+            "ymax": 0.1, 
+            "y": 0.021174304911946443, 
+            "x": 12.0, 
+            "ymin": -0.05, 
+            "yErr": 4.228725324476523e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271306, 
+            "ymax": 0.1, 
+            "y": 0.02104079659522108, 
+            "x": 13.0, 
+            "ymin": -0.05, 
+            "yErr": 6.187544735766426e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271307, 
+            "ymax": 0.1, 
+            "y": 0.021110037896054857, 
+            "x": 14.0, 
+            "ymin": -0.05, 
+            "yErr": 1.11923446612192e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271310, 
+            "ymax": 0.1, 
+            "y": 0.020862629831384715, 
+            "x": 15.0, 
+            "ymin": -0.05, 
+            "yErr": 1.4757361583358113e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271312, 
+            "ymax": 0.1, 
+            "y": 0.020630870877544474, 
+            "x": 16.0, 
+            "ymin": -0.05, 
+            "yErr": 8.663091091372111e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271313, 
+            "ymax": 0.1, 
+            "y": 0.020311905205042367, 
+            "x": 17.0, 
+            "ymin": -0.05, 
+            "yErr": 1.4437456203657178e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271314, 
+            "ymax": 0.1, 
+            "y": 0.02026193058344514, 
+            "x": 18.0, 
+            "ymin": -0.05, 
+            "yErr": 1.5830068060092426e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271317, 
+            "ymax": 0.1, 
+            "y": 0.020332466062741146, 
+            "x": 19.0, 
+            "ymin": -0.05, 
+            "yErr": 1.313988374394181e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271318, 
+            "ymax": 0.1, 
+            "y": 0.020413684208701263, 
+            "x": 20.0, 
+            "ymin": -0.05, 
+            "yErr": 1.499509537056487e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271319, 
+            "ymax": 0.1, 
+            "y": 0.02036671249160374, 
+            "x": 21.0, 
+            "ymin": -0.05, 
+            "yErr": 1.4260935156325787e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271321, 
+            "ymax": 0.1, 
+            "y": 0.02036007076523731, 
+            "x": 22.0, 
+            "ymin": -0.05, 
+            "yErr": 1.3297185332168796e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271322, 
+            "ymax": 0.1, 
+            "y": 0.02023163356333904, 
+            "x": 23.0, 
+            "ymin": -0.05, 
+            "yErr": 1.550702417266364e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271323, 
+            "ymax": 0.1, 
+            "y": 0.020240786240735897, 
+            "x": 24.0, 
+            "ymin": -0.05, 
+            "yErr": 1.4669254684601738e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271324, 
+            "ymax": 0.1, 
+            "y": 0.020277400423726007, 
+            "x": 25.0, 
+            "ymin": -0.05, 
+            "yErr": 1.5585914400188784e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271327, 
+            "ymax": 0.1, 
+            "y": 0.020206958095492354, 
+            "x": 26.0, 
+            "ymin": -0.05, 
+            "yErr": 1.570423097313315e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271328, 
+            "ymax": 0.1, 
+            "y": 0.02015240653924484, 
+            "x": 27.0, 
+            "ymin": -0.05, 
+            "yErr": 1.554804876163011e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271329, 
+            "ymax": 0.1, 
+            "y": 0.020092701074597142, 
+            "x": 28.0, 
+            "ymin": -0.05, 
+            "yErr": 1.566427255659577e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271330, 
+            "ymax": 0.1, 
+            "y": 0.02020166982803828, 
+            "x": 29.0, 
+            "ymin": -0.05, 
+            "yErr": 1.5945787133616093e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271331, 
+            "ymax": 0.1, 
+            "y": 0.0202298690767284, 
+            "x": 30.0, 
+            "ymin": -0.05, 
+            "yErr": 1.5793830872704893e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271332, 
+            "ymax": 0.1, 
+            "y": 0.020203092508153685, 
+            "x": 31.0, 
+            "ymin": -0.05, 
+            "yErr": 1.539350371215109e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271336, 
+            "ymax": 0.1, 
+            "y": 0.020644364840974812, 
+            "x": 32.0, 
+            "ymin": -0.05, 
+            "yErr": 6.130452719080584e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271337, 
+            "ymax": 0.1, 
+            "y": 0.020524996144934488, 
+            "x": 33.0, 
+            "ymin": -0.05, 
+            "yErr": 4.004513309763301e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271338, 
+            "ymax": 0.1, 
+            "y": 0.020696063104051143, 
+            "x": 34.0, 
+            "ymin": -0.05, 
+            "yErr": 5.136179511375874e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271342, 
+            "ymax": 0.1, 
+            "y": 0.020515074881611056, 
+            "x": 35.0, 
+            "ymin": -0.05, 
+            "yErr": 2.033105767866845e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271645, 
+            "ymax": 0.1, 
+            "y": 0.021244564345257174, 
+            "x": 36.0, 
+            "ymin": -0.05, 
+            "yErr": 6.478808204542944e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271646, 
+            "ymax": 0.1, 
+            "y": 0.021300128070496277, 
+            "x": 37.0, 
+            "ymin": -0.05, 
+            "yErr": 2.411492533377451e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271648, 
+            "ymax": 0.1, 
+            "y": 0.021946302085972865, 
+            "x": 38.0, 
+            "ymin": -0.05, 
+            "yErr": 0.000987410812093745, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 271649, 
+            "ymax": 0.1, 
+            "y": 0.02455292308320721, 
+            "x": 39.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0012628660943668157, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 272007, 
+            "ymax": 0.1, 
+            "y": 0.0266332218736376, 
+            "x": 40.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0014443892535585129, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 272008, 
+            "ymax": 0.1, 
+            "y": 0.02442012093872432, 
+            "x": 41.0, 
+            "ymin": -0.05, 
+            "yErr": 3.2043374487628805e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 272010, 
+            "ymax": 0.1, 
+            "y": 0.024536284465353126, 
+            "x": 42.0, 
+            "ymin": -0.05, 
+            "yErr": 3.859070471934021e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 272011, 
+            "ymax": 0.1, 
+            "y": 0.023959508563686293, 
+            "x": 43.0, 
+            "ymin": -0.05, 
+            "yErr": 1.282308531819733e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 272012, 
+            "ymax": 0.1, 
+            "y": 0.02396026630584551, 
+            "x": 44.0, 
+            "ymin": -0.05, 
+            "yErr": 1.3139207524964597e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 272014, 
+            "ymax": 0.1, 
+            "y": 0.024278383417924407, 
+            "x": 45.0, 
+            "ymin": -0.05, 
+            "yErr": 1.868006822582333e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 272016, 
+            "ymax": 0.1, 
+            "y": 0.024481187768031723, 
+            "x": 46.0, 
+            "ymin": -0.05, 
+            "yErr": 3.208011898960014e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 272017, 
+            "ymax": 0.1, 
+            "y": 0.023092926156844537, 
+            "x": 47.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00013015108997677279, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 272019, 
+            "ymax": 0.1, 
+            "y": 0.022268341329620224, 
+            "x": 48.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0011393474590258542, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 272021, 
+            "ymax": 0.1, 
+            "y": 0.023809792754023312, 
+            "x": 49.0, 
+            "ymin": -0.05, 
+            "yErr": 1.8195794076055234e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 272022, 
+            "ymax": 0.1, 
+            "y": 0.024307557285209728, 
+            "x": 50.0, 
+            "ymin": -0.05, 
+            "yErr": 2.3615691962319495e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 272775, 
+            "ymax": 0.1, 
+            "y": 0.02457145306843024, 
+            "x": 51.0, 
+            "ymin": -0.05, 
+            "yErr": 1.9962124095473433e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 272776, 
+            "ymax": 0.1, 
+            "y": 0.024275067370529327, 
+            "x": 52.0, 
+            "ymin": -0.05, 
+            "yErr": 2.7459288763588998e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 272782, 
+            "ymax": 0.1, 
+            "y": 0.024303482837209144, 
+            "x": 53.0, 
+            "ymin": -0.05, 
+            "yErr": 5.0362152501999943e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 272783, 
+            "ymax": 0.1, 
+            "y": 0.024428475535023877, 
+            "x": 54.0, 
+            "ymin": -0.05, 
+            "yErr": 2.2395635909778382e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 272784, 
+            "ymax": 0.1, 
+            "y": 0.024176063936717455, 
+            "x": 55.0, 
+            "ymin": -0.05, 
+            "yErr": 1.6247516234250597e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 272785, 
+            "ymax": 0.1, 
+            "y": 0.024233129584836057, 
+            "x": 56.0, 
+            "ymin": -0.05, 
+            "yErr": 2.3753062087417877e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 272786, 
+            "ymax": 0.1, 
+            "y": 0.024036429859514596, 
+            "x": 57.0, 
+            "ymin": -0.05, 
+            "yErr": 3.680832772192968e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 272798, 
+            "ymax": 0.1, 
+            "y": 0.022322102109432748, 
+            "x": 58.0, 
+            "ymin": -0.05, 
+            "yErr": 6.744167445021643e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 272811, 
+            "ymax": 0.1, 
+            "y": 0.02288148087485582, 
+            "x": 59.0, 
+            "ymin": -0.05, 
+            "yErr": 2.8949801784612377e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 272812, 
+            "ymax": 0.1, 
+            "y": 0.02263730724793783, 
+            "x": 60.0, 
+            "ymin": -0.05, 
+            "yErr": 1.3760612317440863e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 272814, 
+            "ymax": 0.1, 
+            "y": 0.022583420259282054, 
+            "x": 61.0, 
+            "ymin": -0.05, 
+            "yErr": 9.76512431408438e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 272815, 
+            "ymax": 0.1, 
+            "y": 0.022072129648139857, 
+            "x": 62.0, 
+            "ymin": -0.05, 
+            "yErr": 6.34812481612966e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 272816, 
+            "ymax": 0.1, 
+            "y": 0.022572168735727243, 
+            "x": 63.0, 
+            "ymin": -0.05, 
+            "yErr": 5.5917288753600146e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 272818, 
+            "ymax": 0.1, 
+            "y": 0.02252301991726439, 
+            "x": 64.0, 
+            "ymin": -0.05, 
+            "yErr": 1.1096236226990414e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 272827, 
+            "ymax": 0.1, 
+            "y": 0.023441841050744785, 
+            "x": 65.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00025408317598875715, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 272828, 
+            "ymax": 0.1, 
+            "y": 0.022923787978949645, 
+            "x": 66.0, 
+            "ymin": -0.05, 
+            "yErr": 6.544526944203427e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 272930, 
+            "ymax": 0.1, 
+            "y": 0.022414302727091637, 
+            "x": 67.0, 
+            "ymin": -0.05, 
+            "yErr": 2.0191344879627562e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 272936, 
+            "ymax": 0.1, 
+            "y": 0.022825859362018495, 
+            "x": 68.0, 
+            "ymin": -0.05, 
+            "yErr": 1.378537035629056e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273013, 
+            "ymax": 0.1, 
+            "y": 0.022782437699005346, 
+            "x": 69.0, 
+            "ymin": -0.05, 
+            "yErr": 1.5018383754759784e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273017, 
+            "ymax": 0.1, 
+            "y": 0.02269028966300438, 
+            "x": 70.0, 
+            "ymin": -0.05, 
+            "yErr": 8.916461149292415e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273150, 
+            "ymax": 0.1, 
+            "y": 0.023114000110589127, 
+            "x": 71.0, 
+            "ymin": -0.05, 
+            "yErr": 6.521577070098735e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273158, 
+            "ymax": 0.1, 
+            "y": 0.02265274109736305, 
+            "x": 72.0, 
+            "ymin": -0.05, 
+            "yErr": 5.4844503133446884e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273291, 
+            "ymax": 0.1, 
+            "y": 0.02280266320062261, 
+            "x": 73.0, 
+            "ymin": -0.05, 
+            "yErr": 2.3627787229697194e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273292, 
+            "ymax": 0.1, 
+            "y": 0.020862046439980804, 
+            "x": 74.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0004023854565942215, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273294, 
+            "ymax": 0.1, 
+            "y": 0.01434397291652754, 
+            "x": 75.0, 
+            "ymin": -0.05, 
+            "yErr": 0.002813084530916167, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273299, 
+            "ymax": 0.1, 
+            "y": 0.02261050806714398, 
+            "x": 76.0, 
+            "ymin": -0.05, 
+            "yErr": 2.948508984974537e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273301, 
+            "ymax": 0.1, 
+            "y": 0.022616071874825033, 
+            "x": 77.0, 
+            "ymin": -0.05, 
+            "yErr": 7.976056707646702e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273302, 
+            "ymax": 0.1, 
+            "y": 0.02240438552393856, 
+            "x": 78.0, 
+            "ymin": -0.05, 
+            "yErr": 9.391037239632204e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273402, 
+            "ymax": 0.1, 
+            "y": 0.02240237453254423, 
+            "x": 79.0, 
+            "ymin": -0.05, 
+            "yErr": 1.4760730944318652e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273403, 
+            "ymax": 0.1, 
+            "y": 0.02235401407153393, 
+            "x": 80.0, 
+            "ymin": -0.05, 
+            "yErr": 2.8069954996173618e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273404, 
+            "ymax": 0.1, 
+            "y": 0.022334634490349916, 
+            "x": 81.0, 
+            "ymin": -0.05, 
+            "yErr": 4.792795878090825e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273405, 
+            "ymax": 0.1, 
+            "y": 0.022279858198086762, 
+            "x": 82.0, 
+            "ymin": -0.05, 
+            "yErr": 4.099262283716928e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273406, 
+            "ymax": 0.1, 
+            "y": 0.022099797032682573, 
+            "x": 83.0, 
+            "ymin": -0.05, 
+            "yErr": 1.9181221244701906e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273408, 
+            "ymax": 0.1, 
+            "y": 0.022960407218185385, 
+            "x": 84.0, 
+            "ymin": -0.05, 
+            "yErr": 9.068815605035944e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273409, 
+            "ymax": 0.1, 
+            "y": 0.02232358311442383, 
+            "x": 85.0, 
+            "ymin": -0.05, 
+            "yErr": 1.217091581767615e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273410, 
+            "ymax": 0.1, 
+            "y": 0.022120504268218523, 
+            "x": 86.0, 
+            "ymin": -0.05, 
+            "yErr": 2.240198382496523e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273411, 
+            "ymax": 0.1, 
+            "y": 0.022091237227721484, 
+            "x": 87.0, 
+            "ymin": -0.05, 
+            "yErr": 4.212204792154625e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273425, 
+            "ymax": 0.1, 
+            "y": 0.022511098846768614, 
+            "x": 88.0, 
+            "ymin": -0.05, 
+            "yErr": 7.465563382381099e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273426, 
+            "ymax": 0.1, 
+            "y": 0.022385887051634617, 
+            "x": 89.0, 
+            "ymin": -0.05, 
+            "yErr": 2.6664910363467865e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273446, 
+            "ymax": 0.1, 
+            "y": 0.02341163586856598, 
+            "x": 90.0, 
+            "ymin": -0.05, 
+            "yErr": 3.54732342336549e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273447, 
+            "ymax": 0.1, 
+            "y": 0.022779704536387908, 
+            "x": 91.0, 
+            "ymin": -0.05, 
+            "yErr": 9.822843013564468e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273448, 
+            "ymax": 0.1, 
+            "y": 0.022576724821263435, 
+            "x": 92.0, 
+            "ymin": -0.05, 
+            "yErr": 1.0369351884719547e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273449, 
+            "ymax": 0.1, 
+            "y": 0.022539177111044133, 
+            "x": 93.0, 
+            "ymin": -0.05, 
+            "yErr": 2.577534208994025e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273450, 
+            "ymax": 0.1, 
+            "y": 0.022250177086891934, 
+            "x": 94.0, 
+            "ymin": -0.05, 
+            "yErr": 1.5014175334848117e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273492, 
+            "ymax": 0.1, 
+            "y": 0.02221985487147332, 
+            "x": 95.0, 
+            "ymin": -0.05, 
+            "yErr": 1.3234720905435308e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273493, 
+            "ymax": 0.1, 
+            "y": 0.0222910619213609, 
+            "x": 96.0, 
+            "ymin": -0.05, 
+            "yErr": 1.43336743313101e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273494, 
+            "ymax": 0.1, 
+            "y": 0.022246449288984397, 
+            "x": 97.0, 
+            "ymin": -0.05, 
+            "yErr": 1.577996525961403e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273502, 
+            "ymax": 0.1, 
+            "y": 0.02265551475972941, 
+            "x": 98.0, 
+            "ymin": -0.05, 
+            "yErr": 6.899340761137534e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273503, 
+            "ymax": 0.1, 
+            "y": 0.02218451303596202, 
+            "x": 99.0, 
+            "ymin": -0.05, 
+            "yErr": 9.054921382302733e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273523, 
+            "ymax": 0.1, 
+            "y": 0.020521984805233626, 
+            "x": 100.0, 
+            "ymin": -0.05, 
+            "yErr": 6.834361705119437e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273526, 
+            "ymax": 0.1, 
+            "y": 0.02183108928938234, 
+            "x": 101.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00023673571374209937, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273537, 
+            "ymax": 0.1, 
+            "y": 0.020820965646730367, 
+            "x": 102.0, 
+            "ymin": -0.05, 
+            "yErr": 3.6377059914708734e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273554, 
+            "ymax": 0.1, 
+            "y": 0.02266786721054974, 
+            "x": 103.0, 
+            "ymin": -0.05, 
+            "yErr": 1.1360029164749549e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273555, 
+            "ymax": 0.1, 
+            "y": 0.022467325257512428, 
+            "x": 104.0, 
+            "ymin": -0.05, 
+            "yErr": 1.640286373644446e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273589, 
+            "ymax": 0.1, 
+            "y": 0.020970400398549804, 
+            "x": 105.0, 
+            "ymin": -0.05, 
+            "yErr": 8.74952317854366e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273590, 
+            "ymax": 0.1, 
+            "y": 0.02096839860227647, 
+            "x": 106.0, 
+            "ymin": -0.05, 
+            "yErr": 7.341577446418721e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273592, 
+            "ymax": 0.1, 
+            "y": 0.020906698150269857, 
+            "x": 107.0, 
+            "ymin": -0.05, 
+            "yErr": 7.053259289142464e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273725, 
+            "ymax": 0.1, 
+            "y": 0.022421682764624386, 
+            "x": 108.0, 
+            "ymin": -0.05, 
+            "yErr": 4.50737729736642e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273728, 
+            "ymax": 0.1, 
+            "y": 0.022152219045184305, 
+            "x": 109.0, 
+            "ymin": -0.05, 
+            "yErr": 2.3977464828309857e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 273730, 
+            "ymax": 0.1, 
+            "y": 0.02183709056571817, 
+            "x": 110.0, 
+            "ymin": -0.05, 
+            "yErr": 4.902739351247183e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274094, 
+            "ymax": 0.1, 
+            "y": 0.02352334222111915, 
+            "x": 111.0, 
+            "ymin": -0.05, 
+            "yErr": 1.286774842658617e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274102, 
+            "ymax": 0.1, 
+            "y": 0.022729302085392228, 
+            "x": 112.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00041511677761288927, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274103, 
+            "ymax": 0.1, 
+            "y": 0.024302894704854038, 
+            "x": 113.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0005786403501155723, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274104, 
+            "ymax": 0.1, 
+            "y": 0.019455158155348883, 
+            "x": 114.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00036455643879650644, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274105, 
+            "ymax": 0.1, 
+            "y": 0.019450669466469193, 
+            "x": 115.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00030948243552288054, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274106, 
+            "ymax": 0.1, 
+            "y": 0.021186095898563517, 
+            "x": 116.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0003676900620821221, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274107, 
+            "ymax": 0.1, 
+            "y": 0.018833176202602577, 
+            "x": 117.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00038189307599903097, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274108, 
+            "ymax": 0.1, 
+            "y": 0.021355117266327474, 
+            "x": 118.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0004108272933199116, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274146, 
+            "ymax": 0.1, 
+            "y": 0.02303962701786005, 
+            "x": 119.0, 
+            "ymin": -0.05, 
+            "yErr": 2.679095223092287e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274157, 
+            "ymax": 0.1, 
+            "y": 0.022849015664163173, 
+            "x": 120.0, 
+            "ymin": -0.05, 
+            "yErr": 1.0978274836901286e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274159, 
+            "ymax": 0.1, 
+            "y": 0.022502671815058523, 
+            "x": 121.0, 
+            "ymin": -0.05, 
+            "yErr": 3.5696588439284826e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274160, 
+            "ymax": 0.1, 
+            "y": 0.02268273559823546, 
+            "x": 122.0, 
+            "ymin": -0.05, 
+            "yErr": 1.5755448439718154e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274161, 
+            "ymax": 0.1, 
+            "y": 0.022510249014018414, 
+            "x": 123.0, 
+            "ymin": -0.05, 
+            "yErr": 9.99633041024247e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274172, 
+            "ymax": 0.1, 
+            "y": 0.02313236651033427, 
+            "x": 124.0, 
+            "ymin": -0.05, 
+            "yErr": 3.1542370087852715e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274198, 
+            "ymax": 0.1, 
+            "y": 0.022802221263047873, 
+            "x": 125.0, 
+            "ymin": -0.05, 
+            "yErr": 2.308955769234877e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274199, 
+            "ymax": 0.1, 
+            "y": 0.02282750635265299, 
+            "x": 126.0, 
+            "ymin": -0.05, 
+            "yErr": 9.513905839659428e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274200, 
+            "ymax": 0.1, 
+            "y": 0.022611555670217297, 
+            "x": 127.0, 
+            "ymin": -0.05, 
+            "yErr": 9.173809635973744e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274240, 
+            "ymax": 0.1, 
+            "y": 0.02320228699847441, 
+            "x": 128.0, 
+            "ymin": -0.05, 
+            "yErr": 2.7335768184573777e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274241, 
+            "ymax": 0.1, 
+            "y": 0.023108385437095893, 
+            "x": 129.0, 
+            "ymin": -0.05, 
+            "yErr": 7.016481542952658e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274243, 
+            "ymax": 0.1, 
+            "y": 0.022000688092755863, 
+            "x": 130.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0001538020853120215, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274244, 
+            "ymax": 0.1, 
+            "y": 0.022619325307030175, 
+            "x": 131.0, 
+            "ymin": -0.05, 
+            "yErr": 9.741707199481746e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274250, 
+            "ymax": 0.1, 
+            "y": 0.02336171172296367, 
+            "x": 132.0, 
+            "ymin": -0.05, 
+            "yErr": 8.711057577015757e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274251, 
+            "ymax": 0.1, 
+            "y": 0.02291423883799518, 
+            "x": 133.0, 
+            "ymin": -0.05, 
+            "yErr": 1.161225317547531e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274283, 
+            "ymax": 0.1, 
+            "y": 0.02826907197550149, 
+            "x": 134.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0002669032325842506, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274284, 
+            "ymax": 0.1, 
+            "y": 0.023655013437383233, 
+            "x": 135.0, 
+            "ymin": -0.05, 
+            "yErr": 2.2977124109902904e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274285, 
+            "ymax": 0.1, 
+            "y": 0.0238844464016937, 
+            "x": 136.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0006476579865830711, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274286, 
+            "ymax": 0.1, 
+            "y": 0.02328922633688161, 
+            "x": 137.0, 
+            "ymin": -0.05, 
+            "yErr": 2.5986905480420236e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274314, 
+            "ymax": 0.1, 
+            "y": 0.02391810341979625, 
+            "x": 138.0, 
+            "ymin": -0.05, 
+            "yErr": 3.432465513066805e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274315, 
+            "ymax": 0.1, 
+            "y": 0.023869232777349376, 
+            "x": 139.0, 
+            "ymin": -0.05, 
+            "yErr": 1.2382902779894483e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274316, 
+            "ymax": 0.1, 
+            "y": 0.023601363083236224, 
+            "x": 140.0, 
+            "ymin": -0.05, 
+            "yErr": 7.841485551567823e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274317, 
+            "ymax": 0.1, 
+            "y": 0.024154903745347563, 
+            "x": 141.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00015858471234357705, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274318, 
+            "ymax": 0.1, 
+            "y": 0.02387730357290794, 
+            "x": 142.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0010237309449429705, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274319, 
+            "ymax": 0.1, 
+            "y": 0.02293467628793569, 
+            "x": 143.0, 
+            "ymin": -0.05, 
+            "yErr": 1.5545478711059323e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274335, 
+            "ymax": 0.1, 
+            "y": 0.023625220378389912, 
+            "x": 144.0, 
+            "ymin": -0.05, 
+            "yErr": 8.044584498514592e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274336, 
+            "ymax": 0.1, 
+            "y": 0.023570556837484363, 
+            "x": 145.0, 
+            "ymin": -0.05, 
+            "yErr": 6.844968353319911e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274337, 
+            "ymax": 0.1, 
+            "y": 0.023012816710260956, 
+            "x": 146.0, 
+            "ymin": -0.05, 
+            "yErr": 6.481326533488403e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274338, 
+            "ymax": 0.1, 
+            "y": 0.023071337825882107, 
+            "x": 147.0, 
+            "ymin": -0.05, 
+            "yErr": 7.331953378260154e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274339, 
+            "ymax": 0.1, 
+            "y": 0.022731313640213982, 
+            "x": 148.0, 
+            "ymin": -0.05, 
+            "yErr": 2.0210618989998985e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274344, 
+            "ymax": 0.1, 
+            "y": 0.02270578035397184, 
+            "x": 149.0, 
+            "ymin": -0.05, 
+            "yErr": 7.457408701660741e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274345, 
+            "ymax": 0.1, 
+            "y": 0.02255662160638417, 
+            "x": 150.0, 
+            "ymin": -0.05, 
+            "yErr": 1.4284395910150954e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274382, 
+            "ymax": 0.1, 
+            "y": 0.023704086626477897, 
+            "x": 151.0, 
+            "ymin": -0.05, 
+            "yErr": 3.560384436046933e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274387, 
+            "ymax": 0.1, 
+            "y": 0.023868797747736172, 
+            "x": 152.0, 
+            "ymin": -0.05, 
+            "yErr": 1.3607664494595001e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274388, 
+            "ymax": 0.1, 
+            "y": 0.023338780675349897, 
+            "x": 153.0, 
+            "ymin": -0.05, 
+            "yErr": 5.568564842984779e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274420, 
+            "ymax": 0.1, 
+            "y": 0.02394021297479995, 
+            "x": 154.0, 
+            "ymin": -0.05, 
+            "yErr": 1.9186337132697175e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274421, 
+            "ymax": 0.1, 
+            "y": 0.023705136070245072, 
+            "x": 155.0, 
+            "ymin": -0.05, 
+            "yErr": 1.330281360362162e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274422, 
+            "ymax": 0.1, 
+            "y": 0.02296256546177633, 
+            "x": 156.0, 
+            "ymin": -0.05, 
+            "yErr": 4.94641721001403e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274440, 
+            "ymax": 0.1, 
+            "y": 0.023756053451367217, 
+            "x": 157.0, 
+            "ymin": -0.05, 
+            "yErr": 1.239142576108174e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274441, 
+            "ymax": 0.1, 
+            "y": 0.023428666180242495, 
+            "x": 158.0, 
+            "ymin": -0.05, 
+            "yErr": 1.1528160795123981e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274442, 
+            "ymax": 0.1, 
+            "y": 0.02311549072042041, 
+            "x": 159.0, 
+            "ymin": -0.05, 
+            "yErr": 8.518244863241676e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274443, 
+            "ymax": 0.1, 
+            "y": 0.022773700187583994, 
+            "x": 160.0, 
+            "ymin": -0.05, 
+            "yErr": 3.237396806693929e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274954, 
+            "ymax": 0.1, 
+            "y": 0.02350325761442555, 
+            "x": 161.0, 
+            "ymin": -0.05, 
+            "yErr": 6.184639508964187e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274955, 
+            "ymax": 0.1, 
+            "y": 0.023204537904843586, 
+            "x": 162.0, 
+            "ymin": -0.05, 
+            "yErr": 2.700547274608848e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274956, 
+            "ymax": 0.1, 
+            "y": 0.02338282850067336, 
+            "x": 163.0, 
+            "ymin": -0.05, 
+            "yErr": 1.6003335625888158e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274957, 
+            "ymax": 0.1, 
+            "y": 0.022721697309406822, 
+            "x": 164.0, 
+            "ymin": -0.05, 
+            "yErr": 4.10141613275336e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274958, 
+            "ymax": 0.1, 
+            "y": 0.02297509432812165, 
+            "x": 165.0, 
+            "ymin": -0.05, 
+            "yErr": 1.491669747043381e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274959, 
+            "ymax": 0.1, 
+            "y": 0.022650345957299697, 
+            "x": 166.0, 
+            "ymin": -0.05, 
+            "yErr": 1.5054068696271965e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274967, 
+            "ymax": 0.1, 
+            "y": 0.024104874525107473, 
+            "x": 167.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00010284900053033454, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274968, 
+            "ymax": 0.1, 
+            "y": 0.023558101106489805, 
+            "x": 168.0, 
+            "ymin": -0.05, 
+            "yErr": 1.1673861426425124e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274969, 
+            "ymax": 0.1, 
+            "y": 0.022963708904168115, 
+            "x": 169.0, 
+            "ymin": -0.05, 
+            "yErr": 1.208869778997884e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274970, 
+            "ymax": 0.1, 
+            "y": 0.02237426525985328, 
+            "x": 170.0, 
+            "ymin": -0.05, 
+            "yErr": 6.059949344360203e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274971, 
+            "ymax": 0.1, 
+            "y": 0.022411402972675833, 
+            "x": 171.0, 
+            "ymin": -0.05, 
+            "yErr": 1.2172688011037922e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274998, 
+            "ymax": 0.1, 
+            "y": 0.023107402312619964, 
+            "x": 172.0, 
+            "ymin": -0.05, 
+            "yErr": 4.7043482470067726e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 274999, 
+            "ymax": 0.1, 
+            "y": 0.022842599365221147, 
+            "x": 173.0, 
+            "ymin": -0.05, 
+            "yErr": 1.0688667088804074e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275000, 
+            "ymax": 0.1, 
+            "y": 0.022639701269266108, 
+            "x": 174.0, 
+            "ymin": -0.05, 
+            "yErr": 3.169092608809347e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275001, 
+            "ymax": 0.1, 
+            "y": 0.022080659629964236, 
+            "x": 175.0, 
+            "ymin": -0.05, 
+            "yErr": 8.05575330358869e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275059, 
+            "ymax": 0.1, 
+            "y": 0.02412379854214551, 
+            "x": 176.0, 
+            "ymin": -0.05, 
+            "yErr": 5.787397154059967e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275062, 
+            "ymax": 0.1, 
+            "y": 0.0285136339050064, 
+            "x": 177.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0008668399908571874, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275063, 
+            "ymax": 0.1, 
+            "y": 0.018510077081832107, 
+            "x": 178.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0016234411542612103, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275064, 
+            "ymax": 0.1, 
+            "y": 0.02350247054768693, 
+            "x": 179.0, 
+            "ymin": -0.05, 
+            "yErr": 7.806880418276205e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275066, 
+            "ymax": 0.1, 
+            "y": 0.024352004692948525, 
+            "x": 180.0, 
+            "ymin": -0.05, 
+            "yErr": 4.5017639164922256e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275067, 
+            "ymax": 0.1, 
+            "y": 0.02398521251707968, 
+            "x": 181.0, 
+            "ymin": -0.05, 
+            "yErr": 2.1261163751596137e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275068, 
+            "ymax": 0.1, 
+            "y": 0.023337091612989632, 
+            "x": 182.0, 
+            "ymin": -0.05, 
+            "yErr": 1.2995779727632067e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275073, 
+            "ymax": 0.1, 
+            "y": 0.022842211918394088, 
+            "x": 183.0, 
+            "ymin": -0.05, 
+            "yErr": 1.6425808828146884e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275074, 
+            "ymax": 0.1, 
+            "y": 0.022506424405392755, 
+            "x": 184.0, 
+            "ymin": -0.05, 
+            "yErr": 1.44198496104369e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275124, 
+            "ymax": 0.1, 
+            "y": 0.02394634508149075, 
+            "x": 185.0, 
+            "ymin": -0.05, 
+            "yErr": 2.3299666686856954e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275125, 
+            "ymax": 0.1, 
+            "y": 0.02331742841583428, 
+            "x": 186.0, 
+            "ymin": -0.05, 
+            "yErr": 1.2440476156178688e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275282, 
+            "ymax": 0.1, 
+            "y": 0.02375922892075111, 
+            "x": 187.0, 
+            "ymin": -0.05, 
+            "yErr": 4.414886743195064e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275283, 
+            "ymax": 0.1, 
+            "y": 0.02349156095425402, 
+            "x": 188.0, 
+            "ymin": -0.05, 
+            "yErr": 3.54884950104415e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275284, 
+            "ymax": 0.1, 
+            "y": 0.02355646587749965, 
+            "x": 189.0, 
+            "ymin": -0.05, 
+            "yErr": 3.9063891457581305e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275285, 
+            "ymax": 0.1, 
+            "y": 0.022411571184273133, 
+            "x": 190.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0004402048322623488, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275286, 
+            "ymax": 0.1, 
+            "y": 0.023378268489696687, 
+            "x": 191.0, 
+            "ymin": -0.05, 
+            "yErr": 4.254322832181179e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275289, 
+            "ymax": 0.1, 
+            "y": 0.023143164076527386, 
+            "x": 192.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00014878218979893614, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275290, 
+            "ymax": 0.1, 
+            "y": 0.02343942706237633, 
+            "x": 193.0, 
+            "ymin": -0.05, 
+            "yErr": 5.540074743063134e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275291, 
+            "ymax": 0.1, 
+            "y": 0.023147171962600677, 
+            "x": 194.0, 
+            "ymin": -0.05, 
+            "yErr": 2.0730643255177293e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275292, 
+            "ymax": 0.1, 
+            "y": 0.022703890267605675, 
+            "x": 195.0, 
+            "ymin": -0.05, 
+            "yErr": 3.495107358103029e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275293, 
+            "ymax": 0.1, 
+            "y": 0.022508129173030515, 
+            "x": 196.0, 
+            "ymin": -0.05, 
+            "yErr": 2.635435256304603e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275309, 
+            "ymax": 0.1, 
+            "y": 0.023182829050467157, 
+            "x": 197.0, 
+            "ymin": -0.05, 
+            "yErr": 1.631863773615572e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275310, 
+            "ymax": 0.1, 
+            "y": 0.022658833452658823, 
+            "x": 198.0, 
+            "ymin": -0.05, 
+            "yErr": 8.45707084933003e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275311, 
+            "ymax": 0.1, 
+            "y": 0.02213725270876724, 
+            "x": 199.0, 
+            "ymin": -0.05, 
+            "yErr": 1.0542311520958594e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275319, 
+            "ymax": 0.1, 
+            "y": 0.023800531978771747, 
+            "x": 200.0, 
+            "ymin": -0.05, 
+            "yErr": 3.547902869664921e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275337, 
+            "ymax": 0.1, 
+            "y": 0.023502892087151322, 
+            "x": 201.0, 
+            "ymin": -0.05, 
+            "yErr": 1.9422392050228756e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275338, 
+            "ymax": 0.1, 
+            "y": 0.02310102951375357, 
+            "x": 202.0, 
+            "ymin": -0.05, 
+            "yErr": 1.684970797106666e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275344, 
+            "ymax": 0.1, 
+            "y": 0.02376625493699663, 
+            "x": 203.0, 
+            "ymin": -0.05, 
+            "yErr": 2.5214571264454265e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275345, 
+            "ymax": 0.1, 
+            "y": 0.023182001016502207, 
+            "x": 204.0, 
+            "ymin": -0.05, 
+            "yErr": 2.1433672821291048e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275370, 
+            "ymax": 0.1, 
+            "y": 0.023825817143482284, 
+            "x": 205.0, 
+            "ymin": -0.05, 
+            "yErr": 2.5463479305642044e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275371, 
+            "ymax": 0.1, 
+            "y": 0.023498041175090124, 
+            "x": 206.0, 
+            "ymin": -0.05, 
+            "yErr": 1.7166220180640672e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275375, 
+            "ymax": 0.1, 
+            "y": 0.023297041094210318, 
+            "x": 207.0, 
+            "ymin": -0.05, 
+            "yErr": 1.0717790960584888e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275376, 
+            "ymax": 0.1, 
+            "y": 0.0222900545379666, 
+            "x": 208.0, 
+            "ymin": -0.05, 
+            "yErr": 6.637603972354944e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275657, 
+            "ymax": 0.1, 
+            "y": 0.024331231409769286, 
+            "x": 209.0, 
+            "ymin": -0.05, 
+            "yErr": 4.4678243169310596e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275658, 
+            "ymax": 0.1, 
+            "y": 0.02457884537854548, 
+            "x": 210.0, 
+            "ymin": -0.05, 
+            "yErr": 2.4325405664376096e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275659, 
+            "ymax": 0.1, 
+            "y": 0.02408848253649432, 
+            "x": 211.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00010028861758657801, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275757, 
+            "ymax": 0.1, 
+            "y": 0.02469459412481655, 
+            "x": 212.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00011836886730131261, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275758, 
+            "ymax": 0.1, 
+            "y": 0.02486861601124377, 
+            "x": 213.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00024266973149245744, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275759, 
+            "ymax": 0.1, 
+            "y": 0.02347705866768986, 
+            "x": 214.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00018571855577144617, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275761, 
+            "ymax": 0.1, 
+            "y": 0.025309200097355763, 
+            "x": 215.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00016867553197739182, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275763, 
+            "ymax": 0.1, 
+            "y": 0.02405578769189256, 
+            "x": 216.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00016262079330347563, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275764, 
+            "ymax": 0.1, 
+            "y": 0.02418651386002262, 
+            "x": 217.0, 
+            "ymin": -0.05, 
+            "yErr": 8.44259132420283e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275766, 
+            "ymax": 0.1, 
+            "y": 0.024855395715863798, 
+            "x": 218.0, 
+            "ymin": -0.05, 
+            "yErr": 6.300040322790037e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275767, 
+            "ymax": 0.1, 
+            "y": 0.025580986817208547, 
+            "x": 219.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00024043300282299823, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275768, 
+            "ymax": 0.1, 
+            "y": 0.024833638551470364, 
+            "x": 220.0, 
+            "ymin": -0.05, 
+            "yErr": 5.296572242701566e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275772, 
+            "ymax": 0.1, 
+            "y": 0.023604170450497074, 
+            "x": 221.0, 
+            "ymin": -0.05, 
+            "yErr": 5.615299503153866e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275773, 
+            "ymax": 0.1, 
+            "y": 0.022662427907098548, 
+            "x": 222.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00015432695026956468, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275774, 
+            "ymax": 0.1, 
+            "y": 0.024118941023115594, 
+            "x": 223.0, 
+            "ymin": -0.05, 
+            "yErr": 2.3981821261691993e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275776, 
+            "ymax": 0.1, 
+            "y": 0.02339140255306284, 
+            "x": 224.0, 
+            "ymin": -0.05, 
+            "yErr": 3.424131152277556e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275777, 
+            "ymax": 0.1, 
+            "y": 0.023365214352346834, 
+            "x": 225.0, 
+            "ymin": -0.05, 
+            "yErr": 2.285052172123171e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275778, 
+            "ymax": 0.1, 
+            "y": 0.023189277907661905, 
+            "x": 226.0, 
+            "ymin": -0.05, 
+            "yErr": 2.2126649781066648e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275781, 
+            "ymax": 0.1, 
+            "y": 0.022587266194578064, 
+            "x": 227.0, 
+            "ymin": -0.05, 
+            "yErr": 6.995476575251289e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275782, 
+            "ymax": 0.1, 
+            "y": 0.022763364455602186, 
+            "x": 228.0, 
+            "ymin": -0.05, 
+            "yErr": 1.3522965222493075e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275828, 
+            "ymax": 0.1, 
+            "y": 0.024751312263575145, 
+            "x": 229.0, 
+            "ymin": -0.05, 
+            "yErr": 6.69673852013764e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275829, 
+            "ymax": 0.1, 
+            "y": 0.025000723192731385, 
+            "x": 230.0, 
+            "ymin": -0.05, 
+            "yErr": 8.638624715428782e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275831, 
+            "ymax": 0.1, 
+            "y": 0.024841298435492886, 
+            "x": 231.0, 
+            "ymin": -0.05, 
+            "yErr": 5.5705260178476145e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275832, 
+            "ymax": 0.1, 
+            "y": 0.025471450768311907, 
+            "x": 232.0, 
+            "ymin": -0.05, 
+            "yErr": 2.509956953416462e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275833, 
+            "ymax": 0.1, 
+            "y": 0.02393969394685252, 
+            "x": 233.0, 
+            "ymin": -0.05, 
+            "yErr": 2.7016907689234797e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275834, 
+            "ymax": 0.1, 
+            "y": 0.023597066216559454, 
+            "x": 234.0, 
+            "ymin": -0.05, 
+            "yErr": 2.3864291251758138e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275835, 
+            "ymax": 0.1, 
+            "y": 0.023934825499187202, 
+            "x": 235.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00011645221366845235, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275836, 
+            "ymax": 0.1, 
+            "y": 0.023046901705162742, 
+            "x": 236.0, 
+            "ymin": -0.05, 
+            "yErr": 1.0760139064207338e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275837, 
+            "ymax": 0.1, 
+            "y": 0.02253668027543685, 
+            "x": 237.0, 
+            "ymin": -0.05, 
+            "yErr": 1.377488509336814e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275841, 
+            "ymax": 0.1, 
+            "y": 0.022396664065731355, 
+            "x": 238.0, 
+            "ymin": -0.05, 
+            "yErr": 5.181387609442722e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275846, 
+            "ymax": 0.1, 
+            "y": 0.022264909076941505, 
+            "x": 239.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00015234936024917777, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275847, 
+            "ymax": 0.1, 
+            "y": 0.022083121977662445, 
+            "x": 240.0, 
+            "ymin": -0.05, 
+            "yErr": 7.761918036250557e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275886, 
+            "ymax": 0.1, 
+            "y": 0.02463336695440759, 
+            "x": 241.0, 
+            "ymin": -0.05, 
+            "yErr": 7.106600283051161e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275887, 
+            "ymax": 0.1, 
+            "y": 0.023665546094347203, 
+            "x": 242.0, 
+            "ymin": -0.05, 
+            "yErr": 6.563490067748025e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275890, 
+            "ymax": 0.1, 
+            "y": 0.02361441277498903, 
+            "x": 243.0, 
+            "ymin": -0.05, 
+            "yErr": 1.09180199906276e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275911, 
+            "ymax": 0.1, 
+            "y": 0.02404633866430267, 
+            "x": 244.0, 
+            "ymin": -0.05, 
+            "yErr": 2.260231831582728e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275912, 
+            "ymax": 0.1, 
+            "y": 0.023686604846985496, 
+            "x": 245.0, 
+            "ymin": -0.05, 
+            "yErr": 2.4509134882935715e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275913, 
+            "ymax": 0.1, 
+            "y": 0.023359866994933504, 
+            "x": 246.0, 
+            "ymin": -0.05, 
+            "yErr": 1.8383910270451785e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275918, 
+            "ymax": 0.1, 
+            "y": 0.023081295275901543, 
+            "x": 247.0, 
+            "ymin": -0.05, 
+            "yErr": 2.016897741756607e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275920, 
+            "ymax": 0.1, 
+            "y": 0.022923490254139485, 
+            "x": 248.0, 
+            "ymin": -0.05, 
+            "yErr": 1.7642726739577617e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275921, 
+            "ymax": 0.1, 
+            "y": 0.023072597761961973, 
+            "x": 249.0, 
+            "ymin": -0.05, 
+            "yErr": 8.293916969821399e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275922, 
+            "ymax": 0.1, 
+            "y": 0.02167092610752575, 
+            "x": 250.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0002358044153058755, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275923, 
+            "ymax": 0.1, 
+            "y": 0.02248859532906592, 
+            "x": 251.0, 
+            "ymin": -0.05, 
+            "yErr": 3.29303309508248e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275931, 
+            "ymax": 0.1, 
+            "y": 0.022708296624166277, 
+            "x": 252.0, 
+            "ymin": -0.05, 
+            "yErr": 3.91754169358392e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 275963, 
+            "ymax": 0.1, 
+            "y": 0.025601675524676848, 
+            "x": 253.0, 
+            "ymin": -0.05, 
+            "yErr": 5.2109169210615814e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276062, 
+            "ymax": 0.1, 
+            "y": 0.023033825844286242, 
+            "x": 254.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0010219607649842254, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276063, 
+            "ymax": 0.1, 
+            "y": 0.01925295109377086, 
+            "x": 255.0, 
+            "ymin": -0.05, 
+            "yErr": 0.001443069695146879, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276064, 
+            "ymax": 0.1, 
+            "y": 0.022704437650191287, 
+            "x": 256.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0006268214245954566, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276092, 
+            "ymax": 0.1, 
+            "y": 0.024351534480604314, 
+            "x": 257.0, 
+            "ymin": -0.05, 
+            "yErr": 5.383793295475512e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276095, 
+            "ymax": 0.1, 
+            "y": 0.021057154714262075, 
+            "x": 258.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00040257021683319944, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276097, 
+            "ymax": 0.1, 
+            "y": 0.02406268111846282, 
+            "x": 259.0, 
+            "ymin": -0.05, 
+            "yErr": 1.9534370204248482e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276215, 
+            "ymax": 0.1, 
+            "y": 0.018386898992785373, 
+            "x": 260.0, 
+            "ymin": -0.05, 
+            "yErr": 2.103431024106364e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276216, 
+            "ymax": 0.1, 
+            "y": 0.018296766010152003, 
+            "x": 261.0, 
+            "ymin": -0.05, 
+            "yErr": 8.230613173575643e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276217, 
+            "ymax": 0.1, 
+            "y": 0.01826870640787617, 
+            "x": 262.0, 
+            "ymin": -0.05, 
+            "yErr": 4.465391521191817e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276235, 
+            "ymax": 0.1, 
+            "y": 0.022644980005437514, 
+            "x": 263.0, 
+            "ymin": -0.05, 
+            "yErr": 5.158510550592202e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276242, 
+            "ymax": 0.1, 
+            "y": 0.023346572873556994, 
+            "x": 264.0, 
+            "ymin": -0.05, 
+            "yErr": 9.940125731626174e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276243, 
+            "ymax": 0.1, 
+            "y": 0.02274584177096059, 
+            "x": 265.0, 
+            "ymin": -0.05, 
+            "yErr": 1.532547303588889e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276244, 
+            "ymax": 0.1, 
+            "y": 0.02242018418146406, 
+            "x": 266.0, 
+            "ymin": -0.05, 
+            "yErr": 1.0638464250862853e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276282, 
+            "ymax": 0.1, 
+            "y": 0.02407120615302211, 
+            "x": 267.0, 
+            "ymin": -0.05, 
+            "yErr": 1.3435454779243746e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276283, 
+            "ymax": 0.1, 
+            "y": 0.023554359535938724, 
+            "x": 268.0, 
+            "ymin": -0.05, 
+            "yErr": 1.2082288939253205e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276315, 
+            "ymax": 0.1, 
+            "y": 0.024374128446320704, 
+            "x": 269.0, 
+            "ymin": -0.05, 
+            "yErr": 3.410560501581114e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276317, 
+            "ymax": 0.1, 
+            "y": 0.02397762342977821, 
+            "x": 270.0, 
+            "ymin": -0.05, 
+            "yErr": 3.7339898736968144e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276318, 
+            "ymax": 0.1, 
+            "y": 0.023852799672160408, 
+            "x": 271.0, 
+            "ymin": -0.05, 
+            "yErr": 1.7501251445507364e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276327, 
+            "ymax": 0.1, 
+            "y": 0.02346208985384773, 
+            "x": 272.0, 
+            "ymin": -0.05, 
+            "yErr": 5.0991050149886014e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276352, 
+            "ymax": 0.1, 
+            "y": 0.02437043215816846, 
+            "x": 273.0, 
+            "ymin": -0.05, 
+            "yErr": 7.675583899171712e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276355, 
+            "ymax": 0.1, 
+            "y": 0.03131300575337791, 
+            "x": 274.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0001029131474420449, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276357, 
+            "ymax": 0.1, 
+            "y": 0.024612173289021082, 
+            "x": 275.0, 
+            "ymin": -0.05, 
+            "yErr": 5.342651043965854e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276361, 
+            "ymax": 0.1, 
+            "y": 0.024061559718254865, 
+            "x": 276.0, 
+            "ymin": -0.05, 
+            "yErr": 1.4774889546751503e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276363, 
+            "ymax": 0.1, 
+            "y": 0.023183951127076555, 
+            "x": 277.0, 
+            "ymin": -0.05, 
+            "yErr": 1.0062399174761533e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276384, 
+            "ymax": 0.1, 
+            "y": 0.02270104624661661, 
+            "x": 278.0, 
+            "ymin": -0.05, 
+            "yErr": 1.1139157879258748e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276437, 
+            "ymax": 0.1, 
+            "y": 0.023567164132428303, 
+            "x": 279.0, 
+            "ymin": -0.05, 
+            "yErr": 8.882112034247524e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276453, 
+            "ymax": 0.1, 
+            "y": 0.021973012732058265, 
+            "x": 280.0, 
+            "ymin": -0.05, 
+            "yErr": 4.7865921450527266e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276454, 
+            "ymax": 0.1, 
+            "y": 0.02265956751317327, 
+            "x": 281.0, 
+            "ymin": -0.05, 
+            "yErr": 1.6089060960791405e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276458, 
+            "ymax": 0.1, 
+            "y": 0.02222868000019071, 
+            "x": 282.0, 
+            "ymin": -0.05, 
+            "yErr": 1.998485906680992e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276495, 
+            "ymax": 0.1, 
+            "y": 0.0243038679481697, 
+            "x": 283.0, 
+            "ymin": -0.05, 
+            "yErr": 3.487459951706489e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276501, 
+            "ymax": 0.1, 
+            "y": 0.023431815570466842, 
+            "x": 284.0, 
+            "ymin": -0.05, 
+            "yErr": 7.961875871895672e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276502, 
+            "ymax": 0.1, 
+            "y": 0.022551559254164785, 
+            "x": 285.0, 
+            "ymin": -0.05, 
+            "yErr": 1.3561061008235948e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276525, 
+            "ymax": 0.1, 
+            "y": 0.023521273978172698, 
+            "x": 286.0, 
+            "ymin": -0.05, 
+            "yErr": 7.465325073094633e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276527, 
+            "ymax": 0.1, 
+            "y": 0.023014269104738635, 
+            "x": 287.0, 
+            "ymin": -0.05, 
+            "yErr": 2.5821235731350664e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276528, 
+            "ymax": 0.1, 
+            "y": 0.022682348917749322, 
+            "x": 288.0, 
+            "ymin": -0.05, 
+            "yErr": 1.9007237591035028e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276542, 
+            "ymax": 0.1, 
+            "y": 0.02436155413514047, 
+            "x": 289.0, 
+            "ymin": -0.05, 
+            "yErr": 1.5906732454707597e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276543, 
+            "ymax": 0.1, 
+            "y": 0.023393799648776227, 
+            "x": 290.0, 
+            "ymin": -0.05, 
+            "yErr": 1.2915517572701119e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276544, 
+            "ymax": 0.1, 
+            "y": 0.02319300393792372, 
+            "x": 291.0, 
+            "ymin": -0.05, 
+            "yErr": 3.0412928732028456e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276545, 
+            "ymax": 0.1, 
+            "y": 0.022748021879988072, 
+            "x": 292.0, 
+            "ymin": -0.05, 
+            "yErr": 2.596204006847131e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276581, 
+            "ymax": 0.1, 
+            "y": 0.02424760821006715, 
+            "x": 293.0, 
+            "ymin": -0.05, 
+            "yErr": 2.3700515597355816e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276582, 
+            "ymax": 0.1, 
+            "y": 0.02343519596951622, 
+            "x": 294.0, 
+            "ymin": -0.05, 
+            "yErr": 1.3795571259524764e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276583, 
+            "ymax": 0.1, 
+            "y": 0.023510774437294803, 
+            "x": 295.0, 
+            "ymin": -0.05, 
+            "yErr": 5.565058358461485e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276584, 
+            "ymax": 0.1, 
+            "y": 0.02297744596775907, 
+            "x": 296.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0002936190049238361, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276585, 
+            "ymax": 0.1, 
+            "y": 0.023113747161637842, 
+            "x": 297.0, 
+            "ymin": -0.05, 
+            "yErr": 2.4822944480027455e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276586, 
+            "ymax": 0.1, 
+            "y": 0.022628645078015753, 
+            "x": 298.0, 
+            "ymin": -0.05, 
+            "yErr": 1.3536919910549608e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276587, 
+            "ymax": 0.1, 
+            "y": 0.022287360912026828, 
+            "x": 299.0, 
+            "ymin": -0.05, 
+            "yErr": 1.1594747563082361e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276653, 
+            "ymax": 0.1, 
+            "y": 0.023709361682952283, 
+            "x": 300.0, 
+            "ymin": -0.05, 
+            "yErr": 1.9250510238516142e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276655, 
+            "ymax": 0.1, 
+            "y": 0.023207935480538244, 
+            "x": 301.0, 
+            "ymin": -0.05, 
+            "yErr": 1.1921452284961282e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276659, 
+            "ymax": 0.1, 
+            "y": 0.022583679338829443, 
+            "x": 302.0, 
+            "ymin": -0.05, 
+            "yErr": 2.4195870360840577e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276775, 
+            "ymax": 0.1, 
+            "y": 0.02453117763641909, 
+            "x": 303.0, 
+            "ymin": -0.05, 
+            "yErr": 1.2851212688920149e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276776, 
+            "ymax": 0.1, 
+            "y": 0.023248296173678993, 
+            "x": 304.0, 
+            "ymin": -0.05, 
+            "yErr": 9.004334794583855e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276794, 
+            "ymax": 0.1, 
+            "y": 0.022636068511548917, 
+            "x": 305.0, 
+            "ymin": -0.05, 
+            "yErr": 1.259120239303563e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276807, 
+            "ymax": 0.1, 
+            "y": 0.024464978007544175, 
+            "x": 306.0, 
+            "ymin": -0.05, 
+            "yErr": 3.7443344282331085e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276808, 
+            "ymax": 0.1, 
+            "y": 0.02402241470536219, 
+            "x": 307.0, 
+            "ymin": -0.05, 
+            "yErr": 1.4409760396613971e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276810, 
+            "ymax": 0.1, 
+            "y": 0.023491194823504775, 
+            "x": 308.0, 
+            "ymin": -0.05, 
+            "yErr": 2.3658028029035862e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276811, 
+            "ymax": 0.1, 
+            "y": 0.02295769734090787, 
+            "x": 309.0, 
+            "ymin": -0.05, 
+            "yErr": 7.503569326947119e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276831, 
+            "ymax": 0.1, 
+            "y": 0.022655458431988556, 
+            "x": 310.0, 
+            "ymin": -0.05, 
+            "yErr": 4.6470383982595185e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276832, 
+            "ymax": 0.1, 
+            "y": 0.02228260575268914, 
+            "x": 311.0, 
+            "ymin": -0.05, 
+            "yErr": 2.9599474827257827e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276834, 
+            "ymax": 0.1, 
+            "y": 0.021866783495888005, 
+            "x": 312.0, 
+            "ymin": -0.05, 
+            "yErr": 9.102327232656294e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276837, 
+            "ymax": 0.1, 
+            "y": 0.012593028680531436, 
+            "x": 313.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0015051548157139724, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276870, 
+            "ymax": 0.1, 
+            "y": 0.02342022560387161, 
+            "x": 314.0, 
+            "ymin": -0.05, 
+            "yErr": 5.857314464867104e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276935, 
+            "ymax": 0.1, 
+            "y": 0.024544579577025157, 
+            "x": 315.0, 
+            "ymin": -0.05, 
+            "yErr": 1.1853379427627953e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276940, 
+            "ymax": 0.1, 
+            "y": 0.024901895862939193, 
+            "x": 316.0, 
+            "ymin": -0.05, 
+            "yErr": 3.3140253194093354e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276941, 
+            "ymax": 0.1, 
+            "y": 0.02489331519230153, 
+            "x": 317.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00022747142297105397, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276942, 
+            "ymax": 0.1, 
+            "y": 0.02419226934002844, 
+            "x": 318.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00024062679821055616, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276944, 
+            "ymax": 0.1, 
+            "y": 0.024547015684434844, 
+            "x": 319.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00023211335068332634, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276945, 
+            "ymax": 0.1, 
+            "y": 0.026648553346481578, 
+            "x": 320.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00047708563557621907, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276946, 
+            "ymax": 0.1, 
+            "y": 0.02412084811222104, 
+            "x": 321.0, 
+            "ymin": -0.05, 
+            "yErr": 7.82311948644759e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276947, 
+            "ymax": 0.1, 
+            "y": 0.024360021289470884, 
+            "x": 322.0, 
+            "ymin": -0.05, 
+            "yErr": 3.1190066867361316e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276948, 
+            "ymax": 0.1, 
+            "y": 0.024317059593134904, 
+            "x": 323.0, 
+            "ymin": -0.05, 
+            "yErr": 1.5219782558932146e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 276950, 
+            "ymax": 0.1, 
+            "y": 0.023183249924445183, 
+            "x": 324.0, 
+            "ymin": -0.05, 
+            "yErr": 7.058685900386026e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277069, 
+            "ymax": 0.1, 
+            "y": 0.02545385108730225, 
+            "x": 325.0, 
+            "ymin": -0.05, 
+            "yErr": 2.3967462205622272e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277070, 
+            "ymax": 0.1, 
+            "y": 0.02417157041908269, 
+            "x": 326.0, 
+            "ymin": -0.05, 
+            "yErr": 9.960758797728843e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277071, 
+            "ymax": 0.1, 
+            "y": 0.023326302401085814, 
+            "x": 327.0, 
+            "ymin": -0.05, 
+            "yErr": 2.2429759059941944e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277072, 
+            "ymax": 0.1, 
+            "y": 0.02320907081170669, 
+            "x": 328.0, 
+            "ymin": -0.05, 
+            "yErr": 1.4445467944487009e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277073, 
+            "ymax": 0.1, 
+            "y": 0.023198645891064983, 
+            "x": 329.0, 
+            "ymin": -0.05, 
+            "yErr": 2.674295439064716e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277075, 
+            "ymax": 0.1, 
+            "y": 0.017667899126055143, 
+            "x": 330.0, 
+            "ymin": -0.05, 
+            "yErr": 0.001732480046306617, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277076, 
+            "ymax": 0.1, 
+            "y": 0.021961428889566082, 
+            "x": 331.0, 
+            "ymin": -0.05, 
+            "yErr": 7.822503016516761e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277087, 
+            "ymax": 0.1, 
+            "y": 0.021611294389512196, 
+            "x": 332.0, 
+            "ymin": -0.05, 
+            "yErr": 8.42621220747374e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277094, 
+            "ymax": 0.1, 
+            "y": 0.02453902131525615, 
+            "x": 333.0, 
+            "ymin": -0.05, 
+            "yErr": 1.00613403698182e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277096, 
+            "ymax": 0.1, 
+            "y": 0.022943318699647712, 
+            "x": 334.0, 
+            "ymin": -0.05, 
+            "yErr": 4.661351079684107e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277112, 
+            "ymax": 0.1, 
+            "y": 0.02214691784615261, 
+            "x": 335.0, 
+            "ymin": -0.05, 
+            "yErr": 1.7088549089052045e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277126, 
+            "ymax": 0.1, 
+            "y": 0.02414254546922488, 
+            "x": 336.0, 
+            "ymin": -0.05, 
+            "yErr": 9.065133433381502e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277127, 
+            "ymax": 0.1, 
+            "y": 0.023954938132858514, 
+            "x": 337.0, 
+            "ymin": -0.05, 
+            "yErr": 7.812650896103394e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277148, 
+            "ymax": 0.1, 
+            "y": 0.024303192042184958, 
+            "x": 338.0, 
+            "ymin": -0.05, 
+            "yErr": 8.901666195318503e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277166, 
+            "ymax": 0.1, 
+            "y": 0.02417053521419338, 
+            "x": 339.0, 
+            "ymin": -0.05, 
+            "yErr": 1.1590254208482019e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277168, 
+            "ymax": 0.1, 
+            "y": 0.022905222508404814, 
+            "x": 340.0, 
+            "ymin": -0.05, 
+            "yErr": 4.299314045184056e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277180, 
+            "ymax": 0.1, 
+            "y": 0.024637278065456764, 
+            "x": 341.0, 
+            "ymin": -0.05, 
+            "yErr": 1.9842103854963753e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277194, 
+            "ymax": 0.1, 
+            "y": 0.023760069162270758, 
+            "x": 342.0, 
+            "ymin": -0.05, 
+            "yErr": 5.062077863705734e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277202, 
+            "ymax": 0.1, 
+            "y": 0.022424182702791486, 
+            "x": 343.0, 
+            "ymin": -0.05, 
+            "yErr": 9.17997843927501e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277217, 
+            "ymax": 0.1, 
+            "y": 0.04397296651658796, 
+            "x": 344.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00732882775276466, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277218, 
+            "ymax": 0.1, 
+            "y": 0.024760103467833684, 
+            "x": 345.0, 
+            "ymin": -0.05, 
+            "yErr": 2.4662069293625456e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277219, 
+            "ymax": 0.1, 
+            "y": 0.02444075953002464, 
+            "x": 346.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00011467838589528514, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277220, 
+            "ymax": 0.1, 
+            "y": 0.024510661966028968, 
+            "x": 347.0, 
+            "ymin": -0.05, 
+            "yErr": 1.748003504661817e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277305, 
+            "ymax": 0.1, 
+            "y": 0.024531852119568265, 
+            "x": 348.0, 
+            "ymin": -0.05, 
+            "yErr": 9.191392390929347e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277420, 
+            "ymax": 0.1, 
+            "y": 0.024929108694131785, 
+            "x": 349.0, 
+            "ymin": -0.05, 
+            "yErr": 1.5644322392619648e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277932, 
+            "ymax": 0.1, 
+            "y": 0.02225145016298757, 
+            "x": 350.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0001064260750752191, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277934, 
+            "ymax": 0.1, 
+            "y": 0.022305188596915694, 
+            "x": 351.0, 
+            "ymin": -0.05, 
+            "yErr": 6.629294929591909e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277935, 
+            "ymax": 0.1, 
+            "y": 0.022212891460775326, 
+            "x": 352.0, 
+            "ymin": -0.05, 
+            "yErr": 2.003375581447007e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277981, 
+            "ymax": 0.1, 
+            "y": 0.022993214925771836, 
+            "x": 353.0, 
+            "ymin": -0.05, 
+            "yErr": 1.8460045472182656e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277982, 
+            "ymax": 0.1, 
+            "y": 0.02247204377155023, 
+            "x": 354.0, 
+            "ymin": -0.05, 
+            "yErr": 2.8547767336224488e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277983, 
+            "ymax": 0.1, 
+            "y": 0.022440339078595755, 
+            "x": 355.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0001569446365992361, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277984, 
+            "ymax": 0.1, 
+            "y": 0.022800980387404694, 
+            "x": 356.0, 
+            "ymin": -0.05, 
+            "yErr": 6.610896302053761e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277985, 
+            "ymax": 0.1, 
+            "y": 0.02464843914365566, 
+            "x": 357.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00023282272165686243, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277990, 
+            "ymax": 0.1, 
+            "y": 0.022869103405902962, 
+            "x": 358.0, 
+            "ymin": -0.05, 
+            "yErr": 1.9765324006620583e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277991, 
+            "ymax": 0.1, 
+            "y": 0.022458148371678317, 
+            "x": 359.0, 
+            "ymin": -0.05, 
+            "yErr": 1.741976277702751e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 277992, 
+            "ymax": 0.1, 
+            "y": 0.02248990135907184, 
+            "x": 360.0, 
+            "ymin": -0.05, 
+            "yErr": 9.181981048711141e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278017, 
+            "ymax": 0.1, 
+            "y": 0.024359949779121228, 
+            "x": 361.0, 
+            "ymin": -0.05, 
+            "yErr": 1.2753096394947859e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278018, 
+            "ymax": 0.1, 
+            "y": 0.02320207587153792, 
+            "x": 362.0, 
+            "ymin": -0.05, 
+            "yErr": 7.668439821513728e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278167, 
+            "ymax": 0.1, 
+            "y": 0.02268561692535836, 
+            "x": 363.0, 
+            "ymin": -0.05, 
+            "yErr": 5.409186685631344e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278175, 
+            "ymax": 0.1, 
+            "y": 0.022061608545428008, 
+            "x": 364.0, 
+            "ymin": -0.05, 
+            "yErr": 2.768685119029401e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278193, 
+            "ymax": 0.1, 
+            "y": 0.023993168340095555, 
+            "x": 365.0, 
+            "ymin": -0.05, 
+            "yErr": 2.0984420515230907e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278239, 
+            "ymax": 0.1, 
+            "y": 0.02388050123488718, 
+            "x": 366.0, 
+            "ymin": -0.05, 
+            "yErr": 1.0323914210969654e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278240, 
+            "ymax": 0.1, 
+            "y": 0.02268469881828106, 
+            "x": 367.0, 
+            "ymin": -0.05, 
+            "yErr": 6.888690313661278e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278273, 
+            "ymax": 0.1, 
+            "y": 0.023646562368258607, 
+            "x": 368.0, 
+            "ymin": -0.05, 
+            "yErr": 4.068620575328731e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278274, 
+            "ymax": 0.1, 
+            "y": 0.024362634532954217, 
+            "x": 369.0, 
+            "ymin": -0.05, 
+            "yErr": 2.463419603878566e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278288, 
+            "ymax": 0.1, 
+            "y": 0.024226936885973258, 
+            "x": 370.0, 
+            "ymin": -0.05, 
+            "yErr": 6.70409595034292e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278289, 
+            "ymax": 0.1, 
+            "y": 0.024453068866779178, 
+            "x": 371.0, 
+            "ymin": -0.05, 
+            "yErr": 3.454815906862462e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278290, 
+            "ymax": 0.1, 
+            "y": 0.02405274676173142, 
+            "x": 372.0, 
+            "ymin": -0.05, 
+            "yErr": 6.867897752101428e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278308, 
+            "ymax": 0.1, 
+            "y": 0.023459034562657452, 
+            "x": 373.0, 
+            "ymin": -0.05, 
+            "yErr": 4.557660712520506e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278309, 
+            "ymax": 0.1, 
+            "y": 0.022695477146163188, 
+            "x": 374.0, 
+            "ymin": -0.05, 
+            "yErr": 7.83404173192221e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278310, 
+            "ymax": 0.1, 
+            "y": 0.02240351706783854, 
+            "x": 375.0, 
+            "ymin": -0.05, 
+            "yErr": 9.2007743243104e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278315, 
+            "ymax": 0.1, 
+            "y": 0.02355192896742877, 
+            "x": 376.0, 
+            "ymin": -0.05, 
+            "yErr": 1.0142896924595942e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278345, 
+            "ymax": 0.1, 
+            "y": 0.023458054723678866, 
+            "x": 377.0, 
+            "ymin": -0.05, 
+            "yErr": 9.900899846779114e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278346, 
+            "ymax": 0.1, 
+            "y": 0.022960812325811653, 
+            "x": 378.0, 
+            "ymin": -0.05, 
+            "yErr": 2.3896881643515504e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278349, 
+            "ymax": 0.1, 
+            "y": 0.02271866861342195, 
+            "x": 379.0, 
+            "ymin": -0.05, 
+            "yErr": 1.0141913100555045e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278366, 
+            "ymax": 0.1, 
+            "y": 0.022249458568218364, 
+            "x": 380.0, 
+            "ymin": -0.05, 
+            "yErr": 1.1856014058679605e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278406, 
+            "ymax": 0.1, 
+            "y": 0.02332507975462265, 
+            "x": 381.0, 
+            "ymin": -0.05, 
+            "yErr": 5.05626438518755e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278509, 
+            "ymax": 0.1, 
+            "y": 0.023257523796561718, 
+            "x": 382.0, 
+            "ymin": -0.05, 
+            "yErr": 7.11379648239285e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278761, 
+            "ymax": 0.1, 
+            "y": 0.022543020303702452, 
+            "x": 383.0, 
+            "ymin": -0.05, 
+            "yErr": 3.925973462868875e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278769, 
+            "ymax": 0.1, 
+            "y": 0.02249727873799048, 
+            "x": 384.0, 
+            "ymin": -0.05, 
+            "yErr": 2.7564192674316608e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278770, 
+            "ymax": 0.1, 
+            "y": 0.0236632927586568, 
+            "x": 385.0, 
+            "ymin": -0.05, 
+            "yErr": 9.965439693831021e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278801, 
+            "ymax": 0.1, 
+            "y": 0.023010155663501147, 
+            "x": 386.0, 
+            "ymin": -0.05, 
+            "yErr": 2.718441210708164e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278802, 
+            "ymax": 0.1, 
+            "y": 0.022633071735053724, 
+            "x": 387.0, 
+            "ymin": -0.05, 
+            "yErr": 5.687240017265415e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278803, 
+            "ymax": 0.1, 
+            "y": 0.022510478736327992, 
+            "x": 388.0, 
+            "ymin": -0.05, 
+            "yErr": 8.77439553119132e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278804, 
+            "ymax": 0.1, 
+            "y": 0.02191866009322231, 
+            "x": 389.0, 
+            "ymin": -0.05, 
+            "yErr": 8.34320311767629e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278805, 
+            "ymax": 0.1, 
+            "y": 0.02239974928966166, 
+            "x": 390.0, 
+            "ymin": -0.05, 
+            "yErr": 9.80535127066669e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278807, 
+            "ymax": 0.1, 
+            "y": 0.018962777134720124, 
+            "x": 391.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0008784336878261578, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278808, 
+            "ymax": 0.1, 
+            "y": 0.021936823916238385, 
+            "x": 392.0, 
+            "ymin": -0.05, 
+            "yErr": 4.344698195686742e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278820, 
+            "ymax": 0.1, 
+            "y": 0.022150894968766304, 
+            "x": 393.0, 
+            "ymin": -0.05, 
+            "yErr": 4.316696008592909e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278821, 
+            "ymax": 0.1, 
+            "y": 0.022047403075399933, 
+            "x": 394.0, 
+            "ymin": -0.05, 
+            "yErr": 3.356348448844595e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278822, 
+            "ymax": 0.1, 
+            "y": 0.02143824222793999, 
+            "x": 395.0, 
+            "ymin": -0.05, 
+            "yErr": 5.0883205023888755e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278873, 
+            "ymax": 0.1, 
+            "y": 0.022204844597855062, 
+            "x": 396.0, 
+            "ymin": -0.05, 
+            "yErr": 4.81713379838825e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278874, 
+            "ymax": 0.1, 
+            "y": 0.02234933161447139, 
+            "x": 397.0, 
+            "ymin": -0.05, 
+            "yErr": 7.6193003880761976e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278875, 
+            "ymax": 0.1, 
+            "y": 0.021981904647224108, 
+            "x": 398.0, 
+            "ymin": -0.05, 
+            "yErr": 6.31911513479735e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278923, 
+            "ymax": 0.1, 
+            "y": 0.02254140810485245, 
+            "x": 399.0, 
+            "ymin": -0.05, 
+            "yErr": 7.624014066579173e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278957, 
+            "ymax": 0.1, 
+            "y": 0.022689181452416746, 
+            "x": 400.0, 
+            "ymin": -0.05, 
+            "yErr": 1.2780197745768871e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278962, 
+            "ymax": 0.1, 
+            "y": 0.022458079188279762, 
+            "x": 401.0, 
+            "ymin": -0.05, 
+            "yErr": 8.698865737913679e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278963, 
+            "ymax": 0.1, 
+            "y": 0.022332881589219745, 
+            "x": 402.0, 
+            "ymin": -0.05, 
+            "yErr": 1.2333327957312232e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278969, 
+            "ymax": 0.1, 
+            "y": 0.022474738160448322, 
+            "x": 403.0, 
+            "ymin": -0.05, 
+            "yErr": 4.388500242061941e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278975, 
+            "ymax": 0.1, 
+            "y": 0.021858861171160225, 
+            "x": 404.0, 
+            "ymin": -0.05, 
+            "yErr": 6.5205242672147395e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278976, 
+            "ymax": 0.1, 
+            "y": 0.021632704448134088, 
+            "x": 405.0, 
+            "ymin": -0.05, 
+            "yErr": 4.3546405991363445e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 278986, 
+            "ymax": 0.1, 
+            "y": 0.022790511003298937, 
+            "x": 406.0, 
+            "ymin": -0.05, 
+            "yErr": 1.3127207577995122e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279024, 
+            "ymax": 0.1, 
+            "y": 0.02240756865087487, 
+            "x": 407.0, 
+            "ymin": -0.05, 
+            "yErr": 9.657634539140132e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279029, 
+            "ymax": 0.1, 
+            "y": 0.022158286418011715, 
+            "x": 408.0, 
+            "ymin": -0.05, 
+            "yErr": 1.0876254732951315e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279071, 
+            "ymax": 0.1, 
+            "y": 0.02187918545223361, 
+            "x": 409.0, 
+            "ymin": -0.05, 
+            "yErr": 1.4009877267071245e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279080, 
+            "ymax": 0.1, 
+            "y": 0.02158432041775458, 
+            "x": 410.0, 
+            "ymin": -0.05, 
+            "yErr": 1.983712217791338e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279115, 
+            "ymax": 0.1, 
+            "y": 0.022504842240590718, 
+            "x": 411.0, 
+            "ymin": -0.05, 
+            "yErr": 8.13799720195816e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279116, 
+            "ymax": 0.1, 
+            "y": 0.022370318433488603, 
+            "x": 412.0, 
+            "ymin": -0.05, 
+            "yErr": 7.83426319262444e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279479, 
+            "ymax": 0.1, 
+            "y": 0.02244564605215704, 
+            "x": 413.0, 
+            "ymin": -0.05, 
+            "yErr": 1.1217311071916689e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279480, 
+            "ymax": 0.1, 
+            "y": 0.017609049955720494, 
+            "x": 414.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0008228168684478425, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279488, 
+            "ymax": 0.1, 
+            "y": 0.021295543691872667, 
+            "x": 415.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00012284346059251178, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279489, 
+            "ymax": 0.1, 
+            "y": 0.020603485674333476, 
+            "x": 416.0, 
+            "ymin": -0.05, 
+            "yErr": 5.524616216391764e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279588, 
+            "ymax": 0.1, 
+            "y": 0.022301487906077687, 
+            "x": 417.0, 
+            "ymin": -0.05, 
+            "yErr": 4.890092802455391e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279653, 
+            "ymax": 0.1, 
+            "y": 0.022616564778556263, 
+            "x": 418.0, 
+            "ymin": -0.05, 
+            "yErr": 1.155473888277051e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279654, 
+            "ymax": 0.1, 
+            "y": 0.022183102432331764, 
+            "x": 419.0, 
+            "ymin": -0.05, 
+            "yErr": 4.7657050725278275e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279656, 
+            "ymax": 0.1, 
+            "y": 0.021777125888680623, 
+            "x": 420.0, 
+            "ymin": -0.05, 
+            "yErr": 3.0239942132081605e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279658, 
+            "ymax": 0.1, 
+            "y": 0.021555606297104204, 
+            "x": 421.0, 
+            "ymin": -0.05, 
+            "yErr": 7.42677187692426e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279667, 
+            "ymax": 0.1, 
+            "y": 0.022425558864337086, 
+            "x": 422.0, 
+            "ymin": -0.05, 
+            "yErr": 5.067020501854287e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279681, 
+            "ymax": 0.1, 
+            "y": 0.022637101144585572, 
+            "x": 423.0, 
+            "ymin": -0.05, 
+            "yErr": 3.003969947559959e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279682, 
+            "ymax": 0.1, 
+            "y": 0.0225883296105289, 
+            "x": 424.0, 
+            "ymin": -0.05, 
+            "yErr": 2.758463473729067e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279683, 
+            "ymax": 0.1, 
+            "y": 0.022509200740482845, 
+            "x": 425.0, 
+            "ymin": -0.05, 
+            "yErr": 3.0480802531199315e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279684, 
+            "ymax": 0.1, 
+            "y": 0.02231066550452094, 
+            "x": 426.0, 
+            "ymin": -0.05, 
+            "yErr": 3.328230427203053e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279685, 
+            "ymax": 0.1, 
+            "y": 0.022343846381558785, 
+            "x": 427.0, 
+            "ymin": -0.05, 
+            "yErr": 1.0871910102018084e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279691, 
+            "ymax": 0.1, 
+            "y": 0.022765663197502367, 
+            "x": 428.0, 
+            "ymin": -0.05, 
+            "yErr": 2.4594703500265263e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279694, 
+            "ymax": 0.1, 
+            "y": 0.02223566891496468, 
+            "x": 429.0, 
+            "ymin": -0.05, 
+            "yErr": 3.6516960830548733e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279715, 
+            "ymax": 0.1, 
+            "y": 0.022274300773863068, 
+            "x": 430.0, 
+            "ymin": -0.05, 
+            "yErr": 6.483106977531372e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279716, 
+            "ymax": 0.1, 
+            "y": 0.021882259335541013, 
+            "x": 431.0, 
+            "ymin": -0.05, 
+            "yErr": 4.678718810281002e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279760, 
+            "ymax": 0.1, 
+            "y": 0.022586901162963018, 
+            "x": 432.0, 
+            "ymin": -0.05, 
+            "yErr": 5.932562992610331e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279766, 
+            "ymax": 0.1, 
+            "y": 0.021894353220521894, 
+            "x": 433.0, 
+            "ymin": -0.05, 
+            "yErr": 4.323860293112725e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279767, 
+            "ymax": 0.1, 
+            "y": 0.021464475783485145, 
+            "x": 434.0, 
+            "ymin": -0.05, 
+            "yErr": 7.301224761087669e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279794, 
+            "ymax": 0.1, 
+            "y": 0.022550612630174195, 
+            "x": 435.0, 
+            "ymin": -0.05, 
+            "yErr": 4.878772822026026e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279823, 
+            "ymax": 0.1, 
+            "y": 0.0226110662769921, 
+            "x": 436.0, 
+            "ymin": -0.05, 
+            "yErr": 8.152546320726934e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279841, 
+            "ymax": 0.1, 
+            "y": 0.022053121809716258, 
+            "x": 437.0, 
+            "ymin": -0.05, 
+            "yErr": 3.803757945363848e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279844, 
+            "ymax": 0.1, 
+            "y": 0.02302533112567466, 
+            "x": 438.0, 
+            "ymin": -0.05, 
+            "yErr": 9.84298646012676e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279846, 
+            "ymax": 0.1, 
+            "y": 0.022856766839950155, 
+            "x": 439.0, 
+            "ymin": -0.05, 
+            "yErr": 2.6124902740992523e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279848, 
+            "ymax": 0.1, 
+            "y": 0.022277187791030172, 
+            "x": 440.0, 
+            "ymin": -0.05, 
+            "yErr": 1.6489473968615302e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279849, 
+            "ymax": 0.1, 
+            "y": 0.025008573884199182, 
+            "x": 441.0, 
+            "ymin": -0.05, 
+            "yErr": 8.761817976181475e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279851, 
+            "ymax": 0.1, 
+            "y": 0.021192070984381306, 
+            "x": 442.0, 
+            "ymin": -0.05, 
+            "yErr": 6.594439690843296e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279852, 
+            "ymax": 0.1, 
+            "y": 0.021369320373408766, 
+            "x": 443.0, 
+            "ymin": -0.05, 
+            "yErr": 3.2292026749643945e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279853, 
+            "ymax": 0.1, 
+            "y": 0.021570858123943354, 
+            "x": 444.0, 
+            "ymin": -0.05, 
+            "yErr": 4.162149274377513e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279854, 
+            "ymax": 0.1, 
+            "y": 0.02137388786584573, 
+            "x": 445.0, 
+            "ymin": -0.05, 
+            "yErr": 7.743145855919461e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279855, 
+            "ymax": 0.1, 
+            "y": 0.02159308666844184, 
+            "x": 446.0, 
+            "ymin": -0.05, 
+            "yErr": 8.467812013157066e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279856, 
+            "ymax": 0.1, 
+            "y": 0.021201482259745247, 
+            "x": 447.0, 
+            "ymin": -0.05, 
+            "yErr": 7.222259003427825e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279857, 
+            "ymax": 0.1, 
+            "y": 0.022278849270067017, 
+            "x": 448.0, 
+            "ymin": -0.05, 
+            "yErr": 8.536897523600335e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279858, 
+            "ymax": 0.1, 
+            "y": 0.02190134647099491, 
+            "x": 449.0, 
+            "ymin": -0.05, 
+            "yErr": 5.249450451939765e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279859, 
+            "ymax": 0.1, 
+            "y": 0.021404985863141858, 
+            "x": 450.0, 
+            "ymin": -0.05, 
+            "yErr": 9.151274613515071e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279860, 
+            "ymax": 0.1, 
+            "y": 0.021617364727654968, 
+            "x": 451.0, 
+            "ymin": -0.05, 
+            "yErr": 9.337627841698576e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279861, 
+            "ymax": 0.1, 
+            "y": 0.022663259812603923, 
+            "x": 452.0, 
+            "ymin": -0.05, 
+            "yErr": 9.140194725406317e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279865, 
+            "ymax": 0.1, 
+            "y": 0.021172498486308377, 
+            "x": 453.0, 
+            "ymin": -0.05, 
+            "yErr": 1.3807561311070344e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279887, 
+            "ymax": 0.1, 
+            "y": 0.022672931181830884, 
+            "x": 454.0, 
+            "ymin": -0.05, 
+            "yErr": 8.584307045695716e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279931, 
+            "ymax": 0.1, 
+            "y": 0.022138819075104187, 
+            "x": 455.0, 
+            "ymin": -0.05, 
+            "yErr": 3.2502219617625844e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279966, 
+            "ymax": 0.1, 
+            "y": 0.02298931603653026, 
+            "x": 456.0, 
+            "ymin": -0.05, 
+            "yErr": 7.64695080747986e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279975, 
+            "ymax": 0.1, 
+            "y": 0.022628537159711304, 
+            "x": 457.0, 
+            "ymin": -0.05, 
+            "yErr": 4.762667645540538e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279993, 
+            "ymax": 0.1, 
+            "y": 0.023088765051288013, 
+            "x": 458.0, 
+            "ymin": -0.05, 
+            "yErr": 1.778542123561884e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279994, 
+            "ymax": 0.1, 
+            "y": 0.022825882997584035, 
+            "x": 459.0, 
+            "ymin": -0.05, 
+            "yErr": 2.127919581451339e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 279995, 
+            "ymax": 0.1, 
+            "y": 0.022892456902323093, 
+            "x": 460.0, 
+            "ymin": -0.05, 
+            "yErr": 6.617312050128569e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 280002, 
+            "ymax": 0.1, 
+            "y": 0.022751432260547957, 
+            "x": 461.0, 
+            "ymin": -0.05, 
+            "yErr": 1.4338138794413241e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 280006, 
+            "ymax": 0.1, 
+            "y": 0.022683510998398257, 
+            "x": 462.0, 
+            "ymin": -0.05, 
+            "yErr": 1.8480740390611592e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 280007, 
+            "ymax": 0.1, 
+            "y": 0.02255186443626957, 
+            "x": 463.0, 
+            "ymin": -0.05, 
+            "yErr": 2.5465252669530803e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 280013, 
+            "ymax": 0.1, 
+            "y": 0.022589736410044532, 
+            "x": 464.0, 
+            "ymin": -0.05, 
+            "yErr": 3.100792523064135e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 280014, 
+            "ymax": 0.1, 
+            "y": 0.019146849831689544, 
+            "x": 465.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0007689559936203299, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 280015, 
+            "ymax": 0.1, 
+            "y": 0.022316704621529616, 
+            "x": 466.0, 
+            "ymin": -0.05, 
+            "yErr": 6.690958428440311e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 280016, 
+            "ymax": 0.1, 
+            "y": 0.022177514908692568, 
+            "x": 467.0, 
+            "ymin": -0.05, 
+            "yErr": 1.3895244179288136e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 280017, 
+            "ymax": 0.1, 
+            "y": 0.021971480252763236, 
+            "x": 468.0, 
+            "ymin": -0.05, 
+            "yErr": 7.163220309478498e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 280018, 
+            "ymax": 0.1, 
+            "y": 0.021559700663595478, 
+            "x": 469.0, 
+            "ymin": -0.05, 
+            "yErr": 5.499929007462363e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 280020, 
+            "ymax": 0.1, 
+            "y": 0.021507396294113742, 
+            "x": 470.0, 
+            "ymin": -0.05, 
+            "yErr": 3.214817936965458e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 280023, 
+            "ymax": 0.1, 
+            "y": 0.02298495489104561, 
+            "x": 471.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0008687496362534914, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 280024, 
+            "ymax": 0.1, 
+            "y": 0.021449366012390343, 
+            "x": 472.0, 
+            "ymin": -0.05, 
+            "yErr": 1.0620997133121479e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 280187, 
+            "ymax": 0.1, 
+            "y": 0.023121187747011503, 
+            "x": 473.0, 
+            "ymin": -0.05, 
+            "yErr": 2.0641301433115106e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 280188, 
+            "ymax": 0.1, 
+            "y": 0.022822726831465356, 
+            "x": 474.0, 
+            "ymin": -0.05, 
+            "yErr": 9.399031888374134e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 280190, 
+            "ymax": 0.1, 
+            "y": 0.022060558980630054, 
+            "x": 475.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0009528710177020809, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 280191, 
+            "ymax": 0.1, 
+            "y": 0.022414849183468585, 
+            "x": 476.0, 
+            "ymin": -0.05, 
+            "yErr": 5.399102025983036e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 280194, 
+            "ymax": 0.1, 
+            "y": 0.022086930796985108, 
+            "x": 477.0, 
+            "ymin": -0.05, 
+            "yErr": 1.1675552921643764e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 280242, 
+            "ymax": 0.1, 
+            "y": 0.02269119481257994, 
+            "x": 478.0, 
+            "ymin": -0.05, 
+            "yErr": 6.035548013857624e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 280249, 
+            "ymax": 0.1, 
+            "y": 0.021951403272942035, 
+            "x": 479.0, 
+            "ymin": -0.05, 
+            "yErr": 4.555981456433784e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 280251, 
+            "ymax": 0.1, 
+            "y": 0.021573772499384445, 
+            "x": 480.0, 
+            "ymin": -0.05, 
+            "yErr": 1.0018704655351658e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 280327, 
+            "ymax": 0.1, 
+            "y": 0.022942148179098263, 
+            "x": 481.0, 
+            "ymin": -0.05, 
+            "yErr": 2.487758138854864e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 280330, 
+            "ymax": 0.1, 
+            "y": 0.02275018777030291, 
+            "x": 482.0, 
+            "ymin": -0.05, 
+            "yErr": 5.306216794475294e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 280349, 
+            "ymax": 0.1, 
+            "y": 0.02207096376962473, 
+            "x": 483.0, 
+            "ymin": -0.05, 
+            "yErr": 6.832999138534512e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 280363, 
+            "ymax": 0.1, 
+            "y": 0.021709853255483955, 
+            "x": 484.0, 
+            "ymin": -0.05, 
+            "yErr": 9.707000326197396e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 280364, 
+            "ymax": 0.1, 
+            "y": 0.021524927134901135, 
+            "x": 485.0, 
+            "ymin": -0.05, 
+            "yErr": 5.458811670232429e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 280383, 
+            "ymax": 0.1, 
+            "y": 0.02181109587209514, 
+            "x": 486.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00014815214789215463, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 280384, 
+            "ymax": 0.1, 
+            "y": 0.022642429794962737, 
+            "x": 487.0, 
+            "ymin": -0.05, 
+            "yErr": 2.6452447521577772e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 280385, 
+            "ymax": 0.1, 
+            "y": 0.022133759423841052, 
+            "x": 488.0, 
+            "ymin": -0.05, 
+            "yErr": 3.753938720930855e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 281613, 
+            "ymax": 0.1, 
+            "y": 0.022444557271068824, 
+            "x": 489.0, 
+            "ymin": -0.05, 
+            "yErr": 5.620560951438591e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 281616, 
+            "ymax": 0.1, 
+            "y": 0.02170428681972941, 
+            "x": 490.0, 
+            "ymin": -0.05, 
+            "yErr": 1.1120657269423167e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 281638, 
+            "ymax": 0.1, 
+            "y": 0.021800914738673745, 
+            "x": 491.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00011834698236497143, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 281639, 
+            "ymax": 0.1, 
+            "y": 0.0223608262213031, 
+            "x": 492.0, 
+            "ymin": -0.05, 
+            "yErr": 1.0740595538422085e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 281641, 
+            "ymax": 0.1, 
+            "y": 0.022173135744212504, 
+            "x": 493.0, 
+            "ymin": -0.05, 
+            "yErr": 6.5707367037795e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 281686, 
+            "ymax": 0.1, 
+            "y": 0.022851518839640105, 
+            "x": 494.0, 
+            "ymin": -0.05, 
+            "yErr": 4.761497803254111e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 281689, 
+            "ymax": 0.1, 
+            "y": 0.022802293853889894, 
+            "x": 495.0, 
+            "ymin": -0.05, 
+            "yErr": 8.731193543243113e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 281691, 
+            "ymax": 0.1, 
+            "y": 0.02363121544027075, 
+            "x": 496.0, 
+            "ymin": -0.05, 
+            "yErr": 5.926315468127424e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 281693, 
+            "ymax": 0.1, 
+            "y": 0.02231433690802601, 
+            "x": 497.0, 
+            "ymin": -0.05, 
+            "yErr": 4.4135665531862275e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 281707, 
+            "ymax": 0.1, 
+            "y": 0.022492158682411997, 
+            "x": 498.0, 
+            "ymin": -0.05, 
+            "yErr": 6.683305696807286e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 281726, 
+            "ymax": 0.1, 
+            "y": 0.02189137282428605, 
+            "x": 499.0, 
+            "ymin": -0.05, 
+            "yErr": 1.0284478921939745e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 281727, 
+            "ymax": 0.1, 
+            "y": 0.021654377416528738, 
+            "x": 500.0, 
+            "ymin": -0.05, 
+            "yErr": 5.986021348957874e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 281797, 
+            "ymax": 0.1, 
+            "y": 0.02203751416699791, 
+            "x": 501.0, 
+            "ymin": -0.05, 
+            "yErr": 3.3075686671441005e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 281975, 
+            "ymax": 0.1, 
+            "y": 0.022673459998358826, 
+            "x": 502.0, 
+            "ymin": -0.05, 
+            "yErr": 1.029522037459754e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 281976, 
+            "ymax": 0.1, 
+            "y": 0.021882220736356994, 
+            "x": 503.0, 
+            "ymin": -0.05, 
+            "yErr": 3.5882478041054535e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 282033, 
+            "ymax": 0.1, 
+            "y": 0.022692986473589374, 
+            "x": 504.0, 
+            "ymin": -0.05, 
+            "yErr": 2.5963801645263173e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 282034, 
+            "ymax": 0.1, 
+            "y": 0.022708847345092546, 
+            "x": 505.0, 
+            "ymin": -0.05, 
+            "yErr": 2.5521713637537683e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 282035, 
+            "ymax": 0.1, 
+            "y": 0.02263954495772212, 
+            "x": 506.0, 
+            "ymin": -0.05, 
+            "yErr": 2.419166272274288e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 282037, 
+            "ymax": 0.1, 
+            "y": 0.022059220937459927, 
+            "x": 507.0, 
+            "ymin": -0.05, 
+            "yErr": 3.576601040679299e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 282092, 
+            "ymax": 0.1, 
+            "y": 0.02202897009479699, 
+            "x": 508.0, 
+            "ymin": -0.05, 
+            "yErr": 3.323412370823871e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 282663, 
+            "ymax": 0.1, 
+            "y": 0.02158755334326353, 
+            "x": 509.0, 
+            "ymin": -0.05, 
+            "yErr": 9.833589472019739e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 282708, 
+            "ymax": 0.1, 
+            "y": 0.02284167333160762, 
+            "x": 510.0, 
+            "ymin": -0.05, 
+            "yErr": 5.135904838309281e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 282710, 
+            "ymax": 0.1, 
+            "y": 0.02290536010198604, 
+            "x": 511.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0001288201090268046, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 282712, 
+            "ymax": 0.1, 
+            "y": 0.02290662102781929, 
+            "x": 512.0, 
+            "ymin": -0.05, 
+            "yErr": 1.7173937703288078e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 282730, 
+            "ymax": 0.1, 
+            "y": 0.022706086261683196, 
+            "x": 513.0, 
+            "ymin": -0.05, 
+            "yErr": 1.7157071598104448e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 282731, 
+            "ymax": 0.1, 
+            "y": 0.02266268200595663, 
+            "x": 514.0, 
+            "ymin": -0.05, 
+            "yErr": 1.1139914302809813e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 282732, 
+            "ymax": 0.1, 
+            "y": 0.022813072141718987, 
+            "x": 515.0, 
+            "ymin": -0.05, 
+            "yErr": 1.8125420483954615e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 282733, 
+            "ymax": 0.1, 
+            "y": 0.02254788516402284, 
+            "x": 516.0, 
+            "ymin": -0.05, 
+            "yErr": 1.1509255167036983e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 282734, 
+            "ymax": 0.1, 
+            "y": 0.022197677034935623, 
+            "x": 517.0, 
+            "ymin": -0.05, 
+            "yErr": 8.80546883791654e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 282735, 
+            "ymax": 0.1, 
+            "y": 0.02173458377672833, 
+            "x": 518.0, 
+            "ymin": -0.05, 
+            "yErr": 3.7765267581545162e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 282800, 
+            "ymax": 0.1, 
+            "y": 0.022599650955093687, 
+            "x": 519.0, 
+            "ymin": -0.05, 
+            "yErr": 7.686727561242992e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 282807, 
+            "ymax": 0.1, 
+            "y": 0.022256441492392757, 
+            "x": 520.0, 
+            "ymin": -0.05, 
+            "yErr": 8.630154838510562e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 282814, 
+            "ymax": 0.1, 
+            "y": 0.021802066558438384, 
+            "x": 521.0, 
+            "ymin": -0.05, 
+            "yErr": 3.7420446174470008e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 282842, 
+            "ymax": 0.1, 
+            "y": 0.023295537769994944, 
+            "x": 522.0, 
+            "ymin": -0.05, 
+            "yErr": 1.5604983117314992e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 282917, 
+            "ymax": 0.1, 
+            "y": 0.02258806300968505, 
+            "x": 523.0, 
+            "ymin": -0.05, 
+            "yErr": 1.7744087436299278e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 282918, 
+            "ymax": 0.1, 
+            "y": 0.022509663666428856, 
+            "x": 524.0, 
+            "ymin": -0.05, 
+            "yErr": 2.0836172696396895e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 282919, 
+            "ymax": 0.1, 
+            "y": 0.02247354998778608, 
+            "x": 525.0, 
+            "ymin": -0.05, 
+            "yErr": 9.799466288234574e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 282922, 
+            "ymax": 0.1, 
+            "y": 0.02228110132369999, 
+            "x": 526.0, 
+            "ymin": -0.05, 
+            "yErr": 1.4205328130481434e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 282923, 
+            "ymax": 0.1, 
+            "y": 0.021955488650719134, 
+            "x": 527.0, 
+            "ymin": -0.05, 
+            "yErr": 9.173631683771839e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 282924, 
+            "ymax": 0.1, 
+            "y": 0.022078636918122563, 
+            "x": 528.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00011370473338932747, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283042, 
+            "ymax": 0.1, 
+            "y": 0.022093738154735035, 
+            "x": 529.0, 
+            "ymin": -0.05, 
+            "yErr": 6.197993343187624e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283043, 
+            "ymax": 0.1, 
+            "y": 0.0225487083939642, 
+            "x": 530.0, 
+            "ymin": -0.05, 
+            "yErr": 6.93738437295244e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283049, 
+            "ymax": 0.1, 
+            "y": 0.023459804865553872, 
+            "x": 531.0, 
+            "ymin": -0.05, 
+            "yErr": 4.425338625238705e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283050, 
+            "ymax": 0.1, 
+            "y": 0.022900793159111425, 
+            "x": 532.0, 
+            "ymin": -0.05, 
+            "yErr": 9.935027897686357e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283052, 
+            "ymax": 0.1, 
+            "y": 0.02281573755291091, 
+            "x": 533.0, 
+            "ymin": -0.05, 
+            "yErr": 1.3979779954180777e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283059, 
+            "ymax": 0.1, 
+            "y": 0.022523251724553134, 
+            "x": 534.0, 
+            "ymin": -0.05, 
+            "yErr": 7.380349288461607e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283270, 
+            "ymax": 0.1, 
+            "y": 0.02234291762742445, 
+            "x": 535.0, 
+            "ymin": -0.05, 
+            "yErr": 3.4499173404727354e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283283, 
+            "ymax": 0.1, 
+            "y": 0.021475975315382385, 
+            "x": 536.0, 
+            "ymin": -0.05, 
+            "yErr": 4.8954620717628355e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283305, 
+            "ymax": 0.1, 
+            "y": 0.023936204475985937, 
+            "x": 537.0, 
+            "ymin": -0.05, 
+            "yErr": 6.697072966310433e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283306, 
+            "ymax": 0.1, 
+            "y": 0.022876440077900982, 
+            "x": 538.0, 
+            "ymin": -0.05, 
+            "yErr": 8.472862512839858e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283307, 
+            "ymax": 0.1, 
+            "y": 0.02254965759370826, 
+            "x": 539.0, 
+            "ymin": -0.05, 
+            "yErr": 7.227174463793944e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283308, 
+            "ymax": 0.1, 
+            "y": 0.0223144640392338, 
+            "x": 540.0, 
+            "ymin": -0.05, 
+            "yErr": 4.663584950367988e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283353, 
+            "ymax": 0.1, 
+            "y": 0.022846643316168376, 
+            "x": 541.0, 
+            "ymin": -0.05, 
+            "yErr": 5.352951908921134e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283358, 
+            "ymax": 0.1, 
+            "y": 0.02207907258932969, 
+            "x": 542.0, 
+            "ymin": -0.05, 
+            "yErr": 4.623437681495273e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283359, 
+            "ymax": 0.1, 
+            "y": 0.021724983426818806, 
+            "x": 543.0, 
+            "ymin": -0.05, 
+            "yErr": 7.430661045026375e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283407, 
+            "ymax": 0.1, 
+            "y": 0.023832039529956862, 
+            "x": 544.0, 
+            "ymin": -0.05, 
+            "yErr": 2.502391020213307e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283408, 
+            "ymax": 0.1, 
+            "y": 0.02238782312315697, 
+            "x": 545.0, 
+            "ymin": -0.05, 
+            "yErr": 3.0968646150937763e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283413, 
+            "ymax": 0.1, 
+            "y": 0.016799714056433088, 
+            "x": 546.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0012521767544247707, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283415, 
+            "ymax": 0.1, 
+            "y": 0.017894901679561915, 
+            "x": 547.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0010771465022900127, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283416, 
+            "ymax": 0.1, 
+            "y": 0.021420603357631074, 
+            "x": 548.0, 
+            "ymin": -0.05, 
+            "yErr": 1.445987373339766e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283453, 
+            "ymax": 0.1, 
+            "y": 0.022939330848772203, 
+            "x": 549.0, 
+            "ymin": -0.05, 
+            "yErr": 6.73242549105417e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283469, 
+            "ymax": 0.1, 
+            "y": 0.02536396774855869, 
+            "x": 550.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00019203007795584983, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283478, 
+            "ymax": 0.1, 
+            "y": 0.022644382124694537, 
+            "x": 551.0, 
+            "ymin": -0.05, 
+            "yErr": 4.988857554625661e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283548, 
+            "ymax": 0.1, 
+            "y": 0.022335579147560135, 
+            "x": 552.0, 
+            "ymin": -0.05, 
+            "yErr": 1.3443766577693706e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283675, 
+            "ymax": 0.1, 
+            "y": 0.022180910059362118, 
+            "x": 553.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00020642561361536372, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283676, 
+            "ymax": 0.1, 
+            "y": 0.022289878931711204, 
+            "x": 554.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0002757094728173395, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283680, 
+            "ymax": 0.1, 
+            "y": 0.023433054421055068, 
+            "x": 555.0, 
+            "ymin": -0.05, 
+            "yErr": 1.7580476821988433e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283681, 
+            "ymax": 0.1, 
+            "y": 0.022383217045669816, 
+            "x": 556.0, 
+            "ymin": -0.05, 
+            "yErr": 3.734480208282539e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283682, 
+            "ymax": 0.1, 
+            "y": 0.02223273360769028, 
+            "x": 557.0, 
+            "ymin": -0.05, 
+            "yErr": 7.943236207304042e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283685, 
+            "ymax": 0.1, 
+            "y": 0.021699782710014895, 
+            "x": 558.0, 
+            "ymin": -0.05, 
+            "yErr": 1.2652669964592257e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283820, 
+            "ymax": 0.1, 
+            "y": 0.02202301295504932, 
+            "x": 559.0, 
+            "ymin": -0.05, 
+            "yErr": 3.6261486210681603e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283830, 
+            "ymax": 0.1, 
+            "y": 0.021703595768628285, 
+            "x": 560.0, 
+            "ymin": -0.05, 
+            "yErr": 5.687156818323396e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283834, 
+            "ymax": 0.1, 
+            "y": 0.02151505796036127, 
+            "x": 561.0, 
+            "ymin": -0.05, 
+            "yErr": 1.8857744057126336e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283835, 
+            "ymax": 0.1, 
+            "y": 0.021538168638120143, 
+            "x": 562.0, 
+            "ymin": -0.05, 
+            "yErr": 1.677889577884822e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283863, 
+            "ymax": 0.1, 
+            "y": 0.021103220422761713, 
+            "x": 563.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0005632032876064406, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283865, 
+            "ymax": 0.1, 
+            "y": 0.022459938272563155, 
+            "x": 564.0, 
+            "ymin": -0.05, 
+            "yErr": 3.7511083181511275e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283876, 
+            "ymax": 0.1, 
+            "y": 0.02271860611862842, 
+            "x": 565.0, 
+            "ymin": -0.05, 
+            "yErr": 4.832126868017143e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283877, 
+            "ymax": 0.1, 
+            "y": 0.021822922398945028, 
+            "x": 566.0, 
+            "ymin": -0.05, 
+            "yErr": 3.7142845752454776e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283884, 
+            "ymax": 0.1, 
+            "y": 0.022775224638363782, 
+            "x": 567.0, 
+            "ymin": -0.05, 
+            "yErr": 6.189747994668242e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283885, 
+            "ymax": 0.1, 
+            "y": 0.0220390140343435, 
+            "x": 568.0, 
+            "ymin": -0.05, 
+            "yErr": 3.4670046257392672e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283933, 
+            "ymax": 0.1, 
+            "y": 0.022996067606150222, 
+            "x": 569.0, 
+            "ymin": -0.05, 
+            "yErr": 9.960190561458407e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283934, 
+            "ymax": 0.1, 
+            "y": 0.02231483376211261, 
+            "x": 570.0, 
+            "ymin": -0.05, 
+            "yErr": 3.6376933406995424e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283946, 
+            "ymax": 0.1, 
+            "y": 0.022539485527842122, 
+            "x": 571.0, 
+            "ymin": -0.05, 
+            "yErr": 3.575548998457035e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 283964, 
+            "ymax": 0.1, 
+            "y": 0.021744463869804206, 
+            "x": 572.0, 
+            "ymin": -0.05, 
+            "yErr": 7.6217667939502055e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 284006, 
+            "ymax": 0.1, 
+            "y": 0.022096756290428142, 
+            "x": 573.0, 
+            "ymin": -0.05, 
+            "yErr": 7.817241078089994e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 284014, 
+            "ymax": 0.1, 
+            "y": 0.022050192292724913, 
+            "x": 574.0, 
+            "ymin": -0.05, 
+            "yErr": 8.56455268610012e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 284025, 
+            "ymax": 0.1, 
+            "y": 0.02300698682114085, 
+            "x": 575.0, 
+            "ymin": -0.05, 
+            "yErr": 1.8229431362168842e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 284029, 
+            "ymax": 0.1, 
+            "y": 0.022784676676791182, 
+            "x": 576.0, 
+            "ymin": -0.05, 
+            "yErr": 1.1455225453387675e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 284035, 
+            "ymax": 0.1, 
+            "y": 0.022563235709737728, 
+            "x": 577.0, 
+            "ymin": -0.05, 
+            "yErr": 6.600442998756449e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 284036, 
+            "ymax": 0.1, 
+            "y": 0.02225241857993895, 
+            "x": 578.0, 
+            "ymin": -0.05, 
+            "yErr": 7.133126387637451e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 284037, 
+            "ymax": 0.1, 
+            "y": 0.02191654365351875, 
+            "x": 579.0, 
+            "ymin": -0.05, 
+            "yErr": 7.494985085240185e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 284038, 
+            "ymax": 0.1, 
+            "y": 0.021845842451857805, 
+            "x": 580.0, 
+            "ymin": -0.05, 
+            "yErr": 1.95229826287187e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 284039, 
+            "ymax": 0.1, 
+            "y": 0.02180004737748007, 
+            "x": 581.0, 
+            "ymin": -0.05, 
+            "yErr": 2.6878634503628362e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 284040, 
+            "ymax": 0.1, 
+            "y": 0.021576424101795073, 
+            "x": 582.0, 
+            "ymin": -0.05, 
+            "yErr": 2.49608790494451e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 284041, 
+            "ymax": 0.1, 
+            "y": 0.02177348018411563, 
+            "x": 583.0, 
+            "ymin": -0.05, 
+            "yErr": 2.2329414008695e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 284042, 
+            "ymax": 0.1, 
+            "y": 0.021729770845260538, 
+            "x": 584.0, 
+            "ymin": -0.05, 
+            "yErr": 1.3141754494516294e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 284043, 
+            "ymax": 0.1, 
+            "y": 0.021558862534247644, 
+            "x": 585.0, 
+            "ymin": -0.05, 
+            "yErr": 1.0249129271922805e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 284044, 
+            "ymax": 0.1, 
+            "y": 0.021677950168140378, 
+            "x": 586.0, 
+            "ymin": -0.05, 
+            "yErr": 2.7513102189401925e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        },
+        {
+            "run": 285090, 
+            "ymax": 0.1, 
+            "y": 0.02053970867933972, 
+            "x": 1.0, 
+            "ymin": -0.05, 
+            "yErr": 1.163639763195789e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 285216, 
+            "ymax": 0.1, 
+            "y": 0.02025393404186201, 
+            "x": 2.0, 
+            "ymin": -0.05, 
+            "yErr": 2.279174456161277e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 285244, 
+            "ymax": 0.1, 
+            "y": 0.02026787371485424, 
+            "x": 3.0, 
+            "ymin": -0.05, 
+            "yErr": 1.8947739936842407e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 285368, 
+            "ymax": 0.1, 
+            "y": 0.020315668436922462, 
+            "x": 4.0, 
+            "ymin": -0.05, 
+            "yErr": 4.424255026683532e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 285369, 
+            "ymax": 0.1, 
+            "y": 0.020233504839640846, 
+            "x": 5.0, 
+            "ymin": -0.05, 
+            "yErr": 3.4213615775659457e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 285371, 
+            "ymax": 0.1, 
+            "y": 0.020275883051025973, 
+            "x": 6.0, 
+            "ymin": -0.05, 
+            "yErr": 3.723672448727319e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 285374, 
+            "ymax": 0.1, 
+            "y": 0.020166324256501302, 
+            "x": 7.0, 
+            "ymin": -0.05, 
+            "yErr": 1.0475445821877759e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 285383, 
+            "ymax": 0.1, 
+            "y": 0.02026918424279566, 
+            "x": 8.0, 
+            "ymin": -0.05, 
+            "yErr": 2.9036464345038115e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 285479, 
+            "ymax": 0.1, 
+            "y": 0.01963929423174385, 
+            "x": 9.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00015487554743758773, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 285480, 
+            "ymax": 0.1, 
+            "y": 0.02033175083967024, 
+            "x": 10.0, 
+            "ymin": -0.05, 
+            "yErr": 2.86026705957523e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 285505, 
+            "ymax": 0.1, 
+            "y": 0.020193934071560313, 
+            "x": 11.0, 
+            "ymin": -0.05, 
+            "yErr": 1.4175856375691075e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 285517, 
+            "ymax": 0.1, 
+            "y": 0.02030863170225745, 
+            "x": 12.0, 
+            "ymin": -0.05, 
+            "yErr": 1.0402898279907366e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 285530, 
+            "ymax": 0.1, 
+            "y": 0.020283532346443818, 
+            "x": 13.0, 
+            "ymin": -0.05, 
+            "yErr": 9.467325555824653e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 285537, 
+            "ymax": 0.1, 
+            "y": 0.020320260982141618, 
+            "x": 14.0, 
+            "ymin": -0.05, 
+            "yErr": 2.012621367954118e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 285538, 
+            "ymax": 0.1, 
+            "y": 0.020109022624547494, 
+            "x": 15.0, 
+            "ymin": -0.05, 
+            "yErr": 2.9492599819504597e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 285539, 
+            "ymax": 0.1, 
+            "y": 0.020215815570842444, 
+            "x": 16.0, 
+            "ymin": -0.05, 
+            "yErr": 1.291567967037587e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 285549, 
+            "ymax": 0.1, 
+            "y": 0.020040877082876517, 
+            "x": 17.0, 
+            "ymin": -0.05, 
+            "yErr": 2.1276542867763642e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 285684, 
+            "ymax": 0.1, 
+            "y": 0.02025623061463807, 
+            "x": 18.0, 
+            "ymin": -0.05, 
+            "yErr": 1.0621661947958777e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 285718, 
+            "ymax": 0.1, 
+            "y": 0.02033726601058828, 
+            "x": 19.0, 
+            "ymin": -0.05, 
+            "yErr": 2.2841087333728466e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 285726, 
+            "ymax": 0.1, 
+            "y": 0.020243049833253274, 
+            "x": 20.0, 
+            "ymin": -0.05, 
+            "yErr": 1.5013241340194848e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 285750, 
+            "ymax": 0.1, 
+            "y": 0.02024059001571568, 
+            "x": 21.0, 
+            "ymin": -0.05, 
+            "yErr": 9.35794382442704e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 285759, 
+            "ymax": 0.1, 
+            "y": 0.020378302842164735, 
+            "x": 22.0, 
+            "ymin": -0.05, 
+            "yErr": 1.4579798522813924e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 285832, 
+            "ymax": 0.1, 
+            "y": 0.020266770976237775, 
+            "x": 23.0, 
+            "ymin": -0.05, 
+            "yErr": 2.421443879495134e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 285954, 
+            "ymax": 0.1, 
+            "y": 0.025126502942085387, 
+            "x": 24.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0037047007451128473, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 285955, 
+            "ymax": 0.1, 
+            "y": 0.016720360588119924, 
+            "x": 25.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0017245735155695064, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 285956, 
+            "ymax": 0.1, 
+            "y": 0.020381083437119724, 
+            "x": 26.0, 
+            "ymin": -0.05, 
+            "yErr": 3.115914692499165e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 285975, 
+            "ymax": 0.1, 
+            "y": 0.020065292607890955, 
+            "x": 27.0, 
+            "ymin": -0.05, 
+            "yErr": 1.3638559668434834e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 285993, 
+            "ymax": 0.1, 
+            "y": 0.020171859723960527, 
+            "x": 28.0, 
+            "ymin": -0.05, 
+            "yErr": 1.0065763175838458e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 285994, 
+            "ymax": 0.1, 
+            "y": 0.018723337318184118, 
+            "x": 29.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00031336403702470687, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 285995, 
+            "ymax": 0.1, 
+            "y": 0.02093082280562857, 
+            "x": 30.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0001552434378416127, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286009, 
+            "ymax": 0.1, 
+            "y": 0.020051982334692756, 
+            "x": 31.0, 
+            "ymin": -0.05, 
+            "yErr": 2.2334310556052327e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286010, 
+            "ymax": 0.1, 
+            "y": 0.020230773584067937, 
+            "x": 32.0, 
+            "ymin": -0.05, 
+            "yErr": 9.968939611369932e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286023, 
+            "ymax": 0.1, 
+            "y": 0.02008160271669752, 
+            "x": 33.0, 
+            "ymin": -0.05, 
+            "yErr": 1.1301971345414488e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286031, 
+            "ymax": 0.1, 
+            "y": 0.020128929105576388, 
+            "x": 34.0, 
+            "ymin": -0.05, 
+            "yErr": 1.9309713408575915e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286033, 
+            "ymax": 0.1, 
+            "y": 0.02008658981189261, 
+            "x": 35.0, 
+            "ymin": -0.05, 
+            "yErr": 3.2330929029638975e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286034, 
+            "ymax": 0.1, 
+            "y": 0.02010899865637099, 
+            "x": 36.0, 
+            "ymin": -0.05, 
+            "yErr": 1.140095253340502e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286051, 
+            "ymax": 0.1, 
+            "y": 0.020172255444166447, 
+            "x": 37.0, 
+            "ymin": -0.05, 
+            "yErr": 1.5214644981479116e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286054, 
+            "ymax": 0.1, 
+            "y": 0.02011602572307759, 
+            "x": 38.0, 
+            "ymin": -0.05, 
+            "yErr": 1.1681997006335211e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286069, 
+            "ymax": 0.1, 
+            "y": 0.020215340295431785, 
+            "x": 39.0, 
+            "ymin": -0.05, 
+            "yErr": 1.5290879141038537e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286070, 
+            "ymax": 0.1, 
+            "y": 0.019859877357093315, 
+            "x": 40.0, 
+            "ymin": -0.05, 
+            "yErr": 2.9676070493821177e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286178, 
+            "ymax": 0.1, 
+            "y": 0.02016950039288553, 
+            "x": 41.0, 
+            "ymin": -0.05, 
+            "yErr": 1.2276658703664661e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286200, 
+            "ymax": 0.1, 
+            "y": 0.02014032809612414, 
+            "x": 42.0, 
+            "ymin": -0.05, 
+            "yErr": 2.924594228716784e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286201, 
+            "ymax": 0.1, 
+            "y": 0.020217739476756, 
+            "x": 43.0, 
+            "ymin": -0.05, 
+            "yErr": 2.447298788216254e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286288, 
+            "ymax": 0.1, 
+            "y": 0.020377506397470553, 
+            "x": 44.0, 
+            "ymin": -0.05, 
+            "yErr": 4.689853153741232e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286301, 
+            "ymax": 0.1, 
+            "y": 0.020069306406408124, 
+            "x": 45.0, 
+            "ymin": -0.05, 
+            "yErr": 1.4874243090994462e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286302, 
+            "ymax": 0.1, 
+            "y": 0.019904941805529746, 
+            "x": 46.0, 
+            "ymin": -0.05, 
+            "yErr": 1.7734828895044457e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286309, 
+            "ymax": 0.1, 
+            "y": 0.021011784041621732, 
+            "x": 47.0, 
+            "ymin": -0.05, 
+            "yErr": 9.925584101471193e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286314, 
+            "ymax": 0.1, 
+            "y": 0.02043892119903837, 
+            "x": 48.0, 
+            "ymin": -0.05, 
+            "yErr": 2.9403254654515505e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286327, 
+            "ymax": 0.1, 
+            "y": 0.02059135174391694, 
+            "x": 49.0, 
+            "ymin": -0.05, 
+            "yErr": 6.208356834468147e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286329, 
+            "ymax": 0.1, 
+            "y": 0.02028731070009489, 
+            "x": 50.0, 
+            "ymin": -0.05, 
+            "yErr": 2.6191067405584634e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286365, 
+            "ymax": 0.1, 
+            "y": 0.020063665828579498, 
+            "x": 51.0, 
+            "ymin": -0.05, 
+            "yErr": 1.2357918492365317e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286420, 
+            "ymax": 0.1, 
+            "y": 0.020453278337925564, 
+            "x": 52.0, 
+            "ymin": -0.05, 
+            "yErr": 9.33424045635431e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286422, 
+            "ymax": 0.1, 
+            "y": 0.02013603890470536, 
+            "x": 53.0, 
+            "ymin": -0.05, 
+            "yErr": 8.242098574835287e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286424, 
+            "ymax": 0.1, 
+            "y": 0.013407206586924387, 
+            "x": 54.0, 
+            "ymin": -0.05, 
+            "yErr": 0.000887913947111847, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286425, 
+            "ymax": 0.1, 
+            "y": 0.020050674515262372, 
+            "x": 55.0, 
+            "ymin": -0.05, 
+            "yErr": 1.034601294325051e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286441, 
+            "ymax": 0.1, 
+            "y": 0.021539332897269295, 
+            "x": 56.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00013027610501330374, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286442, 
+            "ymax": 0.1, 
+            "y": 0.020143366973651263, 
+            "x": 57.0, 
+            "ymin": -0.05, 
+            "yErr": 1.3974600161061614e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286450, 
+            "ymax": 0.1, 
+            "y": 0.020162190230571215, 
+            "x": 58.0, 
+            "ymin": -0.05, 
+            "yErr": 9.834355959931986e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286471, 
+            "ymax": 0.1, 
+            "y": 0.02013473758636257, 
+            "x": 59.0, 
+            "ymin": -0.05, 
+            "yErr": 1.0310036061106845e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286496, 
+            "ymax": 0.1, 
+            "y": 0.02013873975160318, 
+            "x": 60.0, 
+            "ymin": -0.05, 
+            "yErr": 1.5940750753362577e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286514, 
+            "ymax": 0.1, 
+            "y": 0.020209601191974635, 
+            "x": 61.0, 
+            "ymin": -0.05, 
+            "yErr": 2.188853337185455e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286515, 
+            "ymax": 0.1, 
+            "y": 0.020567998720654988, 
+            "x": 62.0, 
+            "ymin": -0.05, 
+            "yErr": 1.537583838622812e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286516, 
+            "ymax": 0.1, 
+            "y": 0.020317424424070224, 
+            "x": 63.0, 
+            "ymin": -0.05, 
+            "yErr": 5.964285072772974e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286517, 
+            "ymax": 0.1, 
+            "y": 0.020312838484716152, 
+            "x": 64.0, 
+            "ymin": -0.05, 
+            "yErr": 1.0629855259553819e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286518, 
+            "ymax": 0.1, 
+            "y": 0.020302054763303896, 
+            "x": 65.0, 
+            "ymin": -0.05, 
+            "yErr": 1.4097962480527872e-05, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286519, 
+            "ymax": 0.1, 
+            "y": 0.020274158239424637, 
+            "x": 66.0, 
+            "ymin": -0.05, 
+            "yErr": 4.341907244008086e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }, 
+        {
+            "run": 286520, 
+            "ymax": 0.1, 
+            "y": 0.020249948897916405, 
+            "x": 67.0, 
+            "ymin": -0.05, 
+            "yErr": 4.385532627268037e-06, 
+            "yTitle": "HitResiduals TEC Wheel 9 RMS"
+        }
+    ]
+}

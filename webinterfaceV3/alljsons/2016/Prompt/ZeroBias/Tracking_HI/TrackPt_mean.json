@@ -1,0 +1,40 @@
+{
+    "TrackPt_mean": [
+        {
+            "run": 285090, 
+            "ymax": 5.0, 
+            "y": 1.6138928954352798, 
+            "x": 1.0, 
+            "ymin": 0.0, 
+            "yErr": 0.008803278171373137, 
+            "yTitle": "GoodTrack average pT [GeV/c2]"
+        }, 
+        {
+            "run": 285216, 
+            "ymax": 5.0, 
+            "y": 1.6400822698834294, 
+            "x": 2.0, 
+            "ymin": 0.0, 
+            "yErr": 0.009090314615608944, 
+            "yTitle": "GoodTrack average pT [GeV/c2]"
+        }, 
+        {
+            "run": 285244, 
+            "ymax": 5.0, 
+            "y": 1.642201813806833, 
+            "x": 3.0, 
+            "ymin": 0.0, 
+            "yErr": 0.011457913947004404, 
+            "yTitle": "GoodTrack average pT [GeV/c2]"
+        }, 
+        {
+            "run": 285368, 
+            "ymax": 5.0, 
+            "y": 1.6436216943893527, 
+            "x": 4.0, 
+            "ymin": 0.0, 
+            "yErr": 0.013250371235561857, 
+            "yTitle": "GoodTrack average pT [GeV/c2]"
+        }
+    ]
+}

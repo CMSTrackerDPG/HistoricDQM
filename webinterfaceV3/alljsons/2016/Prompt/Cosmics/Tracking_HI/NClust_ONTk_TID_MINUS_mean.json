@@ -1,0 +1,31 @@
+{
+    "NClust_ONTk_TID_MINUS_mean": [
+        {
+            "run": 272760, 
+            "ymax": 0, 
+            "y": 312.5923076923077, 
+            "x": 1.0, 
+            "ymin": 0, 
+            "yErr": 2.999295926247335, 
+            "yTitle": "Avg. N_{Clusters} (ON-Track)"
+        }, 
+        {
+            "run": 272761, 
+            "ymax": 0, 
+            "y": 238.9849596022374, 
+            "x": 2.0, 
+            "ymin": 0, 
+            "yErr": 0.7622808852425215, 
+            "yTitle": "Avg. N_{Clusters} (ON-Track)"
+        }, 
+        {
+            "run": 272762, 
+            "ymax": 0, 
+            "y": 250.5800734270161, 
+            "x": 3.0, 
+            "ymin": 0, 
+            "yErr": 0.7661092157982511, 
+            "yTitle": "Avg. N_{Clusters} (ON-Track)"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "RecHitPerTrack_mean": [
+        {
+            "run": 285090, 
+            "ymax": 30.0, 
+            "y": 14.850415512465373, 
+            "x": 1.0, 
+            "ymin": 0.0, 
+            "yErr": 0.051846171414534244, 
+            "yTitle": "Average number of RecHits per GoodTrack"
+        }, 
+        {
+            "run": 285216, 
+            "ymax": 30.0, 
+            "y": 14.833795013850416, 
+            "x": 2.0, 
+            "ymin": 0.0, 
+            "yErr": 0.011451525297975561, 
+            "yTitle": "Average number of RecHits per GoodTrack"
+        }, 
+        {
+            "run": 285244, 
+            "ymax": 30.0, 
+            "y": 14.83742841699551, 
+            "x": 3.0, 
+            "ymin": 0.0, 
+            "yErr": 0.010268903987133109, 
+            "yTitle": "Average number of RecHits per GoodTrack"
+        }, 
+        {
+            "run": 285368, 
+            "ymax": 30.0, 
+            "y": 14.88290492501655, 
+            "x": 4.0, 
+            "ymin": 0.0, 
+            "yErr": 0.020721180243183757, 
+            "yTitle": "Average number of RecHits per GoodTrack"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "HitResiduals_TIB_layer2_rms": [
+        {
+            "run": 290189, 
+            "ymax": 0.05, 
+            "y": 0.0017965120960966876, 
+            "x": 1.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0003523250090154802, 
+            "yTitle": "HitResiduals TIB Layer 2 RMS"
+        }, 
+        {
+            "run": 290198, 
+            "ymax": 0.05, 
+            "y": 0.0027930425652628855, 
+            "x": 2.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0002977393378628795, 
+            "yTitle": "HitResiduals TIB Layer 2 RMS"
+        }, 
+        {
+            "run": 290351, 
+            "ymax": 0.05, 
+            "y": 0.0032358867750846513, 
+            "x": 3.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0004324135590985569, 
+            "yTitle": "HitResiduals TIB Layer 2 RMS"
+        }, 
+        {
+            "run": 290510, 
+            "ymax": 0.05, 
+            "y": 0.004979070039180782, 
+            "x": 4.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0005081742078988484, 
+            "yTitle": "HitResiduals TIB Layer 2 RMS"
+        }, 
+        {
+            "run": 290619, 
+            "ymax": 0.05, 
+            "y": 0.002459444884219503, 
+            "x": 5.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0005020320847363528, 
+            "yTitle": "HitResiduals TIB Layer 2 RMS"
+        }
+    ]
+}

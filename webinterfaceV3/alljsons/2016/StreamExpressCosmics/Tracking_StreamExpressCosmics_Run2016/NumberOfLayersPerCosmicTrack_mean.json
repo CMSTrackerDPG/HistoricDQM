@@ -1,0 +1,5881 @@
+{
+    "NumberOfLayersPerCosmicTrack_mean": [
+        {
+            "run": 271813, 
+            "ymax": 30.0, 
+            "y": 6.667355371900826, 
+            "x": 1.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05805720846346447, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 271815, 
+            "ymax": 30.0, 
+            "y": 6.654680063458487, 
+            "x": 2.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05130244161052436, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 271816, 
+            "ymax": 30.0, 
+            "y": 6.756144578313253, 
+            "x": 3.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05040376191096781, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 271817, 
+            "ymax": 30.0, 
+            "y": 6.898822726497185, 
+            "x": 4.0, 
+            "ymin": 0.0, 
+            "yErr": 0.022719618171878873, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 271818, 
+            "ymax": 30.0, 
+            "y": 6.837649402390438, 
+            "x": 5.0, 
+            "ymin": 0.0, 
+            "yErr": 0.043922195467915856, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 271820, 
+            "ymax": 30.0, 
+            "y": 6.903991987408785, 
+            "x": 6.0, 
+            "ymin": 0.0, 
+            "yErr": 0.020555951740022577, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 271821, 
+            "ymax": 30.0, 
+            "y": 6.721285522045436, 
+            "x": 7.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02008169322158527, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 271822, 
+            "ymax": 30.0, 
+            "y": 7.986185725249425, 
+            "x": 8.0, 
+            "ymin": 0.0, 
+            "yErr": 0.08483034345141362, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 271823, 
+            "ymax": 30.0, 
+            "y": 6.8756651564447955, 
+            "x": 9.0, 
+            "ymin": 0.0, 
+            "yErr": 0.013516880020547378, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 271825, 
+            "ymax": 30.0, 
+            "y": 6.88570729319628, 
+            "x": 10.0, 
+            "ymin": 0.0, 
+            "yErr": 0.013470848704338645, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 271826, 
+            "ymax": 30.0, 
+            "y": 6.91395101171459, 
+            "x": 11.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03541012192363321, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 271827, 
+            "ymax": 30.0, 
+            "y": 6.882183908045977, 
+            "x": 12.0, 
+            "ymin": 0.0, 
+            "yErr": 0.027104217499389453, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 271829, 
+            "ymax": 30.0, 
+            "y": 6.881263616557734, 
+            "x": 13.0, 
+            "ymin": 0.0, 
+            "yErr": 0.045910108706648356, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272118, 
+            "ymax": 30.0, 
+            "y": 6.98, 
+            "x": 14.0, 
+            "ymin": 0.0, 
+            "yErr": 0.1419655670302563, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272120, 
+            "ymax": 30.0, 
+            "y": 6.818181818181818, 
+            "x": 15.0, 
+            "ymin": 0.0, 
+            "yErr": 0.11839380838663927, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272121, 
+            "ymax": 30.0, 
+            "y": 7.073846153846154, 
+            "x": 16.0, 
+            "ymin": 0.0, 
+            "yErr": 0.13850350448842713, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272122, 
+            "ymax": 30.0, 
+            "y": 6.850328947368421, 
+            "x": 17.0, 
+            "ymin": 0.0, 
+            "yErr": 0.10097907262418322, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272123, 
+            "ymax": 30.0, 
+            "y": 7.009389671361502, 
+            "x": 18.0, 
+            "ymin": 0.0, 
+            "yErr": 0.11835182674018255, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272124, 
+            "ymax": 30.0, 
+            "y": 6.753867791842476, 
+            "x": 19.0, 
+            "ymin": 0.0, 
+            "yErr": 0.08776559357740062, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272125, 
+            "ymax": 30.0, 
+            "y": 6.818181818181818, 
+            "x": 20.0, 
+            "ymin": 0.0, 
+            "yErr": 0.07563364658208996, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272126, 
+            "ymax": 30.0, 
+            "y": 6.977464788732394, 
+            "x": 21.0, 
+            "ymin": 0.0, 
+            "yErr": 0.13018290029317672, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272127, 
+            "ymax": 30.0, 
+            "y": 6.756613756613756, 
+            "x": 22.0, 
+            "ymin": 0.0, 
+            "yErr": 0.16125020995967307, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272129, 
+            "ymax": 30.0, 
+            "y": 7.0572207084468666, 
+            "x": 23.0, 
+            "ymin": 0.0, 
+            "yErr": 0.12031749647740618, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272130, 
+            "ymax": 30.0, 
+            "y": 6.89568345323741, 
+            "x": 24.0, 
+            "ymin": 0.0, 
+            "yErr": 0.09814854888935308, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272131, 
+            "ymax": 30.0, 
+            "y": 6.788381742738589, 
+            "x": 25.0, 
+            "ymin": 0.0, 
+            "yErr": 0.11223308849500721, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272132, 
+            "ymax": 30.0, 
+            "y": 6.839682539682539, 
+            "x": 26.0, 
+            "ymin": 0.0, 
+            "yErr": 0.09501041483943509, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272133, 
+            "ymax": 30.0, 
+            "y": 6.874514791409986, 
+            "x": 27.0, 
+            "ymin": 0.0, 
+            "yErr": 0.008815988891096022, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272134, 
+            "ymax": 30.0, 
+            "y": 6.872209391839877, 
+            "x": 28.0, 
+            "ymin": 0.0, 
+            "yErr": 0.011692408574404263, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272136, 
+            "ymax": 30.0, 
+            "y": 6.829138892667665, 
+            "x": 29.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02800800685203715, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272137, 
+            "ymax": 30.0, 
+            "y": 6.897598488936859, 
+            "x": 30.0, 
+            "ymin": 0.0, 
+            "yErr": 0.019841943170231715, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272138, 
+            "ymax": 30.0, 
+            "y": 6.876819103401667, 
+            "x": 31.0, 
+            "ymin": 0.0, 
+            "yErr": 0.008109769573195638, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272139, 
+            "ymax": 30.0, 
+            "y": 6.8863335539377895, 
+            "x": 32.0, 
+            "ymin": 0.0, 
+            "yErr": 0.018075665809872854, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272140, 
+            "ymax": 30.0, 
+            "y": 6.899679829242262, 
+            "x": 33.0, 
+            "ymin": 0.0, 
+            "yErr": 0.07800734840310278, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272141, 
+            "ymax": 30.0, 
+            "y": 6.854713716048454, 
+            "x": 34.0, 
+            "ymin": 0.0, 
+            "yErr": 0.020684324323478366, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272142, 
+            "ymax": 30.0, 
+            "y": 6.842371118704501, 
+            "x": 35.0, 
+            "ymin": 0.0, 
+            "yErr": 0.029471515331482654, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272143, 
+            "ymax": 30.0, 
+            "y": 6.8590838042563425, 
+            "x": 36.0, 
+            "ymin": 0.0, 
+            "yErr": 0.018800614625653533, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272144, 
+            "ymax": 30.0, 
+            "y": 6.849009362072719, 
+            "x": 37.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02528667492323168, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272145, 
+            "ymax": 30.0, 
+            "y": 6.922276712735919, 
+            "x": 38.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03037125493122698, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272146, 
+            "ymax": 30.0, 
+            "y": 6.757142857142857, 
+            "x": 39.0, 
+            "ymin": 0.0, 
+            "yErr": 0.13031694935283641, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272147, 
+            "ymax": 30.0, 
+            "y": 6.961538461538462, 
+            "x": 40.0, 
+            "ymin": 0.0, 
+            "yErr": 0.10984032551161355, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272148, 
+            "ymax": 30.0, 
+            "y": 6.927159590043924, 
+            "x": 41.0, 
+            "ymin": 0.0, 
+            "yErr": 0.027088448438057796, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272149, 
+            "ymax": 30.0, 
+            "y": 6.77906976744186, 
+            "x": 42.0, 
+            "ymin": 0.0, 
+            "yErr": 0.25917515016204606, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272150, 
+            "ymax": 30.0, 
+            "y": 6.888954582101586, 
+            "x": 43.0, 
+            "ymin": 0.0, 
+            "yErr": 0.01025108098707522, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272151, 
+            "ymax": 30.0, 
+            "y": 6.883040935672515, 
+            "x": 44.0, 
+            "ymin": 0.0, 
+            "yErr": 0.1830382096011198, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272152, 
+            "ymax": 30.0, 
+            "y": 6.879310344827586, 
+            "x": 45.0, 
+            "ymin": 0.0, 
+            "yErr": 0.09390934598375275, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272153, 
+            "ymax": 30.0, 
+            "y": 6.766025641025641, 
+            "x": 46.0, 
+            "ymin": 0.0, 
+            "yErr": 0.13552500490257421, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272154, 
+            "ymax": 30.0, 
+            "y": 6.938740293356342, 
+            "x": 47.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04071601959601869, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272156, 
+            "ymax": 30.0, 
+            "y": 6.921600877192983, 
+            "x": 48.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05843842794536788, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272159, 
+            "ymax": 30.0, 
+            "y": 6.8621584699453555, 
+            "x": 49.0, 
+            "ymin": 0.0, 
+            "yErr": 0.019917010957136858, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272176, 
+            "ymax": 30.0, 
+            "y": 6.884736052380303, 
+            "x": 50.0, 
+            "ymin": 0.0, 
+            "yErr": 0.019977834636664703, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272183, 
+            "ymax": 30.0, 
+            "y": 6.821127673363577, 
+            "x": 51.0, 
+            "ymin": 0.0, 
+            "yErr": 0.06088797987175844, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272197, 
+            "ymax": 30.0, 
+            "y": 7.140845070422535, 
+            "x": 52.0, 
+            "ymin": 0.0, 
+            "yErr": 0.19581809967078195, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272202, 
+            "ymax": 30.0, 
+            "y": 6.875, 
+            "x": 53.0, 
+            "ymin": 0.0, 
+            "yErr": 0.28579658412934184, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272207, 
+            "ymax": 30.0, 
+            "y": 6.849612502401845, 
+            "x": 54.0, 
+            "ymin": 0.0, 
+            "yErr": 0.019227657463571274, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272219, 
+            "ymax": 30.0, 
+            "y": 6.831124043539175, 
+            "x": 55.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02476427048698887, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272230, 
+            "ymax": 30.0, 
+            "y": 6.8533475026567485, 
+            "x": 56.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05479738388488536, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272232, 
+            "ymax": 30.0, 
+            "y": 6.849045346062052, 
+            "x": 57.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02085166246903841, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272233, 
+            "ymax": 30.0, 
+            "y": 6.830791867308721, 
+            "x": 58.0, 
+            "ymin": 0.0, 
+            "yErr": 0.027788566961810403, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272234, 
+            "ymax": 30.0, 
+            "y": 6.837029893924783, 
+            "x": 59.0, 
+            "ymin": 0.0, 
+            "yErr": 0.01658680850207526, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272235, 
+            "ymax": 30.0, 
+            "y": 6.879789412108804, 
+            "x": 60.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02901087699058864, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272237, 
+            "ymax": 30.0, 
+            "y": 6.8833354913893565, 
+            "x": 61.0, 
+            "ymin": 0.0, 
+            "yErr": 0.027691246784755073, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272238, 
+            "ymax": 30.0, 
+            "y": 6.873301183691363, 
+            "x": 62.0, 
+            "ymin": 0.0, 
+            "yErr": 0.017956107351501997, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272240, 
+            "ymax": 30.0, 
+            "y": 6.916723861816518, 
+            "x": 63.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03641687547842325, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272241, 
+            "ymax": 30.0, 
+            "y": 6.87292817679558, 
+            "x": 64.0, 
+            "ymin": 0.0, 
+            "yErr": 0.08257320932728043, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272242, 
+            "ymax": 30.0, 
+            "y": 6.868691817736404, 
+            "x": 65.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05208028314656867, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272245, 
+            "ymax": 30.0, 
+            "y": 6.854603174603175, 
+            "x": 66.0, 
+            "ymin": 0.0, 
+            "yErr": 0.023054956731268623, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272391, 
+            "ymax": 30.0, 
+            "y": 7.68780487804878, 
+            "x": 67.0, 
+            "ymin": 0.0, 
+            "yErr": 0.18817002906434252, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272394, 
+            "ymax": 30.0, 
+            "y": 7.7894736842105265, 
+            "x": 68.0, 
+            "ymin": 0.0, 
+            "yErr": 0.598145552323266, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272395, 
+            "ymax": 30.0, 
+            "y": 7.814814814814815, 
+            "x": 69.0, 
+            "ymin": 0.0, 
+            "yErr": 0.45972806728457377, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272396, 
+            "ymax": 30.0, 
+            "y": 7.183333333333334, 
+            "x": 70.0, 
+            "ymin": 0.0, 
+            "yErr": 0.370803681710916, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272397, 
+            "ymax": 30.0, 
+            "y": 6.884316641877375, 
+            "x": 71.0, 
+            "ymin": 0.0, 
+            "yErr": 0.009415235834131166, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272398, 
+            "ymax": 30.0, 
+            "y": 6.89368514336354, 
+            "x": 72.0, 
+            "ymin": 0.0, 
+            "yErr": 0.012983875933554727, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272399, 
+            "ymax": 30.0, 
+            "y": 6.7924773022049285, 
+            "x": 73.0, 
+            "ymin": 0.0, 
+            "yErr": 0.042022127171796486, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272400, 
+            "ymax": 30.0, 
+            "y": 6.883469585700429, 
+            "x": 74.0, 
+            "ymin": 0.0, 
+            "yErr": 0.028215944485100335, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272401, 
+            "ymax": 30.0, 
+            "y": 6.840314531982459, 
+            "x": 75.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02971232235977092, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272403, 
+            "ymax": 30.0, 
+            "y": 8.670411985018726, 
+            "x": 76.0, 
+            "ymin": 0.0, 
+            "yErr": 0.2003306422121084, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272538, 
+            "ymax": 30.0, 
+            "y": 6.636363636363637, 
+            "x": 77.0, 
+            "ymin": 0.0, 
+            "yErr": 0.7073723612076246, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272546, 
+            "ymax": 30.0, 
+            "y": 6.7215849843587065, 
+            "x": 78.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0432766722415091, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272547, 
+            "ymax": 30.0, 
+            "y": 6.825528387898881, 
+            "x": 79.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03369780937881401, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272548, 
+            "ymax": 30.0, 
+            "y": 6.866851106639839, 
+            "x": 80.0, 
+            "ymin": 0.0, 
+            "yErr": 0.01717013501248739, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272549, 
+            "ymax": 30.0, 
+            "y": 6.834170013386881, 
+            "x": 81.0, 
+            "ymin": 0.0, 
+            "yErr": 0.031044624125056576, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272550, 
+            "ymax": 30.0, 
+            "y": 6.863576158940397, 
+            "x": 82.0, 
+            "ymin": 0.0, 
+            "yErr": 0.01645369982504243, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272551, 
+            "ymax": 30.0, 
+            "y": 6.829796088223055, 
+            "x": 83.0, 
+            "ymin": 0.0, 
+            "yErr": 0.021718689841124017, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272553, 
+            "ymax": 30.0, 
+            "y": 6.727777777777778, 
+            "x": 84.0, 
+            "ymin": 0.0, 
+            "yErr": 0.18372526381844645, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272554, 
+            "ymax": 30.0, 
+            "y": 7.020833333333333, 
+            "x": 85.0, 
+            "ymin": 0.0, 
+            "yErr": 0.18026527480290963, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272555, 
+            "ymax": 30.0, 
+            "y": 6.786479497598818, 
+            "x": 86.0, 
+            "ymin": 0.0, 
+            "yErr": 0.032841993540204104, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272556, 
+            "ymax": 30.0, 
+            "y": 6.838877855014895, 
+            "x": 87.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03795767892091264, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272565, 
+            "ymax": 30.0, 
+            "y": 6.875730844189148, 
+            "x": 88.0, 
+            "ymin": 0.0, 
+            "yErr": 0.007758870053923922, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272568, 
+            "ymax": 30.0, 
+            "y": 6.746315789473684, 
+            "x": 89.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0759637040115962, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272576, 
+            "ymax": 30.0, 
+            "y": 6.742048234882908, 
+            "x": 90.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02974239190901309, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272667, 
+            "ymax": 30.0, 
+            "y": 6.842324315671522, 
+            "x": 91.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02131087768493857, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272668, 
+            "ymax": 30.0, 
+            "y": 6.8900316455696204, 
+            "x": 92.0, 
+            "ymin": 0.0, 
+            "yErr": 0.06772315669385602, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272669, 
+            "ymax": 30.0, 
+            "y": 6.884925201380898, 
+            "x": 93.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05778710212486754, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272670, 
+            "ymax": 30.0, 
+            "y": 6.870025249488998, 
+            "x": 94.0, 
+            "ymin": 0.0, 
+            "yErr": 0.026626837442786423, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272711, 
+            "ymax": 30.0, 
+            "y": 6.855187462804999, 
+            "x": 95.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03392374735095489, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272712, 
+            "ymax": 30.0, 
+            "y": 6.793565683646112, 
+            "x": 96.0, 
+            "ymin": 0.0, 
+            "yErr": 0.054374104966990244, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272714, 
+            "ymax": 30.0, 
+            "y": 6.917691751085384, 
+            "x": 97.0, 
+            "ymin": 0.0, 
+            "yErr": 0.033053026485898515, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272716, 
+            "ymax": 30.0, 
+            "y": 6.868678125386423, 
+            "x": 98.0, 
+            "ymin": 0.0, 
+            "yErr": 0.026244216786635553, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272717, 
+            "ymax": 30.0, 
+            "y": 6.823280423280424, 
+            "x": 99.0, 
+            "ymin": 0.0, 
+            "yErr": 0.07884476944483147, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272777, 
+            "ymax": 30.0, 
+            "y": 6.906873614190688, 
+            "x": 100.0, 
+            "ymin": 0.0, 
+            "yErr": 0.08554691386655683, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272800, 
+            "ymax": 30.0, 
+            "y": 6.706465763875643, 
+            "x": 101.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02300744720255768, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272831, 
+            "ymax": 30.0, 
+            "y": 6.680525603089423, 
+            "x": 102.0, 
+            "ymin": 0.0, 
+            "yErr": 0.009635126802219915, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272832, 
+            "ymax": 30.0, 
+            "y": 6.707753302002361, 
+            "x": 103.0, 
+            "ymin": 0.0, 
+            "yErr": 0.011171081245166737, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272834, 
+            "ymax": 30.0, 
+            "y": 6.683134992186561, 
+            "x": 104.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02580409405116043, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272837, 
+            "ymax": 30.0, 
+            "y": 6.790236051502146, 
+            "x": 105.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05617693744179878, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272838, 
+            "ymax": 30.0, 
+            "y": 6.681388012618297, 
+            "x": 106.0, 
+            "ymin": 0.0, 
+            "yErr": 0.13244779900616452, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272839, 
+            "ymax": 30.0, 
+            "y": 6.79093567251462, 
+            "x": 107.0, 
+            "ymin": 0.0, 
+            "yErr": 0.06363516167492289, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272843, 
+            "ymax": 30.0, 
+            "y": 7.479166666666667, 
+            "x": 108.0, 
+            "ymin": 0.0, 
+            "yErr": 0.5178997242915815, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272844, 
+            "ymax": 30.0, 
+            "y": 7.2974588938714495, 
+            "x": 109.0, 
+            "ymin": 0.0, 
+            "yErr": 0.10955546064973029, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272848, 
+            "ymax": 30.0, 
+            "y": 7.18531169940222, 
+            "x": 110.0, 
+            "ymin": 0.0, 
+            "yErr": 0.07955594317054979, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272849, 
+            "ymax": 30.0, 
+            "y": 7.277777777777778, 
+            "x": 111.0, 
+            "ymin": 0.0, 
+            "yErr": 0.4993995022282147, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272850, 
+            "ymax": 30.0, 
+            "y": 7.625865051903114, 
+            "x": 112.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0626899677453707, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272853, 
+            "ymax": 30.0, 
+            "y": 7.237451737451737, 
+            "x": 113.0, 
+            "ymin": 0.0, 
+            "yErr": 0.11903221043041212, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272854, 
+            "ymax": 30.0, 
+            "y": 8.126159554730984, 
+            "x": 114.0, 
+            "ymin": 0.0, 
+            "yErr": 0.13647933640300347, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272858, 
+            "ymax": 30.0, 
+            "y": 8.266429840142095, 
+            "x": 115.0, 
+            "ymin": 0.0, 
+            "yErr": 0.13872597544885468, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272864, 
+            "ymax": 30.0, 
+            "y": 8.180351906158357, 
+            "x": 116.0, 
+            "ymin": 0.0, 
+            "yErr": 0.1217522478909226, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272872, 
+            "ymax": 30.0, 
+            "y": 8.215909090909092, 
+            "x": 117.0, 
+            "ymin": 0.0, 
+            "yErr": 0.3399413778902965, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272932, 
+            "ymax": 30.0, 
+            "y": 6.638050401550817, 
+            "x": 118.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03893616103524052, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 272938, 
+            "ymax": 30.0, 
+            "y": 6.709390862944162, 
+            "x": 119.0, 
+            "ymin": 0.0, 
+            "yErr": 0.049279248651032406, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273118, 
+            "ymax": 30.0, 
+            "y": 6.555803571428571, 
+            "x": 120.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0763935184657046, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273120, 
+            "ymax": 30.0, 
+            "y": 6.689024095803757, 
+            "x": 121.0, 
+            "ymin": 0.0, 
+            "yErr": 0.01630592052663097, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273207, 
+            "ymax": 30.0, 
+            "y": 7.454545454545454, 
+            "x": 122.0, 
+            "ymin": 0.0, 
+            "yErr": 0.11383003513685924, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273246, 
+            "ymax": 30.0, 
+            "y": 7.434782608695652, 
+            "x": 123.0, 
+            "ymin": 0.0, 
+            "yErr": 0.4245003444649861, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273247, 
+            "ymax": 30.0, 
+            "y": 7.421418636995828, 
+            "x": 124.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05364498912782322, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273264, 
+            "ymax": 30.0, 
+            "y": 6.853928439690152, 
+            "x": 125.0, 
+            "ymin": 0.0, 
+            "yErr": 0.047890541651385295, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273266, 
+            "ymax": 30.0, 
+            "y": 6.934057971014493, 
+            "x": 126.0, 
+            "ymin": 0.0, 
+            "yErr": 0.07020014922452751, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273303, 
+            "ymax": 30.0, 
+            "y": 6.70428453267163, 
+            "x": 127.0, 
+            "ymin": 0.0, 
+            "yErr": 0.01357061331243798, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273304, 
+            "ymax": 30.0, 
+            "y": 6.694235764937162, 
+            "x": 128.0, 
+            "ymin": 0.0, 
+            "yErr": 0.019383967586673767, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273312, 
+            "ymax": 30.0, 
+            "y": 6.742441860465116, 
+            "x": 129.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05729886914841816, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273332, 
+            "ymax": 30.0, 
+            "y": 6.585940246045694, 
+            "x": 130.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04228784735608725, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273336, 
+            "ymax": 30.0, 
+            "y": 6.5457888929753585, 
+            "x": 131.0, 
+            "ymin": 0.0, 
+            "yErr": 0.042608888664340754, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273338, 
+            "ymax": 30.0, 
+            "y": 6.6034301485083455, 
+            "x": 132.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0181003950837903, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273399, 
+            "ymax": 30.0, 
+            "y": 7.633843909555069, 
+            "x": 133.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0805450800782951, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273451, 
+            "ymax": 30.0, 
+            "y": 6.704834605597965, 
+            "x": 134.0, 
+            "ymin": 0.0, 
+            "yErr": 0.052436578563178536, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273469, 
+            "ymax": 30.0, 
+            "y": 6.578630189401186, 
+            "x": 135.0, 
+            "ymin": 0.0, 
+            "yErr": 0.015514587446880399, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273473, 
+            "ymax": 30.0, 
+            "y": 6.592556317335945, 
+            "x": 136.0, 
+            "ymin": 0.0, 
+            "yErr": 0.06866162523962398, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273474, 
+            "ymax": 30.0, 
+            "y": 6.679038072628154, 
+            "x": 137.0, 
+            "ymin": 0.0, 
+            "yErr": 0.006931953390144338, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273495, 
+            "ymax": 30.0, 
+            "y": 6.685630004214075, 
+            "x": 138.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03345412924502936, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273540, 
+            "ymax": 30.0, 
+            "y": 6.725695400716056, 
+            "x": 139.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03944254892158645, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273541, 
+            "ymax": 30.0, 
+            "y": 6.620952380952381, 
+            "x": 140.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05927829518246464, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273544, 
+            "ymax": 30.0, 
+            "y": 6.697467672413793, 
+            "x": 141.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02765107007106175, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273595, 
+            "ymax": 30.0, 
+            "y": 6.694833986388947, 
+            "x": 142.0, 
+            "ymin": 0.0, 
+            "yErr": 0.01199139872857429, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273596, 
+            "ymax": 30.0, 
+            "y": 6.709511949237976, 
+            "x": 143.0, 
+            "ymin": 0.0, 
+            "yErr": 0.012753843561308233, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273597, 
+            "ymax": 30.0, 
+            "y": 6.7067119621165325, 
+            "x": 144.0, 
+            "ymin": 0.0, 
+            "yErr": 0.023952491123607807, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273598, 
+            "ymax": 30.0, 
+            "y": 6.588516746411483, 
+            "x": 145.0, 
+            "ymin": 0.0, 
+            "yErr": 0.15902253739585645, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273599, 
+            "ymax": 30.0, 
+            "y": 6.623220558328711, 
+            "x": 146.0, 
+            "ymin": 0.0, 
+            "yErr": 0.031186805162338658, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273628, 
+            "ymax": 30.0, 
+            "y": 6.551351351351351, 
+            "x": 147.0, 
+            "ymin": 0.0, 
+            "yErr": 0.06132234510011642, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273680, 
+            "ymax": 30.0, 
+            "y": 6.611910241657077, 
+            "x": 148.0, 
+            "ymin": 0.0, 
+            "yErr": 0.027106365068725716, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273710, 
+            "ymax": 30.0, 
+            "y": 6.9655172413793105, 
+            "x": 149.0, 
+            "ymin": 0.0, 
+            "yErr": 0.5676217331251752, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273711, 
+            "ymax": 30.0, 
+            "y": 6.7384615384615385, 
+            "x": 150.0, 
+            "ymin": 0.0, 
+            "yErr": 0.40075486351151035, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273712, 
+            "ymax": 30.0, 
+            "y": 7.318181818181818, 
+            "x": 151.0, 
+            "ymin": 0.0, 
+            "yErr": 0.45993703224338284, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273713, 
+            "ymax": 30.0, 
+            "y": 7.592592592592593, 
+            "x": 152.0, 
+            "ymin": 0.0, 
+            "yErr": 0.5270703751962262, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273714, 
+            "ymax": 30.0, 
+            "y": 8.8, 
+            "x": 153.0, 
+            "ymin": 0.0, 
+            "yErr": 0.7197221686178628, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273715, 
+            "ymax": 30.0, 
+            "y": 9.969696969696969, 
+            "x": 154.0, 
+            "ymin": 0.0, 
+            "yErr": 0.7253571343993, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273716, 
+            "ymax": 30.0, 
+            "y": 6.6171875, 
+            "x": 155.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03681859359292121, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273717, 
+            "ymax": 30.0, 
+            "y": 6.683797326387005, 
+            "x": 156.0, 
+            "ymin": 0.0, 
+            "yErr": 0.01002020023936135, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273741, 
+            "ymax": 30.0, 
+            "y": 6.683969232336611, 
+            "x": 157.0, 
+            "ymin": 0.0, 
+            "yErr": 0.016797125122702157, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273746, 
+            "ymax": 30.0, 
+            "y": 6.671235396927606, 
+            "x": 158.0, 
+            "ymin": 0.0, 
+            "yErr": 0.01584435711058353, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273748, 
+            "ymax": 30.0, 
+            "y": 6.6834493044387475, 
+            "x": 159.0, 
+            "ymin": 0.0, 
+            "yErr": 0.005398479981646969, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273749, 
+            "ymax": 30.0, 
+            "y": 6.7011494252873565, 
+            "x": 160.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0771873774751756, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273750, 
+            "ymax": 30.0, 
+            "y": 6.5572148890387645, 
+            "x": 161.0, 
+            "ymin": 0.0, 
+            "yErr": 0.012700065263686966, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273751, 
+            "ymax": 30.0, 
+            "y": 6.68282066163668, 
+            "x": 162.0, 
+            "ymin": 0.0, 
+            "yErr": 0.028430864459101264, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273752, 
+            "ymax": 30.0, 
+            "y": 6.688305063129703, 
+            "x": 163.0, 
+            "ymin": 0.0, 
+            "yErr": 0.018755462519466037, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273753, 
+            "ymax": 30.0, 
+            "y": 6.6786852408267325, 
+            "x": 164.0, 
+            "ymin": 0.0, 
+            "yErr": 0.012898373797394613, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273754, 
+            "ymax": 30.0, 
+            "y": 6.687271500084369, 
+            "x": 165.0, 
+            "ymin": 0.0, 
+            "yErr": 0.004880939951313792, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273755, 
+            "ymax": 30.0, 
+            "y": 6.730782956248662, 
+            "x": 166.0, 
+            "ymin": 0.0, 
+            "yErr": 0.019884959792410308, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273830, 
+            "ymax": 30.0, 
+            "y": 6.678164116828929, 
+            "x": 167.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02250970683031467, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273833, 
+            "ymax": 30.0, 
+            "y": 6.705494314729624, 
+            "x": 168.0, 
+            "ymin": 0.0, 
+            "yErr": 0.022141789346157084, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273834, 
+            "ymax": 30.0, 
+            "y": 6.686331204168911, 
+            "x": 169.0, 
+            "ymin": 0.0, 
+            "yErr": 0.005520895421203732, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273887, 
+            "ymax": 30.0, 
+            "y": 6.684870684870685, 
+            "x": 170.0, 
+            "ymin": 0.0, 
+            "yErr": 0.024802091896587074, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273921, 
+            "ymax": 30.0, 
+            "y": 6.660784768980729, 
+            "x": 171.0, 
+            "ymin": 0.0, 
+            "yErr": 0.020505921732605407, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273922, 
+            "ymax": 30.0, 
+            "y": 6.689148936170213, 
+            "x": 172.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0197398374607004, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273923, 
+            "ymax": 30.0, 
+            "y": 6.679142627619952, 
+            "x": 173.0, 
+            "ymin": 0.0, 
+            "yErr": 0.006360508219532693, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273924, 
+            "ymax": 30.0, 
+            "y": 6.567119155354449, 
+            "x": 174.0, 
+            "ymin": 0.0, 
+            "yErr": 0.08137479532286782, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273951, 
+            "ymax": 30.0, 
+            "y": 6.480072600771384, 
+            "x": 175.0, 
+            "ymin": 0.0, 
+            "yErr": 0.018106734621155564, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273970, 
+            "ymax": 30.0, 
+            "y": 6.532178217821782, 
+            "x": 176.0, 
+            "ymin": 0.0, 
+            "yErr": 0.06477683335874738, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273971, 
+            "ymax": 30.0, 
+            "y": 6.511111111111111, 
+            "x": 177.0, 
+            "ymin": 0.0, 
+            "yErr": 0.16731150973390196, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 273999, 
+            "ymax": 30.0, 
+            "y": 6.5736487258599015, 
+            "x": 178.0, 
+            "ymin": 0.0, 
+            "yErr": 0.024288862639997483, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274002, 
+            "ymax": 30.0, 
+            "y": 6.67146706748998, 
+            "x": 179.0, 
+            "ymin": 0.0, 
+            "yErr": 0.006092324629131999, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274004, 
+            "ymax": 30.0, 
+            "y": 6.620689655172414, 
+            "x": 180.0, 
+            "ymin": 0.0, 
+            "yErr": 0.3496687513633721, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274046, 
+            "ymax": 30.0, 
+            "y": 6.629969418960244, 
+            "x": 181.0, 
+            "ymin": 0.0, 
+            "yErr": 0.1174975244177287, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274047, 
+            "ymax": 30.0, 
+            "y": 6.552631578947368, 
+            "x": 182.0, 
+            "ymin": 0.0, 
+            "yErr": 0.1732029763911767, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274048, 
+            "ymax": 30.0, 
+            "y": 6.849099099099099, 
+            "x": 183.0, 
+            "ymin": 0.0, 
+            "yErr": 0.12354357355522255, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274049, 
+            "ymax": 30.0, 
+            "y": 6.59859596339476, 
+            "x": 184.0, 
+            "ymin": 0.0, 
+            "yErr": 0.025178008741008753, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274050, 
+            "ymax": 30.0, 
+            "y": 6.545675649382235, 
+            "x": 185.0, 
+            "ymin": 0.0, 
+            "yErr": 0.021131460156871514, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274052, 
+            "ymax": 30.0, 
+            "y": 6.665938864628821, 
+            "x": 186.0, 
+            "ymin": 0.0, 
+            "yErr": 0.11158655009441558, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274062, 
+            "ymax": 30.0, 
+            "y": 6.709088335220838, 
+            "x": 187.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02804201722838369, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274064, 
+            "ymax": 30.0, 
+            "y": 6.699105733824303, 
+            "x": 188.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0381874705943781, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274076, 
+            "ymax": 30.0, 
+            "y": 6.654928265325135, 
+            "x": 189.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03159105421799449, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274090, 
+            "ymax": 30.0, 
+            "y": 6.734099127845139, 
+            "x": 190.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03495980626832831, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274091, 
+            "ymax": 30.0, 
+            "y": 6.693248423787346, 
+            "x": 191.0, 
+            "ymin": 0.0, 
+            "yErr": 0.013279158783468923, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274096, 
+            "ymax": 30.0, 
+            "y": 6.717633084980024, 
+            "x": 192.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0243480720501979, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274151, 
+            "ymax": 30.0, 
+            "y": 6.670275631224431, 
+            "x": 193.0, 
+            "ymin": 0.0, 
+            "yErr": 0.01499965954479049, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274152, 
+            "ymax": 30.0, 
+            "y": 6.576232656580701, 
+            "x": 194.0, 
+            "ymin": 0.0, 
+            "yErr": 0.019886413796688426, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274163, 
+            "ymax": 30.0, 
+            "y": 6.691593352883675, 
+            "x": 195.0, 
+            "ymin": 0.0, 
+            "yErr": 0.036466425028071695, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274173, 
+            "ymax": 30.0, 
+            "y": 6.682417083144025, 
+            "x": 196.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05081087782936527, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274174, 
+            "ymax": 30.0, 
+            "y": 6.679549398511721, 
+            "x": 197.0, 
+            "ymin": 0.0, 
+            "yErr": 0.012651455274502494, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274176, 
+            "ymax": 30.0, 
+            "y": 6.696789421378092, 
+            "x": 198.0, 
+            "ymin": 0.0, 
+            "yErr": 0.008789710742738429, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274177, 
+            "ymax": 30.0, 
+            "y": 6.703418230563003, 
+            "x": 199.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0431180930072312, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274180, 
+            "ymax": 30.0, 
+            "y": 6.578600977811207, 
+            "x": 200.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03046179338153855, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274187, 
+            "ymax": 30.0, 
+            "y": 6.6915560010022554, 
+            "x": 201.0, 
+            "ymin": 0.0, 
+            "yErr": 0.037481949146780075, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274191, 
+            "ymax": 30.0, 
+            "y": 6.693704267454016, 
+            "x": 202.0, 
+            "ymin": 0.0, 
+            "yErr": 0.010096678049606254, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274192, 
+            "ymax": 30.0, 
+            "y": 6.6974411886091625, 
+            "x": 203.0, 
+            "ymin": 0.0, 
+            "yErr": 0.010669687893710351, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274203, 
+            "ymax": 30.0, 
+            "y": 6.6886284826019375, 
+            "x": 204.0, 
+            "ymin": 0.0, 
+            "yErr": 0.014875008832717909, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274204, 
+            "ymax": 30.0, 
+            "y": 6.690123950419832, 
+            "x": 205.0, 
+            "ymin": 0.0, 
+            "yErr": 0.027106855680132155, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274208, 
+            "ymax": 30.0, 
+            "y": 7.066864784546805, 
+            "x": 206.0, 
+            "ymin": 0.0, 
+            "yErr": 0.10206186351690676, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274209, 
+            "ymax": 30.0, 
+            "y": 6.656115107913669, 
+            "x": 207.0, 
+            "ymin": 0.0, 
+            "yErr": 0.08677119766876049, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274245, 
+            "ymax": 30.0, 
+            "y": 6.5978260869565215, 
+            "x": 208.0, 
+            "ymin": 0.0, 
+            "yErr": 0.17961435485723753, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274246, 
+            "ymax": 30.0, 
+            "y": 6.765871411241407, 
+            "x": 209.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04767665430936713, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274280, 
+            "ymax": 30.0, 
+            "y": 6.577551020408163, 
+            "x": 210.0, 
+            "ymin": 0.0, 
+            "yErr": 0.10425262187565708, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274288, 
+            "ymax": 30.0, 
+            "y": 6.76595744680851, 
+            "x": 211.0, 
+            "ymin": 0.0, 
+            "yErr": 0.1421341531536266, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274290, 
+            "ymax": 30.0, 
+            "y": 6.656587603355664, 
+            "x": 212.0, 
+            "ymin": 0.0, 
+            "yErr": 0.018075495029825573, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274320, 
+            "ymax": 30.0, 
+            "y": 6.737255423931852, 
+            "x": 213.0, 
+            "ymin": 0.0, 
+            "yErr": 0.027530481940201693, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274346, 
+            "ymax": 30.0, 
+            "y": 6.665773742386645, 
+            "x": 214.0, 
+            "ymin": 0.0, 
+            "yErr": 0.012401031909139411, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274347, 
+            "ymax": 30.0, 
+            "y": 6.681906656862321, 
+            "x": 215.0, 
+            "ymin": 0.0, 
+            "yErr": 0.015585463552228718, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274349, 
+            "ymax": 30.0, 
+            "y": 6.624463519313305, 
+            "x": 216.0, 
+            "ymin": 0.0, 
+            "yErr": 0.10923739838412254, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274377, 
+            "ymax": 30.0, 
+            "y": 6.62010734389318, 
+            "x": 217.0, 
+            "ymin": 0.0, 
+            "yErr": 0.026341164658104686, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274384, 
+            "ymax": 30.0, 
+            "y": 6.424801494628678, 
+            "x": 218.0, 
+            "ymin": 0.0, 
+            "yErr": 0.033984292636384465, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274385, 
+            "ymax": 30.0, 
+            "y": 6.394117647058824, 
+            "x": 219.0, 
+            "ymin": 0.0, 
+            "yErr": 0.08251528733517013, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274390, 
+            "ymax": 30.0, 
+            "y": 6.566063977746871, 
+            "x": 220.0, 
+            "ymin": 0.0, 
+            "yErr": 0.09408993213062644, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274391, 
+            "ymax": 30.0, 
+            "y": 6.364842454394693, 
+            "x": 221.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04568615372765744, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274392, 
+            "ymax": 30.0, 
+            "y": 6.416064848931467, 
+            "x": 222.0, 
+            "ymin": 0.0, 
+            "yErr": 0.027205193714319575, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274393, 
+            "ymax": 30.0, 
+            "y": 6.436821322803554, 
+            "x": 223.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04991398287963997, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274394, 
+            "ymax": 30.0, 
+            "y": 6.306081290722929, 
+            "x": 224.0, 
+            "ymin": 0.0, 
+            "yErr": 0.027139798049795074, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274396, 
+            "ymax": 30.0, 
+            "y": 6.346011131725417, 
+            "x": 225.0, 
+            "ymin": 0.0, 
+            "yErr": 0.06378478831391714, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274398, 
+            "ymax": 30.0, 
+            "y": 6.432310469314079, 
+            "x": 226.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02712571435593285, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274401, 
+            "ymax": 30.0, 
+            "y": 6.49796680953951, 
+            "x": 227.0, 
+            "ymin": 0.0, 
+            "yErr": 0.01734396362971018, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274402, 
+            "ymax": 30.0, 
+            "y": 6.515625, 
+            "x": 228.0, 
+            "ymin": 0.0, 
+            "yErr": 0.014691880100868178, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274414, 
+            "ymax": 30.0, 
+            "y": 6.483408015542255, 
+            "x": 229.0, 
+            "ymin": 0.0, 
+            "yErr": 0.012957754367440422, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274424, 
+            "ymax": 30.0, 
+            "y": 6.289485873089394, 
+            "x": 230.0, 
+            "ymin": 0.0, 
+            "yErr": 0.047502384812150814, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274425, 
+            "ymax": 30.0, 
+            "y": 6.2386231038506414, 
+            "x": 231.0, 
+            "ymin": 0.0, 
+            "yErr": 0.052246861330084826, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274444, 
+            "ymax": 30.0, 
+            "y": 6.3076519916142555, 
+            "x": 232.0, 
+            "ymin": 0.0, 
+            "yErr": 0.051363775180184854, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274445, 
+            "ymax": 30.0, 
+            "y": 6.439343387161351, 
+            "x": 233.0, 
+            "ymin": 0.0, 
+            "yErr": 0.018782196982330725, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274446, 
+            "ymax": 30.0, 
+            "y": 6.522319725295689, 
+            "x": 234.0, 
+            "ymin": 0.0, 
+            "yErr": 0.046327601875986425, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274448, 
+            "ymax": 30.0, 
+            "y": 6.3113604488078545, 
+            "x": 235.0, 
+            "ymin": 0.0, 
+            "yErr": 0.08518391873553834, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274450, 
+            "ymax": 30.0, 
+            "y": 6.7672727272727276, 
+            "x": 236.0, 
+            "ymin": 0.0, 
+            "yErr": 0.1621795945442936, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274452, 
+            "ymax": 30.0, 
+            "y": 6.399104744852283, 
+            "x": 237.0, 
+            "ymin": 0.0, 
+            "yErr": 0.029637892153094484, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274455, 
+            "ymax": 30.0, 
+            "y": 6.358656232105363, 
+            "x": 238.0, 
+            "ymin": 0.0, 
+            "yErr": 0.021332951403609086, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274463, 
+            "ymax": 30.0, 
+            "y": 6.485461197766224, 
+            "x": 239.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03234043834924965, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274468, 
+            "ymax": 30.0, 
+            "y": 6.410511363636363, 
+            "x": 240.0, 
+            "ymin": 0.0, 
+            "yErr": 0.08804941854635197, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274469, 
+            "ymax": 30.0, 
+            "y": 6.45857759097445, 
+            "x": 241.0, 
+            "ymin": 0.0, 
+            "yErr": 0.017231800744253768, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274470, 
+            "ymax": 30.0, 
+            "y": 6.4600955902245465, 
+            "x": 242.0, 
+            "ymin": 0.0, 
+            "yErr": 0.022020152773946287, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274471, 
+            "ymax": 30.0, 
+            "y": 6.427663734115347, 
+            "x": 243.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0345566369126608, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274495, 
+            "ymax": 30.0, 
+            "y": 6.43298205639419, 
+            "x": 244.0, 
+            "ymin": 0.0, 
+            "yErr": 0.016711473016237353, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274503, 
+            "ymax": 30.0, 
+            "y": 6.424499411071849, 
+            "x": 245.0, 
+            "ymin": 0.0, 
+            "yErr": 0.019705732066205937, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274505, 
+            "ymax": 30.0, 
+            "y": 6.443211488250653, 
+            "x": 246.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05739695137473986, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274506, 
+            "ymax": 30.0, 
+            "y": 6.436957888120679, 
+            "x": 247.0, 
+            "ymin": 0.0, 
+            "yErr": 0.025991637270204395, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274507, 
+            "ymax": 30.0, 
+            "y": 6.443050958086624, 
+            "x": 248.0, 
+            "ymin": 0.0, 
+            "yErr": 0.01585420707321565, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274508, 
+            "ymax": 30.0, 
+            "y": 6.494081172491544, 
+            "x": 249.0, 
+            "ymin": 0.0, 
+            "yErr": 0.038793795220405866, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274510, 
+            "ymax": 30.0, 
+            "y": 6.47301100025582, 
+            "x": 250.0, 
+            "ymin": 0.0, 
+            "yErr": 0.008522040627817813, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274517, 
+            "ymax": 30.0, 
+            "y": 6.483559192022501, 
+            "x": 251.0, 
+            "ymin": 0.0, 
+            "yErr": 0.01651929289470159, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274610, 
+            "ymax": 30.0, 
+            "y": 6.345397013744685, 
+            "x": 252.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02136746438398407, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274621, 
+            "ymax": 30.0, 
+            "y": 6.369747899159663, 
+            "x": 253.0, 
+            "ymin": 0.0, 
+            "yErr": 0.12574482961130012, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274627, 
+            "ymax": 30.0, 
+            "y": 6.388885202829124, 
+            "x": 254.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00816531882212681, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274628, 
+            "ymax": 30.0, 
+            "y": 6.540342298288508, 
+            "x": 255.0, 
+            "ymin": 0.0, 
+            "yErr": 0.07815521793605756, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274629, 
+            "ymax": 30.0, 
+            "y": 6.345092718227047, 
+            "x": 256.0, 
+            "ymin": 0.0, 
+            "yErr": 0.023619333949347655, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274630, 
+            "ymax": 30.0, 
+            "y": 6.303269929472109, 
+            "x": 257.0, 
+            "ymin": 0.0, 
+            "yErr": 0.031313325565150936, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274758, 
+            "ymax": 30.0, 
+            "y": 6.326086956521739, 
+            "x": 258.0, 
+            "ymin": 0.0, 
+            "yErr": 0.1452813890651933, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274771, 
+            "ymax": 30.0, 
+            "y": 6.835106382978723, 
+            "x": 259.0, 
+            "ymin": 0.0, 
+            "yErr": 0.18363688980178036, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274774, 
+            "ymax": 30.0, 
+            "y": 6.916279069767442, 
+            "x": 260.0, 
+            "ymin": 0.0, 
+            "yErr": 0.175669500350202, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274775, 
+            "ymax": 30.0, 
+            "y": 7.289701636188643, 
+            "x": 261.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05135085393481481, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274776, 
+            "ymax": 30.0, 
+            "y": 6.528495284952849, 
+            "x": 262.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04783145432393137, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274777, 
+            "ymax": 30.0, 
+            "y": 6.499158972285791, 
+            "x": 263.0, 
+            "ymin": 0.0, 
+            "yErr": 0.006228584471691313, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274778, 
+            "ymax": 30.0, 
+            "y": 6.455544493796906, 
+            "x": 264.0, 
+            "ymin": 0.0, 
+            "yErr": 0.013685023717180535, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274779, 
+            "ymax": 30.0, 
+            "y": 6.5340843443096475, 
+            "x": 265.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03907439727859716, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274780, 
+            "ymax": 30.0, 
+            "y": 6.318900087097176, 
+            "x": 266.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02345184977407271, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274781, 
+            "ymax": 30.0, 
+            "y": 6.325346784363178, 
+            "x": 267.0, 
+            "ymin": 0.0, 
+            "yErr": 0.075241163679744, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274785, 
+            "ymax": 30.0, 
+            "y": 6.343350193394823, 
+            "x": 268.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03519142353775652, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274810, 
+            "ymax": 30.0, 
+            "y": 6.384648742411102, 
+            "x": 269.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02331588523923713, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 274973, 
+            "ymax": 30.0, 
+            "y": 6.527069507509605, 
+            "x": 270.0, 
+            "ymin": 0.0, 
+            "yErr": 0.042945812687850346, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275005, 
+            "ymax": 30.0, 
+            "y": 6.433467741935484, 
+            "x": 271.0, 
+            "ymin": 0.0, 
+            "yErr": 0.10007404166360809, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275007, 
+            "ymax": 30.0, 
+            "y": 6.297955974842767, 
+            "x": 272.0, 
+            "ymin": 0.0, 
+            "yErr": 0.059572703180078346, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275008, 
+            "ymax": 30.0, 
+            "y": 6.476221498371335, 
+            "x": 273.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05593842887394483, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275011, 
+            "ymax": 30.0, 
+            "y": 6.420197044334976, 
+            "x": 274.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0505510221342488, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275014, 
+            "ymax": 30.0, 
+            "y": 6.44275420336269, 
+            "x": 275.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04561949918811083, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275037, 
+            "ymax": 30.0, 
+            "y": 6.405146316851665, 
+            "x": 276.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03549520758442816, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275295, 
+            "ymax": 30.0, 
+            "y": 6.89083820662768, 
+            "x": 277.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0686722651600309, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275339, 
+            "ymax": 30.0, 
+            "y": 6.271838456131382, 
+            "x": 278.0, 
+            "ymin": 0.0, 
+            "yErr": 0.017929405116909648, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275349, 
+            "ymax": 30.0, 
+            "y": 5.746394455890616, 
+            "x": 279.0, 
+            "ymin": 0.0, 
+            "yErr": 0.017090621658475604, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275355, 
+            "ymax": 30.0, 
+            "y": 5.565295169946332, 
+            "x": 280.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03802739310883349, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275358, 
+            "ymax": 30.0, 
+            "y": 5.611482254697286, 
+            "x": 281.0, 
+            "ymin": 0.0, 
+            "yErr": 0.029519839242521665, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275361, 
+            "ymax": 30.0, 
+            "y": 5.5736677115987465, 
+            "x": 282.0, 
+            "ymin": 0.0, 
+            "yErr": 0.06434657829903567, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275414, 
+            "ymax": 30.0, 
+            "y": 6.1117809595579, 
+            "x": 283.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0338218867389344, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275418, 
+            "ymax": 30.0, 
+            "y": 6.112493090105031, 
+            "x": 284.0, 
+            "ymin": 0.0, 
+            "yErr": 0.035371336254695906, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275419, 
+            "ymax": 30.0, 
+            "y": 6.472072072072072, 
+            "x": 285.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0781483329730117, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275463, 
+            "ymax": 30.0, 
+            "y": 5.880952380952381, 
+            "x": 286.0, 
+            "ymin": 0.0, 
+            "yErr": 0.21783096505796506, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275464, 
+            "ymax": 30.0, 
+            "y": 6.213675213675214, 
+            "x": 287.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0629618225581778, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275465, 
+            "ymax": 30.0, 
+            "y": 6.186951754385965, 
+            "x": 288.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05157953900104917, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275466, 
+            "ymax": 30.0, 
+            "y": 6.1518134715025905, 
+            "x": 289.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04884369598202844, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275474, 
+            "ymax": 30.0, 
+            "y": 6.280326545557433, 
+            "x": 290.0, 
+            "ymin": 0.0, 
+            "yErr": 0.006408197277659602, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275479, 
+            "ymax": 30.0, 
+            "y": 6.419331515451991, 
+            "x": 291.0, 
+            "ymin": 0.0, 
+            "yErr": 0.010346394604318241, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275480, 
+            "ymax": 30.0, 
+            "y": 6.28808864265928, 
+            "x": 292.0, 
+            "ymin": 0.0, 
+            "yErr": 0.07776089494057599, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275503, 
+            "ymax": 30.0, 
+            "y": 6.451013513513513, 
+            "x": 293.0, 
+            "ymin": 0.0, 
+            "yErr": 0.06421784779748216, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275505, 
+            "ymax": 30.0, 
+            "y": 6.3842592592592595, 
+            "x": 294.0, 
+            "ymin": 0.0, 
+            "yErr": 0.14618978200857566, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275509, 
+            "ymax": 30.0, 
+            "y": 6.379496402877698, 
+            "x": 295.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02309933168635908, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275525, 
+            "ymax": 30.0, 
+            "y": 6.3158878504672895, 
+            "x": 296.0, 
+            "ymin": 0.0, 
+            "yErr": 0.09167676402448051, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275526, 
+            "ymax": 30.0, 
+            "y": 6.373907195696033, 
+            "x": 297.0, 
+            "ymin": 0.0, 
+            "yErr": 0.055569848093310184, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275529, 
+            "ymax": 30.0, 
+            "y": 6.4522019334049405, 
+            "x": 298.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0526349929077364, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275534, 
+            "ymax": 30.0, 
+            "y": 6.426461538461538, 
+            "x": 299.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03956320603457441, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275554, 
+            "ymax": 30.0, 
+            "y": 6.414883827927306, 
+            "x": 300.0, 
+            "ymin": 0.0, 
+            "yErr": 0.024470345719602566, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275558, 
+            "ymax": 30.0, 
+            "y": 6.410825545171339, 
+            "x": 301.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04564484053443612, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275561, 
+            "ymax": 30.0, 
+            "y": 6.4207550785741665, 
+            "x": 302.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02211716978378283, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275576, 
+            "ymax": 30.0, 
+            "y": 6.372746331236898, 
+            "x": 303.0, 
+            "ymin": 0.0, 
+            "yErr": 0.044213689382346225, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275580, 
+            "ymax": 30.0, 
+            "y": 6.277777777777778, 
+            "x": 304.0, 
+            "ymin": 0.0, 
+            "yErr": 0.1972171505752587, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275581, 
+            "ymax": 30.0, 
+            "y": 6.454266163943584, 
+            "x": 305.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02697839954258777, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275584, 
+            "ymax": 30.0, 
+            "y": 6.391193511008111, 
+            "x": 306.0, 
+            "ymin": 0.0, 
+            "yErr": 0.024606246002076112, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275606, 
+            "ymax": 30.0, 
+            "y": 6.386311437758383, 
+            "x": 307.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0482601837054005, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275607, 
+            "ymax": 30.0, 
+            "y": 6.3933070516050625, 
+            "x": 308.0, 
+            "ymin": 0.0, 
+            "yErr": 0.011931477178786322, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275614, 
+            "ymax": 30.0, 
+            "y": 6.28169014084507, 
+            "x": 309.0, 
+            "ymin": 0.0, 
+            "yErr": 0.1720289200505919, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275615, 
+            "ymax": 30.0, 
+            "y": 6.410256410256411, 
+            "x": 310.0, 
+            "ymin": 0.0, 
+            "yErr": 0.34916628177888737, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275619, 
+            "ymax": 30.0, 
+            "y": 6.463454031498183, 
+            "x": 311.0, 
+            "ymin": 0.0, 
+            "yErr": 0.026904466183675615, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275630, 
+            "ymax": 30.0, 
+            "y": 6.432900432900433, 
+            "x": 312.0, 
+            "ymin": 0.0, 
+            "yErr": 0.07961563323393106, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275632, 
+            "ymax": 30.0, 
+            "y": 6.409730180227107, 
+            "x": 313.0, 
+            "ymin": 0.0, 
+            "yErr": 0.016074515350066054, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275634, 
+            "ymax": 30.0, 
+            "y": 6.3791329904482, 
+            "x": 314.0, 
+            "ymin": 0.0, 
+            "yErr": 0.026812712379094737, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275639, 
+            "ymax": 30.0, 
+            "y": 6.394413407821229, 
+            "x": 315.0, 
+            "ymin": 0.0, 
+            "yErr": 0.043073259631570104, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275641, 
+            "ymax": 30.0, 
+            "y": 5.7727272727272725, 
+            "x": 316.0, 
+            "ymin": 0.0, 
+            "yErr": 0.4403783974977881, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275643, 
+            "ymax": 30.0, 
+            "y": 6.429244542170567, 
+            "x": 317.0, 
+            "ymin": 0.0, 
+            "yErr": 0.020376319998951235, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275644, 
+            "ymax": 30.0, 
+            "y": 6.432348737494045, 
+            "x": 318.0, 
+            "ymin": 0.0, 
+            "yErr": 0.017585660152945833, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275647, 
+            "ymax": 30.0, 
+            "y": 6.466600622700255, 
+            "x": 319.0, 
+            "ymin": 0.0, 
+            "yErr": 0.010407858098323562, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275660, 
+            "ymax": 30.0, 
+            "y": 6.09350422371104, 
+            "x": 320.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0358713062024098, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275661, 
+            "ymax": 30.0, 
+            "y": 6.050727487219819, 
+            "x": 321.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04155385522143949, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275663, 
+            "ymax": 30.0, 
+            "y": 6.306998939554613, 
+            "x": 322.0, 
+            "ymin": 0.0, 
+            "yErr": 0.028154410543306817, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275665, 
+            "ymax": 30.0, 
+            "y": 6.392455970045764, 
+            "x": 323.0, 
+            "ymin": 0.0, 
+            "yErr": 0.025802628923519033, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275667, 
+            "ymax": 30.0, 
+            "y": 7.108191653786708, 
+            "x": 324.0, 
+            "ymin": 0.0, 
+            "yErr": 0.11042545572189919, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275671, 
+            "ymax": 30.0, 
+            "y": 6.822784810126582, 
+            "x": 325.0, 
+            "ymin": 0.0, 
+            "yErr": 0.1747139622727119, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275672, 
+            "ymax": 30.0, 
+            "y": 7.151571164510166, 
+            "x": 326.0, 
+            "ymin": 0.0, 
+            "yErr": 0.11684016725968967, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275677, 
+            "ymax": 30.0, 
+            "y": 6.49217154526889, 
+            "x": 327.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03545743938187776, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275734, 
+            "ymax": 30.0, 
+            "y": 6.4736490993996, 
+            "x": 328.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05971936138453177, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275848, 
+            "ymax": 30.0, 
+            "y": 6.552540415704388, 
+            "x": 329.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05569190456341051, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275849, 
+            "ymax": 30.0, 
+            "y": 6.47906976744186, 
+            "x": 330.0, 
+            "ymin": 0.0, 
+            "yErr": 0.035593641515542174, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275851, 
+            "ymax": 30.0, 
+            "y": 6.105263157894737, 
+            "x": 331.0, 
+            "ymin": 0.0, 
+            "yErr": 0.38600688095502583, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275852, 
+            "ymax": 30.0, 
+            "y": 6.105949470252649, 
+            "x": 332.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03580284891189187, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275908, 
+            "ymax": 30.0, 
+            "y": 6.333986864032938, 
+            "x": 333.0, 
+            "ymin": 0.0, 
+            "yErr": 0.022455650559441133, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275943, 
+            "ymax": 30.0, 
+            "y": 5.7070990806945865, 
+            "x": 334.0, 
+            "ymin": 0.0, 
+            "yErr": 0.031272322062067474, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275951, 
+            "ymax": 30.0, 
+            "y": 5.880610412926392, 
+            "x": 335.0, 
+            "ymin": 0.0, 
+            "yErr": 0.061338391363371395, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275952, 
+            "ymax": 30.0, 
+            "y": 5.83678391959799, 
+            "x": 336.0, 
+            "ymin": 0.0, 
+            "yErr": 0.028755290598675022, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275953, 
+            "ymax": 30.0, 
+            "y": 5.827088212334114, 
+            "x": 337.0, 
+            "ymin": 0.0, 
+            "yErr": 0.01949979818833438, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 275967, 
+            "ymax": 30.0, 
+            "y": 8.377232142857142, 
+            "x": 338.0, 
+            "ymin": 0.0, 
+            "yErr": 0.15502144187271608, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276014, 
+            "ymax": 30.0, 
+            "y": 8.190909090909091, 
+            "x": 339.0, 
+            "ymin": 0.0, 
+            "yErr": 0.29611686729806885, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276017, 
+            "ymax": 30.0, 
+            "y": 8.059154929577465, 
+            "x": 340.0, 
+            "ymin": 0.0, 
+            "yErr": 0.1643429083391062, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276018, 
+            "ymax": 30.0, 
+            "y": 8.173913043478262, 
+            "x": 341.0, 
+            "ymin": 0.0, 
+            "yErr": 0.6138051817828916, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276020, 
+            "ymax": 30.0, 
+            "y": 7.417366946778712, 
+            "x": 342.0, 
+            "ymin": 0.0, 
+            "yErr": 0.1498223027920293, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276021, 
+            "ymax": 30.0, 
+            "y": 7.284820031298905, 
+            "x": 343.0, 
+            "ymin": 0.0, 
+            "yErr": 0.06494153601961064, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276030, 
+            "ymax": 30.0, 
+            "y": 6.5245837414299706, 
+            "x": 344.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02337670932096773, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276036, 
+            "ymax": 30.0, 
+            "y": 6.611790878754172, 
+            "x": 345.0, 
+            "ymin": 0.0, 
+            "yErr": 0.07494540948060655, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276078, 
+            "ymax": 30.0, 
+            "y": 6.3859326625387, 
+            "x": 346.0, 
+            "ymin": 0.0, 
+            "yErr": 0.022544337362330524, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276079, 
+            "ymax": 30.0, 
+            "y": 6.422670182302742, 
+            "x": 347.0, 
+            "ymin": 0.0, 
+            "yErr": 0.012304492158413822, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276090, 
+            "ymax": 30.0, 
+            "y": 6.438799076212471, 
+            "x": 348.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04174341636865659, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276102, 
+            "ymax": 30.0, 
+            "y": 6.20010413051024, 
+            "x": 349.0, 
+            "ymin": 0.0, 
+            "yErr": 0.029007548898830254, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276103, 
+            "ymax": 30.0, 
+            "y": 6.296505700250255, 
+            "x": 350.0, 
+            "ymin": 0.0, 
+            "yErr": 0.021800658923258515, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276104, 
+            "ymax": 30.0, 
+            "y": 6.28864093652826, 
+            "x": 351.0, 
+            "ymin": 0.0, 
+            "yErr": 0.030698528460579265, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276109, 
+            "ymax": 30.0, 
+            "y": 6.289090398427156, 
+            "x": 352.0, 
+            "ymin": 0.0, 
+            "yErr": 0.013608467285079664, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276122, 
+            "ymax": 30.0, 
+            "y": 7.44, 
+            "x": 353.0, 
+            "ymin": 0.0, 
+            "yErr": 0.48593003611631147, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276123, 
+            "ymax": 30.0, 
+            "y": 7.248243559718969, 
+            "x": 354.0, 
+            "ymin": 0.0, 
+            "yErr": 0.09989170546193452, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276125, 
+            "ymax": 30.0, 
+            "y": 6.220987654320988, 
+            "x": 355.0, 
+            "ymin": 0.0, 
+            "yErr": 0.07506988269828932, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276191, 
+            "ymax": 30.0, 
+            "y": 6.949180938198064, 
+            "x": 356.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0342390908909033, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276255, 
+            "ymax": 30.0, 
+            "y": 5.894488879149775, 
+            "x": 357.0, 
+            "ymin": 0.0, 
+            "yErr": 0.021457798700934342, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276268, 
+            "ymax": 30.0, 
+            "y": 5.8474576271186445, 
+            "x": 358.0, 
+            "ymin": 0.0, 
+            "yErr": 0.1796238843318853, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276288, 
+            "ymax": 30.0, 
+            "y": 4.898550724637682, 
+            "x": 359.0, 
+            "ymin": 0.0, 
+            "yErr": 0.045131523280730515, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276333, 
+            "ymax": 30.0, 
+            "y": 4.94392523364486, 
+            "x": 360.0, 
+            "ymin": 0.0, 
+            "yErr": 0.08341536490729753, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276334, 
+            "ymax": 30.0, 
+            "y": 4.976833976833976, 
+            "x": 361.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04157182534362322, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276336, 
+            "ymax": 30.0, 
+            "y": 4.997225305216427, 
+            "x": 362.0, 
+            "ymin": 0.0, 
+            "yErr": 0.021442385486762573, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276337, 
+            "ymax": 30.0, 
+            "y": 5.085945010574889, 
+            "x": 363.0, 
+            "ymin": 0.0, 
+            "yErr": 0.016310839071996642, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276529, 
+            "ymax": 30.0, 
+            "y": 5.334391534391535, 
+            "x": 364.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04502433826535745, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276577, 
+            "ymax": 30.0, 
+            "y": 4.722222222222222, 
+            "x": 365.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03732526735323401, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276596, 
+            "ymax": 30.0, 
+            "y": 5.258581235697941, 
+            "x": 366.0, 
+            "ymin": 0.0, 
+            "yErr": 0.07228297686008038, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276627, 
+            "ymax": 30.0, 
+            "y": 5.34375, 
+            "x": 367.0, 
+            "ymin": 0.0, 
+            "yErr": 0.41365693581381535, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276838, 
+            "ymax": 30.0, 
+            "y": 5.166666666666667, 
+            "x": 368.0, 
+            "ymin": 0.0, 
+            "yErr": 0.22566773346210975, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276861, 
+            "ymax": 30.0, 
+            "y": 4.80859375, 
+            "x": 369.0, 
+            "ymin": 0.0, 
+            "yErr": 0.026384136262758102, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276872, 
+            "ymax": 30.0, 
+            "y": 4.75, 
+            "x": 370.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04020422005641731, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276891, 
+            "ymax": 30.0, 
+            "y": 5.149122807017544, 
+            "x": 371.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0644201045646109, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276896, 
+            "ymax": 30.0, 
+            "y": 5.027237354085603, 
+            "x": 372.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03826591058193318, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276898, 
+            "ymax": 30.0, 
+            "y": 4.96358543417367, 
+            "x": 373.0, 
+            "ymin": 0.0, 
+            "yErr": 0.028738909539415564, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276903, 
+            "ymax": 30.0, 
+            "y": 4.947030497592295, 
+            "x": 374.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03528570396913689, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276907, 
+            "ymax": 30.0, 
+            "y": 4.902702702702703, 
+            "x": 375.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02241386010336481, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276910, 
+            "ymax": 30.0, 
+            "y": 4.833808309584521, 
+            "x": 376.0, 
+            "ymin": 0.0, 
+            "yErr": 0.006073973308348815, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276919, 
+            "ymax": 30.0, 
+            "y": 4.829927488464074, 
+            "x": 377.0, 
+            "ymin": 0.0, 
+            "yErr": 0.012404819212482477, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276920, 
+            "ymax": 30.0, 
+            "y": 4.799019607843137, 
+            "x": 378.0, 
+            "ymin": 0.0, 
+            "yErr": 0.038210085934067564, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276921, 
+            "ymax": 30.0, 
+            "y": 4.7994555353902, 
+            "x": 379.0, 
+            "ymin": 0.0, 
+            "yErr": 0.013045697040217628, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276936, 
+            "ymax": 30.0, 
+            "y": 6.631578947368421, 
+            "x": 380.0, 
+            "ymin": 0.0, 
+            "yErr": 0.4757572366692746, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 276937, 
+            "ymax": 30.0, 
+            "y": 5.0, 
+            "x": 381.0, 
+            "ymin": 0.0, 
+            "yErr": 0.08979058319756815, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 277187, 
+            "ymax": 30.0, 
+            "y": 5.379086598452708, 
+            "x": 382.0, 
+            "ymin": 0.0, 
+            "yErr": 0.028790957091739924, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 277190, 
+            "ymax": 30.0, 
+            "y": 5.397849462365591, 
+            "x": 383.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04923132766177831, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 277204, 
+            "ymax": 30.0, 
+            "y": 6.050147492625369, 
+            "x": 384.0, 
+            "ymin": 0.0, 
+            "yErr": 0.11501200261463286, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 277207, 
+            "ymax": 30.0, 
+            "y": 5.788553259141494, 
+            "x": 385.0, 
+            "ymin": 0.0, 
+            "yErr": 0.039541427615626144, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 277323, 
+            "ymax": 30.0, 
+            "y": 6.138786764705882, 
+            "x": 386.0, 
+            "ymin": 0.0, 
+            "yErr": 0.06484857469003166, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 277342, 
+            "ymax": 30.0, 
+            "y": 4.776923076923077, 
+            "x": 387.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03651275956824033, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 277345, 
+            "ymax": 30.0, 
+            "y": 5.453860640301318, 
+            "x": 388.0, 
+            "ymin": 0.0, 
+            "yErr": 0.08002369625947149, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 277354, 
+            "ymax": 30.0, 
+            "y": 4.731543624161074, 
+            "x": 389.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03752496877045322, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 277357, 
+            "ymax": 30.0, 
+            "y": 5.914163090128755, 
+            "x": 390.0, 
+            "ymin": 0.0, 
+            "yErr": 0.07332303677801115, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 277358, 
+            "ymax": 30.0, 
+            "y": 5.994550408719346, 
+            "x": 391.0, 
+            "ymin": 0.0, 
+            "yErr": 0.07303746227271361, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 277359, 
+            "ymax": 30.0, 
+            "y": 5.9, 
+            "x": 392.0, 
+            "ymin": 0.0, 
+            "yErr": 0.07748080655380252, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 277421, 
+            "ymax": 30.0, 
+            "y": 6.097154072620216, 
+            "x": 393.0, 
+            "ymin": 0.0, 
+            "yErr": 0.06780143723656419, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 277422, 
+            "ymax": 30.0, 
+            "y": 6.113130607013865, 
+            "x": 394.0, 
+            "ymin": 0.0, 
+            "yErr": 0.022483940651142564, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 277938, 
+            "ymax": 30.0, 
+            "y": 6.3142505041451935, 
+            "x": 395.0, 
+            "ymin": 0.0, 
+            "yErr": 0.022666408042171394, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 277948, 
+            "ymax": 30.0, 
+            "y": 6.353061224489796, 
+            "x": 396.0, 
+            "ymin": 0.0, 
+            "yErr": 0.10093111716912767, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278019, 
+            "ymax": 30.0, 
+            "y": 6.466666666666667, 
+            "x": 397.0, 
+            "ymin": 0.0, 
+            "yErr": 0.3487543972907434, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278020, 
+            "ymax": 30.0, 
+            "y": 6.336336336336337, 
+            "x": 398.0, 
+            "ymin": 0.0, 
+            "yErr": 0.10711633543815356, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278088, 
+            "ymax": 30.0, 
+            "y": 6.4045977011494255, 
+            "x": 399.0, 
+            "ymin": 0.0, 
+            "yErr": 0.020068269732089087, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278089, 
+            "ymax": 30.0, 
+            "y": 6.428104575163399, 
+            "x": 400.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0437485339052503, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278090, 
+            "ymax": 30.0, 
+            "y": 6.395320197044335, 
+            "x": 401.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04071311142895124, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278184, 
+            "ymax": 30.0, 
+            "y": 6.36543909348442, 
+            "x": 402.0, 
+            "ymin": 0.0, 
+            "yErr": 0.08069573932679937, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278197, 
+            "ymax": 30.0, 
+            "y": 6.332155477031802, 
+            "x": 403.0, 
+            "ymin": 0.0, 
+            "yErr": 0.12986898760184662, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278198, 
+            "ymax": 30.0, 
+            "y": 6.419354838709677, 
+            "x": 404.0, 
+            "ymin": 0.0, 
+            "yErr": 0.15942560721063553, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278200, 
+            "ymax": 30.0, 
+            "y": 6.391464311994113, 
+            "x": 405.0, 
+            "ymin": 0.0, 
+            "yErr": 0.060908935834593746, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278202, 
+            "ymax": 30.0, 
+            "y": 6.403079076277117, 
+            "x": 406.0, 
+            "ymin": 0.0, 
+            "yErr": 0.041957729343759395, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278205, 
+            "ymax": 30.0, 
+            "y": 6.400530503978779, 
+            "x": 407.0, 
+            "ymin": 0.0, 
+            "yErr": 0.12127905440577486, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278206, 
+            "ymax": 30.0, 
+            "y": 6.303763440860215, 
+            "x": 408.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05520046469398274, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278210, 
+            "ymax": 30.0, 
+            "y": 6.1940298507462686, 
+            "x": 409.0, 
+            "ymin": 0.0, 
+            "yErr": 0.26802480074810475, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278211, 
+            "ymax": 30.0, 
+            "y": 6.253098875756702, 
+            "x": 410.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03485984972007692, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278222, 
+            "ymax": 30.0, 
+            "y": 6.17921146953405, 
+            "x": 411.0, 
+            "ymin": 0.0, 
+            "yErr": 0.09110006399739098, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278224, 
+            "ymax": 30.0, 
+            "y": 6.379660005964808, 
+            "x": 412.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03915669380952547, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278228, 
+            "ymax": 30.0, 
+            "y": 6.371959310039806, 
+            "x": 413.0, 
+            "ymin": 0.0, 
+            "yErr": 0.047136122471192164, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278233, 
+            "ymax": 30.0, 
+            "y": 6.398393724318267, 
+            "x": 414.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03083970793699825, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278281, 
+            "ymax": 30.0, 
+            "y": 6.489864864864865, 
+            "x": 415.0, 
+            "ymin": 0.0, 
+            "yErr": 0.14108399322753085, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278292, 
+            "ymax": 30.0, 
+            "y": 6.384615384615385, 
+            "x": 416.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04216403885862032, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278297, 
+            "ymax": 30.0, 
+            "y": 6.502307185234015, 
+            "x": 417.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02146406390591663, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278298, 
+            "ymax": 30.0, 
+            "y": 6.306136520340152, 
+            "x": 418.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03330127428962247, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278299, 
+            "ymax": 30.0, 
+            "y": 6.324675324675325, 
+            "x": 419.0, 
+            "ymin": 0.0, 
+            "yErr": 0.22824767393105275, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278300, 
+            "ymax": 30.0, 
+            "y": 6.429472356527223, 
+            "x": 420.0, 
+            "ymin": 0.0, 
+            "yErr": 0.033288360893345775, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278301, 
+            "ymax": 30.0, 
+            "y": 6.329192546583851, 
+            "x": 421.0, 
+            "ymin": 0.0, 
+            "yErr": 0.06262608496644115, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278316, 
+            "ymax": 30.0, 
+            "y": 6.416075650118203, 
+            "x": 422.0, 
+            "ymin": 0.0, 
+            "yErr": 0.1113565692159345, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278317, 
+            "ymax": 30.0, 
+            "y": 6.407542579075426, 
+            "x": 423.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05776009948316209, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278319, 
+            "ymax": 30.0, 
+            "y": 6.45945945945946, 
+            "x": 424.0, 
+            "ymin": 0.0, 
+            "yErr": 0.11542445225099664, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278323, 
+            "ymax": 30.0, 
+            "y": 6.283600493218249, 
+            "x": 425.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03437156148250393, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278332, 
+            "ymax": 30.0, 
+            "y": 6.271066368381804, 
+            "x": 426.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04222656356329486, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278335, 
+            "ymax": 30.0, 
+            "y": 6.2105263157894735, 
+            "x": 427.0, 
+            "ymin": 0.0, 
+            "yErr": 0.06409616266002921, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278336, 
+            "ymax": 30.0, 
+            "y": 6.341584158415841, 
+            "x": 428.0, 
+            "ymin": 0.0, 
+            "yErr": 0.053838218170301225, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278338, 
+            "ymax": 30.0, 
+            "y": 6.366479723899913, 
+            "x": 429.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03311894126676862, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278339, 
+            "ymax": 30.0, 
+            "y": 6.367573011077543, 
+            "x": 430.0, 
+            "ymin": 0.0, 
+            "yErr": 0.031687462880046036, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278383, 
+            "ymax": 30.0, 
+            "y": 6.266544117647059, 
+            "x": 431.0, 
+            "ymin": 0.0, 
+            "yErr": 0.06406653638094693, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278387, 
+            "ymax": 30.0, 
+            "y": 6.358695652173913, 
+            "x": 432.0, 
+            "ymin": 0.0, 
+            "yErr": 0.15508912681588455, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278416, 
+            "ymax": 30.0, 
+            "y": 6.125984251968504, 
+            "x": 433.0, 
+            "ymin": 0.0, 
+            "yErr": 0.10285196674136056, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278472, 
+            "ymax": 30.0, 
+            "y": 6.440273037542662, 
+            "x": 434.0, 
+            "ymin": 0.0, 
+            "yErr": 0.12019297357585085, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278510, 
+            "ymax": 30.0, 
+            "y": 6.061307901907357, 
+            "x": 435.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05469345280726325, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278511, 
+            "ymax": 30.0, 
+            "y": 5.979166666666667, 
+            "x": 436.0, 
+            "ymin": 0.0, 
+            "yErr": 0.17051492599894563, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278524, 
+            "ymax": 30.0, 
+            "y": 7.735537190082645, 
+            "x": 437.0, 
+            "ymin": 0.0, 
+            "yErr": 0.2794729481607854, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278528, 
+            "ymax": 30.0, 
+            "y": 7.467153284671533, 
+            "x": 438.0, 
+            "ymin": 0.0, 
+            "yErr": 0.24861513063106203, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278556, 
+            "ymax": 30.0, 
+            "y": 8.423076923076923, 
+            "x": 439.0, 
+            "ymin": 0.0, 
+            "yErr": 0.6133935986566933, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278558, 
+            "ymax": 30.0, 
+            "y": 6.336661911554922, 
+            "x": 440.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04688463829813529, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278561, 
+            "ymax": 30.0, 
+            "y": 6.259124087591241, 
+            "x": 441.0, 
+            "ymin": 0.0, 
+            "yErr": 0.09064044001795561, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278563, 
+            "ymax": 30.0, 
+            "y": 6.3947194719471945, 
+            "x": 442.0, 
+            "ymin": 0.0, 
+            "yErr": 0.055672792811149015, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278567, 
+            "ymax": 30.0, 
+            "y": 6.373811345502241, 
+            "x": 443.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02290684496854486, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278573, 
+            "ymax": 30.0, 
+            "y": 6.398656215005599, 
+            "x": 444.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05092463486688035, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278575, 
+            "ymax": 30.0, 
+            "y": 6.348650927487353, 
+            "x": 445.0, 
+            "ymin": 0.0, 
+            "yErr": 0.030965230104736556, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278580, 
+            "ymax": 30.0, 
+            "y": 6.388517350157729, 
+            "x": 446.0, 
+            "ymin": 0.0, 
+            "yErr": 0.025382780088957207, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278610, 
+            "ymax": 30.0, 
+            "y": 6.372005701769635, 
+            "x": 447.0, 
+            "ymin": 0.0, 
+            "yErr": 0.013234340913658995, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278611, 
+            "ymax": 30.0, 
+            "y": 6.3319559228650135, 
+            "x": 448.0, 
+            "ymin": 0.0, 
+            "yErr": 0.08545495644084268, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278615, 
+            "ymax": 30.0, 
+            "y": 6.142857142857143, 
+            "x": 449.0, 
+            "ymin": 0.0, 
+            "yErr": 0.45013765306352566, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278616, 
+            "ymax": 30.0, 
+            "y": 6.316428788338901, 
+            "x": 450.0, 
+            "ymin": 0.0, 
+            "yErr": 0.035872529758715424, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278692, 
+            "ymax": 30.0, 
+            "y": 6.355810616929698, 
+            "x": 451.0, 
+            "ymin": 0.0, 
+            "yErr": 0.07733872628081064, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278697, 
+            "ymax": 30.0, 
+            "y": 6.195290063182079, 
+            "x": 452.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03413978620644343, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278699, 
+            "ymax": 30.0, 
+            "y": 6.262869198312236, 
+            "x": 453.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04367288869916817, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278700, 
+            "ymax": 30.0, 
+            "y": 6.346222222222222, 
+            "x": 454.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04426026925858283, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278701, 
+            "ymax": 30.0, 
+            "y": 6.363383760419882, 
+            "x": 455.0, 
+            "ymin": 0.0, 
+            "yErr": 0.010894172015903383, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278754, 
+            "ymax": 30.0, 
+            "y": 6.392931937172775, 
+            "x": 456.0, 
+            "ymin": 0.0, 
+            "yErr": 0.037018714343394134, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278755, 
+            "ymax": 30.0, 
+            "y": 6.333860759493671, 
+            "x": 457.0, 
+            "ymin": 0.0, 
+            "yErr": 0.08509886406624478, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278756, 
+            "ymax": 30.0, 
+            "y": 6.218085106382978, 
+            "x": 458.0, 
+            "ymin": 0.0, 
+            "yErr": 0.15287890229316148, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278790, 
+            "ymax": 30.0, 
+            "y": 6.468152866242038, 
+            "x": 459.0, 
+            "ymin": 0.0, 
+            "yErr": 0.12482213921990704, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278826, 
+            "ymax": 30.0, 
+            "y": 6.409005628517824, 
+            "x": 460.0, 
+            "ymin": 0.0, 
+            "yErr": 0.09681553815958469, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278831, 
+            "ymax": 30.0, 
+            "y": 6.111386138613861, 
+            "x": 461.0, 
+            "ymin": 0.0, 
+            "yErr": 0.09925673513260576, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278832, 
+            "ymax": 30.0, 
+            "y": 6.136050674745249, 
+            "x": 462.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03304735947546243, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278838, 
+            "ymax": 30.0, 
+            "y": 6.235668789808917, 
+            "x": 463.0, 
+            "ymin": 0.0, 
+            "yErr": 0.16066621800155756, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278839, 
+            "ymax": 30.0, 
+            "y": 6.3037667071688945, 
+            "x": 464.0, 
+            "ymin": 0.0, 
+            "yErr": 0.07420923866163827, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278887, 
+            "ymax": 30.0, 
+            "y": 6.27970297029703, 
+            "x": 465.0, 
+            "ymin": 0.0, 
+            "yErr": 0.07581682692250749, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278889, 
+            "ymax": 30.0, 
+            "y": 6.291596638655462, 
+            "x": 466.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05986954703782498, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278927, 
+            "ymax": 30.0, 
+            "y": 6.05, 
+            "x": 467.0, 
+            "ymin": 0.0, 
+            "yErr": 0.32005858838656415, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278928, 
+            "ymax": 30.0, 
+            "y": 6.007142857142857, 
+            "x": 468.0, 
+            "ymin": 0.0, 
+            "yErr": 0.16857640082601102, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278929, 
+            "ymax": 30.0, 
+            "y": 6.354166666666667, 
+            "x": 469.0, 
+            "ymin": 0.0, 
+            "yErr": 0.14618385454181906, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278958, 
+            "ymax": 30.0, 
+            "y": 6.444117647058824, 
+            "x": 470.0, 
+            "ymin": 0.0, 
+            "yErr": 0.07250803496475788, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278965, 
+            "ymax": 30.0, 
+            "y": 6.409438775510204, 
+            "x": 471.0, 
+            "ymin": 0.0, 
+            "yErr": 0.07839533250943617, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278979, 
+            "ymax": 30.0, 
+            "y": 5.1035598705501615, 
+            "x": 472.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04511552534265293, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278981, 
+            "ymax": 30.0, 
+            "y": 5.284688995215311, 
+            "x": 473.0, 
+            "ymin": 0.0, 
+            "yErr": 0.050696314709139094, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278982, 
+            "ymax": 30.0, 
+            "y": 5.809350393700788, 
+            "x": 474.0, 
+            "ymin": 0.0, 
+            "yErr": 0.019288755178288458, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 278988, 
+            "ymax": 30.0, 
+            "y": 6.404624277456647, 
+            "x": 475.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0576930605651052, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279032, 
+            "ymax": 30.0, 
+            "y": 6.0776906628652885, 
+            "x": 476.0, 
+            "ymin": 0.0, 
+            "yErr": 0.027505990556074816, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279033, 
+            "ymax": 30.0, 
+            "y": 6.111221449851043, 
+            "x": 477.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04494871721557787, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279035, 
+            "ymax": 30.0, 
+            "y": 6.2, 
+            "x": 478.0, 
+            "ymin": 0.0, 
+            "yErr": 0.497995983919549, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279036, 
+            "ymax": 30.0, 
+            "y": 6.599620493358634, 
+            "x": 479.0, 
+            "ymin": 0.0, 
+            "yErr": 0.10511237730637793, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279043, 
+            "ymax": 30.0, 
+            "y": 6.03125, 
+            "x": 480.0, 
+            "ymin": 0.0, 
+            "yErr": 0.1825309998821262, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279061, 
+            "ymax": 30.0, 
+            "y": 6.134020618556701, 
+            "x": 481.0, 
+            "ymin": 0.0, 
+            "yErr": 0.1436393147245907, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279065, 
+            "ymax": 30.0, 
+            "y": 6.506329113924051, 
+            "x": 482.0, 
+            "ymin": 0.0, 
+            "yErr": 0.24989882119948298, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279118, 
+            "ymax": 30.0, 
+            "y": 5.6839506172839505, 
+            "x": 483.0, 
+            "ymin": 0.0, 
+            "yErr": 0.049400799412206015, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279120, 
+            "ymax": 30.0, 
+            "y": 5.60916179337232, 
+            "x": 484.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05320846465598476, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279122, 
+            "ymax": 30.0, 
+            "y": 5.46780162842339, 
+            "x": 485.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04046321027688172, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279124, 
+            "ymax": 30.0, 
+            "y": 5.479495268138801, 
+            "x": 486.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0877128596825657, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279125, 
+            "ymax": 30.0, 
+            "y": 5.363288718929255, 
+            "x": 487.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05914916796191171, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279126, 
+            "ymax": 30.0, 
+            "y": 5.458279845956354, 
+            "x": 488.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05734253438302397, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279127, 
+            "ymax": 30.0, 
+            "y": 5.405466970387244, 
+            "x": 489.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0668721824739153, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279131, 
+            "ymax": 30.0, 
+            "y": 5.499401484318889, 
+            "x": 490.0, 
+            "ymin": 0.0, 
+            "yErr": 0.024792422208332738, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279134, 
+            "ymax": 30.0, 
+            "y": 5.600414078674948, 
+            "x": 491.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04537915086205626, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279136, 
+            "ymax": 30.0, 
+            "y": 5.620491374803973, 
+            "x": 492.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04016078305223427, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279140, 
+            "ymax": 30.0, 
+            "y": 5.636438412502571, 
+            "x": 493.0, 
+            "ymin": 0.0, 
+            "yErr": 0.024730236710923253, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279491, 
+            "ymax": 30.0, 
+            "y": 6.220489977728285, 
+            "x": 494.0, 
+            "ymin": 0.0, 
+            "yErr": 0.09597976080703415, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279492, 
+            "ymax": 30.0, 
+            "y": 6.554140127388535, 
+            "x": 495.0, 
+            "ymin": 0.0, 
+            "yErr": 0.1806931053839279, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279493, 
+            "ymax": 30.0, 
+            "y": 6.110486891385768, 
+            "x": 496.0, 
+            "ymin": 0.0, 
+            "yErr": 0.09220790609875873, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279494, 
+            "ymax": 30.0, 
+            "y": 6.127134146341463, 
+            "x": 497.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03525000087146236, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279591, 
+            "ymax": 30.0, 
+            "y": 6.169672678690715, 
+            "x": 498.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05826156453267782, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279593, 
+            "ymax": 30.0, 
+            "y": 6.215798045602606, 
+            "x": 499.0, 
+            "ymin": 0.0, 
+            "yErr": 0.06224084467460668, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279594, 
+            "ymax": 30.0, 
+            "y": 6.154366543665437, 
+            "x": 500.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05382008035994461, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279596, 
+            "ymax": 30.0, 
+            "y": 5.923076923076923, 
+            "x": 501.0, 
+            "ymin": 0.0, 
+            "yErr": 0.2168168777767276, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279644, 
+            "ymax": 30.0, 
+            "y": 6.369827019925553, 
+            "x": 502.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03393443970757436, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279674, 
+            "ymax": 30.0, 
+            "y": 6.346378608110501, 
+            "x": 503.0, 
+            "ymin": 0.0, 
+            "yErr": 0.029138171959591747, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279675, 
+            "ymax": 30.0, 
+            "y": 6.23029772329247, 
+            "x": 504.0, 
+            "ymin": 0.0, 
+            "yErr": 0.06192095501232382, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279686, 
+            "ymax": 30.0, 
+            "y": 6.1576614020504294, 
+            "x": 505.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03603095827281611, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279698, 
+            "ymax": 30.0, 
+            "y": 6.269706610109579, 
+            "x": 506.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0405676595783814, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279706, 
+            "ymax": 30.0, 
+            "y": 6.167660702451955, 
+            "x": 507.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05295963718444749, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279749, 
+            "ymax": 30.0, 
+            "y": 6.413519813519813, 
+            "x": 508.0, 
+            "ymin": 0.0, 
+            "yErr": 0.049060169031236146, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279754, 
+            "ymax": 30.0, 
+            "y": 6.338742393509127, 
+            "x": 509.0, 
+            "ymin": 0.0, 
+            "yErr": 0.10367532694139744, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279786, 
+            "ymax": 30.0, 
+            "y": 6.247340425531915, 
+            "x": 510.0, 
+            "ymin": 0.0, 
+            "yErr": 0.1149476989423681, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279828, 
+            "ymax": 30.0, 
+            "y": 5.196498054474708, 
+            "x": 511.0, 
+            "ymin": 0.0, 
+            "yErr": 0.06259495040403595, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279888, 
+            "ymax": 30.0, 
+            "y": 5.3522727272727275, 
+            "x": 512.0, 
+            "ymin": 0.0, 
+            "yErr": 0.12293741096754053, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279889, 
+            "ymax": 30.0, 
+            "y": 5.675828047921071, 
+            "x": 513.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04629158073276113, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279894, 
+            "ymax": 30.0, 
+            "y": 6.321969696969697, 
+            "x": 514.0, 
+            "ymin": 0.0, 
+            "yErr": 0.06547479080878114, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279895, 
+            "ymax": 30.0, 
+            "y": 6.407275953859805, 
+            "x": 515.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0652283178237277, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279898, 
+            "ymax": 30.0, 
+            "y": 6.290487238979118, 
+            "x": 516.0, 
+            "ymin": 0.0, 
+            "yErr": 0.048442797546228863, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279904, 
+            "ymax": 30.0, 
+            "y": 6.328990228013029, 
+            "x": 517.0, 
+            "ymin": 0.0, 
+            "yErr": 0.07059480200135136, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279905, 
+            "ymax": 30.0, 
+            "y": 6.299469294920394, 
+            "x": 518.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0613245016496827, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279911, 
+            "ymax": 30.0, 
+            "y": 6.495559502664299, 
+            "x": 519.0, 
+            "ymin": 0.0, 
+            "yErr": 0.09954226576117875, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279916, 
+            "ymax": 30.0, 
+            "y": 6.2745098039215685, 
+            "x": 520.0, 
+            "ymin": 0.0, 
+            "yErr": 0.11159215421393769, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279917, 
+            "ymax": 30.0, 
+            "y": 6.236899563318778, 
+            "x": 521.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04948674900993991, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279921, 
+            "ymax": 30.0, 
+            "y": 6.228215767634855, 
+            "x": 522.0, 
+            "ymin": 0.0, 
+            "yErr": 0.042842160545037956, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 279970, 
+            "ymax": 30.0, 
+            "y": 5.375512295081967, 
+            "x": 523.0, 
+            "ymin": 0.0, 
+            "yErr": 0.037358043536121786, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 280027, 
+            "ymax": 30.0, 
+            "y": 5.89405684754522, 
+            "x": 524.0, 
+            "ymin": 0.0, 
+            "yErr": 0.058303396177391685, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 280029, 
+            "ymax": 30.0, 
+            "y": 5.955555555555556, 
+            "x": 525.0, 
+            "ymin": 0.0, 
+            "yErr": 0.235084551231486, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 280030, 
+            "ymax": 30.0, 
+            "y": 5.461497383317313, 
+            "x": 526.0, 
+            "ymin": 0.0, 
+            "yErr": 0.012599147806427418, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 280103, 
+            "ymax": 30.0, 
+            "y": 4.926829268292683, 
+            "x": 527.0, 
+            "ymin": 0.0, 
+            "yErr": 0.06476183323109838, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 280159, 
+            "ymax": 30.0, 
+            "y": 6.588235294117647, 
+            "x": 528.0, 
+            "ymin": 0.0, 
+            "yErr": 0.6812304333466972, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 280161, 
+            "ymax": 30.0, 
+            "y": 6.3, 
+            "x": 529.0, 
+            "ymin": 0.0, 
+            "yErr": 0.1386227361430244, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 280164, 
+            "ymax": 30.0, 
+            "y": 5.938816449348044, 
+            "x": 530.0, 
+            "ymin": 0.0, 
+            "yErr": 0.06319170048950787, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 280178, 
+            "ymax": 30.0, 
+            "y": 5.970149253731344, 
+            "x": 531.0, 
+            "ymin": 0.0, 
+            "yErr": 0.14503327211916997, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 280268, 
+            "ymax": 30.0, 
+            "y": 6.4334763948497855, 
+            "x": 532.0, 
+            "ymin": 0.0, 
+            "yErr": 0.14536746685674248, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 280271, 
+            "ymax": 30.0, 
+            "y": 6.422459893048129, 
+            "x": 533.0, 
+            "ymin": 0.0, 
+            "yErr": 0.16668936156732192, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 280272, 
+            "ymax": 30.0, 
+            "y": 6.409722222222222, 
+            "x": 534.0, 
+            "ymin": 0.0, 
+            "yErr": 0.1787876035417797, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 280275, 
+            "ymax": 30.0, 
+            "y": 6.250863060989643, 
+            "x": 535.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05220587275577317, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 280322, 
+            "ymax": 30.0, 
+            "y": 6.3122451848727685, 
+            "x": 536.0, 
+            "ymin": 0.0, 
+            "yErr": 0.026700369597903038, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 280367, 
+            "ymax": 30.0, 
+            "y": 6.191881918819188, 
+            "x": 537.0, 
+            "ymin": 0.0, 
+            "yErr": 0.07220566570889515, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 280399, 
+            "ymax": 30.0, 
+            "y": 6.065436241610739, 
+            "x": 538.0, 
+            "ymin": 0.0, 
+            "yErr": 0.08885409239165631, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 280400, 
+            "ymax": 30.0, 
+            "y": 5.89840775354794, 
+            "x": 539.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02681827812743686, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 280402, 
+            "ymax": 30.0, 
+            "y": 5.783792759880439, 
+            "x": 540.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03649079610666988, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 280403, 
+            "ymax": 30.0, 
+            "y": 5.707133058984911, 
+            "x": 541.0, 
+            "ymin": 0.0, 
+            "yErr": 0.036344519593840115, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 280404, 
+            "ymax": 30.0, 
+            "y": 5.704163294667746, 
+            "x": 542.0, 
+            "ymin": 0.0, 
+            "yErr": 0.01849089968091393, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281020, 
+            "ymax": 30.0, 
+            "y": 6.382495026996306, 
+            "x": 543.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03798255792200512, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281022, 
+            "ymax": 30.0, 
+            "y": 6.35667502787068, 
+            "x": 544.0, 
+            "ymin": 0.0, 
+            "yErr": 0.01867948780173626, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281036, 
+            "ymax": 30.0, 
+            "y": 6.404296125815113, 
+            "x": 545.0, 
+            "ymin": 0.0, 
+            "yErr": 0.044634044936660344, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281040, 
+            "ymax": 30.0, 
+            "y": 6.340248962655601, 
+            "x": 546.0, 
+            "ymin": 0.0, 
+            "yErr": 0.10062131945608686, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281042, 
+            "ymax": 30.0, 
+            "y": 6.376613063331348, 
+            "x": 547.0, 
+            "ymin": 0.0, 
+            "yErr": 0.018394777176795652, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281043, 
+            "ymax": 30.0, 
+            "y": 6.381663555278988, 
+            "x": 548.0, 
+            "ymin": 0.0, 
+            "yErr": 0.01878438208250233, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281044, 
+            "ymax": 30.0, 
+            "y": 6.444444444444445, 
+            "x": 549.0, 
+            "ymin": 0.0, 
+            "yErr": 0.16057817629172272, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281046, 
+            "ymax": 30.0, 
+            "y": 6.427948051948052, 
+            "x": 550.0, 
+            "ymin": 0.0, 
+            "yErr": 0.023514578671018194, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281069, 
+            "ymax": 30.0, 
+            "y": 6.323475046210721, 
+            "x": 551.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03953212605404684, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281070, 
+            "ymax": 30.0, 
+            "y": 6.321892954339281, 
+            "x": 552.0, 
+            "ymin": 0.0, 
+            "yErr": 0.027122313825536988, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281073, 
+            "ymax": 30.0, 
+            "y": 6.172932330827067, 
+            "x": 553.0, 
+            "ymin": 0.0, 
+            "yErr": 0.17649526053364864, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281075, 
+            "ymax": 30.0, 
+            "y": 6.305384615384615, 
+            "x": 554.0, 
+            "ymin": 0.0, 
+            "yErr": 0.034699126552447355, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281078, 
+            "ymax": 30.0, 
+            "y": 6.3736482452066605, 
+            "x": 555.0, 
+            "ymin": 0.0, 
+            "yErr": 0.01820911901248207, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281311, 
+            "ymax": 30.0, 
+            "y": 6.37948717948718, 
+            "x": 556.0, 
+            "ymin": 0.0, 
+            "yErr": 0.10583986444728141, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281313, 
+            "ymax": 30.0, 
+            "y": 6.267015706806283, 
+            "x": 557.0, 
+            "ymin": 0.0, 
+            "yErr": 0.11077859759818733, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281614, 
+            "ymax": 30.0, 
+            "y": 6.159334126040428, 
+            "x": 558.0, 
+            "ymin": 0.0, 
+            "yErr": 0.07884332175465962, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281621, 
+            "ymax": 30.0, 
+            "y": 5.959183673469388, 
+            "x": 559.0, 
+            "ymin": 0.0, 
+            "yErr": 0.31873237011583544, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281694, 
+            "ymax": 30.0, 
+            "y": 6.1743421052631575, 
+            "x": 560.0, 
+            "ymin": 0.0, 
+            "yErr": 0.1230702790688409, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281698, 
+            "ymax": 30.0, 
+            "y": 6.035269709543568, 
+            "x": 561.0, 
+            "ymin": 0.0, 
+            "yErr": 0.10307676193911226, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281728, 
+            "ymax": 30.0, 
+            "y": 6.0716795502459595, 
+            "x": 562.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05779882469593475, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281733, 
+            "ymax": 30.0, 
+            "y": 6.05247376311844, 
+            "x": 563.0, 
+            "ymin": 0.0, 
+            "yErr": 0.061011969764199515, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281738, 
+            "ymax": 30.0, 
+            "y": 6.071698113207547, 
+            "x": 564.0, 
+            "ymin": 0.0, 
+            "yErr": 0.07648081349821431, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281742, 
+            "ymax": 30.0, 
+            "y": 5.969924812030075, 
+            "x": 565.0, 
+            "ymin": 0.0, 
+            "yErr": 0.06802744023653337, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281752, 
+            "ymax": 30.0, 
+            "y": 5.9774170783345095, 
+            "x": 566.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05627740102726318, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281762, 
+            "ymax": 30.0, 
+            "y": 6.049152542372881, 
+            "x": 567.0, 
+            "ymin": 0.0, 
+            "yErr": 0.09006325103944604, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281766, 
+            "ymax": 30.0, 
+            "y": 5.984375, 
+            "x": 568.0, 
+            "ymin": 0.0, 
+            "yErr": 0.14678030004715753, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281767, 
+            "ymax": 30.0, 
+            "y": 5.882422802850356, 
+            "x": 569.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04121001252704439, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281801, 
+            "ymax": 30.0, 
+            "y": 5.394594594594595, 
+            "x": 570.0, 
+            "ymin": 0.0, 
+            "yErr": 0.12997663380440072, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281802, 
+            "ymax": 30.0, 
+            "y": 5.401944627554384, 
+            "x": 571.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02242516873046821, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281804, 
+            "ymax": 30.0, 
+            "y": 5.579717457114026, 
+            "x": 572.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0429331510017735, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281807, 
+            "ymax": 30.0, 
+            "y": 5.749364438462689, 
+            "x": 573.0, 
+            "ymin": 0.0, 
+            "yErr": 0.017835870756691415, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281808, 
+            "ymax": 30.0, 
+            "y": 5.868273092369478, 
+            "x": 574.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05798950248488327, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281809, 
+            "ymax": 30.0, 
+            "y": 5.858559498956159, 
+            "x": 575.0, 
+            "ymin": 0.0, 
+            "yErr": 0.047200416175167036, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281811, 
+            "ymax": 30.0, 
+            "y": 5.814296520423601, 
+            "x": 576.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04075924088093755, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281813, 
+            "ymax": 30.0, 
+            "y": 5.86127744510978, 
+            "x": 577.0, 
+            "ymin": 0.0, 
+            "yErr": 0.06486041353861137, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281815, 
+            "ymax": 30.0, 
+            "y": 5.939655172413793, 
+            "x": 578.0, 
+            "ymin": 0.0, 
+            "yErr": 0.13881419659364816, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281910, 
+            "ymax": 30.0, 
+            "y": 6.003899480069324, 
+            "x": 579.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04616563814637274, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281913, 
+            "ymax": 30.0, 
+            "y": 6.065505804311774, 
+            "x": 580.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0650572686771505, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281916, 
+            "ymax": 30.0, 
+            "y": 6.024373730534868, 
+            "x": 581.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05693294988088919, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281925, 
+            "ymax": 30.0, 
+            "y": 6.002129358530743, 
+            "x": 582.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03601070355243085, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281948, 
+            "ymax": 30.0, 
+            "y": 5.851992409867172, 
+            "x": 583.0, 
+            "ymin": 0.0, 
+            "yErr": 0.09013693005682202, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281952, 
+            "ymax": 30.0, 
+            "y": 6.030156815440289, 
+            "x": 584.0, 
+            "ymin": 0.0, 
+            "yErr": 0.07742960555392372, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281956, 
+            "ymax": 30.0, 
+            "y": 6.018867924528302, 
+            "x": 585.0, 
+            "ymin": 0.0, 
+            "yErr": 0.13523219884231175, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281959, 
+            "ymax": 30.0, 
+            "y": 6.019921363040629, 
+            "x": 586.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03584335711171966, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281963, 
+            "ymax": 30.0, 
+            "y": 6.054498714652956, 
+            "x": 587.0, 
+            "ymin": 0.0, 
+            "yErr": 0.036284549120344754, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 281965, 
+            "ymax": 30.0, 
+            "y": 5.851063829787234, 
+            "x": 588.0, 
+            "ymin": 0.0, 
+            "yErr": 0.20460820956764797, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282038, 
+            "ymax": 30.0, 
+            "y": 4.787801778907243, 
+            "x": 589.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03601929478257236, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282039, 
+            "ymax": 30.0, 
+            "y": 4.997076707202994, 
+            "x": 590.0, 
+            "ymin": 0.0, 
+            "yErr": 0.014444226975865641, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282051, 
+            "ymax": 30.0, 
+            "y": 5.148402508211406, 
+            "x": 591.0, 
+            "ymin": 0.0, 
+            "yErr": 0.027502098334768407, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282054, 
+            "ymax": 30.0, 
+            "y": 5.340736728060672, 
+            "x": 592.0, 
+            "ymin": 0.0, 
+            "yErr": 0.041343211758581626, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282056, 
+            "ymax": 30.0, 
+            "y": 5.340460829493088, 
+            "x": 593.0, 
+            "ymin": 0.0, 
+            "yErr": 0.023379034344630786, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282065, 
+            "ymax": 30.0, 
+            "y": 5.390792291220556, 
+            "x": 594.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05608848745657567, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282066, 
+            "ymax": 30.0, 
+            "y": 5.430995475113122, 
+            "x": 595.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03562973751111111, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282067, 
+            "ymax": 30.0, 
+            "y": 5.52638731596829, 
+            "x": 596.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02798604542687309, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282070, 
+            "ymax": 30.0, 
+            "y": 5.5156187424909895, 
+            "x": 597.0, 
+            "ymin": 0.0, 
+            "yErr": 0.026437240580711313, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282074, 
+            "ymax": 30.0, 
+            "y": 5.497822028624767, 
+            "x": 598.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04545498821847243, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282077, 
+            "ymax": 30.0, 
+            "y": 5.717618170656845, 
+            "x": 599.0, 
+            "ymin": 0.0, 
+            "yErr": 0.023030166655641376, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282078, 
+            "ymax": 30.0, 
+            "y": 5.7809762202753445, 
+            "x": 600.0, 
+            "ymin": 0.0, 
+            "yErr": 0.07543384490123776, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282079, 
+            "ymax": 30.0, 
+            "y": 5.877850553137106, 
+            "x": 601.0, 
+            "ymin": 0.0, 
+            "yErr": 0.009732592529216115, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282080, 
+            "ymax": 30.0, 
+            "y": 5.969551979121357, 
+            "x": 602.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02079025498371774, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282652, 
+            "ymax": 30.0, 
+            "y": 5.634506242905789, 
+            "x": 603.0, 
+            "ymin": 0.0, 
+            "yErr": 0.036197866937921944, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282715, 
+            "ymax": 30.0, 
+            "y": 6.044516829533116, 
+            "x": 604.0, 
+            "ymin": 0.0, 
+            "yErr": 0.06977052717246959, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282718, 
+            "ymax": 30.0, 
+            "y": 6.049916805324459, 
+            "x": 605.0, 
+            "ymin": 0.0, 
+            "yErr": 0.08729500390081053, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282736, 
+            "ymax": 30.0, 
+            "y": 6.108675517134918, 
+            "x": 606.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04046431036649624, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282737, 
+            "ymax": 30.0, 
+            "y": 6.038121546961326, 
+            "x": 607.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05257152008734411, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282739, 
+            "ymax": 30.0, 
+            "y": 6.306306306306307, 
+            "x": 608.0, 
+            "ymin": 0.0, 
+            "yErr": 0.22059852944002922, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282740, 
+            "ymax": 30.0, 
+            "y": 6.040530007794232, 
+            "x": 609.0, 
+            "ymin": 0.0, 
+            "yErr": 0.060151542216578, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282741, 
+            "ymax": 30.0, 
+            "y": 5.98581560283688, 
+            "x": 610.0, 
+            "ymin": 0.0, 
+            "yErr": 0.18439329390453327, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282742, 
+            "ymax": 30.0, 
+            "y": 5.975903614457831, 
+            "x": 611.0, 
+            "ymin": 0.0, 
+            "yErr": 0.09987231657857072, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282744, 
+            "ymax": 30.0, 
+            "y": 6.0385996409335725, 
+            "x": 612.0, 
+            "ymin": 0.0, 
+            "yErr": 0.06689473681770974, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282747, 
+            "ymax": 30.0, 
+            "y": 5.948198198198198, 
+            "x": 613.0, 
+            "ymin": 0.0, 
+            "yErr": 0.09728604994630788, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282751, 
+            "ymax": 30.0, 
+            "y": 6.015652173913043, 
+            "x": 614.0, 
+            "ymin": 0.0, 
+            "yErr": 0.036430937021189255, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282765, 
+            "ymax": 30.0, 
+            "y": 5.880753138075314, 
+            "x": 615.0, 
+            "ymin": 0.0, 
+            "yErr": 0.08984138886422871, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282768, 
+            "ymax": 30.0, 
+            "y": 6.018595041322314, 
+            "x": 616.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0953290793941374, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282774, 
+            "ymax": 30.0, 
+            "y": 6.042836744407425, 
+            "x": 617.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04854864791859212, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282781, 
+            "ymax": 30.0, 
+            "y": 5.905359179019384, 
+            "x": 618.0, 
+            "ymin": 0.0, 
+            "yErr": 0.052085535849993134, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282843, 
+            "ymax": 30.0, 
+            "y": 6.437908496732026, 
+            "x": 619.0, 
+            "ymin": 0.0, 
+            "yErr": 0.19029152544301522, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282845, 
+            "ymax": 30.0, 
+            "y": 6.066274388355528, 
+            "x": 620.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03848159222417823, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282874, 
+            "ymax": 30.0, 
+            "y": 6.101906158357771, 
+            "x": 621.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05909306955215029, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282878, 
+            "ymax": 30.0, 
+            "y": 6.029993618379068, 
+            "x": 622.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03922125300873885, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282887, 
+            "ymax": 30.0, 
+            "y": 6.165319617927994, 
+            "x": 623.0, 
+            "ymin": 0.0, 
+            "yErr": 0.043106334661480464, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282900, 
+            "ymax": 30.0, 
+            "y": 5.946382428940568, 
+            "x": 624.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05292645452355293, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282908, 
+            "ymax": 30.0, 
+            "y": 6.060135790494665, 
+            "x": 625.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03953498299534543, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282925, 
+            "ymax": 30.0, 
+            "y": 6.156289707750953, 
+            "x": 626.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0840913327321079, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282926, 
+            "ymax": 30.0, 
+            "y": 6.202619414483821, 
+            "x": 627.0, 
+            "ymin": 0.0, 
+            "yErr": 0.06859606686645561, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282934, 
+            "ymax": 30.0, 
+            "y": 6.071339173967459, 
+            "x": 628.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05341507647957473, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 282939, 
+            "ymax": 30.0, 
+            "y": 6.264150943396227, 
+            "x": 629.0, 
+            "ymin": 0.0, 
+            "yErr": 0.3102049109697749, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 283023, 
+            "ymax": 30.0, 
+            "y": 6.160392798690671, 
+            "x": 630.0, 
+            "ymin": 0.0, 
+            "yErr": 0.06645410376493634, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 283026, 
+            "ymax": 30.0, 
+            "y": 6.313659359190557, 
+            "x": 631.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04560654685188963, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 283028, 
+            "ymax": 30.0, 
+            "y": 6.335122699386503, 
+            "x": 632.0, 
+            "ymin": 0.0, 
+            "yErr": 0.06230351034284303, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 283030, 
+            "ymax": 30.0, 
+            "y": 6.382456140350877, 
+            "x": 633.0, 
+            "ymin": 0.0, 
+            "yErr": 0.053379589321579955, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 283044, 
+            "ymax": 30.0, 
+            "y": 6.385405405405406, 
+            "x": 634.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05329797145000403, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 283165, 
+            "ymax": 30.0, 
+            "y": 6.412921097310338, 
+            "x": 635.0, 
+            "ymin": 0.0, 
+            "yErr": 0.021228926683043207, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 283195, 
+            "ymax": 30.0, 
+            "y": 7.5, 
+            "x": 636.0, 
+            "ymin": 0.0, 
+            "yErr": 0.6098471777805596, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 283198, 
+            "ymax": 30.0, 
+            "y": 8.333333333333334, 
+            "x": 637.0, 
+            "ymin": 0.0, 
+            "yErr": 0.7757911135427186, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 283317, 
+            "ymax": 30.0, 
+            "y": 6.213592233009709, 
+            "x": 638.0, 
+            "ymin": 0.0, 
+            "yErr": 0.19449027057337215, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 283319, 
+            "ymax": 30.0, 
+            "y": 6.3734610123119015, 
+            "x": 639.0, 
+            "ymin": 0.0, 
+            "yErr": 0.07885890523498429, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 283346, 
+            "ymax": 30.0, 
+            "y": 6.457831325301205, 
+            "x": 640.0, 
+            "ymin": 0.0, 
+            "yErr": 0.24354115948255403, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 283348, 
+            "ymax": 30.0, 
+            "y": 6.447075606276748, 
+            "x": 641.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03953370195057036, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 283367, 
+            "ymax": 30.0, 
+            "y": 6.503916449086162, 
+            "x": 642.0, 
+            "ymin": 0.0, 
+            "yErr": 0.11832442239223344, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 283392, 
+            "ymax": 30.0, 
+            "y": 6.5, 
+            "x": 643.0, 
+            "ymin": 0.0, 
+            "yErr": 0.14906994655305905, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 283394, 
+            "ymax": 30.0, 
+            "y": 6.369918699186992, 
+            "x": 644.0, 
+            "ymin": 0.0, 
+            "yErr": 0.13379711862829938, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 283396, 
+            "ymax": 30.0, 
+            "y": 6.597014925373134, 
+            "x": 645.0, 
+            "ymin": 0.0, 
+            "yErr": 0.29855201271482595, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 283471, 
+            "ymax": 30.0, 
+            "y": 6.499048525214082, 
+            "x": 646.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05049431530154458, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 283839, 
+            "ymax": 30.0, 
+            "y": 6.6, 
+            "x": 647.0, 
+            "ymin": 0.0, 
+            "yErr": 0.5232377832092957, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 283873, 
+            "ymax": 30.0, 
+            "y": 6.186540731995278, 
+            "x": 648.0, 
+            "ymin": 0.0, 
+            "yErr": 0.07517728975605917, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 283879, 
+            "ymax": 30.0, 
+            "y": 6.287179487179487, 
+            "x": 649.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04710467727537771, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 283937, 
+            "ymax": 30.0, 
+            "y": 5.6276651066042644, 
+            "x": 650.0, 
+            "ymin": 0.0, 
+            "yErr": 0.04194930223968389, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 283979, 
+            "ymax": 30.0, 
+            "y": 5.451612903225806, 
+            "x": 651.0, 
+            "ymin": 0.0, 
+            "yErr": 0.3122164384325588, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 283981, 
+            "ymax": 30.0, 
+            "y": 5.479917610710608, 
+            "x": 652.0, 
+            "ymin": 0.0, 
+            "yErr": 0.057343833164887004, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }, 
+        {
+            "run": 283986, 
+            "ymax": 30.0, 
+            "y": 5.302884615384615, 
+            "x": 653.0, 
+            "ymin": 0.0, 
+            "yErr": 0.05380829151459065, 
+            "yTitle": "Average number of Layers per Cosmic Track"
+        }
+    ]
+}

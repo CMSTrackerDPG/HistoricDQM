@@ -1,0 +1,49 @@
+{
+    "HitResiduals_TIB_layer2_mean": [
+        {
+            "run": 290189, 
+            "ymax": 0.005, 
+            "y": -0.00021542035616361178, 
+            "x": 1.0, 
+            "ymin": -0.005, 
+            "yErr": 0.0004982628061129152, 
+            "yTitle": "HitResiduals TIB Layer 2 Mean"
+        }, 
+        {
+            "run": 290198, 
+            "ymax": 0.005, 
+            "y": 0.0001545385880903764, 
+            "x": 2.0, 
+            "ymin": -0.005, 
+            "yErr": 0.00042106700965766937, 
+            "yTitle": "HitResiduals TIB Layer 2 Mean"
+        }, 
+        {
+            "run": 290351, 
+            "ymax": 0.005, 
+            "y": 0.00015357562473842075, 
+            "x": 3.0, 
+            "ymin": -0.005, 
+            "yErr": 0.000611525119831199, 
+            "yTitle": "HitResiduals TIB Layer 2 Mean"
+        }, 
+        {
+            "run": 290510, 
+            "ymax": 0.005, 
+            "y": -0.0008145719766616821, 
+            "x": 4.0, 
+            "ymin": -0.005, 
+            "yErr": 0.0007186668568587563, 
+            "yTitle": "HitResiduals TIB Layer 2 Mean"
+        }, 
+        {
+            "run": 290619, 
+            "ymax": 0.005, 
+            "y": 0.0004416505495707194, 
+            "x": 5.0, 
+            "ymin": -0.005, 
+            "yErr": 0.0007099805829805891, 
+            "yTitle": "HitResiduals TIB Layer 2 Mean"
+        }
+    ]
+}

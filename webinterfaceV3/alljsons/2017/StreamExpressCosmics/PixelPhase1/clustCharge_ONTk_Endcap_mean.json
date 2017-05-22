@@ -1,0 +1,940 @@
+{
+    "clustCharge_ONTk_Endcap_mean": [
+        {
+            "run": 291283, 
+            "ymax": 0, 
+            "y": 8178.289705882353, 
+            "x": 1.0, 
+            "ymin": 0, 
+            "yErr": 158.669438928508, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291285, 
+            "ymax": 0, 
+            "y": 7795.836150964086, 
+            "x": 2.0, 
+            "ymin": 0, 
+            "yErr": 81.2507364338569, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291297, 
+            "ymax": 0, 
+            "y": 8171.7023402576915, 
+            "x": 3.0, 
+            "ymin": 0, 
+            "yErr": 156.0037346442565, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291299, 
+            "ymax": 0, 
+            "y": 7921.497721587451, 
+            "x": 4.0, 
+            "ymin": 0, 
+            "yErr": 32.4808120521191, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291313, 
+            "ymax": 0, 
+            "y": 7884.995161215279, 
+            "x": 5.0, 
+            "ymin": 0, 
+            "yErr": 30.37083468929076, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291314, 
+            "ymax": 0, 
+            "y": 7919.515085305193, 
+            "x": 6.0, 
+            "ymin": 0, 
+            "yErr": 42.67711526101762, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291315, 
+            "ymax": 0, 
+            "y": 7917.139136043525, 
+            "x": 7.0, 
+            "ymin": 0, 
+            "yErr": 4.042115952378423, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291316, 
+            "ymax": 0, 
+            "y": 7926.225879505714, 
+            "x": 8.0, 
+            "ymin": 0, 
+            "yErr": 3.9305446335679313, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291834, 
+            "ymax": 0, 
+            "y": 6018.220072964961, 
+            "x": 9.0, 
+            "ymin": 0, 
+            "yErr": 12.248996177193195, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291835, 
+            "ymax": 0, 
+            "y": 6012.749990895849, 
+            "x": 10.0, 
+            "ymin": 0, 
+            "yErr": 5.893122961862109, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291836, 
+            "ymax": 0, 
+            "y": 6024.075449688105, 
+            "x": 11.0, 
+            "ymin": 0, 
+            "yErr": 3.5461112465567757, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291837, 
+            "ymax": 0, 
+            "y": 6075.326411861852, 
+            "x": 12.0, 
+            "ymin": 0, 
+            "yErr": 4.982283995323879, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291839, 
+            "ymax": 0, 
+            "y": 6021.960260460673, 
+            "x": 13.0, 
+            "ymin": 0, 
+            "yErr": 4.745506314809505, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291840, 
+            "ymax": 0, 
+            "y": 6027.486012910535, 
+            "x": 14.0, 
+            "ymin": 0, 
+            "yErr": 1.5718969490079289, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291841, 
+            "ymax": 0, 
+            "y": 6022.784618720176, 
+            "x": 15.0, 
+            "ymin": 0, 
+            "yErr": 1.2933445373031751, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291842, 
+            "ymax": 0, 
+            "y": 6046.278901869159, 
+            "x": 16.0, 
+            "ymin": 0, 
+            "yErr": 14.967052223171766, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291843, 
+            "ymax": 0, 
+            "y": 6034.050291321178, 
+            "x": 17.0, 
+            "ymin": 0, 
+            "yErr": 2.0867713847722755, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291844, 
+            "ymax": 0, 
+            "y": 6120.530425824176, 
+            "x": 18.0, 
+            "ymin": 0, 
+            "yErr": 15.44551646059544, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291850, 
+            "ymax": 0, 
+            "y": 6166.892209871154, 
+            "x": 19.0, 
+            "ymin": 0, 
+            "yErr": 4.419428966669422, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291858, 
+            "ymax": 0, 
+            "y": 6692.828516667446, 
+            "x": 20.0, 
+            "ymin": 0, 
+            "yErr": 25.41450624051846, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291860, 
+            "ymax": 0, 
+            "y": 6756.9904878750085, 
+            "x": 21.0, 
+            "ymin": 0, 
+            "yErr": 17.840239242641925, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291862, 
+            "ymax": 0, 
+            "y": 5652.363231373498, 
+            "x": 22.0, 
+            "ymin": 0, 
+            "yErr": 7.625865893171906, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291863, 
+            "ymax": 0, 
+            "y": 5649.71672941674, 
+            "x": 23.0, 
+            "ymin": 0, 
+            "yErr": 4.209066175472032, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291865, 
+            "ymax": 0, 
+            "y": 5618.102760159952, 
+            "x": 24.0, 
+            "ymin": 0, 
+            "yErr": 4.562900338096282, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291867, 
+            "ymax": 0, 
+            "y": 5618.291004070289, 
+            "x": 25.0, 
+            "ymin": 0, 
+            "yErr": 2.6238704026886825, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291869, 
+            "ymax": 0, 
+            "y": 6835.576348796772, 
+            "x": 26.0, 
+            "ymin": 0, 
+            "yErr": 43.54128748449956, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291871, 
+            "ymax": 0, 
+            "y": 6924.456376535355, 
+            "x": 27.0, 
+            "ymin": 0, 
+            "yErr": 30.050366901976304, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291872, 
+            "ymax": 0, 
+            "y": 5675.156884777067, 
+            "x": 28.0, 
+            "ymin": 0, 
+            "yErr": 6.33999263073978, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291873, 
+            "ymax": 0, 
+            "y": 9518.222881635345, 
+            "x": 29.0, 
+            "ymin": 0, 
+            "yErr": 283.3820721990115, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291874, 
+            "ymax": 0, 
+            "y": 9059.108886329406, 
+            "x": 30.0, 
+            "ymin": 0, 
+            "yErr": 131.07651220536633, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291877, 
+            "ymax": 0, 
+            "y": 6365.175489372447, 
+            "x": 31.0, 
+            "ymin": 0, 
+            "yErr": 12.3098939520277, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291879, 
+            "ymax": 0, 
+            "y": 6218.427212912088, 
+            "x": 32.0, 
+            "ymin": 0, 
+            "yErr": 5.8889357976663685, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291881, 
+            "ymax": 0, 
+            "y": 6213.138564521838, 
+            "x": 33.0, 
+            "ymin": 0, 
+            "yErr": 2.729508304370858, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291882, 
+            "ymax": 0, 
+            "y": 5943.620111731843, 
+            "x": 34.0, 
+            "ymin": 0, 
+            "yErr": 68.33096735784288, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291883, 
+            "ymax": 0, 
+            "y": 6140.415341440598, 
+            "x": 35.0, 
+            "ymin": 0, 
+            "yErr": 58.64146050453853, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291912, 
+            "ymax": 0, 
+            "y": 6491.918500026005, 
+            "x": 36.0, 
+            "ymin": 0, 
+            "yErr": 41.52000742223286, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291926, 
+            "ymax": 0, 
+            "y": 6640.710611677479, 
+            "x": 37.0, 
+            "ymin": 0, 
+            "yErr": 115.80376372229985, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291927, 
+            "ymax": 0, 
+            "y": 12355.286120953935, 
+            "x": 38.0, 
+            "ymin": 0, 
+            "yErr": 206.45061906995338, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291939, 
+            "ymax": 0, 
+            "y": 6215.433975580492, 
+            "x": 39.0, 
+            "ymin": 0, 
+            "yErr": 22.9151818685098, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291949, 
+            "ymax": 0, 
+            "y": 14239.322429906542, 
+            "x": 40.0, 
+            "ymin": 0, 
+            "yErr": 2480.8268097172854, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291950, 
+            "ymax": 0, 
+            "y": 12184.917856031734, 
+            "x": 41.0, 
+            "ymin": 0, 
+            "yErr": 71.52083062143625, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 291951, 
+            "ymax": 0, 
+            "y": 12269.19788253088, 
+            "x": 42.0, 
+            "ymin": 0, 
+            "yErr": 533.8990306641792, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292078, 
+            "ymax": 0, 
+            "y": 59466.99653979239, 
+            "x": 43.0, 
+            "ymin": 0, 
+            "yErr": 4523.114045035316, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292079, 
+            "ymax": 0, 
+            "y": 56006.70336209462, 
+            "x": 44.0, 
+            "ymin": 0, 
+            "yErr": 1263.0816046608363, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292080, 
+            "ymax": 0, 
+            "y": 36886.376887366474, 
+            "x": 45.0, 
+            "ymin": 0, 
+            "yErr": 559.1170753745319, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292154, 
+            "ymax": 0, 
+            "y": 31006.661294309586, 
+            "x": 46.0, 
+            "ymin": 0, 
+            "yErr": 371.2465912436504, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292222, 
+            "ymax": 0, 
+            "y": 33474.79104477612, 
+            "x": 47.0, 
+            "ymin": 0, 
+            "yErr": 3653.768019211197, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292223, 
+            "ymax": 0, 
+            "y": 42007.091362126244, 
+            "x": 48.0, 
+            "ymin": 0, 
+            "yErr": 2878.6772066475455, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292224, 
+            "ymax": 0, 
+            "y": 47115.71, 
+            "x": 49.0, 
+            "ymin": 0, 
+            "yErr": 4902.744289585069, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292225, 
+            "ymax": 0, 
+            "y": 33963.779045643154, 
+            "x": 50.0, 
+            "ymin": 0, 
+            "yErr": 1464.7012321714255, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292230, 
+            "ymax": 0, 
+            "y": 39891.48668280872, 
+            "x": 51.0, 
+            "ymin": 0, 
+            "yErr": 4172.965925436589, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292232, 
+            "ymax": 0, 
+            "y": 41791.49197860963, 
+            "x": 52.0, 
+            "ymin": 0, 
+            "yErr": 2494.8475744323764, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292234, 
+            "ymax": 0, 
+            "y": 38910.89606718558, 
+            "x": 53.0, 
+            "ymin": 0, 
+            "yErr": 600.5389779254509, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292238, 
+            "ymax": 0, 
+            "y": 32210.153846153848, 
+            "x": 54.0, 
+            "ymin": 0, 
+            "yErr": 2511.3499701042124, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292243, 
+            "ymax": 0, 
+            "y": 68022.1052631579, 
+            "x": 55.0, 
+            "ymin": 0, 
+            "yErr": 11253.846925331456, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292244, 
+            "ymax": 0, 
+            "y": 43577.1558372953, 
+            "x": 56.0, 
+            "ymin": 0, 
+            "yErr": 1352.9496483697933, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292245, 
+            "ymax": 0, 
+            "y": 44494.58870967742, 
+            "x": 57.0, 
+            "ymin": 0, 
+            "yErr": 4707.107800816656, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292246, 
+            "ymax": 0, 
+            "y": 56250.812189054726, 
+            "x": 58.0, 
+            "ymin": 0, 
+            "yErr": 3482.818181804426, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292247, 
+            "ymax": 0, 
+            "y": 38974.69324025539, 
+            "x": 59.0, 
+            "ymin": 0, 
+            "yErr": 439.8731377953707, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292248, 
+            "ymax": 0, 
+            "y": 48763.50684931507, 
+            "x": 60.0, 
+            "ymin": 0, 
+            "yErr": 6329.757743562042, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292249, 
+            "ymax": 0, 
+            "y": 34556.490154711675, 
+            "x": 61.0, 
+            "ymin": 0, 
+            "yErr": 621.2479256151224, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292251, 
+            "ymax": 0, 
+            "y": 39030.05521329769, 
+            "x": 62.0, 
+            "ymin": 0, 
+            "yErr": 1110.2568247458762, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292253, 
+            "ymax": 0, 
+            "y": 32557.92506244796, 
+            "x": 63.0, 
+            "ymin": 0, 
+            "yErr": 1892.435090992041, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292255, 
+            "ymax": 0, 
+            "y": 38655.9303115821, 
+            "x": 64.0, 
+            "ymin": 0, 
+            "yErr": 689.4864317340586, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292256, 
+            "ymax": 0, 
+            "y": 43111.87454589489, 
+            "x": 65.0, 
+            "ymin": 0, 
+            "yErr": 1436.8471100796135, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292257, 
+            "ymax": 0, 
+            "y": 22106.610913059296, 
+            "x": 66.0, 
+            "ymin": 0, 
+            "yErr": 560.2428592296014, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292269, 
+            "ymax": 0, 
+            "y": 22671.17362105879, 
+            "x": 67.0, 
+            "ymin": 0, 
+            "yErr": 268.94809596186565, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292270, 
+            "ymax": 0, 
+            "y": 25838.223246287762, 
+            "x": 68.0, 
+            "ymin": 0, 
+            "yErr": 568.8825188157144, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292274, 
+            "ymax": 0, 
+            "y": 23939.774953959484, 
+            "x": 69.0, 
+            "ymin": 0, 
+            "yErr": 1671.8618360658475, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292276, 
+            "ymax": 0, 
+            "y": 22806.785355486863, 
+            "x": 70.0, 
+            "ymin": 0, 
+            "yErr": 1141.6686067570756, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292279, 
+            "ymax": 0, 
+            "y": 23962.779144385026, 
+            "x": 71.0, 
+            "ymin": 0, 
+            "yErr": 1409.2864956459246, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292281, 
+            "ymax": 0, 
+            "y": 23280.139737991267, 
+            "x": 72.0, 
+            "ymin": 0, 
+            "yErr": 859.3029323213214, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292282, 
+            "ymax": 0, 
+            "y": 49738.61337209302, 
+            "x": 73.0, 
+            "ymin": 0, 
+            "yErr": 4127.624707323776, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292283, 
+            "ymax": 0, 
+            "y": 26528.638132155414, 
+            "x": 74.0, 
+            "ymin": 0, 
+            "yErr": 312.04614884246007, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292284, 
+            "ymax": 0, 
+            "y": 23568.497822931786, 
+            "x": 75.0, 
+            "ymin": 0, 
+            "yErr": 1712.6163625149086, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292364, 
+            "ymax": 0, 
+            "y": 16254.8125, 
+            "x": 76.0, 
+            "ymin": 0, 
+            "yErr": 3693.026381495194, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292365, 
+            "ymax": 0, 
+            "y": 19161.292377131394, 
+            "x": 77.0, 
+            "ymin": 0, 
+            "yErr": 765.8697851483663, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292366, 
+            "ymax": 0, 
+            "y": 22429.196537678206, 
+            "x": 78.0, 
+            "ymin": 0, 
+            "yErr": 1253.5821700156425, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292486, 
+            "ymax": 0, 
+            "y": 10066.70588235294, 
+            "x": 79.0, 
+            "ymin": 0, 
+            "yErr": 1479.9608030732354, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292490, 
+            "ymax": 0, 
+            "y": 10788.89067739772, 
+            "x": 80.0, 
+            "ymin": 0, 
+            "yErr": 644.6879137651238, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292497, 
+            "ymax": 0, 
+            "y": 9972.15449458615, 
+            "x": 81.0, 
+            "ymin": 0, 
+            "yErr": 282.20701537088246, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292530, 
+            "ymax": 0, 
+            "y": 7212.965752796626, 
+            "x": 82.0, 
+            "ymin": 0, 
+            "yErr": 116.76359012173126, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292538, 
+            "ymax": 0, 
+            "y": 6673.5293286219085, 
+            "x": 83.0, 
+            "ymin": 0, 
+            "yErr": 273.29531802098876, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292540, 
+            "ymax": 0, 
+            "y": 42175.198140200286, 
+            "x": 84.0, 
+            "ymin": 0, 
+            "yErr": 2260.345670714649, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292545, 
+            "ymax": 0, 
+            "y": 44453.24393471548, 
+            "x": 85.0, 
+            "ymin": 0, 
+            "yErr": 1870.3683710030934, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 292546, 
+            "ymax": 0, 
+            "y": 6287.693829787234, 
+            "x": 86.0, 
+            "ymin": 0, 
+            "yErr": 60.43474175418231, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 293103, 
+            "ymax": 0, 
+            "y": 53914.56167400881, 
+            "x": 87.0, 
+            "ymin": 0, 
+            "yErr": 2313.294069319683, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 293104, 
+            "ymax": 0, 
+            "y": 50219.333333333336, 
+            "x": 88.0, 
+            "ymin": 0, 
+            "yErr": 10442.940077143343, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 293105, 
+            "ymax": 0, 
+            "y": 39547.35045582048, 
+            "x": 89.0, 
+            "ymin": 0, 
+            "yErr": 1460.004478991384, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 293492, 
+            "ymax": 0, 
+            "y": 48243.64374748693, 
+            "x": 90.0, 
+            "ymin": 0, 
+            "yErr": 554.6085543807045, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 293581, 
+            "ymax": 0, 
+            "y": 15919.275358399827, 
+            "x": 91.0, 
+            "ymin": 0, 
+            "yErr": 5.035522395615894, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 293688, 
+            "ymax": 0, 
+            "y": 52900.76753246753, 
+            "x": 92.0, 
+            "ymin": 0, 
+            "yErr": 2967.3554998775785, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 293843, 
+            "ymax": 0, 
+            "y": 35270.079545454544, 
+            "x": 93.0, 
+            "ymin": 0, 
+            "yErr": 5804.314923303141, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 293866, 
+            "ymax": 0, 
+            "y": 55198.765748031496, 
+            "x": 94.0, 
+            "ymin": 0, 
+            "yErr": 3245.7448303231363, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 293879, 
+            "ymax": 0, 
+            "y": 6047.985093561687, 
+            "x": 95.0, 
+            "ymin": 0, 
+            "yErr": 30.12412567231385, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 293963, 
+            "ymax": 0, 
+            "y": 41281.78333333333, 
+            "x": 96.0, 
+            "ymin": 0, 
+            "yErr": 1835.4471183016385, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 293998, 
+            "ymax": 0, 
+            "y": 27928.531344183244, 
+            "x": 97.0, 
+            "ymin": 0, 
+            "yErr": 1160.9568296321763, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 294011, 
+            "ymax": 0, 
+            "y": 9761.957500876271, 
+            "x": 98.0, 
+            "ymin": 0, 
+            "yErr": 289.3656031315038, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 294058, 
+            "ymax": 0, 
+            "y": 35636.42675159236, 
+            "x": 99.0, 
+            "ymin": 0, 
+            "yErr": 2935.6678478037184, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 294307, 
+            "ymax": 0, 
+            "y": 38483.51402565813, 
+            "x": 100.0, 
+            "ymin": 0, 
+            "yErr": 388.3427942963638, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 294482, 
+            "ymax": 0, 
+            "y": 7314.68069815195, 
+            "x": 101.0, 
+            "ymin": 0, 
+            "yErr": 510.98420755386394, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 294485, 
+            "ymax": 0, 
+            "y": 6406.1223222775325, 
+            "x": 102.0, 
+            "ymin": 0, 
+            "yErr": 58.56488327811878, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 294487, 
+            "ymax": 0, 
+            "y": 9846.101776412448, 
+            "x": 103.0, 
+            "ymin": 0, 
+            "yErr": 363.97856116813824, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 294490, 
+            "ymax": 0, 
+            "y": 9120.921428571428, 
+            "x": 104.0, 
+            "ymin": 0, 
+            "yErr": 200.34462004596742, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }
+    ]
+}

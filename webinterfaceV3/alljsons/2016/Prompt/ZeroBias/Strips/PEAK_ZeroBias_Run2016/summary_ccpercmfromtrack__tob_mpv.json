@@ -1,0 +1,31 @@
+{
+    "summary_ccpercmfromtrack__tob_mpv": [
+        {
+            "run": 272760, 
+            "ymax": 4000.0, 
+            "y": 3139.643884432082, 
+            "x": 1.0, 
+            "ymin": 2950.0, 
+            "yErr": 6.2752300582938645, 
+            "yTitle": "cluster charge\tper cm (from track)"
+        }, 
+        {
+            "run": 272761, 
+            "ymax": 4000.0, 
+            "y": 3128.105240457539, 
+            "x": 2.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.5796546710653003, 
+            "yTitle": "cluster charge\tper cm (from track)"
+        }, 
+        {
+            "run": 272762, 
+            "ymax": 4000.0, 
+            "y": 3132.5145016713614, 
+            "x": 3.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.205037613988117, 
+            "yTitle": "cluster charge\tper cm (from track)"
+        }
+    ]
+}

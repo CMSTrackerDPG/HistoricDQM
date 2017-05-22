@@ -1,0 +1,58 @@
+{
+    "HitResiduals_TOB_layer4_rms": [
+        {
+            "run": 284512, 
+            "ymax": 0.1, 
+            "y": 0.008265788674705154, 
+            "x": 1.0, 
+            "ymin": -0.05, 
+            "yErr": 0.001104562473293676, 
+            "yTitle": "HitResiduals TOB Layer 4 RMS"
+        }, 
+        {
+            "run": 284627, 
+            "ymax": 0.1, 
+            "y": 0.004692471366682207, 
+            "x": 2.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0008567241393263136, 
+            "yTitle": "HitResiduals TOB Layer 4 RMS"
+        }, 
+        {
+            "run": 284629, 
+            "ymax": 0.1, 
+            "y": 0.006167423932047714, 
+            "x": 3.0, 
+            "ymin": -0.05, 
+            "yErr": 0.000929774141166392, 
+            "yTitle": "HitResiduals TOB Layer 4 RMS"
+        }, 
+        {
+            "run": 284681, 
+            "ymax": 0.1, 
+            "y": 0.008110315621290921, 
+            "x": 4.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0017291251003293219, 
+            "yTitle": "HitResiduals TOB Layer 4 RMS"
+        }, 
+        {
+            "run": 284690, 
+            "ymax": 0.1, 
+            "y": 0.006028194656063161, 
+            "x": 5.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00123050008146059, 
+            "yTitle": "HitResiduals TOB Layer 4 RMS"
+        }, 
+        {
+            "run": 285238, 
+            "ymax": 0.1, 
+            "y": 0.00846512864366033, 
+            "x": 6.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0013384543600149258, 
+            "yTitle": "HitResiduals TOB Layer 4 RMS"
+        }
+    ]
+}

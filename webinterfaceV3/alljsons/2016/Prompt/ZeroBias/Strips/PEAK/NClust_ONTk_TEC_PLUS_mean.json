@@ -1,0 +1,31 @@
+{
+    "NClust_ONTk_TEC_PLUS_mean": [
+        {
+            "run": 272760, 
+            "ymax": 0, 
+            "y": 976.2042542286007, 
+            "x": 1.0, 
+            "ymin": 0, 
+            "yErr": 9.178113505887183, 
+            "yTitle": "Avg. N_{Clusters} (ON-Track)"
+        }, 
+        {
+            "run": 272761, 
+            "ymax": 0, 
+            "y": 1002.6556867619639, 
+            "x": 2.0, 
+            "ymin": 0, 
+            "yErr": 2.678287074332944, 
+            "yTitle": "Avg. N_{Clusters} (ON-Track)"
+        }, 
+        {
+            "run": 272762, 
+            "ymax": 0, 
+            "y": 999.882896569186, 
+            "x": 3.0, 
+            "ymin": 0, 
+            "yErr": 2.354971349346464, 
+            "yTitle": "Avg. N_{Clusters} (ON-Track)"
+        }
+    ]
+}

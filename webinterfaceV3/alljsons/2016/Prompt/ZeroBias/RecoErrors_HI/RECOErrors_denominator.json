@@ -1,0 +1,40 @@
+{
+    "RECOErrors_denominator": [
+        {
+            "run": 285090, 
+            "ymax": 0, 
+            "y": 587902.0, 
+            "x": 1.0, 
+            "ymin": 0, 
+            "yErr": 0.0, 
+            "yTitle": "metrics.basic.Count()"
+        }, 
+        {
+            "run": 285216, 
+            "ymax": 0, 
+            "y": 5265930.0, 
+            "x": 2.0, 
+            "ymin": 0, 
+            "yErr": 0.0, 
+            "yTitle": "metrics.basic.Count()"
+        }, 
+        {
+            "run": 285244, 
+            "ymax": 0, 
+            "y": 6915417.0, 
+            "x": 3.0, 
+            "ymin": 0, 
+            "yErr": 0.0, 
+            "yTitle": "metrics.basic.Count()"
+        }, 
+        {
+            "run": 285368, 
+            "ymax": 0, 
+            "y": 799283.0, 
+            "x": 4.0, 
+            "ymin": 0, 
+            "yErr": 0.0, 
+            "yTitle": "metrics.basic.Count()"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "NClust_OFFTk_TEC_PLUS_mean": [
+        {
+            "run": 272760, 
+            "ymax": 0, 
+            "y": 5316.483333333334, 
+            "x": 1.0, 
+            "ymin": 0, 
+            "yErr": 52.71313923776905, 
+            "yTitle": "Avg. N_{Clusters} (OFF-Track)"
+        }, 
+        {
+            "run": 272761, 
+            "ymax": 0, 
+            "y": 8030.864161490683, 
+            "x": 2.0, 
+            "ymin": 0, 
+            "yErr": 18.498294544232465, 
+            "yTitle": "Avg. N_{Clusters} (OFF-Track)"
+        }, 
+        {
+            "run": 272762, 
+            "ymax": 0, 
+            "y": 7726.836015293475, 
+            "x": 3.0, 
+            "ymin": 0, 
+            "yErr": 15.020494905757442, 
+            "yTitle": "Avg. N_{Clusters} (OFF-Track)"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "NClust_ONTk_TOB_count": [
+        {
+            "run": 272760, 
+            "ymax": 0, 
+            "y": 2490012.0, 
+            "x": 1.0, 
+            "ymin": 0, 
+            "yErr": 0.0, 
+            "yTitle": "N_{Clusters} (ON-Track)"
+        }, 
+        {
+            "run": 272761, 
+            "ymax": 0, 
+            "y": 11791410.0, 
+            "x": 2.0, 
+            "ymin": 0, 
+            "yErr": 0.0, 
+            "yTitle": "N_{Clusters} (ON-Track)"
+        }, 
+        {
+            "run": 272762, 
+            "ymax": 0, 
+            "y": 17048733.0, 
+            "x": 3.0, 
+            "ymin": 0, 
+            "yErr": 0.0, 
+            "yTitle": "N_{Clusters} (ON-Track)"
+        }
+    ]
+}

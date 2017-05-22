@@ -1,0 +1,40 @@
+{
+    "clustCharge_ONTk_Barrel_mpv": [
+        {
+            "run": 285090, 
+            "ymax": 25.0, 
+            "y": 18.003882636335117, 
+            "x": 1.0, 
+            "ymin": 15.0, 
+            "yErr": 0.0334918419481511, 
+            "yTitle": "BPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 285216, 
+            "ymax": 25.0, 
+            "y": 18.177108050901705, 
+            "x": 2.0, 
+            "ymin": 15.0, 
+            "yErr": 0.006659158483572501, 
+            "yTitle": "BPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 285244, 
+            "ymax": 25.0, 
+            "y": 18.141402921833528, 
+            "x": 3.0, 
+            "ymin": 15.0, 
+            "yErr": 0.006008076903908931, 
+            "yTitle": "BPIX Cluster Charge (mpv)"
+        }, 
+        {
+            "run": 285368, 
+            "ymax": 25.0, 
+            "y": 18.31052607660844, 
+            "x": 4.0, 
+            "ymin": 15.0, 
+            "yErr": 0.010942699192700198, 
+            "yTitle": "BPIX Cluster Charge (mpv)"
+        }
+    ]
+}

@@ -1,0 +1,5350 @@
+{
+    "summary_ccpercmfromtrack__tib_mpv": [
+        {
+            "run": 271037, 
+            "ymax": 3550.0, 
+            "y": 3324.5175433071636, 
+            "x": 1.0, 
+            "ymin": 2950.0, 
+            "yErr": 90.58249071702147, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271044, 
+            "ymax": 3550.0, 
+            "y": 3433.600470084549, 
+            "x": 2.0, 
+            "ymin": 2950.0, 
+            "yErr": 57.606098459336735, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271045, 
+            "ymax": 3550.0, 
+            "y": 3353.642511785386, 
+            "x": 3.0, 
+            "ymin": 2950.0, 
+            "yErr": 9.599761466551541, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271046, 
+            "ymax": 3550.0, 
+            "y": 3298.6977111768974, 
+            "x": 4.0, 
+            "ymin": 2950.0, 
+            "yErr": 89.96326209436305, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271047, 
+            "ymax": 3550.0, 
+            "y": 3374.604474197284, 
+            "x": 5.0, 
+            "ymin": 2950.0, 
+            "yErr": 10.778268123436414, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271048, 
+            "ymax": 3550.0, 
+            "y": 3354.3150447639428, 
+            "x": 6.0, 
+            "ymin": 2950.0, 
+            "yErr": 5.821264353084519, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271049, 
+            "ymax": 3550.0, 
+            "y": 3365.361883356928, 
+            "x": 7.0, 
+            "ymin": 2950.0, 
+            "yErr": 9.409795730456313, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271052, 
+            "ymax": 3550.0, 
+            "y": 3393.2771857329863, 
+            "x": 8.0, 
+            "ymin": 2950.0, 
+            "yErr": 24.579245069012483, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271056, 
+            "ymax": 3550.0, 
+            "y": 3243.98274845433, 
+            "x": 9.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.8182671412346004, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271304, 
+            "ymax": 3550.0, 
+            "y": 3336.3170677475273, 
+            "x": 10.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.2818420356179177, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271305, 
+            "ymax": 3550.0, 
+            "y": 3337.7394838085584, 
+            "x": 11.0, 
+            "ymin": 2950.0, 
+            "yErr": 7.191582986580588, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271306, 
+            "ymax": 3550.0, 
+            "y": 3330.0364012999967, 
+            "x": 12.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.0276754885047363, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271307, 
+            "ymax": 3550.0, 
+            "y": 3332.8021889371626, 
+            "x": 13.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.8891293410239847, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271310, 
+            "ymax": 3550.0, 
+            "y": 3353.866039613515, 
+            "x": 14.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.649610799934817, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271312, 
+            "ymax": 3550.0, 
+            "y": 3215.2964022418296, 
+            "x": 15.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.3153984301503754, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271313, 
+            "ymax": 3550.0, 
+            "y": 3013.9374264208623, 
+            "x": 16.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.3173936097423375, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271314, 
+            "ymax": 3550.0, 
+            "y": 3012.831194984401, 
+            "x": 17.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.5554230881597337, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271317, 
+            "ymax": 3550.0, 
+            "y": 3015.9088209415954, 
+            "x": 18.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.3087117128310968, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271318, 
+            "ymax": 3550.0, 
+            "y": 3019.121828043612, 
+            "x": 19.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.4145868279251572, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271319, 
+            "ymax": 3550.0, 
+            "y": 3019.668054718827, 
+            "x": 20.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.3652503536841438, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271321, 
+            "ymax": 3550.0, 
+            "y": 3021.8224298658547, 
+            "x": 21.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.2433360821907349, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271322, 
+            "ymax": 3550.0, 
+            "y": 3020.736452019704, 
+            "x": 22.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.4048876483336408, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271323, 
+            "ymax": 3550.0, 
+            "y": 3018.4215690479236, 
+            "x": 23.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.2976827639279727, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271324, 
+            "ymax": 3550.0, 
+            "y": 3010.627941263911, 
+            "x": 24.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.444343219080298, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271327, 
+            "ymax": 3550.0, 
+            "y": 3002.5332070814816, 
+            "x": 25.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.5399067631297363, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271328, 
+            "ymax": 3550.0, 
+            "y": 3000.5621664125333, 
+            "x": 26.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.5964384488757946, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271329, 
+            "ymax": 3550.0, 
+            "y": 3006.483634929793, 
+            "x": 27.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.5255353662243714, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271330, 
+            "ymax": 3550.0, 
+            "y": 3003.346646476295, 
+            "x": 28.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.5833268500738544, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271331, 
+            "ymax": 3550.0, 
+            "y": 2997.931608000786, 
+            "x": 29.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.5938287636050679, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271332, 
+            "ymax": 3550.0, 
+            "y": 3002.740393511233, 
+            "x": 30.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.574952254849522, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271336, 
+            "ymax": 3550.0, 
+            "y": 3337.0593749480754, 
+            "x": 31.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.6877333678163039, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271337, 
+            "ymax": 3550.0, 
+            "y": 3346.455679229294, 
+            "x": 32.0, 
+            "ymin": 2950.0, 
+            "yErr": 6.813556798028269, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271338, 
+            "ymax": 3550.0, 
+            "y": 3347.5304514866893, 
+            "x": 33.0, 
+            "ymin": 2950.0, 
+            "yErr": 8.420896159988889, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271342, 
+            "ymax": 3550.0, 
+            "y": 3338.209093063836, 
+            "x": 34.0, 
+            "ymin": 2950.0, 
+            "yErr": 3.319719283127177, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271645, 
+            "ymax": 3550.0, 
+            "y": 3340.899064012711, 
+            "x": 35.0, 
+            "ymin": 2950.0, 
+            "yErr": 9.913364607657307, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271646, 
+            "ymax": 3550.0, 
+            "y": 3334.9543883920014, 
+            "x": 36.0, 
+            "ymin": 2950.0, 
+            "yErr": 3.5018497293151354, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271648, 
+            "ymax": 3550.0, 
+            "y": 3312.9044443897483, 
+            "x": 37.0, 
+            "ymin": 2950.0, 
+            "yErr": 110.23661030734995, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 271649, 
+            "ymax": 3550.0, 
+            "y": 3216.0354772871674, 
+            "x": 38.0, 
+            "ymin": 2950.0, 
+            "yErr": 52.89941751216348, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 272007, 
+            "ymax": 3550.0, 
+            "y": 3190.907713996206, 
+            "x": 39.0, 
+            "ymin": 2950.0, 
+            "yErr": 71.01178285490542, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 272008, 
+            "ymax": 3550.0, 
+            "y": 3309.4912859890933, 
+            "x": 40.0, 
+            "ymin": 2950.0, 
+            "yErr": 5.263424449308644, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 272010, 
+            "ymax": 3550.0, 
+            "y": 3307.7387903744293, 
+            "x": 41.0, 
+            "ymin": 2950.0, 
+            "yErr": 6.386260200661369, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 272011, 
+            "ymax": 3550.0, 
+            "y": 3303.126375698902, 
+            "x": 42.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.1293542765737645, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 272012, 
+            "ymax": 3550.0, 
+            "y": 3309.672071622711, 
+            "x": 43.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.2610816046494717, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 272014, 
+            "ymax": 3550.0, 
+            "y": 3313.2717446655365, 
+            "x": 44.0, 
+            "ymin": 2950.0, 
+            "yErr": 3.2479559205237005, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 272016, 
+            "ymax": 3550.0, 
+            "y": 3317.360291023718, 
+            "x": 45.0, 
+            "ymin": 2950.0, 
+            "yErr": 5.419592415446794, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 272017, 
+            "ymax": 3550.0, 
+            "y": 3307.5189638864845, 
+            "x": 46.0, 
+            "ymin": 2950.0, 
+            "yErr": 21.928808565769746, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 272019, 
+            "ymax": 3550.0, 
+            "y": 3315.936845577267, 
+            "x": 47.0, 
+            "ymin": 2950.0, 
+            "yErr": 90.15742152540537, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 272021, 
+            "ymax": 3550.0, 
+            "y": 3309.1638330294472, 
+            "x": 48.0, 
+            "ymin": 2950.0, 
+            "yErr": 3.132975879629817, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 272022, 
+            "ymax": 3550.0, 
+            "y": 3314.2165901630774, 
+            "x": 49.0, 
+            "ymin": 2950.0, 
+            "yErr": 3.9455829378909657, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 272774, 
+            "ymax": 3550.0, 
+            "y": 3282.1033731145567, 
+            "x": 50.0, 
+            "ymin": 2950.0, 
+            "yErr": 16.51416636352715, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 272775, 
+            "ymax": 3550.0, 
+            "y": 3316.430666997795, 
+            "x": 51.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.802915672206014, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 272776, 
+            "ymax": 3550.0, 
+            "y": 3313.636192869717, 
+            "x": 52.0, 
+            "ymin": 2950.0, 
+            "yErr": 3.810951168601955, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 272782, 
+            "ymax": 3550.0, 
+            "y": 3307.887138278405, 
+            "x": 53.0, 
+            "ymin": 2950.0, 
+            "yErr": 6.745138429889325, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 272783, 
+            "ymax": 3550.0, 
+            "y": 3317.5252406759255, 
+            "x": 54.0, 
+            "ymin": 2950.0, 
+            "yErr": 3.1648280687528536, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 272784, 
+            "ymax": 3550.0, 
+            "y": 3317.8005926019773, 
+            "x": 55.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.3126935156034767, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 272785, 
+            "ymax": 3550.0, 
+            "y": 3317.7867686605364, 
+            "x": 56.0, 
+            "ymin": 2950.0, 
+            "yErr": 3.373400083229807, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 272786, 
+            "ymax": 3550.0, 
+            "y": 3309.13536792354, 
+            "x": 57.0, 
+            "ymin": 2950.0, 
+            "yErr": 3.5430889752812567, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 272798, 
+            "ymax": 3550.0, 
+            "y": 3310.144474328076, 
+            "x": 58.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.5713049702344635, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 272811, 
+            "ymax": 3550.0, 
+            "y": 3311.3039620664554, 
+            "x": 59.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.63588562501271, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 272812, 
+            "ymax": 3550.0, 
+            "y": 3313.1335628669567, 
+            "x": 60.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.2749893152656195, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 272814, 
+            "ymax": 3550.0, 
+            "y": 3307.9027776133657, 
+            "x": 61.0, 
+            "ymin": 2950.0, 
+            "yErr": 16.22799552106112, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 272815, 
+            "ymax": 3550.0, 
+            "y": 3319.6264770846997, 
+            "x": 62.0, 
+            "ymin": 2950.0, 
+            "yErr": 7.029373229363998, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 272816, 
+            "ymax": 3550.0, 
+            "y": 3313.1507070570065, 
+            "x": 63.0, 
+            "ymin": 2950.0, 
+            "yErr": 5.028532455724024, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 272818, 
+            "ymax": 3550.0, 
+            "y": 3312.8494375692044, 
+            "x": 64.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.0566184117398254, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 272827, 
+            "ymax": 3550.0, 
+            "y": 3322.8896404307347, 
+            "x": 65.0, 
+            "ymin": 2950.0, 
+            "yErr": 22.174366253156688, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 272828, 
+            "ymax": 3550.0, 
+            "y": 3309.041010356351, 
+            "x": 66.0, 
+            "ymin": 2950.0, 
+            "yErr": 5.54472817324172, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 272930, 
+            "ymax": 3550.0, 
+            "y": 3312.3239797207584, 
+            "x": 67.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.7698606342486225, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 272936, 
+            "ymax": 3550.0, 
+            "y": 3308.521181927706, 
+            "x": 68.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.1508719248100074, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273013, 
+            "ymax": 3550.0, 
+            "y": 3309.2818877396385, 
+            "x": 69.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.2362938223538078, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273017, 
+            "ymax": 3550.0, 
+            "y": 3312.1674960141536, 
+            "x": 70.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.7555045047331831, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273150, 
+            "ymax": 3550.0, 
+            "y": 3279.2335005471605, 
+            "x": 71.0, 
+            "ymin": 2950.0, 
+            "yErr": 6.6505406723590745, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273158, 
+            "ymax": 3550.0, 
+            "y": 3287.510399304735, 
+            "x": 72.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.5825138908972486, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273291, 
+            "ymax": 3550.0, 
+            "y": 3287.776079521526, 
+            "x": 73.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.7496914683949538, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273292, 
+            "ymax": 3550.0, 
+            "y": 3510.666050084773, 
+            "x": 74.0, 
+            "ymin": 2950.0, 
+            "yErr": 156.82459113914825, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273295, 
+            "ymax": 3550.0, 
+            "y": 3104.1585777163555, 
+            "x": 75.0, 
+            "ymin": 2950.0, 
+            "yErr": 55.46593876692096, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273299, 
+            "ymax": 3550.0, 
+            "y": 3288.909615444674, 
+            "x": 76.0, 
+            "ymin": 2950.0, 
+            "yErr": 3.281635448771562, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273301, 
+            "ymax": 3550.0, 
+            "y": 3289.8429811707206, 
+            "x": 77.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.9062012880928926, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273302, 
+            "ymax": 3550.0, 
+            "y": 3292.2237966593543, 
+            "x": 78.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.084083255993155, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273402, 
+            "ymax": 3550.0, 
+            "y": 3295.549128191958, 
+            "x": 79.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.6594457312381177, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273403, 
+            "ymax": 3550.0, 
+            "y": 3295.731435046518, 
+            "x": 80.0, 
+            "ymin": 2950.0, 
+            "yErr": 3.1330410913538005, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273404, 
+            "ymax": 3550.0, 
+            "y": 3297.2734451433635, 
+            "x": 81.0, 
+            "ymin": 2950.0, 
+            "yErr": 5.423381625777173, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273405, 
+            "ymax": 3550.0, 
+            "y": 3303.4187868501153, 
+            "x": 82.0, 
+            "ymin": 2950.0, 
+            "yErr": 4.780795353320015, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273406, 
+            "ymax": 3550.0, 
+            "y": 3297.041144704281, 
+            "x": 83.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.197204184104267, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273408, 
+            "ymax": 3550.0, 
+            "y": 3318.1172194900228, 
+            "x": 84.0, 
+            "ymin": 2950.0, 
+            "yErr": 10.651861023035586, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273409, 
+            "ymax": 3550.0, 
+            "y": 3298.7611386719086, 
+            "x": 85.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.3765842648430116, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273410, 
+            "ymax": 3550.0, 
+            "y": 3301.249790789929, 
+            "x": 86.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.5774740664387217, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273411, 
+            "ymax": 3550.0, 
+            "y": 3295.9224830804287, 
+            "x": 87.0, 
+            "ymin": 2950.0, 
+            "yErr": 4.769879614282019, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273425, 
+            "ymax": 3550.0, 
+            "y": 3283.1199436400934, 
+            "x": 88.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.5589725755213164, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273426, 
+            "ymax": 3550.0, 
+            "y": 3291.517810888825, 
+            "x": 89.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.8753190944319766, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273446, 
+            "ymax": 3550.0, 
+            "y": 3256.312911369777, 
+            "x": 90.0, 
+            "ymin": 2950.0, 
+            "yErr": 3.0161814564063207, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273447, 
+            "ymax": 3550.0, 
+            "y": 3256.7163620159345, 
+            "x": 91.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.8614394162624881, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273448, 
+            "ymax": 3550.0, 
+            "y": 3263.2169195224988, 
+            "x": 92.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.9433405059904576, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273449, 
+            "ymax": 3550.0, 
+            "y": 3269.3823384650473, 
+            "x": 93.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.1626477739841306, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273450, 
+            "ymax": 3550.0, 
+            "y": 3274.542585979757, 
+            "x": 94.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.9542989816941692, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273492, 
+            "ymax": 3550.0, 
+            "y": 3278.397118361679, 
+            "x": 95.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.3077957067835486, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273493, 
+            "ymax": 3550.0, 
+            "y": 3281.2343117449745, 
+            "x": 96.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.4287131712905736, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273494, 
+            "ymax": 3550.0, 
+            "y": 3284.324869318845, 
+            "x": 97.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.5986796890197954, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273502, 
+            "ymax": 3550.0, 
+            "y": 3277.5701106688025, 
+            "x": 98.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.6702200552595132, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273503, 
+            "ymax": 3550.0, 
+            "y": 3282.539334678898, 
+            "x": 99.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.9273900048674645, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273522, 
+            "ymax": 3550.0, 
+            "y": 3379.342382935873, 
+            "x": 100.0, 
+            "ymin": 2950.0, 
+            "yErr": 48.91231934757566, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273523, 
+            "ymax": 3550.0, 
+            "y": 3335.7130134728986, 
+            "x": 101.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.2116424423182135, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273526, 
+            "ymax": 3550.0, 
+            "y": 3340.688385152762, 
+            "x": 102.0, 
+            "ymin": 2950.0, 
+            "yErr": 9.395288998852592, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273531, 
+            "ymax": 3550.0, 
+            "y": 3297.757370088112, 
+            "x": 103.0, 
+            "ymin": 2950.0, 
+            "yErr": 15.912518429758375, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273537, 
+            "ymax": 3550.0, 
+            "y": 3333.6179892359874, 
+            "x": 104.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.6347819549249112, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273554, 
+            "ymax": 3550.0, 
+            "y": 3236.946245990469, 
+            "x": 105.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.8364791628569588, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273555, 
+            "ymax": 3550.0, 
+            "y": 3241.9460600665734, 
+            "x": 106.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.2553457592631714, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273588, 
+            "ymax": 3550.0, 
+            "y": 3284.5879122912593, 
+            "x": 107.0, 
+            "ymin": 2950.0, 
+            "yErr": 36.683160671825426, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273589, 
+            "ymax": 3550.0, 
+            "y": 3336.4465322452356, 
+            "x": 108.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.2130390733939354, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273590, 
+            "ymax": 3550.0, 
+            "y": 3334.515530134514, 
+            "x": 109.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.0095978755174002, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273591, 
+            "ymax": 3550.0, 
+            "y": 3324.200893458165, 
+            "x": 110.0, 
+            "ymin": 2950.0, 
+            "yErr": 12.923293629680254, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273592, 
+            "ymax": 3550.0, 
+            "y": 3333.2600461607403, 
+            "x": 111.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.0507530091322665, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273593, 
+            "ymax": 3550.0, 
+            "y": 3291.075637766717, 
+            "x": 112.0, 
+            "ymin": 2950.0, 
+            "yErr": 16.612724104330375, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273725, 
+            "ymax": 3550.0, 
+            "y": 3253.3391607967974, 
+            "x": 113.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.38668985439133996, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273728, 
+            "ymax": 3550.0, 
+            "y": 3276.8170641636007, 
+            "x": 114.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.3154659204492685, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 273730, 
+            "ymax": 3550.0, 
+            "y": 3287.7675963298707, 
+            "x": 115.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.4971981319480908, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274094, 
+            "ymax": 3550.0, 
+            "y": 3256.2321373119166, 
+            "x": 116.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.285901403530333, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274100, 
+            "ymax": 3550.0, 
+            "y": 3291.5157408452574, 
+            "x": 117.0, 
+            "ymin": 2950.0, 
+            "yErr": 8.857249810905383, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274102, 
+            "ymax": 3550.0, 
+            "y": 3315.858908746629, 
+            "x": 118.0, 
+            "ymin": 2950.0, 
+            "yErr": 4.66246065161121, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274103, 
+            "ymax": 3550.0, 
+            "y": 3316.991401381612, 
+            "x": 119.0, 
+            "ymin": 2950.0, 
+            "yErr": 6.1274329821669555, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274104, 
+            "ymax": 3550.0, 
+            "y": 3320.101839399297, 
+            "x": 120.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.28160560998689343, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274105, 
+            "ymax": 3550.0, 
+            "y": 3310.9905974429635, 
+            "x": 121.0, 
+            "ymin": 2950.0, 
+            "yErr": 4.274196991480013, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274106, 
+            "ymax": 3550.0, 
+            "y": 3318.585492021459, 
+            "x": 122.0, 
+            "ymin": 2950.0, 
+            "yErr": 4.843670243143199, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274107, 
+            "ymax": 3550.0, 
+            "y": 3325.098620356718, 
+            "x": 123.0, 
+            "ymin": 2950.0, 
+            "yErr": 5.704005998931882, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274108, 
+            "ymax": 3550.0, 
+            "y": 3309.9687980904346, 
+            "x": 124.0, 
+            "ymin": 2950.0, 
+            "yErr": 5.219915076668582, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274146, 
+            "ymax": 3550.0, 
+            "y": 3212.363183363496, 
+            "x": 125.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.8168524977440954, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274157, 
+            "ymax": 3550.0, 
+            "y": 3192.6228194477085, 
+            "x": 126.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.6508924107836427, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274159, 
+            "ymax": 3550.0, 
+            "y": 3199.06522404003, 
+            "x": 127.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.2470478964978855, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274160, 
+            "ymax": 3550.0, 
+            "y": 3202.0533685285627, 
+            "x": 128.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.9952891726424046, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274161, 
+            "ymax": 3550.0, 
+            "y": 3209.2221495395, 
+            "x": 129.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.669177823398467, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274172, 
+            "ymax": 3550.0, 
+            "y": 3171.4380792760094, 
+            "x": 130.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.815435007016914, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274198, 
+            "ymax": 3550.0, 
+            "y": 3163.6795447588192, 
+            "x": 131.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.2943191539657746, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274199, 
+            "ymax": 3550.0, 
+            "y": 3175.963934159076, 
+            "x": 132.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.5758801779497377, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274200, 
+            "ymax": 3550.0, 
+            "y": 3192.317586828216, 
+            "x": 133.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.6283054624204524, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274240, 
+            "ymax": 3550.0, 
+            "y": 3150.358365861294, 
+            "x": 134.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.3591568870217363, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274241, 
+            "ymax": 3550.0, 
+            "y": 3168.2396814373624, 
+            "x": 135.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.39929184400906703, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274243, 
+            "ymax": 3550.0, 
+            "y": 3201.0444963091486, 
+            "x": 136.0, 
+            "ymin": 2950.0, 
+            "yErr": 16.95425831021534, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274244, 
+            "ymax": 3550.0, 
+            "y": 3188.191345563651, 
+            "x": 137.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.6454677703281969, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274250, 
+            "ymax": 3550.0, 
+            "y": 3135.2846344902864, 
+            "x": 138.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.41086022212078166, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274251, 
+            "ymax": 3550.0, 
+            "y": 3158.9097613775775, 
+            "x": 139.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.5817476676632275, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274283, 
+            "ymax": 3550.0, 
+            "y": 3117.473607375077, 
+            "x": 140.0, 
+            "ymin": 2950.0, 
+            "yErr": 7.083299527484525, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274284, 
+            "ymax": 3550.0, 
+            "y": 3126.134389161955, 
+            "x": 141.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.7790502955983275, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274285, 
+            "ymax": 3550.0, 
+            "y": 3122.4309453708056, 
+            "x": 142.0, 
+            "ymin": 2950.0, 
+            "yErr": 19.884517418960776, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274286, 
+            "ymax": 3550.0, 
+            "y": 3133.175034133862, 
+            "x": 143.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.9445246103058855, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274314, 
+            "ymax": 3550.0, 
+            "y": 3094.98083713333, 
+            "x": 144.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.1545556900644613, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274315, 
+            "ymax": 3550.0, 
+            "y": 3103.696283769778, 
+            "x": 145.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.5247976738003806, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274316, 
+            "ymax": 3550.0, 
+            "y": 3129.368562752371, 
+            "x": 146.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.34956141587642564, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274317, 
+            "ymax": 3550.0, 
+            "y": 3151.0367024311095, 
+            "x": 147.0, 
+            "ymin": 2950.0, 
+            "yErr": 8.294008820427534, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274318, 
+            "ymax": 3550.0, 
+            "y": 3206.9602022371128, 
+            "x": 148.0, 
+            "ymin": 2950.0, 
+            "yErr": 83.19462246397175, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274319, 
+            "ymax": 3550.0, 
+            "y": 3146.7863172438083, 
+            "x": 149.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.8204519748259176, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274335, 
+            "ymax": 3550.0, 
+            "y": 3109.646581335969, 
+            "x": 150.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.31153078146314733, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274336, 
+            "ymax": 3550.0, 
+            "y": 3135.446309455557, 
+            "x": 151.0, 
+            "ymin": 2950.0, 
+            "yErr": 3.296117944594897, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274337, 
+            "ymax": 3550.0, 
+            "y": 3129.6006201118144, 
+            "x": 152.0, 
+            "ymin": 2950.0, 
+            "yErr": 3.058418196089588, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274338, 
+            "ymax": 3550.0, 
+            "y": 3135.351722977843, 
+            "x": 153.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.3997891913186805, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274339, 
+            "ymax": 3550.0, 
+            "y": 3148.503362239569, 
+            "x": 154.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.2162089981321937, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274344, 
+            "ymax": 3550.0, 
+            "y": 3160.0065240185995, 
+            "x": 155.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.48689641946021117, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274345, 
+            "ymax": 3550.0, 
+            "y": 3168.8229001035415, 
+            "x": 156.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.9871082070549315, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274382, 
+            "ymax": 3550.0, 
+            "y": 3106.4065407828775, 
+            "x": 157.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.3701189722711964, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274387, 
+            "ymax": 3550.0, 
+            "y": 3093.4564081419694, 
+            "x": 158.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.46437297292335444, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274388, 
+            "ymax": 3550.0, 
+            "y": 3123.2764596885395, 
+            "x": 159.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.2466832208429551, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274420, 
+            "ymax": 3550.0, 
+            "y": 3097.334272636736, 
+            "x": 160.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.6744489689651317, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274421, 
+            "ymax": 3550.0, 
+            "y": 3102.8252506710423, 
+            "x": 161.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.49538648053381606, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274422, 
+            "ymax": 3550.0, 
+            "y": 3137.2571178877324, 
+            "x": 162.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.24824708769740458, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274440, 
+            "ymax": 3550.0, 
+            "y": 3100.311476856853, 
+            "x": 163.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.4552792750841964, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274441, 
+            "ymax": 3550.0, 
+            "y": 3112.453997365353, 
+            "x": 164.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.47023220389268056, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274442, 
+            "ymax": 3550.0, 
+            "y": 3129.3103020442622, 
+            "x": 165.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.40254591098149517, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274443, 
+            "ymax": 3550.0, 
+            "y": 3144.204425860464, 
+            "x": 166.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.7195475140660552, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274954, 
+            "ymax": 3550.0, 
+            "y": 3049.4345473279836, 
+            "x": 167.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.0769490101178503, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274955, 
+            "ymax": 3550.0, 
+            "y": 3049.8130078961894, 
+            "x": 168.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.47507940811843385, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274956, 
+            "ymax": 3550.0, 
+            "y": 3055.3557496226554, 
+            "x": 169.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.8666161084253292, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274957, 
+            "ymax": 3550.0, 
+            "y": 3051.829574120048, 
+            "x": 170.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.7807147420561126, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274958, 
+            "ymax": 3550.0, 
+            "y": 3050.793094500748, 
+            "x": 171.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.27050121709474795, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274959, 
+            "ymax": 3550.0, 
+            "y": 3055.9351530036615, 
+            "x": 172.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.2883627641874678, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274967, 
+            "ymax": 3550.0, 
+            "y": 2968.3981948053042, 
+            "x": 173.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.1930175570932184, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274968, 
+            "ymax": 3550.0, 
+            "y": 2966.8965676800162, 
+            "x": 174.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.14843885743047086, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274969, 
+            "ymax": 3550.0, 
+            "y": 2987.6934621989944, 
+            "x": 175.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.14315562236331955, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274970, 
+            "ymax": 3550.0, 
+            "y": 3000.099148695979, 
+            "x": 176.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.7527517454068335, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274971, 
+            "ymax": 3550.0, 
+            "y": 3006.7827022783013, 
+            "x": 177.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.15606954124971342, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274998, 
+            "ymax": 3550.0, 
+            "y": 2964.4085904398776, 
+            "x": 178.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.17779054458196988, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 274999, 
+            "ymax": 3550.0, 
+            "y": 2984.981950326269, 
+            "x": 179.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.22340030294202198, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275000, 
+            "ymax": 3550.0, 
+            "y": 2999.7776903683184, 
+            "x": 180.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.6771358825671666, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275001, 
+            "ymax": 3550.0, 
+            "y": 3013.012518948402, 
+            "x": 181.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.18454237055434536, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275059, 
+            "ymax": 3550.0, 
+            "y": 2941.379624482908, 
+            "x": 182.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.6534230256681453, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275062, 
+            "ymax": 3550.0, 
+            "y": 2937.7815056227573, 
+            "x": 183.0, 
+            "ymin": 2950.0, 
+            "yErr": 32.68768449742907, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275063, 
+            "ymax": 3550.0, 
+            "y": 6231524657.029065, 
+            "x": 184.0, 
+            "ymin": 2950.0, 
+            "yErr": 10981879675.452822, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275064, 
+            "ymax": 3550.0, 
+            "y": 2941.529475615462, 
+            "x": 185.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.7649808802079383, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275066, 
+            "ymax": 3550.0, 
+            "y": 2941.8264042349642, 
+            "x": 186.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.976438198856861, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275067, 
+            "ymax": 3550.0, 
+            "y": 2949.1429300864943, 
+            "x": 187.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.45892578211045937, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275068, 
+            "ymax": 3550.0, 
+            "y": 2964.869807210158, 
+            "x": 188.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.27702469197186574, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275073, 
+            "ymax": 3550.0, 
+            "y": 2982.6165662869353, 
+            "x": 189.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.3486210630534514, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275074, 
+            "ymax": 3550.0, 
+            "y": 2992.9280400318244, 
+            "x": 190.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.31482294645355824, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275124, 
+            "ymax": 3550.0, 
+            "y": 2951.9785608038724, 
+            "x": 191.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.49573789479029823, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275125, 
+            "ymax": 3550.0, 
+            "y": 2968.182120693866, 
+            "x": 192.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.2653799585176378, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275282, 
+            "ymax": 3550.0, 
+            "y": 2955.445450809663, 
+            "x": 193.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.9493687516746536, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275283, 
+            "ymax": 3550.0, 
+            "y": 2954.1335606028406, 
+            "x": 194.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.7683805451132456, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275284, 
+            "ymax": 3550.0, 
+            "y": 2957.349706341555, 
+            "x": 195.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.8396145388497628, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275285, 
+            "ymax": 3550.0, 
+            "y": 2976.287883411788, 
+            "x": 196.0, 
+            "ymin": 2950.0, 
+            "yErr": 8.663067772918676, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275286, 
+            "ymax": 3550.0, 
+            "y": 2962.213030620406, 
+            "x": 197.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.9042631277103839, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275289, 
+            "ymax": 3550.0, 
+            "y": 2965.87045393934, 
+            "x": 198.0, 
+            "ymin": 2950.0, 
+            "yErr": 3.0439844669304144, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275290, 
+            "ymax": 3550.0, 
+            "y": 2964.4894263037872, 
+            "x": 199.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.0784183444922388, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275291, 
+            "ymax": 3550.0, 
+            "y": 2970.135090074566, 
+            "x": 200.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.445343124355636, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275292, 
+            "ymax": 3550.0, 
+            "y": 2978.8867319120204, 
+            "x": 201.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.7439416942349301, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275293, 
+            "ymax": 3550.0, 
+            "y": 2984.1151637876733, 
+            "x": 202.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.5730589315170462, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275309, 
+            "ymax": 3550.0, 
+            "y": 2970.3969278848845, 
+            "x": 203.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.3464456230159954, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275310, 
+            "ymax": 3550.0, 
+            "y": 2993.3248418146227, 
+            "x": 204.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.18405464566789675, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275311, 
+            "ymax": 3550.0, 
+            "y": 3018.930257504552, 
+            "x": 205.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.24622001498166488, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275319, 
+            "ymax": 3550.0, 
+            "y": 2953.0181090272426, 
+            "x": 206.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.6905482469289498, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275337, 
+            "ymax": 3550.0, 
+            "y": 2963.6525142326, 
+            "x": 207.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.3658422698054607, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275338, 
+            "ymax": 3550.0, 
+            "y": 2972.3311470876024, 
+            "x": 208.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.3255645006915192, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275344, 
+            "ymax": 3550.0, 
+            "y": 2948.784650618943, 
+            "x": 209.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.5088269895327682, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275345, 
+            "ymax": 3550.0, 
+            "y": 2954.408826277637, 
+            "x": 210.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.43441153736574334, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275370, 
+            "ymax": 3550.0, 
+            "y": 2947.1293916751665, 
+            "x": 211.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.49388060243113685, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275371, 
+            "ymax": 3550.0, 
+            "y": 2956.3158929941196, 
+            "x": 212.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.33164398755425534, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275375, 
+            "ymax": 3550.0, 
+            "y": 2963.3834124112277, 
+            "x": 213.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.20918952797068266, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275376, 
+            "ymax": 3550.0, 
+            "y": 2999.4539495576932, 
+            "x": 214.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.13601103242752152, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275657, 
+            "ymax": 3550.0, 
+            "y": 2949.3839650292484, 
+            "x": 215.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.8882636825767852, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275658, 
+            "ymax": 3550.0, 
+            "y": 2950.3693807792633, 
+            "x": 216.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.4341207827652568, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275659, 
+            "ymax": 3550.0, 
+            "y": 2956.8110060340173, 
+            "x": 217.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.7430598447701198, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275757, 
+            "ymax": 3550.0, 
+            "y": 2927.734841259376, 
+            "x": 218.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.9985479228191148, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275758, 
+            "ymax": 3550.0, 
+            "y": 2944.303444838135, 
+            "x": 219.0, 
+            "ymin": 2950.0, 
+            "yErr": 5.232352229765661, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275759, 
+            "ymax": 3550.0, 
+            "y": 2941.4174820129024, 
+            "x": 220.0, 
+            "ymin": 2950.0, 
+            "yErr": 4.450438175618308, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275761, 
+            "ymax": 3550.0, 
+            "y": 2944.967095303997, 
+            "x": 221.0, 
+            "ymin": 2950.0, 
+            "yErr": 3.719789606499256, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275763, 
+            "ymax": 3550.0, 
+            "y": 2945.0834642698064, 
+            "x": 222.0, 
+            "ymin": 2950.0, 
+            "yErr": 3.579009703365852, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275764, 
+            "ymax": 3550.0, 
+            "y": 2943.0275261960724, 
+            "x": 223.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.7880217240286709, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275766, 
+            "ymax": 3550.0, 
+            "y": 2939.144888358935, 
+            "x": 224.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.1438446235717181, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275767, 
+            "ymax": 3550.0, 
+            "y": 2940.2016973276277, 
+            "x": 225.0, 
+            "ymin": 2950.0, 
+            "yErr": 4.740626471509289, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275768, 
+            "ymax": 3550.0, 
+            "y": 2941.2389622352935, 
+            "x": 226.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.9672641364088832, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275772, 
+            "ymax": 3550.0, 
+            "y": 2944.6640162324384, 
+            "x": 227.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.1296374418898556, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275773, 
+            "ymax": 3550.0, 
+            "y": 2945.992110393294, 
+            "x": 228.0, 
+            "ymin": 2950.0, 
+            "yErr": 3.3950451508693122, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275774, 
+            "ymax": 3550.0, 
+            "y": 2948.9056608452242, 
+            "x": 229.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.4531283339997615, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275776, 
+            "ymax": 3550.0, 
+            "y": 2949.3533759180714, 
+            "x": 230.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.6849640072324223, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275777, 
+            "ymax": 3550.0, 
+            "y": 2956.105664708977, 
+            "x": 231.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.44707561965012005, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275778, 
+            "ymax": 3550.0, 
+            "y": 2962.772507310928, 
+            "x": 232.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.4332640692499408, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275781, 
+            "ymax": 3550.0, 
+            "y": 2971.7729386923106, 
+            "x": 233.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.4237726583036312, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275782, 
+            "ymax": 3550.0, 
+            "y": 2976.2387519195195, 
+            "x": 234.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.2632677011701701, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275828, 
+            "ymax": 3550.0, 
+            "y": 2922.3195872134397, 
+            "x": 235.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.695029261373119, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275829, 
+            "ymax": 3550.0, 
+            "y": 2919.2504817051877, 
+            "x": 236.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.2001437259341086, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275831, 
+            "ymax": 3550.0, 
+            "y": 2925.033853983059, 
+            "x": 237.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.3420892379358915, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275832, 
+            "ymax": 3550.0, 
+            "y": 2930.895089331262, 
+            "x": 238.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.5206372563878141, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275833, 
+            "ymax": 3550.0, 
+            "y": 2940.524587059564, 
+            "x": 239.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.5262017566364977, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275834, 
+            "ymax": 3550.0, 
+            "y": 2948.1593218841485, 
+            "x": 240.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.46495583799275614, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275835, 
+            "ymax": 3550.0, 
+            "y": 2956.1646242723295, 
+            "x": 241.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.175806391557127, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275836, 
+            "ymax": 3550.0, 
+            "y": 2966.481315523481, 
+            "x": 242.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.20813269089130892, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275837, 
+            "ymax": 3550.0, 
+            "y": 2989.4215077867348, 
+            "x": 243.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.269697371274282, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275841, 
+            "ymax": 3550.0, 
+            "y": 3008.6838706799354, 
+            "x": 244.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.0161243520963543, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275846, 
+            "ymax": 3550.0, 
+            "y": 3010.499418584805, 
+            "x": 245.0, 
+            "ymin": 2950.0, 
+            "yErr": 3.1017409458586216, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275847, 
+            "ymax": 3550.0, 
+            "y": 3010.2686763160195, 
+            "x": 246.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.15889531463919293, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275886, 
+            "ymax": 3550.0, 
+            "y": 2929.8419493429074, 
+            "x": 247.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.7668343982516268, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275887, 
+            "ymax": 3550.0, 
+            "y": 2935.674844301292, 
+            "x": 248.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.5339285827347555, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275890, 
+            "ymax": 3550.0, 
+            "y": 2947.471938264379, 
+            "x": 249.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.21901325292107865, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275911, 
+            "ymax": 3550.0, 
+            "y": 2934.950384844891, 
+            "x": 250.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.49474875400081425, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275912, 
+            "ymax": 3550.0, 
+            "y": 2941.943386378262, 
+            "x": 251.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.40754361276384365, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275913, 
+            "ymax": 3550.0, 
+            "y": 2951.642776272383, 
+            "x": 252.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.36730376442827223, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275918, 
+            "ymax": 3550.0, 
+            "y": 2961.2937611764924, 
+            "x": 253.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.4002823219753112, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275920, 
+            "ymax": 3550.0, 
+            "y": 2971.0107343120835, 
+            "x": 254.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.34443826619464785, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275921, 
+            "ymax": 3550.0, 
+            "y": 2976.4497719294536, 
+            "x": 255.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.62035894556408, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275922, 
+            "ymax": 3550.0, 
+            "y": 2977.6232479135365, 
+            "x": 256.0, 
+            "ymin": 2950.0, 
+            "yErr": 4.791798508833376, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275923, 
+            "ymax": 3550.0, 
+            "y": 2978.104691439756, 
+            "x": 257.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.6520208918542515, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275931, 
+            "ymax": 3550.0, 
+            "y": 2984.21593385945, 
+            "x": 258.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.7578906121189346, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 275963, 
+            "ymax": 3550.0, 
+            "y": 2923.878901932207, 
+            "x": 259.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.0235956260496586, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276062, 
+            "ymax": 3550.0, 
+            "y": 2931.2338535218505, 
+            "x": 260.0, 
+            "ymin": 2950.0, 
+            "yErr": 15.864102507712657, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276063, 
+            "ymax": 3550.0, 
+            "y": 2927.585050595694, 
+            "x": 261.0, 
+            "ymin": 2950.0, 
+            "yErr": 26.284908821427805, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276064, 
+            "ymax": 3550.0, 
+            "y": 2920.981462029561, 
+            "x": 262.0, 
+            "ymin": 2950.0, 
+            "yErr": 8.937630242681758, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276092, 
+            "ymax": 3550.0, 
+            "y": 2930.325958429974, 
+            "x": 263.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.1099224397208922, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276095, 
+            "ymax": 3550.0, 
+            "y": 2940.540584744538, 
+            "x": 264.0, 
+            "ymin": 2950.0, 
+            "yErr": 8.700267802562772, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276097, 
+            "ymax": 3550.0, 
+            "y": 2934.8233252496484, 
+            "x": 265.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.39140750128422935, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276215, 
+            "ymax": 3550.0, 
+            "y": 2906.2811861001746, 
+            "x": 266.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.6240413001222531, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276216, 
+            "ymax": 3550.0, 
+            "y": 2912.3523212004775, 
+            "x": 267.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.6220117291680899, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276217, 
+            "ymax": 3550.0, 
+            "y": 2919.7565902014685, 
+            "x": 268.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.33032115883734187, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276235, 
+            "ymax": 3550.0, 
+            "y": 2943.687331626155, 
+            "x": 269.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.3537353226384317, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276242, 
+            "ymax": 3550.0, 
+            "y": 2951.951426395975, 
+            "x": 270.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.1972857487567251, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276243, 
+            "ymax": 3550.0, 
+            "y": 2975.752868251748, 
+            "x": 271.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.3012575664269877, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276244, 
+            "ymax": 3550.0, 
+            "y": 2991.454183160013, 
+            "x": 272.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.21299874421098847, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276282, 
+            "ymax": 3550.0, 
+            "y": 2933.0582438269594, 
+            "x": 273.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.2730980322158926, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276283, 
+            "ymax": 3550.0, 
+            "y": 2956.020114585512, 
+            "x": 274.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.23854671795171514, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276315, 
+            "ymax": 3550.0, 
+            "y": 2928.9943553428047, 
+            "x": 275.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.6988972073663753, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276317, 
+            "ymax": 3550.0, 
+            "y": 2931.400718774871, 
+            "x": 276.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.7663616043940511, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276318, 
+            "ymax": 3550.0, 
+            "y": 2943.1520697876863, 
+            "x": 277.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.351524657112581, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276327, 
+            "ymax": 3550.0, 
+            "y": 2953.7927422856224, 
+            "x": 278.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.0976430637494006, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276352, 
+            "ymax": 3550.0, 
+            "y": 2925.683441461912, 
+            "x": 279.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.6073746412229328, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276355, 
+            "ymax": 3550.0, 
+            "y": 2933.91976329068, 
+            "x": 280.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.6270582903948028, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276357, 
+            "ymax": 3550.0, 
+            "y": 2928.550612420277, 
+            "x": 281.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.0722958637709077, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276361, 
+            "ymax": 3550.0, 
+            "y": 2938.161985030696, 
+            "x": 282.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.2908543385081005, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276363, 
+            "ymax": 3550.0, 
+            "y": 2963.903893570955, 
+            "x": 283.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.19806010397114618, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276384, 
+            "ymax": 3550.0, 
+            "y": 2988.655228197325, 
+            "x": 284.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.22250284126813202, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276437, 
+            "ymax": 3550.0, 
+            "y": 2943.5642505213077, 
+            "x": 285.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.14391800107799768, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276453, 
+            "ymax": 3550.0, 
+            "y": 2774.4455810132135, 
+            "x": 286.0, 
+            "ymin": 2950.0, 
+            "yErr": 3.6976729022670756, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276454, 
+            "ymax": 3550.0, 
+            "y": 2978.249006571182, 
+            "x": 287.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.32297101330609956, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276458, 
+            "ymax": 3550.0, 
+            "y": 2997.3572073481614, 
+            "x": 288.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.412343974851338, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276495, 
+            "ymax": 3550.0, 
+            "y": 2919.0257712206403, 
+            "x": 289.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.750533446641995, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276501, 
+            "ymax": 3550.0, 
+            "y": 2950.371125234866, 
+            "x": 290.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.16445284884939076, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276502, 
+            "ymax": 3550.0, 
+            "y": 2980.678790021673, 
+            "x": 291.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.2764022034586252, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276525, 
+            "ymax": 3550.0, 
+            "y": 2957.344775655877, 
+            "x": 292.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.15513753830337954, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276527, 
+            "ymax": 3550.0, 
+            "y": 2988.433332453511, 
+            "x": 293.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.524003640877728, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276528, 
+            "ymax": 3550.0, 
+            "y": 2992.6440964230787, 
+            "x": 294.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.4008500066272656, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276542, 
+            "ymax": 3550.0, 
+            "y": 2924.6699232300384, 
+            "x": 295.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.3479403912040319, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276543, 
+            "ymax": 3550.0, 
+            "y": 2948.1939470069356, 
+            "x": 296.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.2738767159047991, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276544, 
+            "ymax": 3550.0, 
+            "y": 2961.686855526061, 
+            "x": 297.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.6361189309709239, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276545, 
+            "ymax": 3550.0, 
+            "y": 2965.680901479751, 
+            "x": 298.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.5473661195412965, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276581, 
+            "ymax": 3550.0, 
+            "y": 2918.072354120653, 
+            "x": 299.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.36384766244532185, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276582, 
+            "ymax": 3550.0, 
+            "y": 2937.2182212277658, 
+            "x": 300.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.2999076311194195, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276583, 
+            "ymax": 3550.0, 
+            "y": 2952.0223498521227, 
+            "x": 301.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.1489600640018993, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276584, 
+            "ymax": 3550.0, 
+            "y": 2946.339048736035, 
+            "x": 302.0, 
+            "ymin": 2950.0, 
+            "yErr": 7.398577675171141, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276585, 
+            "ymax": 3550.0, 
+            "y": 2956.1003087259382, 
+            "x": 303.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.5194040694706755, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276586, 
+            "ymax": 3550.0, 
+            "y": 2966.8734579072425, 
+            "x": 304.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.2851320629446559, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276587, 
+            "ymax": 3550.0, 
+            "y": 2982.7248609571457, 
+            "x": 305.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.24647221840373465, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276653, 
+            "ymax": 3550.0, 
+            "y": 2931.899826026716, 
+            "x": 306.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.42483490316454414, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276655, 
+            "ymax": 3550.0, 
+            "y": 2950.557274344992, 
+            "x": 307.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.255671394519642, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276659, 
+            "ymax": 3550.0, 
+            "y": 2966.7101867888155, 
+            "x": 308.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.5214224135830035, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276775, 
+            "ymax": 3550.0, 
+            "y": 2930.510131035271, 
+            "x": 309.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.276876758429058, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276776, 
+            "ymax": 3550.0, 
+            "y": 2964.2351927477816, 
+            "x": 310.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.19023108426214158, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276794, 
+            "ymax": 3550.0, 
+            "y": 2988.55483063499, 
+            "x": 311.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.2646847461628409, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276807, 
+            "ymax": 3550.0, 
+            "y": 2916.7572815799354, 
+            "x": 312.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.8253930664885362, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276808, 
+            "ymax": 3550.0, 
+            "y": 2929.6599298024566, 
+            "x": 313.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.3146280515240278, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276810, 
+            "ymax": 3550.0, 
+            "y": 2943.903797708162, 
+            "x": 314.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.5145738817041084, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276811, 
+            "ymax": 3550.0, 
+            "y": 2969.76046981514, 
+            "x": 315.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.1597086932983651, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276831, 
+            "ymax": 3550.0, 
+            "y": 2943.4819635054387, 
+            "x": 316.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.17113151409467423, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276832, 
+            "ymax": 3550.0, 
+            "y": 2977.1325006778275, 
+            "x": 317.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.950745024698144, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276834, 
+            "ymax": 3550.0, 
+            "y": 2981.318618900048, 
+            "x": 318.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.299495917833019, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276837, 
+            "ymax": 3550.0, 
+            "y": 2961.1502056285685, 
+            "x": 319.0, 
+            "ymin": 2950.0, 
+            "yErr": 217.49735891606102, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276870, 
+            "ymax": 3550.0, 
+            "y": 3069.34242529398, 
+            "x": 320.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.18653902634717828, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276935, 
+            "ymax": 3550.0, 
+            "y": 3027.9435958110103, 
+            "x": 321.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.31455296180312836, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276940, 
+            "ymax": 3550.0, 
+            "y": 3011.2085514500395, 
+            "x": 322.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.8348208209847784, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276941, 
+            "ymax": 3550.0, 
+            "y": 3005.4507219028796, 
+            "x": 323.0, 
+            "ymin": 2950.0, 
+            "yErr": 6.022684044495925, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276942, 
+            "ymax": 3550.0, 
+            "y": 3012.7929622336837, 
+            "x": 324.0, 
+            "ymin": 2950.0, 
+            "yErr": 6.252640050463963, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276944, 
+            "ymax": 3550.0, 
+            "y": 3020.104663488217, 
+            "x": 325.0, 
+            "ymin": 2950.0, 
+            "yErr": 5.736141058007563, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276945, 
+            "ymax": 3550.0, 
+            "y": 8639138777.55453, 
+            "x": 326.0, 
+            "ymin": 2950.0, 
+            "yErr": 2712936033.4076385, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276946, 
+            "ymax": 3550.0, 
+            "y": 3019.453064931871, 
+            "x": 327.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.011878527982019, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276947, 
+            "ymax": 3550.0, 
+            "y": 3021.855161236025, 
+            "x": 328.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.8303365459280541, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276948, 
+            "ymax": 3550.0, 
+            "y": 3035.2139111904316, 
+            "x": 329.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.42309407874876226, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 276950, 
+            "ymax": 3550.0, 
+            "y": 3083.0175724788974, 
+            "x": 330.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.2454837427470443, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277069, 
+            "ymax": 3550.0, 
+            "y": 2995.301029458016, 
+            "x": 331.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.5734012648809667, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277070, 
+            "ymax": 3550.0, 
+            "y": 3032.620681048959, 
+            "x": 332.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.2761226174877439, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277071, 
+            "ymax": 3550.0, 
+            "y": 3061.1028167687823, 
+            "x": 333.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.7443617993992461, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277072, 
+            "ymax": 3550.0, 
+            "y": 3074.3924105460746, 
+            "x": 334.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.49740960945500046, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277073, 
+            "ymax": 3550.0, 
+            "y": 3095.722889634964, 
+            "x": 335.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.170902989697743, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277075, 
+            "ymax": 3550.0, 
+            "y": 3075.6227661256576, 
+            "x": 336.0, 
+            "ymin": 2950.0, 
+            "yErr": 46.16691414311117, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277076, 
+            "ymax": 3550.0, 
+            "y": 3110.895438181138, 
+            "x": 337.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.3931155561825957, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277087, 
+            "ymax": 3550.0, 
+            "y": 3152.3265832362126, 
+            "x": 338.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.5406465868817367, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277094, 
+            "ymax": 3550.0, 
+            "y": 3022.611782478653, 
+            "x": 339.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.32517466655260596, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277096, 
+            "ymax": 3550.0, 
+            "y": 3078.262614507284, 
+            "x": 340.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.2033292471640533, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277112, 
+            "ymax": 3550.0, 
+            "y": 3119.7171802268745, 
+            "x": 341.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.0094169702132503, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277126, 
+            "ymax": 3550.0, 
+            "y": 3009.9894211887645, 
+            "x": 342.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.853485173571897, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277127, 
+            "ymax": 3550.0, 
+            "y": 3035.374771499314, 
+            "x": 343.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.2617420433645276, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277148, 
+            "ymax": 3550.0, 
+            "y": 3029.941887209255, 
+            "x": 344.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.30588486570154855, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277166, 
+            "ymax": 3550.0, 
+            "y": 3036.383310637278, 
+            "x": 345.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.4046001012192878, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277168, 
+            "ymax": 3550.0, 
+            "y": 3085.0133883613603, 
+            "x": 346.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.2005732225896286, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277180, 
+            "ymax": 3550.0, 
+            "y": 3014.402020633042, 
+            "x": 347.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.654517977102978, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277194, 
+            "ymax": 3550.0, 
+            "y": 3043.69394284036, 
+            "x": 348.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.18087668552277092, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277202, 
+            "ymax": 3550.0, 
+            "y": 3093.849353391042, 
+            "x": 349.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.4500322546307332, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277218, 
+            "ymax": 3550.0, 
+            "y": 2999.3638308835593, 
+            "x": 350.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.7731394546817634, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277219, 
+            "ymax": 3550.0, 
+            "y": 3003.3147259640873, 
+            "x": 351.0, 
+            "ymin": 2950.0, 
+            "yErr": 4.014694863994727, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277220, 
+            "ymax": 3550.0, 
+            "y": 3011.8009097110953, 
+            "x": 352.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.5559105519318996, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277305, 
+            "ymax": 3550.0, 
+            "y": 3015.6169874564525, 
+            "x": 353.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.30249504743849254, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277420, 
+            "ymax": 3550.0, 
+            "y": 3010.583590904718, 
+            "x": 354.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.4959764827477675, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277932, 
+            "ymax": 3550.0, 
+            "y": 2949.7403930732435, 
+            "x": 355.0, 
+            "ymin": 2950.0, 
+            "yErr": 14.640552230855437, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277934, 
+            "ymax": 3550.0, 
+            "y": 2940.016355202158, 
+            "x": 356.0, 
+            "ymin": 2950.0, 
+            "yErr": 10.221688823213084, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277935, 
+            "ymax": 3550.0, 
+            "y": 2941.778732757309, 
+            "x": 357.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.822314896724454, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277981, 
+            "ymax": 3550.0, 
+            "y": 3193.1111611506967, 
+            "x": 358.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.2016172051374219, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277982, 
+            "ymax": 3550.0, 
+            "y": 3206.1324983229856, 
+            "x": 359.0, 
+            "ymin": 2950.0, 
+            "yErr": 3.456287995644208, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277983, 
+            "ymax": 3550.0, 
+            "y": 3203.6467105449497, 
+            "x": 360.0, 
+            "ymin": 2950.0, 
+            "yErr": 16.90338193953993, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277984, 
+            "ymax": 3550.0, 
+            "y": 3189.300790754424, 
+            "x": 361.0, 
+            "ymin": 2950.0, 
+            "yErr": 6.828725404029441, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277985, 
+            "ymax": 3550.0, 
+            "y": 3196.6641983802506, 
+            "x": 362.0, 
+            "ymin": 2950.0, 
+            "yErr": 22.907281092879916, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277990, 
+            "ymax": 3550.0, 
+            "y": 3196.5110649308544, 
+            "x": 363.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.1415829014683134, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277991, 
+            "ymax": 3550.0, 
+            "y": 3205.926046420028, 
+            "x": 364.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.251478826384026, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 277992, 
+            "ymax": 3550.0, 
+            "y": 3205.285259556857, 
+            "x": 365.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.6579340655589231, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278017, 
+            "ymax": 3550.0, 
+            "y": 3014.813064023304, 
+            "x": 366.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.39409931778848356, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278018, 
+            "ymax": 3550.0, 
+            "y": 3062.0105616587466, 
+            "x": 367.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.27368548281156796, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278167, 
+            "ymax": 3550.0, 
+            "y": 3099.5674011669576, 
+            "x": 368.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.24433550494028206, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278175, 
+            "ymax": 3550.0, 
+            "y": 3141.799542495618, 
+            "x": 369.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.6533704582191544, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278193, 
+            "ymax": 3550.0, 
+            "y": 3025.6688200576646, 
+            "x": 370.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.6655105372693753, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278239, 
+            "ymax": 3550.0, 
+            "y": 3043.7591464218995, 
+            "x": 371.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.3350311592670633, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278240, 
+            "ymax": 3550.0, 
+            "y": 3089.3458046037304, 
+            "x": 372.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.29301618754285613, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278273, 
+            "ymax": 3550.0, 
+            "y": 3042.9559826023315, 
+            "x": 373.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.4830629926006225, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278274, 
+            "ymax": 3550.0, 
+            "y": 3032.607467124818, 
+            "x": 374.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.8257109033804978, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278288, 
+            "ymax": 3550.0, 
+            "y": 3021.4219208333793, 
+            "x": 375.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.1865807257446956, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278289, 
+            "ymax": 3550.0, 
+            "y": 3033.018769065811, 
+            "x": 376.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.1736024640091114, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278290, 
+            "ymax": 3550.0, 
+            "y": 3029.8314792300152, 
+            "x": 377.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.2772788433085656, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278308, 
+            "ymax": 3550.0, 
+            "y": 3064.086415211312, 
+            "x": 378.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.18650475158674062, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278309, 
+            "ymax": 3550.0, 
+            "y": 3103.1614291756423, 
+            "x": 379.0, 
+            "ymin": 2950.0, 
+            "yErr": 3.56146020774524, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278310, 
+            "ymax": 3550.0, 
+            "y": 3118.578586102483, 
+            "x": 380.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.4886866753993899, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278315, 
+            "ymax": 3550.0, 
+            "y": 3040.567592497134, 
+            "x": 381.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.3326202069888572, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278345, 
+            "ymax": 3550.0, 
+            "y": 3036.394767385136, 
+            "x": 382.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.3172815499875543, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278346, 
+            "ymax": 3550.0, 
+            "y": 3061.344782906399, 
+            "x": 383.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.8688901544475852, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278349, 
+            "ymax": 3550.0, 
+            "y": 3082.680473509019, 
+            "x": 384.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.4177481953322021, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278366, 
+            "ymax": 3550.0, 
+            "y": 3107.7287693712083, 
+            "x": 385.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.5748256849024325, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278406, 
+            "ymax": 3550.0, 
+            "y": 3047.925889250776, 
+            "x": 386.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.19123653699906143, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278509, 
+            "ymax": 3550.0, 
+            "y": 3047.4875718760823, 
+            "x": 387.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.23601559956951843, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278761, 
+            "ymax": 3550.0, 
+            "y": 3216.7310573144923, 
+            "x": 388.0, 
+            "ymin": 2950.0, 
+            "yErr": 4.650337384126982, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278769, 
+            "ymax": 3550.0, 
+            "y": 3232.945996788608, 
+            "x": 389.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.4465329565912692, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278770, 
+            "ymax": 3550.0, 
+            "y": 3026.1115757254, 
+            "x": 390.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.30601746331093077, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278801, 
+            "ymax": 3550.0, 
+            "y": 3228.0908891688596, 
+            "x": 391.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.6884798608376568, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278802, 
+            "ymax": 3550.0, 
+            "y": 3225.1525826372967, 
+            "x": 392.0, 
+            "ymin": 2950.0, 
+            "yErr": 4.789820301190086, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278803, 
+            "ymax": 3550.0, 
+            "y": 3221.57774190259, 
+            "x": 393.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.7383168492023714, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278804, 
+            "ymax": 3550.0, 
+            "y": 3241.2335763694923, 
+            "x": 394.0, 
+            "ymin": 2950.0, 
+            "yErr": 7.697594958923403, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278805, 
+            "ymax": 3550.0, 
+            "y": 3226.009216304948, 
+            "x": 395.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.8454455689228507, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278807, 
+            "ymax": 3550.0, 
+            "y": 3299.8017964514524, 
+            "x": 396.0, 
+            "ymin": 2950.0, 
+            "yErr": 155.9061800729845, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278808, 
+            "ymax": 3550.0, 
+            "y": 3227.1981238253543, 
+            "x": 397.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.38630359672592757, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278820, 
+            "ymax": 3550.0, 
+            "y": 3221.8295482616395, 
+            "x": 398.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.3686033011682467, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278821, 
+            "ymax": 3550.0, 
+            "y": 3234.097174234018, 
+            "x": 399.0, 
+            "ymin": 2950.0, 
+            "yErr": 3.1298709445574904, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278822, 
+            "ymax": 3550.0, 
+            "y": 3207.890421701464, 
+            "x": 400.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.4329251763508867, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278873, 
+            "ymax": 3550.0, 
+            "y": 3233.335374402481, 
+            "x": 401.0, 
+            "ymin": 2950.0, 
+            "yErr": 4.397942883316235, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278874, 
+            "ymax": 3550.0, 
+            "y": 3224.224794488088, 
+            "x": 402.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.6511027223855547, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278875, 
+            "ymax": 3550.0, 
+            "y": 3222.627662541277, 
+            "x": 403.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.5490461971835717, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278923, 
+            "ymax": 3550.0, 
+            "y": 3224.5428257008953, 
+            "x": 404.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.6440455406962174, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278957, 
+            "ymax": 3550.0, 
+            "y": 3226.1690412438215, 
+            "x": 405.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.061449613066674, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278962, 
+            "ymax": 3550.0, 
+            "y": 3219.6151163206223, 
+            "x": 406.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.7137195082715113, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278963, 
+            "ymax": 3550.0, 
+            "y": 3218.9563430874264, 
+            "x": 407.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.0116851161670157, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278969, 
+            "ymax": 3550.0, 
+            "y": 3218.120437647297, 
+            "x": 408.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.36302515839447774, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278975, 
+            "ymax": 3550.0, 
+            "y": 3216.5078484364462, 
+            "x": 409.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.5580525665846128, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278976, 
+            "ymax": 3550.0, 
+            "y": 3222.582313600792, 
+            "x": 410.0, 
+            "ymin": 2950.0, 
+            "yErr": 3.8872359950224054, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 278986, 
+            "ymax": 3550.0, 
+            "y": 3221.6454438924125, 
+            "x": 411.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.0937775723430252, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279024, 
+            "ymax": 3550.0, 
+            "y": 3223.449166335899, 
+            "x": 412.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.826756223848869, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279029, 
+            "ymax": 3550.0, 
+            "y": 3223.309449570853, 
+            "x": 413.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.9675839152871932, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279071, 
+            "ymax": 3550.0, 
+            "y": 3225.975092076603, 
+            "x": 414.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.258828223944743, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279080, 
+            "ymax": 3550.0, 
+            "y": 3228.7392351226945, 
+            "x": 415.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.7563237441685084, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279115, 
+            "ymax": 3550.0, 
+            "y": 3222.3526806861605, 
+            "x": 416.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.6824134936345472, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279116, 
+            "ymax": 3550.0, 
+            "y": 3223.061338589416, 
+            "x": 417.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.6622358014355116, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279479, 
+            "ymax": 3550.0, 
+            "y": 3111.6920813266847, 
+            "x": 418.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.6708140858994154, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279480, 
+            "ymax": 3550.0, 
+            "y": 3239.990159969386, 
+            "x": 419.0, 
+            "ymin": 2950.0, 
+            "yErr": 170.31506650619934, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279488, 
+            "ymax": 3550.0, 
+            "y": 3130.9409090685403, 
+            "x": 420.0, 
+            "ymin": 2950.0, 
+            "yErr": 6.329776729053645, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279489, 
+            "ymax": 3550.0, 
+            "y": 3118.1793815443452, 
+            "x": 421.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.85260211033954, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279588, 
+            "ymax": 3550.0, 
+            "y": 3115.6611491918557, 
+            "x": 422.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.22660732148045165, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279653, 
+            "ymax": 3550.0, 
+            "y": 3120.009145102065, 
+            "x": 423.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.5334348062197519, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279654, 
+            "ymax": 3550.0, 
+            "y": 3116.410854868747, 
+            "x": 424.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.22220110268297544, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279656, 
+            "ymax": 3550.0, 
+            "y": 3117.9162086530064, 
+            "x": 425.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.4676827519100886, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279658, 
+            "ymax": 3550.0, 
+            "y": 3113.6656775380366, 
+            "x": 426.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.35782443642140993, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279667, 
+            "ymax": 3550.0, 
+            "y": 3111.8437078827283, 
+            "x": 427.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.23426326801363198, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279681, 
+            "ymax": 3550.0, 
+            "y": 3116.1643694769273, 
+            "x": 428.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.3487234951565994, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279682, 
+            "ymax": 3550.0, 
+            "y": 3114.977442902854, 
+            "x": 429.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.2402571586119606, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279683, 
+            "ymax": 3550.0, 
+            "y": 3116.3142488840313, 
+            "x": 430.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.3755459852359246, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279684, 
+            "ymax": 3550.0, 
+            "y": 3118.5662232277737, 
+            "x": 431.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.5679602609292038, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279685, 
+            "ymax": 3550.0, 
+            "y": 3111.6414488900164, 
+            "x": 432.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.49262674970118925, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279691, 
+            "ymax": 3550.0, 
+            "y": 3119.3570856500255, 
+            "x": 433.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.1567719486458172, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279694, 
+            "ymax": 3550.0, 
+            "y": 3112.5433498549246, 
+            "x": 434.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.16988535876801955, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279715, 
+            "ymax": 3550.0, 
+            "y": 3112.08978040301, 
+            "x": 435.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.2924887126070525, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279716, 
+            "ymax": 3550.0, 
+            "y": 3109.6758950041153, 
+            "x": 436.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.21505228576094187, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279760, 
+            "ymax": 3550.0, 
+            "y": 3109.9288709748057, 
+            "x": 437.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.26880364177976285, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279766, 
+            "ymax": 3550.0, 
+            "y": 3107.29842522386, 
+            "x": 438.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.20338385820896748, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279767, 
+            "ymax": 3550.0, 
+            "y": 3106.6795881809826, 
+            "x": 439.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.3543940274075693, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279794, 
+            "ymax": 3550.0, 
+            "y": 3108.131624709765, 
+            "x": 440.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.22185976123765755, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279823, 
+            "ymax": 3550.0, 
+            "y": 3110.005264201146, 
+            "x": 441.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.37140654608850887, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279841, 
+            "ymax": 3550.0, 
+            "y": 3104.855308421779, 
+            "x": 442.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.16998434515284366, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279844, 
+            "ymax": 3550.0, 
+            "y": 3103.588538476096, 
+            "x": 443.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.429423185696946, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279846, 
+            "ymax": 3550.0, 
+            "y": 3109.1662293804106, 
+            "x": 444.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.5362379805367719, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279848, 
+            "ymax": 3550.0, 
+            "y": 3101.3544595096323, 
+            "x": 445.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.9711021230852411, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279849, 
+            "ymax": 3550.0, 
+            "y": 3105.833666531342, 
+            "x": 446.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.3530461294976554, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279851, 
+            "ymax": 3550.0, 
+            "y": 3108.84957485229, 
+            "x": 447.0, 
+            "ymin": 2950.0, 
+            "yErr": 3.8174366175610546, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279852, 
+            "ymax": 3550.0, 
+            "y": 3103.0964497043824, 
+            "x": 448.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.8241056399492162, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279853, 
+            "ymax": 3550.0, 
+            "y": 3105.8573464483725, 
+            "x": 449.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.3682655227123046, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279854, 
+            "ymax": 3550.0, 
+            "y": 3114.067131549673, 
+            "x": 450.0, 
+            "ymin": 2950.0, 
+            "yErr": 4.638012523709384, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279855, 
+            "ymax": 3550.0, 
+            "y": 3117.8674240760406, 
+            "x": 451.0, 
+            "ymin": 2950.0, 
+            "yErr": 5.099564586724979, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279856, 
+            "ymax": 3550.0, 
+            "y": 3114.1028390818856, 
+            "x": 452.0, 
+            "ymin": 2950.0, 
+            "yErr": 4.337583753496835, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279857, 
+            "ymax": 3550.0, 
+            "y": 3115.127665193918, 
+            "x": 453.0, 
+            "ymin": 2950.0, 
+            "yErr": 4.973488761912216, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279858, 
+            "ymax": 3550.0, 
+            "y": 3114.3652910198016, 
+            "x": 454.0, 
+            "ymin": 2950.0, 
+            "yErr": 3.215128686855247, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279859, 
+            "ymax": 3550.0, 
+            "y": 3112.1143426663016, 
+            "x": 455.0, 
+            "ymin": 2950.0, 
+            "yErr": 5.484629658192914, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279860, 
+            "ymax": 3550.0, 
+            "y": 3348.360432214994, 
+            "x": 456.0, 
+            "ymin": 2950.0, 
+            "yErr": 6.464474217590093, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279861, 
+            "ymax": 3550.0, 
+            "y": 3108.4707082801247, 
+            "x": 457.0, 
+            "ymin": 2950.0, 
+            "yErr": 4.787951827042288, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279865, 
+            "ymax": 3550.0, 
+            "y": 3093.3084628779857, 
+            "x": 458.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.8048386887269778, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279887, 
+            "ymax": 3550.0, 
+            "y": 3106.5484377785406, 
+            "x": 459.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.3868030674441142, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279931, 
+            "ymax": 3550.0, 
+            "y": 3103.4828770725885, 
+            "x": 460.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.1487559485011454, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279966, 
+            "ymax": 3550.0, 
+            "y": 3104.226007778082, 
+            "x": 461.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.3376220300405293, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279975, 
+            "ymax": 3550.0, 
+            "y": 3102.6199907514174, 
+            "x": 462.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.20806326103473002, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279993, 
+            "ymax": 3550.0, 
+            "y": 3104.92557811489, 
+            "x": 463.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.7702202896001948, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279994, 
+            "ymax": 3550.0, 
+            "y": 3104.0064722260986, 
+            "x": 464.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.9231752816059717, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 279995, 
+            "ymax": 3550.0, 
+            "y": 3099.939929761122, 
+            "x": 465.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.7430071005585583, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 280002, 
+            "ymax": 3550.0, 
+            "y": 3104.3062050937738, 
+            "x": 466.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.6849303485336459, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 280006, 
+            "ymax": 3550.0, 
+            "y": 3105.309311940419, 
+            "x": 467.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.8181827485436057, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 280007, 
+            "ymax": 3550.0, 
+            "y": 3105.1560276341033, 
+            "x": 468.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.1756906786876637, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 280013, 
+            "ymax": 3550.0, 
+            "y": 3109.753924000988, 
+            "x": 469.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.4479801006295512, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 280014, 
+            "ymax": 3550.0, 
+            "y": 3124.611242991268, 
+            "x": 470.0, 
+            "ymin": 2950.0, 
+            "yErr": 39.78805030969392, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 280015, 
+            "ymax": 3550.0, 
+            "y": 3101.5295613399267, 
+            "x": 471.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.2984257281284462, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 280016, 
+            "ymax": 3550.0, 
+            "y": 3099.584525977011, 
+            "x": 472.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.6123436572621845, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 280017, 
+            "ymax": 3550.0, 
+            "y": 3101.2096237026253, 
+            "x": 473.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.3231679901276597, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 280018, 
+            "ymax": 3550.0, 
+            "y": 3100.2643446463676, 
+            "x": 474.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.24726550331389063, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 280020, 
+            "ymax": 3550.0, 
+            "y": 3106.931633955149, 
+            "x": 475.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.4920580344156817, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 280023, 
+            "ymax": 3550.0, 
+            "y": 3078.1038310205586, 
+            "x": 476.0, 
+            "ymin": 2950.0, 
+            "yErr": 27.40704702549779, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 280024, 
+            "ymax": 3550.0, 
+            "y": 3101.258488349173, 
+            "x": 477.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.4789102168823741, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 280187, 
+            "ymax": 3550.0, 
+            "y": 3108.219002634074, 
+            "x": 478.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.905044897853488, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 280188, 
+            "ymax": 3550.0, 
+            "y": 3103.0796237813056, 
+            "x": 479.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.40858533444505024, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 280190, 
+            "ymax": 3550.0, 
+            "y": 3381.56290203979, 
+            "x": 480.0, 
+            "ymin": 2950.0, 
+            "yErr": 257.89233623936326, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 280191, 
+            "ymax": 3550.0, 
+            "y": 3101.718556086203, 
+            "x": 481.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.23771538799672653, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 280194, 
+            "ymax": 3550.0, 
+            "y": 3102.3547947256507, 
+            "x": 482.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.5329387830061622, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 280242, 
+            "ymax": 3550.0, 
+            "y": 3101.6069023911978, 
+            "x": 483.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.2629750438223175, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 280249, 
+            "ymax": 3550.0, 
+            "y": 3097.717991862122, 
+            "x": 484.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.20274180717332538, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 280251, 
+            "ymax": 3550.0, 
+            "y": 3097.3750041406647, 
+            "x": 485.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.4567766096286665, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 280327, 
+            "ymax": 3550.0, 
+            "y": 3104.5980921450637, 
+            "x": 486.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.0710944285205422, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 280330, 
+            "ymax": 3550.0, 
+            "y": 3099.8483570577614, 
+            "x": 487.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.2300129095455177, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 280349, 
+            "ymax": 3550.0, 
+            "y": 3097.5735252462537, 
+            "x": 488.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.2950636146214547, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 280363, 
+            "ymax": 3550.0, 
+            "y": 3098.0934320959045, 
+            "x": 489.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.4391028828040611, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 280364, 
+            "ymax": 3550.0, 
+            "y": 3096.4903138005175, 
+            "x": 490.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.24612527821765023, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 280383, 
+            "ymax": 3550.0, 
+            "y": 3117.0733050100557, 
+            "x": 491.0, 
+            "ymin": 2950.0, 
+            "yErr": 7.255395299623472, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 280384, 
+            "ymax": 3550.0, 
+            "y": 3104.9839511866867, 
+            "x": 492.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.164405445472848, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 280385, 
+            "ymax": 3550.0, 
+            "y": 3095.1721513188386, 
+            "x": 493.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.16249441709956802, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 281613, 
+            "ymax": 3550.0, 
+            "y": 3090.430596132675, 
+            "x": 494.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.30506045190859676, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 281616, 
+            "ymax": 3550.0, 
+            "y": 3092.9004357418703, 
+            "x": 495.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.5808035546805682, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 281638, 
+            "ymax": 3550.0, 
+            "y": 3350.9828683251653, 
+            "x": 496.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.41014439670934916, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 281639, 
+            "ymax": 3550.0, 
+            "y": 3098.682863921075, 
+            "x": 497.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.5493267928439578, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 281641, 
+            "ymax": 3550.0, 
+            "y": 3095.673795726548, 
+            "x": 498.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.34795666843744044, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 281663, 
+            "ymax": 3550.0, 
+            "y": 3032.7165119336437, 
+            "x": 499.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.5989433382794473, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 281674, 
+            "ymax": 3550.0, 
+            "y": 3033.4650823243855, 
+            "x": 500.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.4171993545489223, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 281680, 
+            "ymax": 3550.0, 
+            "y": 3036.681508154593, 
+            "x": 501.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.800227308972756, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 281686, 
+            "ymax": 3550.0, 
+            "y": 3111.0840053424636, 
+            "x": 502.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.6603266261150587, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 281689, 
+            "ymax": 3550.0, 
+            "y": 3117.5391512320666, 
+            "x": 503.0, 
+            "ymin": 2950.0, 
+            "yErr": 3.108784474369764, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 281691, 
+            "ymax": 3550.0, 
+            "y": 3113.7121256648647, 
+            "x": 504.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.0717189113650822, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 281693, 
+            "ymax": 3550.0, 
+            "y": 3099.908402403606, 
+            "x": 505.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.17692954284065046, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 281707, 
+            "ymax": 3550.0, 
+            "y": 3099.459126711017, 
+            "x": 506.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.24509747130795387, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 281726, 
+            "ymax": 3550.0, 
+            "y": 3099.5261760031904, 
+            "x": 507.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.46470455270326816, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 281727, 
+            "ymax": 3550.0, 
+            "y": 3096.6595471986375, 
+            "x": 508.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.24816541858144217, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 281797, 
+            "ymax": 3550.0, 
+            "y": 3094.4639608944995, 
+            "x": 509.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.1508325492645894, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 281975, 
+            "ymax": 3550.0, 
+            "y": 3096.7652740196054, 
+            "x": 510.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.43253984242824633, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 281976, 
+            "ymax": 3550.0, 
+            "y": 3091.1608993110467, 
+            "x": 511.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.1618612624174397, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 282033, 
+            "ymax": 3550.0, 
+            "y": 3095.289061516751, 
+            "x": 512.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.072016093432452, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 282034, 
+            "ymax": 3550.0, 
+            "y": 3095.9443327687572, 
+            "x": 513.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.0236627541619803, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 282035, 
+            "ymax": 3550.0, 
+            "y": 3092.9734246621706, 
+            "x": 514.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.9657787990736643, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 282037, 
+            "ymax": 3550.0, 
+            "y": 3089.4228181544518, 
+            "x": 515.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.15567918110056225, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 282092, 
+            "ymax": 3550.0, 
+            "y": 3090.4735178239707, 
+            "x": 516.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.14569076714729565, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 282663, 
+            "ymax": 3550.0, 
+            "y": 3090.31097840855, 
+            "x": 517.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.4863015759373263, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 282708, 
+            "ymax": 3550.0, 
+            "y": 3107.031968871289, 
+            "x": 518.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.218405824255104, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 282710, 
+            "ymax": 3550.0, 
+            "y": 3121.2539383217813, 
+            "x": 519.0, 
+            "ymin": 2950.0, 
+            "yErr": 6.008989496771302, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 282712, 
+            "ymax": 3550.0, 
+            "y": 3099.839818274472, 
+            "x": 520.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.7103739334270381, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 282730, 
+            "ymax": 3550.0, 
+            "y": 3098.786929086858, 
+            "x": 521.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.6844794035025754, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 282731, 
+            "ymax": 3550.0, 
+            "y": 3097.5736322306484, 
+            "x": 522.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.4470904822339454, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 282732, 
+            "ymax": 3550.0, 
+            "y": 3097.316307845034, 
+            "x": 523.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.7286436864301712, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 282733, 
+            "ymax": 3550.0, 
+            "y": 3097.0589884824058, 
+            "x": 524.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.4693348384987508, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 282734, 
+            "ymax": 3550.0, 
+            "y": 3096.291377426089, 
+            "x": 525.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.3660569443176216, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 282735, 
+            "ymax": 3550.0, 
+            "y": 3092.9564058724222, 
+            "x": 526.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.1729965897370393, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 282800, 
+            "ymax": 3550.0, 
+            "y": 3095.0071400040797, 
+            "x": 527.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.31366812226384955, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 282807, 
+            "ymax": 3550.0, 
+            "y": 3093.1332324914015, 
+            "x": 528.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.3554183582870358, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 282814, 
+            "ymax": 3550.0, 
+            "y": 3088.479340097825, 
+            "x": 529.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.1658174444773926, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 282842, 
+            "ymax": 3550.0, 
+            "y": 3095.4428466537893, 
+            "x": 530.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.6264610544473305, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 282917, 
+            "ymax": 3550.0, 
+            "y": 3093.697896492278, 
+            "x": 531.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.713272057607409, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 282918, 
+            "ymax": 3550.0, 
+            "y": 3095.320158860079, 
+            "x": 532.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.8425207337250864, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 282919, 
+            "ymax": 3550.0, 
+            "y": 3092.0207975571757, 
+            "x": 533.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.39316161267514876, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 282922, 
+            "ymax": 3550.0, 
+            "y": 3104.4808639206, 
+            "x": 534.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.6229184409312346, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 282923, 
+            "ymax": 3550.0, 
+            "y": 3091.68273041715, 
+            "x": 535.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.42200318017539434, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 282924, 
+            "ymax": 3550.0, 
+            "y": 3106.163566099837, 
+            "x": 536.0, 
+            "ymin": 2950.0, 
+            "yErr": 5.518758119107372, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283042, 
+            "ymax": 3550.0, 
+            "y": 3190.2930169454435, 
+            "x": 537.0, 
+            "ymin": 2950.0, 
+            "yErr": 4.148774529890283, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283043, 
+            "ymax": 3550.0, 
+            "y": 3181.584371997534, 
+            "x": 538.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.44475864349914557, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283049, 
+            "ymax": 3550.0, 
+            "y": 3184.4353085974053, 
+            "x": 539.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.7772292383995327, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283050, 
+            "ymax": 3550.0, 
+            "y": 3180.4788871612645, 
+            "x": 540.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.6445023535686001, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283052, 
+            "ymax": 3550.0, 
+            "y": 3180.452739179736, 
+            "x": 541.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.8997701051562957, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283059, 
+            "ymax": 3550.0, 
+            "y": 3179.146353628379, 
+            "x": 542.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.477019424071214, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283270, 
+            "ymax": 3550.0, 
+            "y": 3176.5324584608356, 
+            "x": 543.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.23496528104077322, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283283, 
+            "ymax": 3550.0, 
+            "y": 3173.018034602792, 
+            "x": 544.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.3284592823863843, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283305, 
+            "ymax": 3550.0, 
+            "y": 3176.0215229243745, 
+            "x": 545.0, 
+            "ymin": 2950.0, 
+            "yErr": 3.9239609778391733, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283306, 
+            "ymax": 3550.0, 
+            "y": 3175.4065876073505, 
+            "x": 546.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.5321141989790399, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283307, 
+            "ymax": 3550.0, 
+            "y": 3173.570136513759, 
+            "x": 547.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.45946451208761385, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283308, 
+            "ymax": 3550.0, 
+            "y": 3171.527313067274, 
+            "x": 548.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.3289421361766219, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283353, 
+            "ymax": 3550.0, 
+            "y": 3176.74322337086, 
+            "x": 549.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.3417205562219841, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283358, 
+            "ymax": 3550.0, 
+            "y": 3176.0322198529293, 
+            "x": 550.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.332525661645078, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283359, 
+            "ymax": 3550.0, 
+            "y": 3176.1969961368504, 
+            "x": 551.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.549441552527071, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283407, 
+            "ymax": 3550.0, 
+            "y": 3178.7756143154093, 
+            "x": 552.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.5447559481886017, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283408, 
+            "ymax": 3550.0, 
+            "y": 3173.5309331352864, 
+            "x": 553.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.2103088673454458, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283413, 
+            "ymax": 3550.0, 
+            "y": 3179.8823780268613, 
+            "x": 554.0, 
+            "ymin": 2950.0, 
+            "yErr": 17.758648023488337, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283415, 
+            "ymax": 3550.0, 
+            "y": 2722614.4634762974, 
+            "x": 555.0, 
+            "ymin": 2950.0, 
+            "yErr": 926832.7641637286, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283416, 
+            "ymax": 3550.0, 
+            "y": 3172.767542607918, 
+            "x": 556.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.9562245117700708, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283453, 
+            "ymax": 3550.0, 
+            "y": 3172.185273797305, 
+            "x": 557.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.41855503594145427, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283469, 
+            "ymax": 3550.0, 
+            "y": 3188.85161665779, 
+            "x": 558.0, 
+            "ymin": 2950.0, 
+            "yErr": 11.854661340836204, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283478, 
+            "ymax": 3550.0, 
+            "y": 3169.181046881788, 
+            "x": 559.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.31162820224604765, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283548, 
+            "ymax": 3550.0, 
+            "y": 3177.3399186042584, 
+            "x": 560.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.8832632712282305, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283675, 
+            "ymax": 3550.0, 
+            "y": 3240.031407661595, 
+            "x": 561.0, 
+            "ymin": 2950.0, 
+            "yErr": 20.67509495931947, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283676, 
+            "ymax": 3550.0, 
+            "y": 3177.027315839345, 
+            "x": 562.0, 
+            "ymin": 2950.0, 
+            "yErr": 16.161171835905535, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283680, 
+            "ymax": 3550.0, 
+            "y": 3178.9813451054297, 
+            "x": 563.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.113227251788935, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283681, 
+            "ymax": 3550.0, 
+            "y": 3180.441649544791, 
+            "x": 564.0, 
+            "ymin": 2950.0, 
+            "yErr": 2.475141632839483, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283682, 
+            "ymax": 3550.0, 
+            "y": 3170.7662223352468, 
+            "x": 565.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.5060597118023452, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283685, 
+            "ymax": 3550.0, 
+            "y": 3172.063005173499, 
+            "x": 566.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.918741181674318, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283820, 
+            "ymax": 3550.0, 
+            "y": 3172.091417010061, 
+            "x": 567.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.26113614861440976, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283830, 
+            "ymax": 3550.0, 
+            "y": 3167.8319647455774, 
+            "x": 568.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.4121722561370241, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283834, 
+            "ymax": 3550.0, 
+            "y": 3170.7693208056403, 
+            "x": 569.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.3903401237419453, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283835, 
+            "ymax": 3550.0, 
+            "y": 3167.0061285245383, 
+            "x": 570.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.215625902600663, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283863, 
+            "ymax": 3550.0, 
+            "y": -4123973073.7738853, 
+            "x": 571.0, 
+            "ymin": 2950.0, 
+            "yErr": 2004590719.6549475, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283865, 
+            "ymax": 3550.0, 
+            "y": 3168.3982417054026, 
+            "x": 572.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.25968207325569204, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283876, 
+            "ymax": 3550.0, 
+            "y": 3166.389320187091, 
+            "x": 573.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.32837369331698546, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283877, 
+            "ymax": 3550.0, 
+            "y": 3162.7976662410288, 
+            "x": 574.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.2586748269233493, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283884, 
+            "ymax": 3550.0, 
+            "y": 3163.2536561044235, 
+            "x": 575.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.41408839147106424, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283885, 
+            "ymax": 3550.0, 
+            "y": 3162.8209624420424, 
+            "x": 576.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.23899928665505527, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283933, 
+            "ymax": 3550.0, 
+            "y": 3164.091132576236, 
+            "x": 577.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.6602722753779169, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283934, 
+            "ymax": 3550.0, 
+            "y": 3161.2429829888433, 
+            "x": 578.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.24460632046175582, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283946, 
+            "ymax": 3550.0, 
+            "y": 3160.089367726083, 
+            "x": 579.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.2357172408045016, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 283964, 
+            "ymax": 3550.0, 
+            "y": 3163.892407819315, 
+            "x": 580.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.5324107501243296, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 284006, 
+            "ymax": 3550.0, 
+            "y": 3165.46349765292, 
+            "x": 581.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.5383030123151047, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 284014, 
+            "ymax": 3550.0, 
+            "y": 3163.8227507071647, 
+            "x": 582.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.5876161799786201, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 284025, 
+            "ymax": 3550.0, 
+            "y": 3167.164508758083, 
+            "x": 583.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.2250572761114378, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 284029, 
+            "ymax": 3550.0, 
+            "y": 3165.607485480411, 
+            "x": 584.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.7652003527172343, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 284035, 
+            "ymax": 3550.0, 
+            "y": 3163.9230937832444, 
+            "x": 585.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.3458995385452692, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 284036, 
+            "ymax": 3550.0, 
+            "y": 3161.323679280166, 
+            "x": 586.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.4823702400836041, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 284037, 
+            "ymax": 3550.0, 
+            "y": 3160.2726778507213, 
+            "x": 587.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.5117659954294391, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 284038, 
+            "ymax": 3550.0, 
+            "y": 3162.7710038565638, 
+            "x": 588.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.3626596134125857, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 284039, 
+            "ymax": 3550.0, 
+            "y": 3165.438375732213, 
+            "x": 589.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.9054588037641313, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 284040, 
+            "ymax": 3550.0, 
+            "y": 3166.8495166986627, 
+            "x": 590.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.7575924064647006, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 284041, 
+            "ymax": 3550.0, 
+            "y": 3164.5078474976967, 
+            "x": 591.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.5479841985221083, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 284042, 
+            "ymax": 3550.0, 
+            "y": 3166.7763987494095, 
+            "x": 592.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.9254066843367441, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 284043, 
+            "ymax": 3550.0, 
+            "y": 3164.4444943907665, 
+            "x": 593.0, 
+            "ymin": 2950.0, 
+            "yErr": 0.7230530649409548, 
+            "yTitle": "cluster charge per cm (from track)"
+        }, 
+        {
+            "run": 284044, 
+            "ymax": 3550.0, 
+            "y": 3167.278778229145, 
+            "x": 594.0, 
+            "ymin": 2950.0, 
+            "yErr": 1.9897874269819311, 
+            "yTitle": "cluster charge per cm (from track)"
+        }
+    ]
+}

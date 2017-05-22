@@ -1,0 +1,85 @@
+{
+    "NumberofPVertices_mean": [
+        {
+            "run": 285090, 
+            "ymax": 30.0, 
+            "y": 1.0170906069207533, 
+            "x": 1.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00010111241283346086, 
+            "yTitle": "Reconstructed vertices per event (average)"
+        }, 
+        {
+            "run": 285216, 
+            "ymax": 30.0, 
+            "y": 1.0574038407403823, 
+            "x": 2.0, 
+            "ymin": 0.0, 
+            "yErr": 6.892973978466977e-05, 
+            "yTitle": "Reconstructed vertices per event (average)"
+        }, 
+        {
+            "run": 285244, 
+            "ymax": 30.0, 
+            "y": 1.0571833103091537, 
+            "x": 3.0, 
+            "ymin": 0.0, 
+            "yErr": 5.6494932920822854e-05, 
+            "yTitle": "Reconstructed vertices per event (average)"
+        }, 
+        {
+            "run": 285368, 
+            "ymax": 30.0, 
+            "y": 1.0719042944404373, 
+            "x": 4.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00016398226234440208, 
+            "yTitle": "Reconstructed vertices per event (average)"
+        }, 
+        {
+            "run": 285369, 
+            "ymax": 30.0, 
+            "y": 1.0669643473278017, 
+            "x": 5.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00012099369898117052, 
+            "yTitle": "Reconstructed vertices per event (average)"
+        }, 
+        {
+            "run": 285371, 
+            "ymax": 30.0, 
+            "y": 1.0630673708564196, 
+            "x": 6.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00012224226330254364, 
+            "yTitle": "Reconstructed vertices per event (average)"
+        }, 
+        {
+            "run": 285374, 
+            "ymax": 30.0, 
+            "y": 1.0610644903479651, 
+            "x": 7.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000329856616098289, 
+            "yTitle": "Reconstructed vertices per event (average)"
+        }, 
+        {
+            "run": 285383, 
+            "ymax": 30.0, 
+            "y": 1.0703842405515893, 
+            "x": 8.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0001061001133957133, 
+            "yTitle": "Reconstructed vertices per event (average)"
+        }, 
+        {
+            "run": 285479, 
+            "ymax": 30.0, 
+            "y": 1.0508118433619866, 
+            "x": 9.0, 
+            "ymin": 0.0, 
+            "yErr": 0.003322267160460468, 
+            "yTitle": "Reconstructed vertices per event (average)"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "HitResiduals_X_FPIX_Dm1_mean": [
+        {
+            "run": 285090, 
+            "ymax": 0.005, 
+            "y": -0.00012987879236840328, 
+            "x": 1.0, 
+            "ymin": -0.005, 
+            "yErr": 0.0002544117400064253, 
+            "yTitle": "HitResiduals X FPIX Mean"
+        }, 
+        {
+            "run": 285216, 
+            "ymax": 0.005, 
+            "y": 0.0002940270195680898, 
+            "x": 2.0, 
+            "ymin": -0.005, 
+            "yErr": 7.225132962556901e-05, 
+            "yTitle": "HitResiduals X FPIX Mean"
+        }, 
+        {
+            "run": 285244, 
+            "ymax": 0.005, 
+            "y": 0.00014770607078509819, 
+            "x": 3.0, 
+            "ymin": -0.005, 
+            "yErr": 6.35201452714217e-05, 
+            "yTitle": "HitResiduals X FPIX Mean"
+        }, 
+        {
+            "run": 285368, 
+            "ymax": 0.005, 
+            "y": -5.83352171874154e-05, 
+            "x": 4.0, 
+            "ymin": -0.005, 
+            "yErr": 0.00011556770353833367, 
+            "yTitle": "HitResiduals X FPIX Mean"
+        }
+    ]
+}

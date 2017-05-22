@@ -1,0 +1,40 @@
+{
+    "TrackChisquared_mean": [
+        {
+            "run": 285090, 
+            "ymax": 5.0, 
+            "y": 1.3466430645785556, 
+            "x": 1.0, 
+            "ymin": 0.5, 
+            "yErr": 0.03686298636859551, 
+            "yTitle": "GoodTrack average CHI2/NDF"
+        }, 
+        {
+            "run": 285216, 
+            "ymax": 5.0, 
+            "y": 1.340160002300001, 
+            "x": 2.0, 
+            "ymin": 0.5, 
+            "yErr": 0.008608238488294376, 
+            "yTitle": "GoodTrack average CHI2/NDF"
+        }, 
+        {
+            "run": 285244, 
+            "ymax": 5.0, 
+            "y": 1.333757457993584, 
+            "x": 3.0, 
+            "ymin": 0.5, 
+            "yErr": 0.007525897116960517, 
+            "yTitle": "GoodTrack average CHI2/NDF"
+        }, 
+        {
+            "run": 285368, 
+            "ymax": 5.0, 
+            "y": 1.347408390593368, 
+            "x": 4.0, 
+            "ymin": 0.5, 
+            "yErr": 0.015458352072250268, 
+            "yTitle": "GoodTrack average CHI2/NDF"
+        }
+    ]
+}

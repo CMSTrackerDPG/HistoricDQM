@@ -1,0 +1,40 @@
+{
+    "sizey_ONTk_Barrel_mean": [
+        {
+            "run": 285090, 
+            "ymax": 5.0, 
+            "y": 3.1414692261225587, 
+            "x": 1.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00655561899291979, 
+            "yTitle": "BPIX average cluster sizeY (in pixels)"
+        }, 
+        {
+            "run": 285216, 
+            "ymax": 5.0, 
+            "y": 3.1063921424723557, 
+            "x": 2.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001512675031203071, 
+            "yTitle": "BPIX average cluster sizeY (in pixels)"
+        }, 
+        {
+            "run": 285244, 
+            "ymax": 5.0, 
+            "y": 3.093174685418718, 
+            "x": 3.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0013239923743272911, 
+            "yTitle": "BPIX average cluster sizeY (in pixels)"
+        }, 
+        {
+            "run": 285368, 
+            "ymax": 5.0, 
+            "y": 3.147941817625537, 
+            "x": 4.0, 
+            "ymin": 0.0, 
+            "yErr": 0.002715491610043696, 
+            "yTitle": "BPIX average cluster sizeY (in pixels)"
+        }
+    ]
+}

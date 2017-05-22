@@ -1,0 +1,517 @@
+{
+    "sizex_ONTk_Endcap_mean": [
+        {
+            "run": 285090, 
+            "ymax": 5.0, 
+            "y": 1.5625883668168217, 
+            "x": 1.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0034890895279799006, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 285216, 
+            "ymax": 5.0, 
+            "y": 1.5611109879937881, 
+            "x": 2.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0008298070938625627, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 285244, 
+            "ymax": 5.0, 
+            "y": 1.5617031465113032, 
+            "x": 3.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0007358026990679857, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 285368, 
+            "ymax": 5.0, 
+            "y": 1.5608400146070538, 
+            "x": 4.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001495545829764201, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 285369, 
+            "ymax": 5.0, 
+            "y": 1.562502128368024, 
+            "x": 5.0, 
+            "ymin": 0.0, 
+            "yErr": 0.001247296367835798, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 285371, 
+            "ymax": 5.0, 
+            "y": 1.5635568496276655, 
+            "x": 6.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0015432884204330752, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 285374, 
+            "ymax": 5.0, 
+            "y": 1.5684575389948008, 
+            "x": 7.0, 
+            "ymin": 0.0, 
+            "yErr": 0.004678076999342949, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 285383, 
+            "ymax": 5.0, 
+            "y": 1.5627309451311975, 
+            "x": 8.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000991390185975432, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 285479, 
+            "ymax": 5.0, 
+            "y": 1.5626661939372453, 
+            "x": 9.0, 
+            "ymin": 0.0, 
+            "yErr": 0.007804259666710509, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 285480, 
+            "ymax": 5.0, 
+            "y": 1.555634332439584, 
+            "x": 10.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00048045659394037814, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 285505, 
+            "ymax": 5.0, 
+            "y": 1.5648679907786178, 
+            "x": 11.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000281210950783906, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 285517, 
+            "ymax": 5.0, 
+            "y": 1.5624924521977843, 
+            "x": 12.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00017923972727917038, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 285530, 
+            "ymax": 5.0, 
+            "y": 1.5662378955528755, 
+            "x": 13.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00016951141039088063, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 285537, 
+            "ymax": 5.0, 
+            "y": 1.5659979709791267, 
+            "x": 14.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00033827520286559663, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 285538, 
+            "ymax": 5.0, 
+            "y": 1.566103809249897, 
+            "x": 15.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005264418090766595, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 285539, 
+            "ymax": 5.0, 
+            "y": 1.5658865250227143, 
+            "x": 16.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0002452388291115899, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 285549, 
+            "ymax": 5.0, 
+            "y": 1.5655326713081101, 
+            "x": 17.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00030673743886688745, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 285684, 
+            "ymax": 5.0, 
+            "y": 1.566128765590084, 
+            "x": 18.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00018831833522963844, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 285718, 
+            "ymax": 5.0, 
+            "y": 1.5649079841033298, 
+            "x": 19.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0003693867947023105, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 285726, 
+            "ymax": 5.0, 
+            "y": 1.5652700368467378, 
+            "x": 20.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0003114756315082897, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 285750, 
+            "ymax": 5.0, 
+            "y": 1.5657138744406742, 
+            "x": 21.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00017992849399669865, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 285759, 
+            "ymax": 5.0, 
+            "y": 1.5666016005495353, 
+            "x": 22.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000266145200193439, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 285832, 
+            "ymax": 5.0, 
+            "y": 1.5624082946317148, 
+            "x": 23.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005907284759157522, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 285952, 
+            "ymax": 5.0, 
+            "y": 1.5852417302798982, 
+            "x": 24.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0479692293112573, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 285953, 
+            "ymax": 5.0, 
+            "y": 1.6413793103448275, 
+            "x": 25.0, 
+            "ymin": 0.0, 
+            "yErr": 0.060655054453995605, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 285954, 
+            "ymax": 5.0, 
+            "y": 1.5471092077087794, 
+            "x": 26.0, 
+            "ymin": 0.0, 
+            "yErr": 0.02018498591807098, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 285955, 
+            "ymax": 5.0, 
+            "y": 1.5821812596006144, 
+            "x": 27.0, 
+            "ymin": 0.0, 
+            "yErr": 0.016005098572551776, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 285956, 
+            "ymax": 5.0, 
+            "y": 1.5516870235767761, 
+            "x": 28.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0011905943393861577, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 285975, 
+            "ymax": 5.0, 
+            "y": 1.5612037166941415, 
+            "x": 29.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00031529406436431816, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 285993, 
+            "ymax": 5.0, 
+            "y": 1.5605940904097186, 
+            "x": 30.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00021859115727309734, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 285994, 
+            "ymax": 5.0, 
+            "y": 1.5916763678696157, 
+            "x": 31.0, 
+            "ymin": 0.0, 
+            "yErr": 0.010396638256172359, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 285995, 
+            "ymax": 5.0, 
+            "y": 1.5616668668187823, 
+            "x": 32.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0035007604378565534, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 286009, 
+            "ymax": 5.0, 
+            "y": 1.560972076448813, 
+            "x": 33.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00035596077913516464, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 286010, 
+            "ymax": 5.0, 
+            "y": 1.561106128991285, 
+            "x": 34.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00021634924294800087, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 286023, 
+            "ymax": 5.0, 
+            "y": 1.5615621985944979, 
+            "x": 35.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0002078771070457927, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 286031, 
+            "ymax": 5.0, 
+            "y": 1.5608292415394371, 
+            "x": 36.0, 
+            "ymin": 0.0, 
+            "yErr": 0.000321897238536311, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 286033, 
+            "ymax": 5.0, 
+            "y": 1.5613501552971432, 
+            "x": 37.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0005759517503614089, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 286034, 
+            "ymax": 5.0, 
+            "y": 1.5614115916530666, 
+            "x": 38.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0002658916897922176, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 286051, 
+            "ymax": 5.0, 
+            "y": 1.5618022238711182, 
+            "x": 39.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00027877329621278375, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 286054, 
+            "ymax": 5.0, 
+            "y": 1.5617441982330413, 
+            "x": 40.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00026754005583533086, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 286069, 
+            "ymax": 5.0, 
+            "y": 1.5630674827873425, 
+            "x": 41.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00027955857124496226, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 286070, 
+            "ymax": 5.0, 
+            "y": 1.5633449534618986, 
+            "x": 42.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0006109963937643984, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 286178, 
+            "ymax": 5.0, 
+            "y": 1.561219827984965, 
+            "x": 43.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00024042850506663155, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 286200, 
+            "ymax": 5.0, 
+            "y": 1.5610860524959063, 
+            "x": 44.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004817006903524496, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 286201, 
+            "ymax": 5.0, 
+            "y": 1.5617800166674123, 
+            "x": 45.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004093559150730641, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 286288, 
+            "ymax": 5.0, 
+            "y": 1.5610912027925286, 
+            "x": 46.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0007934114435801655, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 286301, 
+            "ymax": 5.0, 
+            "y": 1.5613138574079803, 
+            "x": 47.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00025564897794610824, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 286302, 
+            "ymax": 5.0, 
+            "y": 1.5622381075935166, 
+            "x": 48.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0003544553319865487, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 286309, 
+            "ymax": 5.0, 
+            "y": 1.5646569178852643, 
+            "x": 49.0, 
+            "ymin": 0.0, 
+            "yErr": 0.002386435052542847, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 286314, 
+            "ymax": 5.0, 
+            "y": 1.5614825967326382, 
+            "x": 50.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0007620347148158915, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 286327, 
+            "ymax": 5.0, 
+            "y": 1.5630517425511694, 
+            "x": 51.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0009992506015877134, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 286329, 
+            "ymax": 5.0, 
+            "y": 1.5615838478234276, 
+            "x": 52.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0004452130568880294, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 286365, 
+            "ymax": 5.0, 
+            "y": 1.5617833403519052, 
+            "x": 53.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00022039121240521889, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 286420, 
+            "ymax": 5.0, 
+            "y": 1.5593584832316596, 
+            "x": 54.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0016129404090124402, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 286422, 
+            "ymax": 5.0, 
+            "y": 1.5615061506150616, 
+            "x": 55.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0014427271282487619, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 286424, 
+            "ymax": 5.0, 
+            "y": 1.5505761843790014, 
+            "x": 56.0, 
+            "ymin": 0.0, 
+            "yErr": 0.021549422853494607, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }, 
+        {
+            "run": 286425, 
+            "ymax": 5.0, 
+            "y": 1.5619599909017772, 
+            "x": 57.0, 
+            "ymin": 0.0, 
+            "yErr": 0.00020398902604517745, 
+            "yTitle": "FPIX average cluster sizeX (in pixels)"
+        }
+    ]
+}

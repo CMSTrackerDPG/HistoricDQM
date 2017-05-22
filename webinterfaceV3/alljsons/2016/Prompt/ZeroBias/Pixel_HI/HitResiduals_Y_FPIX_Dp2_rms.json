@@ -1,0 +1,40 @@
+{
+    "HitResiduals_Y_FPIX_Dp2_rms": [
+        {
+            "run": 285090, 
+            "ymax": 0.1, 
+            "y": 0.030656935669823457, 
+            "x": 1.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0004530966470561728, 
+            "yTitle": "HitResiduals Y FPIX RMS"
+        }, 
+        {
+            "run": 285216, 
+            "ymax": 0.1, 
+            "y": 0.035206315666807125, 
+            "x": 2.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00012027511504298224, 
+            "yTitle": "HitResiduals Y FPIX RMS"
+        }, 
+        {
+            "run": 285244, 
+            "ymax": 0.1, 
+            "y": 0.03468282581952511, 
+            "x": 3.0, 
+            "ymin": -0.05, 
+            "yErr": 0.0001046850132322692, 
+            "yTitle": "HitResiduals Y FPIX RMS"
+        }, 
+        {
+            "run": 285368, 
+            "ymax": 0.1, 
+            "y": 0.0352067425958755, 
+            "x": 4.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00021494715251381514, 
+            "yTitle": "HitResiduals Y FPIX RMS"
+        }
+    ]
+}

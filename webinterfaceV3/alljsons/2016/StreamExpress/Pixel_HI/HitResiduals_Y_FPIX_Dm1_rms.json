@@ -1,0 +1,85 @@
+{
+    "HitResiduals_Y_FPIX_Dm1_rms": [
+        {
+            "run": 285090, 
+            "ymax": 0.1, 
+            "y": 0.012578147272711209, 
+            "x": 1.0, 
+            "ymin": -0.05, 
+            "yErr": 6.622538030951613e-06, 
+            "yTitle": "HitResiduals Y FPIX RMS"
+        }, 
+        {
+            "run": 285216, 
+            "ymax": 0.1, 
+            "y": 0.01301446653759507, 
+            "x": 2.0, 
+            "ymin": -0.05, 
+            "yErr": 1.387255475009004e-06, 
+            "yTitle": "HitResiduals Y FPIX RMS"
+        }, 
+        {
+            "run": 285244, 
+            "ymax": 0.1, 
+            "y": 0.01364040508907761, 
+            "x": 3.0, 
+            "ymin": -0.05, 
+            "yErr": 1.2069286804011443e-06, 
+            "yTitle": "HitResiduals Y FPIX RMS"
+        }, 
+        {
+            "run": 285368, 
+            "ymax": 0.1, 
+            "y": 0.012572590013691902, 
+            "x": 4.0, 
+            "ymin": -0.05, 
+            "yErr": 2.5973737006106906e-06, 
+            "yTitle": "HitResiduals Y FPIX RMS"
+        }, 
+        {
+            "run": 285369, 
+            "ymax": 0.1, 
+            "y": 0.013738789797157742, 
+            "x": 5.0, 
+            "ymin": -0.05, 
+            "yErr": 2.2056024334617845e-06, 
+            "yTitle": "HitResiduals Y FPIX RMS"
+        }, 
+        {
+            "run": 285371, 
+            "ymax": 0.1, 
+            "y": 0.012911568122606637, 
+            "x": 6.0, 
+            "ymin": -0.05, 
+            "yErr": 2.241769671161906e-06, 
+            "yTitle": "HitResiduals Y FPIX RMS"
+        }, 
+        {
+            "run": 285374, 
+            "ymax": 0.1, 
+            "y": 0.012894087968522941, 
+            "x": 7.0, 
+            "ymin": -0.05, 
+            "yErr": 6.331172308627193e-06, 
+            "yTitle": "HitResiduals Y FPIX RMS"
+        }, 
+        {
+            "run": 285383, 
+            "ymax": 0.1, 
+            "y": 0.013554363453441265, 
+            "x": 8.0, 
+            "ymin": -0.05, 
+            "yErr": 1.844800313902491e-06, 
+            "yTitle": "HitResiduals Y FPIX RMS"
+        }, 
+        {
+            "run": 285479, 
+            "ymax": 0.1, 
+            "y": 0.012212855845985129, 
+            "x": 9.0, 
+            "ymin": -0.05, 
+            "yErr": 7.275230148250416e-05, 
+            "yTitle": "HitResiduals Y FPIX RMS"
+        }
+    ]
+}

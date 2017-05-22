@@ -1,0 +1,49 @@
+{
+    "HitResiduals_TOB_layer6_mean": [
+        {
+            "run": 272711, 
+            "ymax": 0.01, 
+            "y": -0.001190747728659993, 
+            "x": 1.0, 
+            "ymin": -0.01, 
+            "yErr": 0.002109920503025945, 
+            "yTitle": "HitResiduals TOB Layer 6 Mean"
+        }, 
+        {
+            "run": 272712, 
+            "ymax": 0.01, 
+            "y": 0.0006836336106061935, 
+            "x": 2.0, 
+            "ymin": -0.01, 
+            "yErr": 0.0012633237288260514, 
+            "yTitle": "HitResiduals TOB Layer 6 Mean"
+        }, 
+        {
+            "run": 272714, 
+            "ymax": 0.01, 
+            "y": -0.00046030488475912905, 
+            "x": 3.0, 
+            "ymin": -0.01, 
+            "yErr": 0.0007818488502863141, 
+            "yTitle": "HitResiduals TOB Layer 6 Mean"
+        }, 
+        {
+            "run": 272716, 
+            "ymax": 0.01, 
+            "y": 0.0005256062823122945, 
+            "x": 4.0, 
+            "ymin": -0.01, 
+            "yErr": 0.001224784001577261, 
+            "yTitle": "HitResiduals TOB Layer 6 Mean"
+        }, 
+        {
+            "run": 272717, 
+            "ymax": 0.01, 
+            "y": 0.0005176803644965677, 
+            "x": 5.0, 
+            "ymin": -0.01, 
+            "yErr": 0.0018498358533891458, 
+            "yTitle": "HitResiduals TOB Layer 6 Mean"
+        }
+    ]
+}

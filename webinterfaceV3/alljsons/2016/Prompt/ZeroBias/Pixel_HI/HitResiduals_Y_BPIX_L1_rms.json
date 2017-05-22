@@ -1,0 +1,40 @@
+{
+    "HitResiduals_Y_BPIX_L1_rms": [
+        {
+            "run": 285090, 
+            "ymax": 0.1, 
+            "y": 0.02997269526108746, 
+            "x": 1.0, 
+            "ymin": -0.05, 
+            "yErr": 0.00017248490339752485, 
+            "yTitle": "HitResiduals Y BPIX RMS"
+        }, 
+        {
+            "run": 285216, 
+            "ymax": 0.1, 
+            "y": 0.0313672587031625, 
+            "x": 2.0, 
+            "ymin": -0.05, 
+            "yErr": 4.1660390582683185e-05, 
+            "yTitle": "HitResiduals Y BPIX RMS"
+        }, 
+        {
+            "run": 285244, 
+            "ymax": 0.1, 
+            "y": 0.03097499536257506, 
+            "x": 3.0, 
+            "ymin": -0.05, 
+            "yErr": 3.614639774064029e-05, 
+            "yTitle": "HitResiduals Y BPIX RMS"
+        }, 
+        {
+            "run": 285368, 
+            "ymax": 0.1, 
+            "y": 0.03102429177272973, 
+            "x": 4.0, 
+            "ymin": -0.05, 
+            "yErr": 7.354082133133431e-05, 
+            "yTitle": "HitResiduals Y BPIX RMS"
+        }
+    ]
+}

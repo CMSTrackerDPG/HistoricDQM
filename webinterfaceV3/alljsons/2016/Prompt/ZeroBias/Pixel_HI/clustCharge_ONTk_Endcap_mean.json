@@ -1,0 +1,40 @@
+{
+    "clustCharge_ONTk_Endcap_mean": [
+        {
+            "run": 285090, 
+            "ymax": 0.0, 
+            "y": 19.99983825953213, 
+            "x": 1.0, 
+            "ymin": 0.0, 
+            "yErr": 0.0958599253150234, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 285216, 
+            "ymax": 0.0, 
+            "y": 19.87152766477985, 
+            "x": 2.0, 
+            "ymin": 0.0, 
+            "yErr": 0.020685305588127943, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 285244, 
+            "ymax": 0.0, 
+            "y": 19.863041090786208, 
+            "x": 3.0, 
+            "ymin": 0.0, 
+            "yErr": 0.019262817999593982, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }, 
+        {
+            "run": 285368, 
+            "ymax": 0.0, 
+            "y": 19.881947678503963, 
+            "x": 4.0, 
+            "ymin": 0.0, 
+            "yErr": 0.03913518078502735, 
+            "yTitle": "FPIX Cluster Charge (Mean value)"
+        }
+    ]
+}
