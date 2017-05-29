@@ -8,3 +8,8 @@ cp "$WORKINGDIR/.DQMCacheCronCExpress" "$WORKINGDIR/CacheBackup/DQMCacheCronCExp
 cp "$WORKINGDIR/.DQMCacheCronCExpressPixel" "$WORKINGDIR/CacheBackup/DQMCacheCronCExpressPixel$subfix"
 cp "$WORKINGDIR/.DQMCacheCronCPrompt" "$WORKINGDIR/CacheBackup/DQMCacheCronCPrompt$subfix"
 cp "$WORKINGDIR/.DQMCacheCronCPromptPixel" "$WORKINGDIR/CacheBackup/DQMCacheCronCPromptPixel$subfix"
+
+cp "$WORKINGDIR/.DQMCacheCronPPExpressStrips" "$WORKINGDIR/CacheBackup/DQMCacheCronPPExpressStrips$subfix"
+cp "$WORKINGDIR/.DQMCacheCronPPExpressPixel" "$WORKINGDIR/CacheBackup/DQMCacheCronPPExpressPixel$subfix"
+cp "$WORKINGDIR/.DQMCacheCronPPExpressTracking" "$WORKINGDIR/CacheBackup/DQMCacheCronPPExpressTracking$subfix"
+
