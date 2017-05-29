@@ -1,0 +1,9 @@
+#APV shots plots
+[plot:Mean_NShot_Vs_Run]
+metric = basic.Mean()
+relativePath = SiStrip/MechanicalView/Number_of_Apv_Shots
+runOffset = 132000
+threshold = 10
+yTitle = Mean_NShots_Vs_Run
+relSystematic = 0.1
+

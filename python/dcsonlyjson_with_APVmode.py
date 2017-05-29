@@ -2,6 +2,7 @@
 import urllib,os,string,sys,commands,time,json
 from rrapi import RRApi, RRApiError
 from optparse import OptionParser
+from os.path import exists as pathExisits
 
 parser = OptionParser()
 parser.add_option("-c", "--cosmics", dest="cosmics", action="store_true", default=False, help="cosmic runs")
@@ -16,24 +17,43 @@ def toOrdinaryJSON(fromRR3, verbose=False):
             runNum = block['runNumber']
             lumiStart = block['sectionFrom']
             lumiEnd = block['sectionTo']
-            if verbose:
-                print " debug: Run ", runNum, " Lumi ", lumiStart, ", ", lumiEnd
+            runExist = 0
+            if pathExisits(".APVModeCache"):
+                cacheIFile = open(".APVModeCache","r")
+                dataCache= []
+                for line in cacheIFile :
+                    dataCache=line.split()
+                    if dataCache[0] == str(runNum) :
+                        runExist = 1
+                        modeCache = dataCache[1]
+                        print "Cache APV Mode for Run : ",dataCache[0]," is : ",dataCache[1]
+                        break
+            if runExist == 0:
+                if verbose:
+                    print " debug: Run ", runNum, " Lumi ", lumiStart, ", ", lumiEnd
 
-            link = "http://cern.ch/erik.butz/cgi-bin/getReadOutmode.pl?RUN=" + str(runNum)
-            f = urllib.urlopen(link)
-            json_data = f.read()
-            dbmodelist = json.loads(json_data)
-            dbmode = dbmodelist[0][1]
-            print "APV Mode for Run : ",runNum, " is : ", dbmode
-
+                link = "http://cern.ch/erik.butz/cgi-bin/getReadOutmode.pl?RUN=" + str(runNum)
+                f = urllib.urlopen(link)
+                json_data = f.read()
+                dbmodelist = json.loads(json_data)
+                dbmode = dbmodelist[0][1]
+                print "DB APV Mode for Run : ",runNum, " is : ", dbmode
+                cacheOFile = open(".APVModeCache","a")
+                cacheOFile.write(str(runNum))
+                cacheOFile.write(" ")
+                cacheOFile.write(dbmode)
+                cacheOFile.write("\n")
+                cacheOFile.close()
+            else: dbmode=modeCache                
             if options.Peak:
- 	             if  dbmode == "PEAK":
-		             print "Write Run : ",runNum, " with APV mode : ", dbmode
-		             result.setdefault(str(runNum), []).append([lumiStart, lumiEnd])
+                if  dbmode == "PEAK":
+                    print "Write Run : ",runNum, " with APV mode : ", dbmode
+                    result.setdefault(str(runNum), []).append([lumiStart, lumiEnd])
             else:
-	             if  dbmode == "DECO": 
-		         print "Write Run : ",runNum, " with APV mode : ", dbmode
-		         result.setdefault(str(runNum), []).append([lumiStart, lumiEnd])
+                if  dbmode == "DECO": 
+                    print "Write Run : ",runNum, " with APV mode : ", dbmode
+                    result.setdefault(str(runNum), []).append([lumiStart, lumiEnd])
+
 
     return result
 
@@ -49,9 +69,11 @@ def getRunList(save=False):
         print e
 
     #filter = {"runNumber": ">= %d" % minRun, "dataset": {"rowClass": "org.cern.cms.dqm.runregistry.user.model.RunDatasetRowGlobal", "filter": {"online": "= true", "datasetName": "like %Online%ALL", "runClassName" : "Collisions16", "run": {"rowClass": "org.cern.cms.dqm.runregistry.user.model.RunSummaryRowGlobal", "filter": {"pixelPresent": "= true", "trackerPresent": "= true"}}}}}
-    runclass = "Collisions16"
-    if options.cosmics: runclass = "Cosmics16"
+    runclass = "Collisions17"
     filter = {"runNumber": ">= %d" % options.min, "dataset": {"rowClass": "org.cern.cms.dqm.runregistry.user.model.RunDatasetRowGlobal", "filter": {"online": "= true", "datasetName": "like %Online%ALL", "runClassName" : "%s" % runclass, "run": {"rowClass": "org.cern.cms.dqm.runregistry.user.model.RunSummaryRowGlobal", "filter": {"pixelPresent": "= true", "trackerPresent": "= true"}}}}}
+    if options.cosmics:
+        runclass = "Cosmics17CRUZET || Cosmics17"
+        filter = {"runNumber": ">= %d" % options.min, "dataset": {"rowClass": "org.cern.cms.dqm.runregistry.user.model.RunDatasetRowGlobal", "filter": {"online": "= true", "datasetName": "like %Online%ALL", "runClassName" : "%s" % runclass, "run": {"rowClass": "org.cern.cms.dqm.runregistry.user.model.RunSummaryRowGlobal", "filter": {"trackerPresent": "= true"}}}}}
 
     filter.setdefault("fpixReady", "isNull OR = true")
     filter.setdefault("bpixReady", "isNull OR = true")
@@ -102,9 +124,10 @@ def getRunList(save=False):
           #      else:
           #         filename = 'json_DCSONLY_DECO.txt'
 
-            lumiSummary = open('/afs/cern.ch/user/c/cctrack/scratch0/hDQM/CMSSW_8_0_2/src/DQM/SiStripHistoricInfoClient/test/NewHDQM/'+filename, 'w')
+            lumiSummary = open('/data/users/HDQM/CMSSW_9_1_0_pre1/HistoricDQM/python/'+filename, 'w')
             json.dump(toOrdinaryJSON(dcs_only, verbose=False), lumiSummary, indent=2, sort_keys=True)
             lumiSummary.close()
+
     else:
         print " Something wrong, the DCSONLY file has 0 length... skipping it"
                         
