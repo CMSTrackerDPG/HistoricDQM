@@ -2,11 +2,11 @@
 
 #DCS JSON file production for collisions and cosmics
  
-python dcsonlyjson_all.py --min 290129
+python dcsonlyjson_all.py --min 294600
 #python dcsonlyjson_with_APVmode.py --min 290129
 #python dcsonlyjson_with_APVmode.py --min 290129 --PEAK
 
-python dcsonlyjson_all.py --min 290129 --cosmics
+python dcsonlyjson_all.py --min 294600 --cosmics
 #python dcsonlyjson.py --min 290129 --cosmics
 #python dcsonlyjson_with_APVmode.py --min 290129 --cosmics
 #python dcsonlyjson_with_APVmode.py --min 290129 --cosmics --PEAK 
@@ -149,7 +149,7 @@ touch .doneStreamExpressCosmics
 
 #StreamExpressCosmics PIXEL
 rm -rf ./JSON/*
-python trendPlots.py -C cfg/trendPlotsDQM_cronCExpressPixel.ini -C cfg/trendPlotsPixelPhase1_ADCDIGI.ini -C cfg/trendPlotsPixelPhase1_clustersV2.ini --dataset StreamExpressCosmics --epoch Run2017 -r "run>=292505" --reco Express -J json_DCSONLY_cosmics.txt
+python trendPlots.py -C cfg/trendPlotsDQM_cronCExpressPixel.ini -C cfg/trendPlotsPixelPhase1_ADCDIGI.ini -C cfg/trendPlotsPixelPhase1_clusters.ini --dataset StreamExpressCosmics --epoch Run2017 -r "run>=292505" --reco Express -J json_DCSONLY_cosmics.txt
 cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/StreamExpressCosmics/PixelPhase1/
 cp ./JSON/* /data/users/event_display/HDQM/v2/alljsons/2017/StreamExpressCosmics/PixelPhase1/
 touch .doneStreamExpressCosmics
