@@ -82,7 +82,10 @@ class Landau(BaseMetric):
         histo.Fit(fit,"OR")
         histo.Fit(fit,"OR")
         histo.Fit(fit,"OR")
-        result = (fit.GetParameter(self.desired), fit.GetParError(self.desired))
+        if (fit.GetParameter(self.desired)>0) :
+            result = (fit.GetParameter(self.desired), fit.GetParError(self.desired))
+        else :
+            result = (0.0, 0.0)
         del fit
         return result
 
