@@ -48,10 +48,10 @@
             "NDigis_Endcap_mean"
         ],
 	[
-            "clustCharge_ONTk_Barrel_mean"
+            "clustCharge_ALL_Barrel_mean"
         ],
         [
-            "clustCharge_ONTk_Endcap_mean"
+            "clustCharge_ALL_Endcap_mean"
         ],
         [
             "NClus_Barrel_mean"
@@ -60,22 +60,22 @@
             "NClus_Endcap_mean"
         ],
 	[
-            "size_ONTk_Barrel_mean"
+            "size_ALL_Barrel_mean"
         ],
         [
-            "size_ONTk_Endcap_mean"
+            "size_ALL_Endcap_mean"
         ],
         [
-            "sizex_ONTk_Barrel_mean"
+            "sizex_ALL_Barrel_mean"
         ],
         [
-            "sizex_ONTk_Endcap_mean"
+            "sizex_ALL_Endcap_mean"
         ],
         [
-            "sizey_ONTk_Barrel_mean"
+            "sizey_ALL_Barrel_mean"
         ],
         [
-            "sizey_ONTk_Endcap_mean"
+            "sizey_ALL_Endcap_mean"
         ]		   
     ],
     "SreamExpressCosmicPixelPhase1Commissioning": [
@@ -171,10 +171,10 @@
             "NDigis_Endcap_mean"
         ],
         [
-	    "clustCharge_ONTk_Barrel_mean"
+	    "clustCharge_ALL_Barrel_mean"
 	],
 	[
-	    "clustCharge_ONTk_Endcap_mean"
+	    "clustCharge_ALL_Endcap_mean"
 	],
 	[
             "NClus_Barrel_mean"
@@ -183,22 +183,22 @@
             "NClus_Endcap_mean"
         ],
 	[
-            "size_ONTk_Barrel_mean"
+            "size_ALL_Barrel_mean"
         ],
         [
-            "size_ONTk_Endcap_mean"
+            "size_ALL_Endcap_mean"
         ],
         [
-            "sizex_ONTk_Barrel_mean"
+            "sizex_ALL_Barrel_mean"
         ],
         [
-            "sizex_ONTk_Endcap_mean"
+            "sizex_ALL_Endcap_mean"
         ],
         [
-            "sizey_ONTk_Barrel_mean"
+            "sizey_ALL_Barrel_mean"
         ],
         [
-            "sizey_ONTk_Endcap_mean"
+            "sizey_ALL_Endcap_mean"
         ]   
     ],
      "CosmicPixelPhase1Commissioning": [
@@ -379,6 +379,140 @@
             "ClusterProbabilityXY_FPIX_D2_Plus"
         ]        
     ],
+    "PixelPhase1": [
+        [
+            "ADC_Barrel_mean"
+        ],
+        [
+            "ADC_Endcap_mean"
+        ],
+        [
+            "NDigis_Barrel_mean"
+        ],
+        [
+            "NDigis_Endcap_mean"
+        ],
+        [
+	    "NClus_ONTk_Barrel_mean"
+        ],
+        [
+	    "NClus_Barrel_mean"
+        ],
+        [
+	    "NClus_ONTk_Endcap_mean"
+        ],
+        [
+	    "NClus_Endcap_mean"
+        ],
+        [
+	    "clustCharge_ONTk_Barrel_mean",
+	    "clustCharge_ONTk_Barrel_mpv"
+        ],
+        [
+	    "clustCharge_ALL_Barrel_mean"
+        ],
+        [
+	    "clustCharge_ONTk_Endcap_mean",
+	    "clustCharge_ONTk_Endcap_mpv"
+        ],
+        [
+	    "clustCharge_ALL_Endcap_mean"
+        ],
+        [
+	    "TotalNumber_ReadOut_Errors"
+        ],
+        [
+	    "averageFEDDigisOccupancy"
+        ],
+        [
+	    "size_ONTk_Barrel_mean"
+        ],
+        [
+	    "size_ALL_Barrel_mean"
+        ],
+        [
+	    "size_ONTk_Endcap_mean"
+        ],
+        [
+	    "size_ALL_Endcap_mean"
+        ],
+        [
+	    "sizex_ALL_Barrel_mean"
+        ],
+        [
+	    "sizey_ALL_Barrel_mean"
+        ],
+        [
+	    "sizex_ALL_Endcap_mean"
+        ],
+        [
+	    "sizey_ALL_Endcap_mean"
+        ],
+        [
+            "Residuals_X_BPIX_L1_mean",
+            "Residuals_X_BPIX_L2_mean",
+            "Residuals_X_BPIX_L3_mean",
+            "Residuals_X_BPIX_L4_mean"
+        ],
+        [
+            "Residuals_X_BPIX_L1_rms",
+            "Residuals_X_BPIX_L2_rms",
+            "Residuals_X_BPIX_L3_rms",
+            "Residuals_X_BPIX_L4_rms"
+        ],
+        [
+            "Residuals_Y_BPIX_L1_mean",
+            "Residuals_Y_BPIX_L2_mean",
+            "Residuals_Y_BPIX_L3_mean",
+            "Residuals_Y_BPIX_L4_mean"
+        ],
+        [
+            "Residuals_Y_BPIX_L1_rms",
+            "Residuals_Y_BPIX_L2_rms",
+            "Residuals_Y_BPIX_L3_rms",
+            "Residuals_Y_BPIX_L4_rms"
+        ],
+        [
+            "Residuals_X_FPIX_Dm1_mean",
+            "Residuals_X_FPIX_Dm2_mean",
+            "Residuals_X_FPIX_Dm3_mean"
+        ],
+        [
+            "Residuals_X_FPIX_Dm1_rms",
+            "Residuals_X_FPIX_Dm2_rms",
+            "Residuals_X_FPIX_Dm3_rms"
+        ],
+        [
+            "Residuals_X_FPIX_Dp1_mean",
+            "Residuals_X_FPIX_Dp2_mean",
+            "Residuals_X_FPIX_Dp3_mean"
+        ],
+        [
+            "Residuals_X_FPIX_Dp1_rms",
+            "Residuals_X_FPIX_Dp2_rms",
+            "Residuals_X_FPIX_Dp3_rms"
+        ],
+        [
+            "Residuals_Y_FPIX_Dm1_mean",
+            "Residuals_Y_FPIX_Dm2_mean",
+            "Residuals_Y_FPIX_Dm3_mean"
+        ],
+        [
+            "Residuals_Y_FPIX_Dm1_rms",
+            "Residuals_Y_FPIX_Dm2_rms",
+            "Residuals_Y_FPIX_Dm3_rms"
+        ],
+        [
+            "Residuals_Y_FPIX_Dp1_mean",
+            "Residuals_Y_FPIX_Dp2_mean",
+            "Residuals_Y_FPIX_Dp3_mean"
+        ],
+        [
+            "Residuals_Y_FPIX_Dp1_rms",
+            "Residuals_Y_FPIX_Dp2_rms",
+            "Residuals_Y_FPIX_Dp3_rms"
+        ]
+    ],
     "StreamExprCosmicTracking": [
         [
             "NumberOfCosmicTracks_mean"
@@ -539,13 +673,15 @@
 	    "NClus_Endcap_mean"
         ],
         [
-	    "clustCharge_ONTk_Barrel_mean"
+	    "clustCharge_ONTk_Barrel_mean",
+	    "clustCharge_ONTk_Barrel_mpv"
         ],
         [
 	    "clustCharge_ALL_Barrel_mean"
         ],
         [
-	    "clustCharge_ONTk_Endcap_mean"
+	    "clustCharge_ONTk_Endcap_mean",
+	    "clustCharge_ONTk_Endcap_mpv"
         ],
         [
 	    "clustCharge_ALL_Endcap_mean"
