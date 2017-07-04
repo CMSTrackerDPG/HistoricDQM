@@ -206,7 +206,7 @@ def dqm_getTFile_Version(server, run, dataset,datatier):
     vers=0
     for i in range(1,100):
         urlpath=(('%s/data/browse/ROOT/OfflineData/%s/%s/%sxx/DQM_V%.4d_R%.9d__%s__%s__%s.root') % (server, datainfo[2][0:7],datainfo[1], runGen[0:-2],i, run, datainfo[1], datainfo[2],datatier))
-        print urlpath
+#        print urlpath
         try:
             urllib2.build_opener(X509CertOpen()).open(urlpath)
             vers=i
