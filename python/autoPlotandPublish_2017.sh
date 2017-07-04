@@ -203,12 +203,12 @@ cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/Prompt/ZeroBias/Pixe
 touch .doneZeroBiasPixel
 
 #ZeroBias TRACKING                                                                                                                                            
-#rm -rf ./JSON/*
-#python ./trendPlots.py -C cfg/trendPlotsDQM_cronPPPromptTracking.ini -C cfg/trendPlotsTracking.ini --dataset ZeroBias --epoch Run2017 -r "run >= 290129" --reco Prompt -J json_DCSONLY.txt
-#python ./MakeRatioJSON.py -n NumberOfTrack_mean -d NumberofPVertices_mean -f TrkOverPVertices_ratio -t TrkOverPVertices_ratio
-#cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/Prompt/ZeroBias/Tracking/
-#cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/Prompt/ZeroBias/Tracking/
-#touch .doneZeroBiasTracking
+rm -rf ./JSON/*
+python ./trendPlots.py -C cfg/trendPlotsDQM_cronPPPromptTracking.ini -C cfg/trendPlotsTracking.ini --dataset ZeroBias --epoch Run2017 -r "run >= 290129" --reco Prompt -J json_DCSONLY.txt
+python ./MakeRatioJSON.py -n NumberOfTrack_mean -d NumberofPVertices_mean -f TrkOverPVertices_ratio -t TrkOverPVertices_ratio
+cp ./JSON/* /data/users/event_display/HDQM/v2/alljsons/2017/Prompt/ZeroBias/Tracking/
+cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/Prompt/ZeroBias/Tracking/
+touch .doneZeroBiasTracking
 
 
 # ++++++++++++++++++++++++++++++++   StreamExpress +++++++++++++++++++++++++++++++++++++++                                                       
@@ -237,6 +237,14 @@ python ./trendPlots.py -C cfg/trendPlotsDQM_cronPPExpressStrips.ini -C cfg/trend
 cp ./JSON/* /data/users/event_display/HDQM/v2/alljsons/2017/StreamExpress/Strips/PEAK/
 cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/StreamExpress/Strips/PEAK/
 touch .doneStreamExpress
+
+#StreamExpress Strips Gains
+rm -rf ./JSON/*
+python ./trendPlots_ROOTfile.py -C cfg/trendPlotsDQM_cronPPExpressStrips.ini -C cfg/trendPlotsStrip_GainsAAG.ini --dataset StreamExpress --epoch Run2017 -r "run >= 290129" --reco PromptCalibProdSiStripGainsAAG-Express --datatier ALCAPROMPT -J json_DCSONLY_DECO.txt
+cp ./JSON/* /data/users/event_display/HDQM/v2/alljsons/2017/StreamExpress/Strips/DECO/
+cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/StreamExpress/Strips/DECO/
+touch .doneStreamExpress
+
 
 #StreamExpress PIXEL
 rm -rf ./JSON/*
