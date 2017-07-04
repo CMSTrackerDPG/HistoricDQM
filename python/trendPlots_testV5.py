@@ -469,7 +469,7 @@ def getReferenceRun(config, runs):
       config.set("reference","name", directories[0])
       file.Close()
 
-def getRunsFromDQM(config, mask, pd, mode, runMask="all",runlistfile=[],jsonfile=[]):
+def getRunsFromDQM(config, mask, pd, mode, datatier,runMask="all", runlistfile=[],jsonfile=[]):
     from src.dqmjson import dqm_get_samples,dqm_getTFile_Version
 #    import simplejson as jsonn
     import json as jsonn
@@ -506,7 +506,7 @@ def getRunsFromDQM(config, mask, pd, mode, runMask="all",runlistfile=[],jsonfile
                     continue
             if runlistfile==[] and jsonfile==[]:
                 if eval(runMask,{"all":True,"run":runNr}):
-                    version=dqm_getTFile_Version(serverUrl, runNr, dataset)
+                    version=dqm_getTFile_Version(serverUrl, runNr, dataset, datatier)
                     result[runNr] = (serverUrl, runNr, dataset,version)
             else:
                  for run_temp in runs1:
@@ -685,7 +685,7 @@ def main(argv=None):
     print "opts.list = ",opts.list
     print "opts.json = ",opts.json
      
-    runs = getRunsFromDQM(config, dsetmask, opts.dset, opts.state, opts.runs,opts.list,opts.json)
+    runs = getRunsFromDQM(config, dsetmask, opts.dset, opts.state, opts.datatier,opts.runs,opts.list,opts.json)
     if not runs : raise StandardError, "*** Number of runs matching run/mask/etc criteria is equal to zero!!!"
 
     print "runs= ", runs
@@ -704,12 +704,14 @@ def main(argv=None):
             rc = dqm_get_json(runs[run][0],runs[run][1],runs[run][2], "Info/ProvInfo")
             print "............------------>>> RunIsComplete flag: " , rc['runIsComplete']['value']
             isDone = int(rc['runIsComplete']['value'])
+            if opts.datatier != "DQMIO" :
+                isDone = 1
         else:
             isDone = 1
             print "............------------>>> RUN %s IN CACHE"%(runs[run][1])
         if isDone == 1 :
             if(runs[run][2]!=0):
-                tfile=dqm_getTFile(*(runs[run]))
+                tfile=dqm_getTFile(runs[run][0],runs[run][1],runs[run][2],runs[run][3],opts.datatier)
                 for plot in plots:
                     plot.addRun(runs[run][0],runs[run][1],runs[run][2],tfile)
                 tfile.Close()
