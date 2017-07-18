@@ -208,6 +208,13 @@ cp ./JSON/* /data/users/event_display/HDQM/v2/alljsons/2017/Prompt/ZeroBias/Pixe
 cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/Prompt/ZeroBias/PixelPhase1/
 touch .doneZeroBiasPixel
 
+rm -rf ./JSON/*
+python ./trendPlots_ROOTfile.py -C cfg/trendPlotsDQM_cronPPPromptPixel.ini -C cfg/trendPlotsPixelPhase1_clustersBPIX.ini -C cfg/trendPlotsPixelPhase1_clustersFPIX.ini --dataset ZeroBias --epoch Run2017 -r "run >= 292505" --reco Prompt -J json_DCSONLY.txt
+cp ./JSON/* /data/users/event_display/HDQM/v2/alljsons/2017/Prompt/ZeroBias/PixelPhase1/
+cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/Prompt/ZeroBias/PixelPhase1/
+touch .doneZeroBiasPixel
+
+
 #ZeroBias TRACKING                                                                                                                                            
 rm -rf ./JSON/*
 python ./trendPlots.py -C cfg/trendPlotsDQM_cronPPPromptTracking.ini -C cfg/trendPlotsTracking.ini --dataset ZeroBias --epoch Run2017 -r "run >= 290129" --reco Prompt -J json_DCSONLY.txt
@@ -270,6 +277,13 @@ python ./trendPlots.py -C cfg/trendPlotsDQM_cronPPExpressPixel.ini -C cfg/trendP
 cp ./JSON/* /data/users/event_display/HDQM/v2/alljsons/2017/StreamExpress/PixelPhase1/
 cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/StreamExpress/PixelPhase1/
 touch .doneStreamExpressPixel
+
+rm -rf ./JSON/*
+python ./trendPlots_ROOTfile.py -C cfg/trendPlotsDQM_cronPPExpressPixel.ini -C cfg/trendPlotsPixelPhase1_clustersBPIX.ini -C cfg/trendPlotsPixelPhase1_clustersFPIX.ini --dataset StreamExpress --epoch Run2017 -r "run >= 292505" --reco Express -J json_DCSONLY.txt
+cp ./JSON/* /data/users/event_display/HDQM/v2/alljsons/2017/StreamExpress/PixelPhase1/
+cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/StreamExpress/PixelPhase1/
+touch .doneStreamExpressPixel
+
 
 #StreamExpress TRACKING
 rm -rf ./JSON/*

@@ -276,7 +276,9 @@ class TrendPlot:
        # save_path = './JSON/'
         #completeName = os.path.join(save_path, self.__title+".json")
         if not os.path.exists("./JSON_RECO"):
-            os.makedirs("./JSON_RECO/"+dset)
+            os.makedirs("./JSON_RECO")
+        if not os.path.exists("JSON_RECO/"+dset):
+            os.makedirs("JSON_RECO/"+dset)
         with open("./JSON_RECO/"+dset+"/"+self.__title+".json", 'w') as outfile:
             json.dump(obj, outfile,indent=4)
         print  json.dumps(obj,indent=2)
