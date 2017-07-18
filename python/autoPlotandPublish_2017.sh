@@ -178,6 +178,12 @@ cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/Prompt/ZeroBias/Stri
 touch .doneZeroBias
 
 rm -rf ./JSON/*
+python ./trendPlots.py -C cfg/trendPlotsDQM_cronPPPromptStrips.ini  -C cfg/trendPlotsStrip_StoN_TOB.ini  -C cfg/trendPlotsStrip_StoN_TIB.ini   -C cfg/trendPlotsStrip_StoN_TEC_PLUS.ini  -C cfg/trendPlotsStrip_StoN_TEC_MINUS.ini -C cfg/trendPlotsStrip_StoN_TID_PLUS.ini  -C cfg/trendPlotsStrip_StoN_TID_MINUS.ini --dataset ZeroBias --epoch Run2017 -r "run >= 271036" --reco Prompt -J json_DCSONLY_DECO.txt
+cp ./JSON/* /data/users/event_display/HDQM/v2/alljsons/2017/Prompt/ZeroBias/Strips/DECO/   
+cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/Prompt/ZeroBias/Strips/DECO/
+touch .doneZeroBias
+
+rm -rf ./JSON/*
 python ./trendPlots.py -C cfg/trendPlotsDQM_cronPPPromptStrips.ini -C cfg/trendPlotsStrip_General_2015.ini -C cfg/trendPlotsStrip_TEC_2015.ini -C cfg/trendPlotsStrip_TID_2015.ini -C cfg/trendPlotsStrip_TIB.ini -C cfg/trendPlotsStrip_TOB.ini -C cfg/trendPlotsStripG2.ini -C cfg/trendPlotsStrip_StoN.ini -C cfg/trendPlotsStrip_Number_APVShots.ini --dataset ZeroBias --epoch Run2017 -r "run >= 290129" --reco Prompt -J json_DCSONLY_PEAK.txt
 cp ./JSON/* /data/users/event_display/HDQM/v2/alljsons/2017/Prompt/ZeroBias/Strips/PEAK/
 cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/Prompt/ZeroBias/Strips/PEAK/
@@ -227,6 +233,12 @@ cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/StreamExpress/Strips
 touch .doneStreamExpress
 
 rm -rf ./JSON/*
+python ./trendPlots.py -C cfg/trendPlotsDQM_cronPPExpressStrips.ini  -C cfg/trendPlotsStrip_StoN_TOB.ini  -C cfg/trendPlotsStrip_StoN_TIB.ini   -C cfg/trendPlotsStrip_StoN_TEC_PLUS.ini  -C cfg/trendPlotsStrip_StoN_TEC_MINUS.ini -C cfg/trendPlotsStrip_StoN_TID_PLUS.ini  -C cfg/trendPlotsStrip_StoN_TID_MINUS.ini --dataset StreamExpress --epoch Run2017 -r "run >= 271036" --reco Express -J json_DCSONLY_DECO.txt
+cp ./JSON/* /data/users/event_display/HDQM/v2/alljsons/2017/StreamExpress/Strips/DECO/
+cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/StreamExpress/Strips/DECO/
+touch .doneStreamExpress
+
+rm -rf ./JSON/*
 python ./trendPlots.py -C cfg/trendPlotsDQM_cronPPExpressStrips.ini -C cfg/trendPlotsStrip_General_2015.ini -C cfg/trendPlotsStrip_TEC_2015.ini -C cfg/trendPlotsStrip_TID_2015.ini -C cfg/trendPlotsStrip_TIB.ini -C cfg/trendPlotsStrip_TOB.ini -C cfg/trendPlotsStripG2.ini -C cfg/trendPlotsStrip_StoN.ini -C cfg/trendPlotsStrip_Number_APVShots.ini --dataset StreamExpress --epoch Run2017 -r "run >= 290129" --reco Express -J json_DCSONLY_PEAK.txt
 cp ./JSON/* /data/users/event_display/HDQM/v2/alljsons/2017/StreamExpress/Strips/PEAK/
 cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/StreamExpress/Strips/PEAK/
@@ -266,3 +278,21 @@ python ./MakeRatioJSON.py -n NumberOfTrack_mean -d NumberofPVertices_mean -f Trk
 cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/StreamExpress/Tracking/
 cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/StreamExpress/Tracking/
 touch .doneStreamExpressTracking
+
+
+# Reco Errors
+if [ -d  JSON_RECO ]
+  then
+      rm -r JSON_RECO
+fi
+python ./trendPlots_RECOErrors2017.py -C cfg/trendPlotsDQM.ini -C cfg/trendPlotsRECOErrors.ini --dataset StreamExpress --epoch Run2017 -J json_DCSONLY.txt --reco Express
+python ./trendPlots_RECOErrors2017.py -C cfg/trendPlotsDQM.ini -C cfg/trendPlotsRECOErrors.ini --dataset ZeroBias --epoch Run2017 -J json_DCSONLY.txt --reco Prompt
+cp JSON_RecoErrors_ImpFiles/*.* JSON_RECO/
+cd JSON_RECO
+./doRatio.sh StreamExpress
+cp ./StreamExpress/* /data/users/event_display/HDQM/v2/alljsons/2017/StreamExpress/RecoErrors/
+cp ./StreamExpress/* /data/users/event_display/HDQM/v3/alljsons/2017/StreamExpress/RecoErrors/
+./doRatio.sh ZeroBias
+cp ./ZeroBias/* /data/users/event_display/HDQM/v2/alljsons/2017/Prompt/ZeroBias/RecoErrors/
+cp ./ZeroBias/* /data/users/event_display/HDQM/v3/alljsons/2017/Prompt/ZeroBias/RecoErrors/
+cd ..

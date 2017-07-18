@@ -1,5 +1,5 @@
 #!/bin/bash
-dir="/afs/cern.ch/user/c/cctrack/scratch0/hDQM/CMSSW_8_0_2/src/DQM/SiStripHistoricInfoClient/test/NewHDQM/JSON_RECO"
+dir="/data/users/HDQM/CMSSW_9_1_0_pre1/HistoricDQM/python/JSON_RECO"
 file=$dir"/ratioRECOErrors.ini"
 while IFS=' | ' read -r f1 f2
 do

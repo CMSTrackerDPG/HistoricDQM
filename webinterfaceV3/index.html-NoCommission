@@ -268,7 +268,7 @@ header {
 	<header>
 		<p class="contact-input"> 		 
 			<label for="select" class="select"> <select id="year"
-				name="Year" onchange="update_collections();">
+				name="Year">
 					<option value="" selected>Choose Year...</option>
 					<option>2011</option>
 					<option>2012</option>
@@ -284,10 +284,8 @@ header {
 					<option value="" selected>Choose DataSet...</option>
 					<option>StreamExpress</option>
 					<option>StreamExpressCosmics</option>
-					<option>StreamExpressCosmicsCommissioning</option>
 					<option>ZeroBias</option>
 					<option>Cosmics</option>
-					<option>CosmicsCommissioning</option>
 			</select></label>
 		</p>
 		<p class="contact-input1">
@@ -371,8 +369,6 @@ header {
  						<br>
 						<li> There is a square button in the uper right place of each plot where you can left click and localy save an image of the plot</li>	
       						<br>
-						<li> The dataset options:  <b>StreamExpressCosmicsCommissioning</b> and <b>CosmicsCommissioning</b> work only for Year:2017 and Subsystems: Strips  & PixelPhase1 </li>	
-      						<br><br>
       						
    
     					    </ul> 

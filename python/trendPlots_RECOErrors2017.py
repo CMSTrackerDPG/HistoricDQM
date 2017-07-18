@@ -226,7 +226,7 @@ class TrendPlot:
     def getName(self):
         return self.__section.split("plot:")[1]
 
-    def getGraph(self):
+    def getGraph(self,dset):
         from array import array
         from ROOT import TMultiGraph, TLegend, TGraphAsymmErrors
         n = len(self.__x)
@@ -275,9 +275,9 @@ class TrendPlot:
 
        # save_path = './JSON/'
         #completeName = os.path.join(save_path, self.__title+".json")
-        if not os.path.exists("./JSON"):
-            os.makedirs("./JSON")
-        with open("./JSON/"+self.__title+".json", 'w') as outfile:
+        if not os.path.exists("./JSON_RECO"):
+            os.makedirs("./JSON_RECO/"+dset)
+        with open("./JSON_RECO/"+dset+"/"+self.__title+".json", 'w') as outfile:
             json.dump(obj, outfile,indent=4)
         print  json.dumps(obj,indent=2)
 
@@ -742,12 +742,12 @@ def main(argv=None):
     if makeSummary: canvas.Print(os.path.join(outPath,"trendPlots.ps["))
     for plot in plots:
         #(graph, legend, refLabel) = plot.getGraph()
-        try: plot.getGraph()
+        try: plot.getGraph(opts.dset)
         except:
             print "Error producing plot:", plot.getName()
             print "Possible cause: no entries, or non-existing plot name"
             continue
-        (graph, legend) = plot.getGraph()
+        (graph, legend) = plot.getGraph(opts.dset)
         canvas.Clear()
         graph.Draw("AP")
         graph.GetYaxis().SetTitleOffset(1.6)
