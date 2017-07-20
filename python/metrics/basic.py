@@ -81,6 +81,29 @@ class Mean(BaseMetric):
     def calculate(self, histo):
         return (histo.GetMean(), histo.GetMeanError())
 
+class MeanEntries(BaseMetric):
+    def calculate(self, histo):
+        return (histo.GetMean()*histo.GetEntries(), histo.GetMeanError()*histo.GetEntries())
+
+class PixelEfficiency(BaseMetric):
+    def calculate(self, histo):
+        from math import sqrt
+        num= histo.GetMean()*histo.GetEntries()
+        den= histo.GetMean()*histo.GetEntries()+self._reference.GetMean()*self._reference.GetEntries()
+        if den == 0:
+            res= 0
+            eres=0
+        else:
+            res=num/den
+            enum=histo.GetMeanError()*histo.GetEntries()
+            eref=self._reference.GetMeanError()*self._reference.GetEntries()
+            eden=sqrt(enum*enum+eref*eref)
+            if enum==0:
+                eres=0
+            else:
+                eres=res*sqrt((enum*enum)/(num*num)+(eden*eden)/(den*den))
+        return (res,eres)
+
 class MeanRMS(BaseMetric):
     def calculate(self, histo):
         #print 'mean:',histo.GetMean(), histo.GetMeanError()
