@@ -154,7 +154,15 @@ class TrendPlot:
                 subdet=histoPath.split('/')[0]
                 print (('DQMData/Run %d/%s/Run summary/%s') % (runNr,subdet,histoPath.replace('%s/'%(subdet),'',1)))
                 histo=tfile.Get(('DQMData/Run %d/%s/Run summary/%s') % (runNr,subdet,histoPath.replace('%s/'%(subdet),'',1)))
-
+                if self.__config.has_option(self.__section,"metricRef"):
+                    refpath=self.__config.get(self.__section,"metricRef")
+                    if(refpath[0]=='/'): 
+                        refpathath=refpath.replace('/','',1)
+                    subdet=refpath.split('/')[0]
+                    print (('DQMData/Run %d/%s/Run summary/%s') % (runNr,subdet,refpath.replace('%s/'%(subdet),'',1)))
+                    href=tfile.Get(('DQMData/Run %d/%s/Run summary/%s') % (runNr,subdet,refpath.replace('%s/'%(subdet),'',1)))
+                    print href
+                    self.__metric.setReference(href)
                 print histo,"V4"
                 if(histo!=-99):
                     Entr=0

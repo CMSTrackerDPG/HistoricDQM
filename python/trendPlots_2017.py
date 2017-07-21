@@ -123,7 +123,8 @@ class TrendPlot:
         
         if self.__config.has_option(self.__section, "saveHistos"):
           try:
-              histo1 = getHistoFromDQM( serverUrl, runNr, dataset, histoPath)
+             # histo1 = getHistoFromDQM( serverUrl, runNr, dataset, histoPath)
+              histo1 = dqm_get_json_hist( serverUrl, runNr, dataset, splitPath(histoPath)[0],splitPath(histoPath)[1],rootContent=True)
               histosFile = self.__config.get(self.__section, "saveHistos")
               if not os.path.exists(histosFile): os.makedirs(histosFile)
 
@@ -145,6 +146,11 @@ class TrendPlot:
             if self.__cache == None or cacheLocation not in self.__cache:
 #                histo = getHistoFromDQM( serverUrl, runNr, dataset, histoPath)
                 histo = dqm_get_json_hist( serverUrl, runNr, dataset, splitPath(histoPath)[0],splitPath(histoPath)[1],rootContent=True)
+                if self.__config.has_option(self.__section,"metricRef"):
+                    refpath=self.__config.get(self.__section,"metricRef")
+                    href=dqm_get_json_hist( serverUrl, runNr, dataset, splitPath(refpath)[0],splitPath(refpath)[1],rootContent=True)
+                    print href
+                    self.__metric.setReference(href)
                 print histo
                 if(histo!=-99):
                     Entr=0

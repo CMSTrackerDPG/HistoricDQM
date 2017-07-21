@@ -95,13 +95,7 @@ class PixelEfficiency(BaseMetric):
             eres=0
         else:
             res=num/den
-            enum=histo.GetMeanError()*histo.GetEntries()
-            eref=self._reference.GetMeanError()*self._reference.GetEntries()
-            eden=sqrt(enum*enum+eref*eref)
-            if enum==0:
-                eres=0
-            else:
-                eres=res*sqrt((enum*enum)/(num*num)+(eden*eden)/(den*den))
+            eres=sqrt(res*(1-res)/den)
         return (res,eres)
 
 class MeanRMS(BaseMetric):

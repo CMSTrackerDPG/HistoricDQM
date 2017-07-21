@@ -108,6 +108,36 @@ class LandauAroundMaxBin(BaseMetric):
         result = (func.GetParameter(self.desired), func.GetParError(self.desired))
         return result
 
+class LandauAroundMax(BaseMetric):
+    def __init__(self, diseredParameter, lowFrac, highFrac, hLimit):
+        BaseMetric.__init__(self)
+        assert diseredParameter in [0,1,2], "can only get parameter 0, 1 or 2 not '%s'"%desiredParameter
+        self.desired = diseredParameter
+        self.lowF = lowFrac
+        self.highF = highFrac
+        self.cut = hLimit
+        
+    def calculate(self, histo):
+        from ROOT import TF1
+        maxbincenter = histo.GetBinCenter( histo.GetMaximumBin() )
+        self.range = [maxbincenter*self.lowF , maxbincenter*self.highF]
+        print maxbincenter
+        fit = TF1("landau","[2]*TMath::Landau(x,[0],[1],0)", *(self.range))
+        fit.SetParameter(0,maxbincenter)
+        fit.SetParameter(1,maxbincenter/10.)
+        fit.SetParameter(2,histo.GetMaximum())
+        #3x to stabilise minimization
+        histo.Fit(fit,"OR","",*(self.range))
+        histo.Fit(fit,"OR","",*(self.range))
+        histo.Fit(fit,"OR","",*(self.range))
+        if (fit.GetParameter(self.desired)>0 and fit.GetParameter(self.desired)<self.cut) :
+            result = (fit.GetParameter(self.desired), fit.GetParError(self.desired))
+        else :
+            result = (0.0, 0.0)
+        del fit
+        return result
+
+
 class Gaussian(BaseMetric):
     def __init__(self, diseredParameter, minVal, maxVal, paramDefaults):
         BaseMetric.__init__(self)
