@@ -146,12 +146,17 @@ class TrendPlot:
             if self.__cache == None or cacheLocation not in self.__cache:
 #                histo = getHistoFromDQM( serverUrl, runNr, dataset, histoPath)
                 histo = dqm_get_json_hist( serverUrl, runNr, dataset, splitPath(histoPath)[0],splitPath(histoPath)[1],rootContent=True)
-                if self.__config.has_option(self.__section,"metricRef"):
-                    refpath=self.__config.get(self.__section,"metricRef")
-                    href=dqm_get_json_hist( serverUrl, runNr, dataset, splitPath(refpath)[0],splitPath(refpath)[1],rootContent=True)
-                    print href
-                    self.__metric.setReference(href)
+                if self.__config.has_option(self.__section,"histo1Path"):
+                    h1Path=self.__config.get(self.__section,"histo1Path")
+                    h1=dqm_get_json_hist( serverUrl, runNr, dataset, splitPath(h1Path)[0],splitPath(h1Path)[1],rootContent=True)
+                    self.__metric.setOptionalHisto1(h1)
+                if self.__config.has_option(self.__section,"histo2Path"):
+                    h2Path=self.__config.get(self.__section,"histo2Path")
+                    h2=dqm_get_json_hist( serverUrl, runNr, dataset, splitPath(h2Path)[0],splitPath(h2Path)[1],rootContent=True)
+                    self.__metric.setOptionalHisto2(h2)
                 print histo
+                print h1
+                print h2
                 if(histo!=-99):
                     Entr=0
                     Entr=histo.GetEntries()

@@ -2,12 +2,18 @@ class BaseMetric:
     "baseclass for all metrics. should not be used on its own"
     def __init__(self):
         self._reference = None
+        self._histo1 = None
+        self._histo2 = None
         self._threshold = 1
 
     def setCache(self, cache):
         self.__cache = cache
     def setReference(self, histo): 
         self._reference = histo
+    def setOptionalHisto1(self, histo): 
+        self._histo1 = histo
+    def setOptionalHisto2(self, histo): 
+        self._histo2 = histo
     def setThreshold(self, threshold): 
         self._threshold = threshold
     def setCacheLocation(self, serverUrl, runNr, dataset, histoPath):
@@ -89,7 +95,7 @@ class PixelEfficiency(BaseMetric):
     def calculate(self, histo):
         from math import sqrt
         num= histo.GetMean()*histo.GetEntries()
-        den= histo.GetMean()*histo.GetEntries()+self._reference.GetMean()*self._reference.GetEntries()
+        den= histo.GetMean()*histo.GetEntries()+self._histo1.GetMean()*self._histo1.GetEntries()
         if den == 0:
             res= 0
             eres=0
@@ -97,6 +103,25 @@ class PixelEfficiency(BaseMetric):
             res=num/den
             eres=sqrt(res*(1-res)/den)
         return (res,eres)
+
+class PixelDigiPerClusterPix(BaseMetric):
+    def calculate(self, histo):
+        from math import sqrt
+        num= histo.GetMean()
+        den= self._histo1.GetMean()*self._histo2.GetMean()
+        if den == 0:
+            res= 0
+            eres=0
+        else:
+            res=num/den
+            enum=histo.GetMeanError()
+            eden=sqrt(self._histo1.GetMeanError()*self._histo1.GetMeanError()+self._histo2.GetMeanError()*self._histo2.GetMeanError())
+            if num == 0:
+                eres=0
+            else:
+                eres=res*sqrt((enum*enum)/(num*num)+(eden*eden)/(den*den))
+        return (res,eres)
+
 
 class MeanRMS(BaseMetric):
     def calculate(self, histo):

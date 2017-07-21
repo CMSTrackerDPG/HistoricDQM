@@ -154,16 +154,25 @@ class TrendPlot:
                 subdet=histoPath.split('/')[0]
                 print (('DQMData/Run %d/%s/Run summary/%s') % (runNr,subdet,histoPath.replace('%s/'%(subdet),'',1)))
                 histo=tfile.Get(('DQMData/Run %d/%s/Run summary/%s') % (runNr,subdet,histoPath.replace('%s/'%(subdet),'',1)))
-                if self.__config.has_option(self.__section,"metricRef"):
-                    refpath=self.__config.get(self.__section,"metricRef")
-                    if(refpath[0]=='/'): 
-                        refpathath=refpath.replace('/','',1)
-                    subdet=refpath.split('/')[0]
-                    print (('DQMData/Run %d/%s/Run summary/%s') % (runNr,subdet,refpath.replace('%s/'%(subdet),'',1)))
-                    href=tfile.Get(('DQMData/Run %d/%s/Run summary/%s') % (runNr,subdet,refpath.replace('%s/'%(subdet),'',1)))
-                    print href
-                    self.__metric.setReference(href)
+                if self.__config.has_option(self.__section,"histo1Path"):
+                    h1Path=self.__config.get(self.__section,"histo1Path")
+                    if(h1Path[0]=='/'):
+                        h1Path=h1Path.replace('/','',1)
+                    subdet=h1Path.split('/')[0]
+                    print (('DQMData/Run %d/%s/Run summary/%s') % (runNr,subdet,h1Path.replace('%s/'%(subdet),'',1)))
+                    h1=tfile.Get(('DQMData/Run %d/%s/Run summary/%s') % (runNr,subdet,h1Path.replace('%s/'%(subdet),'',1)))
+                    self.__metric.setOptionalHisto1(h1)
+                if self.__config.has_option(self.__section,"histo2Path"):
+                    h2Path=self.__config.get(self.__section,"histo2Path")
+                    if(h2Path[0]=='/'):
+                        h2Path=h1Path.replace('/','',1)
+                    subdet=h2Path.split('/')[0]
+                    print (('DQMData/Run %d/%s/Run summary/%s') % (runNr,subdet,h2Path.replace('%s/'%(subdet),'',1)))
+                    h2=tfile.Get(('DQMData/Run %d/%s/Run summary/%s') % (runNr,subdet,h2Path.replace('%s/'%(subdet),'',1)))
+                    self.__metric.setOptionalHisto2(h2)
                 print histo,"V4"
+                print h1
+                print h2
                 if(histo!=-99):
                     Entr=0
                     Entr=histo.GetEntries()
