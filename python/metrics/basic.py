@@ -187,6 +187,30 @@ class BinCount(BaseMetric):
             error = sqrt(histo.GetBinContent(binNr))
         return ( histo.GetBinContent(binNr), error)
 
+class RecoFraction(BaseMetric):
+    def __init__(self,  name, noError = False):
+        self.__name = name
+        self.__noError = noError
+
+    def calculate(self, histo):
+        from math import sqrt
+        binNr = self.__name
+        if type(self.__name) == type(""):
+            binNr = histo.GetXaxis().FindBin(self.__name)
+        enum = 0
+        if not self.__noError:
+            enum = sqrt(histo.GetBinContent(binNr))
+        num=histo.GetBinContent(binNr)
+        den=self._histo1.GetEntries();
+        if den == 0:
+            res=0
+            eres=0
+        else:
+            res=num/den
+            eres=enum/den
+        return ( res, eres)
+
+
 class BinsCount(BaseMetric):
     def __init__(self, startBin):
         self.__loBin = startBin
