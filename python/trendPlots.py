@@ -142,6 +142,16 @@ class TrendPlot:
         try:
             if self.__cache == None or cacheLocation not in self.__cache:
                 histo = getHistoFromDQM( serverUrl, runNr, dataset, histoPath)
+                if self.__config.has_option(self.__section,"histo1Path"):
+                    h1Path=self.__config.get(self.__section,"histo1Path")
+                    h1=getHistoFromDQM( serverUrl, runNr, dataset, h1Path)
+                    self.__metric.setOptionalHisto1(h1)
+                    print h1
+                if self.__config.has_option(self.__section,"histo2Path"):
+                    h2Path=self.__config.get(self.__section,"histo2Path")
+                    h1=getHistoFromDQM( serverUrl, runNr, dataset, h2Path)
+                    self.__metric.setOptionalHisto2(h2)
+                    print h2
                 Entr=0
                 Entr=histo.GetEntries()
                 print "###############    GOT HISTO #################" 

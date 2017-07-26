@@ -120,6 +120,9 @@ class PixelDigiPerClusterPix(BaseMetric):
                 eres=0
             else:
                 eres=res*sqrt((enum*enum)/(num*num)+(eden*eden)/(den*den))
+        if num < 1:
+            res=0
+            eres=0
         return (res,eres)
 
 
@@ -138,6 +141,10 @@ class MeanY(BaseMetric):
 class MeanYAxis(BaseMetric):
     def calculate(self, histo):
         return (histo.GetMean(2), histo.GetMeanError(2)) 
+
+class MeanZAxis(BaseMetric):
+    def calculate(self, histo):
+        return (histo.GetMean(3), histo.GetMeanError(3)) 
 
 class RMSXAxis(BaseMetric):
     def calculate(self, histo):

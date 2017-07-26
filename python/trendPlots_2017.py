@@ -150,13 +150,13 @@ class TrendPlot:
                     h1Path=self.__config.get(self.__section,"histo1Path")
                     h1=dqm_get_json_hist( serverUrl, runNr, dataset, splitPath(h1Path)[0],splitPath(h1Path)[1],rootContent=True)
                     self.__metric.setOptionalHisto1(h1)
+                    print h1
                 if self.__config.has_option(self.__section,"histo2Path"):
                     h2Path=self.__config.get(self.__section,"histo2Path")
                     h2=dqm_get_json_hist( serverUrl, runNr, dataset, splitPath(h2Path)[0],splitPath(h2Path)[1],rootContent=True)
                     self.__metric.setOptionalHisto2(h2)
+                    print h2
                 print histo
-                print h1
-                print h2
                 if(histo!=-99):
                     Entr=0
                     Entr=histo.GetEntries()

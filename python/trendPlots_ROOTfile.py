@@ -161,6 +161,7 @@ class TrendPlot:
                     subdet=h1Path.split('/')[0]
                     print (('DQMData/Run %d/%s/Run summary/%s') % (runNr,subdet,h1Path.replace('%s/'%(subdet),'',1)))
                     h1=tfile.Get(('DQMData/Run %d/%s/Run summary/%s') % (runNr,subdet,h1Path.replace('%s/'%(subdet),'',1)))
+                    print h1
                     self.__metric.setOptionalHisto1(h1)
                 if self.__config.has_option(self.__section,"histo2Path"):
                     h2Path=self.__config.get(self.__section,"histo2Path")
@@ -169,10 +170,9 @@ class TrendPlot:
                     subdet=h2Path.split('/')[0]
                     print (('DQMData/Run %d/%s/Run summary/%s') % (runNr,subdet,h2Path.replace('%s/'%(subdet),'',1)))
                     h2=tfile.Get(('DQMData/Run %d/%s/Run summary/%s') % (runNr,subdet,h2Path.replace('%s/'%(subdet),'',1)))
+                    print h2
                     self.__metric.setOptionalHisto2(h2)
                 print histo,"V4"
-                print h1
-                print h2
                 if(histo!=-99):
                     Entr=0
                     Entr=histo.GetEntries()
@@ -242,6 +242,12 @@ class TrendPlot:
 
     def getName(self):
         return self.__section.split("plot:")[1]
+
+    def getPath(self):
+        return self.__config.get(self.__section, "relativePath")
+
+    def getMetric(self):
+        return self.__config.get(self.__section,"metric")
 
     def getGraph(self):
         from array import array
@@ -523,14 +529,17 @@ def getRunsFromDQM(config, mask, pd, mode, datatier,runMask="all", runlistfile=[
                     continue
             if runlistfile==[] and jsonfile==[]:
                 if eval(runMask,{"all":True,"run":runNr}):
-                    version=dqm_getTFile_Version(serverUrl, runNr, dataset, datatier)
-                    result[runNr] = (serverUrl, runNr, dataset,version)
+#                    version=dqm_getTFile_Version(serverUrl, runNr, dataset, datatier)
+#                    result[runNr] = (serverUrl, runNr, dataset,version)
+                    result[runNr] = (serverUrl, runNr, dataset)
             else:
                  for run_temp in runs1:
                         if int(run_temp)==int(runNr):
-                                version=dqm_getTFile_Version(serverUrl, runNr, dataset,datatier)
-                                print "test1=",run_temp,runNr,version
-                                result[runNr] = (serverUrl, runNr, dataset,version)
+#                                version=dqm_getTFile_Version(serverUrl, runNr, dataset,datatier)
+#                                print "test1=",run_temp,runNr,version
+#                                result[runNr] = (serverUrl, runNr, dataset,version)
+                                print "test1=",run_temp,runNr
+                                result[runNr] = (serverUrl, runNr, dataset)
     if not result :
         print "*** WARNING: YOUR REQUEST DOESNT MATCH ANY EXISTING DATASET ***"
         print "-> check your settings in ./cfg/trendPlots.py"
@@ -658,7 +667,7 @@ def main(argv=None):
     import os
     from optparse import OptionParser
     from ROOT import TCanvas,TFile
-    from src.dqmjson import dqm_get_json,dqm_getTFile    
+    from src.dqmjson import dqm_get_json,dqm_getTFile,dqm_getTFile_Version
 
     if argv == None:
         argv = sys.argv[1:]
@@ -728,10 +737,18 @@ def main(argv=None):
             print "............------------>>> RUN %s IN CACHE"%(runs[run][1])
         if isDone == 1 :
             if(runs[run][2]!=0):
-                tfile=dqm_getTFile(runs[run][0],runs[run][1],runs[run][2],runs[run][3],opts.datatier)
+                fopen = False
+                tfile= None
                 for plot in plots:
+                    cacheLocation = (runs[run][0],runs[run][1],runs[run][2], plot.getPath(),plot.getMetric())
+                    if (cache == None and not fopen) or (cacheLocation not in cache and not fopen):
+                        version=dqm_getTFile_Version(runs[run][0],runs[run][1],runs[run][2],opts.datatier)
+                        tfile=dqm_getTFile(runs[run][0],runs[run][1],runs[run][2],version,opts.datatier)
+                        print "-----> Openning File Version ",version
+                        fopen=True
                     plot.addRun(runs[run][0],runs[run][1],runs[run][2],tfile)
-                tfile.Close()
+                if fopen :
+                    tfile.Close()
             else:
                 print "Not File Version found"
         else:
