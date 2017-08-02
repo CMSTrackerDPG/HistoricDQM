@@ -91,9 +91,11 @@ class TrendPlot:
     
     def addRun(self, serverUrl, runNr, dataset):
         from math import sqrt
-        from ROOT import TH1,TFile,TObject
+        from src.dqmjson import dqm_get_json_hist
+        from ROOT import TH1,TFile,TObject,TBufferFile, TH1F, TProfile, TH1F, TH2F
 #        import ROOT
         import os, sys, string
+        from os.path import split as splitPath
         
         self.__count = self.__count + 1
         histoPath = self.__config.get(self.__section, "relativePath")
@@ -121,7 +123,8 @@ class TrendPlot:
         
         if self.__config.has_option(self.__section, "saveHistos"):
           try:
-              histo1 = getHistoFromDQM( serverUrl, runNr, dataset, histoPath)
+             # histo1 = getHistoFromDQM( serverUrl, runNr, dataset, histoPath)
+              histo1 = dqm_get_json_hist( serverUrl, runNr, dataset, splitPath(histoPath)[0],splitPath(histoPath)[1],rootContent=True)
               histosFile = self.__config.get(self.__section, "saveHistos")
               if not os.path.exists(histosFile): os.makedirs(histosFile)
 
@@ -141,26 +144,32 @@ class TrendPlot:
 
         try:
             if self.__cache == None or cacheLocation not in self.__cache:
-                histo = getHistoFromDQM( serverUrl, runNr, dataset, histoPath)
+#                histo = getHistoFromDQM( serverUrl, runNr, dataset, histoPath)
+                histo = dqm_get_json_hist( serverUrl, runNr, dataset, splitPath(histoPath)[0],splitPath(histoPath)[1],rootContent=True)
                 if self.__config.has_option(self.__section,"histo1Path"):
                     h1Path=self.__config.get(self.__section,"histo1Path")
-                    h1=getHistoFromDQM( serverUrl, runNr, dataset, h1Path)
+                    h1=dqm_get_json_hist( serverUrl, runNr, dataset, splitPath(h1Path)[0],splitPath(h1Path)[1],rootContent=True)
                     self.__metric.setOptionalHisto1(h1)
                     print h1
                 if self.__config.has_option(self.__section,"histo2Path"):
                     h2Path=self.__config.get(self.__section,"histo2Path")
-                    h1=getHistoFromDQM( serverUrl, runNr, dataset, h2Path)
+                    h2=dqm_get_json_hist( serverUrl, runNr, dataset, splitPath(h2Path)[0],splitPath(h2Path)[1],rootContent=True)
                     self.__metric.setOptionalHisto2(h2)
                     print h2
-                Entr=0
-                Entr=histo.GetEntries()
-                print "###############    GOT HISTO #################" 
-                y=0
-                yErr    = (0.0,0.0)
-                if Entr>self.__threshold:
-                    (y, yErr) = self.__metric(histo, cacheLocation)
+                print histo
+                if(histo!=-99):
+                    Entr=0
+                    Entr=histo.GetEntries()
+                    print "###############    GOT HISTO #################" 
+                    y=0
+                    yErr    = (0.0,0.0)
+                    if Entr>self.__threshold:
+                        (y, yErr) = self.__metric(histo, cacheLocation)
+                    else:
+                        self.__cache[cacheLocation] = ((0.,0.),0.)
                 else:
-                    self.__cache[cacheLocation] = ((0.,0.),0.)
+                    print "WARNING: something went wrong downloading histo=",splitPath(histoPath)[1]
+                    return 
             elif cacheLocation in self.__cache:
                 (y, yErr) = self.__metric(None, cacheLocation)
         except StandardError as msg :

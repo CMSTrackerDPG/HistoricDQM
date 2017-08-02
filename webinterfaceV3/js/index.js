@@ -130,6 +130,19 @@ function update_subsystem() {
 	}
 }
 
+function update_collections() {
+
+    collec_file = "collections_"+$("#year").val()+".json";
+    console.log("collection file  : " + collec_file);
+    
+    $.getJSON(collec_file, function (data) {
+	    //$.getJSON(collec_file, function (data) {
+	    collections = data;
+    });
+
+}
+
+
 $(document).ready(
 	function() {
 		colors.push("#669999");
@@ -142,8 +155,12 @@ $(document).ready(
 		colors.push("#9900CC");
 		colors.push("#FF0066");
 		colors.push("#8D1919");
-
-		$.getJSON("collections.json", function (data) {
+                
+		collec_file = "collections_"+$("#year").val()+".json";
+		console.log("collection file  : " + collec_file);
+		
+		$.getJSON("collections_2017.json", function (data) {
+			//$.getJSON(collec_file, function (data) {
 			collections = data;
 		});
 
@@ -155,7 +172,7 @@ $(document).ready(
 				dataSet = $("#dataSet").val();
 				apvMode = $("#apvMode").val();
 				subsystem = $("#subsystem").val();
-				
+
 				if (year == "" || dataSet == "" || apvMode == "" || subsystem == "") {
 					alert("Please Make Selection");
 				} else {
@@ -166,9 +183,9 @@ $(document).ready(
 							&& (apvMode == "" || apvMode == null)) {
 						load_dataset("Pixel");
 					}else if (dataSet == "ZeroBias"
-							&& subsystem == "PixelPhase1"
-							&& (apvMode == "" || apvMode == null)) {
-						load_dataset("PixelPhase1");
+						  && subsystem == "PixelPhase1"
+						  && (apvMode == "" || apvMode == null)) {
+					    load_dataset("PixelPhase1");
 					} else if (dataSet == "ZeroBias"
 							&& subsystem == "Tracking"
 							&& apvMode == "PEAK + DECO") {
@@ -182,9 +199,9 @@ $(document).ready(
 							&& (apvMode == "" || apvMode == null)) {
 						load_dataset("StreamExprPixel");
 					} else if (dataSet == "StreamExpress"
-							&& subsystem == "PixelPhase1"
-							&& (apvMode == "" || apvMode == null)) {
-						load_dataset("StreamExprPixelPhase1");
+						   && subsystem == "PixelPhase1"
+						   && (apvMode == "" || apvMode == null)) {
+					    load_dataset("StreamExprPixelPhase1");
 					} else if (dataSet == "StreamExpress"
 							&& subsystem == "RecoErrors"
 							&& apvMode == "PEAK + DECO") {
@@ -204,7 +221,7 @@ $(document).ready(
 					} else if ((dataSet == "StreamExpress")
 							&& subsystem == "Strips"
 							&& (apvMode == "DECO")) {
-						load_dataset("StripDeco");
+						load_dataset("StreamExpressStripDeco");
 					} else if ((dataSet == "ZeroBias")
 							&& subsystem == "Strips"
 							&& (apvMode == "DECO")) {

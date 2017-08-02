@@ -89,12 +89,15 @@ class TrendPlot:
         for label in self.__labels:
             latex.DrawLatex(*label)
     
-    def addRun(self, serverUrl, runNr, dataset):
+    def addRun(self, serverUrl, runNr, dataset,tfile):
         from math import sqrt
-        from ROOT import TH1,TFile,TObject
-#        import ROOT
+        #from src.dqmjson import dqm_getTFile
+        from ROOT import TH1,TFile,TObject,TBufferFile, TH1F, TProfile, TProfile2D, TH2F
+        import ROOT
         import os, sys, string
-        
+        from os.path import split as splitPath
+
+
         self.__count = self.__count + 1
         histoPath = self.__config.get(self.__section, "relativePath")
 
@@ -141,26 +144,48 @@ class TrendPlot:
 
         try:
             if self.__cache == None or cacheLocation not in self.__cache:
-                histo = getHistoFromDQM( serverUrl, runNr, dataset, histoPath)
+#V1                histo = getHistoFromDQM( serverUrl, runNr, dataset, histoPath)
+#V2                histo = dqm_get_json_hist( serverUrl, runNr, dataset, splitPath(histoPath)[0],splitPath(histoPath)[1],rootContent=True)
+#V3                histo = dqm_getSingleHist_json( serverUrl, runNr, dataset, histoPath,rootContent=True)
+#v4                tfile=dqm_getTFile(serverUrl, runNr, dataset,version)
+
+                if(histoPath[0]=='/'): 
+                    histoPath=histoPath.replace('/','',1)
+                subdet=histoPath.split('/')[0]
+                print (('DQMData/Run %d/%s/Run summary/%s') % (runNr,subdet,histoPath.replace('%s/'%(subdet),'',1)))
+                histo=tfile.Get(('DQMData/Run %d/%s/Run summary/%s') % (runNr,subdet,histoPath.replace('%s/'%(subdet),'',1)))
                 if self.__config.has_option(self.__section,"histo1Path"):
                     h1Path=self.__config.get(self.__section,"histo1Path")
-                    h1=getHistoFromDQM( serverUrl, runNr, dataset, h1Path)
-                    self.__metric.setOptionalHisto1(h1)
+                    if(h1Path[0]=='/'):
+                        h1Path=h1Path.replace('/','',1)
+                    subdet=h1Path.split('/')[0]
+                    print (('DQMData/Run %d/%s/Run summary/%s') % (runNr,subdet,h1Path.replace('%s/'%(subdet),'',1)))
+                    h1=tfile.Get(('DQMData/Run %d/%s/Run summary/%s') % (runNr,subdet,h1Path.replace('%s/'%(subdet),'',1)))
                     print h1
+                    self.__metric.setOptionalHisto1(h1)
                 if self.__config.has_option(self.__section,"histo2Path"):
                     h2Path=self.__config.get(self.__section,"histo2Path")
-                    h1=getHistoFromDQM( serverUrl, runNr, dataset, h2Path)
-                    self.__metric.setOptionalHisto2(h2)
+                    if(h2Path[0]=='/'):
+                        h2Path=h1Path.replace('/','',1)
+                    subdet=h2Path.split('/')[0]
+                    print (('DQMData/Run %d/%s/Run summary/%s') % (runNr,subdet,h2Path.replace('%s/'%(subdet),'',1)))
+                    h2=tfile.Get(('DQMData/Run %d/%s/Run summary/%s') % (runNr,subdet,h2Path.replace('%s/'%(subdet),'',1)))
                     print h2
-                Entr=0
-                Entr=histo.GetEntries()
-                print "###############    GOT HISTO #################" 
-                y=0
-                yErr    = (0.0,0.0)
-                if Entr>self.__threshold:
-                    (y, yErr) = self.__metric(histo, cacheLocation)
+                    self.__metric.setOptionalHisto2(h2)
+                print histo,"V4"
+                if(histo!=-99):
+                    Entr=0
+                    Entr=histo.GetEntries()
+                    print "###############    GOT HISTO #################" 
+                    y=0
+                    yErr    = (0.0,0.0)
+                    if Entr>self.__threshold:
+                        (y, yErr) = self.__metric(histo, cacheLocation)
+                    else:
+                        self.__cache[cacheLocation] = ((0.,0.),0.)
                 else:
-                    self.__cache[cacheLocation] = ((0.,0.),0.)
+                    print "WARNING: something went wrong downloading histo=",splitPath(histoPath)[1]
+                    return 
             elif cacheLocation in self.__cache:
                 (y, yErr) = self.__metric(None, cacheLocation)
         except StandardError as msg :
@@ -218,6 +243,12 @@ class TrendPlot:
     def getName(self):
         return self.__section.split("plot:")[1]
 
+    def getPath(self):
+        return self.__config.get(self.__section, "relativePath")
+
+    def getMetric(self):
+        return self.__config.get(self.__section,"metric")
+
     def getGraph(self):
         from array import array
         from ROOT import TMultiGraph, TLegend, TGraphAsymmErrors
@@ -251,6 +282,10 @@ class TrendPlot:
             d['y']=self.__y[inc]
             d['yErr']=self.__yErrLow[inc]
             d['yTitle']=self.__yTitle
+            if self.__config.has_option(self.__section,"hTitle") :
+                d['hTitle']=self.__config.get(self.__section,"hTitle")
+            else :
+                d['hTitle']=self.__yTitle
             if self.__config.has_option(self.__section,"yMin") and self.__config.has_option(self.__section,"yMax") :
                 d['ymin']=float(self.__config.get(self.__section,"yMin"))
                 d['ymax']=float(self.__config.get(self.__section,"yMax"))
@@ -267,8 +302,8 @@ class TrendPlot:
 
        # save_path = './JSON/'
         #completeName = os.path.join(save_path, self.__title+".json")
-        if not os.path.exists("JSON"):
-            os.makedirs("JSON")
+        if not os.path.exists("./JSON"):
+            os.makedirs("./JSON")
         with open("./JSON/"+self.__title+".json", 'w') as outfile:
             json.dump(obj, outfile,indent=4)
         print  json.dumps(obj,indent=2)
@@ -461,8 +496,8 @@ def getReferenceRun(config, runs):
       config.set("reference","name", directories[0])
       file.Close()
 
-def getRunsFromDQM(config, mask, pd, mode, runMask="all",runlistfile=[],jsonfile=[]):
-    from src.dqmjson import dqm_get_samples
+def getRunsFromDQM(config, mask, pd, mode, datatier,runMask="all", runlistfile=[],jsonfile=[]):
+    from src.dqmjson import dqm_get_samples,dqm_getTFile_Version
 #    import simplejson as jsonn
     import json as jsonn
     serverUrl = config.get("dqmServer","url")
@@ -498,10 +533,15 @@ def getRunsFromDQM(config, mask, pd, mode, runMask="all",runlistfile=[],jsonfile
                     continue
             if runlistfile==[] and jsonfile==[]:
                 if eval(runMask,{"all":True,"run":runNr}):
+#                    version=dqm_getTFile_Version(serverUrl, runNr, dataset, datatier)
+#                    result[runNr] = (serverUrl, runNr, dataset,version)
                     result[runNr] = (serverUrl, runNr, dataset)
             else:
                  for run_temp in runs1:
                         if int(run_temp)==int(runNr):
+#                                version=dqm_getTFile_Version(serverUrl, runNr, dataset,datatier)
+#                                print "test1=",run_temp,runNr,version
+#                                result[runNr] = (serverUrl, runNr, dataset,version)
                                 print "test1=",run_temp,runNr
                                 result[runNr] = (serverUrl, runNr, dataset)
     if not result :
@@ -545,6 +585,8 @@ def getHistoFromDQM(serverUrl, runNr, dataset, histoPath):
         print dataset
         print splitPath(histoPath)[0]
         json = dqm_get_json( serverUrl, runNr, dataset, splitPath(histoPath)[0], rootContent=True)
+#        print dqm_get_json( serverUrl, runNr, dataset, splitPath(histoPath)[0]+"/"+splitPath(histoPath)[1], rootContent=True)
+    
         #jsonT = dqm_get_json( serverUrl, runNr, dataset, splitPath(path)[0], rootContent=True)
 
 
@@ -570,6 +612,7 @@ def getHistoFromDQM(serverUrl, runNr, dataset, histoPath):
 #            print "using split path"
             #result = json[splitPath(histoPath)[1]]["rootobj"]
             result = json[splitPath(path)[1]]["rootobj"]
+            print result
     return result
 
 def initPlots( config ):
@@ -628,7 +671,7 @@ def main(argv=None):
     import os
     from optparse import OptionParser
     from ROOT import TCanvas,TFile
-    from src.dqmjson import dqm_get_json    
+    from src.dqmjson import dqm_get_json,dqm_getTFile,dqm_getTFile_Version
 
     if argv == None:
         argv = sys.argv[1:]
@@ -672,7 +715,7 @@ def main(argv=None):
     print "opts.list = ",opts.list
     print "opts.json = ",opts.json
      
-    runs = getRunsFromDQM(config, dsetmask, opts.dset, opts.state, opts.runs,opts.list,opts.json)
+    runs = getRunsFromDQM(config, dsetmask, opts.dset, opts.state, opts.datatier,opts.runs,opts.list,opts.json)
     if not runs : raise StandardError, "*** Number of runs matching run/mask/etc criteria is equal to zero!!!"
 
     print "runs= ", runs
@@ -691,12 +734,27 @@ def main(argv=None):
             rc = dqm_get_json(runs[run][0],runs[run][1],runs[run][2], "Info/ProvInfo")
             print "............------------>>> RunIsComplete flag: " , rc['runIsComplete']['value']
             isDone = int(rc['runIsComplete']['value'])
+            if opts.datatier != "DQMIO" :
+                isDone = 1
         else:
             isDone = 1
             print "............------------>>> RUN %s IN CACHE"%(runs[run][1])
         if isDone == 1 :
-            for plot in plots:
-                plot.addRun(*(runs[run]))
+            if(runs[run][2]!=0):
+                fopen = False
+                tfile= None
+                for plot in plots:
+                    cacheLocation = (runs[run][0],runs[run][1],runs[run][2], plot.getPath(),plot.getMetric())
+                    if (cache == None and not fopen) or (cacheLocation not in cache and not fopen):
+                        version=dqm_getTFile_Version(runs[run][0],runs[run][1],runs[run][2],opts.datatier)
+                        tfile=dqm_getTFile(runs[run][0],runs[run][1],runs[run][2],version,opts.datatier)
+                        print "-----> Openning File Version ",version
+                        fopen=True
+                    plot.addRun(runs[run][0],runs[run][1],runs[run][2],tfile)
+                if fopen :
+                    tfile.Close()
+            else:
+                print "Not File Version found"
         else:
             print "################### RUN %s NOT FULLY PROCESSED, SKIP #############"%(runs[run][1])
 

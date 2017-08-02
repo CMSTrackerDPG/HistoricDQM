@@ -4,7 +4,7 @@ from pprint import pprint
 
 def MakeRatio(dataset,json_infile1,json_infile2,json_outfile,plot_outtitle): 
 
-    pathjson="/afs/cern.ch/user/c/cctrack/scratch0/hDQM/CMSSW_8_0_2/src/DQM/SiStripHistoricInfoClient/test/NewHDQM/JSON_RECO/"
+    pathjson="/data/users/HDQM/CMSSW_9_1_0_pre1/HistoricDQM/python/JSON_RECO/"
      
     json_input1=open(pathjson+dataset+"/"+json_infile1+".json")
     json_input2=open(pathjson+dataset+"/"+json_infile2+".json")

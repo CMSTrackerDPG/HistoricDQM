@@ -2,12 +2,18 @@ class BaseMetric:
     "baseclass for all metrics. should not be used on its own"
     def __init__(self):
         self._reference = None
+        self._histo1 = None
+        self._histo2 = None
         self._threshold = 1
 
     def setCache(self, cache):
         self.__cache = cache
     def setReference(self, histo): 
         self._reference = histo
+    def setOptionalHisto1(self, histo): 
+        self._histo1 = histo
+    def setOptionalHisto2(self, histo): 
+        self._histo2 = histo
     def setThreshold(self, threshold): 
         self._threshold = threshold
     def setCacheLocation(self, serverUrl, runNr, dataset, histoPath):
@@ -81,6 +87,45 @@ class Mean(BaseMetric):
     def calculate(self, histo):
         return (histo.GetMean(), histo.GetMeanError())
 
+class MeanEntries(BaseMetric):
+    def calculate(self, histo):
+        return (histo.GetMean()*histo.GetEntries(), histo.GetMeanError()*histo.GetEntries())
+
+class PixelEfficiency(BaseMetric):
+    def calculate(self, histo):
+        from math import sqrt
+        num= histo.GetMean()*histo.GetEntries()
+        den= histo.GetMean()*histo.GetEntries()+self._histo1.GetMean()*self._histo1.GetEntries()
+        if den == 0:
+            res= 0
+            eres=0
+        else:
+            res=num/den
+            eres=sqrt(res*(1-res)/den)
+        return (res,eres)
+
+class PixelDigiPerClusterPix(BaseMetric):
+    def calculate(self, histo):
+        from math import sqrt
+        num= histo.GetMean()
+        den= self._histo1.GetMean()*self._histo2.GetMean()
+        if den == 0:
+            res= 0
+            eres=0
+        else:
+            res=num/den
+            enum=histo.GetMeanError()
+            eden=sqrt(self._histo1.GetMeanError()*self._histo1.GetMeanError()+self._histo2.GetMeanError()*self._histo2.GetMeanError())
+            if num == 0:
+                eres=0
+            else:
+                eres=res*sqrt((enum*enum)/(num*num)+(eden*eden)/(den*den))
+        if num < 1:
+            res=0
+            eres=0
+        return (res,eres)
+
+
 class MeanRMS(BaseMetric):
     def calculate(self, histo):
         #print 'mean:',histo.GetMean(), histo.GetMeanError()
@@ -96,6 +141,10 @@ class MeanY(BaseMetric):
 class MeanYAxis(BaseMetric):
     def calculate(self, histo):
         return (histo.GetMean(2), histo.GetMeanError(2)) 
+
+class MeanZAxis(BaseMetric):
+    def calculate(self, histo):
+        return (histo.GetMean(3), histo.GetMeanError(3)) 
 
 class RMSXAxis(BaseMetric):
     def calculate(self, histo):
@@ -137,6 +186,30 @@ class BinCount(BaseMetric):
         if not self.__noError:
             error = sqrt(histo.GetBinContent(binNr))
         return ( histo.GetBinContent(binNr), error)
+
+class RecoFraction(BaseMetric):
+    def __init__(self,  name, noError = False):
+        self.__name = name
+        self.__noError = noError
+
+    def calculate(self, histo):
+        from math import sqrt
+        binNr = self.__name
+        if type(self.__name) == type(""):
+            binNr = histo.GetXaxis().FindBin(self.__name)
+        enum = 0
+        if not self.__noError:
+            enum = sqrt(histo.GetBinContent(binNr))
+        num=histo.GetBinContent(binNr)
+        den=self._histo1.GetEntries();
+        if den == 0:
+            res=0
+            eres=0
+        else:
+            res=num/den
+            eres=enum/den
+        return ( res, eres)
+
 
 class BinsCount(BaseMetric):
     def __init__(self, startBin):
