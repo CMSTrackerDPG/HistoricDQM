@@ -211,18 +211,30 @@ touch .doneStreamExpressTracking
 
 
 # Reco Errors
-if [ -d  JSON_RECO ]
-  then
-      rm -r JSON_RECO
-fi
-python ./trendPlots_RECOErrors2017.py -C cfg/trendPlotsDQM.ini -C cfg/trendPlotsRECOErrors.ini --dataset StreamExpress --epoch Run2017 -J json_DCSONLY.txt --reco Express
-python ./trendPlots_RECOErrors2017.py -C cfg/trendPlotsDQM.ini -C cfg/trendPlotsRECOErrors.ini --dataset ZeroBias --epoch Run2017 -J json_DCSONLY.txt --reco Prompt
-cp JSON_RecoErrors_ImpFiles/*.* JSON_RECO/
-cd JSON_RECO
-./doRatio.sh StreamExpress
-cp ./StreamExpress/* /data/users/event_display/HDQM/v2/alljsons/2017/StreamExpress/RecoErrors/
-cp ./StreamExpress/* /data/users/event_display/HDQM/v3/alljsons/2017/StreamExpress/RecoErrors/
-./doRatio.sh ZeroBias
-cp ./ZeroBias/* /data/users/event_display/HDQM/v2/alljsons/2017/Prompt/ZeroBias/RecoErrors/
-cp ./ZeroBias/* /data/users/event_display/HDQM/v3/alljsons/2017/Prompt/ZeroBias/RecoErrors/
-cd ..
+#if [ -d  JSON_RECO ]
+#  then
+#      rm -r JSON_RECO
+#fi
+#python ./trendPlots_RECOErrors2017.py -C cfg/trendPlotsDQM.ini -C cfg/trendPlotsRECOErrors.ini --dataset StreamExpress --epoch Run2017 -J json_DCSONLY.txt --reco Express
+#python ./trendPlots_RECOErrors2017.py -C cfg/trendPlotsDQM.ini -C cfg/trendPlotsRECOErrors.ini --dataset ZeroBias --epoch Run2017 -J json_DCSONLY.txt --reco Prompt
+#cp JSON_RecoErrors_ImpFiles/*.* JSON_RECO/
+#cd JSON_RECO
+#./doRatio.sh StreamExpress
+#cp ./StreamExpress/* /data/users/event_display/HDQM/v2/alljsons/2017/StreamExpress/RecoErrors/
+#cp ./StreamExpress/* /data/users/event_display/HDQM/v3/alljsons/2017/StreamExpress/RecoErrors/
+#./doRatio.sh ZeroBias
+#cp ./ZeroBias/* /data/users/event_display/HDQM/v2/alljsons/2017/Prompt/ZeroBias/RecoErrors/
+#cp ./ZeroBias/* /data/users/event_display/HDQM/v3/alljsons/2017/Prompt/ZeroBias/RecoErrors/
+#cd ..
+
+rm -rf ./JSON/*
+python ./trendPlots_ROOTfile.py -C cfg/trendPlotsDQM_cronPPPromptRecoErrors.ini -C cfg/trendPlotsRECOErrors2017.ini --dataset ZeroBias --epoch Run2017 -J json_DCSONLY.txt --reco Prompt
+cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/Prompt/ZeroBias/RecoErrors/ 
+cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/Prompt/ZeroBias/RecoErrors/ 
+touch .donePromptRecoErrors
+
+rm -rf ./JSON/*
+python ./trendPlots_ROOTfile.py -C cfg/trendPlotsDQM_cronPPExpressRecoErrors.ini -C cfg/trendPlotsRECOErrors2017.ini --dataset StreamExpress --epoch Run2017 -J json_DCSONLY.txt --reco Express
+cp ./JSON/* /data/users/event_display/HDQM/v2/alljsons/2017/StreamExpress/RecoErrors/
+cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/StreamExpress/RecoErrors/
+touch .doneExpressRecoErrors
