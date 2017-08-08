@@ -418,11 +418,59 @@
         [
 	    "clustCharge_ALL_Endcap_mean"
         ],
+	[
+	    "clustCharge_ONTk_BPix_perLayer_mpv",
+	    "clustCharge_ONTk_BPix_Layer2_mpv",
+	    "clustCharge_ONTk_BPix_Layer3_mpv",
+	    "clustCharge_ONTk_BPix_Layer4_mpv"
+	],	
+	[
+	    "clustCharge_ONTk_FPix_perDisk_mpv",
+	    "clustCharge_ONTk_FPix_Dm2_mpv",
+	    "clustCharge_ONTk_FPix_Dm1_mpv",
+	    "clustCharge_ONTk_FPix_Dp3_mpv",
+	    "clustCharge_ONTk_FPix_Dp2_mpv",
+	    "clustCharge_ONTk_FPix_Dp1_mpv"
+	],
+	[
+            "HitEfficiency_BPix_perLayer",	
+            "HitEfficiency_BPix_Layer2",	
+            "HitEfficiency_BPix_Layer3",	
+            "HitEfficiency_BPix_Layer4"	
+	],
+	[
+            "HitEfficiency_FPix_perDisk",	
+            "HitEfficiency_FPix_Dm2",	
+            "HitEfficiency_FPix_Dm1",	
+            "HitEfficiency_FPix_Dp3",	
+            "HitEfficiency_FPix_Dp2",	
+            "HitEfficiency_FPix_Dp1"
+	],
+	[
+            "DigiPerClusterPixel_BPix"
+	],
+	[
+            "DigiPerClusterPixel_BPix_perLayer",
+            "DigiPerClusterPixel_BPix_Layer2",
+            "DigiPerClusterPixel_BPix_Layer3",
+            "DigiPerClusterPixel_BPix_Layer4"
+	],
+	[
+            "DigiPerClusterPixel_FPix"
+	],
+	[
+            "DigiPerClusterPixel_FPix_perDisk",
+            "DigiPerClusterPixel_FPix_Dm2",
+            "DigiPerClusterPixel_FPix_Dm1",
+            "DigiPerClusterPixel_FPix_Dp3",
+            "DigiPerClusterPixel_FPix_Dp2",
+            "DigiPerClusterPixel_FPix_Dp1"
+	],
         [
 	    "TotalNumber_ReadOut_Errors"
         ],
         [
-	    "averageFEDDigisOccupancy"
+	    "averageFEDDigisOccupancy_v2"
         ],
         [
 	    "size_ONTk_Barrel_mean"
@@ -436,6 +484,20 @@
         [
 	    "size_ALL_Endcap_mean"
         ],
+	[
+	    "size_ONTk_BPix_perLayer_mean",
+	    "size_ONTk_BPix_Layer2_mean",
+	    "size_ONTk_BPix_Layer3_mean",
+	    "size_ONTk_BPix_Layer4_mean"
+	],
+	[
+	    "size_ONTk_FPix_perDisk_mean",
+	    "size_ONTk_FPix_Dm2_mean",
+	    "size_ONTk_FPix_Dm1_mean",
+	    "size_ONTk_FPix_Dp3_mean",
+	    "size_ONTk_FPix_Dp2_mean",
+	    "size_ONTk_FPix_Dp1_mean"
+	],
         [
 	    "sizex_ALL_Barrel_mean"
         ],
@@ -449,68 +511,68 @@
 	    "sizey_ALL_Endcap_mean"
         ],
         [
-            "Residuals_X_BPIX_L1_mean",
+            "Residuals_X_BPIX_perLayer_mean",
             "Residuals_X_BPIX_L2_mean",
             "Residuals_X_BPIX_L3_mean",
             "Residuals_X_BPIX_L4_mean"
         ],
         [
-            "Residuals_X_BPIX_L1_rms",
+            "Residuals_X_BPIX_perLayer_rms",
             "Residuals_X_BPIX_L2_rms",
             "Residuals_X_BPIX_L3_rms",
             "Residuals_X_BPIX_L4_rms"
         ],
         [
-            "Residuals_Y_BPIX_L1_mean",
+            "Residuals_Y_BPIX_perLayer_mean",
             "Residuals_Y_BPIX_L2_mean",
             "Residuals_Y_BPIX_L3_mean",
             "Residuals_Y_BPIX_L4_mean"
         ],
         [
-            "Residuals_Y_BPIX_L1_rms",
+            "Residuals_Y_BPIX_perLayer_rms",
             "Residuals_Y_BPIX_L2_rms",
             "Residuals_Y_BPIX_L3_rms",
             "Residuals_Y_BPIX_L4_rms"
         ],
         [
-            "Residuals_X_FPIX_Dm1_mean",
+            "Residuals_X_FPIX_perMinusDisk_mean",
             "Residuals_X_FPIX_Dm2_mean",
-            "Residuals_X_FPIX_Dm3_mean"
+            "Residuals_X_FPIX_Dm1_mean"
         ],
         [
-            "Residuals_X_FPIX_Dm1_rms",
+            "Residuals_X_FPIX_perMinusDisk_rms",
             "Residuals_X_FPIX_Dm2_rms",
-            "Residuals_X_FPIX_Dm3_rms"
+            "Residuals_X_FPIX_Dm1_rms"
         ],
         [
-            "Residuals_X_FPIX_Dp1_mean",
+            "Residuals_X_FPIX_perPlusDisk_mean",
             "Residuals_X_FPIX_Dp2_mean",
-            "Residuals_X_FPIX_Dp3_mean"
+            "Residuals_X_FPIX_Dp1_mean"
         ],
         [
-            "Residuals_X_FPIX_Dp1_rms",
+            "Residuals_X_FPIX_perPlusDisk_rms",
             "Residuals_X_FPIX_Dp2_rms",
-            "Residuals_X_FPIX_Dp3_rms"
+            "Residuals_X_FPIX_Dp1_rms"
         ],
         [
-            "Residuals_Y_FPIX_Dm1_mean",
+            "Residuals_Y_FPIX_perMinusDisk_mean",
             "Residuals_Y_FPIX_Dm2_mean",
-            "Residuals_Y_FPIX_Dm3_mean"
+            "Residuals_Y_FPIX_Dm1_mean"
         ],
         [
-            "Residuals_Y_FPIX_Dm1_rms",
+            "Residuals_Y_FPIX_perMinusDisk_rms",
             "Residuals_Y_FPIX_Dm2_rms",
-            "Residuals_Y_FPIX_Dm3_rms"
+            "Residuals_Y_FPIX_Dm1_rms"
         ],
         [
-            "Residuals_Y_FPIX_Dp1_mean",
+            "Residuals_Y_FPIX_perPlusDisk_mean",
             "Residuals_Y_FPIX_Dp2_mean",
-            "Residuals_Y_FPIX_Dp3_mean"
+            "Residuals_Y_FPIX_Dp1_mean"
         ],
         [
-            "Residuals_Y_FPIX_Dp1_rms",
+            "Residuals_Y_FPIX_perPlusDisk_rms",
             "Residuals_Y_FPIX_Dp2_rms",
-            "Residuals_Y_FPIX_Dp3_rms"
+            "Residuals_Y_FPIX_Dp1_rms"
         ]
     ],
     "StreamExprCosmicTracking": [
@@ -686,11 +748,59 @@
         [
 	    "clustCharge_ALL_Endcap_mean"
         ],
+	[
+	    "clustCharge_ONTk_BPix_perLayer_mpv",
+	    "clustCharge_ONTk_BPix_Layer2_mpv",
+	    "clustCharge_ONTk_BPix_Layer3_mpv",
+	    "clustCharge_ONTk_BPix_Layer4_mpv"
+	],	
+	[
+	    "clustCharge_ONTk_FPix_perDisk_mpv",
+	    "clustCharge_ONTk_FPix_Dm2_mpv",
+	    "clustCharge_ONTk_FPix_Dm1_mpv",
+	    "clustCharge_ONTk_FPix_Dp3_mpv",
+	    "clustCharge_ONTk_FPix_Dp2_mpv",
+	    "clustCharge_ONTk_FPix_Dp1_mpv"
+	],	
+	[
+            "HitEfficiency_BPix_perLayer",	
+            "HitEfficiency_BPix_Layer2",	
+            "HitEfficiency_BPix_Layer3",	
+            "HitEfficiency_BPix_Layer4"	
+	],
+	[
+            "HitEfficiency_FPix_perDisk",	
+            "HitEfficiency_FPix_Dm2",	
+            "HitEfficiency_FPix_Dm1",	
+            "HitEfficiency_FPix_Dp3",	
+            "HitEfficiency_FPix_Dp2",	
+            "HitEfficiency_FPix_Dp1"
+	],
+	[
+            "DigiPerClusterPixel_BPix"
+	],
+	[
+            "DigiPerClusterPixel_BPix_perLayer",
+            "DigiPerClusterPixel_BPix_Layer2",
+            "DigiPerClusterPixel_BPix_Layer3",
+            "DigiPerClusterPixel_BPix_Layer4"
+	],
+	[
+            "DigiPerClusterPixel_FPix"
+	],
+	[
+            "DigiPerClusterPixel_FPix_perDisk",
+            "DigiPerClusterPixel_FPix_Dm2",
+            "DigiPerClusterPixel_FPix_Dm1",
+            "DigiPerClusterPixel_FPix_Dp3",
+            "DigiPerClusterPixel_FPix_Dp2",
+            "DigiPerClusterPixel_FPix_Dp1"
+	],
         [
 	    "TotalNumber_ReadOut_Errors"
         ],
         [
-	    "averageFEDDigisOccupancy"
+	    "averageFEDDigisOccupancy_v2"
         ],
         [
 	    "size_ONTk_Barrel_mean"
@@ -704,6 +814,20 @@
         [
 	    "size_ALL_Endcap_mean"
         ],
+	[
+	    "size_ONTk_BPix_perLayer_mean",
+	    "size_ONTk_BPix_Layer2_mean",
+	    "size_ONTk_BPix_Layer3_mean",
+	    "size_ONTk_BPix_Layer4_mean"
+	],
+	[
+	    "size_ONTk_FPix_perDisk_mean",
+	    "size_ONTk_FPix_Dm2_mean",
+	    "size_ONTk_FPix_Dm1_mean",
+	    "size_ONTk_FPix_Dp3_mean",
+	    "size_ONTk_FPix_Dp2_mean",
+	    "size_ONTk_FPix_Dp1_mean"
+	],
         [
 	    "sizex_ALL_Barrel_mean"
         ],
@@ -717,68 +841,68 @@
 	    "sizey_ALL_Endcap_mean"
         ],
         [
-            "Residuals_X_BPIX_L1_mean",
+            "Residuals_X_BPIX_perLayer_mean",
             "Residuals_X_BPIX_L2_mean",
             "Residuals_X_BPIX_L3_mean",
             "Residuals_X_BPIX_L4_mean"
         ],
         [
-            "Residuals_X_BPIX_L1_rms",
+            "Residuals_X_BPIX_perLayer_rms",
             "Residuals_X_BPIX_L2_rms",
             "Residuals_X_BPIX_L3_rms",
             "Residuals_X_BPIX_L4_rms"
         ],
         [
-            "Residuals_Y_BPIX_L1_mean",
+            "Residuals_Y_BPIX_perLayer_mean",
             "Residuals_Y_BPIX_L2_mean",
             "Residuals_Y_BPIX_L3_mean",
             "Residuals_Y_BPIX_L4_mean"
         ],
         [
-            "Residuals_Y_BPIX_L1_rms",
+            "Residuals_Y_BPIX_perLayer_rms",
             "Residuals_Y_BPIX_L2_rms",
             "Residuals_Y_BPIX_L3_rms",
             "Residuals_Y_BPIX_L4_rms"
         ],
         [
-            "Residuals_X_FPIX_Dm1_mean",
+            "Residuals_X_FPIX_perMinusDisk_mean",
             "Residuals_X_FPIX_Dm2_mean",
-            "Residuals_X_FPIX_Dm3_mean"
+            "Residuals_X_FPIX_Dm1_mean"
         ],
         [
-            "Residuals_X_FPIX_Dm1_rms",
+            "Residuals_X_FPIX_perMinusDisk_rms",
             "Residuals_X_FPIX_Dm2_rms",
-            "Residuals_X_FPIX_Dm3_rms"
+            "Residuals_X_FPIX_Dm1_rms"
         ],
         [
-            "Residuals_X_FPIX_Dp1_mean",
+            "Residuals_X_FPIX_perPlusDisk_mean",
             "Residuals_X_FPIX_Dp2_mean",
-            "Residuals_X_FPIX_Dp3_mean"
+            "Residuals_X_FPIX_Dp1_mean"
         ],
         [
-            "Residuals_X_FPIX_Dp1_rms",
+            "Residuals_X_FPIX_perPlusDisk_rms",
             "Residuals_X_FPIX_Dp2_rms",
-            "Residuals_X_FPIX_Dp3_rms"
+            "Residuals_X_FPIX_Dp1_rms"
         ],
         [
-            "Residuals_Y_FPIX_Dm1_mean",
+            "Residuals_Y_FPIX_perMinusDisk_mean",
             "Residuals_Y_FPIX_Dm2_mean",
-            "Residuals_Y_FPIX_Dm3_mean"
+            "Residuals_Y_FPIX_Dm1_mean"
         ],
         [
-            "Residuals_Y_FPIX_Dm1_rms",
+            "Residuals_Y_FPIX_perMinusDisk_rms",
             "Residuals_Y_FPIX_Dm2_rms",
-            "Residuals_Y_FPIX_Dm3_rms"
+            "Residuals_Y_FPIX_Dm1_rms"
         ],
         [
-            "Residuals_Y_FPIX_Dp1_mean",
+            "Residuals_Y_FPIX_perPlusDisk_mean",
             "Residuals_Y_FPIX_Dp2_mean",
-            "Residuals_Y_FPIX_Dp3_mean"
+            "Residuals_Y_FPIX_Dp1_mean"
         ],
         [
-            "Residuals_Y_FPIX_Dp1_rms",
+            "Residuals_Y_FPIX_perPlusDisk_rms",
             "Residuals_Y_FPIX_Dp2_rms",
-            "Residuals_Y_FPIX_Dp3_rms"
+            "Residuals_Y_FPIX_Dp1_rms"
         ]
     ],
     "RecoErrors": [
