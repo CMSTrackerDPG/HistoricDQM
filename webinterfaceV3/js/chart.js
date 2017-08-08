@@ -36,6 +36,7 @@ class Chart {
                     var points = data[Object.keys(data)[0]];
                     self.series[i] = {};
                     self.series[i].yTitle = points[0].yTitle;
+                    self.series[i].hTitle = points[0].hTitle;
                     self.series[i].yValues = [];
                     self.series[i].xValues = [];
                     self.series[i].yErr = [];
@@ -168,8 +169,10 @@ class Chart {
                     this.yRange[1] = yErr[i][j][1];}
             }
         }
-        //console.log(this.yRange);
+
+
         var yTitle = this.series[0].yTitle;
+        var hTitle = this.series[0].hTitle;
         if (this.chart_obj !== null) {
             this.chart_obj.destroy();
         }
@@ -180,14 +183,14 @@ class Chart {
                 height : "470"
             },
             title : {
-                text : yTitle
+                text : hTitle
             },
             xAxis : {
                 title : {
                     text : 'Run No.',
                 },
 		categories : xValues[0] // 10Apr2017
- 
+		 
             },
             yAxis : {
                 title : {
@@ -203,17 +206,43 @@ class Chart {
             }
         };
         this.chart_obj = new Highcharts.Chart(this.highcharts_options);
-        
-        for (var i = 0; i < this.files.length; i++) {
-            this.chart_obj.addSeries({
-                name : this.files[i].split(".")[0],
-                type : 'scatter',
+	for (var i = 0; i < this.files.length; i++) {
+            var fileName = this.files[i].split(".")[0]; //Hugo: basic name of the file
+	    for (var number = 1; number <= 4; number++) { //If we have several plots on the same plot, show the layer number instead...
+                if ((fileName.indexOf("Layer"+number) !== -1) || (fileName.indexOf("L"+number) !== -1) ) {
+		    fileName = 'Layer ' +number;
+            	    continue;
+		}
+	    }
+	    for (var number = 1; number <= 3; number++) { //or the disk number
+                if (fileName.indexOf("Dm"+number) !== -1) {
+		    fileName = 'Disk -' +number;
+            	    continue;
+		}
+                if (fileName.indexOf("Dp"+number) !== -1) {
+		    fileName = 'Disk +' +number;
+            	    continue;
+		}
+	    }
+	    if (fileName.indexOf("perLayer") !== -1) { //Convention: the first trend must be layer 1 and is called "perLayer" in the title. So the title is correct and the legend also
+                fileName = 'Layer 1';
+	    }
+	    if ((fileName.indexOf("perDisk") !== -1) || (fileName.indexOf("perMinusDisk") !== -1)) { //Convention: the first trend must be disk -3 and is called "perDisk" in the title. So the title is correct and the legend also
+                fileName = 'Disk -3';
+	    }
+	    if (fileName.indexOf("perPlusDisk") !== -1) { //Convention: for plus or minus trends only, the first trend must be disk -/+3 and is called "perMinusDisk" or "perPlusDisk" in the title. So the title is correct and the legend also
+                fileName = 'Disk +3';
+	    }
+
+	    this.chart_obj.addSeries({
+                name : fileName,
+		type : 'scatter',
                 data : yValues[i],
                 color : colors[i],
                 tooltip : {
                     headerFormat : "",
                     pointFormat : '<span style="color:{series.color}"></span><b>{point.series.name}</b><br> <b>Run No:</b> {point.category}<br/><b>'
-                            + yTitle + ': </b>{point.y}'
+                            + yTitle + ': </b>{point.y}<br><b>GUI link:</b> coming soon<br/>'
                 }
             }, false);
             //console.log(yErr[i].length);
