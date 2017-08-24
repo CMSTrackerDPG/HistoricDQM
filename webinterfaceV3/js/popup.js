@@ -101,6 +101,8 @@ function updatePopupGraph() {
     }
 
     console.log("X values: " + xAxisValues);
+    cloneToolTip = null;
+    cloneToolTip2 = null;
     chart = new Highcharts.Chart({
         chart: {
             renderTo: $("#facebox .chart")[0],
@@ -126,6 +128,29 @@ function updatePopupGraph() {
         scatter: {
             marker: {
                 radius: 2
+            }
+        },
+	plotOptions: {
+            series: {
+                cursor: 'pointer',
+                point: {
+                    events: {
+                        click: function() { 
+                            if (cloneToolTip)
+                            {                                chart.container.firstChild.removeChild(cloneToolTip);
+                            }
+                            if (cloneToolTip2)
+                            {
+                                cloneToolTip2.remove();
+                            }
+                            cloneToolTip = this.series.chart.tooltip.label.element.cloneNode(true);
+                            chart.container.firstChild.appendChild(cloneToolTip);
+                            
+                            cloneToolTip2 = $('.highcharts-tooltip').clone(); 
+                            $(chart.container).append(cloneToolTip2);
+                        }
+                    }
+                }
             }
         },
 

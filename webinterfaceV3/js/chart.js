@@ -208,8 +208,20 @@ class Chart {
         this.chart_obj = new Highcharts.Chart(this.highcharts_options);
 	for (var i = 0; i < this.files.length; i++) {
             var fileName = this.files[i].split(".")[0]; //Hugo: basic name of the file
+	    if (fileName.indexOf("perInOutLayer") !== -1) { //Convention: for plus or minus trends only, the first trend must be disk -/+3 and is called "perMinusDisk" or "perPlusDisk" in the title. So the title is correct and the legend also
+                fileName = 'Inner Layer 1';
+	    }
+
 	    for (var number = 1; number <= 4; number++) { //If we have several plots on the same plot, show the layer number instead...
-                if ((fileName.indexOf("Layer"+number) !== -1) || (fileName.indexOf("L"+number) !== -1) ) {
+                if (fileName.indexOf("InnerLayer"+number) !== -1) {
+		    fileName = 'Inner Layer ' +number;
+            	    continue;
+		}
+                if (fileName.indexOf("OuterLayer"+number) !== -1) {
+		    fileName = 'Outer Layer ' +number;
+            	    continue;
+		}
+       		if ((fileName.indexOf("Layer"+number) !== -1) || (fileName.indexOf("L"+number) !== -1) ) {
 		    fileName = 'Layer ' +number;
             	    continue;
 		}
