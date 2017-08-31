@@ -432,6 +432,16 @@
 	    "clustCharge_ONTk_FPix_Dp2_mpv",
 	    "clustCharge_ONTk_FPix_Dp1_mpv"
 	],
+        [
+            "clustCharge_ONTk_BPix_perInOutLayer_mpv",
+	    "clustCharge_ONTk_BPix_OuterLayer1_mpv",
+            "clustCharge_ONTk_BPix_InnerLayer2_mpv",	
+	    "clustCharge_ONTk_BPix_OuterLayer2_mpv",
+            "clustCharge_ONTk_BPix_InnerLayer3_mpv",	
+	    "clustCharge_ONTk_BPix_OuterLayer3_mpv",
+            "clustCharge_ONTk_BPix_InnerLayer4_mpv",	
+	    "clustCharge_ONTk_BPix_OuterLayer4_mpv"
+        ],
 	[
             "HitEfficiency_BPix_perLayer",	
             "HitEfficiency_BPix_Layer2",	
@@ -761,7 +771,17 @@
 	    "clustCharge_ONTk_FPix_Dp3_mpv",
 	    "clustCharge_ONTk_FPix_Dp2_mpv",
 	    "clustCharge_ONTk_FPix_Dp1_mpv"
-	],	
+	],
+        [
+            "clustCharge_ONTk_BPix_perInOutLayer_mpv",
+	    "clustCharge_ONTk_BPix_OuterLayer1_mpv",
+            "clustCharge_ONTk_BPix_InnerLayer2_mpv",	
+	    "clustCharge_ONTk_BPix_OuterLayer2_mpv",
+            "clustCharge_ONTk_BPix_InnerLayer3_mpv",	
+	    "clustCharge_ONTk_BPix_OuterLayer3_mpv",
+            "clustCharge_ONTk_BPix_InnerLayer4_mpv",	
+	    "clustCharge_ONTk_BPix_OuterLayer4_mpv"
+        ],
 	[
             "HitEfficiency_BPix_perLayer",	
             "HitEfficiency_BPix_Layer2",	
