@@ -10,6 +10,8 @@ class Chart {
         this.list_item = null;
         this.chart_obj = null;
         this.last_range = null;
+	this.cloneToolTip = null;                                                                                                        
+        this.cloneToolTip2 = null;
     }
 
     //called once, the first time we need to show the chart
@@ -176,6 +178,8 @@ class Chart {
         if (this.chart_obj !== null) {
             this.chart_obj.destroy();
         }
+	//	cloneToolTip = null;
+	//	cloneToolTip2 = null;
         this.highcharts_options = {
             chart : {
                 renderTo : (this.name),

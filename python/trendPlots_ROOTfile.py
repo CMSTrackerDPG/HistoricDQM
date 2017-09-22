@@ -173,6 +173,7 @@ class TrendPlot:
                     print h2
                     self.__metric.setOptionalHisto2(h2)
                 print histo,"V4"
+                self.__metric.setRun(runNr)
                 if(histo!=-99):
                     Entr=0
                     Entr=histo.GetEntries()

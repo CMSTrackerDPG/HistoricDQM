@@ -4,6 +4,7 @@ class BaseMetric:
         self._reference = None
         self._histo1 = None
         self._histo2 = None
+        self._run = 0
         self._threshold = 1
 
     def setCache(self, cache):
@@ -18,7 +19,8 @@ class BaseMetric:
         self._threshold = threshold
     def setCacheLocation(self, serverUrl, runNr, dataset, histoPath):
          self.__cacheLocation = (serverUrl, runNr, dataset, histoPath)
-
+    def setRun(self, runNr):
+        self._run = runNr
 
     def __call__(self, histo, cacheLocation=None):
         if not cacheLocation == None and not self.__cache == None and cacheLocation in self.__cache:
@@ -300,10 +302,9 @@ class Fraction(BaseMetric):
         from math import sqrt
         s = histo.Integral(histo.FindBin( self.__low),
                            histo.FindBin( self.__high))
-        T = histo.Integral()
-        B = T-s
+        T = histo.GetEntries()
         return ( s/T if T else 0,
-                 sqrt( s*s*B + B*B*s ) / (T*T) if s and B else 1/T if T else 0)
+                 sqrt( 1/s + 1/T )*(s/T) if s and T else 1/sqrt(T) if T else 0)
 
 class Fraction1(BaseMetric): 
     def __init__(self, low, high):

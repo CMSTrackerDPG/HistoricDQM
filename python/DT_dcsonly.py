@@ -32,10 +32,10 @@ def getRunList(save=False):
         print e
 
     #filter = {"runNumber": ">= %d" % minRun, "dataset": {"rowClass": "org.cern.cms.dqm.runregistry.user.model.RunDatasetRowGlobal", "filter": {"online": "= true", "datasetName": "like %Online%ALL", "runClassName" : "Collisions16", "run": {"rowClass": "org.cern.cms.dqm.runregistry.user.model.RunSummaryRowGlobal", "filter": {"pixelPresent": "= true", "trackerPresent": "= true"}}}}}
-    runclass = "Collisions16"
+    runclass = "Collisions17"
     filter = {"runNumber": ">= %d" % options.min, "dataset": {"rowClass": "org.cern.cms.dqm.runregistry.user.model.RunDatasetRowGlobal", "filter": {"online": "= true", "datasetName": "like %Online%ALL", "runClassName" : "%s" % runclass, "run": {"rowClass": "org.cern.cms.dqm.runregistry.user.model.RunSummaryRowGlobal", "filter": {"dtPresent": "= true"}}}}}
     if options.cosmics:
-        runclass = "Cosmics16"
+        runclass = "Cosmics17"
         filter = {"runNumber": ">= %d" % options.min, "dataset": {"rowClass": "org.cern.cms.dqm.runregistry.user.model.RunDatasetRowGlobal", "filter": {"online": "= true", "datasetName": "like %Online%ALL", "runClassName" : "%s" % runclass, "run": {"rowClass": "org.cern.cms.dqm.runregistry.user.model.RunSummaryRowGlobal", "filter": {"trackerPresent": "= true"}}}}}
 
     filter.setdefault("dtpReady", "isNull OR = true")
@@ -62,7 +62,7 @@ def getRunList(save=False):
             filename = 'DT_json_DCSONLY.txt'
             if options.cosmics: 
                 filename = 'DT_json_DCSONLY_cosmics.txt'
-            lumiSummary = open('/data/users/HDQM/CMSSW_8_1_0/HistoricDQM/python/'+filename, 'w')
+            lumiSummary = open('/data/users/HDQM/CMSSW_9_1_0_pre1/HistoricDQM/python/'+filename, 'w')
             json.dump(toOrdinaryJSON(dcs_only, verbose=False), lumiSummary, indent=2, sort_keys=True)
             lumiSummary.close()
     else:

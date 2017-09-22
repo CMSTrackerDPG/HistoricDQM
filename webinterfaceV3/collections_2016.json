@@ -81,7 +81,13 @@
         ],
         [
             "NumberOfLayersPerCosmicTrack_mean"
-        ]
+        ],
+	[
+	    "TracksFraction_3GeV_CFKTk"
+	],
+	[
+	    "RecHitPerCosmicTrack_mean"
+	]
     ],
     "Pixel": [
         [
@@ -203,18 +209,34 @@
             "ClusterProbabilityXY_FPIX_D2_Plus"
         ]        
     ],
+    "DT": [
+        [
+            "ResidualAll_DT_mean"
+        ]
+    ],
+    "DTStreamExpress": [
+        [
+            "ResidualAll_DT_mean"
+        ]
+    ], 
     "StreamExprCosmicTracking": [
         [
             "NumberOfCosmicTracks_mean"
-        ],
-        [
-            "RecHitPerCosmicTrack_mean"
         ],
         [
             "CosmicTrackChisquared_mean"
         ],
         [
             "CosmicTrackPt_mean"
+        ],
+        [
+            "NumberOfLayersPerCosmicTrack_mean"
+        ],
+	[
+	    "TracksFraction_3GeV_CFKTk"
+	],
+        [
+            "RecHitPerCosmicTrack_mean"
         ]
     ],
     "StreamExprPixel": [
@@ -686,6 +708,275 @@
         ]
     ],
     "StripDeco": [
+        [
+            "clusterStoN_ONTk_TEC_MINUS_mpv",
+            "clusterStoN_ONTk_TEC_PLUS_mpv"
+        ],
+        [
+            "clusterStoN_ONTk_TIB_mpv"
+        ],
+        [
+            "clusterStoN_ONTk_TID_MINUS_mpv",
+            "clusterStoN_ONTk_TID_PLUS_mpv"
+        ],
+        [
+            "clusterStoN_ONTk_TOB_mpv"
+        ],
+        [
+            "NAddressErr_APV_count"
+        ],
+        [
+            "NAddressErr_APV_mean"
+        ],
+        [
+            "Mean_NShot_Vs_Run"
+        ],
+        [
+            "Main_Diagonal_Position"
+        ],
+        [
+            "NBad_ChannelStatusBit_count"
+        ],
+        [
+            "NBad_ChannelStatusBit_mean"
+        ],
+        [
+            "NBadActive_ChannelStatusBit_count"
+        ],
+        [
+            "NClust_OFFTk_TEC_MINUS_mean",
+            "NClust_OFFTk_TEC_PLUS_mean"
+        ],
+        [
+            "NClust_OFFTk_TIB_mean"
+        ],
+        [
+            "NClust_OFFTk_TID_MINUS_mean",
+            "NClust_OFFTk_TID_PLUS_mean"
+        ],
+        [
+            "NClust_OFFTk_TOB_mean"
+        ],
+        [
+            "NClust_ONTk_TEC_MINUS_mean",
+            "NClust_ONTk_TEC_PLUS_mean"
+        ],
+        [
+            "NClust_ONTk_TIB_mean"
+        ],
+        [
+            "NClust_ONTk_TID_MINUS_mean",
+            "NClust_ONTk_TID_PLUS_mean"
+        ],
+        [
+            "NClust_ONTk_TOB_mean"
+        ],
+        [
+            "NClust_OFFTk_TEC_MINUS_count",
+            "NClust_OFFTk_TEC_PLUS_count"
+        ],
+        [
+            "NClust_OFFTk_TIB_count"
+        ],
+        [
+            "NClust_OFFTk_TID_MINUS_count",
+            "NClust_OFFTk_TID_PLUS_count"
+        ],
+        [
+            "NClust_OFFTk_TOB_count"
+        ],
+        [
+            "NClust_ONTk_TEC_MINUS_count",
+            "NClust_ONTk_TEC_PLUS_count"
+        ],
+        [
+            "NClust_ONTk_TIB_count"
+        ],
+        [
+            "NClust_ONTk_TID_MINUS_count",
+            "NClust_ONTk_TID_PLUS_count"
+        ],
+        [
+            "NClust_ONTk_TOB_count"
+        ],
+        [
+            "NErr_APV_count"
+        ],
+        [
+            "NErr_APV_mean"
+        ],
+        [
+            "NErr_FED_count"
+        ],
+        [
+            "NErr_FED_fraction20PlusOverAll_Vs_Run"
+        ],
+        [
+            "NErr_FED_mean"
+        ],
+        [
+            "NErr_FED_ratio20PlusOver20Minus_Vs_Run"
+        ],
+        [
+            "HitResiduals_TIB_layer1_mean"
+        ],
+        [
+            "HitResiduals_TIB_layer1_rms"
+        ],
+        [
+            "HitResiduals_TIB_layer2_mean"
+        ],
+        [
+            "HitResiduals_TIB_layer2_rms"
+        ],
+        [
+            "HitResiduals_TIB_layer3_mean"
+        ],
+        [
+            "HitResiduals_TIB_layer3_rms"
+        ],
+        [
+            "HitResiduals_TIB_layer4_mean"
+        ],
+        [
+            "HitResiduals_TIB_layer4_rms"
+        ],
+        [
+            "HitResiduals_TOB_layer1_mean"
+        ],
+        [
+            "HitResiduals_TOB_layer1_rms"
+        ],
+        [
+            "HitResiduals_TOB_layer2_mean"
+        ],
+        [
+            "HitResiduals_TOB_layer2_rms"
+        ],
+        [
+            "HitResiduals_TOB_layer3_mean"
+        ],
+        [
+            "HitResiduals_TOB_layer3_rms"
+        ],
+        [
+            "HitResiduals_TOB_layer4_mean"
+        ],
+        [
+            "HitResiduals_TOB_layer4_rms"
+        ],
+        [
+            "HitResiduals_TOB_layer5_mean"
+        ],
+        [
+            "HitResiduals_TOB_layer5_rms"
+        ],
+        [
+            "HitResiduals_TOB_layer6_mean"
+        ],
+        [
+            "HitResiduals_TOB_layer6_rms"
+        ],
+        [
+            "HitResiduals_TEC_MINUS_wheel1_mean",
+            "HitResiduals_TEC_PLUS_wheel1_mean"
+        ],
+        [
+            "HitResiduals_TEC_MINUS_wheel1_rms",
+            "HitResiduals_TEC_PLUS_wheel1_rms"
+        ],
+        [
+            "HitResiduals_TEC_MINUS_wheel2_mean",
+            "HitResiduals_TEC_PLUS_wheel2_mean"
+        ],
+        [
+            "HitResiduals_TEC_MINUS_wheel2_rms",
+            "HitResiduals_TEC_PLUS_wheel2_rms"
+        ],
+        [
+            "HitResiduals_TEC_MINUS_wheel3_mean",
+            "HitResiduals_TEC_PLUS_wheel3_mean"
+        ],
+        [
+            "HitResiduals_TEC_MINUS_wheel3_rms",
+            "HitResiduals_TEC_PLUS_wheel3_rms"
+        ],
+        [
+            "HitResiduals_TEC_MINUS_wheel4_mean",
+            "HitResiduals_TEC_PLUS_wheel4_mean"
+        ],
+        [
+            "HitResiduals_TEC_MINUS_wheel4_rms",
+            "HitResiduals_TEC_PLUS_wheel4_rms"
+        ],
+        [
+            "HitResiduals_TEC_MINUS_wheel5_mean",
+            "HitResiduals_TEC_PLUS_wheel5_mean"
+        ],
+        [
+            "HitResiduals_TEC_MINUS_wheel5_rms",
+            "HitResiduals_TEC_PLUS_wheel5_rms"
+        ],
+        [
+            "HitResiduals_TEC_MINUS_wheel6_mean",
+            "HitResiduals_TEC_PLUS_wheel6_mean"
+        ],
+        [
+            "HitResiduals_TEC_MINUS_wheel6_rms",
+            "HitResiduals_TEC_PLUS_wheel6_rms"
+        ],
+        [
+            "HitResiduals_TEC_MINUS_wheel7_mean",
+            "HitResiduals_TEC_PLUS_wheel7_mean"
+        ],
+        [
+            "HitResiduals_TEC_MINUS_wheel7_rms",
+            "HitResiduals_TEC_PLUS_wheel7_rms"
+        ],
+        [
+            "HitResiduals_TEC_MINUS_wheel8_mean",
+            "HitResiduals_TEC_PLUS_wheel8_mean"
+        ],
+        [
+            "HitResiduals_TEC_MINUS_wheel8_rms",
+            "HitResiduals_TEC_PLUS_wheel8_rms"
+        ],
+        [
+            "HitResiduals_TEC_MINUS_wheel9_mean",
+            "HitResiduals_TEC_PLUS_wheel9_mean"
+        ],
+        [
+            "HitResiduals_TEC_MINUS_wheel9_rms",
+            "HitResiduals_TEC_PLUS_wheel9_rms"
+        ],
+        [
+            "NOutOfSync_Channels_count"
+        ],
+        [
+            "NOutOfSync_Channels_mean"
+        ],
+        [
+            "NUnlocked_Channels_count"
+        ],
+        [
+            "NUnlocked_Channels_mean"
+        ],
+        [
+            "summary_ccpercmfromtrack__tecm_mpv",
+            "summary_ccpercmfromtrack__tecp_mpv"
+        ],
+        [
+            "summary_ccpercmfromtrack__tidm_mpv",
+            "summary_ccpercmfromtrack__tidp_mpv"
+        ],
+        [
+            "summary_ccpercmfromtrack__tib_mpv"
+        ],
+        [
+            "summary_ccpercmfromtrack__tob_mpv"
+        ]
+    ],
+    "StreamExpressStripDeco": [
         [
             "clusterStoN_ONTk_TEC_MINUS_mpv",
             "clusterStoN_ONTk_TEC_PLUS_mpv"
@@ -1847,6 +2138,36 @@
         ]
     ],
     "StripPeakExprCosmics": [
+        [
+            "clusterStoN_ONTk_TIB_mean"
+        ],
+        [
+            "clusterStoN_ONTk_TOB_mean"
+        ],
+        [
+            "clusterStoN_ONTk_TEC_MINUS_mean",
+            "clusterStoN_ONTk_TEC_PLUS_mean"
+        ],
+        [
+            "clusterStoN_ONTk_TID_MINUS_mean",
+            "clusterStoN_ONTk_TID_PLUS_mean"
+        ],
+        [
+            "TotalNumberOfCluster__TIB"
+        ],
+        [
+            "TotalNumberOfCluster__TOB"
+        ],
+        [
+            "TotalNumberOfCluster__TEC__MINUS",
+            "TotalNumberOfCluster__TEC__PLUS"
+        ],
+        [
+            "TotalNumberOfCluster__TID__MINUS",
+            "TotalNumberOfCluster__TID__PLUS"
+        ]
+    ],
+    "StripPeakCosmicsCommissioning": [
         [
             "clusterStoN_ONTk_TIB_mean"
         ],
