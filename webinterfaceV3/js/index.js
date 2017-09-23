@@ -34,6 +34,8 @@ function load_dataset(name) {
         }
     }
     if (need_refresh) {
+	console.log("index.js ->  chart_list.dataset = ", name);  
+	console.log(collections);
         chart_list = new ChartList(name, collections[name]);
 	//console.log("index.js -> need_refresh = true");
 	//console.log("index.js -> new chart_list = ", chart_list);
@@ -119,7 +121,7 @@ function update_url() {
 }
 
 function update_subsystem() {
-	if ($("#subsystem").val() == "Pixel" || $("#subsystem").val() == "PixelPhase1") {
+        if ($("#subsystem").val() == "Pixel" || $("#subsystem").val() == "PixelPhase1" || $("#subsystem").val() == "DT") {
 		$("#apvMode").prop("disabled", true);
 		$("#apvMode").val("No Selection");
 	} else {
@@ -139,7 +141,7 @@ function update_collections() {
 	    //$.getJSON(collec_file, function (data) {
 	    collections = data;
     });
-
+    console.log(collections);
 }
 
 
@@ -159,7 +161,7 @@ $(document).ready(
 		collec_file = "collections_"+$("#year").val()+".json";
 		console.log("collection file  : " + collec_file);
 		
-		$.getJSON("collections_2017.json", function (data) {
+		$.getJSON("collections_2016.json", function (data) {
 			//$.getJSON(collec_file, function (data) {
 			collections = data;
 		});
@@ -179,128 +181,136 @@ $(document).ready(
 					update_url(apvMode, dataSet, subsystem, year);
 					console.log("update_url executed.............");
 					if (dataSet == "ZeroBias"
-							&& subsystem == "Pixel"
-							&& (apvMode == "" || apvMode == null)) {
-						load_dataset("Pixel");
+					          && subsystem == "Pixel"
+					          && (apvMode == "" || apvMode == null)) {
+					        load_dataset("Pixel");
 					}else if (dataSet == "ZeroBias"
 						  && subsystem == "PixelPhase1"
 						  && (apvMode == "" || apvMode == null)) {
-					    load_dataset("PixelPhase1");
-					} else if (dataSet == "ZeroBias"
-							&& subsystem == "Tracking"
-							&& apvMode == "PEAK + DECO") {
+					        load_dataset("PixelPhase1");
+					}else if (dataSet == "ZeroBias"
+						  && subsystem == "DT"
+						  && (apvMode == "" || apvMode == null)) {
+                                                load_dataset("DT");
+					}else if (dataSet == "ZeroBias"
+						  && subsystem == "Tracking"
+						  && apvMode == "PEAK + DECO") {
 						load_dataset("Tracking");
 					} else if (dataSet == "ZeroBias"
-							&& subsystem == "RecoErrors"
-							&& apvMode == "PEAK + DECO") {
+						   && subsystem == "RecoErrors"
+						   && apvMode == "PEAK + DECO") {
 						load_dataset("RecoErrors");
 					} else if (dataSet == "StreamExpress"
-							&& subsystem == "Pixel"
-							&& (apvMode == "" || apvMode == null)) {
+						   && subsystem == "Pixel"
+						   && (apvMode == "" || apvMode == null)) {
 						load_dataset("StreamExprPixel");
 					} else if (dataSet == "StreamExpress"
 						   && subsystem == "PixelPhase1"
 						   && (apvMode == "" || apvMode == null)) {
-					    load_dataset("StreamExprPixelPhase1");
+					        load_dataset("StreamExprPixelPhase1");
 					} else if (dataSet == "StreamExpress"
-							&& subsystem == "RecoErrors"
-							&& apvMode == "PEAK + DECO") {
+                                                   && subsystem == "DT"
+                                                   && (apvMode == "" || apvMode == null)) {
+                                                load_dataset("DTStreamExpress");
+					} else if (dataSet == "StreamExpress"
+						   && subsystem == "RecoErrors"
+						   && apvMode == "PEAK + DECO") {
 						load_dataset("StreamExprRecoErrors");
 					} else if (dataSet == "StreamExpress"
-							&& subsystem == "Tracking"
-							&& apvMode == "PEAK + DECO") {
+						   && subsystem == "Tracking"
+						   && apvMode == "PEAK + DECO") {
 						load_dataset("StreamExprTracking");
 					} else if ((dataSet == "StreamExpress")
-							&& subsystem == "Strips"
-							&& (apvMode == "PEAK")) {
+						   && subsystem == "Strips"
+						   && (apvMode == "PEAK")) {
 						load_dataset("StreamExpressStripPeak");
 					} else if ((dataSet == "ZeroBias")
-							&& subsystem == "Strips"
-							&& (apvMode == "PEAK")) {
+						   && subsystem == "Strips"
+						   && (apvMode == "PEAK")) {
 						load_dataset("StripPeak");
 					} else if ((dataSet == "StreamExpress")
-							&& subsystem == "Strips"
-							&& (apvMode == "DECO")) {
+						   && subsystem == "Strips"
+						   && (apvMode == "DECO")) {
 						load_dataset("StreamExpressStripDeco");
 					} else if ((dataSet == "ZeroBias")
-							&& subsystem == "Strips"
-							&& (apvMode == "DECO")) {
+						   && subsystem == "Strips"
+						   && (apvMode == "DECO")) {
 						load_dataset("StripDeco");
 					} else if ( dataSet == "StreamExpressCosmics"
-							&& subsystem == "Strips"
-							&& (apvMode == "PEAK" )) {
+						    && subsystem == "Strips"
+						    && (apvMode == "PEAK" )) {
 						load_dataset("StripPeakExprCosmics");
 					} else if ( dataSet == "StreamExpressCosmics"
-							&& subsystem == "Strips"
-							&& (apvMode == "DECO" )) {
+						    && subsystem == "Strips"
+						    && (apvMode == "DECO" )) {
 						load_dataset("StripDecoStreamExpressCosmics");
 					} else if ( dataSet == "StreamExpressCosmicsCommissioning"
-							&& subsystem == "Strips"
-							&& (apvMode == "PEAK" )) {
+						    && subsystem == "Strips"
+						    && (apvMode == "PEAK" )) {
 						load_dataset("StripPeakExprCosmicsCommissioning");
 					} else if ( dataSet == "StreamExpressCosmicsCommissioning"
-							&& subsystem == "Strips"
-							&& (apvMode == "DECO" )) {
+						    && subsystem == "Strips"
+						    && (apvMode == "DECO" )) {
 						load_dataset("StripDecoStreamExpressCosmicsCommissioning");
 					} else if ( dataSet == "StreamExpressCosmics"
-							&& subsystem == "Tracking"
-							&& apvMode == "PEAK + DECO") {
+						    && subsystem == "Tracking"
+						    && apvMode == "PEAK + DECO") {
 						load_dataset("StreamExprCosmicTracking");
 					} else if ( dataSet == "StreamExpressCosmics"
-							&& subsystem == "Pixel"
-							&& (apvMode == "" || apvMode == null)) {
+						    && subsystem == "Pixel"
+						    && (apvMode == "" || apvMode == null)) {
 						load_dataset("SreamExpressCosmicPixel");
 					} else if ( dataSet == "StreamExpressCosmics"
-							&& subsystem == "PixelPhase1"
-							&& (apvMode == "" || apvMode == null)) {
+						    && subsystem == "PixelPhase1"
+						    && (apvMode == "" || apvMode == null)) {
 						load_dataset("SreamExpressCosmicPixelPhase1");
 					} else if ( dataSet == "StreamExpressCosmicsCommissioning"
-							&& subsystem == "PixelPhase1"
-							&& (apvMode == "" || apvMode == null)) {
+						    && subsystem == "PixelPhase1"
+						    && (apvMode == "" || apvMode == null)) {
 						load_dataset("SreamExpressCosmicPixelPhase1Commissioning");
 					} else if ( dataSet == "Cosmics" 
-							&& subsystem == "Tracking"
-							&& apvMode == "PEAK + DECO") {
+						    && subsystem == "Tracking"
+						    && apvMode == "PEAK + DECO") {
 						load_dataset("CosmicTracking");
 					} else if ( dataSet == "Cosmics" 
-							&& subsystem == "Pixel"
-							&& (apvMode == "" || apvMode == null)) {
+						    && subsystem == "Pixel"
+						    && (apvMode == "" || apvMode == null)) {
 						load_dataset("CosmicPixel");
 					} else if ( dataSet == "Cosmics" 
-							&& subsystem == "PixelPhase1"
-							&& (apvMode == "" || apvMode == null)) {
+						    && subsystem == "PixelPhase1"
+						    && (apvMode == "" || apvMode == null)) {
 						load_dataset("CosmicPixelPhase1");
 					} else if ( dataSet == "Cosmics"
-							&& subsystem == "Strips"
-							&& apvMode == "PEAK") {
+						    && subsystem == "Strips"
+						    && apvMode == "PEAK") {
 						load_dataset("StripPeakCosmics");
 					} else if ( dataSet == "Cosmics"
-							&& subsystem == "Strips"
-							&& apvMode == "DECO") {
-						load_dataset("StripDecoCosmics");
+						    && subsystem == "Strips"
+						    && apvMode == "DECO") {
+					        load_dataset("StripDecoCosmics");
 					} else if ( dataSet == "Cosmics" 
-							&& subsystem == "PixelPhase1"
-							&& (apvMode == "" || apvMode == null)) {
+						    && subsystem == "PixelPhase1"
+						    && (apvMode == "" || apvMode == null)) {
 						load_dataset("CosmicPixelPhase1");
 					} else if ( dataSet == "Cosmics"
-							&& subsystem == "Strips"
-							&& apvMode == "PEAK") {
+						    && subsystem == "Strips"
+						    && apvMode == "PEAK") {
 						load_dataset("StripPeakCosmics");
 					} else if ( dataSet == "Cosmics"
-							&& subsystem == "Strips"
-							&& apvMode == "DECO") {
+						    && subsystem == "Strips"
+						    && apvMode == "DECO") {
 						load_dataset("StripDecoCosmics");
 					} else if ( dataSet == "CosmicsCommissioning" 
-							&& subsystem == "PixelPhase1"
-							&& (apvMode == "" || apvMode == null)) {
+						    && subsystem == "PixelPhase1"
+						    && (apvMode == "" || apvMode == null)) {
 						load_dataset("CosmicPixelPhase1Commissioning");
 					} else if ( dataSet == "CosmicsCommissioning"
-							&& subsystem == "Strips"
-							&& apvMode == "PEAK") {
+						    && subsystem == "Strips"
+						    && apvMode == "PEAK") {
 						load_dataset("StripPeakCosmicsCommissioning");
 					} else if ( dataSet == "CosmicsCommissioning"
-							&& subsystem == "Strips"
-							&& apvMode == "DECO") {
+						    && subsystem == "Strips"
+						    && apvMode == "DECO") {
 						load_dataset("StripDecoCosmicsCommissioning");
 					} else {
 						$("#body").load("404page.html");

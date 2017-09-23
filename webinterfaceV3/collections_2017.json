@@ -257,7 +257,13 @@
         ],
         [
             "NumberOfLayersPerCosmicTrack_mean"
-        ]
+        ],
+	[
+	    "TracksFraction_3GeV_CFKTk"
+	],
+	[
+	    "RecHitPerCosmicTrack_mean"
+	]
     ],
     "Pixel": [
         [
@@ -432,6 +438,14 @@
 	    "clustCharge_ONTk_FPix_Dp2_mpv",
 	    "clustCharge_ONTk_FPix_Dp1_mpv"
 	],
+	[
+	    "clustCharge_ONTk_FPix_test_perDisk_mpv",
+	    "clustCharge_ONTk_FPix_test_Dm2_mpv",
+	    "clustCharge_ONTk_FPix_test_Dm1_mpv",
+	    "clustCharge_ONTk_FPix_test_Dp3_mpv",
+	    "clustCharge_ONTk_FPix_test_Dp2_mpv",
+	    "clustCharge_ONTk_FPix_test_Dp1_mpv"
+	],
         [
             "clustCharge_ONTk_BPix_perInOutLayer_mpv",
 	    "clustCharge_ONTk_BPix_OuterLayer1_mpv",
@@ -442,6 +456,20 @@
             "clustCharge_ONTk_BPix_InnerLayer4_mpv",	
 	    "clustCharge_ONTk_BPix_OuterLayer4_mpv"
         ],
+	[
+	     "adc_BPix_perLayer_mean",
+	     "adc_BPix_Layer2_mean",
+	     "adc_BPix_Layer3_mean",
+	     "adc_BPix_Layer4_mean"
+	],	
+	[
+	     "adc_FPix_perDisk_mean",
+	     "adc_FPix_Dm2_mean",
+	     "adc_FPix_Dm1_mean",
+	     "adc_FPix_Dp3_mean",
+	     "adc_FPix_Dp2_mean",
+	     "adc_FPix_Dp1_mean"
+	],
 	[
             "HitEfficiency_BPix_perLayer",	
             "HitEfficiency_BPix_Layer2",	
@@ -585,18 +613,34 @@
             "Residuals_Y_FPIX_Dp1_rms"
         ]
     ],
+    "DT": [
+        [
+            "ResidualAll_DT_mean"
+        ]
+    ],
+    "DTStreamExpress": [
+        [
+            "ResidualAll_DT_mean"
+        ]
+    ], 
     "StreamExprCosmicTracking": [
         [
             "NumberOfCosmicTracks_mean"
-        ],
-        [
-            "RecHitPerCosmicTrack_mean"
         ],
         [
             "CosmicTrackChisquared_mean"
         ],
         [
             "CosmicTrackPt_mean"
+        ],
+        [
+            "NumberOfLayersPerCosmicTrack_mean"
+        ],
+	[
+	    "TracksFraction_3GeV_CFKTk"
+	],
+        [
+            "RecHitPerCosmicTrack_mean"
         ]
     ],
     "StreamExprPixel": [
@@ -772,6 +816,14 @@
 	    "clustCharge_ONTk_FPix_Dp2_mpv",
 	    "clustCharge_ONTk_FPix_Dp1_mpv"
 	],
+	[
+	    "clustCharge_ONTk_FPix_test_perDisk_mpv",
+	    "clustCharge_ONTk_FPix_test_Dm2_mpv",
+	    "clustCharge_ONTk_FPix_test_Dm1_mpv",
+	    "clustCharge_ONTk_FPix_test_Dp3_mpv",
+	    "clustCharge_ONTk_FPix_test_Dp2_mpv",
+	    "clustCharge_ONTk_FPix_test_Dp1_mpv"
+	],
         [
             "clustCharge_ONTk_BPix_perInOutLayer_mpv",
 	    "clustCharge_ONTk_BPix_OuterLayer1_mpv",
@@ -781,6 +833,20 @@
 	    "clustCharge_ONTk_BPix_OuterLayer3_mpv",
             "clustCharge_ONTk_BPix_InnerLayer4_mpv",	
 	    "clustCharge_ONTk_BPix_OuterLayer4_mpv"
+        ],
+        [
+             "adc_BPix_perLayer_mean",
+             "adc_BPix_Layer2_mean",
+             "adc_BPix_Layer3_mean",
+             "adc_BPix_Layer4_mean"
+        ],
+        [
+             "adc_FPix_perDisk_mean",
+             "adc_FPix_Dm2_mean",
+             "adc_FPix_Dm1_mean",
+             "adc_FPix_Dp3_mean",
+             "adc_FPix_Dp2_mean",
+             "adc_FPix_Dp1_mean"
         ],
 	[
             "HitEfficiency_BPix_perLayer",	

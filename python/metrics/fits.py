@@ -89,6 +89,40 @@ class Landau(BaseMetric):
         del fit
         return result
 
+class LandauTest(BaseMetric):
+    def __init__(self, diseredParameter, minVal1, maxVal1, minVal2, maxVal2, turnRun, paramDefaults):
+        BaseMetric.__init__(self)
+        self.range2 = [minVal2, maxVal2]
+        self.range1 = [minVal1, maxVal1]
+        self.turn = turnRun
+        self.parameters = paramDefaults
+        assert diseredParameter in [0,1,2], "can only get parameter 0, 1 or 2 not '%s'"%desiredParameter
+        self.desired = diseredParameter
+        
+    def calculate(self, histo):
+        from ROOT import TF1
+        if self._run >= self.turn :
+            print "Range 2"
+            fit = TF1("landau","[2]*TMath::Landau(x,[0],[1],0)", *(self.range2))
+            fit.SetParameters(*(self.parameters))
+        else :
+            print "Range 1"
+            fit = TF1("landau","[2]*TMath::Landau(x,[0],[1],0)", *(self.range1))
+            fit.SetParameters(*(self.parameters))
+            fit.SetParameter(0,fit.GetParameter(0)*1.58)
+            fit.SetParameter(1,fit.GetParameter(1)*1.58)
+        #3x to stabilise minimization
+        histo.Fit(fit,"OR")
+        histo.Fit(fit,"OR")
+        histo.Fit(fit,"OR")
+        if (fit.GetParameter(self.desired)>0 and fit.GetParameter(self.desired)<60000) :
+            result = (fit.GetParameter(self.desired), fit.GetParError(self.desired))
+        else :
+            result = (0.0, 0.0)
+        del fit
+        return result
+
+
 class LandauAroundMaxBin(BaseMetric):
     def __init__(self, diseredParameter, width):
         BaseMetric.__init__(self)
@@ -119,7 +153,12 @@ class LandauAroundMax(BaseMetric):
         
     def calculate(self, histo):
         from ROOT import TF1
-        maxbincenter = histo.GetBinCenter( histo.GetMaximumBin() )
+        maxbin=histo.GetMaximumBin()
+        if histo.GetBinContent(maxbin-1) > histo.GetBinContent(maxbin+1) :
+            maxbin2=maxbin-1
+        else :
+            maxbin2=maxbin+1
+        maxbincenter = (histo.GetBinCenter( maxbin ) + histo.GetBinCenter( maxbin2 ))/2
         self.range = [maxbincenter*self.lowF , maxbincenter*self.highF]
         print maxbincenter
         fit = TF1("landau","[2]*TMath::Landau(x,[0],[1],0)", *(self.range))
