@@ -691,15 +691,21 @@ def main(argv=None):
     plots, cache = initPlots(config)
 
     runInCache = []
+    print "...Loading Cache"
     for itest in range(0,len(cache.keys())):
         runInCache.append(cache.keys()[itest][1])
+    print "Cache loaded"
 
     for run in sorted(runs.keys()):
         if cache == None or runs[run][1] not in runInCache:
-            print "............------------>>> RUN %s NOT IN CACHE"%(runs[run][1])
-            rc = dqm_get_json(runs[run][0],runs[run][1],runs[run][2], "Info/ProvInfo")
-            print "............------------>>> RunIsComplete flag: " , rc['runIsComplete']['value']
-            isDone = int(rc['runIsComplete']['value'])
+            if opts.datatier != "DQMIO" :
+                print "Start processing"
+                isDone = 1
+            else :
+                print "............------------>>> RUN %s NOT IN CACHE"%(runs[run][1])
+                rc = dqm_get_json(runs[run][0],runs[run][1],runs[run][2], "Info/ProvInfo")
+                print "............------------>>> RunIsComplete flag: " , rc['runIsComplete']['value']
+                isDone = int(rc['runIsComplete']['value'])
         else:
             isDone = 1
             print "............------------>>> RUN %s IN CACHE"%(runs[run][1])

@@ -156,7 +156,7 @@ touch .doneZeroBias
 
 #ZeroBias PIXEL
 rm -rf ./JSON/*
-python ./trendPlots_ROOTfile.py -C cfg/trendPlotsDQM_cronPPPromptPixel.ini -C cfg/trendPlotsPixelPhase1_clustersV3.ini -C cfg/trendPlotsPixelPhase1_FED.ini -C cfg/trendPlotsPixelPhase1_ADCDIGI.ini -C cfg/trendPlotsPixelPhase1_BPIX_Residuals.ini -C cfg/trendPlotsPixelPhase1_FPIX_Residuals.ini -C cfg/trendPlotsPixelPhase1_clustersBPIX_v2.ini -C cfg/trendPlotsPixelPhase1_clustersFPIX_v2.ini -C cfg/trendPlotsPixelPhase1_HitsEfficiency.ini -C cfg/trendPlotsPixelPhase1_DigiCluster.ini -C cfg/trendPlotsPixelPhase1_clustersFPIX_test.ini --dataset ZeroBias --epoch Run2017 -r "run >= 292505" --reco Prompt -J json_DCSONLY.txt
+python ./trendPlots_2017.py -C cfg/trendPlotsDQM_cronPPPromptPixel.ini -C cfg/trendPlotsPixelPhase1_clustersV3.ini -C cfg/trendPlotsPixelPhase1_FED.ini -C cfg/trendPlotsPixelPhase1_ADCDIGI.ini -C cfg/trendPlotsPixelPhase1_BPIX_Residuals.ini -C cfg/trendPlotsPixelPhase1_FPIX_Residuals.ini -C cfg/trendPlotsPixelPhase1_clustersBPIX_v2.ini -C cfg/trendPlotsPixelPhase1_clustersFPIX_v2.ini -C cfg/trendPlotsPixelPhase1_HitsEfficiency.ini -C cfg/trendPlotsPixelPhase1_DigiCluster.ini -C cfg/trendPlotsPixelPhase1_clustersFPIX_test.ini --dataset ZeroBias --epoch Run2017 -r "run >= 292505" --reco Prompt -J json_DCSONLY.txt
 cp ./JSON/* /data/users/event_display/HDQM/v3.1/alljsons/2017/Prompt/ZeroBias/PixelPhase1/
 cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/Prompt/ZeroBias/PixelPhase1/
 touch .doneZeroBiasPixel
@@ -196,7 +196,7 @@ touch .doneStreamExpress
 
 #StreamExpress PIXEL
 rm -rf ./JSON/*
-python ./trendPlots_ROOTfile.py -C cfg/trendPlotsDQM_cronPPExpressPixel.ini -C cfg/trendPlotsPixelPhase1_clustersV3.ini -C cfg/trendPlotsPixelPhase1_FED.ini -C cfg/trendPlotsPixelPhase1_ADCDIGI.ini -C cfg/trendPlotsPixelPhase1_BPIX_Residuals.ini -C cfg/trendPlotsPixelPhase1_FPIX_Residuals.ini -C cfg/trendPlotsPixelPhase1_clustersBPIX_v2.ini -C cfg/trendPlotsPixelPhase1_clustersFPIX_v2.ini -C cfg/trendPlotsPixelPhase1_HitsEfficiency.ini -C cfg/trendPlotsPixelPhase1_DigiCluster.ini -C cfg/trendPlotsPixelPhase1_clustersFPIX_test.ini --dataset StreamExpress --epoch Run2017 -r "run >= 292505" --reco Express -J json_DCSONLY.txt
+python ./trendPlots_2017.py -C cfg/trendPlotsDQM_cronPPExpressPixel.ini -C cfg/trendPlotsPixelPhase1_clustersV3.ini -C cfg/trendPlotsPixelPhase1_FED.ini -C cfg/trendPlotsPixelPhase1_ADCDIGI.ini -C cfg/trendPlotsPixelPhase1_BPIX_Residuals.ini -C cfg/trendPlotsPixelPhase1_FPIX_Residuals.ini -C cfg/trendPlotsPixelPhase1_clustersBPIX_v2.ini -C cfg/trendPlotsPixelPhase1_clustersFPIX_v2.ini -C cfg/trendPlotsPixelPhase1_HitsEfficiency.ini -C cfg/trendPlotsPixelPhase1_DigiCluster.ini -C cfg/trendPlotsPixelPhase1_clustersFPIX_test.ini --dataset StreamExpress --epoch Run2017 -r "run >= 292505" --reco Express -J json_DCSONLY.txt
 cp ./JSON/* /data/users/event_display/HDQM/v3.1/alljsons/2017/StreamExpress/PixelPhase1/
 cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/StreamExpress/PixelPhase1/
 touch .doneStreamExpressPixel
