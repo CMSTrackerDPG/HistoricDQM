@@ -91,7 +91,7 @@ class TrendPlot:
     
     def addRun(self, serverUrl, runNr, dataset):
         from math import sqrt
-        from src.dqmjson import dqm_get_json_hist
+        from src.dqmjson import dqm_getSingleHist_json
         from ROOT import TH1,TFile,TObject,TBufferFile, TH1F, TProfile, TH1F, TH2F, TH1D, TH2D
 #        import ROOT
         import os, sys, string
@@ -124,7 +124,7 @@ class TrendPlot:
         if self.__config.has_option(self.__section, "saveHistos"):
           try:
              # histo1 = getHistoFromDQM( serverUrl, runNr, dataset, histoPath)
-              histo1 = dqm_get_json_hist( serverUrl, runNr, dataset, splitPath(histoPath)[0],splitPath(histoPath)[1],rootContent=True)
+              histo1 =  dqm_getSingleHist_json( serverUrl, runNr, dataset, histoPath,rootContent=True)
               histosFile = self.__config.get(self.__section, "saveHistos")
               if not os.path.exists(histosFile): os.makedirs(histosFile)
 
@@ -145,15 +145,15 @@ class TrendPlot:
         try:
             if self.__cache == None or cacheLocation not in self.__cache:
 #                histo = getHistoFromDQM( serverUrl, runNr, dataset, histoPath)
-                histo = dqm_get_json_hist( serverUrl, runNr, dataset, splitPath(histoPath)[0],splitPath(histoPath)[1],rootContent=True)
+                histo = dqm_getSingleHist_json( serverUrl, runNr, dataset, histoPath,rootContent=True)
                 if self.__config.has_option(self.__section,"histo1Path"):
                     h1Path=self.__config.get(self.__section,"histo1Path")
-                    h1=dqm_get_json_hist( serverUrl, runNr, dataset, splitPath(h1Path)[0],splitPath(h1Path)[1],rootContent=True)
+                    h1 = dqm_getSingleHist_json( serverUrl, runNr, dataset, h1Path,rootContent=True)
                     self.__metric.setOptionalHisto1(h1)
                     print h1
                 if self.__config.has_option(self.__section,"histo2Path"):
                     h2Path=self.__config.get(self.__section,"histo2Path")
-                    h2=dqm_get_json_hist( serverUrl, runNr, dataset, splitPath(h2Path)[0],splitPath(h2Path)[1],rootContent=True)
+                    h2 = dqm_getSingleHist_json( serverUrl, runNr, dataset, h2Path,rootContent=True)
                     self.__metric.setOptionalHisto2(h2)
                     print h2
                 print histo
