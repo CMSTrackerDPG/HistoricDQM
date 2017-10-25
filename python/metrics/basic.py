@@ -156,6 +156,31 @@ class RMSYAxis(BaseMetric):
     def calculate(self, histo):
         return (histo.GetRMS(2), histo.GetRMSError(2)) 
 
+class ProfileMean(BaseMetric):
+    def calculate(self, histo):
+        from math import sqrt
+        nbinx=histo.GetNbinsX();
+        nbiny=histo.GetNbinsY();
+        print nbinx
+        print nbiny
+        summy=0
+        sumSquare=0
+        count=0
+        for i in range(1,nbinx+1):
+            for j in range(1,nbiny+1):
+                if histo.GetBinContent(i,j) != 0 :
+                    summy+=histo.GetBinContent(i,j)
+                    sumSquare+=histo.GetBinContent(i,j)*histo.GetBinContent(i,j)
+                    count+=1
+        print count
+        rms= sqrt( sumSquare/count-(summy*summy/(count*count)) )
+        if count==0:
+            return (0,0)
+        return (summy/count, rms)
+
+
+
+
 #class WeightedMeanY(BaseMetric):
 #    def calculate(self, histo):
 
