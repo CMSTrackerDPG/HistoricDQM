@@ -188,7 +188,7 @@ touch .doneStreamExpress
 
 #StreamExpress Strips Gains
 rm -rf ./JSON/*
-python ./trendPlots_ROOTfile.py -C cfg/trendPlotsDQM_cronPPExpressStrips.ini -C cfg/trendPlotsStrip_GainsAAG.ini --dataset StreamExpress --epoch Run2017 -r "run >= 290129" --reco PromptCalibProdSiStripGainsAAG-Express --datatier ALCAPROMPT -J json_DCSONLY_DECO.txt
+python ./trendPlots_StripGain.py -C cfg/trendPlotsDQM_cronPPExpressStrips.ini -C cfg/trendPlotsStrip_GainsAAG.ini --dataset StreamExpress --epoch Run2017 -r "run >= 290129" --reco PromptCalibProdSiStripGainsAAG-Express --datatier ALCAPROMPT -J json_DCSONLY_DECO.txt
 cp ./JSON/* /data/users/event_display/HDQM/v3.1/alljsons/2017/StreamExpress/Strips/DECO/
 cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2017/StreamExpress/Strips/DECO/
 touch .doneStreamExpress
