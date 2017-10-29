@@ -161,8 +161,6 @@ class ProfileMean(BaseMetric):
         from math import sqrt
         nbinx=histo.GetNbinsX();
         nbiny=histo.GetNbinsY();
-        print nbinx
-        print nbiny
         summy=0
         sumSquare=0
         count=0
@@ -172,10 +170,35 @@ class ProfileMean(BaseMetric):
                     summy+=histo.GetBinContent(i,j)
                     sumSquare+=histo.GetBinContent(i,j)*histo.GetBinContent(i,j)
                     count+=1
-        print count
-        rms= sqrt( sumSquare/count-(summy*summy/(count*count)) )
         if count==0:
             return (0,0)
+        rms= sqrt( sumSquare/count-(summy*summy/(count*count)) )
+        return (summy/count, rms)
+
+class ProfileMeanBPixModules(BaseMetric):
+    def __init__(self, modNum):
+        self.__modCounter = 4-modNum
+
+    def calculate(self, histo):
+        from math import sqrt
+        nbinx=histo.GetNbinsX();
+        nbiny=histo.GetNbinsY();
+        summy=0
+        sumSquare=0
+        count=0
+        for j in range(1,nbiny+1):
+            if histo.GetBinContent(1+self.__modCounter,j) != 0 :
+                summy+=histo.GetBinContent(1+self.__modCounter,j)
+                sumSquare+=histo.GetBinContent(1+self.__modCounter,j)*histo.GetBinContent(1+self.__modCounter,j)
+                count+=1
+            if histo.GetBinContent(nbinx-self.__modCounter,j) != 0 :
+                summy+=histo.GetBinContent(nbinx-self.__modCounter,j)
+                sumSquare+=histo.GetBinContent(nbinx-self.__modCounter,j)*histo.GetBinContent(nbinx-self.__modCounter,j)
+                count+=1
+        print count
+        if count==0:
+            return (0,0)
+        rms= sqrt( sumSquare/count-(summy*summy/(count*count)) )
         return (summy/count, rms)
 
 
