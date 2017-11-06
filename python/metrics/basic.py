@@ -237,6 +237,24 @@ class BinCount(BaseMetric):
             error = sqrt(histo.GetBinContent(binNr))
         return ( histo.GetBinContent(binNr), error)
 
+class ROCfraction(BaseMetric):
+    def __init__(self,  name, tot,noError = False):
+        self.__name = name
+        self.__tot = tot
+        self.__noError = noError
+
+    def calculate(self, histo):
+        from math import sqrt
+        binNr = self.__name
+        if type(self.__name) == type(""):
+            binNr = histo.GetXaxis().FindBin(self.__name)
+        error = 0
+        if not self.__noError:
+            error = 100*sqrt(histo.GetBinContent(binNr))/tot
+        return ( 100*histo.GetBinContent(binNr)/tot, error)
+
+
+
 class RecoFraction(BaseMetric):
     def __init__(self,  name, noError = False):
         self.__name = name
