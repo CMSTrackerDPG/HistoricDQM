@@ -250,8 +250,8 @@ class ROCfraction(BaseMetric):
             binNr = histo.GetXaxis().FindBin(self.__name)
         error = 0
         if not self.__noError:
-            error = 100*sqrt(histo.GetBinContent(binNr))/tot
-        return ( 100*histo.GetBinContent(binNr)/tot, error)
+            error = 100*sqrt(histo.GetBinContent(binNr))/self.__tot
+        return ( 100*histo.GetBinContent(binNr)/self.__tot, error)
 
 
 
