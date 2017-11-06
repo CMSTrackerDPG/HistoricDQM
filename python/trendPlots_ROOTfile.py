@@ -510,14 +510,27 @@ def getRunsFromDQM(config, mask, pd, mode, datatier,runMask="all", runlistfile=[
        runs1 = [x.strip() for x in open(runlistfile,"r")]
 
     if jsonfile!=[]:
-        print "file:",jsonfile
-        aaf = open(jsonfile)
-        info = aaf.read()
-        decoded = jsonn.loads(info)
-        print decoded
-        runs1=[]
-        for item in decoded:
-            runs1.append(item)           
+        if runMask=="all":
+            print "file:",jsonfile
+            aaf = open(jsonfile)
+            info = aaf.read()
+            decoded = jsonn.loads(info)
+#            print decoded
+            runs1=[]
+            for item in decoded:
+                runs1.append(item)           
+        else:
+            print "file:",jsonfile
+            aaf = open(jsonfile)
+            info = aaf.read()
+            decoded = jsonn.loads(info)
+#            print decoded
+            runs1=[]
+            print "Start selection"
+            for item in decoded:
+                if eval(runMask,{"all":True,"run":int(item)}):
+                    runs1.append(item)
+
 
     for runNr, dataset in json:
         if dataset not in masks: masks.append(dataset)
@@ -719,16 +732,17 @@ def main(argv=None):
     runs = getRunsFromDQM(config, dsetmask, opts.dset, opts.state, opts.datatier,opts.runs,opts.list,opts.json)
     if not runs : raise StandardError, "*** Number of runs matching run/mask/etc criteria is equal to zero!!!"
 
-    print "runs= ", runs
+#    print "runs= ", runs
 
     print "got %s run between %s and %s"%(len(runs), min(runs.keys()), max(runs.keys()))
 #    getReferenceRun(config, runs)
     plots, cache = initPlots(config)
 
+    print "Loading cache........",len(cache.keys())," items"
     runInCache = []
     for itest in range(0,len(cache.keys())):
         runInCache.append(cache.keys()[itest][1])
-
+    print "Cache loaded!"
     for run in sorted(runs.keys()):
         if cache == None or runs[run][1] not in runInCache:
             print "............------------>>> RUN %s NOT IN CACHE"%(runs[run][1])
@@ -741,21 +755,28 @@ def main(argv=None):
             isDone = 1
             print "............------------>>> RUN %s IN CACHE"%(runs[run][1])
         if isDone == 1 :
-            if(runs[run][2]!=0):
-                fopen = False
-                tfile= None
-                for plot in plots:
-                    cacheLocation = (runs[run][0],runs[run][1],runs[run][2], plot.getPath(),plot.getMetric())
-                    if (cache == None and not fopen) or (cacheLocation not in cache and not fopen):
-                        version=dqm_getTFile_Version(runs[run][0],runs[run][1],runs[run][2],opts.datatier)
+            fopen = False
+            fpresent= True
+            incache= False
+            fchecked=False
+            tfile= None
+            for plot in plots:
+                cacheLocation = (runs[run][0],runs[run][1],runs[run][2], plot.getPath(),plot.getMetric())
+                incache=(cacheLocation in cache)
+                if (cache == None and not fchecked) or (not incache and not fchecked):
+                    version=dqm_getTFile_Version(runs[run][0],runs[run][1],runs[run][2],opts.datatier)
+                    if (version != 0):
                         tfile=dqm_getTFile(runs[run][0],runs[run][1],runs[run][2],version,opts.datatier)
                         print "-----> Openning File Version ",version
                         fopen=True
+                    else:
+                        fpresent=False
+                        print "ROOT file not present for Run",runs[run][1]
+                    fchecked=True
+                if (fpresent) or (incache):
                     plot.addRun(runs[run][0],runs[run][1],runs[run][2],tfile)
-                if fopen :
-                    tfile.Close()
-            else:
-                print "Not File Version found"
+            if fopen :
+                tfile.Close()
         else:
             print "################### RUN %s NOT FULLY PROCESSED, SKIP #############"%(runs[run][1])
 
