@@ -217,3 +217,21 @@ def dqm_getTFile_Version(server, run, dataset,datatier):
             continue
 
     return vers
+
+def dqm_getTFile_Version2(server, run, dataset,datatier):
+
+    datainfo=dataset.split('/')
+    runGen=('%.9d' % (run))
+    
+    urlpath=(('%s/data/browse/ROOT/OfflineData/%s/%s/%sxx/') % (server, datainfo[2][0:7],datainfo[1], runGen[0:-2]))
+    #print urlpath
+    vers=0
+
+    data = urllib2.build_opener(X509CertOpen()).open(urlpath)
+    string = data.read().decode('utf-8')
+    match = re.search((('[0-9]+(?=_R%.9d__%s__%s__%s.root)')%(run, datainfo[1], datainfo[2],datatier)),string)
+    if match is None:
+        vers=0
+    else:
+        vers=int(match.group(0))
+    return vers

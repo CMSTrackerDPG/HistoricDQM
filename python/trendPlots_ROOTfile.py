@@ -685,7 +685,7 @@ def main(argv=None):
     import os
     from optparse import OptionParser
     from ROOT import TCanvas,TFile
-    from src.dqmjson import dqm_get_json,dqm_getTFile,dqm_getTFile_Version
+    from src.dqmjson import dqm_get_json,dqm_getTFile,dqm_getTFile_Version2
 
     if argv == None:
         argv = sys.argv[1:]
@@ -764,7 +764,7 @@ def main(argv=None):
                 cacheLocation = (runs[run][0],runs[run][1],runs[run][2], plot.getPath(),plot.getMetric())
                 incache=(cacheLocation in cache)
                 if (cache == None and not fchecked) or (not incache and not fchecked):
-                    version=dqm_getTFile_Version(runs[run][0],runs[run][1],runs[run][2],opts.datatier)
+                    version=dqm_getTFile_Version2(runs[run][0],runs[run][1],runs[run][2],opts.datatier)
                     if (version != 0):
                         tfile=dqm_getTFile(runs[run][0],runs[run][1],runs[run][2],version,opts.datatier)
                         print "-----> Openning File Version ",version
