@@ -260,6 +260,10 @@ class TrendPlot:
             d['y']=self.__y[inc]
             d['yErr']=self.__yErrLow[inc]
             d['yTitle']=self.__yTitle
+	    if self.__config.has_option(self.__section,"hTitle") :
+                d['hTitle']=self.__config.get(self.__section,"hTitle")
+            else :
+                d['hTitle']=self.__yTitle
             if self.__config.has_option(self.__section,"yMin") and self.__config.has_option(self.__section,"yMax") :
                 d['ymin']=float(self.__config.get(self.__section,"yMin"))
                 d['ymax']=float(self.__config.get(self.__section,"yMax"))
