@@ -487,14 +487,26 @@ def getRunsFromDQM(config, mask, pd, mode, runMask="all",runlistfile=[],jsonfile
        runs1 = [x.strip() for x in open(runlistfile,"r")]
 
     if jsonfile!=[]:
-        print "file:",jsonfile
-        aaf = open(jsonfile)
-        info = aaf.read()
-        decoded = jsonn.loads(info)
-        print decoded
-        runs1=[]
-        for item in decoded:
-            runs1.append(item)           
+        if runMask=="all":
+            print "file:",jsonfile
+            aaf = open(jsonfile)
+            info = aaf.read()
+            decoded = jsonn.loads(info)
+#            print decoded
+            runs1=[]
+            for item in decoded:
+                runs1.append(item)           
+        else:
+            print "file:",jsonfile
+            aaf = open(jsonfile)
+            info = aaf.read()
+            decoded = jsonn.loads(info)
+#            print decoded
+            runs1=[]
+            print "Start selection"
+            for item in decoded:
+                if eval(runMask,{"all":True,"run":int(item)}):
+                    runs1.append(item)
 
     for runNr, dataset in json:
         if dataset not in masks: masks.append(dataset)
