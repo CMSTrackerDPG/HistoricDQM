@@ -1,7 +1,7 @@
 from x509auth import * #use cctrack certificate if working on vocms061
 #from x509auth_lxplus import * #use your personal certificate if working on lxplus
 import ROOT
-from ROOT import TBufferFile, TH1F, TProfile, TProfile2D, TH2F, TFile
+from ROOT import TBufferFile, TH1F, TProfile, TProfile2D, TH2F, TFile, TH1D, TH2D
 import re
 
 X509CertAuth.ssl_key_file, X509CertAuth.ssl_cert_file = x509_params()
@@ -204,7 +204,7 @@ def dqm_getTFile_Version(server, run, dataset,datatier):
     datainfo=dataset.split('/')
     runGen=('%.9d' % (run))
     vers=0
-    for i in range(1,100):
+    for i in range(1,30):
         urlpath=(('%s/data/browse/ROOT/OfflineData/%s/%s/%sxx/DQM_V%.4d_R%.9d__%s__%s__%s.root') % (server, datainfo[2][0:7],datainfo[1], runGen[0:-2],i, run, datainfo[1], datainfo[2],datatier))
 #        print urlpath
         try:
@@ -216,4 +216,22 @@ def dqm_getTFile_Version(server, run, dataset,datatier):
  #           print 'Version ',i,' not found'
             continue
 
+    return vers
+
+def dqm_getTFile_Version2(server, run, dataset,datatier):
+
+    datainfo=dataset.split('/')
+    runGen=('%.9d' % (run))
+    
+    urlpath=(('%s/data/browse/ROOT/OfflineData/%s/%s/%sxx/') % (server, datainfo[2][0:7],datainfo[1], runGen[0:-2]))
+    #print urlpath
+    vers=0
+
+    data = urllib2.build_opener(X509CertOpen()).open(urlpath)
+    string = data.read().decode('utf-8')
+    match = re.search((('[0-9]+(?=_R%.9d__%s__%s__%s.root)')%(run, datainfo[1], datainfo[2],datatier)),string)
+    if match is None:
+        vers=0
+    else:
+        vers=int(match.group(0))
     return vers

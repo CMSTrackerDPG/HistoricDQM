@@ -216,12 +216,12 @@ class Chart {
                 fileName = 'Inner Layer 1';
 	    }
 
-	    for (var number = 1; number <= 4; number++) { //If we have several plots on the same plot, show the layer number instead...
-                if (fileName.indexOf("InnerLayer"+number) !== -1) {
+	    for (var number = 1; number <= 6; number++) { //If we have several plots on the same plot, show the layer number instead...
+                if ((fileName.indexOf("InnerLayer"+number) !== -1) || (fileName.indexOf("TIB_L"+number) !== -1)) {
 		    fileName = 'Inner Layer ' +number;
             	    continue;
 		}
-                if (fileName.indexOf("OuterLayer"+number) !== -1) {
+                if ((fileName.indexOf("OuterLayer"+number) !== -1) || (fileName.indexOf("TOB_L"+number) !== -1)) {
 		    fileName = 'Outer Layer ' +number;
             	    continue;
 		}
@@ -230,6 +230,31 @@ class Chart {
             	    continue;
 		}
 	    }
+	    for (var number = 1; number <= 7; number++) { //If we have several plots on the same plot, show the layer number instead...
+                    
+       		    if ((fileName.indexOf("TEC_MINUS_R"+number) !== -1)  ) {
+		       fileName = 'TEC- R ' +number;
+            	       continue;
+		    }
+		    if ((fileName.indexOf("TEC_PLUS_R"+number) !== -1) ) {
+		       fileName = 'TEC+ R ' +number;
+            	       continue;
+		    }
+	         }
+		 for (var number = 1; number <= 9; number++) { //If we have several plots on the same plot, show the layer number instead...
+                    
+       		    if ((fileName.indexOf("TEC_MINUS_W"+number) !== -1)  ) {
+		       fileName = 'TEC- W ' +number;
+            	       continue;
+		    }
+	         }
+		 for (var number = 1; number <= 9; number++) { //If we have several plots on the same plot, show the layer number instead...
+                    
+       		    if ((fileName.indexOf("TEC_PLUS_W"+number) !== -1) ) {
+		       fileName = 'TEC+ W ' +number;
+            	       continue;
+		    }
+	         }
 	    for (var number = 1; number <= 3; number++) { //or the disk number
                 if (fileName.indexOf("Dm"+number) !== -1) {
 		    fileName = 'Disk -' +number;
@@ -239,6 +264,22 @@ class Chart {
 		    fileName = 'Disk +' +number;
             	    continue;
 		}
+		if (fileName.indexOf("TID_PLUS_R"+number) !== -1) {
+		      fileName = 'TID+ R' +number;
+                      continue;
+		    }
+		    if (fileName.indexOf("TID_MINUS_R"+number) !== -1) {
+		      fileName = 'TID- R' +number;
+                      continue;
+		    }
+		    if (fileName.indexOf("TID_PLUS_W"+number) !== -1) {
+		      fileName = 'TID+ W' +number;
+                      continue;
+		    }
+		    if (fileName.indexOf("TID_MINUS_W"+number) !== -1) {
+		      fileName = 'TID- W' +number;
+                      continue;
+		    }
 	    }
 	    if (fileName.indexOf("perLayer") !== -1) { //Convention: the first trend must be layer 1 and is called "perLayer" in the title. So the title is correct and the legend also
                 fileName = 'Layer 1';

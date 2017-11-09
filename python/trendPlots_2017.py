@@ -92,7 +92,7 @@ class TrendPlot:
     def addRun(self, serverUrl, runNr, dataset):
         from math import sqrt
         from src.dqmjson import dqm_get_json_hist
-        from ROOT import TH1,TFile,TObject,TBufferFile, TH1F, TProfile, TH1F, TH2F
+        from ROOT import TH1,TFile,TObject,TBufferFile, TH1F, TProfile, TH1F, TH2F, TH1D, TH2D
 #        import ROOT
         import os, sys, string
         from os.path import split as splitPath
@@ -260,6 +260,10 @@ class TrendPlot:
             d['y']=self.__y[inc]
             d['yErr']=self.__yErrLow[inc]
             d['yTitle']=self.__yTitle
+	    if self.__config.has_option(self.__section,"hTitle") :
+                d['hTitle']=self.__config.get(self.__section,"hTitle")
+            else :
+                d['hTitle']=self.__yTitle
             if self.__config.has_option(self.__section,"yMin") and self.__config.has_option(self.__section,"yMax") :
                 d['ymin']=float(self.__config.get(self.__section,"yMin"))
                 d['ymax']=float(self.__config.get(self.__section,"yMax"))
@@ -483,14 +487,26 @@ def getRunsFromDQM(config, mask, pd, mode, runMask="all",runlistfile=[],jsonfile
        runs1 = [x.strip() for x in open(runlistfile,"r")]
 
     if jsonfile!=[]:
-        print "file:",jsonfile
-        aaf = open(jsonfile)
-        info = aaf.read()
-        decoded = jsonn.loads(info)
-        print decoded
-        runs1=[]
-        for item in decoded:
-            runs1.append(item)           
+        if runMask=="all":
+            print "file:",jsonfile
+            aaf = open(jsonfile)
+            info = aaf.read()
+            decoded = jsonn.loads(info)
+#            print decoded
+            runs1=[]
+            for item in decoded:
+                runs1.append(item)           
+        else:
+            print "file:",jsonfile
+            aaf = open(jsonfile)
+            info = aaf.read()
+            decoded = jsonn.loads(info)
+#            print decoded
+            runs1=[]
+            print "Start selection"
+            for item in decoded:
+                if eval(runMask,{"all":True,"run":int(item)}):
+                    runs1.append(item)
 
     for runNr, dataset in json:
         if dataset not in masks: masks.append(dataset)
@@ -691,15 +707,21 @@ def main(argv=None):
     plots, cache = initPlots(config)
 
     runInCache = []
+    print "...Loading Cache"
     for itest in range(0,len(cache.keys())):
         runInCache.append(cache.keys()[itest][1])
+    print "Cache loaded"
 
     for run in sorted(runs.keys()):
         if cache == None or runs[run][1] not in runInCache:
-            print "............------------>>> RUN %s NOT IN CACHE"%(runs[run][1])
-            rc = dqm_get_json(runs[run][0],runs[run][1],runs[run][2], "Info/ProvInfo")
-            print "............------------>>> RunIsComplete flag: " , rc['runIsComplete']['value']
-            isDone = int(rc['runIsComplete']['value'])
+            if opts.datatier != "DQMIO" :
+                print "Start processing"
+                isDone = 1
+            else :
+                print "............------------>>> RUN %s NOT IN CACHE"%(runs[run][1])
+                rc = dqm_get_json(runs[run][0],runs[run][1],runs[run][2], "Info/ProvInfo")
+                print "............------------>>> RunIsComplete flag: " , rc['runIsComplete']['value']
+                isDone = int(rc['runIsComplete']['value'])
         else:
             isDone = 1
             print "............------------>>> RUN %s IN CACHE"%(runs[run][1])

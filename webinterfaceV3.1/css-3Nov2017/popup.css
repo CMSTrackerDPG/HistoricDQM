@@ -1,0 +1,103 @@
+#container {
+	width: 700px;
+	min-width: 310px;
+	height: 400px;
+	max-width: 800px;
+	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 310px;
+}
+
+#inputArea {
+	width: 450px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.contact-input1 {
+	width: 45%;
+	overflow: hidden;
+	/*margin-bottom: 20px;*/
+	margin: 10px;
+	padding: 5px;
+	background: #eef7f9;
+	border-radius: 2px;
+	display: inline-block;
+}
+
+.contact-input1>input,.contact-input1>textarea { //
+	display: block;
+	width: 30%;
+	height: 29px;
+	padding: 0 9px;
+	color: #4d5a5e;
+	background: white;
+	border: 1px solid #cfdfe3;
+	border-bottom-color: #d2e2e7;
+	border-radius: 2px;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05), 0 1px
+		rgba(255, 255, 255, 0.2);
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05), 0 1px
+		rgba(255, 255, 255, 0.2);
+}
+
+.contact-input1>input:focus,.contact-input1>textarea:focus {
+	border-color: #93c2ec;
+	outline: 0;
+	-webkit-box-shadow: 0 0 0 8px #e1ecf5;
+	box-shadow: 0 0 0 8px #e1ecf5;
+}
+
+.lt-ie9 .contact-input1>input,.lt-ie9 .contact-input1>textarea {
+	line-height: 27px;
+}
+
+.contact-input1>textarea {
+	padding: 4px 8px;
+	height: 90px;
+	line-height: 20px;
+	resize: none;
+}
+.contact-submit1 { //
+	text-align: right;
+	margin-left: auto;
+	margin-right: auto;
+	width: 10%;
+}
+
+.contact-submit1>button {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 14px;
+	height: 29px;
+	font-weight: bold;
+	color: #729fb2;
+	text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+	background: #deeef4;
+	border: 1px solid #bed6e3;
+	border-bottom-color: #accbd9;
+	border-radius: 15px;
+	cursor: pointer;
+	background-image: -webkit-linear-gradient(top, #e6f2f7, #d0e6ee);
+	background-image: -moz-linear-gradient(top, #e6f2f7, #d0e6ee);
+	background-image: -o-linear-gradient(top, #e6f2f7, #d0e6ee);
+	background-image: linear-gradient(to bottom, #e6f2f7, #d0e6ee);
+	-webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), 0 1px 1px
+		rgba(0, 0, 0, 0.06), 0 0 0 4px #eef7f9;
+	box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), 0 1px 1px
+		rgba(0, 0, 0, 0.06), 0 0 0 4px #eef7f9;
+}
+
+.contact-submit1>button:active {
+	color: #6a95a9;
+	text-shadow: 0 1px rgba(255, 255, 255, 0.3);
+	background: #c9dfe9;
+	border-color: #a3bed0 #b5ccda #b5ccda;
+	-webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px
+		rgba(255, 255, 255, 0.2), 0 0 0 4px #eef7f9;
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px
+		rgba(255, 255, 255, 0.2), 0 0 0 4px #eef7f9;
+}

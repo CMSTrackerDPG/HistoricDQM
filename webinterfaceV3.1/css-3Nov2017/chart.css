@@ -1,0 +1,50 @@
+svg {
+	height: 500px;
+}
+
+/*.chart{
+height:500px;
+}*/
+#container1,#container2,#container3,#container4,#container5,#container6,#container7,#container8,#container9,#container10
+	{
+	width: 500px;
+}
+
+.popUp {
+	width: 175px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 12px;
+	padding: 10px 15px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-bottom-width: 3px;
+	background-color: #699DB6;
+	border-color: rgba(0, 0, 0, 0.3);
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+	text-align: center;
+	color: #FFF;
+}
+
+.chartarea {
+	width: 45%;
+	display: inline-block;
+	margin: 40px;
+	/*margin-left: auto;*/
+	margin-right: auto;
+	display: inline-block;
+	/*float: left;*/
+	border: 1px solid;
+	padding: 5px;
+}
+
+.buttons {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}

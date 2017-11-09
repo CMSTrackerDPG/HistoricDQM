@@ -504,6 +504,58 @@
             "DigiPerClusterPixel_FPix_Dp2",
             "DigiPerClusterPixel_FPix_Dp1"
 	],
+	[
+            "size_ONTk_BPix_Layer1_Module1_mean",
+	    "size_ONTk_BPix_Layer1_Module2_mean",
+	    "size_ONTk_BPix_Layer1_Module3_mean",
+	    "size_ONTk_BPix_Layer1_Module4_mean"
+	],
+	[
+            "size_ONTk_BPix_Layer2_Module1_mean",
+	    "size_ONTk_BPix_Layer2_Module2_mean",
+	    "size_ONTk_BPix_Layer2_Module3_mean",
+	    "size_ONTk_BPix_Layer2_Module4_mean"
+	],
+	[
+            "size_ONTk_BPix_Layer3_Module1_mean",
+	    "size_ONTk_BPix_Layer3_Module2_mean",
+	    "size_ONTk_BPix_Layer3_Module3_mean",
+	    "size_ONTk_BPix_Layer3_Module4_mean"
+	],
+	[
+            "size_ONTk_BPix_Layer4_Module1_mean",
+	    "size_ONTk_BPix_Layer4_Module2_mean",
+	    "size_ONTk_BPix_Layer4_Module3_mean",
+	    "size_ONTk_BPix_Layer4_Module4_mean"
+	],
+	[
+	    "clustCharge_ONTk_FPix_Ring1_mean",
+	    "clustCharge_ONTk_FPix_Ring2_mean"
+	],	
+	[
+	    "size_ONTk_FPix_Ring1_mean",
+	    "size_ONTk_FPix_Ring2_mean"
+	],
+	[
+	    "deadROC_BPix_L1",
+	    "deadROC_BPix_L2",
+	    "deadROC_BPix_L3",
+	    "deadROC_BPix_L4"
+	],	
+	[
+	    "deadROC_FPix_R1",
+	    "deadROC_FPix_R2"
+	],	
+	[
+	    "ineffROC_BPix_L1",
+	    "ineffROC_BPix_L2",
+	    "ineffROC_BPix_L3",
+	    "ineffROC_BPix_L4"
+	],	
+	[
+	    "ineffROC_FPix_R1",
+	    "ineffROC_FPix_R2"
+	],	
         [
 	    "TotalNumber_ReadOut_Errors"
         ],
@@ -882,6 +934,58 @@
             "DigiPerClusterPixel_FPix_Dp2",
             "DigiPerClusterPixel_FPix_Dp1"
 	],
+	[
+            "size_ONTk_BPix_Layer1_Module1_mean",
+	    "size_ONTk_BPix_Layer1_Module2_mean",
+	    "size_ONTk_BPix_Layer1_Module3_mean",
+	    "size_ONTk_BPix_Layer1_Module4_mean"
+	],
+	[
+            "size_ONTk_BPix_Layer2_Module1_mean",
+	    "size_ONTk_BPix_Layer2_Module2_mean",
+	    "size_ONTk_BPix_Layer2_Module3_mean",
+	    "size_ONTk_BPix_Layer2_Module4_mean"
+	],
+	[
+            "size_ONTk_BPix_Layer3_Module1_mean",
+	    "size_ONTk_BPix_Layer3_Module2_mean",
+	    "size_ONTk_BPix_Layer3_Module3_mean",
+	    "size_ONTk_BPix_Layer3_Module4_mean"
+	],
+	[
+            "size_ONTk_BPix_Layer4_Module1_mean",
+	    "size_ONTk_BPix_Layer4_Module2_mean",
+	    "size_ONTk_BPix_Layer4_Module3_mean",
+	    "size_ONTk_BPix_Layer4_Module4_mean"
+	],
+	[
+	    "clustCharge_ONTk_FPix_Ring1_mean",
+	    "clustCharge_ONTk_FPix_Ring2_mean"
+	],	
+	[
+	    "size_ONTk_FPix_Ring1_mean",
+	    "size_ONTk_FPix_Ring2_mean"
+	],
+	[
+	    "deadROC_BPix_L1",
+	    "deadROC_BPix_L2",
+	    "deadROC_BPix_L3",
+	    "deadROC_BPix_L4"
+	],	
+	[
+	    "deadROC_FPix_R1",
+	    "deadROC_FPix_R2"
+	],	
+	[
+	    "ineffROC_BPix_L1",
+	    "ineffROC_BPix_L2",
+	    "ineffROC_BPix_L3",
+	    "ineffROC_BPix_L4"
+	],	
+	[
+	    "ineffROC_FPix_R1",
+	    "ineffROC_FPix_R2"
+	],	
         [
 	    "TotalNumber_ReadOut_Errors"
         ],
