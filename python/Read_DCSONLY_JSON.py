@@ -27,7 +27,10 @@ def main(argv=None):
 	 d={}
          d['run']=key
          d['lhcfill']=lhcfill_middle[0]
+      
          lst.append(d)
+	 
+      lst=sorted(lst,key=lambda x:x['run'])    
       
       obj ={}		
       obj[json_outfile]=lst		
