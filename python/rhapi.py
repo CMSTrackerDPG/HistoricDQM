@@ -249,7 +249,8 @@ from optparse import OptionParser
 import pprint
 
 USAGE = 'usage: %prog [-v] [-u URL] [ FOLDER | FOLDER.TABLE | QUERY ]'
-DEFAULT_URL = "http://vocms00169:2113"
+#DEFAULT_URL = "http://vocms00169:2113"
+DEFAULT_URL = "http://vocms00170:2113"
 DEFAULT_FORMAT = "csv"
 FORMATS = [ "csv", "xml", "json", "json2" ]
 

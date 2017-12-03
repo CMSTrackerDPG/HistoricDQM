@@ -173,7 +173,7 @@ class ProfileMean(BaseMetric):
         if count==0:
             return (0,0)
         rms= sqrt( sumSquare/count-(summy*summy/(count*count)) )
-        return (summy/count, rms)
+        return (summy/count, rms/sqrt(count))
 
 class ProfileMeanBPixModules(BaseMetric):
     def __init__(self, modNum):
@@ -199,7 +199,7 @@ class ProfileMeanBPixModules(BaseMetric):
         if count==0:
             return (0,0)
         rms= sqrt( sumSquare/count-(summy*summy/(count*count)) )
-        return (summy/count, rms)
+        return (summy/count, rms/sqrt(count))
 
 
 
