@@ -14,8 +14,9 @@ cp "$WORKINGDIR/.DQMCacheCronCPromptTracking" "$WORKINGDIR/CacheBackup/DQMCacheC
 cp "$WORKINGDIR/.DQMCacheCronPPExpressStrips" "$WORKINGDIR/CacheBackup/DQMCacheCronPPExpressStrips$subfix"
 cp "$WORKINGDIR/.DQMCacheCronPPExpressPixel" "$WORKINGDIR/CacheBackup/DQMCacheCronPPExpressPixel$subfix"
 cp "$WORKINGDIR/.DQMCacheCronPPExpressTracking" "$WORKINGDIR/CacheBackup/DQMCacheCronPPExpressTracking$subfix"
+cp "$WORKINGDIR/.DQMCacheCronPPExpressRecoErrors" "$WORKINGDIR/CacheBackup/DQMCacheCronPPExpressRecoErrors$subfix"
 
 cp "$WORKINGDIR/.DQMCacheCronPPPromptStrips" "$WORKINGDIR/CacheBackup/DQMCacheCronPPPromptStrips$subfix"
 cp "$WORKINGDIR/.DQMCacheCronPPPromptPixel" "$WORKINGDIR/CacheBackup/DQMCacheCronPPPromptPixel$subfix"
 cp "$WORKINGDIR/.DQMCacheCronPPPromptTracking" "$WORKINGDIR/CacheBackup/DQMCacheCronPPPromptTracking$subfix"
-
+cp "$WORKINGDIR/.DQMCacheCronPPPromptRecoErrors" "$WORKINGDIR/CacheBackup/DQMCacheCronPPPromptRecoErrors$subfix"
