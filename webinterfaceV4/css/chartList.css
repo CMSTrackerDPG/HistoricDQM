@@ -1,0 +1,41 @@
+ul#list {
+    padding-left: 15px;
+}
+
+.list-page {
+    display:inline-block;
+    margin-right:15px;
+    vertical-align:top
+}
+
+.list-page>div {
+    display:block;
+    padding:3px 0 3px 0
+}
+
+.list-page input {
+    width:auto;
+    margin-right:5px;
+    vertical-align:-10%
+}
+
+.list-page a {
+    color: black;
+    cursor:pointer
+}
+
+.removed a {
+    color: gray
+}
+
+.list-page .colored {
+    background-color: lavender
+}
+
+.list-page .highlight {
+    background-color:powderblue
+}
+
+.list-page .drawn {
+    background-color:lightgreen
+}
