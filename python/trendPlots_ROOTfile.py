@@ -764,9 +764,9 @@ def main(argv=None):
                 cacheLocation = (runs[run][0],runs[run][1],runs[run][2], plot.getPath(),plot.getMetric())
                 incache=(cacheLocation in cache)
                 if (cache == None and not fchecked) or (not incache and not fchecked):
-                    version=dqm_getTFile_Version2(runs[run][0],runs[run][1],runs[run][2],opts.datatier)
+                    version=dqm_getTFile_Version2(runs[run][0],runs[run][1],runs[run][2],opts.epoch,opts.datatier)
                     if (version != 0):
-                        tfile=dqm_getTFile(runs[run][0],runs[run][1],runs[run][2],version,opts.datatier)
+                        tfile=dqm_getTFile(runs[run][0],runs[run][1],runs[run][2],version,opts.epoch,opts.datatier)
                         print "-----> Openning File Version ",version
                         fopen=True
                     else:

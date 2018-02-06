@@ -1,6 +1,6 @@
 #!/bin/tcsh
 
-set WORKINGDIR="/data/users/HDQM/CMSSW_9_1_0_pre1/HistoricDQM/python"
+set WORKINGDIR="/data/users/HDQM/CMSSW_10_0_0/HistoricDQM/python"
 
 cd $WORKINGDIR
 cmsenv

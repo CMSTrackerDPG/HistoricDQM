@@ -164,6 +164,7 @@ function update_collections() {
 
     collec_file = "collections_"+$("#year").val()+".json";
     console.log("collection file  : " + collec_file);
+    console.log("Run Fills");
     console.log(run_fill);
     
     $.getJSON(collec_file, function (data) {

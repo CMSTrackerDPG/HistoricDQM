@@ -318,6 +318,20 @@ class Chart {
                     fileName = 'Inner Layer 1';
                 }
 
+                for (var number = 1; number <= 4; number++) { //If we have several plots on the same plot, show the layer number instead...
+                    if ((fileName.indexOf("Module" + number) !== -1)) {
+                        fileName = 'Module ' + number;
+                        continue;
+                    }
+		}
+
+                for (var number = 1; number <= 2; number++) { //If we have several plots on the same plot, show the layer number instead...
+                    if (((fileName.indexOf("Ring" + number) !== -1) || (fileName.indexOf("R" + number) !== -1)) && (fileName.indexOf("TEC") == -1) && (fileName.indexOf("TID") == -1) ){
+                        fileName = 'Ring ' + number;
+                        continue;
+                    }
+		}
+
                 for (var number = 1; number <= 6; number++) { //If we have several plots on the same plot, show the layer number instead...
                     if ((fileName.indexOf("InnerLayer" + number) !== -1) || (fileName.indexOf("TIB_L"+number) !== -1)) {
 
@@ -328,7 +342,7 @@ class Chart {
                         fileName = 'Outer Layer ' + number;
                         continue;
                     }
-                    if ((fileName.indexOf("Layer" + number) !== -1) || (fileName.indexOf("L" + number) !== -1)) {
+		    if ((fileName.indexOf("Layer" + number) !== -1) || (fileName.indexOf("L" + number) !== -1)) {
                         fileName = 'Layer ' + number;
                         continue;
                     }
