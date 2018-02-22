@@ -184,7 +184,7 @@ def dqm_getSingleHist_json(server, run, dataset, hist, rootContent=False):
     return roothist
 
 
-def dqm_getTFile(server, run, dataset,version,datatier):
+def dqm_getTFile(server, run, dataset,version,epoch,datatier):
 
 
     ROOT.gEnv.SetValue("Davix.GSI.UserCert",X509CertAuth.ssl_cert_file)
@@ -193,7 +193,7 @@ def dqm_getTFile(server, run, dataset,version,datatier):
     datainfo=dataset.split('/')
     runGen=('%.9d' % (run))
 
-    tfile=TFile.Open(('%s/data/browse/ROOT/OfflineData/%s/%s/%sxx/DQM_V%.4d_R%.9d__%s__%s__%s.root') % (server, datainfo[2][0:7],datainfo[1], runGen[0:-2],version, run, datainfo[1], datainfo[2],datatier))
+    tfile=TFile.Open(('%s/data/browse/ROOT/OfflineData/%s/%s/%sxx/DQM_V%.4d_R%.9d__%s__%s__%s.root') % (server, epoch,datainfo[1], runGen[0:-2],version, run, datainfo[1], datainfo[2],datatier))
     print tfile
     
     return tfile
@@ -218,13 +218,14 @@ def dqm_getTFile_Version(server, run, dataset,datatier):
 
     return vers
 
-def dqm_getTFile_Version2(server, run, dataset,datatier):
+def dqm_getTFile_Version2(server, run, dataset,epoch,datatier):
 
     datainfo=dataset.split('/')
     runGen=('%.9d' % (run))
-    
-    urlpath=(('%s/data/browse/ROOT/OfflineData/%s/%s/%sxx/') % (server, datainfo[2][0:7],datainfo[1], runGen[0:-2]))
-    #print urlpath
+        
+    urlpath=(('%s/data/browse/ROOT/OfflineData/%s/%s/%sxx/') % (server, epoch,datainfo[1], runGen[0:-2]))
+    print datainfo[2]
+    print urlpath
     vers=0
 
     data = urllib2.build_opener(X509CertOpen()).open(urlpath)
