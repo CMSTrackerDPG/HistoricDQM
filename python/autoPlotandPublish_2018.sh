@@ -17,7 +17,7 @@ python dcsonlyjson_all.py --min 294600 --cosmics
 
 #Cosmics STRIPS Commissioning
 rm -rf ./JSON/*
-python ./trendPlots_ROOTfile.py -C cfg/trendPlotsDQM_cronCPrompt.ini -C cfg/trendPlotsStrip_TotalClusterMultiplicity.ini -C cfg/trendPlotsStrip_StoN.ini -C cfg/trendPlotsStrip_StoN_mean.ini -C cfg/trendPlotsCStrip_TIB_Residuals.ini -C cfg/trendPlotsCStrip_TOB_Residuals.ini -C cfg/trendPlotsCStrip_TEC_Minus_Residuals.ini -C cfg/trendPlotsCStrip_TEC_Plus_Residuals.ini --dataset Cosmics --epoch Commissioning2018 -r "run >= 308320" --reco Prompt -J json_DCSONLY_cosmics_DECO.txt &> "${LOGDIR}/promptCosmicsStripsDECO.log"
+python ./trendPlots_ROOTfile.py -C cfg/trendPlotsDQM_cronCPrompt.ini -C cfg/trendPlotsStrip_TotalClusterMultiplicity.ini -C cfg/trendPlotsStrip_StoN.ini -C cfg/trendPlotsStrip_StoN_mean.ini -C cfg/trendPlotsCStrip_TIB_Residuals.ini -C cfg/trendPlotsCStrip_TOB_Residuals.ini -C cfg/trendPlotsCStrip_TEC_Minus_Residuals.ini -C cfg/trendPlotsCStrip_TEC_Plus_Residuals.ini -C cfg/trendPlotsStrip_General_Cosmics.ini --dataset Cosmics --epoch Commissioning2018 -r "run >= 308320" --reco Prompt -J json_DCSONLY_cosmics_DECO.txt &> "${LOGDIR}/promptCosmicsStripsDECO.log"
 cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2018/Prompt/CosmicsCommissioning/Strips/DECO/
 cp ./JSON/* /data/users/event_display/HDQM/v3.1/alljsons/2018/Prompt/CosmicsCommissioning/Strips/DECO/
 cp ./JSON/* /data/users/event_display/HDQM/v4/alljsons/2018/Prompt/CosmicsCommissioning/Strips/DECO/
@@ -28,6 +28,21 @@ python ./trendPlots_ROOTfile.py -C cfg/trendPlotsDQM_cronCPrompt.ini -C cfg/tren
 cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2018/Prompt/CosmicsCommissioning/Strips/PEAK/
 cp ./JSON/* /data/users/event_display/HDQM/v3.1/alljsons/2018/Prompt/CosmicsCommissioning/Strips/PEAK/
 cp ./JSON/* /data/users/event_display/HDQM/v4/alljsons/2018/Prompt/CosmicsCommissioning/Strips/PEAK/
+touch .doneCosmics
+
+#Cosmics TrackingCommissioning
+rm -rf ./JSON/*
+python ./trendPlots_ROOTfile.py -C cfg/trendPlotsDQM_cronCPromptTracking.ini  -C cfg/trendPlotsTrackingCosmics.ini --dataset Cosmics --epoch Commissioning2018 -r "run >= 308320" --reco Prompt -J json_DCSONLY_cosmics.txt &> "${LOGDIR}/promptCosmicsTracking.log"
+cp ./JSON/* /data/users/event_display/HDQM/v3.1/alljsons/2018/Prompt/CosmicsCommissioning/Tracking
+cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2018/Prompt/CosmicsCommissioning/Tracking
+cp ./JSON/* /data/users/event_display/HDQM/v4/alljsons/2018/Prompt/CosmicsCommissioning/Tracking
+touch .doneCosmicsTracking
+
+rm -rf ./JSON/*
+python ./trendPlots_ROOTfile.py -C cfg/trendPlotsDQM_cronPPPromptRecoErrors.ini -C cfg/trendPlotsRECOErrors2017.ini --dataset Cosmics --epoch Commissioning2018 -r "run >= 308320" --reco Prompt -J json_DCSONLY_cosmics.txt  &> "${LOGDIR}/promptCosmicsRECOerrors.log"
+cp ./JSON/* /data/users/event_display/HDQM/v3.1/alljsons/2018/Prompt/CosmicsCommissioning/RecoErrors/
+cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2018/Prompt/CosmicsCommissioning/RecoErrors/
+cp ./JSON/* /data/users/event_display/HDQM/v4/alljsons/2018/Prompt/CosmicsCommissioning/RecoErrors/
 touch .doneCosmics
 
 
@@ -54,7 +69,7 @@ touch .doneCosmics
 
 #StreamExpressCosmics STRIPS Commissioning
 rm -rf ./JSON/*
-python ./trendPlots_ROOTfile.py -C cfg/trendPlotsDQM_cronCExpress.ini -C cfg/trendPlotsStrip_TotalClusterMultiplicity.ini -C cfg/trendPlotsStrip_StoN.ini -C cfg/trendPlotsStrip_StoN_mean.ini -C cfg/trendPlotsCStrip_TIB_Residuals.ini -C cfg/trendPlotsCStrip_TOB_Residuals.ini -C cfg/trendPlotsCStrip_TEC_Minus_Residuals.ini -C cfg/trendPlotsCStrip_TEC_Plus_Residuals.ini --dataset StreamExpressCosmics --epoch Commissioning2018 -r "run >= 308320" --reco Express -J json_DCSONLY_cosmics_DECO.txt &> "${LOGDIR}/expressCosmicsStripDECO.log"
+python ./trendPlots_ROOTfile.py -C cfg/trendPlotsDQM_cronCExpress.ini -C cfg/trendPlotsStrip_TotalClusterMultiplicity.ini -C cfg/trendPlotsStrip_StoN.ini -C cfg/trendPlotsStrip_StoN_mean.ini -C cfg/trendPlotsCStrip_TIB_Residuals.ini -C cfg/trendPlotsCStrip_TOB_Residuals.ini -C cfg/trendPlotsCStrip_TEC_Minus_Residuals.ini -C cfg/trendPlotsCStrip_TEC_Plus_Residuals.ini -C cfg/trendPlotsStrip_General_Cosmics.ini --dataset StreamExpressCosmics --epoch Commissioning2018 -r "run >= 308320" --reco Express -J json_DCSONLY_cosmics_DECO.txt &> "${LOGDIR}/expressCosmicsStripDECO.log"
 cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2018/StreamExpressCosmicsCommissioning/Strips/DECO/
 cp ./JSON/* /data/users/event_display/HDQM/v3.1/alljsons/2018/StreamExpressCosmicsCommissioning/Strips/DECO/
 cp ./JSON/* /data/users/event_display/HDQM/v4/alljsons/2018/StreamExpressCosmicsCommissioning/Strips/DECO/
@@ -65,6 +80,21 @@ python ./trendPlots_ROOTfile.py -C cfg/trendPlotsDQM_cronCExpress.ini -C cfg/tre
 cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2018/StreamExpressCosmicsCommissioning/Strips/PEAK/
 cp ./JSON/* /data/users/event_display/HDQM/v3.1/alljsons/2018/StreamExpressCosmicsCommissioning/Strips/PEAK/
 cp ./JSON/* /data/users/event_display/HDQM/v4/alljsons/2018/StreamExpressCosmicsCommissioning/Strips/PEAK/
+touch .doneStreamExpressCosmics
+
+#StreamExpressCosmics TrackingCommissioning
+rm -rf ./JSON/*
+python ./trendPlots_ROOTfile.py -C cfg/trendPlotsDQM_cronCExpressTracking.ini -C cfg/trendPlotsTrackingCosmics.ini --dataset StreamExpressCosmics --epoch Commissioning2018 -r "run > 308320" --reco Express -J json_DCSONLY_cosmics.txt  &> "${LOGDIR}/expressCosmicsTracking.log"
+cp ./JSON/* /data/users/event_display/HDQM/v3.1/alljsons/2018/StreamExpressCosmicsCommissioning/Tracking
+cp ./JSON/* /data/users/event_display/HDQM/v4/alljsons/2018/StreamExpressCosmicsCommissioning/Tracking
+cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2018/StreamExpressCosmicsCommissioning/Tracking
+touch .doneStreamExpressCosmicsTracking      
+
+rm -rf ./JSON/*
+python ./trendPlots_ROOTfile.py -C cfg/trendPlotsDQM_cronPPExpressRecoErrors.ini -C cfg/trendPlotsRECOErrors2017.ini --dataset StreamExpressCosmics --epoch Commissioning2018 -r "run > 308320" --reco Express -J json_DCSONLY_cosmics.txt  &> "${LOGDIR}/expressCosmicsRECOerrors.log"
+cp ./JSON/* /data/users/event_display/HDQM/v3.1/alljsons/2018/StreamExpressCosmicsCommissioning/RecoErrors/
+cp ./JSON/* /data/users/event_display/HDQM/v4/alljsons/2018/StreamExpressCosmicsCommissioning/RecoErrors/
+cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2018/StreamExpressCosmicsCommissioning/RecoErrors/
 touch .doneStreamExpressCosmics
 
 #StreamExpressCosmics PIXEL
@@ -82,3 +112,6 @@ touch .doneStreamExpressCosmics
 #cp ./JSON/* /data/users/event_display/HDQM/v4/alljsons/2018/StreamExpressCosmics/Tracking
 #cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2018/StreamExpressCosmics/Tracking
 #touch .doneStreamExpressCosmicsTracking
+
+
+
