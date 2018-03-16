@@ -79,8 +79,8 @@ class Landau(BaseMetric):
         fit = TF1("landau","[2]*TMath::Landau(x,[0],[1],0)", *(self.range))
         fit.SetParameters(*(self.parameters))
         #3x to stabilise minimization
-        histo.Fit(fit,"OR")
-        histo.Fit(fit,"OR")
+        histo.Fit(fit,"QOR")
+        histo.Fit(fit,"QOR")
         histo.Fit(fit,"OR")
         if (fit.GetParameter(self.desired)>0) :
             result = (fit.GetParameter(self.desired), fit.GetParError(self.desired))
@@ -112,8 +112,8 @@ class LandauTest(BaseMetric):
             fit.SetParameter(0,fit.GetParameter(0)*1.58)
             fit.SetParameter(1,fit.GetParameter(1)*1.58)
         #3x to stabilise minimization
-        histo.Fit(fit,"OR")
-        histo.Fit(fit,"OR")
+        histo.Fit(fit,"QOR")
+        histo.Fit(fit,"QOR")
         histo.Fit(fit,"OR")
         if (fit.GetParameter(self.desired)>0 and fit.GetParameter(self.desired)<60000) :
             result = (fit.GetParameter(self.desired), fit.GetParError(self.desired))
@@ -135,8 +135,8 @@ class LandauAroundMaxBin(BaseMetric):
         maxbincenter = histo.GetBinCenter( histo.GetMaximumBin() )
         self.range = [maxbincenter - self.theWidth , maxbincenter + self.theWidth]
         #3x to stabilise minimization
-        histo.Fit("landau","OR","",*(self.range))
-        histo.Fit("landau","OR","",*(self.range))
+        histo.Fit("landau","QOR","",*(self.range))
+        histo.Fit("landau","QOR","",*(self.range))
         histo.Fit("landau","OR","",*(self.range))
         func = histo.GetFunction("landau")
         result = (func.GetParameter(self.desired), func.GetParError(self.desired))
@@ -160,14 +160,14 @@ class LandauAroundMax(BaseMetric):
             maxbin2=maxbin+1
         maxbincenter = (histo.GetBinCenter( maxbin ) + histo.GetBinCenter( maxbin2 ))/2
         self.range = [maxbincenter*self.lowF , maxbincenter*self.highF]
-        print maxbincenter
+        #print maxbincenter
         fit = TF1("landau","[2]*TMath::Landau(x,[0],[1],0)", *(self.range))
         fit.SetParameter(0,maxbincenter)
         fit.SetParameter(1,maxbincenter/10.)
         fit.SetParameter(2,histo.GetMaximum())
         #3x to stabilise minimization
-        histo.Fit(fit,"OR","",*(self.range))
-        histo.Fit(fit,"OR","",*(self.range))
+        histo.Fit(fit,"QOR","",*(self.range))
+        histo.Fit(fit,"QOR","",*(self.range))
         histo.Fit(fit,"OR","",*(self.range))
         if (fit.GetParameter(self.desired)>0 and fit.GetParameter(self.desired)<self.cut) :
             result = (fit.GetParameter(self.desired), fit.GetParError(self.desired))
