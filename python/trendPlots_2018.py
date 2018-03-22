@@ -146,6 +146,7 @@ class TrendPlot:
                     print "WARNING: something went wrong downloading histo=",splitPath(histoPath)[1]
                     return 
             elif cacheLocation in self.__cache:
+                print "-> Got {0} for histogram {1} from cache".format(self.__metricName,splitPath(histoPath)[1])
                 (y, yErr) = self.__metric(None, cacheLocation)
         except StandardError as msg :
             print "WARNING: something went wrong calculating", self.__metric, msg
@@ -519,7 +520,7 @@ def main(argv=None):
             if fopen :
                 tfile.Close()
         else:
-            print "################### RUN %s NOT FULLY PROCESSED, SKIP #############"%(runs[run][1])
+            print "############ RUN %s NOT FULLY PROCESSED, SKIP ############"%(runs[run][1])
 
     cachePath = config.get("output","cachePath")
     cacheFile = open(cachePath,"w")
