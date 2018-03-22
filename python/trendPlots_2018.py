@@ -515,7 +515,6 @@ def main(argv=None):
                         fpresent=False
                         print "### ROOT file not present for Run{0} -> JSON information will be used".format(runs[run][1])
                     fchecked=True
-#                if (fpresent) or (incache):
                 plot.addRun(runs[run][0],runs[run][1],runs[run][2],tfile)
             if fopen :
                 tfile.Close()
