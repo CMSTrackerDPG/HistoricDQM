@@ -31,7 +31,7 @@ class BaseMetric:
             try:
                 result = self.calculate(histo)
             except StandardError as msg :
-              print "Warning: fit failed, returning 0"
+                print "Warning: fit failed, returning 0"
 
             entries = histo.GetEntries()
             if not self.__cache == None:
@@ -252,6 +252,36 @@ class ROCfraction(BaseMetric):
         if not self.__noError:
             error = 100*sqrt(histo.GetBinContent(binNr))/self.__tot
         return ( 100*histo.GetBinContent(binNr)/self.__tot, error)
+
+class EntriesCount(BaseMetric):
+    def __init__(self, startValue):
+        self.__loVal = startValue
+
+    def calculate(self, histo):
+        from math import sqrt
+        sum=float(0.0)
+        for bin in range(histo.FindBin(self.__loVal),histo.GetNbinsX()+1) :
+            sum+=histo.GetBinContent(bin)
+        return ( sum, sqrt(1/sum)*sum if sum else 0)   
+
+class EntriesRate(BaseMetric):
+    def __init__(self,  startValue):
+        self.__loVal = startValue
+        print self.__loVal
+
+    def calculate(self, histo):
+        from math import sqrt
+        trksum=float(0.0)
+        for bin in range(histo.FindBin(self.__loVal),histo.GetNbinsX()+1) :
+            trksum+=histo.GetBinContent(bin)
+        nLS=0
+        for bin in range(1,self._histo1.GetNbinsX()+1) :
+            if self._histo1.GetBinContent(bin) > 0 :
+                nLS+=1
+        if nLS :
+            return (trksum/(nLS*23), sqrt(trksum)/(nLS*23))
+        else :
+            return (0,0)
 
 
 

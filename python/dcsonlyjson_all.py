@@ -98,7 +98,7 @@ def getRunList(save=False):
             if options.cosmics:
                 filename = "json_DCSONLY_cosmics.txt"
             print "Writing PEAK+DECO file : "+filename
-            lumiSummary = open('/data/users/HDQM/CMSSW_10_0_0/HistoricDQM/python/'+filename, 'w')
+            lumiSummary = open('/data/users/HDQM/CMSSW_10_1_0_pre3/HistoricDQM/python/'+filename, 'w')
             json.dump(toOrdinaryJSON(dcs_only, dblist, "", verbose=False), lumiSummary, indent=2, sort_keys=True)
             lumiSummary.close()
 
@@ -106,7 +106,7 @@ def getRunList(save=False):
             if options.cosmics:
                 filename = "json_DCSONLY_cosmics_DECO.txt"
             print "Writing DECO file : "+filename
-            lumiSummary = open('/data/users/HDQM/CMSSW_10_0_0/HistoricDQM/python/'+filename, 'w')
+            lumiSummary = open('/data/users/HDQM/CMSSW_10_1_0_pre3/HistoricDQM/python/'+filename, 'w')
             json.dump(toOrdinaryJSON(dcs_only, dblist, "DECO", verbose=False), lumiSummary, indent=2, sort_keys=True)
             lumiSummary.close()
 
@@ -114,7 +114,7 @@ def getRunList(save=False):
             if options.cosmics:
                 filename = "json_DCSONLY_cosmics_PEAK.txt"
             print "Writing PEAK file : "+filename
-            lumiSummary = open('/data/users/HDQM/CMSSW_10_0_0/HistoricDQM/python/'+filename, 'w')
+            lumiSummary = open('/data/users/HDQM/CMSSW_10_1_0_pre3/HistoricDQM/python/'+filename, 'w')
             json.dump(toOrdinaryJSON(dcs_only, dblist, "PEAK", verbose=False), lumiSummary, indent=2, sort_keys=True)
             lumiSummary.close()
 

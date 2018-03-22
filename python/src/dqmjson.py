@@ -18,7 +18,7 @@ def dqm_get_json(server, run, dataset, folder, rootContent=False):
                { "__builtins__": None }, {})
     if rootContent:
         # Now convert into real ROOT histograms   
-        print "Now convert into real ROOT histograms 1"  
+        #print "Now convert into real ROOT histograms 1"  
         for idx,item in enumerate(data['contents']):
             #print "Now convert into real ROOT histograms 2"  
             if 'obj' in item.keys():
@@ -61,9 +61,10 @@ def dqm_get_json_hist(server, run, dataset, folder, histoName, rootContent=False
     # Get data
     data = eval(re.sub(r"\bnan\b", "0", urllib2.build_opener(X509CertOpen()).open(datareq).read()),
                { "__builtins__": None }, {})
+    histoOut=None
     if rootContent:
         # Now convert into real ROOT histograms   
-        print "Now convert into real ROOT histograms 1"  
+        #print "Now convert into real ROOT histograms 1"  
         for idx,item in enumerate(data['contents']):
             #print "Now convert into real ROOT histograms 2"  
             if 'obj' in item.keys():
@@ -86,8 +87,7 @@ def dqm_get_json_hist(server, run, dataset, folder, histoName, rootContent=False
                        #data['contents'][idx]['rootobj'] = t.ReadObject(eval(rootType+'.Class()'))
                        histoOut = t.ReadObject(eval(rootType+'.Class()'))
 		       #print "Now convert into real ROOT histograms 11"
-                   else :
-                       histoOut=-99
+                
     return histoOut
 
 
@@ -194,7 +194,7 @@ def dqm_getTFile(server, run, dataset,version,epoch,datatier):
     runGen=('%.9d' % (run))
 
     tfile=TFile.Open(('%s/data/browse/ROOT/OfflineData/%s/%s/%sxx/DQM_V%.4d_R%.9d__%s__%s__%s.root') % (server, epoch,datainfo[1], runGen[0:-2],version, run, datainfo[1], datainfo[2],datatier))
-    print tfile
+    #print tfile
     
     return tfile
 
@@ -224,8 +224,8 @@ def dqm_getTFile_Version2(server, run, dataset,epoch,datatier):
     runGen=('%.9d' % (run))
         
     urlpath=(('%s/data/browse/ROOT/OfflineData/%s/%s/%sxx/') % (server, epoch,datainfo[1], runGen[0:-2]))
-    print datainfo[2]
-    print urlpath
+#    print datainfo[2]
+#    print urlpath
     vers=0
 
     data = urllib2.build_opener(X509CertOpen()).open(urlpath)
