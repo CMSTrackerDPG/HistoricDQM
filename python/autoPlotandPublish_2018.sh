@@ -47,7 +47,7 @@ touch .doneCosmics
 
 #Cosmics Pixel Commissioning
 rm -rf ./JSON/*
-python trendPlots_2018.py -C cfg/trendPlotsDQM_cronCPromptPixel.ini -C cfg/trendPlotsPixelPhase1_ADCDIGI.ini -C cfg/trendPlotsPixelPhase1_clustersV3.ini -C cfg/trendPlotsPixelPhase1_tracks.ini --dataset Cosmics --epoch Commissioning2018 -r "run>=292505" --reco Prompt -J json_DCSONLY_cosmics.txt &> "${LOGDIR}/promptCosmicsPixel.log"
+python trendPlots_2018.py -C cfg/trendPlotsDQM_cronCPromptPixel.ini -C cfg/trendPlotsPixelPhase1_ADCDIGI.ini -C cfg/trendPlotsPixelPhase1_clustersCosmics.ini -C cfg/trendPlotsPixelPhase1_tracks.ini --dataset Cosmics --epoch Commissioning2018 -r "run>=292505" --reco Prompt -J json_DCSONLY_cosmics.txt &> "${LOGDIR}/promptCosmicsPixel.log"
 cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2018/Prompt/CosmicsCommissioning/PixelPhase1/
 cp ./JSON/* /data/users/event_display/HDQM/v3.1/alljsons/2018/Prompt/CosmicsCommissioning/PixelPhase1/
 cp ./JSON/* /data/users/event_display/HDQM/v4/alljsons/2018/Prompt/CosmicsCommissioning/PixelPhase1/
@@ -106,7 +106,7 @@ touch .doneStreamExpressCosmics
 
 #StreamExpressCosmics Pixel Commissioning
 rm -rf ./JSON/*
-python trendPlots_2018.py -C cfg/trendPlotsDQM_cronCExpressPixel.ini -C cfg/trendPlotsPixelPhase1_ADCDIGI.ini -C cfg/trendPlotsPixelPhase1_clustersV3.ini -C cfg/trendPlotsPixelPhase1_tracks.ini --dataset StreamExpressCosmics --epoch Commissioning2018 -r "run>=308320" --reco Express -J json_DCSONLY_cosmics.txt  &> "${LOGDIR}/expressCosmicsPixel.log"
+python trendPlots_2018.py -C cfg/trendPlotsDQM_cronCExpressPixel.ini -C cfg/trendPlotsPixelPhase1_ADCDIGI.ini -C cfg/trendPlotsPixelPhase1_clustersCosmics.ini -C cfg/trendPlotsPixelPhase1_tracks.ini --dataset StreamExpressCosmics --epoch Commissioning2018 -r "run>=308320" --reco Express -J json_DCSONLY_cosmics.txt  &> "${LOGDIR}/expressCosmicsPixel.log"
 cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2018/StreamExpressCosmicsCommissioning/PixelPhase1/
 cp ./JSON/* /data/users/event_display/HDQM/v3.1/alljsons/2018/StreamExpressCosmicsCommissioning/PixelPhase1/
 cp ./JSON/* /data/users/event_display/HDQM/v4/alljsons/2018/StreamExpressCosmicsCommissioning/PixelPhase1/

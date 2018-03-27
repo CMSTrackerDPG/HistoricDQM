@@ -132,15 +132,16 @@ class TrendPlot:
                         print "   -> Got auxiliary histogram {0} as {1}".format(splitPath(h1Path)[1],h1)
                     if self.__config.has_option(self.__section,"histo2Path"):
                         print "   -> Got auxiliary histogram {0} as {1}".format(splitPath(h2Path)[1],h2)
-                    print "      -> {0} will be evaluated".format(self.__metricName)
                     Entr=0
                     Entr=histo.GetEntries()
                     #print "###############    GOT HISTO #################" 
                     y=0
                     yErr    = (0.0,0.0)
                     if Entr>self.__threshold:
+                        print "      -> {0} will be evaluated".format(self.__metricName)
                         (y, yErr) = self.__metric(histo, cacheLocation)
                     else:
+                        print "      -> Histogram entries are {0} while threshold is {1}. Metric will not be evalueted, results set at 0".format(Entr,self.__threshold)
                         self.__cache[cacheLocation] = ((0.,0.),0.)
                 else:
                     print "WARNING: something went wrong downloading histo=",splitPath(histoPath)[1]
