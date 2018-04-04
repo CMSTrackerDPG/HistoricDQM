@@ -12,7 +12,8 @@ LOGDIR="/data/users/HDQM/CMSSW_10_1_0_pre3/HistoricDQM/Logs"
 #cp Run_LHCFill_RunDuration.json /data/users/event_display/HDQM/v4/alljsons/2018/
 
 python dcsonlyjson_all.py --min 294600 --cosmics
-
+python Get_Run_RunDuration_LHCFill_info.py --cosmics
+cp Run_LHCFill_RunDuration_Cosmics.json /data/users/event_display/HDQM/v4/alljsons/2018/
 # ++++++++++++++++++++++++++++++++   Cosmics  +++++++++++++++++++++++++++++++++++++++
 
 #Cosmics STRIPS Commissioning
@@ -36,6 +37,7 @@ python ./trendPlots_2018.py -C cfg/trendPlotsDQM_cronCPromptTracking.ini  -C cfg
 cp ./JSON/* /data/users/event_display/HDQM/v3.1/alljsons/2018/Prompt/CosmicsCommissioning/Tracking
 cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2018/Prompt/CosmicsCommissioning/Tracking
 cp ./JSON/* /data/users/event_display/HDQM/v4/alljsons/2018/Prompt/CosmicsCommissioning/Tracking
+python MakeIncremental.py -h /data/users/event_display/HDQM/v4/alljsons/2018/Prompt/CosmicsCommissioning/Tracking/ -i NumberOfALCARecoTracks -o IncrementalNumberOfALCARecoTracks -t "Incremental Number of ALCA Reco Tracks"
 touch .doneCosmicsTracking
 
 rm -rf ./JSON/*
@@ -94,6 +96,7 @@ python ./trendPlots_2018.py -C cfg/trendPlotsDQM_cronCExpressTracking.ini -C cfg
 cp ./JSON/* /data/users/event_display/HDQM/v3.1/alljsons/2018/StreamExpressCosmicsCommissioning/Tracking
 cp ./JSON/* /data/users/event_display/HDQM/v4/alljsons/2018/StreamExpressCosmicsCommissioning/Tracking
 cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2018/StreamExpressCosmicsCommissioning/Tracking
+python MakeIncremental.py -h /data/users/event_display/HDQM/v4/alljsons/2018/StreamExpressCosmicsCommissioning/Tracking/ -i NumberOfALCARecoTracks -o IncrementalNumberOfALCARecoTracks -t "Incremental Number of ALCA Reco Tracks"
 touch .doneStreamExpressCosmicsTracking      
 
 rm -rf ./JSON/*
