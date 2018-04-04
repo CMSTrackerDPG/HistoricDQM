@@ -529,50 +529,6 @@
             "files": [
                 "RecHitPerCosmicTrack_mean"
             ]
-        }
-    ],
-    "CosmicTrackingCommissioning": [
-        {
-            "name": "NumberOfCosmicTracks_mean",
-            "corr": false,
-            "files": [
-                "NumberOfCosmicTracks_mean"
-            ]
-        },
-        {
-            "name": "CosmicTrackChisquared_mean",
-            "corr": false,
-            "files": [
-                "CosmicTrackChisquared_mean"
-            ]
-        },
-        {
-            "name": "CosmicTrackPt_mean",
-            "corr": false,
-            "files": [
-                "CosmicTrackPt_mean"
-            ]
-        },
-        {
-            "name": "NumberOfLayersPerCosmicTrack_mean",
-            "corr": false,
-            "files": [
-                "NumberOfLayersPerCosmicTrack_mean"
-            ]
-        },
-        {
-            "name": "TracksFraction_3GeV_CFKTk",
-            "corr": false,
-            "files": [
-                "TracksFraction_3GeV_CFKTk"
-            ]
-        },
-        {
-            "name": "RecHitPerCosmicTrack_mean",
-            "corr": false,
-            "files": [
-                "RecHitPerCosmicTrack_mean"
-            ]
         },
         {
             "name": "NumberOfALCARecoTracks",
@@ -586,6 +542,13 @@
             "corr": false,
             "files": [
                 "RateOfALCARecoTracks"
+            ]
+        },
+        {
+            "name": "IncrementalNumberOfALCARecoTracks",
+            "corr": false,
+            "files": [
+                "IncrementalNumberOfALCARecoTracks"
             ]
         }
     ],
@@ -1423,50 +1386,6 @@
             "files": [
                 "RecHitPerCosmicTrack_mean"
             ]
-        }
-    ],
-    "StreamExprCosmicTrackingCommissioning": [
-        {
-            "name": "NumberOfCosmicTracks_mean",
-            "corr": false,
-            "files": [
-                "NumberOfCosmicTracks_mean"
-            ]
-        },
-        {
-            "name": "CosmicTrackChisquared_mean",
-            "corr": false,
-            "files": [
-                "CosmicTrackChisquared_mean"
-            ]
-        },
-        {
-            "name": "CosmicTrackPt_mean",
-            "corr": false,
-            "files": [
-                "CosmicTrackPt_mean"
-            ]
-        },
-        {
-            "name": "NumberOfLayersPerCosmicTrack_mean",
-            "corr": false,
-            "files": [
-                "NumberOfLayersPerCosmicTrack_mean"
-            ]
-        },
-        {
-            "name": "TracksFraction_3GeV_CFKTk",
-            "corr": false,
-            "files": [
-                "TracksFraction_3GeV_CFKTk"
-            ]
-        },
-        {
-            "name": "RecHitPerCosmicTrack_mean",
-            "corr": false,
-            "files": [
-                "RecHitPerCosmicTrack_mean"
-            ]
         },
         {
             "name": "NumberOfALCARecoTracks",
@@ -1480,6 +1399,13 @@
             "corr": false,
             "files": [
                 "RateOfALCARecoTracks"
+            ]
+        },
+        {
+            "name": "IncrementalNumberOfALCARecoTracks",
+            "corr": false,
+            "files": [
+                "IncrementalNumberOfALCARecoTracks"
             ]
         }
     ],
