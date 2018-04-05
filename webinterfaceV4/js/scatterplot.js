@@ -5,9 +5,7 @@ class ScatterPlot extends Chart {
         if (this.chart_obj !== null) {
             this.chart_obj.destroy();
         }
-        if (dataSet === "StreamExpress" || dataSet === "ZeroBias") {
-            this.update_runs_data(xValues);
-        }
+	this.update_runs_data(xValues);
         var min_y = Math.min(...yValues.map(x => Math.min(...x)));
         var max_y = Math.max(...yValues.map(x => Math.max(...x)));
         var dist = Math.abs(max_y - min_y);

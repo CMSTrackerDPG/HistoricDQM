@@ -323,7 +323,7 @@ input[type="checkbox"] {
 	<header>
 		<p class="contact-input"> 		 
 			<label for="select" class="select"> <select id="year"
-				name="Year" onchange="update_collections();">
+				name="Year" onchange="update_collections();update_runDurationFile();">
 					<option value="" selected>Choose Year...</option>
 					<option>2011</option>
 					<option>2012</option>
@@ -336,7 +336,7 @@ input[type="checkbox"] {
 		</p>
 		<p class="contact-input">
 			<label for="select" class="select"> <select id="dataSet"
-				name="dataset">
+				name="dataset" onchange="update_runDurationFile();">
 					<option value="" selected>Choose DataSet...</option>
 					<option>StreamExpress</option>
 					<option>StreamExpressCosmics</option>
@@ -352,7 +352,7 @@ input[type="checkbox"] {
 					<option value="" selected>Choose Strip APV Mode...</option>
 					<option>DECO</option>
 					<option>PEAK</option>
-					<option>PEAK + DECO</option>
+					<!--<option>PEAK + DECO</option>-->
 			</select></label>
 		</p>
 		<p class="contact-input">
