@@ -83,7 +83,7 @@ def getRunList(save=False):
     print json.dumps(dcs_only, indent=2)
 
 #    print json.dumps(toOrdinaryJSON(dcs_only, verbose=False), indent=2)
-    print "Total Number of RUNs selected = ",len(dcs_only)
+    print "Total Number of RUNs selected = ",len(list(set([ar.values()[0] for ar in dcs_only])))
 
     if len(dcs_only)!=0:
         if save:
