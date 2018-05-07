@@ -38,16 +38,16 @@ function load_dataset(name) {
 		}
 	}
 	if (need_refresh) {
-		if (dataSet === "StreamExpress" || dataSet === "ZeroBias")
-			$.ajax({
-				dataType: "json",
-				url: ("alljsons/" + year + "/Run_LHCFill.json"),
-				async: false,
-				success: function (data) {
-					run_fill = data["Run_LHCFill.json"].map(x => ({ run: parseInt(x['run']), lhcfill: x['lhcfill'] }));
-					console.log("fills loaded");
-				}
-			});
+	    //if (dataSet === "StreamExpress" || dataSet === "ZeroBias")
+	    //		$.ajax({
+	    //			dataType: "json",
+	    //			url: ("alljsons/" + year + "/Run_LHCFill.json"),
+	    //			async: false,
+	    //			success: function (data) {
+	    //				run_fill = data["Run_LHCFill.json"].map(x => ({ run: parseInt(x['run']), lhcfill: x['lhcfill'] }));
+	    //				console.log("fills loaded");
+	    //			}
+	    //		});
 		update_collections();
 		chart_list = new ChartList(name, collections[name]);
 		//console.log("index.js -> need_refresh = true");
