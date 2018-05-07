@@ -41,17 +41,17 @@ def dqm_get_json(server, run, dataset, folder, rootContent=False):
 		    #print "Now convert into real ROOT histograms 11"
     return dict( [ (x['obj'], x) for x in data['contents'][1:] if 'obj' in x] )
 
-def dqm_get_samples(server, match, type="offline_data"):
+def dqm_get_samples(ret,server, match, type="offline_data"):
     datareq = urllib2.Request(('%s/data/json/samples?match=%s') % (server, match))
     datareq.add_header('User-agent', ident)
     # Get data
     data = eval(re.sub(r"\bnan\b", "0", urllib2.build_opener(X509CertOpen()).open(datareq).read()),
                { "__builtins__": None }, {})
-    ret = []
+    #ret = []
     for l in data['samples']:
         if l['type'] == type:
             ret += [ (int(x['run']), x['dataset']) for x in l['items'] ]
-    return ret
+    #return ret
 
 
 def dqm_get_json_hist(server, run, dataset, folder, histoName, rootContent=False):
@@ -225,7 +225,7 @@ def dqm_getTFile_Version2(server, run, dataset,epoch,datatier):
         
     urlpath=(('%s/data/browse/ROOT/OfflineData/%s/%s/%sxx/') % (server, epoch,datainfo[1], runGen[0:-2]))
 #    print datainfo[2]
-#    print urlpath
+    print urlpath
     vers=0
 
     data = urllib2.build_opener(X509CertOpen()).open(urlpath)
