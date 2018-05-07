@@ -37,7 +37,8 @@ class BaseMetric:
             if not self.__cache == None:
                 self.__cache[cacheLocation] = (result, entries)
         if entries < self._threshold:
-            raise StandardError," Number of entries (%s) is below threshold (%s) using '%s'"%(entries, self._threshold, self.__class__.__name__) #, histo.GetName())
+            #raise StandardError," Number of entries (%s) is below threshold (%s) using '%s'"%(entries, self._threshold, self.__class__.__name__) #, histo.GetName())
+            print " Number of entries (%s) is below threshold (%s) using '%s'"%(entries, self._threshold, self.__class__.__name__)
         if not len(result) == 2:
             raise StandardError, "calculate needs to return a tuple with the value and the error of the metric!"
         if not "__iter__" in dir(result[1]):

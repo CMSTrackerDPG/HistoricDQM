@@ -338,15 +338,24 @@ class TrendPlot:
             result = self.__config.get(self.__section, name)
         return result
 
-
-def getRunsFromDQM(config, mask, pd, mode, datatier,runMask="all", runlistfile=[],jsonfile=[]):
+def getRunsFromDQM(config, dset, epochs, reco, tag, datatier,runMask="all", runlistfile=[],jsonfile=[]):
     from src.dqmjson import dqm_get_samples,dqm_getTFile_Version
 #    import simplejson as jsonn
     import json as jsonn
     serverUrl = config.get("dqmServer","url")
     dataType = config.get("dqmServer","type")
 
-    json = dqm_get_samples(serverUrl, mask, dataType)
+    maskList=[]
+    for epoch in epochs:
+        maskList.append(".*/" + dset +"/"+epoch+".*"+reco+"*.*"+tag+"/"+datatier)
+    print "dsetmask = ",maskList
+    
+    json=[]
+    for mask in maskList:
+        print "------------------------------------------------------> ",mask
+        json+=dqm_get_samples(serverUrl, mask, dataType)
+        print json
+
     masks = []
     if runlistfile!=[]:
        runs1 = [x.strip() for x in open(runlistfile,"r")]
@@ -379,16 +388,19 @@ def getRunsFromDQM(config, mask, pd, mode, datatier,runMask="all", runlistfile=[
     
     result = {}
     for mask in masks :
-        json = dqm_get_samples(serverUrl, mask, dataType)
+        json=dqm_get_samples(serverUrl, mask, dataType)
+        for epoch in epochs:
+            if epoch in mask: 
+                runEpoch=epoch
         for runNr, dataset in json:
             if runlistfile==[] and jsonfile==[]:
                 if eval(runMask,{"all":True,"run":runNr}):
-                    result[runNr] = (serverUrl, runNr, dataset)
+                    result[runNr] = (serverUrl, runNr, dataset, runEpoch)
             else:
                  for run_temp in runs1:
                         if int(run_temp)==int(runNr):
                                 #print "test1=",run_temp,runNr
-                                result[runNr] = (serverUrl, runNr, dataset)
+                                result[runNr] = (serverUrl, runNr, dataset, runEpoch)
     if not result :
         print "*** WARNING: YOUR REQUEST DOESNT MATCH ANY EXISTING DATASET ***"
         print "-> check your settings in ./cfg/trendPlots.py"
@@ -447,7 +459,7 @@ def main(argv=None):
                       help="mask for the run (full boolean and math capabilities e.g. run > 10 and run *2 < -1)")
     parser.add_option("-D", "--dataset", dest="dset", default="Jet",
                       help="mask for the primary dataset (default is Jet), e.g. Cosmics, MinimumBias")
-    parser.add_option("-E", "--epoch", dest="epoch", default="Run2012",
+    parser.add_option("-E", "--epoch", dest="epoch", default=[], action="append",
                       help="mask for the data-taking epoch (default is Run2012), e.g. Run2011B, Run2011A, etc.")
     parser.add_option("-R", "--reco", dest="reco", default="Prompt",
                       help="mask for the reconstruction type (default is Prompt), e.g. 08Nov2011, etc.")
@@ -466,15 +478,12 @@ def main(argv=None):
     config.read(opts.config)
  
     initStyle(config)
-
-    dsetmask = ".*/" + opts.dset +"/"+opts.epoch+".*"+opts.reco+"*.*"+opts.tag+"/"+opts.datatier
-    print "dsetmask = ",dsetmask
     print "opts.state = ",opts.state
     print "opts.runs = ",opts.runs
     print "opts.list = ",opts.list
     print "opts.json = ",opts.json
-     
-    runs = getRunsFromDQM(config, dsetmask, opts.dset, opts.state, opts.datatier,opts.runs,opts.list,opts.json)
+
+    runs = getRunsFromDQM(config, opts.dset, opts.epoch, opts.reco, opts.tag, opts.datatier,opts.runs,opts.list,opts.json)
     if not runs : raise StandardError, "*** Number of runs matching run/mask/etc criteria is equal to zero!!!"
 
 
@@ -507,9 +516,9 @@ def main(argv=None):
                 cacheLocation = (runs[run][0],runs[run][1],runs[run][2], plot.getPath(),plot.getMetric())
                 incache=(cacheLocation in cache)
                 if (cache == None and not fchecked) or (not incache and not fchecked):
-                    version=dqm_getTFile_Version2(runs[run][0],runs[run][1],runs[run][2],opts.epoch,opts.datatier)
+                    version=dqm_getTFile_Version2(runs[run][0],runs[run][1],runs[run][2],runs[run][3],opts.datatier)
                     if (version != 0):
-                        tfile=dqm_getTFile(runs[run][0],runs[run][1],runs[run][2],version,opts.epoch,opts.datatier)
+                        tfile=dqm_getTFile(runs[run][0],runs[run][1],runs[run][2],version,runs[run][3],opts.datatier)
                         print "### Openning ROOT File Version {0} for Run{1}".format(version,runs[run][1])
                         fopen=True
                     else:
@@ -532,7 +541,7 @@ def main(argv=None):
 
     
 
-    outPath = "fig/"+opts.reco+"/"+opts.epoch+"/"+opts.dset
+    outPath = "fig/"+opts.reco+"/"+opts.dset
     if 'Cosmics' in opts.dset:
         outPath = outPath + "/" + opts.state
     ##outPath = config.get("output","defautlOutputPath")
