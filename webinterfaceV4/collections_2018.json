@@ -3183,6 +3183,27 @@
             "files": [
                 "TrkOverPVertices_ratio"
             ]
+        },
+	{
+            "name": "NumberOfALCARecoTracks",
+            "corr": false,
+            "files": [
+                "NumberOfALCARecoTracks"
+            ]
+        },
+        {
+            "name": "RateOfALCARecoTracks",
+            "corr": false,
+            "files": [
+                "RateOfALCARecoTracks"
+            ]
+        },
+        {
+            "name": "IncrementalNumberOfALCARecoTracks",
+            "corr": false,
+            "files": [
+                "IncrementalNumberOfALCARecoTracks"
+            ]
         }
     ],
     "StripDeco": [
@@ -7494,6 +7515,27 @@
             "corr": false,
             "files": [
                 "TrkOverPVertices_ratio"
+            ]
+        },
+   	{
+            "name": "NumberOfALCARecoTracks",
+            "corr": false,
+            "files": [
+                "NumberOfALCARecoTracks"
+            ]
+        },
+        {
+            "name": "RateOfALCARecoTracks",
+            "corr": false,
+            "files": [
+                "RateOfALCARecoTracks"
+            ]
+        },
+        {
+            "name": "IncrementalNumberOfALCARecoTracks",
+            "corr": false,
+            "files": [
+                "IncrementalNumberOfALCARecoTracks"
             ]
         }
     ]
