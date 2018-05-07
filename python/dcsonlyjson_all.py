@@ -69,6 +69,8 @@ def getRunList(save=False):
     filter.setdefault("tobReady",  "isNull OR = true")
     filter.setdefault("tibtidReady", "isNull OR = true")
     if options.cosmics == False:
+        filter.setdefault("fpixReady", "isNull OR = true")
+        filter.setdefault("bpixReady", "isNull OR = true")
         filter.setdefault("cmsActive",   "isNull OR = true")
         filter.setdefault("beam1Present","isNull OR = true")
         filter.setdefault("beam2Present","isNull OR = true")
@@ -82,8 +84,11 @@ def getRunList(save=False):
    
     print json.dumps(dcs_only, indent=2)
 
+
+    runlist=list(set([ar.values()[0] for ar in dcs_only]))
+    runlist.sort()
 #    print json.dumps(toOrdinaryJSON(dcs_only, verbose=False), indent=2)
-    print "Total Number of RUNs selected = ",len(list(set([ar.values()[0] for ar in dcs_only])))
+    print "------------------> {0} RUNs selected from {1} to {2}".format(len(runlist),runlist[0],runlist[len(runlist)-1])
 
     if len(dcs_only)!=0:
         if save:
