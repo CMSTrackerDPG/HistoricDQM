@@ -19,25 +19,20 @@ def toOrdinaryJSON(fromRR3, dbmodelist, OPT, verbose=False):
             lumiEnd = block['sectionTo']
             if verbose:
                 print " debug: Run ", runNum, " Lumi ", lumiStart, ", ", lumiEnd               
-#            print "DB APV Mode for Run : ",runNum, " is : ", dbmode
             dbmode = ""
             if OPT == "PEAK":
                 for idx in range(len(dbmodelist)) :
                     if( dbmodelist[idx][0] == str(runNum) ) :
-#                        print "Run ",runNum," found"
                         dbmode = dbmodelist[idx][1]
                         break
                 if  dbmode == "PEAK":
-#                    print "Write Run : ",runNum, " with APV mode : ", dbmode
                     result.setdefault(str(runNum), []).append([lumiStart, lumiEnd])
             elif OPT == "DECO":
                 for idx in range(len(dbmodelist)) :
                     if( dbmodelist[idx][0] == str(runNum) ) :
-#                        print "Run ",runNum," found"
                         dbmode = dbmodelist[idx][1]
                         break
                 if  dbmode == "DECO": 
-#                    print "Write Run : ",runNum, " with APV mode : ", dbmode
                     result.setdefault(str(runNum), []).append([lumiStart, lumiEnd])
             else :
                 result.setdefault(str(runNum), []).append([lumiStart, lumiEnd])
