@@ -1,8 +1,16 @@
-from x509auth import * #use cctrack certificate if working on vocms061
+#from x509auth import * #use cctrack certificate if working on vocms061
 #from x509auth_lxplus import * #use your personal certificate if working on lxplus
 import ROOT
 from ROOT import TBufferFile, TH1F, TProfile, TProfile2D, TH2F, TFile, TH1D, TH2D
 import re
+import getpass
+import platform
+user = getpass.getuser()
+node = platform.node()
+if node.startswith("vocms061") and user.startswith("cctrack"):
+    from x509auth import * #use cctrack certificate if working on vocms061
+else:
+    from x509auth_lxplus import * #use your personal certificate if working elsewhere
 
 X509CertAuth.ssl_key_file, X509CertAuth.ssl_cert_file = x509_params()
 print X509CertAuth.ssl_key_file
