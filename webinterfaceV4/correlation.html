@@ -18,8 +18,8 @@
 <script src="js/chart.js"></script>
 <script src="js/scatterplot.js"></script>
 <script src="js/corrplot.js"></script>
-<script src="js/chartList.js"></script>
-<script src="js/index.js"></script>
+<script src="js/corrList.js"></script>
+<script src="js/Correlation.js"></script>
 
 <!-- <link href="facebox/src/facebox.css" media="screen" rel="stylesheet"
 	type="text/css" />
@@ -58,7 +58,7 @@ header {
 	display: inline-block;
 }
 .contact-input1 {
-	width: 23%;
+	width: 80%;
 	overflow: hidden;
 	/*margin-bottom: 20px;*/
 	margin: 10px;
@@ -101,6 +101,55 @@ header {
 	line-height: 20px;
 	resize: none;
 }
+
+.vars-input {
+	width: 35%;
+	overflow: hidden;
+	/*margin-bottom: 20px;*/
+	margin: 10px;
+	padding: 5px;
+	background: #eef7f9;
+	border-radius: 2px;
+	display: inline-block;
+}
+
+.vars-input>input,.vars-input>textarea { //
+	display: block;
+	width: 30%;
+	height: 29px;
+	padding: 0 9px;
+	color: #4d5a5e;
+	background: white;
+	border: 1px solid #cfdfe3;
+	border-bottom-color: #d2e2e7;
+	border-radius: 2px;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05), 0 1px
+		rgba(255, 255, 255, 0.2);
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05), 0 1px
+		rgba(255, 255, 255, 0.2);
+}
+
+.vars-input>input:focus,.vars-input>textarea:focus {
+	border-color: #93c2ec;
+	outline: 0;
+	-webkit-box-shadow: 0 0 0 8px #e1ecf5;
+	box-shadow: 0 0 0 8px #e1ecf5;
+}
+
+.lt-ie9 .vars-input>input,.lt-ie9 .vars-input>textarea {
+	line-height: 27px;
+}
+
+.vars-input>textarea {
+	padding: 4px 8px;
+	height: 90px;
+	line-height: 20px;
+	resize: none;
+}
+
+
+
+
 
 .select {
 	display: block;
@@ -198,49 +247,6 @@ header {
 	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px
 		rgba(255, 255, 255, 0.2), 0 0 0 4px #eef7f9;
 }
-
-.contact-corr { //
-        text-align: center;
-        margin: 15px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 20%;
-}
-
-.contact-corr>button {
-        display: inline-block;
-        vertical-align: top;
-        padding: 0 14px;
-        height: 29px;
-        font-weight: bold;
-        color: #729fb2;
-        text-shadow: 0 1px rgba(255, 255, 255, 0.5);
-        background: #deeef4;
-        border: 1px solid #bed6e3;
-        border-bottom-color: #accbd9;
-        border-radius: 15px;
-        cursor: pointer;
-        background-image: -webkit-linear-gradient(top, #e6f2f7, #d0e6ee);
-        background-image: -moz-linear-gradient(top, #e6f2f7, #d0e6ee);
-        background-image: -o-linear-gradient(top, #e6f2f7, #d0e6ee);
-        background-image: linear-gradient(to bottom, #e6f2f7, #d0e6ee);
-        -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), 0 1px 1px
-                rgba(0, 0, 0, 0.06), 0 0 0 4px #eef7f9;
-        box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), 0 1px 1px
-                rgba(0, 0, 0, 0.06), 0 0 0 4px #eef7f9;
-}
-
-.contact-corr>button:active {
-        color: #6a95a9;
-        text-shadow: 0 1px rgba(255, 255, 255, 0.3);
-        background: #c9dfe9;
-        border-color: #a3bed0 #b5ccda #b5ccda;
-        -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px
-                rgba(255, 255, 255, 0.2), 0 0 0 4px #eef7f9;
-        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px
-                rgba(255, 255, 255, 0.2), 0 0 0 4px #eef7f9;
-}
-
 
 /* The Modal (background) */
 .modal {
@@ -359,61 +365,73 @@ input[type="checkbox"] {
 
 
 </style>
-<script type="text/javascript">
- function loadCor() {
-  $("#body").load("correlation.html");
- }
- </script>
+
 </head>
 
 <body>
 	<header>
-		<p class="contact-input"> 		 
+		<p class="contact-input" style="margin-left: 0px"> 		 
 			<label for="select" class="select"> <select id="year"
-				name="Year" onchange="update_collections();update_runDurationFile();">
-					<option value="" selected>Choose Year...</option>
-					<option>2011</option>
-					<option>2012</option>
-					<option>2013</option>
-					<option>2015</option>
+				name="Year" onchange="update_collections();">
 					<option>2016</option>
 					<option>2017</option>
-					<option>2018</option>
+					<option selected>2018</option>
 			</select></label>
 		</p>
-		<p class="contact-input">
-			<label for="select" class="select"> <select id="dataSet"
-				name="dataset" onchange="update_runDurationFile();">
-					<option value="" selected>Choose DataSet...</option>
-					<option>StreamExpress</option>
-					<option>StreamExpressCosmics</option>
-					<option>StreamExpressCosmicsCommissioning</option>
-					<option>ZeroBias</option>
-					<option>Cosmics</option>
-					<option>CosmicsCommissioning</option>
-			</select></label>
-		</p>
-		<p class="contact-input1">
-			<label for="select" class="select"> <select id="apvMode"
-				name="apvmode">
-					<option value="" selected>Choose Strip APV Mode...</option>
-					<option>DECO</option>
-					<option>PEAK</option>
-					<option value="ALL">PEAK + DECO</option>
-			</select></label>
-		</p>
-		<p class="contact-input">
-			<label for="select" class="select"> <select id="subsystem"
-				name="subsystem"  onchange="update_subsystem();">
-					<option value="" selected>Choose Sub-System...</option>
-					<option>Pixel</option>
-					<option>PixelPhase1</option>
-					<option>Strips</option>
-					<option>Tracking</option>
-					<option>RecoErrors</option>
-					<!--<option>Alignment</option></p-->
-			</select></label>
-		</p>
+                  <p class="contact-input">
+                        <label for="select" class="select"> <select id="dataSet"
+                                name="dataset">
+                                        <option value="" selected>Choose DataSet...</option>
+                                        <option>StreamExpress</option>
+                                        <option>StreamExpressCosmics</option>
+                                        <option>StreamExpressCosmicsCommissioning</option>
+                                        <option>ZeroBias</option>
+                                        <option>Cosmics</option>
+                                        <option>CosmicsCommissioning</option>
+                        </select></label>
+                  </p>
+
+		<br />
+		<div class="flex-container">
+		  <div class="flex-item-center">
+		    <span>X axis variable :</span> 
+		  </div>
+		  <p class="contact-input">
+		    <label for="select" class="select"> <select id="subsystemX"
+								name="subsystem">
+			<option value="" selected>Choose Sub-System...</option>
+			<option>PixelPhase1</option>
+			<option>Strips</option>
+			<option>Tracking</option>
+			<option>RecoErrors</option>
+		    </select></label>
+		  </p>
+		  <p class="vars-input">
+                    <label for="select" class="select"> <select id="varsX" name="vars">
+                        <option value="" selected>Choose quantity to plot...</option>
+                    </select></label>
+                  </p>
+		</div>
+		<div class="flex-container">
+		  <div class="flex-item-center">
+                    <span>Y axis variable :</span>
+                  </div>
+                  <p class="contact-input">
+                    <label for="select" class="select"> <select id="subsystemY"
+                                                                name="subsystem">
+                        <option value="" selected>Choose Sub-System...</option>
+                        <option>PixelPhase1</option>
+                        <option>Strips</option>
+                        <option>Tracking</option>
+                        <option>RecoErrors</option>
+                    </select></label>
+                  </p>
+                  <p class="vars-input">
+                    <label for="select" class="select"> <select id="varsY" name="vars">
+                        <option value="" selected>Choose quantity to plot...</option>
+                    </select></label>
+                  </p>
+                </div>
 		<br />
 		<div id="runs-container" class="flex-container">
 			<div class="flex-container">
@@ -445,9 +463,6 @@ input[type="checkbox"] {
 			<div id="run-filter-file" class="runs-input filter-input">
 				<input type="file" id="list-file">
 			</div>
-			<p class="contact-corr" style="align: right">
-                                <button id="corr" onclick="location.href='correlation.html';">Go to Correlation Plots</button>
-			</p>
 		</div>
 
 		<!-- HIDDEN -->
@@ -465,39 +480,18 @@ input[type="checkbox"] {
 
 		<div class="flex-container" style="margin-bottom:10px">
 			<div class="flex-item-center">
-				<input type="checkbox" id="show-errors">
-				<span>Show errors</span>
-			</div>
-			<div class="flex-item-center" style="margin-left:20px">
-				<input type="checkbox" id="show-fills" checked>
-				<span>Show fills</span>
-			</div>
-			<div class="flex-item-center" style="margin-left:20px">
-				<input type="checkbox" id="show-durations" checked>
-				<span>Show run duration</span>
-			</div>
-			<div class="flex-item-center" style="margin-left:20px">
-				<input type="checkbox" id="show-regression" checked>
+				<input type="checkbox" id="show-regression">
 				<span>Show regression lines</span>
 			</div>
-			<!-- <span>Show </span>
-			<input type="range" min="0" max="100" value="100" class="slider flex-item-center" id="errors-slider" style="display: inline; margin-left: 10px; margin-right: 10px; width: 200px">
-			<span id="errors-percent">100</span><span>% of errors per series   </span>
-			<span style="margin-left: 10px; cursor: default" title="Ordered by magnitude. Lower values may improve performance.">&#10067;</span>	
-			<p class="contact-corr" style="align: right">
-                          <button id="corr" onclick="location.href='correlation.html';">Go to Correlation Plots</button>
-			</p> -->
 		</div>
 		<div>
-			<span style="float:left">
-				<span>
-					Charts per page:
-					<input id="per-page" type="number" value="6" style="display: inline; width: 40px">
-				</span>
-			</span>
 			<p class="contact-submit" style="text-align: center">
 				<button id="search">Submit</button>
 			</p>
+			<p id="clr-container" class="contact-submit" style="text-align: center">
+  			        <button id="clear">Clear</button>
+			</p>
+
 		</div>
 		<!-- Trigger/Open The Modal -->
    			<button id="myBtn"><font color="red">Short Help Instructions</font></button>
@@ -509,23 +503,30 @@ input[type="checkbox"] {
   				<div class="modal-content">
     					<div class="modal-header">
       					    <span class="close">&times;</span>
-      					    <h2>How to use the hDQM</h2>
+      					    <h2>How to use the hDQM correlation plots</h2>
     					</div>
 				        <div class="modal-body">
                                             <ul>
-					        <li>In the <b>RunRange(From)</b>, put <b>0</b> if you want to start from the first run of the collection </li>
+					        <li>Select a <b>Subsystem</b>, available quantities will be loaded on the other drop down menu </li>
      					        <br>      
-      						<li>In the <b>RunRange(To)</b>, put <b>0</b> if you want to end  with the last run of the collection</li>
-      						<br>
-						
-						<li>Otherwise, set  a <b>Starting run</b>  and a <b>Final run</b>  in the appropriate <b>RunRange </b> buttons</li>
+					        <li>Repeat for both X and Y axis </li>
 						<br>
-      						<li><b>Notification 1:</b> If you select <b>Strips</b> you have the option to choose <b>PEAK</b> or <b>DECO</b> mode</li>
-      						<br>
-     					        <li><b>Notification 2:</b> If you select <b>Tracking</b> or <b>RecoErrors</b>  the only option you have is <b>PEAK+DECO</b> mode</li>
+						<li>Click on <b>Submit</b> will generate the correlation plot configured</li>
 						<br>
-						<li>There is a <b>Charts per page</b> counter left to the <b>Submit</b> button that specifies the number of plots to be drawn per page</li>
+						<li>After a plot is generated you can configure another one and by clicking on <b>Submit</b> it will be added to the showed plots without deleting the previous ones </li>
+						<br>
+						<li>To clear the plots list and restart from scratch please use the <b>Clear</b> button</li>
+						<br>
+						<li> If you uncheck the <b>Filter Runs </b> check box <b> ALL </b> the runs will be displayed</li>	
+						<br>
+						<li> From <b>Filter Runs </b> drop down menu you can select  <b>Latest </b> to display the lastest number of runs</li>	
       						<br>
+						<li> From <b>Filter Runs </b> drop down menu you can select  <b>Range  </b> to  display a specific run range (<b>0</b> is used as marker for first and last run)</li>	
+      						<br>
+						<li> From <b>Filter Runs </b> drop down menu you can select  <b> List  </b> to display a list of runs separated by commas(if between the runs you put a <b> - </b> then you select all the runs in this range)</li>	
+      						<br>
+						<li> From <b>Filter Runs </b> drop down menu you can select  <b>File   </b> to  display runs from a predefined file with the same format as mentioned in the option <b> List  </b> above </li>	                        <br>
+						<br>
       						<li>Initially all the check buttons are ON(Activated)</li>
      					        <br>      
       						<li>Clicking <b>TWICE</b> in any check button you  select or de-select all the plots</li>
@@ -539,8 +540,6 @@ input[type="checkbox"] {
       						<li>The <b>Reset zoom</b> button on the plot area resets the initial view of the plot</li>
  						<br>
 						<li> There is a square button in the uper right place of each plot where you can left click and localy save an image of the plot</li>	
-      						<br>
-						<li> The dataset options:  <b>StreamExpressCosmicsCommissioning</b> and <b>CosmicsCommissioning</b> work only for Year:2017 and Subsystems: Strips  & PixelPhase1 </li>	
       						<br>
 						<li> If you uncheck the <b>Filter Runs </b> check box <b> ALL </b> the runs will be displayed</li>	
 						<br>
@@ -570,13 +569,10 @@ input[type="checkbox"] {
 	<hr>
 	<div id="list-cotnainer">
 	</div>
+
 	<div style="width:100%">
 		<div id="body">
 		</div>
-	</div>
-	<div id="nav-buttons" hidden style="width: 360px; margin-left: auto; margin-right: auto;">
-		<button id="prev-button" style="margin-bottom: 50px; display: inline" class="popUp">Previous Plots</button>
-		<button id="next-button" style="margin-bottom: 50px; display: inline" class="popUp">Next Plots</button>
 	</div>
 	<div id="popup" class="modal" hidden>
 		<div class="modal-content">

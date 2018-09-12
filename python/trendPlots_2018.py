@@ -352,9 +352,9 @@ def getRunsFromDQM(config, dset, epochs, reco, tag, datatier,runMask="all", runl
     
     json=[]
     for mask in maskList:
-        print "------------------------------------------------------> ",mask
+        #print "------------------------------------------------------> ",mask
         json+=dqm_get_samples(serverUrl, mask, dataType)
-        print json
+        #print json
 
     masks = []
     if runlistfile!=[]:

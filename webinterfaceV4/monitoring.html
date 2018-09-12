@@ -19,7 +19,7 @@
 <script src="js/scatterplot.js"></script>
 <script src="js/corrplot.js"></script>
 <script src="js/chartList.js"></script>
-<script src="js/index.js"></script>
+<script src="js/monitoring.js"></script>
 
 <!-- <link href="facebox/src/facebox.css" media="screen" rel="stylesheet"
 	type="text/css" />
@@ -368,53 +368,6 @@ input[type="checkbox"] {
 
 <body>
 	<header>
-		<p class="contact-input"> 		 
-			<label for="select" class="select"> <select id="year"
-				name="Year" onchange="update_collections();update_runDurationFile();">
-					<option value="" selected>Choose Year...</option>
-					<option>2011</option>
-					<option>2012</option>
-					<option>2013</option>
-					<option>2015</option>
-					<option>2016</option>
-					<option>2017</option>
-					<option>2018</option>
-			</select></label>
-		</p>
-		<p class="contact-input">
-			<label for="select" class="select"> <select id="dataSet"
-				name="dataset" onchange="update_runDurationFile();">
-					<option value="" selected>Choose DataSet...</option>
-					<option>StreamExpress</option>
-					<option>StreamExpressCosmics</option>
-					<option>StreamExpressCosmicsCommissioning</option>
-					<option>ZeroBias</option>
-					<option>Cosmics</option>
-					<option>CosmicsCommissioning</option>
-			</select></label>
-		</p>
-		<p class="contact-input1">
-			<label for="select" class="select"> <select id="apvMode"
-				name="apvmode">
-					<option value="" selected>Choose Strip APV Mode...</option>
-					<option>DECO</option>
-					<option>PEAK</option>
-					<option value="ALL">PEAK + DECO</option>
-			</select></label>
-		</p>
-		<p class="contact-input">
-			<label for="select" class="select"> <select id="subsystem"
-				name="subsystem"  onchange="update_subsystem();">
-					<option value="" selected>Choose Sub-System...</option>
-					<option>Pixel</option>
-					<option>PixelPhase1</option>
-					<option>Strips</option>
-					<option>Tracking</option>
-					<option>RecoErrors</option>
-					<!--<option>Alignment</option></p-->
-			</select></label>
-		</p>
-		<br />
 		<div id="runs-container" class="flex-container">
 			<div class="flex-container">
 				<div class="flex-item-center">
@@ -445,9 +398,6 @@ input[type="checkbox"] {
 			<div id="run-filter-file" class="runs-input filter-input">
 				<input type="file" id="list-file">
 			</div>
-			<p class="contact-corr" style="align: right">
-                                <button id="corr" onclick="location.href='correlation.html';">Go to Correlation Plots</button>
-			</p>
 		</div>
 
 		<!-- HIDDEN -->
@@ -473,12 +423,8 @@ input[type="checkbox"] {
 				<span>Show fills</span>
 			</div>
 			<div class="flex-item-center" style="margin-left:20px">
-				<input type="checkbox" id="show-durations" checked>
+				<input type="checkbox" id="show-durations">
 				<span>Show run duration</span>
-			</div>
-			<div class="flex-item-center" style="margin-left:20px">
-				<input type="checkbox" id="show-regression" checked>
-				<span>Show regression lines</span>
 			</div>
 			<!-- <span>Show </span>
 			<input type="range" min="0" max="100" value="100" class="slider flex-item-center" id="errors-slider" style="display: inline; margin-left: 10px; margin-right: 10px; width: 200px">
@@ -492,12 +438,13 @@ input[type="checkbox"] {
 			<span style="float:left">
 				<span>
 					Charts per page:
-					<input id="per-page" type="number" value="6" style="display: inline; width: 40px">
+					<input id="per-page" type="number" value="25" style="display: inline; width: 40px">
 				</span>
 			</span>
 			<p class="contact-submit" style="text-align: center">
 				<button id="search">Submit</button>
 			</p>
+
 		</div>
 		<!-- Trigger/Open The Modal -->
    			<button id="myBtn"><font color="red">Short Help Instructions</font></button>

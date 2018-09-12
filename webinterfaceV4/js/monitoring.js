@@ -48,7 +48,6 @@ function load_dataset(name) {
 	    //				console.log("fills loaded");
 	    //			}
 	    //		});
-		update_collections();
 		console.log("--> ",collections[name]);
 		chart_list = new ChartList(name, collections[name]);
 		//console.log("index.js -> need_refresh = true");
@@ -94,7 +93,6 @@ function update_filters() {
 	global_filters.errors = $("#show-errors")[0].checked;
 	global_filters.fills = $("#show-fills")[0].checked;
 	global_filters.durations = $("#show-durations")[0].checked;
-	global_filters.regression = $("#show-regression")[0].checked;
 }
 
 function parse_runs_list(str) {
@@ -116,144 +114,7 @@ function parse_runs_list(str) {
 	return result;
 }
 
-function update_url() {
-	if (apvMode == "" || apvMode === null || apvMode == "PEAK + DECO") {
-		urlLink = "/" + year + "/Prompt/" + dataSet + "/"
-			+ subsystem;
-		if (dataSet == "StreamExpress" || dataSet == "StreamExpressCosmics" || dataSet == "StreamExpressCosmicsCommissioning") {
-			urlLink = "/" + year + "/" + dataSet + "/"
-				+ subsystem;
-		}
-	} else {
-		if (dataSet == "StreamExpress") {
-			urlLink = "/" + year + "/" + dataSet + "/"
-				+ subsystem + "/" + apvMode;
-		} else if (dataSet == "StreamExpressCosmics") {
-			urlLink = "/" + year + "/" + dataSet + "/"
-				+ subsystem + "/" + apvMode;
-		} else if (dataSet == "StreamExpressCosmicsCommissioning") {
-			urlLink = "/" + year + "/" + dataSet + "/"
-				+ subsystem + "/" + apvMode;
-		} else if (dataSet == "Cosmics") {
-			urlLink = "/" + year + "/Prompt/" + dataSet + "/"
-				+ subsystem + "/" + apvMode;
-		} else if (dataSet == "CosmicsCommissioning") {
-			urlLink = "/" + year + "/Prompt/" + dataSet + "/"
-				+ subsystem + "/" + apvMode;
-		} else {
-			urlLink = "/" + year + "/Prompt/" + dataSet + "/"
-				+ subsystem + "/" + apvMode;
 
-		}
-	}
-	console.log("urlLink : " + urlLink);
-}
-
-function update_subsystem() {
-	if ($("#subsystem").val() == "Strips") {
-		$("#apvMode").prop("disabled", false);
-		if ($("#apvMode").val() == null) {
-			$("#apvMode").val("");
-		}
-	} else {
-		$("#apvMode").prop("disabled", true);
-		$("#apvMode").val("No Selection");
-	}
-}
-
-function update_collections() {
-
-	collec_file = "collections_" + $("#year").val() + ".json";
-	console.log("collection file  : " + collec_file);
-
-	$.getJSON(collec_file, function (data) {
-		//$.getJSON(collec_file, function (data) {
-		collections = data;
-	    });
-
-}
-
-
-function getCollectionName(dset,subsys,apv) {
-    var name="";
-    if (dset == "ZeroBias"){
-	if(subsys == "PixelPhase1") name="PixelPhase1";
-	else if(subsys == "Strips"){
-	    if(apv=="PEAK") name="StripPeak";
-	    else name="StripDeco"; 
-	}
-	else if(subsys == "Tracking") name="Tracking";
-	else if(subsys == "RecoErrors") name="RecoErrors";
-    }
-    else if (dset == "StreamExpress"){
-	if(subsys == "PixelPhase1") name="StreamExprPixelPhase1";
-	else if(subsys == "Strips"){
-	    if(apv=="PEAK") name="StreamExpressStripPeak";
-	    else name="StreamExpressStripDeco"; 
-	}
-	else if(subsys == "Tracking") name="StreamExprTracking";
-	else if(subsys == "RecoErrors") name="StreamExprRecoErrors";
-    }
-    else if (dset == "StreamExpressCosmics"){
-	if(subsys == "PixelPhase1") name="SreamExpressCosmicPixelPhase1";
-	else if(subsys == "Strips"){
-	    if(apv=="PEAK") name="StripPeakStreamExpressCosmics";
-	    else name="StripDecoStreamExpressCosmics";
-	}
-	else if(subsys == "Tracking") name="StreamExprCosmicTracking";
-	else if(subsys == "RecoErrors") name="StreamExprCosmicsRecoErrors";
-    }
-    else if (dset == "StreamExpressCosmicsCommissioning"){
-	if(subsys == "PixelPhase1") name="SreamExpressCosmicPixelPhase1";
-	else if(subsys == "Strips"){
-	    if(apv=="PEAK") name="StripPeakStreamExpressCosmicsCommissioning";
-	    else name="StripDecoStreamExpressCosmicsCommissioning";
-	}
-	else if(subsys == "Tracking") name="StreamExprCosmicTracking";
-	else if(subsys == "RecoErrors") name="StreamExprCosmicsRecoErrors";
-    }
-    else if (dset == "Cosmics"){
-	if(subsys == "PixelPhase1") name="CosmicPixelPhase1";
-	else if(subsys == "Strips"){
-	    if(apv=="PEAK") name="StripPeakCosmics";
-	    else name="StripDecoCosmics";
-	}
-	else if(subsys == "Tracking") name="CosmicTracking";
-	else if(subsys == "RecoErrors") name="CosmicsRecoErrors";
-    }
-    else if (dset == "CosmicsCommissioning"){
-	if(subsys == "PixelPhase1") name="CosmicPixelPhase1";
-	else if(subsys == "Strips"){
-	    if(apv=="PEAK") name="StripPeakCosmicsCommissioning";
-	    else name="StripDecoCosmicsCommissioning";
-	}
-	else if(subsys == "Tracking") name="CosmicTracking";
-	else if(subsys == "RecoErrors") name="CosmicsRecoErrors";
-    }
-
-    return name;
-}
-
-
-
-
-function update_runDurationFile() {
-    
-    if($("#dataSet").val().includes("Cosmics")){
-	duration_file= "alljsons/"+$("#year").val()+"/Run_LHCFill_RunDuration_Cosmics.json";
-	fname="Run_LHCFill_RunDuration_Cosmics.json";
-    }
-    else{
-	duration_file= "alljsons/"+$("#year").val()+"/Run_LHCFill_RunDuration.json";
-	fname="Run_LHCFill_RunDuration.json";
-    }
-    $.getJSON(duration_file, function (data) {
-	    runs_data = data[fname].map(x => ({ run: parseInt(x['run']), lhcfill: x['lhcfill'], dur: x['rundur'] }));
-	    console.log("runs_data loaded : "+fname);
-	});
-
-
-}
 
 function make_modal(id) {
 	let modal = document.getElementById(id);
@@ -280,12 +141,12 @@ $(document).ready(
 		colors.push("#FF0066");
 		colors.push("#8D1919");
 
-		// collec_file = "collections_" + $("#year").val() + ".json";
-		// console.log("collection file  : " + collec_file);
-
-		$.getJSON("collections_2018.json", function (data) {
-			//$.getJSON(collec_file, function (data) {
+		urlLink="/2018/StreamExpress/PixelPhase1/"
+		$.getJSON("monitoring.json", function (data) {
 			collections = data;
+			console.log("-->", collections);
+			name="PixelPhase1";
+			load_dataset(name);
 		});
 
 		$.getJSON("alljsons/2018/Run_LHCFill_RunDuration.json", function (data) {
@@ -330,30 +191,13 @@ $(document).ready(
 
 		make_modal("myModal");
 		make_modal("popup");
-		$("#apvMode").prop("disabled", true);
-		$("#apvMode").val("No Selection");
 		$("#search").click(
 			function () {
 				console.log("SUBMIT!");
-				year = $("#year").val();
-				dataSet = $("#dataSet").val();
-				apvMode = $("#apvMode").val();
-				subsystem = $("#subsystem").val();
-
-				if (year == "" || dataSet == "" || apvMode == "" || subsystem == "") {
-					alert("Please Make Selection");
-				} else {
-					update_url(apvMode, dataSet, subsystem, year);
-					console.log("update_url executed.............");
-					name="";
-					name=getCollectionName(dataSet,subsystem,apvMode);
-					if(name!=""){
-					    load_dataset(name);
-					} else {
-					    $("#body").load("404page.html");
-					}
-				}
+				name="PixelPhase1";
+				load_dataset(name);
 			});
+
 	});
 
 class NumRange {

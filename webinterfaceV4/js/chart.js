@@ -1,5 +1,5 @@
 class Chart {
-    constructor(plot, id) {
+    constructor(plot, id, url) {
         this.el_id = 'chart-' + id
         this.name = plot.name;
         this.id = id;
@@ -14,6 +14,7 @@ class Chart {
         this.fills = [];
         this.runs_range = [];
         this.filters = global_filters;
+	this.url= url;
     }
 
     //called once, the first time we need to show the chart
@@ -38,15 +39,19 @@ class Chart {
         this.series = Array(this.files.length).fill({});
         var files_loaded = 0;
         var files_data = Array(this.files.length);
+	var myLink="";
         for (let i = 0; i < this.files.length; i++) {
+	    if(this.url != null ) myLink=this.url[i];
+	    else myLink=urlLink;
+	    console.log("myLink: "+myLink);
             $.ajax({
-                dataType: "json",
-                url: ("alljsons" + urlLink + "/" + this.files[i] + ".json"),
+                dataType: "json",			
+                url: ("alljsons" + myLink + "/" + this.files[i] + ".json"),
                 async: true,
                 success: function (data) {
                     var name = Object.keys(data)[0];
                     files_data[i] = data[name];
-                    if (files_data.length == self.files.length) {
+		    if (files_data.length == self.files.length) {
                         for (var j = 0; j < self.files.length; j++) {
                             self.series[j] = { name: name };
                             self.series[j].yTitle = files_data[j][0].yTitle;
@@ -229,7 +234,7 @@ Chart.template_el = $(
     `<div class="chartarea">
         <div class="chart">
             <div
-                style="min-width: 310px; height: 500px; max-width: 800px; margin: 0 auto"></div>
+                style="min-width: 310px; height: 500px; max-width: 800px;  margin: 0 auto"></div>
         </div>
         <a class="popUp" href="#popup" rel="modal:open"
             onclick="popup(this);">Change Ranges</a>
