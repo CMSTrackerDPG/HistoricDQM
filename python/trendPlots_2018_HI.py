@@ -338,7 +338,7 @@ class TrendPlot:
             result = self.__config.get(self.__section, name)
         return result
 
-def getRunsFromDQM(config, dset, epochs, reco, tag, datatier,runMask="all", runlistfile=[],jsonfile=[]):
+def getRunsFromDQM(config, dsets, epochs, reco, tag, datatier,runMask="all", runlistfile=[],jsonfile=[]):
     from src.dqmjson import dqm_get_samples,dqm_getTFile_Version
 #    import simplejson as jsonn
     import json as jsonn
@@ -347,7 +347,8 @@ def getRunsFromDQM(config, dset, epochs, reco, tag, datatier,runMask="all", runl
 
     maskList=[]
     for epoch in epochs:
-        maskList.append(".*/" + dset +"/"+epoch+".*"+reco+"*.*"+tag+"/"+datatier)
+        for dset in dsets:
+            maskList.append(".*/" + dset +"/"+epoch+".*"+reco+"*.*"+tag+"/"+datatier)
     print "dsetmask = ",maskList
     
     json=[]
@@ -447,6 +448,7 @@ def main(argv=None):
     from optparse import OptionParser
     from ROOT import TCanvas,TFile
     from src.dqmjson import dqm_get_json,dqm_getTFile,dqm_getTFile_Version2
+    from src.cacheParsing import getRunListFromCache
 
     if argv == None:
         argv = sys.argv[1:]
@@ -457,7 +459,7 @@ def main(argv=None):
                       help="path to output plots. If it does not exsist it is created")
     parser.add_option("-r", "--runs", dest="runs", default="all", 
                       help="mask for the run (full boolean and math capabilities e.g. run > 10 and run *2 < -1)")
-    parser.add_option("-D", "--dataset", dest="dset", default="Jet",
+    parser.add_option("-D", "--dataset", dest="dset", default=[], action="append",
                       help="mask for the primary dataset (default is Jet), e.g. Cosmics, MinimumBias")
     parser.add_option("-E", "--epoch", dest="epoch", default=[], action="append",
                       help="mask for the data-taking epoch (default is Run2012), e.g. Run2011B, Run2011A, etc.")
@@ -491,9 +493,10 @@ def main(argv=None):
     plots, cache = initPlots(config)
 
     print "Loading cache........",len(cache.keys())," items"
-    runInCache = []
-    for itest in range(0,len(cache.keys())):
-        runInCache.append(cache.keys()[itest][1])
+    runInCache =getRunListFromCache(cache)
+#    runInCache = []
+#    for itest in range(0,len(cache.keys())):
+#        runInCache.append(cache.keys()[itest][1])
     print "Cache loaded!"
     for run in sorted(runs.keys()):
         if cache == None or runs[run][1] not in runInCache:
@@ -516,6 +519,7 @@ def main(argv=None):
                 cacheLocation = (runs[run][0],runs[run][1],runs[run][2], plot.getPath(),plot.getMetric())
                 incache=(cacheLocation in cache)
                 if (cache == None and not fchecked) or (not incache and not fchecked):
+                    print "{0} {1} {2} {3} {4}".format(runs[run][0],runs[run][1],runs[run][2],runs[run][3],opts.datatier)
                     version=dqm_getTFile_Version2(runs[run][0],runs[run][1],runs[run][2],runs[run][3],opts.datatier)
                     if (version != 0):
                         tfile=dqm_getTFile(runs[run][0],runs[run][1],runs[run][2],version,runs[run][3],opts.datatier)
@@ -541,8 +545,8 @@ def main(argv=None):
 
     
 
-    outPath = "fig/"+opts.reco+"/"+opts.dset
-    if 'Cosmics' in opts.dset:
+    outPath = "fig/"+opts.reco+"/"+opts.dset[0]
+    if 'Cosmics' in opts.dset[0]:
         outPath = outPath + "/" + opts.state
     ##outPath = config.get("output","defautlOutputPath")
     if not opts.outPath == None: outPath  = opts.outPath

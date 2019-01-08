@@ -244,6 +244,67 @@ class Gaussian(BaseMetric):
         del fit
         return result
 
+class StudentT(BaseMetric):
+    def __init__(self, diseredParameter, minVal, maxVal):
+        BaseMetric.__init__(self)
+        self.range = [minVal, maxVal]
+        assert diseredParameter in [0,1,2], "can only get parameter 0, 1 or 2 not '%s'"%desiredParameter
+        self.desired = diseredParameter
+
+    def calculate(self, histo):
+        import ROOT
+        import math
+        ROOT.gSystem.Load("/data/users/HDQM/CMSSW_10_1_0_pre3/HistoricDQM/python/metrics/residuals_c")
+        from ROOT import tStud
+        from ROOT import TF1
+        fit = TF1("tStud",tStud,self.range[0],self.range[1],5)
+        fit.SetParameters(0,histo.GetRMS()/5,2,histo.GetMaximum(),histo.GetEntries()*1e-5)
+        fit.SetParLimits(4,0,histo.GetMaximum()*10)
+        #histo.Fit(fit,"QOR")
+        #histo.Fit(fit,"QOR")
+        histo.Fit(fit,"ORB")
+        err=fit.GetParError(self.desired)
+        if math.isnan(err):
+            result = (0,0)
+        else:
+            result = (fit.GetParameter(self.desired), err)        
+        del fit
+        return result
+
+
+class TripleGaus(BaseMetric):
+    def __init__(self, diseredParameter, minVal, maxVal,average=True):
+        BaseMetric.__init__(self)
+        self.range = [minVal, maxVal]
+        assert diseredParameter in [0,1,2], "can only get parameter 0, 1 or 2 not '%s'"%desiredParameter
+        self.desired = diseredParameter
+        self.average = average
+        
+    def calculate(self, histo):
+        from ROOT import TF1
+        from math import sqrt
+        fit = TF1("tgaus","[2]*TMath::Gaus(x,[0],[1])+[5]*TMath::Gaus(x,[3],[4])+[8]*TMath::Gaus(x,[6],[7])", *(self.range))
+        fit.SetParameters(histo.GetMaximum(),0,histo.GetRMS()/10,histo.GetMaximum()/5,0,histo.GetRMS()/3,histo.GetMaximum()/5,0,histo.GetRMS())
+        histo.Fit(fit,"QOR")
+        histo.Fit(fit,"QOR")
+        histo.Fit(fit,"OR")
+        if self.average:
+            g1=TF1("g1","[2]*TMath::Gaus(x,[0],[1])",*(self.range))
+            g1.SetParameters(fit.GetParameter(0),fit.GetParameter(1),fit.GetParameter(2))
+            w1=g1.Integral(self.range[0],self.range[1])
+            g1.SetParameters(fit.GetParameter(3),fit.GetParameter(4),fit.GetParameter(5))
+            w2=g1.Integral(self.range[0],self.range[1])
+            g1.SetParameters(fit.GetParameter(6),fit.GetParameter(7),fit.GetParameter(8))
+            w3=g1.Integral(self.range[0],self.range[1])
+            mean=(fit.GetParameter(self.desired)*w1+fit.GetParameter(3+self.desired)*w2+fit.GetParameter(6+self.desired)*w3)/(w1+w2+w3)
+            err=sqrt(pow(fit.GetParError(self.desired)*w1,2)+pow(fit.GetParError(3+self.desired)*w2,2)+pow(fit.GetParError(6+self.desired)*w3,2))/(w1+w2+w3)
+            del g1
+            result(mean,err)
+        else:
+            result = (fit.GetParameter(self.desired), fit.GetParError(self.desired))
+        del fit
+        return result
+
 class FlatLine(BaseMetric):
     def __init__(self, diseredParameter, minVal, maxVal, paramDefault):
         BaseMetric.__init__(self)

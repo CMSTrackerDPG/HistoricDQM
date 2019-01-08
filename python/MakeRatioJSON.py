@@ -51,7 +51,7 @@ def MakeRatio(json_infile1,json_infile2,json_outfile,plot_outtitle):
 	   	
     obj ={}		
     obj[json_outfile]=lst		
-    print  json.dumps(obj,indent=2)		
+#    print  json.dumps(obj,indent=2)		
 
     outfile=open("./JSON/"+json_outfile+".json", 'w')
     json.dump(obj, outfile,indent=4)
@@ -84,11 +84,12 @@ def main(argv=None):
        else:
          print("Usage: %s -n Numeraror File -d Denominator File" % sys.argv[0])
 
-     
-#    print "Output JSON Name = ",json_outfile 
+
+    print "Numeraror File : {0} and  Denominator File: {1}".format(json_infile1,json_infile2)
+    print "Output JSON Name = ",json_outfile 
 #    print "Output Plot Title = ",plot_outtitle
 # Display input and output file name passed as the args
-#    print ("Numeraror File : %s and  Denominator File: %s" % (json_infile1,json_infile2) )
+
 
     MakeRatio(json_infile1,json_infile2,json_outfile,plot_outtitle)
 

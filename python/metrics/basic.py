@@ -32,6 +32,7 @@ class BaseMetric:
                 result = self.calculate(histo)
             except StandardError as msg :
                 print "Warning: fit failed, returning 0"
+                print msg 
 
             entries = histo.GetEntries()
             if not self.__cache == None:
@@ -110,8 +111,12 @@ class PixelEfficiency(BaseMetric):
 class PixelDigiPerClusterPix(BaseMetric):
     def calculate(self, histo):
         from math import sqrt
-        num= histo.GetMean()
-        den= self._histo1.GetMean()*self._histo2.GetMean()
+        if "2" in histo.ClassName():
+            num= histo.GetMean(3)
+            den= self._histo1.GetMean(3)*self._histo2.GetMean(3)
+        else:
+            num= histo.GetMean()
+            den= self._histo1.GetMean()*self._histo2.GetMean()
         if den == 0:
             res= 0
             eres=0

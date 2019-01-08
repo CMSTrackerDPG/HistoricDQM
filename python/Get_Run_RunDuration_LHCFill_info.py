@@ -24,8 +24,8 @@ def main(argv=None):
       
       api = RhApi(DEFAULT_URL, debug = False)
       print "Getting run duration info........"
-      for key in data.keys(): 
-         #print "Run = ",key
+      print len(data.keys())
+      for idx,key in enumerate(data.keys()): 
 	 q = "select r.lhcfill from runreg_tracker.runs r where r.runnumber between " + key[:6]  + " and " + key[:6] 
          if option.cosmics :
                p = {"class": "Cosmics18CRUZET || Cosmics18" }
@@ -41,9 +41,12 @@ def main(argv=None):
                p1 = {"class": "Cosmics18CRUZET || Cosmics18" }
          else :
                p1 = {"class": "Collisions18" }
-         #print "RR Query = ",q 
+         #print "RR Query = ",q1 
 	 dur_init = api.json(q1, p1)[u'data']
          dur_middle = dur_init[0] 
+         if idx%100==0 :
+               print "{0} - Run = {1} - Fill {2} - Dur. {3}".format(idx,key,lhcfill_middle[0],dur_middle[0])
+
 
 #	 print key," ",lhcfill_middle[0], "  ", dur_middle[0]
         

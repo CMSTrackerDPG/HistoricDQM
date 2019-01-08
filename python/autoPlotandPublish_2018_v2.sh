@@ -125,6 +125,7 @@ subT=`date`
 echo "      --->>> Strip DECO Started at ${subT}"
 rm -rf ./JSON/*
 python ./trendPlots_2018.py -C cfg/trendPlotsDQM_cronPPPromptStrips.ini -C cfg/trendPlotsStrip_General_2015.ini -C cfg/trendPlotsStrip_TEC_2015.ini -C cfg/trendPlotsStrip_TID_2015.ini -C cfg/trendPlotsStrip_TIB.ini -C cfg/trendPlotsStrip_TOB.ini -C cfg/trendPlotsStripG2.ini -C cfg/trendPlotsStrip_StoN.ini -C cfg/trendPlotsStrip_Number_APVShots.ini -C cfg/trendPlotsStrip_TIB_Residuals.ini -C cfg/trendPlotsStrip_TOB_Residuals.ini -C cfg/trendPlotsStrip_TEC_Minus_Residuals.ini -C cfg/trendPlotsStrip_TEC_Plus_Residuals.ini -C cfg/trendPlotsStrip_StoN_TOB.ini  -C cfg/trendPlotsStrip_StoN_TIB.ini -C cfg/trendPlotsStrip_StoN_TEC_PLUS.ini  -C cfg/trendPlotsStrip_StoN_TEC_MINUS.ini -C cfg/trendPlotsStrip_StoN_TID_PLUS.ini  -C cfg/trendPlotsStrip_StoN_TID_MINUS.ini -C cfg/trendPlotsStrip_BadComponents.ini -C cfg/trendPlotsStrip_FEerror.ini --dataset ZeroBias --epoch Run2018 --epoch Commissioning2018 -r "run >= 290129" --reco Prompt -J json_DCSONLY_DECO.txt &> "${LOGDIR}/promptStripDECO.log"
+python ./HDQMInefficientModules.py
 cp ./JSON/* /data/users/event_display/HDQM/v3.1/alljsons/2018/Prompt/ZeroBias/Strips/DECO/
 cp ./JSON/* /data/users/event_display/HDQM/v4/alljsons/2018/Prompt/ZeroBias/Strips/DECO/
 cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2018/Prompt/ZeroBias/Strips/DECO/
@@ -147,6 +148,7 @@ subT=`date`
 echo "      --->>> Strip ALL Started at ${subT}"
 rm -rf ./JSON/*
 python ./trendPlots_2018.py -C cfg/trendPlotsDQM_cronPPPromptStrips.ini -C cfg/trendPlotsStrip_General_2015.ini -C cfg/trendPlotsStrip_TEC_2015.ini -C cfg/trendPlotsStrip_TID_2015.ini -C cfg/trendPlotsStrip_TIB.ini -C cfg/trendPlotsStrip_TOB.ini -C cfg/trendPlotsStripG2.ini -C cfg/trendPlotsStrip_StoN.ini -C cfg/trendPlotsStrip_Number_APVShots.ini -C cfg/trendPlotsStrip_TIB_Residuals.ini -C cfg/trendPlotsStrip_TOB_Residuals.ini -C cfg/trendPlotsStrip_TEC_Minus_Residuals.ini -C cfg/trendPlotsStrip_TEC_Plus_Residuals.ini -C cfg/trendPlotsStrip_StoN_TOB.ini  -C cfg/trendPlotsStrip_StoN_TIB.ini -C cfg/trendPlotsStrip_StoN_TEC_PLUS.ini  -C cfg/trendPlotsStrip_StoN_TEC_MINUS.ini -C cfg/trendPlotsStrip_StoN_TID_PLUS.ini  -C cfg/trendPlotsStrip_StoN_TID_MINUS.ini -C cfg/trendPlotsStrip_BadComponents.ini -C cfg/trendPlotsStrip_FEerror.ini --dataset ZeroBias --epoch Run2018 --epoch Commissioning2018 -r "run >= 290129" --reco Prompt -J json_DCSONLY.txt &> "${LOGDIR}/promptStripALL.log"
+python ./HDQMInefficientModules.py
 cp ./JSON/* /data/users/event_display/HDQM/v3.1/alljsons/2018/Prompt/ZeroBias/Strips/ALL/
 cp ./JSON/* /data/users/event_display/HDQM/v4/alljsons/2018/Prompt/ZeroBias/Strips/ALL/
 cp ./JSON/* /data/users/event_display/HDQM/v3/alljsons/2018/Prompt/ZeroBias/Strips/ALL/
