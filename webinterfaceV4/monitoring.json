@@ -1,0 +1,220 @@
+{
+    "PixelPhase1": [
+        {
+            "name": "NClus_ONTk_Barrel_mean",
+            "corr": false,
+            "files": [
+                "NClus_Barrel_mean",
+                "NClus_ONTk_Barrel_mean"
+            ]
+        },
+        {
+            "name": "NClus_ONTk_Endcap_mean",
+            "corr": false,
+            "files": [
+                "NClus_Endcap_mean",
+                "NClus_ONTk_Endcap_mean"
+            ]
+        },
+        {
+            "name": "clustCharge_ONTk_BPix_perLayer_mpv",
+            "corr": false,
+            "files": [
+                 "clustCharge_ONTk_BPix_perLayer_mpv",
+	         "clustCharge_ONTk_BPix_Layer2_mpv",
+	         "clustCharge_ONTk_BPix_Layer3_mpv",
+	         "clustCharge_ONTk_BPix_Layer4_mpv"
+            ]
+        },
+        {
+            "name": "clustCharge_ALL_BPix_perLayer_mpv",
+            "corr": false,
+            "files": [
+                 "clustCharge_ALL_BPix_perLayer_mpv",
+	         "clustCharge_ALL_BPix_Layer2_mpv",
+	         "clustCharge_ALL_BPix_Layer3_mpv",
+	         "clustCharge_ALL_BPix_Layer4_mpv"
+            ]
+        },
+        {
+            "name": "clustCharge_ONTk_FPix_perDisk_mpv",
+            "corr": false,
+            "files": [
+                 "clustCharge_ONTk_FPix_perDisk_mpv",
+	         "clustCharge_ONTk_FPix_Dm2_mpv",
+	         "clustCharge_ONTk_FPix_Dm1_mpv",
+	         "clustCharge_ONTk_FPix_Dp3_mpv",
+	         "clustCharge_ONTk_FPix_Dp2_mpv",
+	         "clustCharge_ONTk_FPix_Dp1_mpv"
+            ]
+        },
+        {
+            "name": "clustCharge_ALL_FPix_perDisk_mpv",
+            "corr": false,
+            "files": [
+                 "clustCharge_ALL_FPix_perDisk_mpv",
+	         "clustCharge_ALL_FPix_Dm2_mpv",
+	         "clustCharge_ALL_FPix_Dm1_mpv",
+	         "clustCharge_ALL_FPix_Dp3_mpv",
+	         "clustCharge_ALL_FPix_Dp2_mpv",
+	         "clustCharge_ALL_FPix_Dp1_mpv"
+            ]
+        },
+        {
+            "name": "DigiPerClusterPixel_BPix_perLayer",
+            "corr": false,
+            "files": [
+                "DigiPerClusterPixel_BPix_perLayer",
+                "DigiPerClusterPixel_BPix_Layer2",
+                "DigiPerClusterPixel_BPix_Layer3",
+                "DigiPerClusterPixel_BPix_Layer4"
+            ]
+        },
+        {
+            "name": "DigiPerClusterPixel_FPix_perDisk",
+            "corr": false,
+            "files": [
+                 "DigiPerClusterPixel_FPix_perDisk",
+                 "DigiPerClusterPixel_FPix_Dm2",
+                 "DigiPerClusterPixel_FPix_Dm1",
+                 "DigiPerClusterPixel_FPix_Dp3",
+                 "DigiPerClusterPixel_FPix_Dp2",
+                 "DigiPerClusterPixel_FPix_Dp1"
+            ]
+        },
+	{
+            "name": "clustCharge_ONTk_FPix_byRing",
+            "corr": false,
+            "files":[
+                 "clustCharge_ONTk_FPix_Ring1_mean",
+                 "clustCharge_ONTk_FPix_Ring2_mean"
+            ]
+        },
+        {
+            "name": "size_ONTk_FPix_byRing",
+            "corr": false,
+            "files":[        
+                 "size_ONTk_FPix_Ring1_mean",
+                 "size_ONTk_FPix_Ring2_mean"
+            ]
+	},	
+	{
+            "name": "deadROC_BPix_byLayer",
+            "corr": false,
+            "files":[        
+                 "deadROC_BPix_L1",
+                 "deadROC_BPix_L2",
+                 "deadROC_BPix_L3",
+                 "deadROC_BPix_L4"
+            ]
+	},
+	{
+            "name": "deadROC_FPix_byRing",
+            "corr": false,
+            "files":[        
+                 "deadROC_FPix_R1",
+                 "deadROC_FPix_R2"
+            ]
+	},
+        {
+            "name": "size_ONTk_BPix_perLayer_mean",
+            "corr": false,
+            "files": [
+                 "size_ONTk_BPix_perLayer_mean",
+	         "size_ONTk_BPix_Layer2_mean",
+	         "size_ONTk_BPix_Layer3_mean",
+	         "size_ONTk_BPix_Layer4_mean"
+            ]
+        },
+        {
+            "name": "size_ALL_BPix_perLayer_mean",
+            "corr": false,
+            "files": [
+                 "size_ALL_BPix_perLayer_mean",
+	         "size_ALL_BPix_Layer2_mean",
+	         "size_ALL_BPix_Layer3_mean",
+	         "size_ALL_BPix_Layer4_mean"
+            ]
+        },
+        {
+            "name": "size_ONTk_FPix_perDisk_mean",
+            "corr": false,
+            "files": [
+                 "size_ONTk_FPix_perDisk_mean",
+	         "size_ONTk_FPix_Dm2_mean",
+	         "size_ONTk_FPix_Dm1_mean",
+	         "size_ONTk_FPix_Dp3_mean",
+	         "size_ONTk_FPix_Dp2_mean",
+	         "size_ONTk_FPix_Dp1_mean"
+            ]
+        },
+        {
+            "name": "size_ALL_FPix_perDisk_mean",
+            "corr": false,
+            "files": [
+                 "size_ALL_FPix_perDisk_mean",
+	         "size_ALL_FPix_Dm2_mean",
+	         "size_ALL_FPix_Dm1_mean",
+	         "size_ALL_FPix_Dp3_mean",
+	         "size_ALL_FPix_Dp2_mean",
+	         "size_ALL_FPix_Dp1_mean"
+            ]
+        },
+        {
+            "name": "Residuals_X_BPIX_perLayer_rms",
+            "corr": false,
+            "files": [
+                "Residuals_X_BPIX_perLayer_rms",
+                "Residuals_X_BPIX_L2_rms",
+                "Residuals_X_BPIX_L3_rms",
+                "Residuals_X_BPIX_L4_rms"
+            ]
+        },
+        {
+            "name": "Residuals_Y_BPIX_perLayer_rms",
+            "corr": false,
+            "files": [
+                "Residuals_Y_BPIX_perLayer_rms",
+                "Residuals_Y_BPIX_L2_rms",
+                "Residuals_Y_BPIX_L3_rms",
+                "Residuals_Y_BPIX_L4_rms"
+            ]
+        },
+        {
+            "name": "Residuals_X_FPIX_perMinusDisk_rms",
+            "corr": false,
+            "files": [
+                "Residuals_X_FPIX_perMinusDisk_rms",
+                "Residuals_X_FPIX_Dm2_rms",
+                "Residuals_X_FPIX_Dm1_rms"
+            ]
+        },
+        {
+            "name": "Residuals_X_FPIX_perPlusDisk_rms",
+            "corr": false,
+            "files": [
+                "Residuals_X_FPIX_perPlusDisk_rms",
+                "Residuals_X_FPIX_Dp2_rms",
+                "Residuals_X_FPIX_Dp1_rms"
+            ]
+        },
+        {
+            "name": "Residuals_Y_FPIX_perMinusDisk_rms",
+            "corr": false,
+            "files": [
+                "Residuals_Y_FPIX_perMinusDisk_rms",
+                "Residuals_Y_FPIX_Dm2_rms",
+                "Residuals_Y_FPIX_Dm1_rms"
+            ]
+        },
+        {
+            "name": "Residuals_Y_FPIX_perPlusDisk_rms",
+            "corr": false,
+            "files": [
+                "Residuals_Y_FPIX_perPlusDisk_rms",
+                "Residuals_Y_FPIX_Dp2_rms",
+                "Residuals_Y_FPIX_Dp1_rms"
+            ]
+        }
+    ]
+}

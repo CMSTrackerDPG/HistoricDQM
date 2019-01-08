@@ -11,7 +11,7 @@ class LanGau(BaseMetric):
         
     def calculate(self, histo):
         import ROOT
-        ROOT.gSystem.Load("/afs/cern.ch/user/c/cctrack/scratch0/hDQM/CMSSW_8_0_2/src/DQM/SiStripHistoricInfoClient/test/NewHDQM/metrics/langau_c")
+        ROOT.gSystem.Load("/data/users/HDQM/CMSSW_10_1_0_pre3/HistoricDQM/python/metrics/langau_c")
         from ROOT import langaufun
         from ROOT import TF1
         fit = TF1("langau",langaufun, self.range[0],self.range[1],4)
@@ -43,6 +43,53 @@ class LanGau(BaseMetric):
         result = (fit.GetMaximumX(), fit.GetParError(self.desired))
         del fit
         return result
+
+class LanGauAroundMax(BaseMetric):
+    def __init__(self, diseredParameter, minFrac, maxFrac, controlVal):
+        BaseMetric.__init__(self)
+        self.min = minFrac
+        self.max = maxFrac
+        assert diseredParameter in [0,1,2], "can only get parameter 0, 1 or 2 not '%s'"%desiredParameter
+        self.desired = diseredParameter
+        self.controlVal = controlVal 
+        
+    def calculate(self, histo):
+        import ROOT
+        ROOT.gSystem.Load("/data/users/HDQM/CMSSW_10_1_0_pre3/HistoricDQM/python/metrics/langau_c")
+        from ROOT import langaufun
+        from ROOT import TF1
+        if(histo.GetEntries()<150):
+            histo.Rebin(2)
+        initm=histo.GetBinCenter(histo.GetMaximumBin())
+        fit = TF1("langau",langaufun, self.min*initm,self.max*initm,4)
+        fit.SetParameter(0,histo.GetRMS()/6)
+        fit.SetParameter(1,initm)
+        fit.SetParameter(2,histo.Integral())
+        fit.SetParameter(3,histo.GetRMS()/6)
+        fit.SetParLimits(3,0,1000)
+        histo.Fit(fit,"QORB")
+        histo.Fit(fit,"QORB")
+        histo.Fit(fit,"ORB")
+        control = 0
+        while control < 5 :
+            if(fit.GetParameter(0)<self.controlVal or fit.GetParameter(1)<self.min*initm):
+                print "########### REFIT #######"
+                fit.SetParameter(0,histo.GetRMS()/6)
+                fit.SetParameter(1,initm)
+                fit.SetParameter(2,histo.Integral()*(5+control)/5)
+                fit.SetParameter(3,histo.GetRMS()/6*(control+1))
+                histo.Fit(fit,"QORB","")
+                histo.Fit(fit,"QORB","")
+                histo.Fit(fit,"ORB","")
+                control=control+1
+            else:
+                print "##### GOOD #####"
+                control = 5
+        result = (fit.GetParameter(self.desired), fit.GetParError(self.desired))
+        del fit
+        return result
+
+
 
 class GauLand(BaseMetric):
     def __init__(self, diseredParameter, minVal, maxVal, paramDefaults):
@@ -143,16 +190,19 @@ class LandauAroundMaxBin(BaseMetric):
         return result
 
 class LandauAroundMax(BaseMetric):
-    def __init__(self, diseredParameter, lowFrac, highFrac, hLimit):
+    def __init__(self, diseredParameter, lowFrac, highFrac, hLimit, lowLimit=0):
         BaseMetric.__init__(self)
         assert diseredParameter in [0,1,2], "can only get parameter 0, 1 or 2 not '%s'"%desiredParameter
         self.desired = diseredParameter
         self.lowF = lowFrac
         self.highF = highFrac
         self.cut = hLimit
+        self.lowLimit= lowLimit
         
     def calculate(self, histo):
         from ROOT import TF1
+        if self.lowLimit != 0:
+            histo.GetXaxis().SetRangeUser(self.lowLimit,histo.GetXaxis().GetXmax())
         maxbin=histo.GetMaximumBin()
         if histo.GetBinContent(maxbin-1) > histo.GetBinContent(maxbin+1) :
             maxbin2=maxbin-1
@@ -191,6 +241,67 @@ class Gaussian(BaseMetric):
         fit.SetParameters(*(self.parameters))
         histo.Fit(fit,"QOR")
         result = (fit.GetParameter(self.desired), fit.GetParError(self.desired))
+        del fit
+        return result
+
+class StudentT(BaseMetric):
+    def __init__(self, diseredParameter, minVal, maxVal):
+        BaseMetric.__init__(self)
+        self.range = [minVal, maxVal]
+        assert diseredParameter in [0,1,2], "can only get parameter 0, 1 or 2 not '%s'"%desiredParameter
+        self.desired = diseredParameter
+
+    def calculate(self, histo):
+        import ROOT
+        import math
+        ROOT.gSystem.Load("/data/users/HDQM/CMSSW_10_1_0_pre3/HistoricDQM/python/metrics/residuals_c")
+        from ROOT import tStud
+        from ROOT import TF1
+        fit = TF1("tStud",tStud,self.range[0],self.range[1],5)
+        fit.SetParameters(0,histo.GetRMS()/5,2,histo.GetMaximum(),histo.GetEntries()*1e-5)
+        fit.SetParLimits(4,0,histo.GetMaximum()*10)
+        #histo.Fit(fit,"QOR")
+        #histo.Fit(fit,"QOR")
+        histo.Fit(fit,"ORB")
+        err=fit.GetParError(self.desired)
+        if math.isnan(err):
+            result = (0,0)
+        else:
+            result = (fit.GetParameter(self.desired), err)        
+        del fit
+        return result
+
+
+class TripleGaus(BaseMetric):
+    def __init__(self, diseredParameter, minVal, maxVal,average=True):
+        BaseMetric.__init__(self)
+        self.range = [minVal, maxVal]
+        assert diseredParameter in [0,1,2], "can only get parameter 0, 1 or 2 not '%s'"%desiredParameter
+        self.desired = diseredParameter
+        self.average = average
+        
+    def calculate(self, histo):
+        from ROOT import TF1
+        from math import sqrt
+        fit = TF1("tgaus","[2]*TMath::Gaus(x,[0],[1])+[5]*TMath::Gaus(x,[3],[4])+[8]*TMath::Gaus(x,[6],[7])", *(self.range))
+        fit.SetParameters(histo.GetMaximum(),0,histo.GetRMS()/10,histo.GetMaximum()/5,0,histo.GetRMS()/3,histo.GetMaximum()/5,0,histo.GetRMS())
+        histo.Fit(fit,"QOR")
+        histo.Fit(fit,"QOR")
+        histo.Fit(fit,"OR")
+        if self.average:
+            g1=TF1("g1","[2]*TMath::Gaus(x,[0],[1])",*(self.range))
+            g1.SetParameters(fit.GetParameter(0),fit.GetParameter(1),fit.GetParameter(2))
+            w1=g1.Integral(self.range[0],self.range[1])
+            g1.SetParameters(fit.GetParameter(3),fit.GetParameter(4),fit.GetParameter(5))
+            w2=g1.Integral(self.range[0],self.range[1])
+            g1.SetParameters(fit.GetParameter(6),fit.GetParameter(7),fit.GetParameter(8))
+            w3=g1.Integral(self.range[0],self.range[1])
+            mean=(fit.GetParameter(self.desired)*w1+fit.GetParameter(3+self.desired)*w2+fit.GetParameter(6+self.desired)*w3)/(w1+w2+w3)
+            err=sqrt(pow(fit.GetParError(self.desired)*w1,2)+pow(fit.GetParError(3+self.desired)*w2,2)+pow(fit.GetParError(6+self.desired)*w3,2))/(w1+w2+w3)
+            del g1
+            result(mean,err)
+        else:
+            result = (fit.GetParameter(self.desired), fit.GetParError(self.desired))
         del fit
         return result
 

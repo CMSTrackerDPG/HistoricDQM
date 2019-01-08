@@ -782,7 +782,7 @@
         {
             "name": "ClusterProbabilityXY_FPIX_D1_Minus",
             "corr": false,
-            "files": [
+           "files": [
                 "ClusterProbabilityXY_FPIX_D1_Minus"
             ]
         },
@@ -925,18 +925,14 @@
 	         "clustCharge_ONTk_FPix_Dp1_mpv"
             ]
         },
-        {
-            "name": "clustCharge_ONTk_FPix_test_perDisk_mpv",
+	{
+            "name": "clustCharge_ONTk_FPix_byRing",
             "corr": false,
-            "files": [
-                "clustCharge_ONTk_FPix_test_perDisk_mpv",
-	        "clustCharge_ONTk_FPix_test_Dm2_mpv",
-	        "clustCharge_ONTk_FPix_test_Dm1_mpv",
-	        "clustCharge_ONTk_FPix_test_Dp3_mpv",
-	        "clustCharge_ONTk_FPix_test_Dp2_mpv",
-	        "clustCharge_ONTk_FPix_test_Dp1_mpv" 
+            "files":[
+                 "clustCharge_ONTk_FPix_Ring1_mpv",
+                 "clustCharge_ONTk_FPix_Ring2_mpv"
             ]
-        },        
+        },
         {
             "name": "clustCharge_ONTk_BPix_perInOutLayer_mpv",
             "corr": false,
@@ -1032,6 +1028,14 @@
             ]
         },
         {
+            "name": "DigiPerClusterPixel_FPix_perRing",
+            "corr": false,
+            "files": [
+                "DigiPerClusterPixel_FPix_Ring1",
+		"DigiPerClusterPixel_FPix_Ring2"
+            ]
+        },
+        {
             "name": "DigiPerClusterPixel_VS_NCluster_BPix",
             "corr": true,
             "files": [
@@ -1088,22 +1092,6 @@
             ]
 	},
 	{
-            "name": "clustCharge_ONTk_FPix_byRing",
-            "corr": false,
-            "files":[
-                 "clustCharge_ONTk_FPix_Ring1_mean",
-                 "clustCharge_ONTk_FPix_Ring2_mean"
-            ]
-        },
-        {
-            "name": "size_ONTk_FPix_byRing",
-            "corr": false,
-            "files":[        
-                 "size_ONTk_FPix_Ring1_mean",
-                 "size_ONTk_FPix_Ring2_mean"
-            ]
-	},	
-	{
             "name": "deadROC_BPix_byLayer",
             "corr": false,
             "files":[        
@@ -1137,6 +1125,24 @@
             "files":[        
                  "ineffROC_FPix_R1",
                  "ineffROC_FPix_R2"
+            ]
+	},
+	{
+            "name": "FED25error_BPix_byLayer",
+            "corr": false,
+            "files":[
+	         "FED25error_BPix_L1",
+		 "FED25error_BPix_L2",
+		 "FED25error_BPix_L3",
+		 "FED25error_BPix_L4"
+            ]
+	},
+	{
+            "name": "FED25error_FPix_byRing",
+            "corr": false,
+            "files":[        
+	         "FED25error_FPix_R1",
+		 "FED25error_FPix_R2"
             ]
 	},
         {
@@ -1203,6 +1209,14 @@
 	         "size_ONTk_FPix_Dp1_mean"
             ]
         },
+        {
+            "name": "size_ONTk_FPix_byRing",
+            "corr": false,
+            "files":[        
+                 "size_ONTk_FPix_Ring1_mean",
+                 "size_ONTk_FPix_Ring2_mean"
+            ]
+	},	
         {
             "name": "sizex_ALL_Barrel_mean",
             "corr": false,
@@ -1342,7 +1356,647 @@
                 "Residuals_Y_FPIX_Dp2_rms",
                 "Residuals_Y_FPIX_Dp1_rms"
             ]
-        }
+        },
+        {
+            "name": "ClusterCharge_L2_MOD1_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+	    	"ClusterCharge_REF_BPix_BpO_SEC2_LYR2_LDR3_MOD1",
+	    	"ClusterCharge_BPix_BmI_SEC7_LYR2_LDR12_MOD1",
+		"ClusterCharge_BPix_BmI_SEC8_LYR2_LDR14_MOD1",
+		"ClusterCharge_BPix_BmO_SEC1_LYR2_LDR1_MOD1",
+		"ClusterCharge_BPix_BmO_SEC5_LYR2_LDR8_MOD1",
+		"ClusterCharge_BPix_BpI_SEC1_LYR2_LDR1_MOD1",
+		"ClusterCharge_BPix_BpI_SEC4_LYR2_LDR7_MOD1",
+		"ClusterCharge_BPix_BpO_SEC1_LYR2_LDR1_MOD1"
+            ]
+        },
+        {
+            "name": "ClusterSize_L2_MOD1_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+	    	"ClusterSize_REF_BPix_BpO_SEC2_LYR2_LDR3_MOD1",
+	    	"ClusterSize_BPix_BmI_SEC7_LYR2_LDR12_MOD1",
+		"ClusterSize_BPix_BmI_SEC8_LYR2_LDR14_MOD1",
+		"ClusterSize_BPix_BmO_SEC1_LYR2_LDR1_MOD1",
+		"ClusterSize_BPix_BmO_SEC5_LYR2_LDR8_MOD1",
+		"ClusterSize_BPix_BpI_SEC1_LYR2_LDR1_MOD1",
+		"ClusterSize_BPix_BpI_SEC4_LYR2_LDR7_MOD1",
+		"ClusterSize_BPix_BpO_SEC1_LYR2_LDR1_MOD1"
+            ]
+        },
+        {
+            "name": "ClusterRatio_L2_MOD1_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+	    	"ClusterRatio_REF_BPix_BpO_SEC2_LYR2_LDR3_MOD1",
+		"ClusterRatio_BPix_BmI_SEC7_LYR2_LDR12_MOD1",
+		"ClusterRatio_BPix_BmI_SEC8_LYR2_LDR14_MOD1",
+		"ClusterRatio_BPix_BmO_SEC1_LYR2_LDR1_MOD1",
+		"ClusterRatio_BPix_BmO_SEC5_LYR2_LDR8_MOD1",
+		"ClusterRatio_BPix_BpI_SEC1_LYR2_LDR1_MOD1",
+		"ClusterRatio_BPix_BpI_SEC4_LYR2_LDR7_MOD1",
+		"ClusterRatio_BPix_BpO_SEC1_LYR2_LDR1_MOD1"
+            ]
+        },
+        {
+            "name": "HitEff_L2_MOD1_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+	    	"HitEff_REF_BPix_BpO_SEC2_LYR2_LDR3_MOD1",
+	    	"HitEff_BPix_BmI_SEC7_LYR2_LDR12_MOD1",
+		"HitEff_BPix_BmI_SEC8_LYR2_LDR14_MOD1",
+		"HitEff_BPix_BmO_SEC1_LYR2_LDR1_MOD1",
+		"HitEff_BPix_BmO_SEC5_LYR2_LDR8_MOD1",
+		"HitEff_BPix_BpI_SEC1_LYR2_LDR1_MOD1",
+		"HitEff_BPix_BpI_SEC4_LYR2_LDR7_MOD1",
+		"HitEff_BPix_BpO_SEC1_LYR2_LDR1_MOD1"
+            ]
+        },
+        {
+            "name": "ClusterCharge_L2_MOD2_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+	    	"ClusterCharge_REF_BPix_BpO_SEC2_LYR2_LDR3_MOD2",
+	    	"ClusterCharge_BPix_BmO_SEC1_LYR2_LDR1_MOD2",
+		"ClusterCharge_BPix_BmO_SEC3_LYR2_LDR5_MOD2",
+		"ClusterCharge_BPix_BmO_SEC5_LYR2_LDR8_MOD2",
+		"ClusterCharge_BPix_BpI_SEC1_LYR2_LDR1_MOD2",
+		"ClusterCharge_BPix_BpO_SEC1_LYR2_LDR1_MOD2"
+            ]
+        },
+        {
+            "name": "ClusterSize_L2_MOD2_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+                "ClusterSize_REF_BPix_BpO_SEC2_LYR2_LDR3_MOD2",
+                "ClusterSize_BPix_BmO_SEC1_LYR2_LDR1_MOD2",
+                "ClusterSize_BPix_BmO_SEC3_LYR2_LDR5_MOD2",
+                "ClusterSize_BPix_BmO_SEC5_LYR2_LDR8_MOD2",
+                "ClusterSize_BPix_BpI_SEC1_LYR2_LDR1_MOD2",
+                "ClusterSize_BPix_BpO_SEC1_LYR2_LDR1_MOD2"
+            ]
+        },
+        {
+            "name": "ClusterRatio_L2_MOD2_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+                "ClusterRatio_REF_BPix_BpO_SEC2_LYR2_LDR3_MOD2",
+                "ClusterRatio_BPix_BmO_SEC1_LYR2_LDR1_MOD2",
+                "ClusterRatio_BPix_BmO_SEC3_LYR2_LDR5_MOD2",
+                "ClusterRatio_BPix_BmO_SEC5_LYR2_LDR8_MOD2",
+                "ClusterRatio_BPix_BpI_SEC1_LYR2_LDR1_MOD2",
+                "ClusterRatio_BPix_BpO_SEC1_LYR2_LDR1_MOD2"
+            ]
+        },
+        {
+            "name": "HitEff_L2_MOD2_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+                "HitEff_REF_BPix_BpO_SEC2_LYR2_LDR3_MOD2",
+                "HitEff_BPix_BmO_SEC1_LYR2_LDR1_MOD2",
+                "HitEff_BPix_BmO_SEC3_LYR2_LDR5_MOD2",
+                "HitEff_BPix_BmO_SEC5_LYR2_LDR8_MOD2",
+                "HitEff_BPix_BpI_SEC1_LYR2_LDR1_MOD2",
+                "HitEff_BPix_BpO_SEC1_LYR2_LDR1_MOD2"
+            ]
+        },
+        {
+            "name": "ClusterCharge_L2_MOD3_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+	        "ClusterCharge_REF_BPix_BpO_SEC2_LYR2_LDR3_MOD3",
+	        "ClusterCharge_BPix_BmO_SEC1_LYR2_LDR1_MOD3",
+		"ClusterCharge_BPix_BmO_SEC3_LYR2_LDR5_MOD3",
+		"ClusterCharge_BPix_BmO_SEC5_LYR2_LDR8_MOD3",
+		"ClusterCharge_BPix_BpI_SEC1_LYR2_LDR1_MOD3",
+		"ClusterCharge_BPix_BpO_SEC1_LYR2_LDR1_MOD3"
+            ]
+        },
+        {
+            "name": "ClusterSize_L2_MOD3_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+	        "ClusterSize_REF_BPix_BpO_SEC2_LYR2_LDR3_MOD3",
+	        "ClusterSize_BPix_BmO_SEC1_LYR2_LDR1_MOD3",
+		"ClusterSize_BPix_BmO_SEC3_LYR2_LDR5_MOD3",
+		"ClusterSize_BPix_BmO_SEC5_LYR2_LDR8_MOD3",
+		"ClusterSize_BPix_BpI_SEC1_LYR2_LDR1_MOD3",
+		"ClusterSize_BPix_BpO_SEC1_LYR2_LDR1_MOD3"
+            ]
+        },
+        {
+            "name": "ClusterRatio_L2_MOD3_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+	        "ClusterRatio_REF_BPix_BpO_SEC2_LYR2_LDR3_MOD3",
+	        "ClusterRatio_BPix_BmO_SEC1_LYR2_LDR1_MOD3",
+		"ClusterRatio_BPix_BmO_SEC3_LYR2_LDR5_MOD3",
+		"ClusterRatio_BPix_BmO_SEC5_LYR2_LDR8_MOD3",
+		"ClusterRatio_BPix_BpI_SEC1_LYR2_LDR1_MOD3",
+		"ClusterRatio_BPix_BpO_SEC1_LYR2_LDR1_MOD3"
+            ]
+        },
+        {
+            "name": "HitEff_L2_MOD3_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+	        "HitEff_REF_BPix_BpO_SEC2_LYR2_LDR3_MOD3",
+	        "HitEff_BPix_BmO_SEC1_LYR2_LDR1_MOD3",
+		"HitEff_BPix_BmO_SEC3_LYR2_LDR5_MOD3",
+		"HitEff_BPix_BmO_SEC5_LYR2_LDR8_MOD3",
+		"HitEff_BPix_BpI_SEC1_LYR2_LDR1_MOD3",
+		"HitEff_BPix_BpO_SEC1_LYR2_LDR1_MOD3"
+            ]
+        },
+        {
+            "name": "ClusterCharge_L2_MOD4_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+	        "ClusterCharge_REF_BPix_BpO_SEC2_LYR2_LDR3_MOD4",
+	        "ClusterCharge_BPix_BmI_SEC7_LYR2_LDR11_MOD4",
+		"ClusterCharge_BPix_BmI_SEC8_LYR2_LDR13_MOD4",
+		"ClusterCharge_BPix_BpI_SEC4_LYR2_LDR6_MOD4"
+            ]
+        },
+        {
+            "name": "ClusterSize_L2_MOD4_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+                "ClusterSize_REF_BPix_BpO_SEC2_LYR2_LDR3_MOD4",
+                "ClusterSize_BPix_BmI_SEC7_LYR2_LDR11_MOD4",
+                "ClusterSize_BPix_BmI_SEC8_LYR2_LDR13_MOD4",
+                "ClusterSize_BPix_BpI_SEC4_LYR2_LDR6_MOD4"
+            ]
+	},
+        {
+            "name": "ClusterRatio_L2_MOD4_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+                "ClusterRatio_REF_BPix_BpO_SEC2_LYR2_LDR3_MOD4",
+                "ClusterRatio_BPix_BmI_SEC7_LYR2_LDR11_MOD4",
+                "ClusterRatio_BPix_BmI_SEC8_LYR2_LDR13_MOD4",
+                "ClusterRatio_BPix_BpI_SEC4_LYR2_LDR6_MOD4"
+            ]
+	},
+        {
+            "name": "HitEff_L2_MOD4_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+                "HitEff_REF_BPix_BpO_SEC2_LYR2_LDR3_MOD4",
+                "HitEff_BPix_BmI_SEC7_LYR2_LDR11_MOD4",
+                "HitEff_BPix_BmI_SEC8_LYR2_LDR13_MOD4",
+                "HitEff_BPix_BpI_SEC4_LYR2_LDR6_MOD4"
+            ]
+	},
+        {
+            "name": "ClusterCharge_FPix_D1_Ring1_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"ClusterCharge_FPix_REF_BmO_D1_BLD3_PNL1_RNG1",
+	        "ClusterCharge_FPix_BmI_D1_BLD10_PNL2_RNG1",
+		"ClusterCharge_FPix_BmI_D1_BLD11_PNL2_RNG1",
+		"ClusterCharge_FPix_BmI_D1_BLD9_PNL2_RNG1",
+		"ClusterCharge_FPix_BpO_D1_BLD6_PNL1_RNG1",
+		"ClusterCharge_FPix_BpO_D1_BLD7_PNL1_RNG1",
+		"ClusterCharge_FPix_BpO_D1_BLD8_PNL1_RNG1"
+            ]
+        },
+        {
+            "name": "ClusterSize_FPix_D1_Ring1_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"ClusterSize_FPix_REF_BmO_D1_BLD3_PNL1_RNG1",
+	        "ClusterSize_FPix_BmI_D1_BLD10_PNL2_RNG1",
+		"ClusterSize_FPix_BmI_D1_BLD11_PNL2_RNG1",
+		"ClusterSize_FPix_BmI_D1_BLD9_PNL2_RNG1",
+		"ClusterSize_FPix_BpO_D1_BLD6_PNL1_RNG1",
+		"ClusterSize_FPix_BpO_D1_BLD7_PNL1_RNG1",
+		"ClusterSize_FPix_BpO_D1_BLD8_PNL1_RNG1"
+            ]
+        },
+        {
+            "name": "ClusterRatio_FPix_D1_Ring1_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"ClusterRatio_FPix_REF_BmO_D1_BLD3_PNL1_RNG1",
+	        "ClusterRatio_FPix_BmI_D1_BLD10_PNL2_RNG1",
+		"ClusterRatio_FPix_BmI_D1_BLD11_PNL2_RNG1",
+		"ClusterRatio_FPix_BmI_D1_BLD9_PNL2_RNG1",
+		"ClusterRatio_FPix_BpO_D1_BLD6_PNL1_RNG1",
+		"ClusterRatio_FPix_BpO_D1_BLD7_PNL1_RNG1",
+		"ClusterRatio_FPix_BpO_D1_BLD8_PNL1_RNG1"
+            ]
+        },
+        {
+            "name": "HitEff_FPix_D1_Ring1_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"HitEff_FPix_REF_BmO_D1_BLD3_PNL1_RNG1",
+	        "HitEff_FPix_BmI_D1_BLD10_PNL2_RNG1",
+		"HitEff_FPix_BmI_D1_BLD11_PNL2_RNG1",
+		"HitEff_FPix_BmI_D1_BLD9_PNL2_RNG1",
+		"HitEff_FPix_BpO_D1_BLD6_PNL1_RNG1",
+		"HitEff_FPix_BpO_D1_BLD7_PNL1_RNG1",
+		"HitEff_FPix_BpO_D1_BLD8_PNL1_RNG1"
+            ]
+        },
+	{
+            "name": "ClusterCharge_FPix_D2_Ring1_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+	    	"ClusterCharge_FPix_REF_BmO_D2_BLD3_PNL1_RNG1",
+                "ClusterCharge_FPix_BmI_D2_BLD10_PNL1_RNG1",
+		"ClusterCharge_FPix_BmI_D2_BLD10_PNL2_RNG1",
+		"ClusterCharge_FPix_BmI_D2_BLD11_PNL1_RNG1",
+		"ClusterCharge_FPix_BmI_D2_BLD11_PNL2_RNG1",
+		"ClusterCharge_FPix_BmI_D2_BLD9_PNL1_RNG1",
+		"ClusterCharge_FPix_BmI_D2_BLD9_PNL2_RNG1",
+		"ClusterCharge_FPix_BpI_D2_BLD1_PNL2_RNG1",
+		"ClusterCharge_FPix_BpI_D2_BLD2_PNL2_RNG1",
+		"ClusterCharge_FPix_BpI_D2_BLD3_PNL2_RNG1",
+		"ClusterCharge_FPix_BpI_D2_BLD4_PNL1_RNG1",
+		"ClusterCharge_FPix_BpI_D2_BLD5_PNL1_RNG1",
+		"ClusterCharge_FPix_BpI_D2_BLD6_PNL1_RNG1"
+	    ]
+        },
+        {
+            "name": "ClusterSize_FPix_D2_Ring1_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+	        "ClusterSize_FPix_REF_BmO_D2_BLD3_PNL1_RNG1",
+                "ClusterSize_FPix_BmI_D2_BLD10_PNL1_RNG1",
+		"ClusterSize_FPix_BmI_D2_BLD10_PNL2_RNG1",
+		"ClusterSize_FPix_BmI_D2_BLD11_PNL1_RNG1",
+		"ClusterSize_FPix_BmI_D2_BLD11_PNL2_RNG1",
+		"ClusterSize_FPix_BmI_D2_BLD9_PNL1_RNG1",
+		"ClusterSize_FPix_BmI_D2_BLD9_PNL2_RNG1",
+		"ClusterSize_FPix_BpI_D2_BLD1_PNL2_RNG1",
+		"ClusterSize_FPix_BpI_D2_BLD2_PNL2_RNG1",
+		"ClusterSize_FPix_BpI_D2_BLD3_PNL2_RNG1",
+		"ClusterSize_FPix_BpI_D2_BLD4_PNL1_RNG1",
+		"ClusterSize_FPix_BpI_D2_BLD5_PNL1_RNG1",
+		"ClusterSize_FPix_BpI_D2_BLD6_PNL1_RNG1"
+	    ]
+        },
+        {
+            "name": "ClusterRatio_FPix_D2_Ring1_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+	        "ClusterRatio_FPix_REF_BmO_D2_BLD3_PNL1_RNG1",
+                "ClusterRatio_FPix_BmI_D2_BLD10_PNL1_RNG1",
+		"ClusterRatio_FPix_BmI_D2_BLD10_PNL2_RNG1",
+		"ClusterRatio_FPix_BmI_D2_BLD11_PNL1_RNG1",
+		"ClusterRatio_FPix_BmI_D2_BLD11_PNL2_RNG1",
+		"ClusterRatio_FPix_BmI_D2_BLD9_PNL1_RNG1",
+		"ClusterRatio_FPix_BmI_D2_BLD9_PNL2_RNG1",
+		"ClusterRatio_FPix_BpI_D2_BLD1_PNL2_RNG1",
+		"ClusterRatio_FPix_BpI_D2_BLD2_PNL2_RNG1",
+		"ClusterRatio_FPix_BpI_D2_BLD3_PNL2_RNG1",
+		"ClusterRatio_FPix_BpI_D2_BLD4_PNL1_RNG1",
+		"ClusterRatio_FPix_BpI_D2_BLD5_PNL1_RNG1",
+		"ClusterRatio_FPix_BpI_D2_BLD6_PNL1_RNG1"
+	    ]
+        },
+        {
+            "name": "HitEff_FPix_D2_Ring1_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+	    	"HitEff_FPix_REF_BmO_D2_BLD3_PNL1_RNG1",
+                "HitEff_FPix_BmI_D2_BLD10_PNL1_RNG1",
+		"HitEff_FPix_BmI_D2_BLD10_PNL2_RNG1",
+		"HitEff_FPix_BmI_D2_BLD11_PNL1_RNG1",
+		"HitEff_FPix_BmI_D2_BLD11_PNL2_RNG1",
+		"HitEff_FPix_BmI_D2_BLD9_PNL1_RNG1",
+		"HitEff_FPix_BmI_D2_BLD9_PNL2_RNG1",
+		"HitEff_FPix_BpI_D2_BLD1_PNL2_RNG1",
+		"HitEff_FPix_BpI_D2_BLD2_PNL2_RNG1",
+		"HitEff_FPix_BpI_D2_BLD3_PNL2_RNG1",
+		"HitEff_FPix_BpI_D2_BLD4_PNL1_RNG1",
+		"HitEff_FPix_BpI_D2_BLD5_PNL1_RNG1",
+		"HitEff_FPix_BpI_D2_BLD6_PNL1_RNG1"
+	    ]
+        },
+        {
+            "name": "ClusterCharge_FPix_D3_Ring1_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+      	        "ClusterCharge_FPix_REF_BmO_D3_BLD3_PNL1_RNG1",
+		"ClusterCharge_FPix_BmI_D3_BLD10_PNL1_RNG1",
+		"ClusterCharge_FPix_BmI_D3_BLD11_PNL1_RNG1",
+		"ClusterCharge_FPix_BmI_D3_BLD9_PNL1_RNG1",
+		"ClusterCharge_FPix_BpI_D3_BLD7_PNL1_RNG1",
+		"ClusterCharge_FPix_BpI_D3_BLD8_PNL1_RNG1",
+		"ClusterCharge_FPix_BpO_D3_BLD10_PNL1_RNG1",
+		"ClusterCharge_FPix_BpO_D3_BLD11_PNL1_RNG1",
+		"ClusterCharge_FPix_BpO_D3_BLD9_PNL1_RNG1"
+	    ]
+        },
+        {
+            "name": "ClusterSize_FPix_D3_Ring1_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+       	        "ClusterSize_FPix_REF_BmO_D3_BLD3_PNL1_RNG1",
+	        "ClusterSize_FPix_BmI_D3_BLD10_PNL1_RNG1",
+		"ClusterSize_FPix_BmI_D3_BLD11_PNL1_RNG1",
+		"ClusterSize_FPix_BmI_D3_BLD9_PNL1_RNG1",
+		"ClusterSize_FPix_BpI_D3_BLD7_PNL1_RNG1",
+		"ClusterSize_FPix_BpI_D3_BLD8_PNL1_RNG1",
+		"ClusterSize_FPix_BpO_D3_BLD10_PNL1_RNG1",
+		"ClusterSize_FPix_BpO_D3_BLD11_PNL1_RNG1",
+		"ClusterSize_FPix_BpO_D3_BLD9_PNL1_RNG1"
+	    ]
+        },
+        {
+            "name": "ClusterRatio_FPix_D3_Ring1_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+	    	"ClusterRatio_FPix_REF_BmO_D3_BLD3_PNL1_RNG1",
+		"ClusterRatio_FPix_BmI_D3_BLD10_PNL1_RNG1",
+		"ClusterRatio_FPix_BmI_D3_BLD11_PNL1_RNG1",
+		"ClusterRatio_FPix_BmI_D3_BLD9_PNL1_RNG1",
+		"ClusterRatio_FPix_BpI_D3_BLD7_PNL1_RNG1",
+		"ClusterRatio_FPix_BpI_D3_BLD8_PNL1_RNG1",
+		"ClusterRatio_FPix_BpO_D3_BLD10_PNL1_RNG1",
+		"ClusterRatio_FPix_BpO_D3_BLD11_PNL1_RNG1",
+		"ClusterRatio_FPix_BpO_D3_BLD9_PNL1_RNG1"
+	    ]
+	},
+        {
+            "name": "HitEff_FPix_D3_Ring1_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"HitEff_FPix_REF_BmO_D3_BLD3_PNL1_RNG1",
+		"HitEff_FPix_BmI_D3_BLD10_PNL1_RNG1",
+		"HitEff_FPix_BmI_D3_BLD11_PNL1_RNG1",
+		"HitEff_FPix_BmI_D3_BLD9_PNL1_RNG1",
+		"HitEff_FPix_BpI_D3_BLD7_PNL1_RNG1",
+		"HitEff_FPix_BpI_D3_BLD8_PNL1_RNG1",
+		"HitEff_FPix_BpO_D3_BLD10_PNL1_RNG1",
+		"HitEff_FPix_BpO_D3_BLD11_PNL1_RNG1",
+		"HitEff_FPix_BpO_D3_BLD9_PNL1_RNG1"
+	    ]
+	},
+        {
+            "name": "ClusterCharge_FPix_D1_Ring2_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"ClusterCharge_FPix_REF_BpO_D1_BLD10_PNL1_RNG2",
+	        "ClusterCharge_FPix_BmO_D1_BLD2_PNL2_RNG2",
+		"ClusterCharge_FPix_BmO_D1_BLD3_PNL2_RNG2",
+		"ClusterCharge_FPix_BmO_D1_BLD4_PNL2_RNG2",
+		"ClusterCharge_FPix_BpI_D1_BLD1_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D1_BLD2_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D1_BLD3_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D1_BLD4_PNL1_RNG2",
+		"ClusterCharge_FPix_BpO_D1_BLD5_PNL1_RNG2",
+		"ClusterCharge_FPix_BpO_D1_BLD6_PNL1_RNG2",
+		"ClusterCharge_FPix_BpO_D1_BLD8_PNL1_RNG2",
+		"ClusterCharge_FPix_BpO_D1_BLD9_PNL1_RNG2"
+	    ]
+	},
+        {
+            "name": "ClusterSize_FPix_D1_Ring2_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"ClusterSize_FPix_REF_BpO_D1_BLD10_PNL1_RNG2",
+	        "ClusterSize_FPix_BmO_D1_BLD2_PNL2_RNG2",
+		"ClusterSize_FPix_BmO_D1_BLD3_PNL2_RNG2",
+		"ClusterSize_FPix_BmO_D1_BLD4_PNL2_RNG2",
+		"ClusterSize_FPix_BpI_D1_BLD1_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D1_BLD2_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D1_BLD3_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D1_BLD4_PNL1_RNG2",
+		"ClusterSize_FPix_BpO_D1_BLD5_PNL1_RNG2",
+		"ClusterSize_FPix_BpO_D1_BLD6_PNL1_RNG2",
+		"ClusterSize_FPix_BpO_D1_BLD8_PNL1_RNG2",
+		"ClusterSize_FPix_BpO_D1_BLD9_PNL1_RNG2"
+	    ]
+	},
+        {
+            "name": "ClusterRatio_FPix_D1_Ring2_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"ClusterRatio_FPix_REF_BpO_D1_BLD10_PNL1_RNG2",
+	        "ClusterRatio_FPix_BmO_D1_BLD2_PNL2_RNG2",
+		"ClusterRatio_FPix_BmO_D1_BLD3_PNL2_RNG2",
+		"ClusterRatio_FPix_BmO_D1_BLD4_PNL2_RNG2",
+		"ClusterRatio_FPix_BpI_D1_BLD1_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D1_BLD2_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D1_BLD3_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D1_BLD4_PNL1_RNG2",
+		"ClusterRatio_FPix_BpO_D1_BLD5_PNL1_RNG2",
+		"ClusterRatio_FPix_BpO_D1_BLD6_PNL1_RNG2",
+		"ClusterRatio_FPix_BpO_D1_BLD8_PNL1_RNG2",
+		"ClusterRatio_FPix_BpO_D1_BLD9_PNL1_RNG2"
+	    ]
+	},
+        {
+            "name": "HitEff_FPix_D1_Ring2_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"HitEff_FPix_REF_BpO_D1_BLD10_PNL1_RNG2",
+	        "HitEff_FPix_BmO_D1_BLD2_PNL2_RNG2",
+		"HitEff_FPix_BmO_D1_BLD3_PNL2_RNG2",
+		"HitEff_FPix_BmO_D1_BLD4_PNL2_RNG2",
+		"HitEff_FPix_BpI_D1_BLD1_PNL1_RNG2",
+		"HitEff_FPix_BpI_D1_BLD2_PNL1_RNG2",
+		"HitEff_FPix_BpI_D1_BLD3_PNL1_RNG2",
+		"HitEff_FPix_BpI_D1_BLD4_PNL1_RNG2",
+		"HitEff_FPix_BpO_D1_BLD5_PNL1_RNG2",
+		"HitEff_FPix_BpO_D1_BLD6_PNL1_RNG2",
+		"HitEff_FPix_BpO_D1_BLD8_PNL1_RNG2",
+		"HitEff_FPix_BpO_D1_BLD9_PNL1_RNG2"
+	    ]
+	},
+        {
+            "name": "ClusterCharge_FPix_D2_Ring2_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"ClusterCharge_FPix_REF_BpO_D2_BLD10_PNL1_RNG2",
+	        "ClusterCharge_FPix_BmI_D2_BLD14_PNL2_RNG2",
+		"ClusterCharge_FPix_BmI_D2_BLD15_PNL2_RNG2",
+		"ClusterCharge_FPix_BmI_D2_BLD16_PNL2_RNG2",
+		"ClusterCharge_FPix_BmI_D2_BLD17_PNL2_RNG2",
+		"ClusterCharge_FPix_BmO_D2_BLD5_PNL2_RNG2",
+		"ClusterCharge_FPix_BmO_D2_BLD6_PNL2_RNG2",
+		"ClusterCharge_FPix_BmO_D2_BLD7_PNL2_RNG2",
+		"ClusterCharge_FPix_BmO_D2_BLD8_PNL2_RNG2",
+		"ClusterCharge_FPix_BpI_D2_BLD10_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D2_BLD12_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D2_BLD13_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D2_BLD5_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D2_BLD6_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D2_BLD7_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D2_BLD8_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D2_BLD9_PNL1_RNG2"
+	    ]
+	},
+        {
+            "name": "ClusterSize_FPix_D2_Ring2_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"ClusterSize_FPix_REF_BpO_D2_BLD10_PNL1_RNG2",
+	        "ClusterSize_FPix_BmI_D2_BLD14_PNL2_RNG2",
+		"ClusterSize_FPix_BmI_D2_BLD15_PNL2_RNG2",
+		"ClusterSize_FPix_BmI_D2_BLD16_PNL2_RNG2",
+		"ClusterSize_FPix_BmI_D2_BLD17_PNL2_RNG2",
+		"ClusterSize_FPix_BmO_D2_BLD5_PNL2_RNG2",
+		"ClusterSize_FPix_BmO_D2_BLD6_PNL2_RNG2",
+		"ClusterSize_FPix_BmO_D2_BLD7_PNL2_RNG2",
+		"ClusterSize_FPix_BmO_D2_BLD8_PNL2_RNG2",
+		"ClusterSize_FPix_BpI_D2_BLD10_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D2_BLD12_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D2_BLD13_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D2_BLD5_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D2_BLD6_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D2_BLD7_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D2_BLD8_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D2_BLD9_PNL1_RNG2"
+	    ]
+	},
+        {
+            "name": "ClusterRatio_FPix_D2_Ring2_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"ClusterRatio_FPix_REF_BpO_D2_BLD10_PNL1_RNG2",
+	        "ClusterRatio_FPix_BmI_D2_BLD14_PNL2_RNG2",
+		"ClusterRatio_FPix_BmI_D2_BLD15_PNL2_RNG2",
+		"ClusterRatio_FPix_BmI_D2_BLD16_PNL2_RNG2",
+		"ClusterRatio_FPix_BmI_D2_BLD17_PNL2_RNG2",
+		"ClusterRatio_FPix_BmO_D2_BLD5_PNL2_RNG2",
+		"ClusterRatio_FPix_BmO_D2_BLD6_PNL2_RNG2",
+		"ClusterRatio_FPix_BmO_D2_BLD7_PNL2_RNG2",
+		"ClusterRatio_FPix_BmO_D2_BLD8_PNL2_RNG2",
+		"ClusterRatio_FPix_BpI_D2_BLD10_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D2_BLD12_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D2_BLD13_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D2_BLD5_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D2_BLD6_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D2_BLD7_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D2_BLD8_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D2_BLD9_PNL1_RNG2"
+	    ]
+	},
+        {
+            "name": "HitEff_FPix_D2_Ring2_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"HitEff_FPix_REF_BpO_D2_BLD10_PNL1_RNG2",
+	        "HitEff_FPix_BmI_D2_BLD14_PNL2_RNG2",
+		"HitEff_FPix_BmI_D2_BLD15_PNL2_RNG2",
+		"HitEff_FPix_BmI_D2_BLD16_PNL2_RNG2",
+		"HitEff_FPix_BmI_D2_BLD17_PNL2_RNG2",
+		"HitEff_FPix_BmO_D2_BLD5_PNL2_RNG2",
+		"HitEff_FPix_BmO_D2_BLD6_PNL2_RNG2",
+		"HitEff_FPix_BmO_D2_BLD7_PNL2_RNG2",
+		"HitEff_FPix_BmO_D2_BLD8_PNL2_RNG2",
+		"HitEff_FPix_BpI_D2_BLD10_PNL1_RNG2",
+		"HitEff_FPix_BpI_D2_BLD12_PNL1_RNG2",
+		"HitEff_FPix_BpI_D2_BLD13_PNL1_RNG2",
+		"HitEff_FPix_BpI_D2_BLD5_PNL1_RNG2",
+		"HitEff_FPix_BpI_D2_BLD6_PNL1_RNG2",
+		"HitEff_FPix_BpI_D2_BLD7_PNL1_RNG2",
+		"HitEff_FPix_BpI_D2_BLD8_PNL1_RNG2",
+		"HitEff_FPix_BpI_D2_BLD9_PNL1_RNG2"
+	    ]
+	},
+        {
+            "name": "ClusterCharge_FPix_D3_Ring2_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"ClusterCharge_FPix_REF_BpO_D3_BLD10_PNL1_RNG2",
+	        "ClusterCharge_FPix_BmI_D3_BLD10_PNL2_RNG2",
+		"ClusterCharge_FPix_BmI_D3_BLD11_PNL2_RNG2",
+		"ClusterCharge_FPix_BmI_D3_BLD12_PNL2_RNG2",
+		"ClusterCharge_FPix_BmI_D3_BLD13_PNL2_RNG2",
+		"ClusterCharge_FPix_BpI_D3_BLD10_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D3_BLD11_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D3_BLD12_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D3_BLD13_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D3_BLD14_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D3_BLD15_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D3_BLD16_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D3_BLD17_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D3_BLD9_PNL1_RNG2",
+		"ClusterCharge_FPix_BpO_D3_BLD1_PNL1_RNG2",
+		"ClusterCharge_FPix_BpO_D3_BLD2_PNL1_RNG2",
+		"ClusterCharge_FPix_BpO_D3_BLD3_PNL1_RNG2",
+		"ClusterCharge_FPix_BpO_D3_BLD4_PNL1_RNG2"
+	    ]
+	},
+        {
+            "name": "ClusterSize_FPix_D3_Ring2_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"ClusterSize_FPix_REF_BpO_D3_BLD10_PNL1_RNG2",
+	        "ClusterSize_FPix_BmI_D3_BLD10_PNL2_RNG2",
+		"ClusterSize_FPix_BmI_D3_BLD11_PNL2_RNG2",
+		"ClusterSize_FPix_BmI_D3_BLD12_PNL2_RNG2",
+		"ClusterSize_FPix_BmI_D3_BLD13_PNL2_RNG2",
+		"ClusterSize_FPix_BpI_D3_BLD10_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D3_BLD11_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D3_BLD12_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D3_BLD13_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D3_BLD14_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D3_BLD15_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D3_BLD16_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D3_BLD17_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D3_BLD9_PNL1_RNG2",
+		"ClusterSize_FPix_BpO_D3_BLD1_PNL1_RNG2",
+		"ClusterSize_FPix_BpO_D3_BLD2_PNL1_RNG2",
+		"ClusterSize_FPix_BpO_D3_BLD3_PNL1_RNG2",
+		"ClusterSize_FPix_BpO_D3_BLD4_PNL1_RNG2"
+	    ]
+	},
+        {
+            "name": "ClusterRatio_FPix_D3_Ring2_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"ClusterRatio_FPix_REF_BpO_D3_BLD10_PNL1_RNG2",
+	        "ClusterRatio_FPix_BmI_D3_BLD10_PNL2_RNG2",
+		"ClusterRatio_FPix_BmI_D3_BLD11_PNL2_RNG2",
+		"ClusterRatio_FPix_BmI_D3_BLD12_PNL2_RNG2",
+		"ClusterRatio_FPix_BmI_D3_BLD13_PNL2_RNG2",
+		"ClusterRatio_FPix_BpI_D3_BLD10_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D3_BLD11_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D3_BLD12_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D3_BLD13_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D3_BLD14_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D3_BLD15_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D3_BLD16_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D3_BLD17_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D3_BLD9_PNL1_RNG2",
+		"ClusterRatio_FPix_BpO_D3_BLD1_PNL1_RNG2",
+		"ClusterRatio_FPix_BpO_D3_BLD2_PNL1_RNG2",
+		"ClusterRatio_FPix_BpO_D3_BLD3_PNL1_RNG2",
+		"ClusterRatio_FPix_BpO_D3_BLD4_PNL1_RNG2"
+	    ]
+	},
+        {
+            "name": "HitEff_FPix_D3_Ring2_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"HitEff_FPix_REF_BpO_D3_BLD10_PNL1_RNG2",
+	        "HitEff_FPix_BmI_D3_BLD10_PNL2_RNG2",
+		"HitEff_FPix_BmI_D3_BLD11_PNL2_RNG2",
+		"HitEff_FPix_BmI_D3_BLD12_PNL2_RNG2",
+		"HitEff_FPix_BmI_D3_BLD13_PNL2_RNG2",
+		"HitEff_FPix_BpI_D3_BLD10_PNL1_RNG2",
+		"HitEff_FPix_BpI_D3_BLD11_PNL1_RNG2",
+		"HitEff_FPix_BpI_D3_BLD12_PNL1_RNG2",
+		"HitEff_FPix_BpI_D3_BLD13_PNL1_RNG2",
+		"HitEff_FPix_BpI_D3_BLD14_PNL1_RNG2",
+		"HitEff_FPix_BpI_D3_BLD15_PNL1_RNG2",
+		"HitEff_FPix_BpI_D3_BLD16_PNL1_RNG2",
+		"HitEff_FPix_BpI_D3_BLD17_PNL1_RNG2",
+		"HitEff_FPix_BpI_D3_BLD9_PNL1_RNG2",
+		"HitEff_FPix_BpO_D3_BLD1_PNL1_RNG2",
+		"HitEff_FPix_BpO_D3_BLD2_PNL1_RNG2",
+		"HitEff_FPix_BpO_D3_BLD3_PNL1_RNG2",
+		"HitEff_FPix_BpO_D3_BLD4_PNL1_RNG2"
+	    ]
+	}
     ],
     "StreamExprCosmicTracking": [
         {
@@ -1782,18 +2436,14 @@
 	         "clustCharge_ONTk_FPix_Dp1_mpv"
             ]
         },
-        {
-            "name": "clustCharge_ONTk_FPix_test_perDisk_mpv",
+	{
+            "name": "clustCharge_ONTk_FPix_byRing",
             "corr": false,
-            "files": [
-                "clustCharge_ONTk_FPix_test_perDisk_mpv",
-	        "clustCharge_ONTk_FPix_test_Dm2_mpv",
-	        "clustCharge_ONTk_FPix_test_Dm1_mpv",
-	        "clustCharge_ONTk_FPix_test_Dp3_mpv",
-	        "clustCharge_ONTk_FPix_test_Dp2_mpv",
-	        "clustCharge_ONTk_FPix_test_Dp1_mpv" 
+            "files":[
+                 "clustCharge_ONTk_FPix_Ring1_mpv",
+                 "clustCharge_ONTk_FPix_Ring2_mpv"
             ]
-        },        
+        },
         {
             "name": "clustCharge_ONTk_BPix_perInOutLayer_mpv",
             "corr": false,
@@ -1889,6 +2539,14 @@
             ]
         },
         {
+            "name": "DigiPerClusterPixel_FPix_perRing",
+            "corr": false,
+            "files": [
+                "DigiPerClusterPixel_FPix_Ring1",
+		"DigiPerClusterPixel_FPix_Ring2"
+            ]
+        },
+        {
             "name": "DigiPerClusterPixel_VS_NCluster_BPix",
             "corr": true,
             "files": [
@@ -1945,22 +2603,6 @@
             ]
 	},
 	{
-            "name": "clustCharge_ONTk_FPix_byRing",
-            "corr": false,
-            "files":[
-                 "clustCharge_ONTk_FPix_Ring1_mean",
-                 "clustCharge_ONTk_FPix_Ring2_mean"
-            ]
-        },
-        {
-            "name": "size_ONTk_FPix_byRing",
-            "corr": false,
-            "files":[        
-                 "size_ONTk_FPix_Ring1_mean",
-                 "size_ONTk_FPix_Ring2_mean"
-            ]
-	},	
-	{
             "name": "deadROC_BPix_byLayer",
             "corr": false,
             "files":[        
@@ -1994,6 +2636,24 @@
             "files":[        
                  "ineffROC_FPix_R1",
                  "ineffROC_FPix_R2"
+            ]
+	},
+	{
+            "name": "FED25error_BPix_byLayer",
+            "corr": false,
+            "files":[
+	         "FED25error_BPix_L1",
+		 "FED25error_BPix_L2",
+		 "FED25error_BPix_L3",
+		 "FED25error_BPix_L4"
+            ]
+	},
+	{
+            "name": "FED25error_FPix_byRing",
+            "corr": false,
+            "files":[        
+	         "FED25error_FPix_R1",
+		 "FED25error_FPix_R2"
             ]
 	},
         {
@@ -2060,6 +2720,14 @@
 	         "size_ONTk_FPix_Dp1_mean"
             ]
         },
+        {
+            "name": "size_ONTk_FPix_byRing",
+            "corr": false,
+            "files":[        
+                 "size_ONTk_FPix_Ring1_mean",
+                 "size_ONTk_FPix_Ring2_mean"
+            ]
+	},	
         {
             "name": "sizex_ALL_Barrel_mean",
             "corr": false,
@@ -2198,6 +2866,705 @@
                 "Residuals_Y_FPIX_perPlusDisk_rms",
                 "Residuals_Y_FPIX_Dp2_rms",
                 "Residuals_Y_FPIX_Dp1_rms"
+            ]
+        },
+        {
+            "name": "ClusterCharge_L2_MOD1_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+	    	"ClusterCharge_REF_BPix_BpO_SEC2_LYR2_LDR3_MOD1",
+	    	"ClusterCharge_BPix_BmI_SEC7_LYR2_LDR12_MOD1",
+		"ClusterCharge_BPix_BmI_SEC8_LYR2_LDR14_MOD1",
+		"ClusterCharge_BPix_BmO_SEC1_LYR2_LDR1_MOD1",
+		"ClusterCharge_BPix_BmO_SEC5_LYR2_LDR8_MOD1",
+		"ClusterCharge_BPix_BpI_SEC1_LYR2_LDR1_MOD1",
+		"ClusterCharge_BPix_BpI_SEC4_LYR2_LDR7_MOD1",
+		"ClusterCharge_BPix_BpO_SEC1_LYR2_LDR1_MOD1"
+            ]
+        },
+        {
+            "name": "ClusterSize_L2_MOD1_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+	    	"ClusterSize_REF_BPix_BpO_SEC2_LYR2_LDR3_MOD1",
+	    	"ClusterSize_BPix_BmI_SEC7_LYR2_LDR12_MOD1",
+		"ClusterSize_BPix_BmI_SEC8_LYR2_LDR14_MOD1",
+		"ClusterSize_BPix_BmO_SEC1_LYR2_LDR1_MOD1",
+		"ClusterSize_BPix_BmO_SEC5_LYR2_LDR8_MOD1",
+		"ClusterSize_BPix_BpI_SEC1_LYR2_LDR1_MOD1",
+		"ClusterSize_BPix_BpI_SEC4_LYR2_LDR7_MOD1",
+		"ClusterSize_BPix_BpO_SEC1_LYR2_LDR1_MOD1"
+            ]
+        },
+        {
+            "name": "ClusterRatio_L2_MOD1_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+	    	"ClusterRatio_REF_BPix_BpO_SEC2_LYR2_LDR3_MOD1",
+		"ClusterRatio_BPix_BmI_SEC7_LYR2_LDR12_MOD1",
+		"ClusterRatio_BPix_BmI_SEC8_LYR2_LDR14_MOD1",
+		"ClusterRatio_BPix_BmO_SEC1_LYR2_LDR1_MOD1",
+		"ClusterRatio_BPix_BmO_SEC5_LYR2_LDR8_MOD1",
+		"ClusterRatio_BPix_BpI_SEC1_LYR2_LDR1_MOD1",
+		"ClusterRatio_BPix_BpI_SEC4_LYR2_LDR7_MOD1",
+		"ClusterRatio_BPix_BpO_SEC1_LYR2_LDR1_MOD1"
+            ]
+        },
+        {
+            "name": "HitEff_L2_MOD1_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+	    	"HitEff_REF_BPix_BpO_SEC2_LYR2_LDR3_MOD1",
+	    	"HitEff_BPix_BmI_SEC7_LYR2_LDR12_MOD1",
+		"HitEff_BPix_BmI_SEC8_LYR2_LDR14_MOD1",
+		"HitEff_BPix_BmO_SEC1_LYR2_LDR1_MOD1",
+		"HitEff_BPix_BmO_SEC5_LYR2_LDR8_MOD1",
+		"HitEff_BPix_BpI_SEC1_LYR2_LDR1_MOD1",
+		"HitEff_BPix_BpI_SEC4_LYR2_LDR7_MOD1",
+		"HitEff_BPix_BpO_SEC1_LYR2_LDR1_MOD1"
+            ]
+        },
+        {
+            "name": "ClusterCharge_L2_MOD2_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+	    	"ClusterCharge_REF_BPix_BpO_SEC2_LYR2_LDR3_MOD2",
+	    	"ClusterCharge_BPix_BmO_SEC1_LYR2_LDR1_MOD2",
+		"ClusterCharge_BPix_BmO_SEC3_LYR2_LDR5_MOD2",
+		"ClusterCharge_BPix_BmO_SEC5_LYR2_LDR8_MOD2",
+		"ClusterCharge_BPix_BpI_SEC1_LYR2_LDR1_MOD2",
+		"ClusterCharge_BPix_BpO_SEC1_LYR2_LDR1_MOD2"
+            ]
+        },
+        {
+            "name": "ClusterSize_L2_MOD2_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+                "ClusterSize_REF_BPix_BpO_SEC2_LYR2_LDR3_MOD2",
+                "ClusterSize_BPix_BmO_SEC1_LYR2_LDR1_MOD2",
+                "ClusterSize_BPix_BmO_SEC3_LYR2_LDR5_MOD2",
+                "ClusterSize_BPix_BmO_SEC5_LYR2_LDR8_MOD2",
+                "ClusterSize_BPix_BpI_SEC1_LYR2_LDR1_MOD2",
+                "ClusterSize_BPix_BpO_SEC1_LYR2_LDR1_MOD2"
+            ]
+        },
+        {
+            "name": "ClusterRatio_L2_MOD2_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+                "ClusterRatio_REF_BPix_BpO_SEC2_LYR2_LDR3_MOD2",
+                "ClusterRatio_BPix_BmO_SEC1_LYR2_LDR1_MOD2",
+                "ClusterRatio_BPix_BmO_SEC3_LYR2_LDR5_MOD2",
+                "ClusterRatio_BPix_BmO_SEC5_LYR2_LDR8_MOD2",
+                "ClusterRatio_BPix_BpI_SEC1_LYR2_LDR1_MOD2",
+                "ClusterRatio_BPix_BpO_SEC1_LYR2_LDR1_MOD2"
+            ]
+        },
+        {
+            "name": "HitEff_L2_MOD2_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+                "HitEff_REF_BPix_BpO_SEC2_LYR2_LDR3_MOD2",
+                "HitEff_BPix_BmO_SEC1_LYR2_LDR1_MOD2",
+                "HitEff_BPix_BmO_SEC3_LYR2_LDR5_MOD2",
+                "HitEff_BPix_BmO_SEC5_LYR2_LDR8_MOD2",
+                "HitEff_BPix_BpI_SEC1_LYR2_LDR1_MOD2",
+                "HitEff_BPix_BpO_SEC1_LYR2_LDR1_MOD2"
+            ]
+        },
+        {
+            "name": "ClusterCharge_L2_MOD3_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+	        "ClusterCharge_REF_BPix_BpO_SEC2_LYR2_LDR3_MOD3",
+	        "ClusterCharge_BPix_BmO_SEC1_LYR2_LDR1_MOD3",
+		"ClusterCharge_BPix_BmO_SEC3_LYR2_LDR5_MOD3",
+		"ClusterCharge_BPix_BmO_SEC5_LYR2_LDR8_MOD3",
+		"ClusterCharge_BPix_BpI_SEC1_LYR2_LDR1_MOD3",
+		"ClusterCharge_BPix_BpO_SEC1_LYR2_LDR1_MOD3"
+            ]
+        },
+        {
+            "name": "ClusterSize_L2_MOD3_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+	        "ClusterSize_REF_BPix_BpO_SEC2_LYR2_LDR3_MOD3",
+	        "ClusterSize_BPix_BmO_SEC1_LYR2_LDR1_MOD3",
+		"ClusterSize_BPix_BmO_SEC3_LYR2_LDR5_MOD3",
+		"ClusterSize_BPix_BmO_SEC5_LYR2_LDR8_MOD3",
+		"ClusterSize_BPix_BpI_SEC1_LYR2_LDR1_MOD3",
+		"ClusterSize_BPix_BpO_SEC1_LYR2_LDR1_MOD3"
+            ]
+        },
+        {
+            "name": "ClusterRatio_L2_MOD3_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+	        "ClusterRatio_REF_BPix_BpO_SEC2_LYR2_LDR3_MOD3",
+	        "ClusterRatio_BPix_BmO_SEC1_LYR2_LDR1_MOD3",
+		"ClusterRatio_BPix_BmO_SEC3_LYR2_LDR5_MOD3",
+		"ClusterRatio_BPix_BmO_SEC5_LYR2_LDR8_MOD3",
+		"ClusterRatio_BPix_BpI_SEC1_LYR2_LDR1_MOD3",
+		"ClusterRatio_BPix_BpO_SEC1_LYR2_LDR1_MOD3"
+            ]
+        },
+        {
+            "name": "HitEff_L2_MOD3_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+	        "HitEff_REF_BPix_BpO_SEC2_LYR2_LDR3_MOD3",
+	        "HitEff_BPix_BmO_SEC1_LYR2_LDR1_MOD3",
+		"HitEff_BPix_BmO_SEC3_LYR2_LDR5_MOD3",
+		"HitEff_BPix_BmO_SEC5_LYR2_LDR8_MOD3",
+		"HitEff_BPix_BpI_SEC1_LYR2_LDR1_MOD3",
+		"HitEff_BPix_BpO_SEC1_LYR2_LDR1_MOD3"
+            ]
+        },
+        {
+            "name": "ClusterCharge_L2_MOD4_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+	        "ClusterCharge_REF_BPix_BpO_SEC2_LYR2_LDR3_MOD4",
+	        "ClusterCharge_BPix_BmI_SEC7_LYR2_LDR11_MOD4",
+		"ClusterCharge_BPix_BmI_SEC8_LYR2_LDR13_MOD4",
+		"ClusterCharge_BPix_BpI_SEC4_LYR2_LDR6_MOD4"
+            ]
+        },
+        {
+            "name": "ClusterSize_L2_MOD4_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+                "ClusterSize_REF_BPix_BpO_SEC2_LYR2_LDR3_MOD4",
+                "ClusterSize_BPix_BmI_SEC7_LYR2_LDR11_MOD4",
+                "ClusterSize_BPix_BmI_SEC8_LYR2_LDR13_MOD4",
+                "ClusterSize_BPix_BpI_SEC4_LYR2_LDR6_MOD4"
+            ]
+	},
+        {
+            "name": "ClusterRatio_L2_MOD4_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+                "ClusterRatio_REF_BPix_BpO_SEC2_LYR2_LDR3_MOD4",
+                "ClusterRatio_BPix_BmI_SEC7_LYR2_LDR11_MOD4",
+                "ClusterRatio_BPix_BmI_SEC8_LYR2_LDR13_MOD4",
+                "ClusterRatio_BPix_BpI_SEC4_LYR2_LDR6_MOD4"
+            ]
+	},
+        {
+            "name": "HitEff_L2_MOD4_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+                "HitEff_REF_BPix_BpO_SEC2_LYR2_LDR3_MOD4",
+                "HitEff_BPix_BmI_SEC7_LYR2_LDR11_MOD4",
+                "HitEff_BPix_BmI_SEC8_LYR2_LDR13_MOD4",
+                "HitEff_BPix_BpI_SEC4_LYR2_LDR6_MOD4"
+            ]
+	},
+        {
+            "name": "ClusterCharge_FPix_D1_Ring1_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"ClusterCharge_FPix_REF_BmO_D1_BLD3_PNL1_RNG1",
+	        "ClusterCharge_FPix_BmI_D1_BLD10_PNL2_RNG1",
+		"ClusterCharge_FPix_BmI_D1_BLD11_PNL2_RNG1",
+		"ClusterCharge_FPix_BmI_D1_BLD9_PNL2_RNG1",
+		"ClusterCharge_FPix_BpO_D1_BLD6_PNL1_RNG1",
+		"ClusterCharge_FPix_BpO_D1_BLD7_PNL1_RNG1",
+		"ClusterCharge_FPix_BpO_D1_BLD8_PNL1_RNG1"
+            ]
+        },
+        {
+            "name": "ClusterSize_FPix_D1_Ring1_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"ClusterSize_FPix_REF_BmO_D1_BLD3_PNL1_RNG1",
+	        "ClusterSize_FPix_BmI_D1_BLD10_PNL2_RNG1",
+		"ClusterSize_FPix_BmI_D1_BLD11_PNL2_RNG1",
+		"ClusterSize_FPix_BmI_D1_BLD9_PNL2_RNG1",
+		"ClusterSize_FPix_BpO_D1_BLD6_PNL1_RNG1",
+		"ClusterSize_FPix_BpO_D1_BLD7_PNL1_RNG1",
+		"ClusterSize_FPix_BpO_D1_BLD8_PNL1_RNG1"
+            ]
+        },
+        {
+            "name": "ClusterRatio_FPix_D1_Ring1_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"ClusterRatio_FPix_REF_BmO_D1_BLD3_PNL1_RNG1",
+	        "ClusterRatio_FPix_BmI_D1_BLD10_PNL2_RNG1",
+		"ClusterRatio_FPix_BmI_D1_BLD11_PNL2_RNG1",
+		"ClusterRatio_FPix_BmI_D1_BLD9_PNL2_RNG1",
+		"ClusterRatio_FPix_BpO_D1_BLD6_PNL1_RNG1",
+		"ClusterRatio_FPix_BpO_D1_BLD7_PNL1_RNG1",
+		"ClusterRatio_FPix_BpO_D1_BLD8_PNL1_RNG1"
+            ]
+        },
+        {
+            "name": "HitEff_FPix_D1_Ring1_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"HitEff_FPix_REF_BmO_D1_BLD3_PNL1_RNG1",
+	        "HitEff_FPix_BmI_D1_BLD10_PNL2_RNG1",
+		"HitEff_FPix_BmI_D1_BLD11_PNL2_RNG1",
+		"HitEff_FPix_BmI_D1_BLD9_PNL2_RNG1",
+		"HitEff_FPix_BpO_D1_BLD6_PNL1_RNG1",
+		"HitEff_FPix_BpO_D1_BLD7_PNL1_RNG1",
+		"HitEff_FPix_BpO_D1_BLD8_PNL1_RNG1"
+            ]
+        },
+	{
+            "name": "ClusterCharge_FPix_D2_Ring1_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+	    	"ClusterCharge_FPix_REF_BmO_D2_BLD3_PNL1_RNG1",
+                "ClusterCharge_FPix_BmI_D2_BLD10_PNL1_RNG1",
+		"ClusterCharge_FPix_BmI_D2_BLD10_PNL2_RNG1",
+		"ClusterCharge_FPix_BmI_D2_BLD11_PNL1_RNG1",
+		"ClusterCharge_FPix_BmI_D2_BLD11_PNL2_RNG1",
+		"ClusterCharge_FPix_BmI_D2_BLD9_PNL1_RNG1",
+		"ClusterCharge_FPix_BmI_D2_BLD9_PNL2_RNG1",
+		"ClusterCharge_FPix_BpI_D2_BLD1_PNL2_RNG1",
+		"ClusterCharge_FPix_BpI_D2_BLD2_PNL2_RNG1",
+		"ClusterCharge_FPix_BpI_D2_BLD3_PNL2_RNG1",
+		"ClusterCharge_FPix_BpI_D2_BLD4_PNL1_RNG1",
+		"ClusterCharge_FPix_BpI_D2_BLD5_PNL1_RNG1",
+		"ClusterCharge_FPix_BpI_D2_BLD6_PNL1_RNG1"
+	    ]
+        },
+        {
+            "name": "ClusterSize_FPix_D2_Ring1_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+	        "ClusterSize_FPix_REF_BmO_D2_BLD3_PNL1_RNG1",
+                "ClusterSize_FPix_BmI_D2_BLD10_PNL1_RNG1",
+		"ClusterSize_FPix_BmI_D2_BLD10_PNL2_RNG1",
+		"ClusterSize_FPix_BmI_D2_BLD11_PNL1_RNG1",
+		"ClusterSize_FPix_BmI_D2_BLD11_PNL2_RNG1",
+		"ClusterSize_FPix_BmI_D2_BLD9_PNL1_RNG1",
+		"ClusterSize_FPix_BmI_D2_BLD9_PNL2_RNG1",
+		"ClusterSize_FPix_BpI_D2_BLD1_PNL2_RNG1",
+		"ClusterSize_FPix_BpI_D2_BLD2_PNL2_RNG1",
+		"ClusterSize_FPix_BpI_D2_BLD3_PNL2_RNG1",
+		"ClusterSize_FPix_BpI_D2_BLD4_PNL1_RNG1",
+		"ClusterSize_FPix_BpI_D2_BLD5_PNL1_RNG1",
+		"ClusterSize_FPix_BpI_D2_BLD6_PNL1_RNG1"
+	    ]
+        },
+        {
+            "name": "ClusterRatio_FPix_D2_Ring1_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+	        "ClusterRatio_FPix_REF_BmO_D2_BLD3_PNL1_RNG1",
+                "ClusterRatio_FPix_BmI_D2_BLD10_PNL1_RNG1",
+		"ClusterRatio_FPix_BmI_D2_BLD10_PNL2_RNG1",
+		"ClusterRatio_FPix_BmI_D2_BLD11_PNL1_RNG1",
+		"ClusterRatio_FPix_BmI_D2_BLD11_PNL2_RNG1",
+		"ClusterRatio_FPix_BmI_D2_BLD9_PNL1_RNG1",
+		"ClusterRatio_FPix_BmI_D2_BLD9_PNL2_RNG1",
+		"ClusterRatio_FPix_BpI_D2_BLD1_PNL2_RNG1",
+		"ClusterRatio_FPix_BpI_D2_BLD2_PNL2_RNG1",
+		"ClusterRatio_FPix_BpI_D2_BLD3_PNL2_RNG1",
+		"ClusterRatio_FPix_BpI_D2_BLD4_PNL1_RNG1",
+		"ClusterRatio_FPix_BpI_D2_BLD5_PNL1_RNG1",
+		"ClusterRatio_FPix_BpI_D2_BLD6_PNL1_RNG1"
+	    ]
+        },
+        {
+            "name": "HitEff_FPix_D2_Ring1_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+	    	"HitEff_FPix_REF_BmO_D2_BLD3_PNL1_RNG1",
+                "HitEff_FPix_BmI_D2_BLD10_PNL1_RNG1",
+		"HitEff_FPix_BmI_D2_BLD10_PNL2_RNG1",
+		"HitEff_FPix_BmI_D2_BLD11_PNL1_RNG1",
+		"HitEff_FPix_BmI_D2_BLD11_PNL2_RNG1",
+		"HitEff_FPix_BmI_D2_BLD9_PNL1_RNG1",
+		"HitEff_FPix_BmI_D2_BLD9_PNL2_RNG1",
+		"HitEff_FPix_BpI_D2_BLD1_PNL2_RNG1",
+		"HitEff_FPix_BpI_D2_BLD2_PNL2_RNG1",
+		"HitEff_FPix_BpI_D2_BLD3_PNL2_RNG1",
+		"HitEff_FPix_BpI_D2_BLD4_PNL1_RNG1",
+		"HitEff_FPix_BpI_D2_BLD5_PNL1_RNG1",
+		"HitEff_FPix_BpI_D2_BLD6_PNL1_RNG1"
+	    ]
+        },
+        {
+            "name": "ClusterCharge_FPix_D3_Ring1_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+      	        "ClusterCharge_FPix_REF_BmO_D3_BLD3_PNL1_RNG1",
+		"ClusterCharge_FPix_BmI_D3_BLD10_PNL1_RNG1",
+		"ClusterCharge_FPix_BmI_D3_BLD11_PNL1_RNG1",
+		"ClusterCharge_FPix_BmI_D3_BLD9_PNL1_RNG1",
+		"ClusterCharge_FPix_BpI_D3_BLD7_PNL1_RNG1",
+		"ClusterCharge_FPix_BpI_D3_BLD8_PNL1_RNG1",
+		"ClusterCharge_FPix_BpO_D3_BLD10_PNL1_RNG1",
+		"ClusterCharge_FPix_BpO_D3_BLD11_PNL1_RNG1",
+		"ClusterCharge_FPix_BpO_D3_BLD9_PNL1_RNG1"
+	    ]
+        },
+        {
+            "name": "ClusterSize_FPix_D3_Ring1_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+       	        "ClusterSize_FPix_REF_BmO_D3_BLD3_PNL1_RNG1",
+	        "ClusterSize_FPix_BmI_D3_BLD10_PNL1_RNG1",
+		"ClusterSize_FPix_BmI_D3_BLD11_PNL1_RNG1",
+		"ClusterSize_FPix_BmI_D3_BLD9_PNL1_RNG1",
+		"ClusterSize_FPix_BpI_D3_BLD7_PNL1_RNG1",
+		"ClusterSize_FPix_BpI_D3_BLD8_PNL1_RNG1",
+		"ClusterSize_FPix_BpO_D3_BLD10_PNL1_RNG1",
+		"ClusterSize_FPix_BpO_D3_BLD11_PNL1_RNG1",
+		"ClusterSize_FPix_BpO_D3_BLD9_PNL1_RNG1"
+	    ]
+        },
+        {
+            "name": "ClusterRatio_FPix_D3_Ring1_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+	    	"ClusterRatio_FPix_REF_BmO_D3_BLD3_PNL1_RNG1",
+		"ClusterRatio_FPix_BmI_D3_BLD10_PNL1_RNG1",
+		"ClusterRatio_FPix_BmI_D3_BLD11_PNL1_RNG1",
+		"ClusterRatio_FPix_BmI_D3_BLD9_PNL1_RNG1",
+		"ClusterRatio_FPix_BpI_D3_BLD7_PNL1_RNG1",
+		"ClusterRatio_FPix_BpI_D3_BLD8_PNL1_RNG1",
+		"ClusterRatio_FPix_BpO_D3_BLD10_PNL1_RNG1",
+		"ClusterRatio_FPix_BpO_D3_BLD11_PNL1_RNG1",
+		"ClusterRatio_FPix_BpO_D3_BLD9_PNL1_RNG1"
+	    ]
+	},
+        {
+            "name": "HitEff_FPix_D3_Ring1_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"HitEff_FPix_REF_BmO_D3_BLD3_PNL1_RNG1",
+		"HitEff_FPix_BmI_D3_BLD10_PNL1_RNG1",
+		"HitEff_FPix_BmI_D3_BLD11_PNL1_RNG1",
+		"HitEff_FPix_BmI_D3_BLD9_PNL1_RNG1",
+		"HitEff_FPix_BpI_D3_BLD7_PNL1_RNG1",
+		"HitEff_FPix_BpI_D3_BLD8_PNL1_RNG1",
+		"HitEff_FPix_BpO_D3_BLD10_PNL1_RNG1",
+		"HitEff_FPix_BpO_D3_BLD11_PNL1_RNG1",
+		"HitEff_FPix_BpO_D3_BLD9_PNL1_RNG1"
+	    ]
+	},
+        {
+            "name": "ClusterCharge_FPix_D1_Ring2_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"ClusterCharge_FPix_REF_BpO_D1_BLD10_PNL1_RNG2",
+	        "ClusterCharge_FPix_BmO_D1_BLD2_PNL2_RNG2",
+		"ClusterCharge_FPix_BmO_D1_BLD3_PNL2_RNG2",
+		"ClusterCharge_FPix_BmO_D1_BLD4_PNL2_RNG2",
+		"ClusterCharge_FPix_BpI_D1_BLD1_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D1_BLD2_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D1_BLD3_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D1_BLD4_PNL1_RNG2",
+		"ClusterCharge_FPix_BpO_D1_BLD5_PNL1_RNG2",
+		"ClusterCharge_FPix_BpO_D1_BLD6_PNL1_RNG2",
+		"ClusterCharge_FPix_BpO_D1_BLD8_PNL1_RNG2",
+		"ClusterCharge_FPix_BpO_D1_BLD9_PNL1_RNG2"
+	    ]
+	},
+        {
+            "name": "ClusterSize_FPix_D1_Ring2_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"ClusterSize_FPix_REF_BpO_D1_BLD10_PNL1_RNG2",
+	        "ClusterSize_FPix_BmO_D1_BLD2_PNL2_RNG2",
+		"ClusterSize_FPix_BmO_D1_BLD3_PNL2_RNG2",
+		"ClusterSize_FPix_BmO_D1_BLD4_PNL2_RNG2",
+		"ClusterSize_FPix_BpI_D1_BLD1_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D1_BLD2_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D1_BLD3_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D1_BLD4_PNL1_RNG2",
+		"ClusterSize_FPix_BpO_D1_BLD5_PNL1_RNG2",
+		"ClusterSize_FPix_BpO_D1_BLD6_PNL1_RNG2",
+		"ClusterSize_FPix_BpO_D1_BLD8_PNL1_RNG2",
+		"ClusterSize_FPix_BpO_D1_BLD9_PNL1_RNG2"
+	    ]
+	},
+        {
+            "name": "ClusterRatio_FPix_D1_Ring2_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"ClusterRatio_FPix_REF_BpO_D1_BLD10_PNL1_RNG2",
+	        "ClusterRatio_FPix_BmO_D1_BLD2_PNL2_RNG2",
+		"ClusterRatio_FPix_BmO_D1_BLD3_PNL2_RNG2",
+		"ClusterRatio_FPix_BmO_D1_BLD4_PNL2_RNG2",
+		"ClusterRatio_FPix_BpI_D1_BLD1_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D1_BLD2_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D1_BLD3_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D1_BLD4_PNL1_RNG2",
+		"ClusterRatio_FPix_BpO_D1_BLD5_PNL1_RNG2",
+		"ClusterRatio_FPix_BpO_D1_BLD6_PNL1_RNG2",
+		"ClusterRatio_FPix_BpO_D1_BLD8_PNL1_RNG2",
+		"ClusterRatio_FPix_BpO_D1_BLD9_PNL1_RNG2"
+	    ]
+	},
+        {
+            "name": "HitEff_FPix_D1_Ring2_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"HitEff_FPix_REF_BpO_D1_BLD10_PNL1_RNG2",
+	        "HitEff_FPix_BmO_D1_BLD2_PNL2_RNG2",
+		"HitEff_FPix_BmO_D1_BLD3_PNL2_RNG2",
+		"HitEff_FPix_BmO_D1_BLD4_PNL2_RNG2",
+		"HitEff_FPix_BpI_D1_BLD1_PNL1_RNG2",
+		"HitEff_FPix_BpI_D1_BLD2_PNL1_RNG2",
+		"HitEff_FPix_BpI_D1_BLD3_PNL1_RNG2",
+		"HitEff_FPix_BpI_D1_BLD4_PNL1_RNG2",
+		"HitEff_FPix_BpO_D1_BLD5_PNL1_RNG2",
+		"HitEff_FPix_BpO_D1_BLD6_PNL1_RNG2",
+		"HitEff_FPix_BpO_D1_BLD8_PNL1_RNG2",
+		"HitEff_FPix_BpO_D1_BLD9_PNL1_RNG2"
+	    ]
+	},
+        {
+            "name": "ClusterCharge_FPix_D2_Ring2_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"ClusterCharge_FPix_REF_BpO_D2_BLD10_PNL1_RNG2",
+	        "ClusterCharge_FPix_BmI_D2_BLD14_PNL2_RNG2",
+		"ClusterCharge_FPix_BmI_D2_BLD15_PNL2_RNG2",
+		"ClusterCharge_FPix_BmI_D2_BLD16_PNL2_RNG2",
+		"ClusterCharge_FPix_BmI_D2_BLD17_PNL2_RNG2",
+		"ClusterCharge_FPix_BmO_D2_BLD5_PNL2_RNG2",
+		"ClusterCharge_FPix_BmO_D2_BLD6_PNL2_RNG2",
+		"ClusterCharge_FPix_BmO_D2_BLD7_PNL2_RNG2",
+		"ClusterCharge_FPix_BmO_D2_BLD8_PNL2_RNG2",
+		"ClusterCharge_FPix_BpI_D2_BLD10_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D2_BLD12_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D2_BLD13_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D2_BLD5_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D2_BLD6_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D2_BLD7_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D2_BLD8_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D2_BLD9_PNL1_RNG2"
+	    ]
+	},
+        {
+            "name": "ClusterSize_FPix_D2_Ring2_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"ClusterSize_FPix_REF_BpO_D2_BLD10_PNL1_RNG2",
+	        "ClusterSize_FPix_BmI_D2_BLD14_PNL2_RNG2",
+		"ClusterSize_FPix_BmI_D2_BLD15_PNL2_RNG2",
+		"ClusterSize_FPix_BmI_D2_BLD16_PNL2_RNG2",
+		"ClusterSize_FPix_BmI_D2_BLD17_PNL2_RNG2",
+		"ClusterSize_FPix_BmO_D2_BLD5_PNL2_RNG2",
+		"ClusterSize_FPix_BmO_D2_BLD6_PNL2_RNG2",
+		"ClusterSize_FPix_BmO_D2_BLD7_PNL2_RNG2",
+		"ClusterSize_FPix_BmO_D2_BLD8_PNL2_RNG2",
+		"ClusterSize_FPix_BpI_D2_BLD10_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D2_BLD12_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D2_BLD13_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D2_BLD5_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D2_BLD6_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D2_BLD7_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D2_BLD8_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D2_BLD9_PNL1_RNG2"
+	    ]
+	},
+        {
+            "name": "ClusterRatio_FPix_D2_Ring2_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"ClusterRatio_FPix_REF_BpO_D2_BLD10_PNL1_RNG2",
+	        "ClusterRatio_FPix_BmI_D2_BLD14_PNL2_RNG2",
+		"ClusterRatio_FPix_BmI_D2_BLD15_PNL2_RNG2",
+		"ClusterRatio_FPix_BmI_D2_BLD16_PNL2_RNG2",
+		"ClusterRatio_FPix_BmI_D2_BLD17_PNL2_RNG2",
+		"ClusterRatio_FPix_BmO_D2_BLD5_PNL2_RNG2",
+		"ClusterRatio_FPix_BmO_D2_BLD6_PNL2_RNG2",
+		"ClusterRatio_FPix_BmO_D2_BLD7_PNL2_RNG2",
+		"ClusterRatio_FPix_BmO_D2_BLD8_PNL2_RNG2",
+		"ClusterRatio_FPix_BpI_D2_BLD10_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D2_BLD12_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D2_BLD13_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D2_BLD5_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D2_BLD6_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D2_BLD7_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D2_BLD8_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D2_BLD9_PNL1_RNG2"
+	    ]
+	},
+        {
+            "name": "HitEff_FPix_D2_Ring2_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"HitEff_FPix_REF_BpO_D2_BLD10_PNL1_RNG2",
+	        "HitEff_FPix_BmI_D2_BLD14_PNL2_RNG2",
+		"HitEff_FPix_BmI_D2_BLD15_PNL2_RNG2",
+		"HitEff_FPix_BmI_D2_BLD16_PNL2_RNG2",
+		"HitEff_FPix_BmI_D2_BLD17_PNL2_RNG2",
+		"HitEff_FPix_BmO_D2_BLD5_PNL2_RNG2",
+		"HitEff_FPix_BmO_D2_BLD6_PNL2_RNG2",
+		"HitEff_FPix_BmO_D2_BLD7_PNL2_RNG2",
+		"HitEff_FPix_BmO_D2_BLD8_PNL2_RNG2",
+		"HitEff_FPix_BpI_D2_BLD10_PNL1_RNG2",
+		"HitEff_FPix_BpI_D2_BLD12_PNL1_RNG2",
+		"HitEff_FPix_BpI_D2_BLD13_PNL1_RNG2",
+		"HitEff_FPix_BpI_D2_BLD5_PNL1_RNG2",
+		"HitEff_FPix_BpI_D2_BLD6_PNL1_RNG2",
+		"HitEff_FPix_BpI_D2_BLD7_PNL1_RNG2",
+		"HitEff_FPix_BpI_D2_BLD8_PNL1_RNG2",
+		"HitEff_FPix_BpI_D2_BLD9_PNL1_RNG2"
+	    ]
+	},
+        {
+            "name": "ClusterCharge_FPix_D3_Ring2_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"ClusterCharge_FPix_REF_BpO_D3_BLD10_PNL1_RNG2",
+	        "ClusterCharge_FPix_BmI_D3_BLD10_PNL2_RNG2",
+		"ClusterCharge_FPix_BmI_D3_BLD11_PNL2_RNG2",
+		"ClusterCharge_FPix_BmI_D3_BLD12_PNL2_RNG2",
+		"ClusterCharge_FPix_BmI_D3_BLD13_PNL2_RNG2",
+		"ClusterCharge_FPix_BpI_D3_BLD10_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D3_BLD11_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D3_BLD12_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D3_BLD13_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D3_BLD14_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D3_BLD15_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D3_BLD16_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D3_BLD17_PNL1_RNG2",
+		"ClusterCharge_FPix_BpI_D3_BLD9_PNL1_RNG2",
+		"ClusterCharge_FPix_BpO_D3_BLD1_PNL1_RNG2",
+		"ClusterCharge_FPix_BpO_D3_BLD2_PNL1_RNG2",
+		"ClusterCharge_FPix_BpO_D3_BLD3_PNL1_RNG2",
+		"ClusterCharge_FPix_BpO_D3_BLD4_PNL1_RNG2"
+	    ]
+	},
+        {
+            "name": "ClusterSize_FPix_D3_Ring2_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"ClusterSize_FPix_REF_BpO_D3_BLD10_PNL1_RNG2",
+	        "ClusterSize_FPix_BmI_D3_BLD10_PNL2_RNG2",
+		"ClusterSize_FPix_BmI_D3_BLD11_PNL2_RNG2",
+		"ClusterSize_FPix_BmI_D3_BLD12_PNL2_RNG2",
+		"ClusterSize_FPix_BmI_D3_BLD13_PNL2_RNG2",
+		"ClusterSize_FPix_BpI_D3_BLD10_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D3_BLD11_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D3_BLD12_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D3_BLD13_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D3_BLD14_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D3_BLD15_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D3_BLD16_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D3_BLD17_PNL1_RNG2",
+		"ClusterSize_FPix_BpI_D3_BLD9_PNL1_RNG2",
+		"ClusterSize_FPix_BpO_D3_BLD1_PNL1_RNG2",
+		"ClusterSize_FPix_BpO_D3_BLD2_PNL1_RNG2",
+		"ClusterSize_FPix_BpO_D3_BLD3_PNL1_RNG2",
+		"ClusterSize_FPix_BpO_D3_BLD4_PNL1_RNG2"
+	    ]
+	},
+        {
+            "name": "ClusterRatio_FPix_D3_Ring2_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"ClusterRatio_FPix_REF_BpO_D3_BLD10_PNL1_RNG2",
+	        "ClusterRatio_FPix_BmI_D3_BLD10_PNL2_RNG2",
+		"ClusterRatio_FPix_BmI_D3_BLD11_PNL2_RNG2",
+		"ClusterRatio_FPix_BmI_D3_BLD12_PNL2_RNG2",
+		"ClusterRatio_FPix_BmI_D3_BLD13_PNL2_RNG2",
+		"ClusterRatio_FPix_BpI_D3_BLD10_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D3_BLD11_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D3_BLD12_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D3_BLD13_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D3_BLD14_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D3_BLD15_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D3_BLD16_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D3_BLD17_PNL1_RNG2",
+		"ClusterRatio_FPix_BpI_D3_BLD9_PNL1_RNG2",
+		"ClusterRatio_FPix_BpO_D3_BLD1_PNL1_RNG2",
+		"ClusterRatio_FPix_BpO_D3_BLD2_PNL1_RNG2",
+		"ClusterRatio_FPix_BpO_D3_BLD3_PNL1_RNG2",
+		"ClusterRatio_FPix_BpO_D3_BLD4_PNL1_RNG2"
+	    ]
+	},
+        {
+            "name": "HitEff_FPix_D3_Ring2_BehindBrokenDCDC",
+            "corr": false,
+            "files": [
+		"HitEff_FPix_REF_BpO_D3_BLD10_PNL1_RNG2",
+	        "HitEff_FPix_BmI_D3_BLD10_PNL2_RNG2",
+		"HitEff_FPix_BmI_D3_BLD11_PNL2_RNG2",
+		"HitEff_FPix_BmI_D3_BLD12_PNL2_RNG2",
+		"HitEff_FPix_BmI_D3_BLD13_PNL2_RNG2",
+		"HitEff_FPix_BpI_D3_BLD10_PNL1_RNG2",
+		"HitEff_FPix_BpI_D3_BLD11_PNL1_RNG2",
+		"HitEff_FPix_BpI_D3_BLD12_PNL1_RNG2",
+		"HitEff_FPix_BpI_D3_BLD13_PNL1_RNG2",
+		"HitEff_FPix_BpI_D3_BLD14_PNL1_RNG2",
+		"HitEff_FPix_BpI_D3_BLD15_PNL1_RNG2",
+		"HitEff_FPix_BpI_D3_BLD16_PNL1_RNG2",
+		"HitEff_FPix_BpI_D3_BLD17_PNL1_RNG2",
+		"HitEff_FPix_BpI_D3_BLD9_PNL1_RNG2",
+		"HitEff_FPix_BpO_D3_BLD1_PNL1_RNG2",
+		"HitEff_FPix_BpO_D3_BLD2_PNL1_RNG2",
+		"HitEff_FPix_BpO_D3_BLD3_PNL1_RNG2",
+		"HitEff_FPix_BpO_D3_BLD4_PNL1_RNG2"
+	    ]
+	},
+        {
+            "name": "LowOccROCs_ratio_BmI_L1",
+            "corr": false,
+            "files": [
+                "BmI_LDR1_MOD1_ROC6",
+		"BmI_LDR1_MOD2_ROC8",
+		"BmI_LDR4_MOD2_ROC5",
+		"BmI_LDR5_MOD1_ROC2",
+		"BmI_LDR5_MOD1_ROC5",
+		"BmI_LDR6_MOD1_ROC11",
+		"BmI_LDR6_MOD1_ROC7",
+		"BmI_LDR6_MOD1_ROC8",
+		"BmI_LDR3_MOD2_ROC10_GOOD",
+		"BmI_LDR6_MOD4_ROC15_GOOD"
+            ]
+        },
+        {
+            "name": "LowOccROCs_ratio_BmO_L1",
+            "corr": false,
+            "files": [
+                "BmO_LDR1_MOD1_ROC15",
+		"BmO_LDR1_MOD1_ROC8",
+		"BmO_LDR1_MOD2_ROC10",
+		"BmO_LDR1_MOD2_ROC13",
+		"BmO_LDR1_MOD2_ROC5",
+		"BmO_LDR1_MOD2_ROC7",
+		"BmO_LDR4_MOD1_ROC9",
+		"BmO_LDR4_MOD2_ROC15",
+		"BmO_LDR6_MOD1_ROC7",
+		"BmO_LDR6_MOD1_ROC8",
+		"BmO_LDR2_MOD3_ROC4_GOOD",
+		"BmO_LDR4_MOD1_ROC11_GOOD"
+            ]
+        },
+        {
+            "name": "LowOccROCs_ratio_BpI_L1",
+            "corr": false,
+            "files": [
+	    	"BpI_LDR4_MOD1_ROC10",
+	    	"BpI_LDR3_MOD1_ROC5_GOOD",
+		"BpI_LDR5_MOD3_ROC8_GOOD"
+            ]
+        },
+        {
+            "name": "LowOccROCs_ratio_BpO_L1",
+            "corr": false,
+            "files": [
+                "BpO_LDR1_MOD1_ROC13",
+		"BpO_LDR1_MOD1_ROC14",
+		"BpO_LDR1_MOD2_ROC11",
+		"BpO_LDR1_MOD2_ROC2",
+		"BpO_LDR1_MOD2_ROC6",
+		"BpO_LDR4_MOD2_ROC14",
+		"BpO_LDR4_MOD2_ROC5",
+		"BpO_LDR4_MOD2_ROC7",
+		"BpO_LDR2_MOD2_ROC1_GOOD",
+		"BpO_LDR6_MOD3_ROC6_GOOD"
             ]
         }
     ],
@@ -3164,6 +4531,20 @@
             ]
         },
         {
+            "name": "RecHitPerTrack_Pixel_mean",
+            "corr": false,
+            "files": [
+                "RecHitPerTrack_Pixel_mean"
+            ]
+        },
+        {
+            "name": "RecHitPerTrack_Strip_mean",
+            "corr": false,
+            "files": [
+                "RecHitPerTrack_Strip_mean"
+            ]
+        },
+        {
             "name": "TrackChisquared_mean",
             "corr": false,
             "files": [
@@ -3203,6 +4584,62 @@
             "corr": false,
             "files": [
                 "IncrementalNumberOfALCARecoTracks"
+            ]
+        },
+        {
+            "name": "dxyVsPhi_Average",
+            "corr": false,
+            "files": [
+	    	"dxyVsPhi_average"
+            ]
+        },
+        {
+            "name": "dxyVsPhi_MaxExcursion",
+            "corr": false,
+            "files": [
+	    	"dxyVsPhi_MaxExcursion"
+            ]
+        },
+        {
+            "name": "dxyVsEta_Average",
+            "corr": false,
+            "files": [
+	    	"dxyVsEta_average"
+            ]
+        },
+        {
+            "name": "dxyVsEta_MaxExcursion",
+            "corr": false,
+            "files": [
+	    	"dxyVsEta_MaxExcursion"
+            ]
+        },
+        {
+            "name": "dzVsPhi_Average",
+            "corr": false,
+            "files": [
+	    	"dzVsPhi_average"
+            ]
+        },
+        {
+            "name": "dzVsPhi_MaxExcursion",
+            "corr": false,
+            "files": [
+	    	"dzVsPhi_MaxExcursion"
+            ]
+        },
+        {
+            "name": "dzVsEta_Average",
+            "corr": false,
+            "files": [
+	    	"dzVsEta_average"
+            ]
+        },
+        {
+            "name": "dzVsEta_MaxExcursion",
+            "corr": false,
+            "files": [
+	    	"dzVsEta_MaxExcursion"
             ]
         }
     ],
@@ -3365,6 +4802,212 @@
             "corr": false,
             "files": [
                 "Main_Diagonal_Position"
+            ]
+        },
+        {
+            "name": "BadComponents_Strips",
+            "corr": false,
+            "files": [
+		"BadStripsFraction_TEC",
+		"BadStripsFraction_TIB",
+		"BadStripsFraction_TID",
+		"BadStripsFraction_TOB",
+	        "BadStripsFraction_Global"
+            ]
+        },
+        {
+            "name": "BadComponents_Fibers",
+            "corr": false,
+            "files": [
+		"BadFiberFraction_TEC",
+		"BadFiberFraction_TIB",
+		"BadFiberFraction_TID",
+		"BadFiberFraction_TOB",
+	        "BadFiberFraction_Global"
+            ]
+        },
+        {
+            "name": "BadComponents_APVs",
+            "corr": false,
+            "files": [
+		"BadAPVFraction_TEC",
+		"BadAPVFraction_TIB",
+		"BadAPVFraction_TID",
+		"BadAPVFraction_TOB",
+	        "BadAPVFraction_Global"
+            ]
+        },
+        {
+            "name": "InefficientModules",
+            "corr": false,
+            "files": [
+		"TIB Inefficient Modules",
+		"TID Inefficient Modules",
+		"TOB Inefficient Modules",
+		"TEC Inefficient Modules",
+		"Tracker Inefficient Modules"
+            ]
+        },
+        {
+            "name": "InefficientModulesTIB",
+            "corr": false,
+            "files": [
+		"TIBLayer1 Inefficient Modules",
+		"TIBLayer2 Inefficient Modules",
+		"TIBLayer3 Inefficient Modules",
+		"TIBLayer4 Inefficient Modules"
+            ]
+        },
+        {
+            "name": "InefficientModulesTID",
+            "corr": false,
+            "files": [
+		"TIDmDisk1 Inefficient Modules",
+		"TIDmDisk2 Inefficient Modules",
+		"TIDmDisk3 Inefficient Modules",
+		"TIDpDisk1 Inefficient Modules",
+		"TIDpDisk2 Inefficient Modules",
+		"TIDpDisk3 Inefficient Modules"
+            ]
+        },
+        {
+            "name": "InefficientModulesTOB",
+            "corr": false,
+            "files": [
+		"TOBLayer1 Inefficient Modules",
+		"TOBLayer2 Inefficient Modules",
+		"TOBLayer3 Inefficient Modules",
+		"TOBLayer4 Inefficient Modules",
+		"TOBLayer5 Inefficient Modules",
+		"TOBLayer6 Inefficient Modules"
+            ]
+        },
+        {
+            "name": "InefficientModulesTECMinus",
+            "corr": false,
+            "files": [
+		"TECmDisk1 Inefficient Modules",
+		"TECmDisk2 Inefficient Modules",
+		"TECmDisk3 Inefficient Modules",
+		"TECmDisk4 Inefficient Modules",
+		"TECmDisk5 Inefficient Modules",
+		"TECmDisk6 Inefficient Modules",
+		"TECmDisk7 Inefficient Modules",
+		"TECmDisk8 Inefficient Modules",
+		"TECmDisk9 Inefficient Modules"
+            ]
+        },
+        {
+            "name": "InefficientModulesTECPlus",
+            "corr": false,
+            "files": [
+		"TECpDisk1 Inefficient Modules",
+		"TECpDisk2 Inefficient Modules",
+		"TECpDisk3 Inefficient Modules",
+		"TECpDisk4 Inefficient Modules",
+		"TECpDisk5 Inefficient Modules",
+		"TECpDisk6 Inefficient Modules",
+		"TECpDisk7 Inefficient Modules",
+		"TECpDisk8 Inefficient Modules",
+		"TECpDisk9 Inefficient Modules"
+            ]
+        },
+        {
+            "name": "FED50_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED50"
+            ]
+        },
+        {
+            "name": "FED101_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED101"
+            ]
+        },
+        {
+            "name": "FED137_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED137"
+            ]
+        },
+        {
+            "name": "FED160_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED160"
+            ]
+        },
+        {
+            "name": "FED167_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED167"
+            ]
+        },
+        {
+            "name": "FED187_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED187"
+            ]
+        },
+        {
+            "name": "FED188_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED188"
+            ]
+        },
+        {
+            "name": "FED244_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED244"
+            ]
+        },
+        {
+            "name": "FED258_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED258"
+            ]
+        },
+        {
+            "name": "FED289_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED289"
+            ]
+        },
+        {
+            "name": "FED297_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED297"
+            ]
+        },
+        {
+            "name": "FED434_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED434"
+            ]
+        },
+        {
+            "name": "FED437_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED437"
+            ]
+        },
+        {
+            "name": "FED439_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED439"
             ]
         },
         {
@@ -3551,286 +5194,142 @@
             ]
         },
         {
-            "name": "HitResiduals_TIB_layer1_mean",
+            "name": "HitResiduals_TIB_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TIB_layer1_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer1_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer1_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer2_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer2_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer2_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer2_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer3_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer3_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer3_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer3_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer4_mean",
-            "corr": false,
-            "files": [
+                "HitResiduals_TIB_layer1_mean",
+                "HitResiduals_TIB_layer2_mean",
+                "HitResiduals_TIB_layer3_mean",
                 "HitResiduals_TIB_layer4_mean"
             ]
         },
         {
-            "name": "HitResiduals_TIB_layer4_rms",
+            "name": "HitResiduals_TIB_rms",
             "corr": false,
             "files": [
+                "HitResiduals_TIB_layer1_rms",
+                "HitResiduals_TIB_layer2_rms",
+                "HitResiduals_TIB_layer3_rms",
                 "HitResiduals_TIB_layer4_rms"
             ]
         },
         {
-            "name": "HitResiduals_TOB_layer1_mean",
+            "name": "HitResiduals_TID_MINUS_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer1_mean"
-            ]
-        },
+                "HitResiduals_TID_MINUS_wheel1_mean",
+                "HitResiduals_TID_MINUS_wheel2_mean",
+                "HitResiduals_TID_MINUS_wheel3_mean"
+	    ]
+	},
         {
-            "name": "HitResiduals_TOB_layer1_rms",
+            "name": "HitResiduals_TID_MINUS_rms",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer1_rms"
-            ]
-        },
+                "HitResiduals_TID_MINUS_wheel1_rms",
+                "HitResiduals_TID_MINUS_wheel2_rms",
+                "HitResiduals_TID_MINUS_wheel3_rms"
+	    ]
+	},
         {
-            "name": "HitResiduals_TOB_layer2_mean",
+            "name": "HitResiduals_TID_PLUS_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer2_mean"
-            ]
-        },
+                "HitResiduals_TID_PLUS_wheel1_mean",
+                "HitResiduals_TID_PLUS_wheel2_mean",
+                "HitResiduals_TID_PLUS_wheel3_mean"
+	    ]
+	},
         {
-            "name": "HitResiduals_TOB_layer2_rms",
+            "name": "HitResiduals_TID_PLUS_rms",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer2_rms"
-            ]
-        },
+                "HitResiduals_TID_PLUS_wheel1_rms",
+                "HitResiduals_TID_PLUS_wheel2_rms",
+                "HitResiduals_TID_PLUS_wheel3_rms"
+	    ]
+	},
         {
-            "name": "HitResiduals_TOB_layer3_mean",
+            "name": "HitResiduals_TOB_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer3_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer3_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer3_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer4_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer4_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer4_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer4_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer5_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer5_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer5_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer5_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer6_mean",
-            "corr": false,
-            "files": [
+                "HitResiduals_TOB_layer1_mean",
+                "HitResiduals_TOB_layer2_mean",
+                "HitResiduals_TOB_layer3_mean",
+                "HitResiduals_TOB_layer4_mean",
+                "HitResiduals_TOB_layer5_mean",
                 "HitResiduals_TOB_layer6_mean"
             ]
         },
         {
-            "name": "HitResiduals_TOB_layer6_rms",
+            "name": "HitResiduals_TOB_rms",
             "corr": false,
             "files": [
+                "HitResiduals_TOB_layer1_rms",
+                "HitResiduals_TOB_layer2_rms",
+                "HitResiduals_TOB_layer3_rms",
+                "HitResiduals_TOB_layer4_rms",
+                "HitResiduals_TOB_layer5_rms",
                 "HitResiduals_TOB_layer6_rms"
             ]
         },
         {
-            "name": "HitResiduals_TEC_MINUS_wheel1_mean",
+            "name": "HitResiduals_TEC_MINUS_mean",
             "corr": false,
             "files": [
                 "HitResiduals_TEC_MINUS_wheel1_mean",
-                "HitResiduals_TEC_PLUS_wheel1_mean"
+                "HitResiduals_TEC_MINUS_wheel2_mean",
+                "HitResiduals_TEC_MINUS_wheel3_mean",
+                "HitResiduals_TEC_MINUS_wheel4_mean",
+                "HitResiduals_TEC_MINUS_wheel5_mean",
+                "HitResiduals_TEC_MINUS_wheel6_mean",
+                "HitResiduals_TEC_MINUS_wheel7_mean",
+                "HitResiduals_TEC_MINUS_wheel8_mean",
+                "HitResiduals_TEC_MINUS_wheel9_mean"
             ]
         },
         {
-            "name": "HitResiduals_TEC_MINUS_wheel1_rms",
+            "name": "HitResiduals_TEC_MINUS_rms",
             "corr": false,
             "files": [
                 "HitResiduals_TEC_MINUS_wheel1_rms",
-                "HitResiduals_TEC_PLUS_wheel1_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel2_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel2_mean",
-                "HitResiduals_TEC_PLUS_wheel2_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel2_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel2_rms",
-                "HitResiduals_TEC_PLUS_wheel2_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel3_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel3_mean",
-                "HitResiduals_TEC_PLUS_wheel3_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel3_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel3_rms",
-                "HitResiduals_TEC_PLUS_wheel3_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel4_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel4_mean",
-                "HitResiduals_TEC_PLUS_wheel4_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel4_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel4_rms",
-                "HitResiduals_TEC_PLUS_wheel4_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel5_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel5_mean",
-                "HitResiduals_TEC_PLUS_wheel5_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel5_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel5_rms",
-                "HitResiduals_TEC_PLUS_wheel5_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel6_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel6_mean",
-                "HitResiduals_TEC_PLUS_wheel6_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel6_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel6_rms",
-                "HitResiduals_TEC_PLUS_wheel6_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel7_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel7_mean",
-                "HitResiduals_TEC_PLUS_wheel7_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel7_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel7_rms",
-                "HitResiduals_TEC_PLUS_wheel7_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel8_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel8_mean",
-                "HitResiduals_TEC_PLUS_wheel8_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel8_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel8_rms",
-                "HitResiduals_TEC_PLUS_wheel8_rms"
+                "HitResiduals_TEC_MINUS_wheel9_rms"
             ]
         },
         {
-            "name": "HitResiduals_TEC_MINUS_wheel9_mean",
+            "name": "HitResiduals_TEC_PLUS_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TEC_MINUS_wheel9_mean",
+                "HitResiduals_TEC_PLUS_wheel1_mean",
+                "HitResiduals_TEC_PLUS_wheel2_mean",
+                "HitResiduals_TEC_PLUS_wheel3_mean",
+                "HitResiduals_TEC_PLUS_wheel4_mean",
+                "HitResiduals_TEC_PLUS_wheel5_mean",
+                "HitResiduals_TEC_PLUS_wheel6_mean",
+                "HitResiduals_TEC_PLUS_wheel7_mean",
+                "HitResiduals_TEC_PLUS_wheel8_mean",
                 "HitResiduals_TEC_PLUS_wheel9_mean"
             ]
         },
         {
-            "name": "HitResiduals_TEC_MINUS_wheel9_rms",
+            "name": "HitResiduals_TEC_PLUS_rms",
             "corr": false,
             "files": [
-                "HitResiduals_TEC_MINUS_wheel9_rms",
+                "HitResiduals_TEC_PLUS_wheel1_rms",
+                "HitResiduals_TEC_PLUS_wheel2_rms",
+                "HitResiduals_TEC_PLUS_wheel3_rms",
+                "HitResiduals_TEC_PLUS_wheel4_rms",
+                "HitResiduals_TEC_PLUS_wheel5_rms",
+                "HitResiduals_TEC_PLUS_wheel6_rms",
+                "HitResiduals_TEC_PLUS_wheel7_rms",
+                "HitResiduals_TEC_PLUS_wheel8_rms",
                 "HitResiduals_TEC_PLUS_wheel9_rms"
             ]
         },
@@ -4111,6 +5610,137 @@
             ]
         },
         {
+            "name": "BadComponents_Strips",
+            "corr": false,
+            "files": [
+		"BadStripsFraction_TEC",
+		"BadStripsFraction_TIB",
+		"BadStripsFraction_TID",
+		"BadStripsFraction_TOB",
+	        "BadStripsFraction_Global"
+            ]
+        },
+        {
+            "name": "BadComponents_Fibers",
+            "corr": false,
+            "files": [
+		"BadFiberFraction_TEC",
+		"BadFiberFraction_TIB",
+		"BadFiberFraction_TID",
+		"BadFiberFraction_TOB",
+	        "BadFiberFraction_Global"
+            ]
+        },
+        {
+            "name": "BadComponents_APVs",
+            "corr": false,
+            "files": [
+		"BadAPVFraction_TEC",
+		"BadAPVFraction_TIB",
+		"BadAPVFraction_TID",
+		"BadAPVFraction_TOB",
+	        "BadAPVFraction_Global"
+            ]
+        },
+        {
+            "name": "FED50_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED50"
+            ]
+        },
+        {
+            "name": "FED101_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED101"
+            ]
+        },
+        {
+            "name": "FED137_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED137"
+            ]
+        },
+        {
+            "name": "FED160_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED160"
+            ]
+        },
+        {
+            "name": "FED167_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED167"
+            ]
+        },
+        {
+            "name": "FED187_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED187"
+            ]
+        },
+        {
+            "name": "FED188_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED188"
+            ]
+        },
+        {
+            "name": "FED244_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED244"
+            ]
+        },
+        {
+            "name": "FED258_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED258"
+            ]
+        },
+        {
+            "name": "FED289_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED289"
+            ]
+        },
+        {
+            "name": "FED297_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED297"
+            ]
+        },
+        {
+            "name": "FED434_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED434"
+            ]
+        },
+        {
+            "name": "FED437_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED437"
+            ]
+        },
+        {
+            "name": "FED439_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED439"
+            ]
+        },
+        {
             "name": "NBad_ChannelStatusBit_count",
             "corr": false,
             "files": [
@@ -4294,286 +5924,142 @@
             ]
         },
         {
-            "name": "HitResiduals_TIB_layer1_mean",
+            "name": "HitResiduals_TIB_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TIB_layer1_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer1_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer1_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer2_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer2_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer2_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer2_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer3_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer3_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer3_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer3_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer4_mean",
-            "corr": false,
-            "files": [
+                "HitResiduals_TIB_layer1_mean",
+                "HitResiduals_TIB_layer2_mean",
+                "HitResiduals_TIB_layer3_mean",
                 "HitResiduals_TIB_layer4_mean"
             ]
         },
         {
-            "name": "HitResiduals_TIB_layer4_rms",
+            "name": "HitResiduals_TIB_rms",
             "corr": false,
             "files": [
+                "HitResiduals_TIB_layer1_rms",
+                "HitResiduals_TIB_layer2_rms",
+                "HitResiduals_TIB_layer3_rms",
                 "HitResiduals_TIB_layer4_rms"
             ]
         },
         {
-            "name": "HitResiduals_TOB_layer1_mean",
+            "name": "HitResiduals_TID_MINUS_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer1_mean"
-            ]
-        },
+                "HitResiduals_TID_MINUS_wheel1_mean",
+                "HitResiduals_TID_MINUS_wheel2_mean",
+                "HitResiduals_TID_MINUS_wheel3_mean"
+	    ]
+	},
         {
-            "name": "HitResiduals_TOB_layer1_rms",
+            "name": "HitResiduals_TID_MINUS_rms",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer1_rms"
-            ]
-        },
+                "HitResiduals_TID_MINUS_wheel1_rms",
+                "HitResiduals_TID_MINUS_wheel2_rms",
+                "HitResiduals_TID_MINUS_wheel3_rms"
+	    ]
+	},
         {
-            "name": "HitResiduals_TOB_layer2_mean",
+            "name": "HitResiduals_TID_PLUS_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer2_mean"
-            ]
-        },
+                "HitResiduals_TID_PLUS_wheel1_mean",
+                "HitResiduals_TID_PLUS_wheel2_mean",
+                "HitResiduals_TID_PLUS_wheel3_mean"
+	    ]
+	},
         {
-            "name": "HitResiduals_TOB_layer2_rms",
+            "name": "HitResiduals_TID_PLUS_rms",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer2_rms"
-            ]
-        },
+                "HitResiduals_TID_PLUS_wheel1_rms",
+                "HitResiduals_TID_PLUS_wheel2_rms",
+                "HitResiduals_TID_PLUS_wheel3_rms"
+	    ]
+	},
         {
-            "name": "HitResiduals_TOB_layer3_mean",
+            "name": "HitResiduals_TOB_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer3_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer3_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer3_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer4_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer4_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer4_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer4_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer5_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer5_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer5_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer5_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer6_mean",
-            "corr": false,
-            "files": [
+                "HitResiduals_TOB_layer1_mean",
+                "HitResiduals_TOB_layer2_mean",
+                "HitResiduals_TOB_layer3_mean",
+                "HitResiduals_TOB_layer4_mean",
+                "HitResiduals_TOB_layer5_mean",
                 "HitResiduals_TOB_layer6_mean"
             ]
         },
         {
-            "name": "HitResiduals_TOB_layer6_rms",
+            "name": "HitResiduals_TOB_rms",
             "corr": false,
             "files": [
+                "HitResiduals_TOB_layer1_rms",
+                "HitResiduals_TOB_layer2_rms",
+                "HitResiduals_TOB_layer3_rms",
+                "HitResiduals_TOB_layer4_rms",
+                "HitResiduals_TOB_layer5_rms",
                 "HitResiduals_TOB_layer6_rms"
             ]
         },
         {
-            "name": "HitResiduals_TEC_MINUS_wheel1_mean",
+            "name": "HitResiduals_TEC_MINUS_mean",
             "corr": false,
             "files": [
                 "HitResiduals_TEC_MINUS_wheel1_mean",
-                "HitResiduals_TEC_PLUS_wheel1_mean"
+                "HitResiduals_TEC_MINUS_wheel2_mean",
+                "HitResiduals_TEC_MINUS_wheel3_mean",
+                "HitResiduals_TEC_MINUS_wheel4_mean",
+                "HitResiduals_TEC_MINUS_wheel5_mean",
+                "HitResiduals_TEC_MINUS_wheel6_mean",
+                "HitResiduals_TEC_MINUS_wheel7_mean",
+                "HitResiduals_TEC_MINUS_wheel8_mean",
+                "HitResiduals_TEC_MINUS_wheel9_mean"
             ]
         },
         {
-            "name": "HitResiduals_TEC_MINUS_wheel1_rms",
+            "name": "HitResiduals_TEC_MINUS_rms",
             "corr": false,
             "files": [
                 "HitResiduals_TEC_MINUS_wheel1_rms",
-                "HitResiduals_TEC_PLUS_wheel1_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel2_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel2_mean",
-                "HitResiduals_TEC_PLUS_wheel2_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel2_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel2_rms",
-                "HitResiduals_TEC_PLUS_wheel2_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel3_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel3_mean",
-                "HitResiduals_TEC_PLUS_wheel3_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel3_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel3_rms",
-                "HitResiduals_TEC_PLUS_wheel3_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel4_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel4_mean",
-                "HitResiduals_TEC_PLUS_wheel4_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel4_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel4_rms",
-                "HitResiduals_TEC_PLUS_wheel4_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel5_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel5_mean",
-                "HitResiduals_TEC_PLUS_wheel5_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel5_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel5_rms",
-                "HitResiduals_TEC_PLUS_wheel5_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel6_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel6_mean",
-                "HitResiduals_TEC_PLUS_wheel6_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel6_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel6_rms",
-                "HitResiduals_TEC_PLUS_wheel6_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel7_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel7_mean",
-                "HitResiduals_TEC_PLUS_wheel7_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel7_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel7_rms",
-                "HitResiduals_TEC_PLUS_wheel7_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel8_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel8_mean",
-                "HitResiduals_TEC_PLUS_wheel8_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel8_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel8_rms",
-                "HitResiduals_TEC_PLUS_wheel8_rms"
+                "HitResiduals_TEC_MINUS_wheel9_rms"
             ]
         },
         {
-            "name": "HitResiduals_TEC_MINUS_wheel9_mean",
+            "name": "HitResiduals_TEC_PLUS_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TEC_MINUS_wheel9_mean",
+                "HitResiduals_TEC_PLUS_wheel1_mean",
+                "HitResiduals_TEC_PLUS_wheel2_mean",
+                "HitResiduals_TEC_PLUS_wheel3_mean",
+                "HitResiduals_TEC_PLUS_wheel4_mean",
+                "HitResiduals_TEC_PLUS_wheel5_mean",
+                "HitResiduals_TEC_PLUS_wheel6_mean",
+                "HitResiduals_TEC_PLUS_wheel7_mean",
+                "HitResiduals_TEC_PLUS_wheel8_mean",
                 "HitResiduals_TEC_PLUS_wheel9_mean"
             ]
         },
         {
-            "name": "HitResiduals_TEC_MINUS_wheel9_rms",
+            "name": "HitResiduals_TEC_PLUS_rms",
             "corr": false,
             "files": [
-                "HitResiduals_TEC_MINUS_wheel9_rms",
+                "HitResiduals_TEC_PLUS_wheel1_rms",
+                "HitResiduals_TEC_PLUS_wheel2_rms",
+                "HitResiduals_TEC_PLUS_wheel3_rms",
+                "HitResiduals_TEC_PLUS_wheel4_rms",
+                "HitResiduals_TEC_PLUS_wheel5_rms",
+                "HitResiduals_TEC_PLUS_wheel6_rms",
+                "HitResiduals_TEC_PLUS_wheel7_rms",
+                "HitResiduals_TEC_PLUS_wheel8_rms",
                 "HitResiduals_TEC_PLUS_wheel9_rms"
             ]
         },
@@ -4696,6 +6182,137 @@
             ]
         },
         {
+            "name": "BadComponents_Strips",
+            "corr": false,
+            "files": [
+		"BadStripsFraction_TEC",
+		"BadStripsFraction_TIB",
+		"BadStripsFraction_TID",
+		"BadStripsFraction_TOB",
+	        "BadStripsFraction_Global"
+            ]
+        },
+        {
+            "name": "BadComponents_Fibers",
+            "corr": false,
+            "files": [
+		"BadFiberFraction_TEC",
+		"BadFiberFraction_TIB",
+		"BadFiberFraction_TID",
+		"BadFiberFraction_TOB",
+	        "BadFiberFraction_Global"
+            ]
+        },
+        {
+            "name": "BadComponents_APVs",
+            "corr": false,
+            "files": [
+		"BadAPVFraction_TEC",
+		"BadAPVFraction_TIB",
+		"BadAPVFraction_TID",
+		"BadAPVFraction_TOB",
+	        "BadAPVFraction_Global"
+            ]
+        },
+        {
+            "name": "FED50_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED50"
+            ]
+        },
+        {
+            "name": "FED101_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED101"
+            ]
+        },
+        {
+            "name": "FED137_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED137"
+            ]
+        },
+        {
+            "name": "FED160_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED160"
+            ]
+        },
+        {
+            "name": "FED167_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED167"
+            ]
+        },
+        {
+            "name": "FED187_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED187"
+            ]
+        },
+        {
+            "name": "FED188_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED188"
+            ]
+        },
+        {
+            "name": "FED244_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED244"
+            ]
+        },
+        {
+            "name": "FED258_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED258"
+            ]
+        },
+        {
+            "name": "FED289_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED289"
+            ]
+        },
+        {
+            "name": "FED297_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED297"
+            ]
+        },
+        {
+            "name": "FED434_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED434"
+            ]
+        },
+        {
+            "name": "FED437_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED437"
+            ]
+        },
+        {
+            "name": "FED439_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED439"
+            ]
+        },
+        {
             "name": "NBad_ChannelStatusBit_count",
             "corr": false,
             "files": [
@@ -4879,286 +6496,142 @@
             ]
         },
         {
-            "name": "HitResiduals_TIB_layer1_mean",
+            "name": "HitResiduals_TIB_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TIB_layer1_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer1_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer1_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer2_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer2_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer2_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer2_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer3_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer3_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer3_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer3_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer4_mean",
-            "corr": false,
-            "files": [
+                "HitResiduals_TIB_layer1_mean",
+                "HitResiduals_TIB_layer2_mean",
+                "HitResiduals_TIB_layer3_mean",
                 "HitResiduals_TIB_layer4_mean"
             ]
         },
         {
-            "name": "HitResiduals_TIB_layer4_rms",
+            "name": "HitResiduals_TIB_rms",
             "corr": false,
             "files": [
+                "HitResiduals_TIB_layer1_rms",
+                "HitResiduals_TIB_layer2_rms",
+                "HitResiduals_TIB_layer3_rms",
                 "HitResiduals_TIB_layer4_rms"
             ]
         },
         {
-            "name": "HitResiduals_TOB_layer1_mean",
+            "name": "HitResiduals_TID_MINUS_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer1_mean"
-            ]
-        },
+                "HitResiduals_TID_MINUS_wheel1_mean",
+                "HitResiduals_TID_MINUS_wheel2_mean",
+                "HitResiduals_TID_MINUS_wheel3_mean"
+	    ]
+	},
         {
-            "name": "HitResiduals_TOB_layer1_rms",
+            "name": "HitResiduals_TID_MINUS_rms",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer1_rms"
-            ]
-        },
+                "HitResiduals_TID_MINUS_wheel1_rms",
+                "HitResiduals_TID_MINUS_wheel2_rms",
+                "HitResiduals_TID_MINUS_wheel3_rms"
+	    ]
+	},
         {
-            "name": "HitResiduals_TOB_layer2_mean",
+            "name": "HitResiduals_TID_PLUS_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer2_mean"
-            ]
-        },
+                "HitResiduals_TID_PLUS_wheel1_mean",
+                "HitResiduals_TID_PLUS_wheel2_mean",
+                "HitResiduals_TID_PLUS_wheel3_mean"
+	    ]
+	},
         {
-            "name": "HitResiduals_TOB_layer2_rms",
+            "name": "HitResiduals_TID_PLUS_rms",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer2_rms"
-            ]
-        },
+                "HitResiduals_TID_PLUS_wheel1_rms",
+                "HitResiduals_TID_PLUS_wheel2_rms",
+                "HitResiduals_TID_PLUS_wheel3_rms"
+	    ]
+	},
         {
-            "name": "HitResiduals_TOB_layer3_mean",
+            "name": "HitResiduals_TOB_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer3_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer3_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer3_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer4_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer4_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer4_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer4_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer5_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer5_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer5_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer5_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer6_mean",
-            "corr": false,
-            "files": [
+                "HitResiduals_TOB_layer1_mean",
+                "HitResiduals_TOB_layer2_mean",
+                "HitResiduals_TOB_layer3_mean",
+                "HitResiduals_TOB_layer4_mean",
+                "HitResiduals_TOB_layer5_mean",
                 "HitResiduals_TOB_layer6_mean"
             ]
         },
         {
-            "name": "HitResiduals_TOB_layer6_rms",
+            "name": "HitResiduals_TOB_rms",
             "corr": false,
             "files": [
+                "HitResiduals_TOB_layer1_rms",
+                "HitResiduals_TOB_layer2_rms",
+                "HitResiduals_TOB_layer3_rms",
+                "HitResiduals_TOB_layer4_rms",
+                "HitResiduals_TOB_layer5_rms",
                 "HitResiduals_TOB_layer6_rms"
             ]
         },
         {
-            "name": "HitResiduals_TEC_MINUS_wheel1_mean",
+            "name": "HitResiduals_TEC_MINUS_mean",
             "corr": false,
             "files": [
                 "HitResiduals_TEC_MINUS_wheel1_mean",
-                "HitResiduals_TEC_PLUS_wheel1_mean"
+                "HitResiduals_TEC_MINUS_wheel2_mean",
+                "HitResiduals_TEC_MINUS_wheel3_mean",
+                "HitResiduals_TEC_MINUS_wheel4_mean",
+                "HitResiduals_TEC_MINUS_wheel5_mean",
+                "HitResiduals_TEC_MINUS_wheel6_mean",
+                "HitResiduals_TEC_MINUS_wheel7_mean",
+                "HitResiduals_TEC_MINUS_wheel8_mean",
+                "HitResiduals_TEC_MINUS_wheel9_mean"
             ]
         },
         {
-            "name": "HitResiduals_TEC_MINUS_wheel1_rms",
+            "name": "HitResiduals_TEC_MINUS_rms",
             "corr": false,
             "files": [
                 "HitResiduals_TEC_MINUS_wheel1_rms",
-                "HitResiduals_TEC_PLUS_wheel1_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel2_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel2_mean",
-                "HitResiduals_TEC_PLUS_wheel2_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel2_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel2_rms",
-                "HitResiduals_TEC_PLUS_wheel2_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel3_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel3_mean",
-                "HitResiduals_TEC_PLUS_wheel3_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel3_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel3_rms",
-                "HitResiduals_TEC_PLUS_wheel3_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel4_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel4_mean",
-                "HitResiduals_TEC_PLUS_wheel4_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel4_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel4_rms",
-                "HitResiduals_TEC_PLUS_wheel4_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel5_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel5_mean",
-                "HitResiduals_TEC_PLUS_wheel5_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel5_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel5_rms",
-                "HitResiduals_TEC_PLUS_wheel5_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel6_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel6_mean",
-                "HitResiduals_TEC_PLUS_wheel6_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel6_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel6_rms",
-                "HitResiduals_TEC_PLUS_wheel6_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel7_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel7_mean",
-                "HitResiduals_TEC_PLUS_wheel7_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel7_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel7_rms",
-                "HitResiduals_TEC_PLUS_wheel7_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel8_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel8_mean",
-                "HitResiduals_TEC_PLUS_wheel8_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel8_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel8_rms",
-                "HitResiduals_TEC_PLUS_wheel8_rms"
+                "HitResiduals_TEC_MINUS_wheel9_rms"
             ]
         },
         {
-            "name": "HitResiduals_TEC_MINUS_wheel9_mean",
+            "name": "HitResiduals_TEC_PLUS_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TEC_MINUS_wheel9_mean",
+                "HitResiduals_TEC_PLUS_wheel1_mean",
+                "HitResiduals_TEC_PLUS_wheel2_mean",
+                "HitResiduals_TEC_PLUS_wheel3_mean",
+                "HitResiduals_TEC_PLUS_wheel4_mean",
+                "HitResiduals_TEC_PLUS_wheel5_mean",
+                "HitResiduals_TEC_PLUS_wheel6_mean",
+                "HitResiduals_TEC_PLUS_wheel7_mean",
+                "HitResiduals_TEC_PLUS_wheel8_mean",
                 "HitResiduals_TEC_PLUS_wheel9_mean"
             ]
         },
         {
-            "name": "HitResiduals_TEC_MINUS_wheel9_rms",
+            "name": "HitResiduals_TEC_PLUS_rms",
             "corr": false,
             "files": [
-                "HitResiduals_TEC_MINUS_wheel9_rms",
+                "HitResiduals_TEC_PLUS_wheel1_rms",
+                "HitResiduals_TEC_PLUS_wheel2_rms",
+                "HitResiduals_TEC_PLUS_wheel3_rms",
+                "HitResiduals_TEC_PLUS_wheel4_rms",
+                "HitResiduals_TEC_PLUS_wheel5_rms",
+                "HitResiduals_TEC_PLUS_wheel6_rms",
+                "HitResiduals_TEC_PLUS_wheel7_rms",
+                "HitResiduals_TEC_PLUS_wheel8_rms",
                 "HitResiduals_TEC_PLUS_wheel9_rms"
             ]
         },
@@ -5281,6 +6754,137 @@
             ]
         },
         {
+            "name": "BadComponents_Strips",
+            "corr": false,
+            "files": [
+		"BadStripsFraction_TEC",
+		"BadStripsFraction_TIB",
+		"BadStripsFraction_TID",
+		"BadStripsFraction_TOB",
+	        "BadStripsFraction_Global"
+            ]
+        },
+        {
+            "name": "BadComponents_Fibers",
+            "corr": false,
+            "files": [
+		"BadFiberFraction_TEC",
+		"BadFiberFraction_TIB",
+		"BadFiberFraction_TID",
+		"BadFiberFraction_TOB",
+	        "BadFiberFraction_Global"
+            ]
+        },
+        {
+            "name": "BadComponents_APVs",
+            "corr": false,
+            "files": [
+		"BadAPVFraction_TEC",
+		"BadAPVFraction_TIB",
+		"BadAPVFraction_TID",
+		"BadAPVFraction_TOB",
+	        "BadAPVFraction_Global"
+            ]
+        },
+        {
+            "name": "FED50_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED50"
+            ]
+        },
+        {
+            "name": "FED101_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED101"
+            ]
+        },
+        {
+            "name": "FED137_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED137"
+            ]
+        },
+        {
+            "name": "FED160_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED160"
+            ]
+        },
+        {
+            "name": "FED167_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED167"
+            ]
+        },
+        {
+            "name": "FED187_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED187"
+            ]
+        },
+        {
+            "name": "FED188_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED188"
+            ]
+        },
+        {
+            "name": "FED244_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED244"
+            ]
+        },
+        {
+            "name": "FED258_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED258"
+            ]
+        },
+        {
+            "name": "FED289_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED289"
+            ]
+        },
+        {
+            "name": "FED297_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED297"
+            ]
+        },
+        {
+            "name": "FED434_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED434"
+            ]
+        },
+        {
+            "name": "FED437_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED437"
+            ]
+        },
+        {
+            "name": "FED439_AnyFEerrors",
+            "corr": false,
+            "files": [
+	        "FEerrors_FED439"
+            ]
+        },
+        {
             "name": "NBad_ChannelStatusBit_count",
             "corr": false,
             "files": [
@@ -5464,286 +7068,142 @@
             ]
         },
         {
-            "name": "HitResiduals_TIB_layer1_mean",
+            "name": "HitResiduals_TIB_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TIB_layer1_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer1_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer1_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer2_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer2_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer2_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer2_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer3_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer3_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer3_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer3_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer4_mean",
-            "corr": false,
-            "files": [
+                "HitResiduals_TIB_layer1_mean",
+                "HitResiduals_TIB_layer2_mean",
+                "HitResiduals_TIB_layer3_mean",
                 "HitResiduals_TIB_layer4_mean"
             ]
         },
         {
-            "name": "HitResiduals_TIB_layer4_rms",
+            "name": "HitResiduals_TIB_rms",
             "corr": false,
             "files": [
+                "HitResiduals_TIB_layer1_rms",
+                "HitResiduals_TIB_layer2_rms",
+                "HitResiduals_TIB_layer3_rms",
                 "HitResiduals_TIB_layer4_rms"
             ]
         },
         {
-            "name": "HitResiduals_TOB_layer1_mean",
+            "name": "HitResiduals_TID_MINUS_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer1_mean"
-            ]
-        },
+                "HitResiduals_TID_MINUS_wheel1_mean",
+                "HitResiduals_TID_MINUS_wheel2_mean",
+                "HitResiduals_TID_MINUS_wheel3_mean"
+	    ]
+	},
         {
-            "name": "HitResiduals_TOB_layer1_rms",
+            "name": "HitResiduals_TID_MINUS_rms",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer1_rms"
-            ]
-        },
+                "HitResiduals_TID_MINUS_wheel1_rms",
+                "HitResiduals_TID_MINUS_wheel2_rms",
+                "HitResiduals_TID_MINUS_wheel3_rms"
+	    ]
+	},
         {
-            "name": "HitResiduals_TOB_layer2_mean",
+            "name": "HitResiduals_TID_PLUS_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer2_mean"
-            ]
-        },
+                "HitResiduals_TID_PLUS_wheel1_mean",
+                "HitResiduals_TID_PLUS_wheel2_mean",
+                "HitResiduals_TID_PLUS_wheel3_mean"
+	    ]
+	},
         {
-            "name": "HitResiduals_TOB_layer2_rms",
+            "name": "HitResiduals_TID_PLUS_rms",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer2_rms"
-            ]
-        },
+                "HitResiduals_TID_PLUS_wheel1_rms",
+                "HitResiduals_TID_PLUS_wheel2_rms",
+                "HitResiduals_TID_PLUS_wheel3_rms"
+	    ]
+	},
         {
-            "name": "HitResiduals_TOB_layer3_mean",
+            "name": "HitResiduals_TOB_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer3_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer3_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer3_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer4_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer4_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer4_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer4_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer5_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer5_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer5_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer5_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer6_mean",
-            "corr": false,
-            "files": [
+                "HitResiduals_TOB_layer1_mean",
+                "HitResiduals_TOB_layer2_mean",
+                "HitResiduals_TOB_layer3_mean",
+                "HitResiduals_TOB_layer4_mean",
+                "HitResiduals_TOB_layer5_mean",
                 "HitResiduals_TOB_layer6_mean"
             ]
         },
         {
-            "name": "HitResiduals_TOB_layer6_rms",
+            "name": "HitResiduals_TOB_rms",
             "corr": false,
             "files": [
+                "HitResiduals_TOB_layer1_rms",
+                "HitResiduals_TOB_layer2_rms",
+                "HitResiduals_TOB_layer3_rms",
+                "HitResiduals_TOB_layer4_rms",
+                "HitResiduals_TOB_layer5_rms",
                 "HitResiduals_TOB_layer6_rms"
             ]
         },
         {
-            "name": "HitResiduals_TEC_MINUS_wheel1_mean",
+            "name": "HitResiduals_TEC_MINUS_mean",
             "corr": false,
             "files": [
                 "HitResiduals_TEC_MINUS_wheel1_mean",
-                "HitResiduals_TEC_PLUS_wheel1_mean"
+                "HitResiduals_TEC_MINUS_wheel2_mean",
+                "HitResiduals_TEC_MINUS_wheel3_mean",
+                "HitResiduals_TEC_MINUS_wheel4_mean",
+                "HitResiduals_TEC_MINUS_wheel5_mean",
+                "HitResiduals_TEC_MINUS_wheel6_mean",
+                "HitResiduals_TEC_MINUS_wheel7_mean",
+                "HitResiduals_TEC_MINUS_wheel8_mean",
+                "HitResiduals_TEC_MINUS_wheel9_mean"
             ]
         },
         {
-            "name": "HitResiduals_TEC_MINUS_wheel1_rms",
+            "name": "HitResiduals_TEC_MINUS_rms",
             "corr": false,
             "files": [
                 "HitResiduals_TEC_MINUS_wheel1_rms",
-                "HitResiduals_TEC_PLUS_wheel1_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel2_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel2_mean",
-                "HitResiduals_TEC_PLUS_wheel2_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel2_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel2_rms",
-                "HitResiduals_TEC_PLUS_wheel2_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel3_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel3_mean",
-                "HitResiduals_TEC_PLUS_wheel3_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel3_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel3_rms",
-                "HitResiduals_TEC_PLUS_wheel3_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel4_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel4_mean",
-                "HitResiduals_TEC_PLUS_wheel4_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel4_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel4_rms",
-                "HitResiduals_TEC_PLUS_wheel4_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel5_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel5_mean",
-                "HitResiduals_TEC_PLUS_wheel5_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel5_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel5_rms",
-                "HitResiduals_TEC_PLUS_wheel5_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel6_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel6_mean",
-                "HitResiduals_TEC_PLUS_wheel6_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel6_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel6_rms",
-                "HitResiduals_TEC_PLUS_wheel6_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel7_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel7_mean",
-                "HitResiduals_TEC_PLUS_wheel7_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel7_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel7_rms",
-                "HitResiduals_TEC_PLUS_wheel7_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel8_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel8_mean",
-                "HitResiduals_TEC_PLUS_wheel8_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel8_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel8_rms",
-                "HitResiduals_TEC_PLUS_wheel8_rms"
+                "HitResiduals_TEC_MINUS_wheel9_rms"
             ]
         },
         {
-            "name": "HitResiduals_TEC_MINUS_wheel9_mean",
+            "name": "HitResiduals_TEC_PLUS_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TEC_MINUS_wheel9_mean",
+                "HitResiduals_TEC_PLUS_wheel1_mean",
+                "HitResiduals_TEC_PLUS_wheel2_mean",
+                "HitResiduals_TEC_PLUS_wheel3_mean",
+                "HitResiduals_TEC_PLUS_wheel4_mean",
+                "HitResiduals_TEC_PLUS_wheel5_mean",
+                "HitResiduals_TEC_PLUS_wheel6_mean",
+                "HitResiduals_TEC_PLUS_wheel7_mean",
+                "HitResiduals_TEC_PLUS_wheel8_mean",
                 "HitResiduals_TEC_PLUS_wheel9_mean"
             ]
         },
         {
-            "name": "HitResiduals_TEC_MINUS_wheel9_rms",
+            "name": "HitResiduals_TEC_PLUS_rms",
             "corr": false,
             "files": [
-                "HitResiduals_TEC_MINUS_wheel9_rms",
+                "HitResiduals_TEC_PLUS_wheel1_rms",
+                "HitResiduals_TEC_PLUS_wheel2_rms",
+                "HitResiduals_TEC_PLUS_wheel3_rms",
+                "HitResiduals_TEC_PLUS_wheel4_rms",
+                "HitResiduals_TEC_PLUS_wheel5_rms",
+                "HitResiduals_TEC_PLUS_wheel6_rms",
+                "HitResiduals_TEC_PLUS_wheel7_rms",
+                "HitResiduals_TEC_PLUS_wheel8_rms",
                 "HitResiduals_TEC_PLUS_wheel9_rms"
             ]
         },
@@ -5868,286 +7328,142 @@
             ]
         },
         {
-            "name": "HitResiduals_TIB_layer1_mean",
+            "name": "HitResiduals_TIB_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TIB_layer1_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer1_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer1_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer2_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer2_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer2_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer2_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer3_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer3_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer3_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer3_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer4_mean",
-            "corr": false,
-            "files": [
+                "HitResiduals_TIB_layer1_mean",
+                "HitResiduals_TIB_layer2_mean",
+                "HitResiduals_TIB_layer3_mean",
                 "HitResiduals_TIB_layer4_mean"
             ]
         },
         {
-            "name": "HitResiduals_TIB_layer4_rms",
+            "name": "HitResiduals_TIB_rms",
             "corr": false,
             "files": [
+                "HitResiduals_TIB_layer1_rms",
+                "HitResiduals_TIB_layer2_rms",
+                "HitResiduals_TIB_layer3_rms",
                 "HitResiduals_TIB_layer4_rms"
             ]
         },
         {
-            "name": "HitResiduals_TOB_layer1_mean",
+            "name": "HitResiduals_TID_MINUS_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer1_mean"
-            ]
-        },
+                "HitResiduals_TID_MINUS_wheel1_mean",
+                "HitResiduals_TID_MINUS_wheel2_mean",
+                "HitResiduals_TID_MINUS_wheel3_mean"
+	    ]
+	},
         {
-            "name": "HitResiduals_TOB_layer1_rms",
+            "name": "HitResiduals_TID_MINUS_rms",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer1_rms"
-            ]
-        },
+                "HitResiduals_TID_MINUS_wheel1_rms",
+                "HitResiduals_TID_MINUS_wheel2_rms",
+                "HitResiduals_TID_MINUS_wheel3_rms"
+	    ]
+	},
         {
-            "name": "HitResiduals_TOB_layer2_mean",
+            "name": "HitResiduals_TID_PLUS_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer2_mean"
-            ]
-        },
+                "HitResiduals_TID_PLUS_wheel1_mean",
+                "HitResiduals_TID_PLUS_wheel2_mean",
+                "HitResiduals_TID_PLUS_wheel3_mean"
+	    ]
+	},
         {
-            "name": "HitResiduals_TOB_layer2_rms",
+            "name": "HitResiduals_TID_PLUS_rms",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer2_rms"
-            ]
-        },
+                "HitResiduals_TID_PLUS_wheel1_rms",
+                "HitResiduals_TID_PLUS_wheel2_rms",
+                "HitResiduals_TID_PLUS_wheel3_rms"
+	    ]
+	},
         {
-            "name": "HitResiduals_TOB_layer3_mean",
+            "name": "HitResiduals_TOB_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer3_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer3_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer3_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer4_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer4_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer4_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer4_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer5_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer5_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer5_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer5_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer6_mean",
-            "corr": false,
-            "files": [
+                "HitResiduals_TOB_layer1_mean",
+                "HitResiduals_TOB_layer2_mean",
+                "HitResiduals_TOB_layer3_mean",
+                "HitResiduals_TOB_layer4_mean",
+                "HitResiduals_TOB_layer5_mean",
                 "HitResiduals_TOB_layer6_mean"
             ]
         },
         {
-            "name": "HitResiduals_TOB_layer6_rms",
+            "name": "HitResiduals_TOB_rms",
             "corr": false,
             "files": [
+                "HitResiduals_TOB_layer1_rms",
+                "HitResiduals_TOB_layer2_rms",
+                "HitResiduals_TOB_layer3_rms",
+                "HitResiduals_TOB_layer4_rms",
+                "HitResiduals_TOB_layer5_rms",
                 "HitResiduals_TOB_layer6_rms"
             ]
         },
         {
-            "name": "HitResiduals_TEC_MINUS_wheel1_mean",
+            "name": "HitResiduals_TEC_MINUS_mean",
             "corr": false,
             "files": [
                 "HitResiduals_TEC_MINUS_wheel1_mean",
-                "HitResiduals_TEC_PLUS_wheel1_mean"
+                "HitResiduals_TEC_MINUS_wheel2_mean",
+                "HitResiduals_TEC_MINUS_wheel3_mean",
+                "HitResiduals_TEC_MINUS_wheel4_mean",
+                "HitResiduals_TEC_MINUS_wheel5_mean",
+                "HitResiduals_TEC_MINUS_wheel6_mean",
+                "HitResiduals_TEC_MINUS_wheel7_mean",
+                "HitResiduals_TEC_MINUS_wheel8_mean",
+                "HitResiduals_TEC_MINUS_wheel9_mean"
             ]
         },
         {
-            "name": "HitResiduals_TEC_MINUS_wheel1_rms",
+            "name": "HitResiduals_TEC_MINUS_rms",
             "corr": false,
             "files": [
                 "HitResiduals_TEC_MINUS_wheel1_rms",
-                "HitResiduals_TEC_PLUS_wheel1_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel2_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel2_mean",
-                "HitResiduals_TEC_PLUS_wheel2_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel2_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel2_rms",
-                "HitResiduals_TEC_PLUS_wheel2_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel3_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel3_mean",
-                "HitResiduals_TEC_PLUS_wheel3_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel3_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel3_rms",
-                "HitResiduals_TEC_PLUS_wheel3_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel4_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel4_mean",
-                "HitResiduals_TEC_PLUS_wheel4_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel4_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel4_rms",
-                "HitResiduals_TEC_PLUS_wheel4_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel5_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel5_mean",
-                "HitResiduals_TEC_PLUS_wheel5_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel5_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel5_rms",
-                "HitResiduals_TEC_PLUS_wheel5_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel6_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel6_mean",
-                "HitResiduals_TEC_PLUS_wheel6_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel6_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel6_rms",
-                "HitResiduals_TEC_PLUS_wheel6_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel7_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel7_mean",
-                "HitResiduals_TEC_PLUS_wheel7_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel7_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel7_rms",
-                "HitResiduals_TEC_PLUS_wheel7_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel8_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel8_mean",
-                "HitResiduals_TEC_PLUS_wheel8_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel8_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel8_rms",
-                "HitResiduals_TEC_PLUS_wheel8_rms"
+                "HitResiduals_TEC_MINUS_wheel9_rms"
             ]
         },
         {
-            "name": "HitResiduals_TEC_MINUS_wheel9_mean",
+            "name": "HitResiduals_TEC_PLUS_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TEC_MINUS_wheel9_mean",
+                "HitResiduals_TEC_PLUS_wheel1_mean",
+                "HitResiduals_TEC_PLUS_wheel2_mean",
+                "HitResiduals_TEC_PLUS_wheel3_mean",
+                "HitResiduals_TEC_PLUS_wheel4_mean",
+                "HitResiduals_TEC_PLUS_wheel5_mean",
+                "HitResiduals_TEC_PLUS_wheel6_mean",
+                "HitResiduals_TEC_PLUS_wheel7_mean",
+                "HitResiduals_TEC_PLUS_wheel8_mean",
                 "HitResiduals_TEC_PLUS_wheel9_mean"
             ]
         },
         {
-            "name": "HitResiduals_TEC_MINUS_wheel9_rms",
+            "name": "HitResiduals_TEC_PLUS_rms",
             "corr": false,
             "files": [
-                "HitResiduals_TEC_MINUS_wheel9_rms",
+                "HitResiduals_TEC_PLUS_wheel1_rms",
+                "HitResiduals_TEC_PLUS_wheel2_rms",
+                "HitResiduals_TEC_PLUS_wheel3_rms",
+                "HitResiduals_TEC_PLUS_wheel4_rms",
+                "HitResiduals_TEC_PLUS_wheel5_rms",
+                "HitResiduals_TEC_PLUS_wheel6_rms",
+                "HitResiduals_TEC_PLUS_wheel7_rms",
+                "HitResiduals_TEC_PLUS_wheel8_rms",
                 "HitResiduals_TEC_PLUS_wheel9_rms"
             ]
         }
@@ -6214,286 +7530,142 @@
             ]
         },
         {
-            "name": "HitResiduals_TIB_layer1_mean",
+            "name": "HitResiduals_TIB_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TIB_layer1_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer1_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer1_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer2_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer2_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer2_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer2_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer3_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer3_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer3_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer3_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer4_mean",
-            "corr": false,
-            "files": [
+                "HitResiduals_TIB_layer1_mean",
+                "HitResiduals_TIB_layer2_mean",
+                "HitResiduals_TIB_layer3_mean",
                 "HitResiduals_TIB_layer4_mean"
             ]
         },
         {
-            "name": "HitResiduals_TIB_layer4_rms",
+            "name": "HitResiduals_TIB_rms",
             "corr": false,
             "files": [
+                "HitResiduals_TIB_layer1_rms",
+                "HitResiduals_TIB_layer2_rms",
+                "HitResiduals_TIB_layer3_rms",
                 "HitResiduals_TIB_layer4_rms"
             ]
         },
         {
-            "name": "HitResiduals_TOB_layer1_mean",
+            "name": "HitResiduals_TID_MINUS_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer1_mean"
-            ]
-        },
+                "HitResiduals_TID_MINUS_wheel1_mean",
+                "HitResiduals_TID_MINUS_wheel2_mean",
+                "HitResiduals_TID_MINUS_wheel3_mean"
+	    ]
+	},
         {
-            "name": "HitResiduals_TOB_layer1_rms",
+            "name": "HitResiduals_TID_MINUS_rms",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer1_rms"
-            ]
-        },
+                "HitResiduals_TID_MINUS_wheel1_rms",
+                "HitResiduals_TID_MINUS_wheel2_rms",
+                "HitResiduals_TID_MINUS_wheel3_rms"
+	    ]
+	},
         {
-            "name": "HitResiduals_TOB_layer2_mean",
+            "name": "HitResiduals_TID_PLUS_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer2_mean"
-            ]
-        },
+                "HitResiduals_TID_PLUS_wheel1_mean",
+                "HitResiduals_TID_PLUS_wheel2_mean",
+                "HitResiduals_TID_PLUS_wheel3_mean"
+	    ]
+	},
         {
-            "name": "HitResiduals_TOB_layer2_rms",
+            "name": "HitResiduals_TID_PLUS_rms",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer2_rms"
-            ]
-        },
+                "HitResiduals_TID_PLUS_wheel1_rms",
+                "HitResiduals_TID_PLUS_wheel2_rms",
+                "HitResiduals_TID_PLUS_wheel3_rms"
+	    ]
+	},
         {
-            "name": "HitResiduals_TOB_layer3_mean",
+            "name": "HitResiduals_TOB_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer3_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer3_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer3_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer4_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer4_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer4_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer4_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer5_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer5_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer5_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer5_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer6_mean",
-            "corr": false,
-            "files": [
+                "HitResiduals_TOB_layer1_mean",
+                "HitResiduals_TOB_layer2_mean",
+                "HitResiduals_TOB_layer3_mean",
+                "HitResiduals_TOB_layer4_mean",
+                "HitResiduals_TOB_layer5_mean",
                 "HitResiduals_TOB_layer6_mean"
             ]
         },
         {
-            "name": "HitResiduals_TOB_layer6_rms",
+            "name": "HitResiduals_TOB_rms",
             "corr": false,
             "files": [
+                "HitResiduals_TOB_layer1_rms",
+                "HitResiduals_TOB_layer2_rms",
+                "HitResiduals_TOB_layer3_rms",
+                "HitResiduals_TOB_layer4_rms",
+                "HitResiduals_TOB_layer5_rms",
                 "HitResiduals_TOB_layer6_rms"
             ]
         },
         {
-            "name": "HitResiduals_TEC_MINUS_wheel1_mean",
+            "name": "HitResiduals_TEC_MINUS_mean",
             "corr": false,
             "files": [
                 "HitResiduals_TEC_MINUS_wheel1_mean",
-                "HitResiduals_TEC_PLUS_wheel1_mean"
+                "HitResiduals_TEC_MINUS_wheel2_mean",
+                "HitResiduals_TEC_MINUS_wheel3_mean",
+                "HitResiduals_TEC_MINUS_wheel4_mean",
+                "HitResiduals_TEC_MINUS_wheel5_mean",
+                "HitResiduals_TEC_MINUS_wheel6_mean",
+                "HitResiduals_TEC_MINUS_wheel7_mean",
+                "HitResiduals_TEC_MINUS_wheel8_mean",
+                "HitResiduals_TEC_MINUS_wheel9_mean"
             ]
         },
         {
-            "name": "HitResiduals_TEC_MINUS_wheel1_rms",
+            "name": "HitResiduals_TEC_MINUS_rms",
             "corr": false,
             "files": [
                 "HitResiduals_TEC_MINUS_wheel1_rms",
-                "HitResiduals_TEC_PLUS_wheel1_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel2_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel2_mean",
-                "HitResiduals_TEC_PLUS_wheel2_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel2_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel2_rms",
-                "HitResiduals_TEC_PLUS_wheel2_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel3_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel3_mean",
-                "HitResiduals_TEC_PLUS_wheel3_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel3_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel3_rms",
-                "HitResiduals_TEC_PLUS_wheel3_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel4_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel4_mean",
-                "HitResiduals_TEC_PLUS_wheel4_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel4_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel4_rms",
-                "HitResiduals_TEC_PLUS_wheel4_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel5_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel5_mean",
-                "HitResiduals_TEC_PLUS_wheel5_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel5_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel5_rms",
-                "HitResiduals_TEC_PLUS_wheel5_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel6_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel6_mean",
-                "HitResiduals_TEC_PLUS_wheel6_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel6_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel6_rms",
-                "HitResiduals_TEC_PLUS_wheel6_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel7_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel7_mean",
-                "HitResiduals_TEC_PLUS_wheel7_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel7_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel7_rms",
-                "HitResiduals_TEC_PLUS_wheel7_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel8_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel8_mean",
-                "HitResiduals_TEC_PLUS_wheel8_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel8_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel8_rms",
-                "HitResiduals_TEC_PLUS_wheel8_rms"
+                "HitResiduals_TEC_MINUS_wheel9_rms"
             ]
         },
         {
-            "name": "HitResiduals_TEC_MINUS_wheel9_mean",
+            "name": "HitResiduals_TEC_PLUS_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TEC_MINUS_wheel9_mean",
+                "HitResiduals_TEC_PLUS_wheel1_mean",
+                "HitResiduals_TEC_PLUS_wheel2_mean",
+                "HitResiduals_TEC_PLUS_wheel3_mean",
+                "HitResiduals_TEC_PLUS_wheel4_mean",
+                "HitResiduals_TEC_PLUS_wheel5_mean",
+                "HitResiduals_TEC_PLUS_wheel6_mean",
+                "HitResiduals_TEC_PLUS_wheel7_mean",
+                "HitResiduals_TEC_PLUS_wheel8_mean",
                 "HitResiduals_TEC_PLUS_wheel9_mean"
             ]
         },
         {
-            "name": "HitResiduals_TEC_MINUS_wheel9_rms",
+            "name": "HitResiduals_TEC_PLUS_rms",
             "corr": false,
             "files": [
-                "HitResiduals_TEC_MINUS_wheel9_rms",
+                "HitResiduals_TEC_PLUS_wheel1_rms",
+                "HitResiduals_TEC_PLUS_wheel2_rms",
+                "HitResiduals_TEC_PLUS_wheel3_rms",
+                "HitResiduals_TEC_PLUS_wheel4_rms",
+                "HitResiduals_TEC_PLUS_wheel5_rms",
+                "HitResiduals_TEC_PLUS_wheel6_rms",
+                "HitResiduals_TEC_PLUS_wheel7_rms",
+                "HitResiduals_TEC_PLUS_wheel8_rms",
                 "HitResiduals_TEC_PLUS_wheel9_rms"
             ]
         },
@@ -6567,286 +7739,142 @@
             ]
         },
         {
-            "name": "HitResiduals_TIB_layer1_mean",
+            "name": "HitResiduals_TIB_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TIB_layer1_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer1_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer1_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer2_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer2_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer2_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer2_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer3_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer3_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer3_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer3_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer4_mean",
-            "corr": false,
-            "files": [
+                "HitResiduals_TIB_layer1_mean",
+                "HitResiduals_TIB_layer2_mean",
+                "HitResiduals_TIB_layer3_mean",
                 "HitResiduals_TIB_layer4_mean"
             ]
         },
         {
-            "name": "HitResiduals_TIB_layer4_rms",
+            "name": "HitResiduals_TIB_rms",
             "corr": false,
             "files": [
+                "HitResiduals_TIB_layer1_rms",
+                "HitResiduals_TIB_layer2_rms",
+                "HitResiduals_TIB_layer3_rms",
                 "HitResiduals_TIB_layer4_rms"
             ]
         },
         {
-            "name": "HitResiduals_TOB_layer1_mean",
+            "name": "HitResiduals_TID_MINUS_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer1_mean"
-            ]
-        },
+                "HitResiduals_TID_MINUS_wheel1_mean",
+                "HitResiduals_TID_MINUS_wheel2_mean",
+                "HitResiduals_TID_MINUS_wheel3_mean"
+	    ]
+	},
         {
-            "name": "HitResiduals_TOB_layer1_rms",
+            "name": "HitResiduals_TID_MINUS_rms",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer1_rms"
-            ]
-        },
+                "HitResiduals_TID_MINUS_wheel1_rms",
+                "HitResiduals_TID_MINUS_wheel2_rms",
+                "HitResiduals_TID_MINUS_wheel3_rms"
+	    ]
+	},
         {
-            "name": "HitResiduals_TOB_layer2_mean",
+            "name": "HitResiduals_TID_PLUS_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer2_mean"
-            ]
-        },
+                "HitResiduals_TID_PLUS_wheel1_mean",
+                "HitResiduals_TID_PLUS_wheel2_mean",
+                "HitResiduals_TID_PLUS_wheel3_mean"
+	    ]
+	},
         {
-            "name": "HitResiduals_TOB_layer2_rms",
+            "name": "HitResiduals_TID_PLUS_rms",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer2_rms"
-            ]
-        },
+                "HitResiduals_TID_PLUS_wheel1_rms",
+                "HitResiduals_TID_PLUS_wheel2_rms",
+                "HitResiduals_TID_PLUS_wheel3_rms"
+	    ]
+	},
         {
-            "name": "HitResiduals_TOB_layer3_mean",
+            "name": "HitResiduals_TOB_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer3_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer3_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer3_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer4_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer4_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer4_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer4_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer5_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer5_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer5_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer5_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer6_mean",
-            "corr": false,
-            "files": [
+                "HitResiduals_TOB_layer1_mean",
+                "HitResiduals_TOB_layer2_mean",
+                "HitResiduals_TOB_layer3_mean",
+                "HitResiduals_TOB_layer4_mean",
+                "HitResiduals_TOB_layer5_mean",
                 "HitResiduals_TOB_layer6_mean"
             ]
         },
         {
-            "name": "HitResiduals_TOB_layer6_rms",
+            "name": "HitResiduals_TOB_rms",
             "corr": false,
             "files": [
+                "HitResiduals_TOB_layer1_rms",
+                "HitResiduals_TOB_layer2_rms",
+                "HitResiduals_TOB_layer3_rms",
+                "HitResiduals_TOB_layer4_rms",
+                "HitResiduals_TOB_layer5_rms",
                 "HitResiduals_TOB_layer6_rms"
             ]
         },
         {
-            "name": "HitResiduals_TEC_MINUS_wheel1_mean",
+            "name": "HitResiduals_TEC_MINUS_mean",
             "corr": false,
             "files": [
                 "HitResiduals_TEC_MINUS_wheel1_mean",
-                "HitResiduals_TEC_PLUS_wheel1_mean"
+                "HitResiduals_TEC_MINUS_wheel2_mean",
+                "HitResiduals_TEC_MINUS_wheel3_mean",
+                "HitResiduals_TEC_MINUS_wheel4_mean",
+                "HitResiduals_TEC_MINUS_wheel5_mean",
+                "HitResiduals_TEC_MINUS_wheel6_mean",
+                "HitResiduals_TEC_MINUS_wheel7_mean",
+                "HitResiduals_TEC_MINUS_wheel8_mean",
+                "HitResiduals_TEC_MINUS_wheel9_mean"
             ]
         },
         {
-            "name": "HitResiduals_TEC_MINUS_wheel1_rms",
+            "name": "HitResiduals_TEC_MINUS_rms",
             "corr": false,
             "files": [
                 "HitResiduals_TEC_MINUS_wheel1_rms",
-                "HitResiduals_TEC_PLUS_wheel1_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel2_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel2_mean",
-                "HitResiduals_TEC_PLUS_wheel2_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel2_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel2_rms",
-                "HitResiduals_TEC_PLUS_wheel2_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel3_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel3_mean",
-                "HitResiduals_TEC_PLUS_wheel3_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel3_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel3_rms",
-                "HitResiduals_TEC_PLUS_wheel3_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel4_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel4_mean",
-                "HitResiduals_TEC_PLUS_wheel4_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel4_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel4_rms",
-                "HitResiduals_TEC_PLUS_wheel4_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel5_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel5_mean",
-                "HitResiduals_TEC_PLUS_wheel5_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel5_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel5_rms",
-                "HitResiduals_TEC_PLUS_wheel5_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel6_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel6_mean",
-                "HitResiduals_TEC_PLUS_wheel6_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel6_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel6_rms",
-                "HitResiduals_TEC_PLUS_wheel6_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel7_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel7_mean",
-                "HitResiduals_TEC_PLUS_wheel7_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel7_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel7_rms",
-                "HitResiduals_TEC_PLUS_wheel7_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel8_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel8_mean",
-                "HitResiduals_TEC_PLUS_wheel8_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel8_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel8_rms",
-                "HitResiduals_TEC_PLUS_wheel8_rms"
+                "HitResiduals_TEC_MINUS_wheel9_rms"
             ]
         },
         {
-            "name": "HitResiduals_TEC_MINUS_wheel9_mean",
+            "name": "HitResiduals_TEC_PLUS_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TEC_MINUS_wheel9_mean",
+                "HitResiduals_TEC_PLUS_wheel1_mean",
+                "HitResiduals_TEC_PLUS_wheel2_mean",
+                "HitResiduals_TEC_PLUS_wheel3_mean",
+                "HitResiduals_TEC_PLUS_wheel4_mean",
+                "HitResiduals_TEC_PLUS_wheel5_mean",
+                "HitResiduals_TEC_PLUS_wheel6_mean",
+                "HitResiduals_TEC_PLUS_wheel7_mean",
+                "HitResiduals_TEC_PLUS_wheel8_mean",
                 "HitResiduals_TEC_PLUS_wheel9_mean"
             ]
         },
         {
-            "name": "HitResiduals_TEC_MINUS_wheel9_rms",
+            "name": "HitResiduals_TEC_PLUS_rms",
             "corr": false,
             "files": [
-                "HitResiduals_TEC_MINUS_wheel9_rms",
+                "HitResiduals_TEC_PLUS_wheel1_rms",
+                "HitResiduals_TEC_PLUS_wheel2_rms",
+                "HitResiduals_TEC_PLUS_wheel3_rms",
+                "HitResiduals_TEC_PLUS_wheel4_rms",
+                "HitResiduals_TEC_PLUS_wheel5_rms",
+                "HitResiduals_TEC_PLUS_wheel6_rms",
+                "HitResiduals_TEC_PLUS_wheel7_rms",
+                "HitResiduals_TEC_PLUS_wheel8_rms",
                 "HitResiduals_TEC_PLUS_wheel9_rms"
             ]
         }
@@ -6913,286 +7941,142 @@
             ]
         },
         {
-            "name": "HitResiduals_TIB_layer1_mean",
+            "name": "HitResiduals_TIB_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TIB_layer1_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer1_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer1_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer2_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer2_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer2_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer2_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer3_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer3_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer3_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TIB_layer3_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TIB_layer4_mean",
-            "corr": false,
-            "files": [
+                "HitResiduals_TIB_layer1_mean",
+                "HitResiduals_TIB_layer2_mean",
+                "HitResiduals_TIB_layer3_mean",
                 "HitResiduals_TIB_layer4_mean"
             ]
         },
         {
-            "name": "HitResiduals_TIB_layer4_rms",
+            "name": "HitResiduals_TIB_rms",
             "corr": false,
             "files": [
+                "HitResiduals_TIB_layer1_rms",
+                "HitResiduals_TIB_layer2_rms",
+                "HitResiduals_TIB_layer3_rms",
                 "HitResiduals_TIB_layer4_rms"
             ]
         },
         {
-            "name": "HitResiduals_TOB_layer1_mean",
+            "name": "HitResiduals_TID_MINUS_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer1_mean"
-            ]
-        },
+                "HitResiduals_TID_MINUS_wheel1_mean",
+                "HitResiduals_TID_MINUS_wheel2_mean",
+                "HitResiduals_TID_MINUS_wheel3_mean"
+	    ]
+	},
         {
-            "name": "HitResiduals_TOB_layer1_rms",
+            "name": "HitResiduals_TID_MINUS_rms",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer1_rms"
-            ]
-        },
+                "HitResiduals_TID_MINUS_wheel1_rms",
+                "HitResiduals_TID_MINUS_wheel2_rms",
+                "HitResiduals_TID_MINUS_wheel3_rms"
+	    ]
+	},
         {
-            "name": "HitResiduals_TOB_layer2_mean",
+            "name": "HitResiduals_TID_PLUS_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer2_mean"
-            ]
-        },
+                "HitResiduals_TID_PLUS_wheel1_mean",
+                "HitResiduals_TID_PLUS_wheel2_mean",
+                "HitResiduals_TID_PLUS_wheel3_mean"
+	    ]
+	},
         {
-            "name": "HitResiduals_TOB_layer2_rms",
+            "name": "HitResiduals_TID_PLUS_rms",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer2_rms"
-            ]
-        },
+                "HitResiduals_TID_PLUS_wheel1_rms",
+                "HitResiduals_TID_PLUS_wheel2_rms",
+                "HitResiduals_TID_PLUS_wheel3_rms"
+	    ]
+	},
         {
-            "name": "HitResiduals_TOB_layer3_mean",
+            "name": "HitResiduals_TOB_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TOB_layer3_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer3_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer3_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer4_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer4_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer4_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer4_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer5_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer5_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer5_rms",
-            "corr": false,
-            "files": [
-                "HitResiduals_TOB_layer5_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TOB_layer6_mean",
-            "corr": false,
-            "files": [
+                "HitResiduals_TOB_layer1_mean",
+                "HitResiduals_TOB_layer2_mean",
+                "HitResiduals_TOB_layer3_mean",
+                "HitResiduals_TOB_layer4_mean",
+                "HitResiduals_TOB_layer5_mean",
                 "HitResiduals_TOB_layer6_mean"
             ]
         },
         {
-            "name": "HitResiduals_TOB_layer6_rms",
+            "name": "HitResiduals_TOB_rms",
             "corr": false,
             "files": [
+                "HitResiduals_TOB_layer1_rms",
+                "HitResiduals_TOB_layer2_rms",
+                "HitResiduals_TOB_layer3_rms",
+                "HitResiduals_TOB_layer4_rms",
+                "HitResiduals_TOB_layer5_rms",
                 "HitResiduals_TOB_layer6_rms"
             ]
         },
         {
-            "name": "HitResiduals_TEC_MINUS_wheel1_mean",
+            "name": "HitResiduals_TEC_MINUS_mean",
             "corr": false,
             "files": [
                 "HitResiduals_TEC_MINUS_wheel1_mean",
-                "HitResiduals_TEC_PLUS_wheel1_mean"
+                "HitResiduals_TEC_MINUS_wheel2_mean",
+                "HitResiduals_TEC_MINUS_wheel3_mean",
+                "HitResiduals_TEC_MINUS_wheel4_mean",
+                "HitResiduals_TEC_MINUS_wheel5_mean",
+                "HitResiduals_TEC_MINUS_wheel6_mean",
+                "HitResiduals_TEC_MINUS_wheel7_mean",
+                "HitResiduals_TEC_MINUS_wheel8_mean",
+                "HitResiduals_TEC_MINUS_wheel9_mean"
             ]
         },
         {
-            "name": "HitResiduals_TEC_MINUS_wheel1_rms",
+            "name": "HitResiduals_TEC_MINUS_rms",
             "corr": false,
             "files": [
                 "HitResiduals_TEC_MINUS_wheel1_rms",
-                "HitResiduals_TEC_PLUS_wheel1_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel2_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel2_mean",
-                "HitResiduals_TEC_PLUS_wheel2_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel2_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel2_rms",
-                "HitResiduals_TEC_PLUS_wheel2_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel3_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel3_mean",
-                "HitResiduals_TEC_PLUS_wheel3_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel3_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel3_rms",
-                "HitResiduals_TEC_PLUS_wheel3_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel4_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel4_mean",
-                "HitResiduals_TEC_PLUS_wheel4_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel4_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel4_rms",
-                "HitResiduals_TEC_PLUS_wheel4_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel5_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel5_mean",
-                "HitResiduals_TEC_PLUS_wheel5_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel5_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel5_rms",
-                "HitResiduals_TEC_PLUS_wheel5_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel6_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel6_mean",
-                "HitResiduals_TEC_PLUS_wheel6_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel6_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel6_rms",
-                "HitResiduals_TEC_PLUS_wheel6_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel7_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel7_mean",
-                "HitResiduals_TEC_PLUS_wheel7_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel7_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel7_rms",
-                "HitResiduals_TEC_PLUS_wheel7_rms"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel8_mean",
-            "corr": false,
-            "files": [
-                "HitResiduals_TEC_MINUS_wheel8_mean",
-                "HitResiduals_TEC_PLUS_wheel8_mean"
-            ]
-        },
-        {
-            "name": "HitResiduals_TEC_MINUS_wheel8_rms",
-            "corr": false,
-            "files": [
                 "HitResiduals_TEC_MINUS_wheel8_rms",
-                "HitResiduals_TEC_PLUS_wheel8_rms"
+                "HitResiduals_TEC_MINUS_wheel9_rms"
             ]
         },
         {
-            "name": "HitResiduals_TEC_MINUS_wheel9_mean",
+            "name": "HitResiduals_TEC_PLUS_mean",
             "corr": false,
             "files": [
-                "HitResiduals_TEC_MINUS_wheel9_mean",
+                "HitResiduals_TEC_PLUS_wheel1_mean",
+                "HitResiduals_TEC_PLUS_wheel2_mean",
+                "HitResiduals_TEC_PLUS_wheel3_mean",
+                "HitResiduals_TEC_PLUS_wheel4_mean",
+                "HitResiduals_TEC_PLUS_wheel5_mean",
+                "HitResiduals_TEC_PLUS_wheel6_mean",
+                "HitResiduals_TEC_PLUS_wheel7_mean",
+                "HitResiduals_TEC_PLUS_wheel8_mean",
                 "HitResiduals_TEC_PLUS_wheel9_mean"
             ]
         },
         {
-            "name": "HitResiduals_TEC_MINUS_wheel9_rms",
+            "name": "HitResiduals_TEC_PLUS_rms",
             "corr": false,
             "files": [
-                "HitResiduals_TEC_MINUS_wheel9_rms",
+                "HitResiduals_TEC_PLUS_wheel1_rms",
+                "HitResiduals_TEC_PLUS_wheel2_rms",
+                "HitResiduals_TEC_PLUS_wheel3_rms",
+                "HitResiduals_TEC_PLUS_wheel4_rms",
+                "HitResiduals_TEC_PLUS_wheel5_rms",
+                "HitResiduals_TEC_PLUS_wheel6_rms",
+                "HitResiduals_TEC_PLUS_wheel7_rms",
+                "HitResiduals_TEC_PLUS_wheel8_rms",
                 "HitResiduals_TEC_PLUS_wheel9_rms"
             ]
         },
@@ -7266,7 +8150,7 @@
             ]
         }
     ],
-    "StripPeakExprCosmics": [
+    "StripPeakStreamExpressCosmics": [
         {
             "name": "clusterStoN_ONTk_TIB_mean",
             "corr": false,
@@ -7397,7 +8281,7 @@
             ]
         }
     ],
-    "StripPeakExprCosmicsCommissioning": [
+    "StripPeakStreamExpressCosmicsCommissioning": [
         {
             "name": "clusterStoN_ONTk_TIB_mean",
             "corr": false,
@@ -7497,6 +8381,20 @@
             ]
         },
         {
+            "name": "RecHitPerTrack_Pixel_mean",
+            "corr": false,
+            "files": [
+                "RecHitPerTrack_Pixel_mean"
+            ]
+        },
+        {
+            "name": "RecHitPerTrack_Strip_mean",
+            "corr": false,
+            "files": [
+                "RecHitPerTrack_Strip_mean"
+            ]
+        },
+        {
             "name": "TrackChisquared_mean",
             "corr": false,
             "files": [
@@ -7536,6 +8434,62 @@
             "corr": false,
             "files": [
                 "IncrementalNumberOfALCARecoTracks"
+            ]
+        },
+        {
+            "name": "dxyVsPhi_Average",
+            "corr": false,
+            "files": [
+	    	"dxyVsPhi_average"
+            ]
+        },
+        {
+            "name": "dxyVsPhi_MaxExcursion",
+            "corr": false,
+            "files": [
+	    	"dxyVsPhi_MaxExcursion"
+            ]
+        },
+        {
+            "name": "dxyVsEta_Average",
+            "corr": false,
+            "files": [
+	    	"dxyVsEta_average"
+            ]
+        },
+        {
+            "name": "dxyVsEta_MaxExcursion",
+            "corr": false,
+            "files": [
+	    	"dxyVsEta_MaxExcursion"
+            ]
+        },
+        {
+            "name": "dzVsPhi_Average",
+            "corr": false,
+            "files": [
+	    	"dzVsPhi_average"
+            ]
+        },
+        {
+            "name": "dzVsPhi_MaxExcursion",
+            "corr": false,
+            "files": [
+	    	"dzVsPhi_MaxExcursion"
+            ]
+        },
+        {
+            "name": "dzVsEta_Average",
+            "corr": false,
+            "files": [
+	    	"dzVsEta_average"
+            ]
+        },
+        {
+            "name": "dzVsEta_MaxExcursion",
+            "corr": false,
+            "files": [
+	    	"dzVsEta_MaxExcursion"
             ]
         }
     ]

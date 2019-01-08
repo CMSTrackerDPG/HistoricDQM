@@ -121,7 +121,7 @@ class TrendPlot:
                         h2Path=h1Path.replace('/','',1)
                     subdet=h2Path.split('/')[0]
                     if tfile == None :
-                        histo = dqm_get_json_hist( serverUrl, runNr, dataset, splitPath(h2Path)[0],splitPath(h2Path)[1],rootContent=True)
+                        h2 = dqm_get_json_hist( serverUrl, runNr, dataset, splitPath(h2Path)[0],splitPath(h2Path)[1],rootContent=True)
                     else :
                         h2=tfile.Get(('DQMData/Run %d/%s/Run summary/%s') % (runNr,subdet,h2Path.replace('%s/'%(subdet),'',1)))
                     self.__metric.setOptionalHisto2(h2)
@@ -352,9 +352,9 @@ def getRunsFromDQM(config, dset, epochs, reco, tag, datatier,runMask="all", runl
     
     json=[]
     for mask in maskList:
-        print "------------------------------------------------------> ",mask
+        #print "------------------------------------------------------> ",mask
         json+=dqm_get_samples(serverUrl, mask, dataType)
-        print json
+        #print json
 
     masks = []
     if runlistfile!=[]:

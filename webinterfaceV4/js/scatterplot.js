@@ -214,8 +214,10 @@ class ScatterPlot extends Chart {
 
 	for (var number = 1; number <= 2; number++) { //If we have several plots on the same plot, show the layer number instead...  
 	    if (((fileName.indexOf("Ring" + number) !== -1) || (fileName.indexOf("R" + number) !== -1)) && (fileName.indexOf("TEC") == -1) && (fileName.indexOf("TID") == -1) ){
-		fileName = 'Ring ' + number;
-		continue;
+		if((fileName.indexOf("LDR") == -1)){
+		    fileName = 'Ring ' + number;
+		    continue;
+		}
 	    }
 	}
 
@@ -231,8 +233,10 @@ class ScatterPlot extends Chart {
                 continue;
             }
             if ((fileName.indexOf("Layer" + number) !== -1) || (fileName.indexOf("L" + number) !== -1)) {
-                fileName = 'Layer ' + number;
-                continue;
+		if((fileName.indexOf("BLD") == -1)){
+		    fileName = 'Layer ' + number;
+		    continue;
+		}
             }
         }
         for (var number = 1; number <= 7; number++) { //If we have several plots on the same plot, show the layer number instead...

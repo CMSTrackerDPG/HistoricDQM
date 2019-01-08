@@ -15,7 +15,7 @@ Double_t langaufun(Double_t *x, Double_t *par) {
 
   // Numeric constants                                                                                                                                            
   Double_t invsq2pi = 0.3989422804014;   // (2 pi)^(-1/2)                                                                                                         
-  Double_t mpshift  = 0.22278298;       // Landau maximum location                                                                                               
+  Double_t mpshift  = -0.22278298;       // Landau maximum location                                                                                               
 
   // Control constants                                                                                                                                            
   Double_t np = 100.0;      // number of convolution steps                                                                                                        
@@ -32,7 +32,7 @@ Double_t langaufun(Double_t *x, Double_t *par) {
 
 
   // MP shift correction                                                                                                                                          
-  mpc = par[1] - 2.931*mpshift * par[0];
+  mpc = par[1] - mpshift * par[0];
 
   // Range of convolution integral                                                                                                                                
   xlow = x[0] - sc * par[3];

@@ -32,13 +32,14 @@ class BaseMetric:
                 result = self.calculate(histo)
             except StandardError as msg :
                 print "Warning: fit failed, returning 0"
+                print msg 
 
             entries = histo.GetEntries()
             if not self.__cache == None:
                 self.__cache[cacheLocation] = (result, entries)
         if entries < self._threshold:
-            #raise StandardError," Number of entries (%s) is below threshold (%s) using '%s'"%(entries, self._threshold, self.__class__.__name__) #, histo.GetName())
-            print " Number of entries (%s) is below threshold (%s) using '%s'"%(entries, self._threshold, self.__class__.__name__)
+            raise StandardError," Number of entries (%s) is below threshold (%s) using '%s'"%(entries, self._threshold, self.__class__.__name__) #, histo.GetName())
+            #print " Number of entries (%s) is below threshold (%s) using '%s'"%(entries, self._threshold, self.__class__.__name__)
         if not len(result) == 2:
             raise StandardError, "calculate needs to return a tuple with the value and the error of the metric!"
         if not "__iter__" in dir(result[1]):
@@ -110,8 +111,12 @@ class PixelEfficiency(BaseMetric):
 class PixelDigiPerClusterPix(BaseMetric):
     def calculate(self, histo):
         from math import sqrt
-        num= histo.GetMean()
-        den= self._histo1.GetMean()*self._histo2.GetMean()
+        if "2" in histo.ClassName():
+            num= histo.GetMean(3)
+            den= self._histo1.GetMean(3)*self._histo2.GetMean(3)
+        else:
+            num= histo.GetMean()
+            den= self._histo1.GetMean()*self._histo2.GetMean()
         if den == 0:
             res= 0
             eres=0
@@ -223,6 +228,15 @@ class MaxBin(BaseMetric):
         bin = histo.GetMaximumBin()
         return ( histo.GetBinCenter(bin), 0) 
 
+class MaxExcursion(BaseMetric):
+    def calculate(self, histo):
+        from math import sqrt
+        bmax = histo.GetMaximumBin()
+        bmin = histo.GetMinimumBin()
+        res=histo.GetBinContent(bmax)-histo.GetBinContent(bmin)
+        err=sqrt(histo.GetBinError(bmax)*histo.GetBinError(bmax)+histo.GetBinError(bmin)*histo.GetBinError(bmin))
+        return ( res, err) 
+
 class BinCount(BaseMetric):
     def __init__(self,  name, noError = False):
         self.__name = name
@@ -253,6 +267,62 @@ class ROCfraction(BaseMetric):
         if not self.__noError:
             error = 100*sqrt(histo.GetBinContent(binNr))/self.__tot
         return ( 100*histo.GetBinContent(binNr)/self.__tot, error)
+
+class FED25ErrorFraction(BaseMetric):
+    def __init__(self, thr, norm, normErr=True):
+        self.__thr = thr
+        self.__norm = norm
+        self.__normErr = normErr
+
+    def calculate(self,histo):
+        from math import sqrt
+        ref=histo.GetMaximum()*self.__thr
+        nbinx=histo.GetNbinsX();
+        nbiny=histo.GetNbinsY();
+        count=0
+        for i in range(1,nbinx+1):
+            for j in range(1,nbiny+1):
+                if histo.GetBinContent(i,j)>ref:
+                    count+=1
+        res=float(count)/self.__norm
+        err=0
+        if self.__normErr :
+            err=sqrt(res*(1-res)/(nbinx*nbiny))
+        return (100*res, 100*err)
+
+class StripFEDErrorFraction(BaseMetric):
+    def __init__(self, fedId, errorType):
+        self.__fedId = fedId
+        self.__type = errorType
+
+    def calculate(self,histo):
+        from math import sqrt
+        den=self._histo1.GetMaximum()
+        num=histo.GetBinContent(self.__fedId+1-50,self.__type)
+        if den==0:
+            res=0
+            err=0
+        else:
+            res=num/den
+            err=sqrt(res*(1-res)/den)
+        return (100*res, 100*err)
+
+
+
+class StripBadComponent(BaseMetric):
+    def __init__(self,  binsx, biny, norm):
+        self.__binsx = binsx
+        self.__biny = biny
+        self.__norm = norm
+
+    def calculate(self, histo):
+        from math import sqrt
+        num=0
+        for bin in self.__binsx:
+            num += histo.GetBinContent(bin,self.__biny)
+        error = 0
+        return ( 100*num/self.__norm, error)
+
 
 class EntriesCount(BaseMetric):
     def __init__(self, startValue):
@@ -472,6 +542,65 @@ class Mean2D(BaseMetric):
         if count==0:
             return (0,0)
         return (sum/count, 0)
+
+class BinRatio2D(BaseMetric):
+    def __init__(self, Nxbin,Nybin,Dxbin,Dybin):
+        self.__Nxbin = int(Nxbin)
+        self.__Nybin = int(Nybin)
+        self.__Dxbin = int(Dxbin)
+        self.__Dybin = int(Dybin)
+
+    def calculate(self,histo):
+        from math import sqrt
+        num=float(0.0)
+        den=float(0.0)
+        num=histo.GetBinContent(self.__Nxbin,self.__Nybin)
+        den=histo.GetBinContent(self.__Dxbin,self.__Dybin)
+        if den==0:
+            return (0,0)
+        else:
+            res=num/den
+        return (res, res*sqrt((1./den)+(1./num)))
+
+class BinCount2D(BaseMetric):
+    def __init__(self, xbin,ybin, normErr=True):
+        self.__xbin = int(xbin)
+        self.__ybin = int(ybin)
+        self.__normErr = normErr
+
+    def calculate(self,histo):
+        from math import sqrt
+        res=histo.GetBinContent(self.__xbin,self.__ybin)
+        err=histo.GetBinError(self.__xbin,self.__ybin)
+        if self.__normErr :
+            err=err/sqrt(histo.GetEntries())
+        return (res, err)
+
+class Bin2DRatio(BaseMetric):
+    def __init__(self, xbin,ybin, normEntries=True):
+        self.__xbin = int(xbin)
+        self.__ybin = int(ybin)
+        self.__normE = normEntries
+
+    def calculate(self,histo):
+        from math import sqrt
+        num=histo.GetBinContent(self.__xbin,self.__ybin)
+        den=self._histo1.GetBinContent(self.__xbin,self.__ybin)
+        if self.__normE :
+            num=num*histo.GetEntries();
+            den=den*self._histo1.GetEntries();
+            err=sqrt(num)
+        else:
+            err=histo.GetBinError(self.__xbin,self.__ybin)/sqrt(histo.GetEntries())
+        if den==0:
+            res=0
+            err=0
+        else:
+            res=num/den
+            err=err/den
+        return (res, err)
+
+
 
 class MeanYForXBin(BaseMetric):
     def __init__(self, xbin):

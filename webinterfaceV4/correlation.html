@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+<script src="js/jquery-3.1.1.min.js"></script>
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" /> -->
+
+<script src="js/highcharts.js"></script>
+<script src="js/highcharts-more.js"></script>
+<script src="js/exporting.js"></script>
+<script src="js/heatmap.js"></script>
+<script src="js/histogram-bellcurve.js"></script>
+
+
+<script src="js/chart.js"></script>
+<script src="js/scatterplot.js"></script>
+<script src="js/corrplot.js"></script>
+<script src="js/corrList.js"></script>
+<script src="js/Correlation.js"></script>
+
+<!-- <link href="facebox/src/facebox.css" media="screen" rel="stylesheet"
+	type="text/css" />
+<script src="facebox/src/facebox.js" type="text/javascript"></script> -->
+<script src="js/popup.js"></script>
+<title>HDQM</title>
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/chart.css">
+<link rel="stylesheet" href="css/chartList.css">
+<link rel="stylesheet" href="css/popup.css">
+<style>
+header {
+	margin: 10px;
+	font-size: 15px;
+}
+
+.contact-text {
+	overflow: hidden;
+	/*margin-bottom: 20px;*/
+	margin: 10px;
+	/*padding: 5px;*/
+	padding-bottom: 12px;
+	display: inline-block;
+	font-size: 15px;
+	margin-left: 0px;
+}
+
+.contact-input {
+	width: 20%;
+	overflow: hidden;
+	/*margin-bottom: 20px;*/
+	margin: 10px;
+	padding: 5px;
+	background: #eef7f9;
+	border-radius: 2px;
+	display: inline-block;
+}
+.contact-input1 {
+	width: 80%;
+	overflow: hidden;
+	/*margin-bottom: 20px;*/
+	margin: 10px;
+	padding: 5px;
+	background: #eef7f9;
+	border-radius: 2px;
+	display: inline-block;
+}
+
+.contact-input>input,.contact-input>textarea { //
+	display: block;
+	width: 30%;
+	height: 29px;
+	padding: 0 9px;
+	color: #4d5a5e;
+	background: white;
+	border: 1px solid #cfdfe3;
+	border-bottom-color: #d2e2e7;
+	border-radius: 2px;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05), 0 1px
+		rgba(255, 255, 255, 0.2);
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05), 0 1px
+		rgba(255, 255, 255, 0.2);
+}
+
+.contact-input>input:focus,.contact-input>textarea:focus {
+	border-color: #93c2ec;
+	outline: 0;
+	-webkit-box-shadow: 0 0 0 8px #e1ecf5;
+	box-shadow: 0 0 0 8px #e1ecf5;
+}
+
+.lt-ie9 .contact-input>input,.lt-ie9 .contact-input>textarea {
+	line-height: 27px;
+}
+
+.contact-input>textarea {
+	padding: 4px 8px;
+	height: 90px;
+	line-height: 20px;
+	resize: none;
+}
+
+.vars-input {
+	width: 35%;
+	overflow: hidden;
+	/*margin-bottom: 20px;*/
+	margin: 10px;
+	padding: 5px;
+	background: #eef7f9;
+	border-radius: 2px;
+	display: inline-block;
+}
+
+.vars-input>input,.vars-input>textarea { //
+	display: block;
+	width: 30%;
+	height: 29px;
+	padding: 0 9px;
+	color: #4d5a5e;
+	background: white;
+	border: 1px solid #cfdfe3;
+	border-bottom-color: #d2e2e7;
+	border-radius: 2px;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05), 0 1px
+		rgba(255, 255, 255, 0.2);
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05), 0 1px
+		rgba(255, 255, 255, 0.2);
+}
+
+.vars-input>input:focus,.vars-input>textarea:focus {
+	border-color: #93c2ec;
+	outline: 0;
+	-webkit-box-shadow: 0 0 0 8px #e1ecf5;
+	box-shadow: 0 0 0 8px #e1ecf5;
+}
+
+.lt-ie9 .vars-input>input,.lt-ie9 .vars-input>textarea {
+	line-height: 27px;
+}
+
+.vars-input>textarea {
+	padding: 4px 8px;
+	height: 90px;
+	line-height: 20px;
+	resize: none;
+}
+
+
+
+
+
+.select {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	background: white;
+	border: 1px solid #d2e2e7;
+	border-bottom-color: #c5d4d9;
+	border-radius: 2px;
+	background-image: -webkit-linear-gradient(top, #fcfdff, #f2f7f7);
+	background-image: -moz-linear-gradient(top, #fcfdff, #f2f7f7);
+	background-image: -o-linear-gradient(top, #fcfdff, #f2f7f7);
+	background-image: linear-gradient(to bottom, #fcfdff, #f2f7f7);
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+.select:before,.select:after {
+	content: '';
+	position: absolute;
+	right: 11px;
+	width: 0;
+	height: 0;
+	border-left: 3px outset transparent;
+	border-right: 3px outset transparent;
+}
+
+.select:before {
+	top: 10px;
+	border-bottom: 3px solid #7f9298;
+}
+
+.select:after {
+	top: 16px;
+	border-top: 3px solid #7f9298;
+}
+
+.select>select {
+	position: relative;
+	z-index: 2;
+	width: 112%;
+	height: 29px;
+	line-height: 17px;
+	padding: 5px 9px;
+	padding-right: 0;
+	color: #80989f;
+	background: transparent;
+	background: rgba(0, 0, 0, 0);
+	border: 0;
+	-webkit-appearance: none;
+}
+
+.select>select:focus {
+	color: #4d5a5e;
+	outline: 0;
+}
+
+.contact-submit { //
+	text-align: right;
+	margin-left: auto;
+	margin-right: auto;
+	width: 10%;
+}
+
+.contact-submit>button {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 14px;
+	height: 29px;
+	font-weight: bold;
+	color: #729fb2;
+	text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+	background: #deeef4;
+	border: 1px solid #bed6e3;
+	border-bottom-color: #accbd9;
+	border-radius: 15px;
+	cursor: pointer;
+	background-image: -webkit-linear-gradient(top, #e6f2f7, #d0e6ee);
+	background-image: -moz-linear-gradient(top, #e6f2f7, #d0e6ee);
+	background-image: -o-linear-gradient(top, #e6f2f7, #d0e6ee);
+	background-image: linear-gradient(to bottom, #e6f2f7, #d0e6ee);
+	-webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), 0 1px 1px
+		rgba(0, 0, 0, 0.06), 0 0 0 4px #eef7f9;
+	box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), 0 1px 1px
+		rgba(0, 0, 0, 0.06), 0 0 0 4px #eef7f9;
+}
+
+.contact-submit>button:active {
+	color: #6a95a9;
+	text-shadow: 0 1px rgba(255, 255, 255, 0.3);
+	background: #c9dfe9;
+	border-color: #a3bed0 #b5ccda #b5ccda;
+	-webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px
+		rgba(255, 255, 255, 0.2), 0 0 0 4px #eef7f9;
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px
+		rgba(255, 255, 255, 0.2), 0 0 0 4px #eef7f9;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    padding-top: 3%; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-dialog{
+    overflow-y: initial !important
+}
+.modal-body {
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;    
+}
+
+.flex-container {
+	display: flex;
+	align-items: flex-start;
+}
+#runs-mode-container {
+	flex-basis: content;
+}
+
+#run-filter-list {
+	flex-grow: 1
+}
+
+.filter-input {
+	margin: 15px;
+}
+
+ .filter-input input[type='number'] {
+	display: inline;
+	width: 150px;
+	margin-right: 10px;
+}
+
+.runs-input {
+	display: none;
+}
+
+textarea {
+    overflow-y: scroll;
+    /* height: 100%; */
+    resize: none;
+	width: 90%;
+}
+
+.flex-item-center {
+	align-self: center;
+}
+
+#runs-mode-container {
+	width: 150px;
+}
+
+input[type="checkbox"] {
+	width: auto;
+}
+
+
+</style>
+
+</head>
+
+<body>
+	<header>
+		<p class="contact-input" style="margin-left: 0px"> 		 
+			<label for="select" class="select"> <select id="year"
+				name="Year" onchange="update_collections();">
+					<option>2016</option>
+					<option>2017</option>
+					<option selected>2018</option>
+			</select></label>
+		</p>
+                  <p class="contact-input">
+                        <label for="select" class="select"> <select id="dataSet"
+                                name="dataset">
+                                        <option value="" selected>Choose DataSet...</option>
+                                        <option>StreamExpress</option>
+                                        <option>StreamExpressCosmics</option>
+                                        <option>StreamExpressCosmicsCommissioning</option>
+                                        <option>ZeroBias</option>
+                                        <option>Cosmics</option>
+                                        <option>CosmicsCommissioning</option>
+                        </select></label>
+                  </p>
+
+		<br />
+		<div class="flex-container">
+		  <div class="flex-item-center">
+		    <span>X axis variable :</span> 
+		  </div>
+		  <p class="contact-input">
+		    <label for="select" class="select"> <select id="subsystemX"
+								name="subsystem">
+			<option value="" selected>Choose Sub-System...</option>
+			<option>PixelPhase1</option>
+			<option>Strips</option>
+			<option>Tracking</option>
+			<option>RecoErrors</option>
+		    </select></label>
+		  </p>
+		  <p class="vars-input">
+                    <label for="select" class="select"> <select id="varsX" name="vars">
+                        <option value="" selected>Choose quantity to plot...</option>
+                    </select></label>
+                  </p>
+		</div>
+		<div class="flex-container">
+		  <div class="flex-item-center">
+                    <span>Y axis variable :</span>
+                  </div>
+                  <p class="contact-input">
+                    <label for="select" class="select"> <select id="subsystemY"
+                                                                name="subsystem">
+                        <option value="" selected>Choose Sub-System...</option>
+                        <option>PixelPhase1</option>
+                        <option>Strips</option>
+                        <option>Tracking</option>
+                        <option>RecoErrors</option>
+                    </select></label>
+                  </p>
+                  <p class="vars-input">
+                    <label for="select" class="select"> <select id="varsY" name="vars">
+                        <option value="" selected>Choose quantity to plot...</option>
+                    </select></label>
+                  </p>
+                </div>
+		<br />
+		<div id="runs-container" class="flex-container">
+			<div class="flex-container">
+				<div class="flex-item-center">
+					<input type="checkbox" id="filter-runs" checked>
+					<span>Filter Runs:</span>
+				</div>
+				<p id="runs-mode-container" class="contact-input">
+					<label class="select"> 
+						<select id="runs-mode">
+							<option value="run-filter-latest">Latest</option>
+							<option value="run-filter-range">Range</option>
+							<option value="run-filter-list">List</option>
+							<option value="run-filter-file">File</option>
+						</select>
+					</label>
+				</p>
+			</div>
+			<div id="run-filter-latest" class="runs-input filter-input">
+				<input type="number" id="run-latest" name="runfrom" value="150" min="0">
+			</div>
+			<div id="run-filter-range" class="runs-input filter-input">
+				<input type="number" id="runFrom" name="runfrom" placeholder="From" min="0"> 
+				<input type="number" id="runTo" name="runto" placeholder="To" min="0">
+			</div>
+			<div id="run-filter-list" class="runs-input filter-input">
+				<textarea id="run-list"></textarea>
+			</div>
+			<div id="run-filter-file" class="runs-input filter-input">
+				<input type="file" id="list-file">
+			</div>
+		</div>
+
+		<!-- HIDDEN -->
+		<div id="y-container" class="flex-container" style="display: none">
+			<div class="flex-item-center">
+				<input type="checkbox" id="filter-y">
+				<span>Y value range:</span>
+			</div>
+			<div id="y-range-input" class="y-input filter-input">
+				<input type="number" step="any" id="y-from" name="yFrom" placeholder="From" disabled> 
+				<input type="number" step="any" id="y-to" name="yTo" placeholder="To" disabled>
+			</div>
+			
+		</div>
+
+		<div class="flex-container" style="margin-bottom:10px">
+			<div class="flex-item-center">
+				<input type="checkbox" id="show-regression">
+				<span>Show regression lines</span>
+			</div>
+		</div>
+		<div>
+			<p class="contact-submit" style="text-align: center">
+				<button id="search">Submit</button>
+			</p>
+			<p id="clr-container" class="contact-submit" style="text-align: center">
+  			        <button id="clear">Clear</button>
+			</p>
+
+		</div>
+		<!-- Trigger/Open The Modal -->
+   			<button id="myBtn"><font color="red">Short Help Instructions</font></button>
+
+		<!-- The Modal -->
+			<div id="myModal" class="modal">
+
+	     		  <!-- Modal content -->
+  				<div class="modal-content">
+    					<div class="modal-header">
+      					    <span class="close">&times;</span>
+      					    <h2>How to use the hDQM correlation plots</h2>
+    					</div>
+				        <div class="modal-body">
+                                            <ul>
+					        <li>Select a <b>Subsystem</b>, available quantities will be loaded on the other drop down menu </li>
+     					        <br>      
+					        <li>Repeat for both X and Y axis </li>
+						<br>
+						<li>Click on <b>Submit</b> will generate the correlation plot configured</li>
+						<br>
+						<li>After a plot is generated you can configure another one and by clicking on <b>Submit</b> it will be added to the showed plots without deleting the previous ones </li>
+						<br>
+						<li>To clear the plots list and restart from scratch please use the <b>Clear</b> button</li>
+						<br>
+						<li> If you uncheck the <b>Filter Runs </b> check box <b> ALL </b> the runs will be displayed</li>	
+						<br>
+						<li> From <b>Filter Runs </b> drop down menu you can select  <b>Latest </b> to display the lastest number of runs</li>	
+      						<br>
+						<li> From <b>Filter Runs </b> drop down menu you can select  <b>Range  </b> to  display a specific run range (<b>0</b> is used as marker for first and last run)</li>	
+      						<br>
+						<li> From <b>Filter Runs </b> drop down menu you can select  <b> List  </b> to display a list of runs separated by commas(if between the runs you put a <b> - </b> then you select all the runs in this range)</li>	
+      						<br>
+						<li> From <b>Filter Runs </b> drop down menu you can select  <b>File   </b> to  display runs from a predefined file with the same format as mentioned in the option <b> List  </b> above </li>	                        <br>
+						<br>
+      						<li>Initially all the check buttons are ON(Activated)</li>
+     					        <br>      
+      						<li>Clicking <b>TWICE</b> in any check button you  select or de-select all the plots</li>
+      						<br>
+      						<li>Clicking <b>ONCE</b> in a button you can select individual plots or groups of plots</li>
+      						<br>
+     					        <li>By clicking in a legend, you can show or hide the points on the specific plot</li>
+      						<br>
+     						<li>With the left mouse button, you can do dynamic zooming</li>
+      						<br>
+      						<li>The <b>Reset zoom</b> button on the plot area resets the initial view of the plot</li>
+ 						<br>
+						<li> There is a square button in the uper right place of each plot where you can left click and localy save an image of the plot</li>	
+      						<br>
+						<li> If you uncheck the <b>Filter Runs </b> check box <b> ALL </b> the runs will be displayed</li>	
+						<br>
+						<li> From <b>Filter Runs </b> drop down menu you can select  <b>Latest </b> to display the lastest number of runs</li>	
+      						<br>
+						<li> From <b>Filter Runs </b> drop down menu you can select  <b>Range  </b> to  display a specific run range</li>	
+      						<br>
+						<li> From <b>Filter Runs </b> drop down menu you can select  <b> List  </b> to display a list of runs separated by commas(if between the runs you put a <b> - </b> then you select all the runs in this range)</li>	
+      						<br>
+						<li> From <b>Filter Runs </b> drop down menu you can select  <b>File   </b> to  display runs from a predefined file with the same format as mentioned in the option <b> List  </b> above </li>	                        <br>
+						
+						<br>
+      						
+   
+    					    </ul> 
+
+
+					</div>
+      					<div class="modal-footer">
+      					     <h3></h3>
+    					</div>
+  				</div>
+
+			</div>
+		
+	</header>
+	<hr>
+	<div id="list-cotnainer">
+	</div>
+
+	<div style="width:100%">
+		<div id="body">
+		</div>
+	</div>
+	<div id="popup" class="modal" hidden>
+		<div class="modal-content">
+			<!-- <span class="close">&times;</span> -->
+			<div id="inputArea" style="text-align:center">
+				<span class="contact-input1">
+					<label><input id="start" placeholder="From"></input></label>
+				</span>
+				<span class="contact-input1">
+					<label><input id="end" placeholder="To"></input></label>
+				</span>
+			</div>
+			<div class="contact-submit1" style=""><button onclick="updatePopup();">Submit</button></div>
+			<div id="popup-chart" class="chart">
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
