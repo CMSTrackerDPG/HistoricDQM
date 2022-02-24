@@ -9,8 +9,9 @@ import re
 
 import json
 import os
-import ConfigParser
-class BetterConfigParser(ConfigParser.ConfigParser):
+#import ConfigParser
+import configparser
+class BetterConfigParser(configparser.ConfigParser):
     def optionxform(self, optionstr):
         return optionstr
 
@@ -23,7 +24,7 @@ class TrendPlot:
         self.__section = section
         self.__cache = cache
 
-	self.__threshold = int(self.__config.get("styleDefaults","histoThreshold"))
+        self.__threshold = int(self.__config.get("styleDefaults","histoThreshold"))
         if self.__config.has_option(self.__section,"threshold"):
             self.__threshold = int(self.__config.get(self.__section,"threshold"))
         
@@ -94,7 +95,7 @@ class TrendPlot:
                 histo1.Write()
 
           except StandardError as msg :
-              print "WARNING: something went wrong getting the histogram ", runNr, msg
+              print("WARNING: something went wrong getting the histogram ", runNr, msg)
 
         try:
             if self.__cache == None or cacheLocation not in self.__cache:
@@ -127,30 +128,30 @@ class TrendPlot:
                     self.__metric.setOptionalHisto2(h2)
                 self.__metric.setRun(runNr)
                 if(histo!=None):
-                    print "-> Got histogram {0} as {1}".format(splitPath(histoPath)[1],histo)
+                    print("-> Got histogram {0} as {1}".format(splitPath(histoPath)[1],histo))
                     if self.__config.has_option(self.__section,"histo1Path"):
-                        print "   -> Got auxiliary histogram {0} as {1}".format(splitPath(h1Path)[1],h1)
+                        print("   -> Got auxiliary histogram {0} as {1}".format(splitPath(h1Path)[1],h1))
                     if self.__config.has_option(self.__section,"histo2Path"):
-                        print "   -> Got auxiliary histogram {0} as {1}".format(splitPath(h2Path)[1],h2)
+                        print("   -> Got auxiliary histogram {0} as {1}".format(splitPath(h2Path)[1],h2))
                     Entr=0
                     Entr=histo.GetEntries()
                     #print "###############    GOT HISTO #################" 
                     y=0
                     yErr    = (0.0,0.0)
                     if Entr>self.__threshold:
-                        print "      -> {0} will be evaluated".format(self.__metricName)
+                        print("      -> {0} will be evaluated".format(self.__metricName))
                         (y, yErr) = self.__metric(histo, cacheLocation)
                     else:
-                        print "      -> Histogram entries are {0} while threshold is {1}. Metric will not be evalueted, results set at 0".format(Entr,self.__threshold)
+                        print("      -> Histogram entries are {0} while threshold is {1}. Metric will not be evalueted, results set at 0".format(Entr,self.__threshold))
                         self.__cache[cacheLocation] = ((0.,0.),0.)
                 else:
-                    print "WARNING: something went wrong downloading histo=",splitPath(histoPath)[1]
+                    print("WARNING: something went wrong downloading histo=",splitPath(histoPath)[1])
                     return 
             elif cacheLocation in self.__cache:
-                print "-> Got {0} for histogram {1} from cache".format(self.__metricName,splitPath(histoPath)[1])
+                print("-> Got {0} for histogram {1} from cache".format(self.__metricName,splitPath(histoPath)[1]))
                 (y, yErr) = self.__metric(None, cacheLocation)
         except StandardError as msg :
-            print "WARNING: something went wrong calculating", self.__metric, msg
+            print("WARNING: something went wrong calculating", self.__metric, msg)
             self.__count = self.__count - 1
             return
 
@@ -181,7 +182,7 @@ class TrendPlot:
             xMode = "counted"
         if xMode == "runNumber":
             self.__x.append(run)
-            print "*** appending run to x"
+            print("*** appending run to x")
             self.__xTitle = "Run No."
         elif xMode == "runNumberOffset":
             runOffset = int(self.__config.get(self.__section,"runOffset"))
@@ -194,7 +195,7 @@ class TrendPlot:
             self.__x.append(self.__count)
             self.__xTitle = "Run No."
         else:
-            raise StandardError, "Unknown xMode: %s in %s"%(xMode, self__section)
+            raise StandardError("Unknown xMode: %s in %s"%(xMode, self__section))
 
     def getName(self):
         return self.__section.split("plot:")[1]
@@ -236,7 +237,7 @@ class TrendPlot:
             os.makedirs("./JSON")
         with open("./JSON/"+self.__title+".json", 'w') as outfile:
             json.dump(obj, outfile,indent=4)
-        print  "Dump JSON file : {0}.json".format(self.__title)
+        print("Dump JSON file : {0}.json".format(self.__title))
         return
 
     def getGraph(self):
@@ -244,7 +245,7 @@ class TrendPlot:
         from ROOT import TMultiGraph, TLegend, TGraphAsymmErrors
         n = len(self.__x)
         if n != len(self.__y) or n != len(self.__yErrLow) or n != len(self.__yErrHigh):
-            raise StandardError, "The length of the x(%s), y(%s) and y error(%s,%s) lists does not match"%(len(self.__x), len(self.__y), len(self.__yErrLow), len(self.__yErrHigh))
+            raise StandardError("The length of the x(%s), y(%s) and y error(%s,%s) lists does not match"%(len(self.__x), len(self.__y), len(self.__yErrLow), len(self.__yErrHigh)))
 
         result = TMultiGraph()
         legendPosition = [float(i) for i in self.__getStyleOption("legendPosition").split()]
@@ -277,7 +278,7 @@ class TrendPlot:
         from math import sqrt 
         n = len(self.__x)
         if n != len(self.__y) or n != len(self.__yErrLow):
-            raise StandardError, "The length of the x(%s), y(%s) and y error(%s,%s) lists does not match"%(len(self.__x), len(self.__y), len(self.__yErrLow), len(self.__yErrHigh))
+            raise StandardError("The length of the x(%s), y(%s) and y error(%s,%s) lists does not match"%(len(self.__x), len(self.__y), len(self.__yErrLow), len(self.__yErrHigh)))
         result=TH1F(self.__title,self.__title,n,0.5,float(n)+0.5)
         axis = result.GetXaxis()
         for i in range (len(self.__x)):
@@ -313,7 +314,7 @@ class TrendPlot:
                 if showUpTo >= nRuns:   showEvery = nRuns
                 else:                   showEvery = showUpTo
             except ValueError:
-              raise StandardError, "Bad xMode syntax: %s" % xMode
+              raise StandardError("Bad xMode syntax: %s" % xMode)
             axis = graph.GetXaxis()
             for (x,run) in zip(self.__x,self.__runs):
               if int(x-self.__x[0]) % showEvery == 0 or x==self.__x[-1]:
@@ -332,7 +333,7 @@ class TrendPlot:
     def __getStyleOption(self, name):
         result = None
         if not self.__config.has_option("styleDefaults", name):
-            raise StandardError, "there is no default style option for '%s'"%name
+            raise StandardError("there is no default style option for '%s'"%name)
         result = self.__config.get("styleDefaults", name)
         if self.__config.has_option(self.__section, name):
             result = self.__config.get(self.__section, name)
@@ -349,7 +350,7 @@ def getRunsFromDQM(config, dsets, epochs, reco, tag, datatier,runMask="all", run
     for epoch in epochs:
         for dset in dsets:
             maskList.append(".*/" + dset +"/"+epoch+".*"+reco+"*.*"+tag+"/"+datatier)
-    print "dsetmask = ",maskList
+    print("dsetmask = ", maskList)
     
     json=[]
     for mask in maskList:
@@ -363,7 +364,7 @@ def getRunsFromDQM(config, dsets, epochs, reco, tag, datatier,runMask="all", run
 
     if jsonfile!=[]:
         if runMask=="all":
-            print "file:",jsonfile
+            print("file:",jsonfile)
             aaf = open(jsonfile)
             info = aaf.read()
             decoded = jsonn.loads(info)
@@ -371,12 +372,12 @@ def getRunsFromDQM(config, dsets, epochs, reco, tag, datatier,runMask="all", run
             for item in decoded:
                 runs1.append(item)           
         else:
-            print "file:",jsonfile
+            print("file:",jsonfile)
             aaf = open(jsonfile)
             info = aaf.read()
             decoded = jsonn.loads(info)
             runs1=[]
-            print "Start selection"
+            print("Start selection")
             for item in decoded:
                 if eval(runMask,{"all":True,"run":int(item)}):
                     runs1.append(item)
@@ -385,7 +386,7 @@ def getRunsFromDQM(config, dsets, epochs, reco, tag, datatier,runMask="all", run
     for runNr, dataset in json:
         if dataset not in masks: masks.append(dataset)
     for m in masks:
-        print m
+        print(m)
     
     result = {}
     for mask in masks :
@@ -403,12 +404,12 @@ def getRunsFromDQM(config, dsets, epochs, reco, tag, datatier,runMask="all", run
                                 #print "test1=",run_temp,runNr
                                 result[runNr] = (serverUrl, runNr, dataset, runEpoch)
     if not result :
-        print "*** WARNING: YOUR REQUEST DOESNT MATCH ANY EXISTING DATASET ***"
-        print "-> check your settings in ./cfg/trendPlots.py"
-        print "--> check your runmask!"
-        print "===> maybe choose a different primary dataset"
-        print "--> or check the runrange!"
-        print "*** end of warning *********************************************"
+        print("*** WARNING: YOUR REQUEST DOESNT MATCH ANY EXISTING DATASET ***")
+        print("-> check your settings in ./cfg/trendPlots.py")
+        print("--> check your runmask!")
+        print("===> maybe choose a different primary dataset")
+        print("--> or check the runrange!")
+        print("*** end of warning *********************************************")
         return
     return result
 
@@ -480,35 +481,35 @@ def main(argv=None):
     config.read(opts.config)
  
     initStyle(config)
-    print "opts.state = ",opts.state
-    print "opts.runs = ",opts.runs
-    print "opts.list = ",opts.list
-    print "opts.json = ",opts.json
+    print("opts.state = ",opts.state)
+    print("opts.runs = ",opts.runs)
+    print("opts.list = ",opts.list)
+    print("opts.json = ",opts.json)
 
     runs = getRunsFromDQM(config, opts.dset, opts.epoch, opts.reco, opts.tag, opts.datatier,opts.runs,opts.list,opts.json)
-    if not runs : raise StandardError, "*** Number of runs matching run/mask/etc criteria is equal to zero!!!"
+    if not runs : raise StandardError("*** Number of runs matching run/mask/etc criteria is equal to zero!!!")
 
 
-    print "got %s run between %s and %s"%(len(runs), min(runs.keys()), max(runs.keys()))
+    print("got %s run between %s and %s"%(len(runs), min(runs.keys()), max(runs.keys())))
     plots, cache = initPlots(config)
 
-    print "Loading cache........",len(cache.keys())," items"
+    print("Loading cache........",len(cache.keys())," items")
     runInCache =getRunListFromCache(cache)
 #    runInCache = []
 #    for itest in range(0,len(cache.keys())):
 #        runInCache.append(cache.keys()[itest][1])
-    print "Cache loaded!"
+    print("Cache loaded!")
     for run in sorted(runs.keys()):
         if cache == None or runs[run][1] not in runInCache:
-            print "------------>>> RUN %s NOT IN CACHE"%(runs[run][1])
+            print("------------>>> RUN %s NOT IN CACHE"%(runs[run][1]))
             rc = dqm_get_json(runs[run][0],runs[run][1],runs[run][2], "Info/ProvInfo")
-            print "------------>>> RunIsComplete flag: " , rc['runIsComplete']['value']
+            print("------------>>> RunIsComplete flag: " , rc['runIsComplete']['value'])
             isDone = int(rc['runIsComplete']['value'])
             if opts.datatier != "DQMIO" :
                 isDone = 1
         else:
             isDone = 1
-            print "------------>>> RUN %s IN CACHE"%(runs[run][1])
+            print("------------>>> RUN %s IN CACHE"%(runs[run][1]))
         if isDone == 1 :
             fopen = False
             fpresent= True
@@ -519,21 +520,21 @@ def main(argv=None):
                 cacheLocation = (runs[run][0],runs[run][1],runs[run][2], plot.getPath(),plot.getMetric())
                 incache=(cacheLocation in cache)
                 if (cache == None and not fchecked) or (not incache and not fchecked):
-                    print "{0} {1} {2} {3} {4}".format(runs[run][0],runs[run][1],runs[run][2],runs[run][3],opts.datatier)
+                    print("{0} {1} {2} {3} {4}".format(runs[run][0],runs[run][1],runs[run][2],runs[run][3],opts.datatier))
                     version=dqm_getTFile_Version2(runs[run][0],runs[run][1],runs[run][2],runs[run][3],opts.datatier)
                     if (version != 0):
                         tfile=dqm_getTFile(runs[run][0],runs[run][1],runs[run][2],version,runs[run][3],opts.datatier)
-                        print "### Openning ROOT File Version {0} for Run{1}".format(version,runs[run][1])
+                        print("### Openning ROOT File Version {0} for Run{1}".format(version,runs[run][1]))
                         fopen=True
                     else:
                         fpresent=False
-                        print "### ROOT file not present for Run{0} -> JSON information will be used".format(runs[run][1])
+                        print("### ROOT file not present for Run{0} -> JSON information will be used".format(runs[run][1]))
                     fchecked=True
                 plot.addRun(runs[run][0],runs[run][1],runs[run][2],tfile)
             if fopen :
                 tfile.Close()
         else:
-            print "############ RUN %s NOT FULLY PROCESSED, SKIP ############"%(runs[run][1])
+            print("############ RUN %s NOT FULLY PROCESSED, SKIP ############"%(runs[run][1]))
 
     cachePath = config.get("output","cachePath")
     cacheFile = open(cachePath,"w")
@@ -564,8 +565,8 @@ def main(argv=None):
         #(graph, legend, refLabel) = plot.getGraph()
         try: plot.getGraph()
         except:
-            print "Error producing plot:", plot.getName()
-            print "Possible cause: no entries, or non-existing plot name"
+            print("Error producing plot:", plot.getName())
+            print("Possible cause: no entries, or non-existing plot name")
             continue
         (graph, legend) = plot.getGraph()
         canvas.Clear()
