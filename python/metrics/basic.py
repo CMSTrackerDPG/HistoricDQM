@@ -31,27 +31,27 @@ class BaseMetric:
             try:
                 result = self.calculate(histo)
             except StandardError as msg :
-                print "Warning: fit failed, returning 0"
-                print msg 
+                print("Warning: fit failed, returning 0")
+                print(msg)
 
             entries = histo.GetEntries()
             if not self.__cache == None:
                 self.__cache[cacheLocation] = (result, entries)
         if entries < self._threshold:
-            raise StandardError," Number of entries (%s) is below threshold (%s) using '%s'"%(entries, self._threshold, self.__class__.__name__) #, histo.GetName())
-            #print " Number of entries (%s) is below threshold (%s) using '%s'"%(entries, self._threshold, self.__class__.__name__)
+            raise StandardError(" Number of entries (%s) is below threshold (%s) using '%s'"%(entries, self._threshold, self.__class__.__name__)) #, histo.GetName())
+            #print(" Number of entries (%s) is below threshold (%s) using '%s'"%(entries, self._threshold, self.__class__.__name__))
         if not len(result) == 2:
-            raise StandardError, "calculate needs to return a tuple with the value and the error of the metric!"
+            raise StandardError("calculate needs to return a tuple with the value and the error of the metric!")
         if not "__iter__" in dir(result[1]):
             result = (result[0], (result[1],result[1]))
         else:
             if not len(result[1]) == 2:
-                raise StandardError, "when you use assymmetric errors you need to specify exactly two values. You gave: '%s'"%result[1]
+                raise StandardError("when you use assymmetric errors you need to specify exactly two values. You gave: '%s'"%result[1])
 
         return result
 
     def calculate(self, histo):
-        raise StandardError, "you should not use the baseclass as a metric. Use the derived classes!"
+        raise StandardError("you should not use the baseclass as a metric. Use the derived classes!")
         
         
 class SummaryMapPartition(BaseMetric):
@@ -108,6 +108,15 @@ class PixelEfficiency(BaseMetric):
             eres=sqrt(res*(1-res)/den)
         return (res,eres)
 
+
+class PixelInnerOuterResMean(BaseMetric):
+    def calculate(self, histo):
+        from math import sqrt
+        res= histo.GetMean() - self._histo1.GetMean()
+        eres=sqrt(histo.GetMeanError()*histo.GetMeanError() + self._histo1.GetMeanError()*self._histo1.GetMeanError())
+        return (res,eres)
+
+
 class PixelDigiPerClusterPix(BaseMetric):
     def calculate(self, histo):
         from math import sqrt
@@ -134,9 +143,10 @@ class PixelDigiPerClusterPix(BaseMetric):
         return (res,eres)
 
 
+
 class MeanRMS(BaseMetric):
     def calculate(self, histo):
-        #print 'mean:',histo.GetMean(), histo.GetMeanError()
+        #print('mean:',histo.GetMean(), histo.GetMeanError())
         return (histo.GetMean(), histo.GetRMS())
 
 
@@ -201,7 +211,7 @@ class ProfileMeanBPixModules(BaseMetric):
                 summy+=histo.GetBinContent(nbinx-self.__modCounter,j)
                 sumSquare+=histo.GetBinContent(nbinx-self.__modCounter,j)*histo.GetBinContent(nbinx-self.__modCounter,j)
                 count+=1
-        print count
+        print(count)
         if count==0:
             return (0,0)
         rms= sqrt( sumSquare/count-(summy*summy/(count*count)) )
@@ -338,19 +348,25 @@ class EntriesCount(BaseMetric):
 class EntriesRate(BaseMetric):
     def __init__(self,  startValue):
         self.__loVal = startValue
-        print self.__loVal
+        print(self.__loVal)
 
     def calculate(self, histo):
-        from math import sqrt
+        from math import sqrt        
+        from metrics.omsapi import getDuration
         trksum=float(0.0)
-        for bin in range(histo.FindBin(self.__loVal),histo.GetNbinsX()+1) :
-            trksum+=histo.GetBinContent(bin)
-        nLS=0
-        for bin in range(1,self._histo1.GetNbinsX()+1) :
-            if self._histo1.GetBinContent(bin) > 0 :
-                nLS+=1
-        if nLS :
-            return (trksum/(nLS*23), sqrt(trksum)/(nLS*23))
+        if(self.__loVal<0):
+            trksum=histo.GetEntries()
+        else:
+            for bin in range(histo.FindBin(self.__loVal),histo.GetNbinsX()+1) :
+                trksum+=histo.GetBinContent(bin)
+        try:
+            dt=getDuration(self._run)
+            print("Run %d Duration %d" % (self._run,dt))
+        except:
+            dt=0
+            print("WARNING: Error while retrieving duration of Run %d" % self._run)
+        if dt :
+            return (trksum/(dt), sqrt(trksum)/(dt))
         else :
             return (0,0)
 
@@ -402,12 +418,12 @@ class NormBinCount(BaseMetric):
         total = self.__getWeightOneHisto( histo, self.__norm)
 
         if(frac.GetEntries() > total.GetEntries()):
-            raise StandardError," comparing '%s' to '%s' in '%s' makes no sense eff > 1!"%(self.__name, self.__norm, histo.GetName())
+            raise StandardError(" comparing '%s' to '%s' in '%s' makes no sense eff > 1!"%(self.__name, self.__norm, histo.GetName()))
         
         eff = TGraphAsymmErrors(1)
         eff.BayesDivide(frac, total)
         if eff.GetN() < 1: 
-            raise StandardError,"Efficiency cannot be calculated '%s' in '%s'"%(self.__name, histo.GetName())
+            raise StandardError("Efficiency cannot be calculated '%s' in '%s'"%(self.__name, histo.GetName()))
         return ( eff.GetY()[0], (eff.GetEYlow()[0],eff.GetEYhigh()[0]) )
 
     def __getWeightOneHisto(self, histo, name):
@@ -482,7 +498,7 @@ class Fraction1(BaseMetric):
         from math import sqrt
         s = histo.Integral(histo.FindBin( self.__low),
                            histo.FindBin( self.__high))
-        print "AAA",self.__high,self.__high+1
+        print("AAA",self.__high,self.__high+1)
         Nbins = histo.GetSize()
 #        T = histo.Integral(0,self.__high+1)
         T = histo.Integral(0,Nbins)
@@ -644,8 +660,6 @@ class MeanXRange(BaseMetric):
             return (0,0)
         return (sum/count,0)
 
-        
-                                       
 class Quantile(BaseMetric):
     def __init__(self,  frac = 0.95):
         self.__frac = float(frac)
@@ -657,8 +671,8 @@ class Quantile(BaseMetric):
         q = Quantile(histo)
         "frac is the fraction from the left"
         quant, quantErr = q.fromHead(self.__frac)
-	if quantErr == 0.:
-          raise StandardError," Quantile cannot be calculated!"
+        if quantErr == 0.:
+            raise StandardError(" Quantile cannot be calculated!")
         return (quant,quantErr)
 
 #--- statistical Tests            

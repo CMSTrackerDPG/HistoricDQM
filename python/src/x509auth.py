@@ -1,10 +1,10 @@
-import os, sys, urllib2, httplib, json
+import os, sys, urllib.request, urllib.error, urllib.parse, http.client, json
 from ROOT import *
 from array import *
 
 serverurl = 'https://cmsweb.cern.ch/dqm/offline'
 ident = "DQMToJson/1.0 python/%d.%d.%d" % sys.version_info[:3]
-HTTPS = httplib.HTTPSConnection
+HTTPS = http.client.HTTPSConnection
 
 class X509CertAuth(HTTPS):
  ssl_key_file = None
@@ -15,7 +15,7 @@ class X509CertAuth(HTTPS):
                   cert_file = X509CertAuth.ssl_cert_file,
                   **kwargs)
 
-class X509CertOpen(urllib2.AbstractHTTPHandler):
+class X509CertOpen(urllib.request.AbstractHTTPHandler):
   def default_open(self, req):
     return self.do_open(X509CertAuth, req)
 
@@ -25,15 +25,15 @@ def x509_params():
  x509_path = os.getenv("X509_USER_PROXY", None)
  if x509_path and os.path.exists(x509_path):
 ##   key_file = cert_file = x509_path
-   key_file = cert_file = "/data/users/cctrkdata/current/auth/proxy/proxy.cert"
+   key_file = cert_file = "/tmp/x509up_u133079"
 
  if not key_file:
-   x509_path = "/data/users/cctrkdata/current/auth/proxy/proxy.cert"
+   x509_path = "/tmp/x509up_u133079"
    if os.path.exists(x509_path):
      key_file = x509_path
 
  if not cert_file:
-   x509_path = "/data/users/cctrkdata/current/auth/proxy/proxy.cert"
+   x509_path = "/tmp/x509up_u133079"
    if os.path.exists(x509_path):
      cert_file = x509_path     
 
@@ -48,12 +48,12 @@ def x509_params():
      cert_file = x509_path
 
  if not key_file:
-   x509_path = os.getenv("HOME") + "/.globus/userkey.pem"
+   x509_path = os.getenv("HOME") + "/private/userkey.pem"
    if os.path.exists(x509_path):
      key_file = x509_path
 
  if not cert_file:
-   x509_path = os.getenv("HOME") + "/.globus/usercert.pem"
+   x509_path = os.getenv("HOME") + "/private/usercert.pem"
    if os.path.exists(x509_path):
      cert_file = x509_path
 

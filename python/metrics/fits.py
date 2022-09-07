@@ -1,4 +1,4 @@
-from basic import BaseMetric
+from metrics.basic import BaseMetric
 
 class LanGau(BaseMetric):
     def __init__(self, diseredParameter, minVal, maxVal, controlVal, paramDefaults):
@@ -27,7 +27,7 @@ class LanGau(BaseMetric):
         control = 0
         while control < 5 :
             if(fit.GetParameter(0)<self.controlVal or fit.GetParameter(1)<self.range[0]):
-                print "########### REFIT #######"
+                print("########### REFIT #######")
                 fit.SetParameters(*(self.parameters))
                 if(histo.GetBinCenter(histo.GetMaximumBin())>self.range[0]):
                     fit.SetParameter(1,histo.GetBinCenter(histo.GetMaximumBin()))
@@ -38,7 +38,7 @@ class LanGau(BaseMetric):
                 histo.Fit(fit,"QO","",self.range[0]-2,self.range[1])
                 control=control+1
             else:
-                print "##### GOOD #####"
+                print("##### GOOD #####")
                 control = 5
         result = (fit.GetMaximumX(), fit.GetParError(self.desired))
         del fit
@@ -73,7 +73,7 @@ class LanGauAroundMax(BaseMetric):
         control = 0
         while control < 5 :
             if(fit.GetParameter(0)<self.controlVal or fit.GetParameter(1)<self.min*initm):
-                print "########### REFIT #######"
+                print("########### REFIT #######")
                 fit.SetParameter(0,histo.GetRMS()/6)
                 fit.SetParameter(1,initm)
                 fit.SetParameter(2,histo.Integral()*(5+control)/5)
@@ -83,7 +83,7 @@ class LanGauAroundMax(BaseMetric):
                 histo.Fit(fit,"ORB","")
                 control=control+1
             else:
-                print "##### GOOD #####"
+                print("##### GOOD #####")
                 control = 5
         result = (fit.GetParameter(self.desired), fit.GetParError(self.desired))
         del fit
@@ -149,11 +149,11 @@ class LandauTest(BaseMetric):
     def calculate(self, histo):
         from ROOT import TF1
         if self._run >= self.turn :
-            print "Range 2"
+            print("Range 2")
             fit = TF1("landau","[2]*TMath::Landau(x,[0],[1],0)", *(self.range2))
             fit.SetParameters(*(self.parameters))
         else :
-            print "Range 1"
+            print("Range 1")
             fit = TF1("landau","[2]*TMath::Landau(x,[0],[1],0)", *(self.range1))
             fit.SetParameters(*(self.parameters))
             fit.SetParameter(0,fit.GetParameter(0)*1.58)

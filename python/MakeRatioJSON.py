@@ -1,6 +1,6 @@
 import json
 import math
-from pprint import pprint
+#from pprint import pprint
 
 def MakeRatio(json_infile1,json_infile2,json_outfile,plot_outtitle): 
      
@@ -25,21 +25,18 @@ def MakeRatio(json_infile1,json_infile2,json_outfile,plot_outtitle):
     lst = []
 	 	 
     for i in range(0,counter1):
-         for j in range(0,counter2):
-             if(data1[json_infile1][i][u'run'] == data2[json_infile2][j][u'run']):
-#	        print "Run Coindidence at run = ", data1[json_infile1][i][u'run']
-		Mean_Num = data1[json_infile1][i][u'y']
-		Mean_Num_err = data1[json_infile1][i][u'yErr']
-#                print "Mean Numerator = ", Mean_Num, " with error = ",Mean_Num_err
-		Mean_Den = data2[json_infile2][j][u'y']
-		Mean_Den_err = data2[json_infile2][j][u'yErr']
-#                print "Mean Denominator = ",Mean_Den, " with error = ", Mean_Den_err
+        for j in range(0,counter2):
+            if(data1[json_infile1][i][u'run'] == data2[json_infile2][j][u'run']):
+                Mean_Num = data1[json_infile1][i][u'y']
+                Mean_Num_err = data1[json_infile1][i][u'yErr']
+                Mean_Den = data2[json_infile2][j][u'y']
+                Mean_Den_err = data2[json_infile2][j][u'yErr']
                 Ratio_N_over_D = 0
-		Ratio_N_over_D_err = 0
+                Ratio_N_over_D_err = 0
                 if(Mean_Den != 0):
-		   Ratio_N_over_D = Mean_Num/Mean_Den
-                   if(Mean_Num != 0):
-		       Ratio_N_over_D_err = Ratio_N_over_D*math.sqrt( (Mean_Num_err/Mean_Num)*(Mean_Num_err/Mean_Num) + (Mean_Den_err/Mean_Den)*(Mean_Den_err/Mean_Den) )
+                    Ratio_N_over_D = Mean_Num/Mean_Den
+                    if(Mean_Num != 0):
+                        Ratio_N_over_D_err = Ratio_N_over_D*math.sqrt( (Mean_Num_err/Mean_Num)*(Mean_Num_err/Mean_Num) + (Mean_Den_err/Mean_Den)*(Mean_Den_err/Mean_Den) )
 
                 d={}
                 d['x']=i+1
@@ -85,9 +82,9 @@ def main(argv=None):
          print("Usage: %s -n Numeraror File -d Denominator File" % sys.argv[0])
 
 
-    print "Numeraror File : {0} and  Denominator File: {1}".format(json_infile1,json_infile2)
-    print "Output JSON Name = ",json_outfile 
-#    print "Output Plot Title = ",plot_outtitle
+    print("Numeraror File : {0} and  Denominator File: {1}".format(json_infile1,json_infile2))
+    print("Output JSON Name = ",json_outfile)
+#    print("Output Plot Title = ",plot_outtitle)
 # Display input and output file name passed as the args
 
 

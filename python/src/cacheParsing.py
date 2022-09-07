@@ -15,7 +15,7 @@ def getRunListFromCache(cache):
 
     pool = multiprocessing.Pool(ntreads)
     
-    result_list = pool.map(parsingCache, (cache.keys()[k:k+nitem] for k in xrange(0,len(cache.keys()),nitem))  )
+    result_list = pool.map(parsingCache, (list(cache.keys())[k:k+nitem] for k in range(0,len(cache.keys()),nitem))  )
 
     flat=[item for sublist in result_list for item in sublist]
     

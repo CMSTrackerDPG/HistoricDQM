@@ -1,4 +1,4 @@
-import os, sys, urllib2, httplib, json
+import os, sys, urllib.request, urllib.error, urllib.parse, http.client, json
 from ROOT import *
 from array import *
 
@@ -6,7 +6,7 @@ serverurl = 'https://cmsweb.cern.ch/dqm/offline'
 #serverurl = 'https://cmsweb.cern.ch/dqm/online-playback'
 #serverurl = 'https://cmsweb.cern.ch/dqm/online'
 ident = "DQMToJson/1.0 python/%d.%d.%d" % sys.version_info[:3]
-HTTPS = httplib.HTTPSConnection
+HTTPS = http.client.HTTPSConnection
 
 class X509CertAuth(HTTPS):
  ssl_key_file = None
@@ -17,7 +17,7 @@ class X509CertAuth(HTTPS):
                   cert_file = X509CertAuth.ssl_cert_file,
                   **kwargs)
 
-class X509CertOpen(urllib2.AbstractHTTPHandler):
+class X509CertOpen(urllib.request.AbstractHTTPHandler):
   def default_open(self, req):
     return self.do_open(X509CertAuth, req)
 
@@ -49,11 +49,11 @@ def x509_params():
      cert_file = x509_path
 
  if not key_file or not os.path.exists(key_file):
-   print >>sys.stderr, "no certificate private key file found"
+   print("no certificate private key file found", file=sys.stderr)
    sys.exit(1)
 
  if not cert_file or not os.path.exists(cert_file):
-   print >>sys.stderr, "no certificate public key file found"
+   print("no certificate public key file found", file=sys.stderr)
    sys.exit(1)
 
  sys.stderr.write("Using SSL private key %s\n" % key_file)
