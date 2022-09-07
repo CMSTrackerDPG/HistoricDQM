@@ -7,10 +7,10 @@ import getpass
 import platform
 user = getpass.getuser()
 node = platform.node()
-if node.startswith("vocms061") and user.startswith("cctrack"):
-    from src.x509auth import * #use cctrack certificate if working on vocms061
-else:
-    from src.x509auth_lxplus import * #use your personal certificate if working elsewhere
+#if node.startswith("vocms066") and user.startswith("dpgtkdqm"):
+from src.x509auth import * #use cctrack certificate if working on vocms061
+#else:
+#    from src.x509auth_lxplus import * #use your personal certificate if working elsewhere
 
 X509CertAuth.ssl_key_file, X509CertAuth.ssl_cert_file = x509_params()
 print(X509CertAuth.ssl_key_file)
@@ -19,10 +19,11 @@ print(x509_params())
 
 def dqm_get_json(server, run, dataset, folder, rootContent=False):
     postfix = "?rootcontent=1" if rootContent else ""
+    print(('%s/data/json/archive/%s/%s/%s%s') % (server, run, dataset, folder, postfix))
     datareq = urllib.request.Request(('%s/data/json/archive/%s/%s/%s%s') % (server, run, dataset, folder, postfix))
     datareq.add_header('User-agent', ident)
     # Get data
-    data = eval(re.sub(r"\bnan\b", "0", urllib.request.build_opener(X509CertOpen()).open(datareq).read()),
+    data = eval(re.sub(r"\bnan\b", "0", urllib.request.build_opener(X509CertOpen()).open(datareq).read().decode('utf-8')),
                { "__builtins__": None }, {})
     if rootContent:
         # Now convert into real ROOT histograms   
@@ -67,7 +68,7 @@ def dqm_get_json_hist(server, run, dataset, folder, histoName, rootContent=False
     datareq = urllib.request.Request(('%s/data/json/archive/%s/%s/%s%s') % (server, run, dataset, folder, postfix))
     datareq.add_header('User-agent', ident)
     # Get data
-    data = eval(re.sub(r"\bnan\b", "0", urllib.request.build_opener(X509CertOpen()).open(datareq).read()),
+    data = eval(re.sub(r"\bnan\b", "0", urllib.request.build_opener(X509CertOpen()).open(datareq).read().decode('utf-8')),
                { "__builtins__": None }, {})
     histoOut=None
     if rootContent:
@@ -104,7 +105,7 @@ def dqm_getSingleHist_json(server, run, dataset, hist, rootContent=False):
     datareq = urllib.request.Request(('%s/jsonfairy/archive/%s/%s/%s%s') % (server, run, dataset, hist, postfix))
     datareq.add_header('User-agent', ident)
     # Get data
-    data = eval(re.sub(r"\bnan\b", "0", urllib.request.build_opener(X509CertOpen()).open(datareq).read()),
+    data = eval(re.sub(r"\bnan\b", "0", urllib.request.build_opener(X509CertOpen()).open(datareq).read().decode('utf-8')),
                { "__builtins__": None }, {})
     histo = data['hist']
     # Now convert into real ROOT histogram object

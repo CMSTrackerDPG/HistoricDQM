@@ -108,6 +108,15 @@ class PixelEfficiency(BaseMetric):
             eres=sqrt(res*(1-res)/den)
         return (res,eres)
 
+
+class PixelInnerOuterResMean(BaseMetric):
+    def calculate(self, histo):
+        from math import sqrt
+        res= histo.GetMean() - self._histo1.GetMean()
+        eres=sqrt(histo.GetMeanError()*histo.GetMeanError() + self._histo1.GetMeanError()*self._histo1.GetMeanError())
+        return (res,eres)
+
+
 class PixelDigiPerClusterPix(BaseMetric):
     def calculate(self, histo):
         from math import sqrt
@@ -132,6 +141,7 @@ class PixelDigiPerClusterPix(BaseMetric):
             res=0
             eres=0
         return (res,eres)
+
 
 
 class MeanRMS(BaseMetric):
@@ -341,16 +351,22 @@ class EntriesRate(BaseMetric):
         print(self.__loVal)
 
     def calculate(self, histo):
-        from math import sqrt
+        from math import sqrt        
+        from metrics.omsapi import getDuration
         trksum=float(0.0)
-        for bin in range(histo.FindBin(self.__loVal),histo.GetNbinsX()+1) :
-            trksum+=histo.GetBinContent(bin)
-        nLS=0
-        for bin in range(1,self._histo1.GetNbinsX()+1) :
-            if self._histo1.GetBinContent(bin) > 0 :
-                nLS+=1
-        if nLS :
-            return (trksum/(nLS*23), sqrt(trksum)/(nLS*23))
+        if(self.__loVal<0):
+            trksum=histo.GetEntries()
+        else:
+            for bin in range(histo.FindBin(self.__loVal),histo.GetNbinsX()+1) :
+                trksum+=histo.GetBinContent(bin)
+        try:
+            dt=getDuration(self._run)
+            print("Run %d Duration %d" % (self._run,dt))
+        except:
+            dt=0
+            print("WARNING: Error while retrieving duration of Run %d" % self._run)
+        if dt :
+            return (trksum/(dt), sqrt(trksum)/(dt))
         else :
             return (0,0)
 

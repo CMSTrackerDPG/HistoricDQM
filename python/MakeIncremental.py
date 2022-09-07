@@ -1,6 +1,6 @@
 import json
 import math
-from pprint import pprint
+#from pprint import pprint
 
 def MakeIncremental(directory,json_infile1,json_outfile,plot_outtitle): 
      
@@ -67,10 +67,10 @@ def main(argv=None):
        else:
          print("Usage: %s -i Input File -o OutFile -t OutPlot Title" % sys.argv[0])
 
-    print "Incremental JSON file based on {0} will be created".format(json_infile1)
-    print "Directory = ",directory
-    print "Output JSON Name = ",json_outfile 
-    print "Output Plot Title = ",plot_outtitle
+    print("Incremental JSON file based on {0} will be created".format(json_infile1))
+    print("Directory = ",directory)
+    print("Output JSON Name = ",json_outfile)
+    print("Output Plot Title = ",plot_outtitle)
 
 
     MakeIncremental(directory,json_infile1,json_outfile,plot_outtitle)

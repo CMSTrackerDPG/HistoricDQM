@@ -6,7 +6,7 @@
 #from ROOT import TGraphAsymmErrors, TMultiGraph
 
 import re
-
+import sys
 import json
 import os
 #import ConfigParser
@@ -58,7 +58,7 @@ class TrendPlot:
         self.__FileHisto=MakeNullPointer(TFile)
         self.__labels = []
 
-    def addRun(self, serverUrl, runNr, dataset,tfile,ls):
+    def addRun(self, serverUrl, runNr, dataset,tfile):
         from math import sqrt
         from ROOT import TH1,TFile,TObject,TBufferFile, TH1F, TProfile, TProfile2D, TH2F
         import ROOT
@@ -93,8 +93,8 @@ class TrendPlot:
                 histo1.SetName(str(runNr))
                 histo1.Write()
 
-          except StandardError as msg :
-              print("WARNING: something went wrong getting the histogram ", runNr, msg)
+          except :
+              print("WARNING: something went wrong getting the histogram ", runNr)
 
         try:
             if self.__cache == None or cacheLocation not in self.__cache:
@@ -126,7 +126,6 @@ class TrendPlot:
                         h2=tfile.Get(('DQMData/Run %d/%s/Run summary/%s') % (runNr,subdet,h2Path.replace('%s/'%(subdet),'',1)))
                     self.__metric.setOptionalHisto2(h2)
                 self.__metric.setRun(runNr)
-                self.__metric.setNLS(ls)
                 if(histo!=None):
                     print("-> Got histogram {0} as {1}".format(splitPath(histoPath)[1],histo))
                     if self.__config.has_option(self.__section,"histo1Path"):
@@ -150,8 +149,8 @@ class TrendPlot:
             elif cacheLocation in self.__cache:
                 print("-> Got {0} for histogram {1} from cache".format(self.__metricName,splitPath(histoPath)[1]))
                 (y, yErr) = self.__metric(None, cacheLocation)
-        except StandardError as msg :
-            print("WARNING: something went wrong calculating", self.__metric, msg)
+        except :
+            print("WARNING: something went wrong calculating", self.__metric)
             self.__count = self.__count - 1
             return
 
@@ -195,7 +194,7 @@ class TrendPlot:
             self.__x.append(self.__count)
             self.__xTitle = "Run No."
         else:
-            raise StandardError("Unknown xMode: %s in %s"%(xMode, self__section))
+            print("Unknown xMode: %s in %s"%(xMode, self__section))
 
     def getName(self):
         return self.__section.split("plot:")[1]
@@ -245,7 +244,7 @@ class TrendPlot:
         from ROOT import TMultiGraph, TLegend, TGraphAsymmErrors
         n = len(self.__x)
         if n != len(self.__y) or n != len(self.__yErrLow) or n != len(self.__yErrHigh):
-            raise StandardError("The length of the x(%s), y(%s) and y error(%s,%s) lists does not match"%(len(self.__x), len(self.__y), len(self.__yErrLow), len(self.__yErrHigh)))
+            print("The length of the x(%s), y(%s) and y error(%s,%s) lists does not match"%(len(self.__x), len(self.__y), len(self.__yErrLow), len(self.__yErrHigh)))
 
         result = TMultiGraph()
         legendPosition = [float(i) for i in self.__getStyleOption("legendPosition").split()]
@@ -278,7 +277,7 @@ class TrendPlot:
         from math import sqrt 
         n = len(self.__x)
         if n != len(self.__y) or n != len(self.__yErrLow):
-            raise StandardError("The length of the x(%s), y(%s) and y error(%s,%s) lists does not match"%(len(self.__x), len(self.__y), len(self.__yErrLow), len(self.__yErrHigh)))
+            print("The length of the x(%s), y(%s) and y error(%s,%s) lists does not match"%(len(self.__x), len(self.__y), len(self.__yErrLow), len(self.__yErrHigh)))
         result=TH1F(self.__title,self.__title,n,0.5,float(n)+0.5)
         axis = result.GetXaxis()
         for i in range (len(self.__x)):
@@ -314,7 +313,7 @@ class TrendPlot:
                 if showUpTo >= nRuns:   showEvery = nRuns
                 else:                   showEvery = showUpTo
             except ValueError:
-              raise StandardError("Bad xMode syntax: %s" % xMode)
+              print("Bad xMode syntax: %s" % xMode)
             axis = graph.GetXaxis()
             for (x,run) in zip(self.__x,self.__runs):
               if int(x-self.__x[0]) % showEvery == 0 or x==self.__x[-1]:
@@ -333,7 +332,7 @@ class TrendPlot:
     def __getStyleOption(self, name):
         result = None
         if not self.__config.has_option("styleDefaults", name):
-            raise StandardError("there is no default style option for '%s'"%name)
+            print("there is no default style option for '%s'"%name)
         result = self.__config.get("styleDefaults", name)
         if self.__config.has_option(self.__section, name):
             result = self.__config.get(self.__section, name)
@@ -450,7 +449,6 @@ def main(argv=None):
     from ROOT import TCanvas,TFile
     from src.dqmjson import dqm_get_json,dqm_getTFile,dqm_getTFile_Version2
     from src.cacheParsing import getRunListFromCache
-
     if argv == None:
         argv = sys.argv[1:]
     parser = OptionParser()
@@ -487,7 +485,7 @@ def main(argv=None):
     print("opts.json = ",opts.json)
 
     runs = getRunsFromDQM(config, opts.dset, opts.epoch, opts.reco, opts.tag, opts.datatier,opts.runs,opts.list,opts.json)
-    if not runs : raise StandardError("*** Number of runs matching run/mask/etc criteria is equal to zero!!!")
+    if not runs : print("*** Number of runs matching run/mask/etc criteria is equal to zero!!!")
 
 
     print("got %s run between %s and %s"%(len(runs), min(runs.keys()), max(runs.keys())))
@@ -511,13 +509,6 @@ def main(argv=None):
             isDone = 1
             print("------------>>> RUN %s IN CACHE"%(runs[run][1]))
         if isDone == 1 :
-            try:
-                ls = dqm_get_json(runs[run][0],runs[run][1],runs[run][2], "Tracking/EventInfo")
-                nls=int(ls['iLumiSection']['value'])
-            except :
-                nls = 0
-                print("WARNING: something went wrong getting the LS of Run ", runs[run][1])
-            print("Run %d LumiSetction %d" % (int(runs[run][1]),nls))
             fopen = False
             fpresent= True
             incache= False
@@ -537,7 +528,7 @@ def main(argv=None):
                         fpresent=False
                         print("### ROOT file not present for Run{0} -> JSON information will be used".format(runs[run][1]))
                     fchecked=True
-                plot.addRun(runs[run][0],runs[run][1],runs[run][2],tfile,nls)
+                plot.addRun(runs[run][0],runs[run][1],runs[run][2],tfile)
             if fopen :
                 tfile.Close()
         else:
