@@ -139,6 +139,7 @@ class ScatterPlot extends Chart {
             }
         }
         if (this.filters.durations && this.durations) {
+	    console.log(this.durations);
             this.chart_obj.addSeries({
                 type: 'column',
                 name: 'Run Duration',

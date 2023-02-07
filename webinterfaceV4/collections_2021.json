@@ -7990,7 +7990,7 @@
         },
         {
             "name": "clusterStoN_ONTk_TEC_PLUS_mean",
-            "corr": true,
+            "corr": false,
             "files": [
                 "clusterStoN_ONTk_TEC_PLUS_mean",
                 "clusterStoN_ONTk_TEC_MINUS_mean"
@@ -7998,7 +7998,7 @@
         },
         {
             "name": "clusterStoN_ONTk_TID_PLUS_mean",
-            "corr": true,
+            "corr": false,
             "files": [
                 "clusterStoN_ONTk_TID_PLUS_mean",
                 "clusterStoN_ONTk_TID_MINUS_mean"
