@@ -10,7 +10,7 @@ def getRunListFromCache(cache):
 
     import multiprocessing
     
-    ntreads=8
+    ntreads=20
     nitem=1000
 
     pool = multiprocessing.Pool(ntreads)
