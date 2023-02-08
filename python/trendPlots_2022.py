@@ -420,7 +420,7 @@ def initPlots( config ):
     if pathExisits(cachePath):
         cacheFile = open(cachePath,"r")
         cache.update( eval(cacheFile.read()) )
-        cacheFile.close()
+        cacheFile.close()        
     for section in sorted(config.sections()):
         if section.startswith("plot:"):
             result.append(TrendPlot(section, config, cache))
@@ -492,17 +492,22 @@ def main(argv=None):
     plots, cache = initPlots(config)
 
     print("Loading cache........",len(cache.keys())," items")
-    runInCache =getRunListFromCache(cache)
-#    runInCache = []
-#    for itest in range(0,len(cache.keys())):
-#        runInCache.append(cache.keys()[itest][1])
+#    runInCache =getRunListFromCache(cache)
+    runInCache = []
+    for itest in range(0,len(cache.keys())):
+        if itest%10000==0 : 
+            print("...%d" % itest)
+        runInCache.append(list(cache.keys())[itest][1])
     print("Cache loaded!")
     for run in sorted(runs.keys()):
         if cache == None or runs[run][1] not in runInCache:
             print("------------>>> RUN %s NOT IN CACHE"%(runs[run][1]))
             rc = dqm_get_json(runs[run][0],runs[run][1],runs[run][2], "Info/ProvInfo")
-            print("------------>>> RunIsComplete flag: " , rc['runIsComplete']['value'])
-            isDone = int(rc['runIsComplete']['value'])
+            try:
+                print("------------>>> RunIsComplete flag: " , rc['runIsComplete']['value'])
+                isDone = int(rc['runIsComplete']['value'])
+            except:
+                isDone = 0
             if opts.datatier != "DQMIO" :
                 isDone = 1
         else:

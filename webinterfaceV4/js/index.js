@@ -120,7 +120,7 @@ function update_url() {
 	if (apvMode == "" || apvMode === null || apvMode == "PEAK + DECO") {
 		urlLink = "/" + year + "/Prompt/" + dataSet + "/"
 			+ subsystem;
-		if (dataSet == "StreamExpress" || dataSet == "StreamExpressCosmics" || dataSet == "StreamExpressCosmicsCommissioning") {
+		if (dataSet == "StreamExpress" || dataSet == "StreamExpressCosmics" || dataSet == "StreamExpressCosmicsCommissioning" || dataSet == "ReReco" || dataSet == "UltraLegacy" || dataSet == "StreamHLTMonitor") {
 			urlLink = "/" + year + "/" + dataSet + "/"
 				+ subsystem;
 		}
@@ -140,6 +140,12 @@ function update_url() {
 		} else if (dataSet == "CosmicsCommissioning") {
 			urlLink = "/" + year + "/Prompt/" + dataSet + "/"
 				+ subsystem + "/" + apvMode;
+		} else if (dataSet == "ReReco") {
+			urlLink = "/" + year + "/" + dataSet + "/"
+				+ subsystem + "/" + apvMode;		    
+		} else if (dataSet == "UltraLegacy") {
+			urlLink = "/" + year + "/" + dataSet + "/"
+				+ subsystem + "/" + apvMode;		    
 		} else {
 			urlLink = "/" + year + "/Prompt/" + dataSet + "/"
 				+ subsystem + "/" + apvMode;
@@ -176,7 +182,7 @@ function update_collections() {
 
 function getCollectionName(dset,subsys,apv) {
     var name="";
-    if (dset == "ZeroBias"){
+    if (dset == "ZeroBias" || dset == "ReReco" || dset== "UltraLegacy"){
 	if(subsys == "PixelPhase1") name="PixelPhase1";
 	else if(subsys == "Strips"){
 	    if(apv=="PEAK") name="StripPeak";
@@ -184,6 +190,7 @@ function getCollectionName(dset,subsys,apv) {
 	}
 	else if(subsys == "Tracking") name="Tracking";
 	else if(subsys == "RecoErrors") name="RecoErrors";
+	else if(subsys == "Pixel") name="Pixel";
     }
     else if (dset == "StreamExpress"){
 	if(subsys == "PixelPhase1") name="StreamExprPixelPhase1";
@@ -193,6 +200,7 @@ function getCollectionName(dset,subsys,apv) {
 	}
 	else if(subsys == "Tracking") name="StreamExprTracking";
 	else if(subsys == "RecoErrors") name="StreamExprRecoErrors";
+	else if(subsys == "Pixel") name="StreamExprPixel";
     }
     else if (dset == "StreamExpressCosmics"){
 	if(subsys == "PixelPhase1") name="SreamExpressCosmicPixelPhase1";
@@ -202,6 +210,8 @@ function getCollectionName(dset,subsys,apv) {
 	}
 	else if(subsys == "Tracking") name="StreamExprCosmicTracking";
 	else if(subsys == "RecoErrors") name="StreamExprCosmicsRecoErrors";
+	else if(subsys == "Pixel") name="SreamExpressCosmicPixel";
+
     }
     else if (dset == "StreamExpressCosmicsCommissioning"){
 	if(subsys == "PixelPhase1") name="SreamExpressCosmicPixelPhase1";
@@ -211,6 +221,8 @@ function getCollectionName(dset,subsys,apv) {
 	}
 	else if(subsys == "Tracking") name="StreamExprCosmicTracking";
 	else if(subsys == "RecoErrors") name="StreamExprCosmicsRecoErrors";
+	else if(subsys == "Pixel") name="SreamExpressCosmicPixel";
+
     }
     else if (dset == "Cosmics"){
 	if(subsys == "PixelPhase1") name="CosmicPixelPhase1";
@@ -220,6 +232,7 @@ function getCollectionName(dset,subsys,apv) {
 	}
 	else if(subsys == "Tracking") name="CosmicTracking";
 	else if(subsys == "RecoErrors") name="CosmicsRecoErrors";
+	else if(subsys == "Pixel") name="CosmicPixel";
     }
     else if (dset == "CosmicsCommissioning"){
 	if(subsys == "PixelPhase1") name="CosmicPixelPhase1";
@@ -229,6 +242,15 @@ function getCollectionName(dset,subsys,apv) {
 	}
 	else if(subsys == "Tracking") name="CosmicTracking";
 	else if(subsys == "RecoErrors") name="CosmicsRecoErrors";
+	else if(subsys == "Pixel") name="CosmicPixel";
+    }
+    else if (dset == "StreamHLTMonitor"){
+	if(subsys == "PixelPhase1") name="HLTPixelPhase1";
+	else if(subsys == "Strips"){
+	    name="HLTStrip"
+	}
+	else if(subsys == "Tracking") name="HLTTracking";
+	else if(subsys == "RecoErrors") name="HLTRecoErrors";
     }
 
     return name;
@@ -283,12 +305,12 @@ $(document).ready(
 		// collec_file = "collections_" + $("#year").val() + ".json";
 		// console.log("collection file  : " + collec_file);
 
-		$.getJSON("collections_2018.json", function (data) {
+		$.getJSON("collections_2022.json", function (data) {
 			//$.getJSON(collec_file, function (data) {
 			collections = data;
 		});
 
-		$.getJSON("alljsons/2018/Run_LHCFill_RunDuration.json", function (data) {
+		$.getJSON("alljsons/2022/Run_LHCFill_RunDuration.json", function (data) {
 			runs_data = data["Run_LHCFill_RunDuration.json"].map(x => ({ run: parseInt(x['run']), lhcfill: x['lhcfill'], dur: x['rundur'] }));
 			console.log("runs_data loaded");
 		});

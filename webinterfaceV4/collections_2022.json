@@ -946,7 +946,101 @@
                 "clustCharge_ONTk_BPix_InnerLayer4_mpv",	
 	        "clustCharge_ONTk_BPix_OuterLayer4_mpv"
             ]
+        },
+        {
+            "name": "clustCharge_ONTk_templCorr_BPix_perLayer_mpv",
+            "corr": false,
+            "files": [
+                 "clustCharge_ONTk_templCorr_BPix_Layer1_mpv",
+	         "clustCharge_ONTk_templCorr_BPix_Layer2_mpv",
+	         "clustCharge_ONTk_templCorr_BPix_Layer3_mpv",
+	         "clustCharge_ONTk_templCorr_BPix_Layer4_mpv"
+            ]
+        },
+        {
+            "name": "clustCharge_ONTk_templCorr_FPix_perDisk_mpv",
+            "corr": false,
+            "files": [
+                 "clustCharge_ONTk_templCorr_FPix_Dm3_mpv",
+	         "clustCharge_ONTk_templCorr_FPix_Dm2_mpv",
+	         "clustCharge_ONTk_templCorr_FPix_Dm1_mpv",
+	         "clustCharge_ONTk_templCorr_FPix_Dp3_mpv",
+	         "clustCharge_ONTk_templCorr_FPix_Dp2_mpv",
+	         "clustCharge_ONTk_templCorr_FPix_Dp1_mpv"
+            ]
+        },
+	{
+            "name": "clustCharge_ONTk_templCorr_FPix_byRing",
+            "corr": false,
+            "files":[
+                 "clustCharge_ONTk_templCorr_FPix_Ring1_mpv",
+                 "clustCharge_ONTk_templCorr_FPix_Ring2_mpv"
+            ]
+        },
+        {
+            "name": "templateCorr_BPix_perLayer_mpv",
+            "corr": false,
+            "files": [
+                 "templateCorrection_BPix_Layer1_mean",
+	         "templateCorrection_BPix_Layer2_mean",
+	         "templateCorrection_BPix_Layer3_mean",
+	         "templateCorrection_BPix_Layer4_mean"
+            ]
+        },
+        {
+            "name": "templateCorr_FPix_perDisk_mpv",
+            "corr": false,
+            "files": [
+                 "templateCorrection_FPix_Dm3_mean",
+	         "templateCorrection_FPix_Dm2_mean",
+	         "templateCorrection_FPix_Dm1_mean",
+	         "templateCorrection_FPix_Dp3_mean",
+	         "templateCorrection_FPix_Dp2_mean",
+	         "templateCorrection_FPix_Dp1_mean"
+            ]
+        },
+	{
+            "name": "templateCorr_FPix_byRing",
+            "corr": false,
+            "files":[
+                 "templateCorrection_FPix_Ring1_mean",
+                 "templateCorrection_FPix_Ring2_mean"
+            ]
         },		
+        {
+            "name": "meanResXDiff_InnerOuter_BPix_perLayer",
+            "corr": false,
+            "files": [
+                 "meanResXDiff_InnerOuter_BPix_perLayer",
+	         "meanResXDiff_InnerOuter_BPix_Layer2",
+	         "meanResXDiff_InnerOuter_BPix_Layer3",
+	         "meanResXDiff_InnerOuter_BPix_Layer4"
+            ]
+        },
+        {
+            "name": "meanResYDiff_InnerOuter_BPix_perLayer",
+            "corr": false,
+            "files": [
+                 "meanResYDiff_InnerOuter_BPix_perLayer",
+	         "meanResYDiff_InnerOuter_BPix_Layer2",
+	         "meanResYDiff_InnerOuter_BPix_Layer3",
+	         "meanResYDiff_InnerOuter_BPix_Layer4"
+            ]
+        },
+        {
+            "name": "meanResXDiff_InnerOuter_FPix",
+            "corr": false,
+            "files": [
+                 "meanResXDiff_InnerOuter_FPix"
+            ]
+        },
+        {
+            "name": "meanResYDiff_InnerOuter_FPix",
+            "corr": false,
+            "files": [
+                 "meanResYDiff_InnerOuter_FPix"
+            ]
+        },
 	{
             "name": "adc_BPix_perLayer_mean",
             "corr": false,
@@ -2458,6 +2552,100 @@
 	        "clustCharge_ONTk_BPix_OuterLayer4_mpv"
             ]
         },		
+        {
+            "name": "clustCharge_ONTk_templCorr_BPix_perLayer_mpv",
+            "corr": false,
+            "files": [
+                 "clustCharge_ONTk_templCorr_BPix_Layer1_mpv",
+	         "clustCharge_ONTk_templCorr_BPix_Layer2_mpv",
+	         "clustCharge_ONTk_templCorr_BPix_Layer3_mpv",
+	         "clustCharge_ONTk_templCorr_BPix_Layer4_mpv"
+            ]
+        },
+        {
+            "name": "clustCharge_ONTk_templCorr_FPix_perDisk_mpv",
+            "corr": false,
+            "files": [
+                 "clustCharge_ONTk_templCorr_FPix_Dm3_mpv",
+	         "clustCharge_ONTk_templCorr_FPix_Dm2_mpv",
+	         "clustCharge_ONTk_templCorr_FPix_Dm1_mpv",
+	         "clustCharge_ONTk_templCorr_FPix_Dp3_mpv",
+	         "clustCharge_ONTk_templCorr_FPix_Dp2_mpv",
+	         "clustCharge_ONTk_templCorr_FPix_Dp1_mpv"
+            ]
+        },
+	{
+            "name": "clustCharge_ONTk_templCorr_FPix_byRing",
+            "corr": false,
+            "files":[
+                 "clustCharge_ONTk_templCorr_FPix_Ring1_mpv",
+                 "clustCharge_ONTk_templCorr_FPix_Ring2_mpv"
+            ]
+        },
+        {
+            "name": "templateCorr_BPix_perLayer_mpv",
+            "corr": false,
+            "files": [
+                 "templateCorrection_BPix_Layer1_mean",
+	         "templateCorrection_BPix_Layer2_mean",
+	         "templateCorrection_BPix_Layer3_mean",
+	         "templateCorrection_BPix_Layer4_mean"
+            ]
+        },
+        {
+            "name": "templateCorr_FPix_perDisk_mpv",
+            "corr": false,
+            "files": [
+                 "templateCorrection_FPix_Dm3_mean",
+	         "templateCorrection_FPix_Dm2_mean",
+	         "templateCorrection_FPix_Dm1_mean",
+	         "templateCorrection_FPix_Dp3_mean",
+	         "templateCorrection_FPix_Dp2_mean",
+	         "templateCorrection_FPix_Dp1_mean"
+            ]
+        },
+	{
+            "name": "templateCorr_FPix_byRing",
+            "corr": false,
+            "files":[
+                 "templateCorrection_FPix_Ring1_mean",
+                 "templateCorrection_FPix_Ring2_mean"
+            ]
+        },
+        {
+            "name": "meanResXDiff_InnerOuter_BPix_perLayer",
+            "corr": false,
+            "files": [
+                 "meanResXDiff_InnerOuter_BPix_perLayer",
+	         "meanResXDiff_InnerOuter_BPix_Layer2",
+	         "meanResXDiff_InnerOuter_BPix_Layer3",
+	         "meanResXDiff_InnerOuter_BPix_Layer4"
+            ]
+        },
+        {
+            "name": "meanResYDiff_InnerOuter_BPix_perLayer",
+            "corr": false,
+            "files": [
+                 "meanResYDiff_InnerOuter_BPix_perLayer",
+	         "meanResYDiff_InnerOuter_BPix_Layer2",
+	         "meanResYDiff_InnerOuter_BPix_Layer3",
+	         "meanResYDiff_InnerOuter_BPix_Layer4"
+            ]
+        },
+        {
+            "name": "meanResXDiff_InnerOuter_FPix",
+            "corr": false,
+            "files": [
+                 "meanResXDiff_InnerOuter_FPix"
+            ]
+        },
+        {
+            "name": "meanResYDiff_InnerOuter_FPix",
+            "corr": false,
+            "files": [
+                 "meanResYDiff_InnerOuter_FPix"
+            ]
+        },
 	{
             "name": "adc_BPix_mean",
             "corr": false,
@@ -4584,6 +4772,128 @@
             "corr": false,
             "files": [
                 "IncrementalNumberOfALCARecoTracks"
+            ]
+        },
+        {
+            "name": "dxyVsPhi_Average",
+            "corr": false,
+            "files": [
+	    	"dxyVsPhi_average"
+            ]
+        },
+        {
+            "name": "dxyVsPhi_MaxExcursion",
+            "corr": false,
+            "files": [
+	    	"dxyVsPhi_MaxExcursion"
+            ]
+        },
+        {
+            "name": "dxyVsEta_Average",
+            "corr": false,
+            "files": [
+	    	"dxyVsEta_average"
+            ]
+        },
+        {
+            "name": "dxyVsEta_MaxExcursion",
+            "corr": false,
+            "files": [
+	    	"dxyVsEta_MaxExcursion"
+            ]
+        },
+        {
+            "name": "dzVsPhi_Average",
+            "corr": false,
+            "files": [
+	    	"dzVsPhi_average"
+            ]
+        },
+        {
+            "name": "dzVsPhi_MaxExcursion",
+            "corr": false,
+            "files": [
+	    	"dzVsPhi_MaxExcursion"
+            ]
+        },
+        {
+            "name": "dzVsEta_Average",
+            "corr": false,
+            "files": [
+	    	"dzVsEta_average"
+            ]
+        },
+        {
+            "name": "dzVsEta_MaxExcursion",
+            "corr": false,
+            "files": [
+	    	"dzVsEta_MaxExcursion"
+            ]
+        }
+    ],
+    "HLTTracking": [
+        {
+            "name": "NumberofPixelVertices_vs_NumberOfTrack",
+            "corr": true,
+            "files": [
+                "NumberofPixelVertices_mean",
+		"NumberOfTrack_mean"
+            ]
+        },
+        {
+            "name": "NumberofPixelVertices_mean",
+            "corr": false,
+            "files": [
+                "NumberofPixelVertices_mean"
+            ]
+        },
+        {
+            "name": "NumberOfTrack_mean",
+            "corr": false,
+            "files": [
+                "NumberOfTrack_mean"
+            ]
+        },
+        {
+            "name": "RecHitPerTrack_mean",
+            "corr": false,
+            "files": [
+                "RecHitPerTrack_mean"
+            ]
+        },
+        {
+            "name": "RecHitPerTrack_Pixel_mean",
+            "corr": false,
+            "files": [
+                "RecHitPerTrack_Pixel_mean"
+            ]
+        },
+        {
+            "name": "RecHitPerTrack_Strip_mean",
+            "corr": false,
+            "files": [
+                "RecHitPerTrack_Strip_mean"
+            ]
+        },
+        {
+            "name": "TrackChisquared_mean",
+            "corr": false,
+            "files": [
+                "TrackChisquared_mean"
+            ]
+        },
+        {
+            "name": "TrackPt_mean",
+            "corr": false,
+            "files": [
+                "TrackPt_mean"
+            ]
+        },
+        {
+            "name": "TrkOverPVertices_ratio",
+            "corr": false,
+            "files": [
+                "TrkOverPVertices_ratio"
             ]
         },
         {
@@ -7990,7 +8300,7 @@
         },
         {
             "name": "clusterStoN_ONTk_TEC_PLUS_mean",
-            "corr": true,
+            "corr": false,
             "files": [
                 "clusterStoN_ONTk_TEC_PLUS_mean",
                 "clusterStoN_ONTk_TEC_MINUS_mean"
@@ -7998,7 +8308,7 @@
         },
         {
             "name": "clusterStoN_ONTk_TID_PLUS_mean",
-            "corr": true,
+            "corr": false,
             "files": [
                 "clusterStoN_ONTk_TID_PLUS_mean",
                 "clusterStoN_ONTk_TID_MINUS_mean"
