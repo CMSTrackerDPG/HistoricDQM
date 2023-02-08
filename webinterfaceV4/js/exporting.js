@@ -1,26 +1,859 @@
 /*
- Highcharts JS v6.0.1 (2017-10-05)
+ Highcharts JS v10.2.1 (2022-08-29)
+
  Exporting module
 
- (c) 2010-2017 Torstein Honsi
+ (c) 2010-2021 Torstein Honsi
 
  License: www.highcharts.com/license
 */
-(function(k){"object"===typeof module&&module.exports?module.exports=k:k(Highcharts)})(function(k){(function(f){var k=f.defaultOptions,z=f.doc,B=f.Chart,w=f.addEvent,I=f.removeEvent,F=f.fireEvent,p=f.createElement,C=f.discardElement,u=f.css,n=f.merge,D=f.pick,h=f.each,G=f.objectEach,r=f.extend,J=f.isTouchDevice,E=f.win,H=E.navigator.userAgent,K=f.Renderer.prototype.symbols;/Edge\/|Trident\/|MSIE /.test(H);/firefox/i.test(H);r(k.lang,{printChart:"Print chart",downloadPNG:"Download PNG image",downloadJPEG:"Download JPEG image",
-downloadPDF:"Download PDF document",downloadSVG:"Download SVG vector image",contextButtonTitle:"Chart context menu"});k.navigation={buttonOptions:{theme:{},symbolSize:14,symbolX:12.5,symbolY:10.5,align:"right",buttonSpacing:3,height:22,verticalAlign:"top",width:24}};n(!0,k.navigation,{menuStyle:{border:"1px solid #999999",background:"#ffffff",padding:"5px 0"},menuItemStyle:{padding:"0.5em 1em",background:"none",color:"#333333",fontSize:J?"14px":"11px",transition:"background 250ms, color 250ms"},menuItemHoverStyle:{background:"#335cad",
-color:"#ffffff"},buttonOptions:{symbolFill:"#666666",symbolStroke:"#666666",symbolStrokeWidth:3,theme:{fill:"#ffffff",stroke:"none",padding:5}}});k.exporting={type:"image/png",url:"https://export.highcharts.com/",printMaxWidth:780,scale:2,buttons:{contextButton:{className:"highcharts-contextbutton",menuClassName:"highcharts-contextmenu",symbol:"menu",_titleKey:"contextButtonTitle",menuItems:"printChart separator downloadPNG downloadJPEG downloadPDF downloadSVG".split(" ")}},menuItemDefinitions:{printChart:{textKey:"printChart",
-onclick:function(){this.print()}},separator:{separator:!0},downloadPNG:{textKey:"downloadPNG",onclick:function(){this.exportChart()}},downloadJPEG:{textKey:"downloadJPEG",onclick:function(){this.exportChart({type:"image/jpeg"})}},downloadPDF:{textKey:"downloadPDF",onclick:function(){this.exportChart({type:"application/pdf"})}},downloadSVG:{textKey:"downloadSVG",onclick:function(){this.exportChart({type:"image/svg+xml"})}}}};f.post=function(a,b,e){var c=p("form",n({method:"post",action:a,enctype:"multipart/form-data"},
-e),{display:"none"},z.body);G(b,function(a,b){p("input",{type:"hidden",name:b,value:a},null,c)});c.submit();C(c)};r(B.prototype,{sanitizeSVG:function(a,b){if(b&&b.exporting&&b.exporting.allowHTML){var e=a.match(/<\/svg>(.*?$)/);e&&e[1]&&(e='\x3cforeignObject x\x3d"0" y\x3d"0" width\x3d"'+b.chart.width+'" height\x3d"'+b.chart.height+'"\x3e\x3cbody xmlns\x3d"http://www.w3.org/1999/xhtml"\x3e'+e[1]+"\x3c/body\x3e\x3c/foreignObject\x3e",a=a.replace("\x3c/svg\x3e",e+"\x3c/svg\x3e"))}a=a.replace(/zIndex="[^"]+"/g,
-"").replace(/isShadow="[^"]+"/g,"").replace(/symbolName="[^"]+"/g,"").replace(/jQuery[0-9]+="[^"]+"/g,"").replace(/url\(("|&quot;)(\S+)("|&quot;)\)/g,"url($2)").replace(/url\([^#]+#/g,"url(#").replace(/<svg /,'\x3csvg xmlns:xlink\x3d"http://www.w3.org/1999/xlink" ').replace(/ (NS[0-9]+\:)?href=/g," xlink:href\x3d").replace(/\n/," ").replace(/<\/svg>.*?$/,"\x3c/svg\x3e").replace(/(fill|stroke)="rgba\(([ 0-9]+,[ 0-9]+,[ 0-9]+),([ 0-9\.]+)\)"/g,'$1\x3d"rgb($2)" $1-opacity\x3d"$3"').replace(/&nbsp;/g,
-"\u00a0").replace(/&shy;/g,"\u00ad");this.ieSanitizeSVG&&(a=this.ieSanitizeSVG(a));return a},getChartHTML:function(){return this.container.innerHTML},getSVG:function(a){var b,e,c,v,m,g=n(this.options,a);e=p("div",null,{position:"absolute",top:"-9999em",width:this.chartWidth+"px",height:this.chartHeight+"px"},z.body);c=this.renderTo.style.width;m=this.renderTo.style.height;c=g.exporting.sourceWidth||g.chart.width||/px$/.test(c)&&parseInt(c,10)||600;m=g.exporting.sourceHeight||g.chart.height||/px$/.test(m)&&
-parseInt(m,10)||400;r(g.chart,{animation:!1,renderTo:e,forExport:!0,renderer:"SVGRenderer",width:c,height:m});g.exporting.enabled=!1;delete g.data;g.series=[];h(this.series,function(a){v=n(a.userOptions,{animation:!1,enableMouseTracking:!1,showCheckbox:!1,visible:a.visible});v.isInternal||g.series.push(v)});h(this.axes,function(a){a.userOptions.internalKey||(a.userOptions.internalKey=f.uniqueKey())});b=new f.Chart(g,this.callback);a&&h(["xAxis","yAxis","series"],function(c){var d={};a[c]&&(d[c]=a[c],
-b.update(d))});h(this.axes,function(a){var c=f.find(b.axes,function(b){return b.options.internalKey===a.userOptions.internalKey}),d=a.getExtremes(),e=d.userMin,d=d.userMax;!c||void 0===e&&void 0===d||c.setExtremes(e,d,!0,!1)});c=b.getChartHTML();c=this.sanitizeSVG(c,g);g=null;b.destroy();C(e);return c},getSVGForExport:function(a,b){var e=this.options.exporting;return this.getSVG(n({chart:{borderRadius:0}},e.chartOptions,b,{exporting:{sourceWidth:a&&a.sourceWidth||e.sourceWidth,sourceHeight:a&&a.sourceHeight||
-e.sourceHeight}}))},exportChart:function(a,b){b=this.getSVGForExport(a,b);a=n(this.options.exporting,a);f.post(a.url,{filename:a.filename||"chart",type:a.type,width:a.width||0,scale:a.scale,svg:b},a.formAttributes)},print:function(){var a=this,b=a.container,e=[],c=b.parentNode,f=z.body,m=f.childNodes,g=a.options.exporting.printMaxWidth,d,t;if(!a.isPrinting){a.isPrinting=!0;a.pointer.reset(null,0);F(a,"beforePrint");if(t=g&&a.chartWidth>g)d=[a.options.chart.width,void 0,!1],a.setSize(g,void 0,!1);
-h(m,function(a,b){1===a.nodeType&&(e[b]=a.style.display,a.style.display="none")});f.appendChild(b);E.focus();E.print();setTimeout(function(){c.appendChild(b);h(m,function(a,b){1===a.nodeType&&(a.style.display=e[b])});a.isPrinting=!1;t&&a.setSize.apply(a,d);F(a,"afterPrint")},1E3)}},contextMenu:function(a,b,e,c,v,m,g){var d=this,t=d.options.navigation,k=d.chartWidth,q=d.chartHeight,n="cache-"+a,l=d[n],x=Math.max(v,m),y,A;l||(d[n]=l=p("div",{className:a},{position:"absolute",zIndex:1E3,padding:x+"px"},
-d.container),y=p("div",{className:"highcharts-menu"},null,l),u(y,r({MozBoxShadow:"3px 3px 10px #888",WebkitBoxShadow:"3px 3px 10px #888",boxShadow:"3px 3px 10px #888"},t.menuStyle)),A=function(){u(l,{display:"none"});g&&g.setState(0);d.openMenu=!1},d.exportEvents.push(w(l,"mouseleave",function(){l.hideTimer=setTimeout(A,500)}),w(l,"mouseenter",function(){clearTimeout(l.hideTimer)}),w(z,"mouseup",function(b){d.pointer.inClass(b.target,a)||A()})),h(b,function(a){"string"===typeof a&&(a=d.options.exporting.menuItemDefinitions[a]);
-if(f.isObject(a,!0)){var b;a.separator?b=p("hr",null,null,y):(b=p("div",{className:"highcharts-menu-item",onclick:function(b){b&&b.stopPropagation();A();a.onclick&&a.onclick.apply(d,arguments)},innerHTML:a.text||d.options.lang[a.textKey]},null,y),b.onmouseover=function(){u(this,t.menuItemHoverStyle)},b.onmouseout=function(){u(this,t.menuItemStyle)},u(b,r({cursor:"pointer"},t.menuItemStyle)));d.exportDivElements.push(b)}}),d.exportDivElements.push(y,l),d.exportMenuWidth=l.offsetWidth,d.exportMenuHeight=
-l.offsetHeight);b={display:"block"};e+d.exportMenuWidth>k?b.right=k-e-v-x+"px":b.left=e-x+"px";c+m+d.exportMenuHeight>q&&"top"!==g.alignOptions.verticalAlign?b.bottom=q-c-x+"px":b.top=c+m-x+"px";u(l,b);d.openMenu=!0},addButton:function(a){var b=this,e=b.renderer,c=n(b.options.navigation.buttonOptions,a),f=c.onclick,m=c.menuItems,g,d,k=c.symbolSize||12;b.btnCount||(b.btnCount=0);b.exportDivElements||(b.exportDivElements=[],b.exportSVGElements=[]);if(!1!==c.enabled){var h=c.theme,q=h.states,p=q&&q.hover,
-q=q&&q.select,l;delete h.states;f?l=function(a){a.stopPropagation();f.call(b,a)}:m&&(l=function(){b.contextMenu(d.menuClassName,m,d.translateX,d.translateY,d.width,d.height,d);d.setState(2)});c.text&&c.symbol?h.paddingLeft=D(h.paddingLeft,25):c.text||r(h,{width:c.width,height:c.height,padding:0});d=e.button(c.text,0,0,l,h,p,q).addClass(a.className).attr({"stroke-linecap":"round",title:b.options.lang[c._titleKey],zIndex:3});d.menuClassName=a.menuClassName||"highcharts-menu-"+b.btnCount++;c.symbol&&
-(g=e.symbol(c.symbol,c.symbolX-k/2,c.symbolY-k/2,k,k).addClass("highcharts-button-symbol").attr({zIndex:1}).add(d),g.attr({stroke:c.symbolStroke,fill:c.symbolFill,"stroke-width":c.symbolStrokeWidth||1}));d.add().align(r(c,{width:d.width,x:D(c.x,b.buttonOffset)}),!0,"spacingBox");b.buttonOffset+=(d.width+c.buttonSpacing)*("right"===c.align?-1:1);b.exportSVGElements.push(d,g)}},destroyExport:function(a){var b=a?a.target:this;a=b.exportSVGElements;var e=b.exportDivElements,c=b.exportEvents,f;a&&(h(a,
-function(a,c){a&&(a.onclick=a.ontouchstart=null,f="cache-"+a.menuClassName,b[f]&&delete b[f],b.exportSVGElements[c]=a.destroy())}),a.length=0);e&&(h(e,function(a,c){clearTimeout(a.hideTimer);I(a,"mouseleave");b.exportDivElements[c]=a.onmouseout=a.onmouseover=a.ontouchstart=a.onclick=null;C(a)}),e.length=0);c&&(h(c,function(a){a()}),c.length=0)}});K.menu=function(a,b,e,c){return["M",a,b+2.5,"L",a+e,b+2.5,"M",a,b+c/2+.5,"L",a+e,b+c/2+.5,"M",a,b+c-1.5,"L",a+e,b+c-1.5]};B.prototype.renderExporting=function(){var a=
-this,b=a.options.exporting,e=b.buttons,c=a.isDirtyExporting||!a.exportSVGElements;a.buttonOffset=0;a.isDirtyExporting&&a.destroyExport();c&&!1!==b.enabled&&(a.exportEvents=[],G(e,function(b){a.addButton(b)}),a.isDirtyExporting=!1);w(a,"destroy",a.destroyExport)};B.prototype.callbacks.push(function(a){a.renderExporting();w(a,"redraw",a.renderExporting);h(["exporting","navigation"],function(b){a[b]={update:function(e,c){a.isDirtyExporting=!0;n(!0,a.options[b],e);D(c,!0)&&a.redraw()}}})})})(k)});
+(function(a) {
+    "object" === typeof module && module.exports ? (a["default"] = a, module.exports = a) : "function" === typeof define && define.amd ? define("highcharts/modules/exporting", ["highcharts"], function(k) {
+        a(k);
+        a.Highcharts = k;
+        return a
+    }) : a("undefined" !== typeof Highcharts ? Highcharts : void 0)
+})(function(a) {
+    function k(a, b, u, D) {
+        a.hasOwnProperty(b) || (a[b] = D.apply(null, u), "function" === typeof CustomEvent && window.dispatchEvent(new CustomEvent("HighchartsModuleLoaded", {
+            detail: {
+                path: b,
+                module: a[b]
+            }
+        })))
+    }
+    a = a ? a._modules : {};
+    k(a,
+        "Core/Chart/ChartNavigationComposition.js", [],
+        function() {
+            var a;
+            (function(a) {
+                a.compose = function(a) {
+                    a.navigation || (a.navigation = new b(a));
+                    return a
+                };
+                var b = function() {
+                    function a(a) {
+                        this.updates = [];
+                        this.chart = a
+                    }
+                    a.prototype.addUpdate = function(a) {
+                        this.chart.navigation.updates.push(a)
+                    };
+                    a.prototype.update = function(a, z) {
+                        var b = this;
+                        this.updates.forEach(function(d) {
+                            d.call(b.chart, a, z)
+                        })
+                    };
+                    return a
+                }();
+                a.Additions = b
+            })(a || (a = {}));
+            return a
+        });
+    k(a, "Extensions/Exporting/ExportingDefaults.js", [a["Core/Globals.js"]], function(a) {
+        a =
+            a.isTouchDevice;
+        return {
+            exporting: {
+                type: "image/png",
+                url: "https://export.highcharts.com/",
+                pdfFont: {
+                    normal: void 0,
+                    bold: void 0,
+                    bolditalic: void 0,
+                    italic: void 0
+                },
+                printMaxWidth: 780,
+                scale: 2,
+                buttons: {
+                    contextButton: {
+                        className: "highcharts-contextbutton",
+                        menuClassName: "highcharts-contextmenu",
+                        symbol: "menu",
+                        titleKey: "contextButtonTitle",
+                        menuItems: "viewFullscreen printChart separator downloadPNG downloadJPEG downloadPDF downloadSVG".split(" ")
+                    }
+                },
+                menuItemDefinitions: {
+                    viewFullscreen: {
+                        textKey: "viewFullscreen",
+                        onclick: function() {
+                            this.fullscreen &&
+                                this.fullscreen.toggle()
+                        }
+                    },
+                    printChart: {
+                        textKey: "printChart",
+                        onclick: function() {
+                            this.print()
+                        }
+                    },
+                    separator: {
+                        separator: !0
+                    },
+                    downloadPNG: {
+                        textKey: "downloadPNG",
+                        onclick: function() {
+                            this.exportChart()
+                        }
+                    },
+                    downloadJPEG: {
+                        textKey: "downloadJPEG",
+                        onclick: function() {
+                            this.exportChart({
+                                type: "image/jpeg"
+                            })
+                        }
+                    },
+                    downloadPDF: {
+                        textKey: "downloadPDF",
+                        onclick: function() {
+                            this.exportChart({
+                                type: "application/pdf"
+                            })
+                        }
+                    },
+                    downloadSVG: {
+                        textKey: "downloadSVG",
+                        onclick: function() {
+                            this.exportChart({
+                                type: "image/svg+xml"
+                            })
+                        }
+                    }
+                }
+            },
+            lang: {
+                viewFullscreen: "View in full screen",
+                exitFullscreen: "Exit from full screen",
+                printChart: "Print chart",
+                downloadPNG: "Download PNG image",
+                downloadJPEG: "Download JPEG image",
+                downloadPDF: "Download PDF document",
+                downloadSVG: "Download SVG vector image",
+                contextButtonTitle: "Chart context menu"
+            },
+            navigation: {
+                buttonOptions: {
+                    symbolSize: 14,
+                    symbolX: 12.5,
+                    symbolY: 10.5,
+                    align: "right",
+                    buttonSpacing: 3,
+                    height: 22,
+                    verticalAlign: "top",
+                    width: 24,
+                    symbolFill: "#666666",
+                    symbolStroke: "#666666",
+                    symbolStrokeWidth: 3,
+                    theme: {
+                        padding: 5
+                    }
+                },
+                menuStyle: {
+                    border: "1px solid ".concat("#999999"),
+                    background: "#ffffff",
+                    padding: "5px 0"
+                },
+                menuItemStyle: {
+                    padding: "0.5em 1em",
+                    color: "#333333",
+                    background: "none",
+                    fontSize: a ? "14px" : "11px",
+                    transition: "background 250ms, color 250ms"
+                },
+                menuItemHoverStyle: {
+                    background: "#335cad",
+                    color: "#ffffff"
+                }
+            }
+        }
+    });
+    k(a, "Extensions/Exporting/ExportingSymbols.js", [], function() {
+        var a;
+        (function(a) {
+            function b(a, b, d, l) {
+                return [
+                    ["M", a, b + 2.5],
+                    ["L", a + d, b + 2.5],
+                    ["M", a, b + l / 2 + .5],
+                    ["L", a + d, b + l / 2 + .5],
+                    ["M", a, b + l - 1.5],
+                    ["L", a + d, b + l - 1.5]
+                ]
+            }
+
+            function t(a, b, d, l) {
+                a = l / 3 - 2;
+                l = [];
+                return l = l.concat(this.circle(d -
+                    a, b, a, a), this.circle(d - a, b + a + 4, a, a), this.circle(d - a, b + 2 * (a + 4), a, a))
+            }
+            var n = [];
+            a.compose = function(a) {
+                -1 === n.indexOf(a) && (n.push(a), a = a.prototype.symbols, a.menu = b, a.menuball = t.bind(a))
+            }
+        })(a || (a = {}));
+        return a
+    });
+    k(a, "Extensions/Exporting/Fullscreen.js", [a["Core/Renderer/HTML/AST.js"], a["Core/Utilities.js"]], function(a, b) {
+        function t() {
+            this.fullscreen = new A(this)
+        }
+        var k = b.addEvent,
+            n = b.fireEvent,
+            z = [],
+            A = function() {
+                function b(a) {
+                    this.chart = a;
+                    this.isOpen = !1;
+                    a = a.renderTo;
+                    this.browserProps || ("function" === typeof a.requestFullscreen ?
+                        this.browserProps = {
+                            fullscreenChange: "fullscreenchange",
+                            requestFullscreen: "requestFullscreen",
+                            exitFullscreen: "exitFullscreen"
+                        } : a.mozRequestFullScreen ? this.browserProps = {
+                            fullscreenChange: "mozfullscreenchange",
+                            requestFullscreen: "mozRequestFullScreen",
+                            exitFullscreen: "mozCancelFullScreen"
+                        } : a.webkitRequestFullScreen ? this.browserProps = {
+                            fullscreenChange: "webkitfullscreenchange",
+                            requestFullscreen: "webkitRequestFullScreen",
+                            exitFullscreen: "webkitExitFullscreen"
+                        } : a.msRequestFullscreen && (this.browserProps = {
+                            fullscreenChange: "MSFullscreenChange",
+                            requestFullscreen: "msRequestFullscreen",
+                            exitFullscreen: "msExitFullscreen"
+                        }))
+                }
+                b.compose = function(a) {
+                    -1 === z.indexOf(a) && (z.push(a), k(a, "beforeRender", t))
+                };
+                b.prototype.close = function() {
+                    var a = this,
+                        b = a.chart,
+                        f = b.options.chart;
+                    n(b, "fullscreenClose", null, function() {
+                        if (a.isOpen && a.browserProps && b.container.ownerDocument instanceof Document) b.container.ownerDocument[a.browserProps.exitFullscreen]();
+                        a.unbindFullscreenEvent && (a.unbindFullscreenEvent = a.unbindFullscreenEvent());
+                        b.setSize(a.origWidth, a.origHeight, !1);
+                        a.origWidth = void 0;
+                        a.origHeight = void 0;
+                        f.width = a.origWidthOption;
+                        f.height = a.origHeightOption;
+                        a.origWidthOption = void 0;
+                        a.origHeightOption = void 0;
+                        a.isOpen = !1;
+                        a.setButtonText()
+                    })
+                };
+                b.prototype.open = function() {
+                    var a = this,
+                        b = a.chart,
+                        f = b.options.chart;
+                    n(b, "fullscreenOpen", null, function() {
+                        f && (a.origWidthOption = f.width, a.origHeightOption = f.height);
+                        a.origWidth = b.chartWidth;
+                        a.origHeight = b.chartHeight;
+                        if (a.browserProps) {
+                            var l = k(b.container.ownerDocument, a.browserProps.fullscreenChange, function() {
+                                    a.isOpen ?
+                                        (a.isOpen = !1, a.close()) : (b.setSize(null, null, !1), a.isOpen = !0, a.setButtonText())
+                                }),
+                                h = k(b, "destroy", l);
+                            a.unbindFullscreenEvent = function() {
+                                l();
+                                h()
+                            };
+                            var d = b.renderTo[a.browserProps.requestFullscreen]();
+                            if (d) d["catch"](function() {
+                                alert("Full screen is not supported inside a frame.")
+                            })
+                        }
+                    })
+                };
+                b.prototype.setButtonText = function() {
+                    var b = this.chart,
+                        h = b.exportDivElements,
+                        f = b.options.exporting,
+                        d = f && f.buttons && f.buttons.contextButton.menuItems;
+                    b = b.options.lang;
+                    f && f.menuItemDefinitions && b && b.exitFullscreen && b.viewFullscreen &&
+                        d && h && (h = h[d.indexOf("viewFullscreen")]) && a.setElementHTML(h, this.isOpen ? b.exitFullscreen : f.menuItemDefinitions.viewFullscreen.text || b.viewFullscreen)
+                };
+                b.prototype.toggle = function() {
+                    this.isOpen ? this.close() : this.open()
+                };
+                return b
+            }();
+        "";
+        "";
+        return A
+    });
+    k(a, "Core/HttpUtilities.js", [a["Core/Globals.js"], a["Core/Utilities.js"]], function(a, b) {
+        var k = a.doc,
+            t = b.createElement,
+            n = b.discardElement,
+            z = b.merge,
+            A = b.objectEach,
+            d = {
+                ajax: function(a) {
+                    var b = {
+                            json: "application/json",
+                            xml: "application/xml",
+                            text: "text/plain",
+                            octet: "application/octet-stream"
+                        },
+                        f = new XMLHttpRequest;
+                    if (!a.url) return !1;
+                    f.open((a.type || "get").toUpperCase(), a.url, !0);
+                    a.headers && a.headers["Content-Type"] || f.setRequestHeader("Content-Type", b[a.dataType || "json"] || b.text);
+                    A(a.headers, function(a, b) {
+                        f.setRequestHeader(b, a)
+                    });
+                    a.responseType && (f.responseType = a.responseType);
+                    f.onreadystatechange = function() {
+                        if (4 === f.readyState) {
+                            if (200 === f.status) {
+                                if ("blob" !== a.responseType) {
+                                    var b = f.responseText;
+                                    if ("json" === a.dataType) try {
+                                        b = JSON.parse(b)
+                                    } catch (x) {
+                                        if (x instanceof Error) {
+                                            a.error && a.error(f, x);
+                                            return
+                                        }
+                                    }
+                                }
+                                return a.success && a.success(b, f)
+                            }
+                            a.error && a.error(f, f.responseText)
+                        }
+                    };
+                    a.data && "string" !== typeof a.data && (a.data = JSON.stringify(a.data));
+                    f.send(a.data)
+                },
+                getJSON: function(a, b) {
+                    d.ajax({
+                        url: a,
+                        success: b,
+                        dataType: "json",
+                        headers: {
+                            "Content-Type": "text/plain"
+                        }
+                    })
+                },
+                post: function(a, b, f) {
+                    var d = t("form", z({
+                        method: "post",
+                        action: a,
+                        enctype: "multipart/form-data"
+                    }, f), {
+                        display: "none"
+                    }, k.body);
+                    A(b, function(a, b) {
+                        t("input", {
+                            type: "hidden",
+                            name: b,
+                            value: a
+                        }, void 0, d)
+                    });
+                    d.submit();
+                    n(d)
+                }
+            };
+        "";
+        return d
+    });
+    k(a, "Extensions/Exporting/Exporting.js", [a["Core/Renderer/HTML/AST.js"], a["Core/Chart/Chart.js"], a["Core/Chart/ChartNavigationComposition.js"], a["Core/DefaultOptions.js"], a["Extensions/Exporting/ExportingDefaults.js"], a["Extensions/Exporting/ExportingSymbols.js"], a["Extensions/Exporting/Fullscreen.js"], a["Core/Globals.js"], a["Core/HttpUtilities.js"], a["Core/Utilities.js"]], function(a, b, k, D, n, z, A, d, l, h) {
+        b = D.defaultOptions;
+        var f = d.doc,
+            t = d.SVG_NS,
+            x = d.win,
+            B = h.addEvent,
+            v = h.css,
+            u = h.createElement,
+            J = h.discardElement,
+            E = h.extend,
+            N = h.find,
+            F = h.fireEvent,
+            O = h.isObject,
+            p = h.merge,
+            P = h.objectEach,
+            q = h.pick,
+            Q = h.removeEvent,
+            R = h.uniqueKey,
+            G;
+        (function(b) {
+            function n(a) {
+                var c = this,
+                    b = c.renderer,
+                    g = p(c.options.navigation.buttonOptions, a),
+                    f = g.onclick,
+                    C = g.menuItems,
+                    d = g.symbolSize || 12;
+                c.btnCount || (c.btnCount = 0);
+                c.exportDivElements || (c.exportDivElements = [], c.exportSVGElements = []);
+                if (!1 !== g.enabled && g.theme) {
+                    var e = g.theme,
+                        I;
+                    c.styledMode || (e.fill = q(e.fill, "#ffffff"), e.stroke = q(e.stroke, "none"));
+                    f ? I = function(a) {
+                        a && a.stopPropagation();
+                        f.call(c, a)
+                    } : C && (I = function(a) {
+                        a && a.stopPropagation();
+                        c.contextMenu(r.menuClassName, C, r.translateX, r.translateY, r.width, r.height, r);
+                        r.setState(2)
+                    });
+                    g.text && g.symbol ? e.paddingLeft = q(e.paddingLeft, 30) : g.text || E(e, {
+                        width: g.width,
+                        height: g.height,
+                        padding: 0
+                    });
+                    c.styledMode || (e["stroke-linecap"] = "round", e.fill = q(e.fill, "#ffffff"), e.stroke = q(e.stroke, "none"));
+                    var r = b.button(g.text, 0, 0, I, e).addClass(a.className).attr({
+                        title: q(c.options.lang[g._titleKey || g.titleKey], "")
+                    });
+                    r.menuClassName = a.menuClassName || "highcharts-menu-" +
+                        c.btnCount++;
+                    if (g.symbol) {
+                        var h = b.symbol(g.symbol, g.symbolX - d / 2, g.symbolY - d / 2, d, d, {
+                            width: d,
+                            height: d
+                        }).addClass("highcharts-button-symbol").attr({
+                            zIndex: 1
+                        }).add(r);
+                        c.styledMode || h.attr({
+                            stroke: g.symbolStroke,
+                            fill: g.symbolFill,
+                            "stroke-width": g.symbolStrokeWidth || 1
+                        })
+                    }
+                    r.add(c.exportingGroup).align(E(g, {
+                        width: r.width,
+                        x: q(g.x, c.buttonOffset)
+                    }), !0, "spacingBox");
+                    c.buttonOffset += (r.width + g.buttonSpacing) * ("right" === g.align ? -1 : 1);
+                    c.exportSVGElements.push(r, h)
+                }
+            }
+
+            function D() {
+                if (this.printReverseInfo) {
+                    var a = this.printReverseInfo,
+                        b = a.childNodes,
+                        w = a.origDisplay;
+                    a = a.resetParams;
+                    this.moveContainers(this.renderTo);
+                    [].forEach.call(b, function(a, c) {
+                        1 === a.nodeType && (a.style.display = w[c] || "")
+                    });
+                    this.isPrinting = !1;
+                    a && this.setSize.apply(this, a);
+                    delete this.printReverseInfo;
+                    H = void 0;
+                    F(this, "afterPrint")
+                }
+            }
+
+            function G() {
+                var a = f.body,
+                    b = this.options.exporting.printMaxWidth,
+                    w = {
+                        childNodes: a.childNodes,
+                        origDisplay: [],
+                        resetParams: void 0
+                    };
+                this.isPrinting = !0;
+                this.pointer.reset(null, 0);
+                F(this, "beforePrint");
+                b && this.chartWidth > b && (w.resetParams = [this.options.chart.width,
+                    void 0, !1
+                ], this.setSize(b, void 0, !1));
+                [].forEach.call(w.childNodes, function(a, c) {
+                    1 === a.nodeType && (w.origDisplay[c] = a.style.display, a.style.display = "none")
+                });
+                this.moveContainers(a);
+                this.printReverseInfo = w
+            }
+
+            function S(a) {
+                a.renderExporting();
+                B(a, "redraw", a.renderExporting);
+                B(a, "destroy", a.destroyExport)
+            }
+
+            function T(c, b, w, g, d, C, k) {
+                var e = this,
+                    y = e.options.navigation,
+                    r = e.chartWidth,
+                    K = e.chartHeight,
+                    t = "cache-" + c,
+                    l = Math.max(d, C),
+                    m = e[t];
+                if (!m) {
+                    e.exportContextMenu = e[t] = m = u("div", {
+                        className: c
+                    }, {
+                        position: "absolute",
+                        zIndex: 1E3,
+                        padding: l + "px",
+                        pointerEvents: "auto"
+                    }, e.fixedDiv || e.container);
+                    var p = u("ul", {
+                        className: "highcharts-menu"
+                    }, {
+                        listStyle: "none",
+                        margin: 0,
+                        padding: 0
+                    }, m);
+                    e.styledMode || v(p, E({
+                        MozBoxShadow: "3px 3px 10px #888",
+                        WebkitBoxShadow: "3px 3px 10px #888",
+                        boxShadow: "3px 3px 10px #888"
+                    }, y.menuStyle));
+                    m.hideMenu = function() {
+                        v(m, {
+                            display: "none"
+                        });
+                        k && k.setState(0);
+                        e.openMenu = !1;
+                        v(e.renderTo, {
+                            overflow: "hidden"
+                        });
+                        v(e.container, {
+                            overflow: "hidden"
+                        });
+                        h.clearTimeout(m.hideTimer);
+                        F(e, "exportMenuHidden")
+                    };
+                    e.exportEvents.push(B(m,
+                        "mouseleave",
+                        function() {
+                            m.hideTimer = x.setTimeout(m.hideMenu, 500)
+                        }), B(m, "mouseenter", function() {
+                        h.clearTimeout(m.hideTimer)
+                    }), B(f, "mouseup", function(a) {
+                        e.pointer.inClass(a.target, c) || m.hideMenu()
+                    }), B(m, "click", function() {
+                        e.openMenu && m.hideMenu()
+                    }));
+                    b.forEach(function(c) {
+                        "string" === typeof c && (c = e.options.exporting.menuItemDefinitions[c]);
+                        if (O(c, !0)) {
+                            var b = void 0;
+                            c.separator ? b = u("hr", void 0, void 0, p) : ("viewData" === c.textKey && e.isDataTableVisible && (c.textKey = "hideData"), b = u("li", {
+                                className: "highcharts-menu-item",
+                                onclick: function(a) {
+                                    a && a.stopPropagation();
+                                    m.hideMenu();
+                                    c.onclick && c.onclick.apply(e, arguments)
+                                }
+                            }, void 0, p), a.setElementHTML(b, c.text || e.options.lang[c.textKey]), e.styledMode || (b.onmouseover = function() {
+                                v(this, y.menuItemHoverStyle)
+                            }, b.onmouseout = function() {
+                                v(this, y.menuItemStyle)
+                            }, v(b, E({
+                                cursor: "pointer"
+                            }, y.menuItemStyle || {}))));
+                            e.exportDivElements.push(b)
+                        }
+                    });
+                    e.exportDivElements.push(p, m);
+                    e.exportMenuWidth = m.offsetWidth;
+                    e.exportMenuHeight = m.offsetHeight
+                }
+                b = {
+                    display: "block"
+                };
+                w + e.exportMenuWidth > r ? b.right =
+                    r - w - d - l + "px" : b.left = w - l + "px";
+                g + C + e.exportMenuHeight > K && "top" !== k.alignOptions.verticalAlign ? b.bottom = K - g - l + "px" : b.top = g + C - l + "px";
+                v(m, b);
+                v(e.renderTo, {
+                    overflow: ""
+                });
+                v(e.container, {
+                    overflow: ""
+                });
+                e.openMenu = !0;
+                F(e, "exportMenuShown")
+            }
+
+            function U(a) {
+                var c = a ? a.target : this,
+                    b = c.exportSVGElements,
+                    g = c.exportDivElements;
+                a = c.exportEvents;
+                var d;
+                b && (b.forEach(function(a, y) {
+                    a && (a.onclick = a.ontouchstart = null, d = "cache-" + a.menuClassName, c[d] && delete c[d], b[y] = a.destroy())
+                }), b.length = 0);
+                c.exportingGroup && (c.exportingGroup.destroy(),
+                    delete c.exportingGroup);
+                g && (g.forEach(function(a, c) {
+                    a && (h.clearTimeout(a.hideTimer), Q(a, "mouseleave"), g[c] = a.onmouseout = a.onmouseover = a.ontouchstart = a.onclick = null, J(a))
+                }), g.length = 0);
+                a && (a.forEach(function(a) {
+                    a()
+                }), a.length = 0)
+            }
+
+            function V(a, b) {
+                b = this.getSVGForExport(a, b);
+                a = p(this.options.exporting, a);
+                l.post(a.url, {
+                    filename: a.filename ? a.filename.replace(/\//g, "-") : this.getFilename(),
+                    type: a.type,
+                    width: a.width || 0,
+                    scale: a.scale,
+                    svg: b
+                }, a.formAttributes)
+            }
+
+            function W() {
+                this.styledMode && this.inlineStyles();
+                return this.container.innerHTML
+            }
+
+            function X() {
+                var a = this.userOptions.title && this.userOptions.title.text,
+                    b = this.options.exporting.filename;
+                if (b) return b.replace(/\//g, "-");
+                "string" === typeof a && (b = a.toLowerCase().replace(/<\/?[^>]+(>|$)/g, "").replace(/[\s]+/g, "-").replace(/[^a-z0-9_\-]/g, "").replace(/^[\-]+/g, "").replace(/[\-]+/g, "-").replace(/[\-]+$/g, ""));
+                if (!b || 2 > b.length) b = "chart";
+                return b
+            }
+
+            function Y(a) {
+                var b, c = p(this.options, a);
+                c.plotOptions = p(this.userOptions.plotOptions, a && a.plotOptions);
+                c.time = p(this.userOptions.time, a && a.time);
+                var g = u("div", null, {
+                        position: "absolute",
+                        top: "-9999em",
+                        width: this.chartWidth + "px",
+                        height: this.chartHeight + "px"
+                    }, f.body),
+                    d = this.renderTo.style.width;
+                var h = this.renderTo.style.height;
+                d = c.exporting.sourceWidth || c.chart.width || /px$/.test(d) && parseInt(d, 10) || (c.isGantt ? 800 : 600);
+                h = c.exporting.sourceHeight || c.chart.height || /px$/.test(h) && parseInt(h, 10) || 400;
+                E(c.chart, {
+                    animation: !1,
+                    renderTo: g,
+                    forExport: !0,
+                    renderer: "SVGRenderer",
+                    width: d,
+                    height: h
+                });
+                c.exporting.enabled = !1;
+                delete c.data;
+                c.series = [];
+                this.series.forEach(function(a) {
+                    b = p(a.userOptions, {
+                        animation: !1,
+                        enableMouseTracking: !1,
+                        showCheckbox: !1,
+                        visible: a.visible
+                    });
+                    b.isInternal || c.series.push(b)
+                });
+                var k = {};
+                this.axes.forEach(function(a) {
+                    a.userOptions.internalKey || (a.userOptions.internalKey = R());
+                    a.options.isInternal || (k[a.coll] || (k[a.coll] = !0, c[a.coll] = []), c[a.coll].push(p(a.userOptions, {
+                        visible: a.visible
+                    })))
+                });
+                var e = new this.constructor(c, this.callback);
+                a && ["xAxis", "yAxis", "series"].forEach(function(b) {
+                    var c = {};
+                    a[b] && (c[b] = a[b], e.update(c))
+                });
+                this.axes.forEach(function(a) {
+                    var b = N(e.axes, function(b) {
+                            return b.options.internalKey === a.userOptions.internalKey
+                        }),
+                        c = a.getExtremes(),
+                        d = c.userMin;
+                    c = c.userMax;
+                    b && ("undefined" !== typeof d && d !== b.min || "undefined" !== typeof c && c !== b.max) && b.setExtremes(d, c, !0, !1)
+                });
+                h = e.getChartHTML();
+                F(this, "getSVG", {
+                    chartCopy: e
+                });
+                h = this.sanitizeSVG(h, c);
+                c = null;
+                e.destroy();
+                J(g);
+                return h
+            }
+
+            function Z(a, b) {
+                var c = this.options.exporting;
+                return this.getSVG(p({
+                        chart: {
+                            borderRadius: 0
+                        }
+                    }, c.chartOptions,
+                    b, {
+                        exporting: {
+                            sourceWidth: a && a.sourceWidth || c.sourceWidth,
+                            sourceHeight: a && a.sourceHeight || c.sourceHeight
+                        }
+                    }))
+            }
+
+            function aa(a) {
+                return a.replace(/([A-Z])/g, function(a, b) {
+                    return "-" + b.toLowerCase()
+                })
+            }
+
+            function ba() {
+                function a(b) {
+                    var c = {},
+                        e, f;
+                    if (n && 1 === b.nodeType && -1 === ca.indexOf(b.nodeName)) {
+                        var l = x.getComputedStyle(b, null);
+                        var w = "svg" === b.nodeName ? {} : x.getComputedStyle(b.parentNode, null);
+                        if (!g[b.nodeName]) {
+                            k = n.getElementsByTagName("svg")[0];
+                            var m = n.createElementNS(b.namespaceURI, b.nodeName);
+                            k.appendChild(m);
+                            g[b.nodeName] = p(x.getComputedStyle(m, null));
+                            "text" === b.nodeName && delete g.text.fill;
+                            k.removeChild(m)
+                        }
+                        for (var t in l)
+                            if (d.isFirefox || d.isMS || d.isSafari || Object.hasOwnProperty.call(l, t)) {
+                                var u = l[t],
+                                    q = t;
+                                m = e = !1;
+                                if (h.length) {
+                                    for (f = h.length; f-- && !e;) e = h[f].test(q);
+                                    m = !e
+                                }
+                                "transform" === q && "none" === u && (m = !0);
+                                for (f = y.length; f-- && !m;) m = y[f].test(q) || "function" === typeof u;
+                                m || w[q] === u && "svg" !== b.nodeName || g[b.nodeName][q] === u || (L && -1 === L.indexOf(q) ? "parentRule" !== q && (c[q] = u) : u && b.setAttribute(aa(q), u))
+                            }
+                        v(b, c);
+                        "svg" === b.nodeName && b.setAttribute("stroke-width", "1px");
+                        "text" !== b.nodeName && [].forEach.call(b.children || b.childNodes, a)
+                    }
+                }
+                var y = da,
+                    h = b.inlineWhitelist,
+                    g = {},
+                    k, l = f.createElement("iframe");
+                v(l, {
+                    width: "1px",
+                    height: "1px",
+                    visibility: "hidden"
+                });
+                f.body.appendChild(l);
+                var n = l.contentWindow && l.contentWindow.document;
+                n && n.body.appendChild(n.createElementNS(t, "svg"));
+                a(this.container.querySelector("svg"));
+                k.parentNode.removeChild(k);
+                l.parentNode.removeChild(l)
+            }
+
+            function ea(a) {
+                (this.fixedDiv ? [this.fixedDiv, this.scrollingContainer] : [this.container]).forEach(function(b) {
+                    a.appendChild(b)
+                })
+            }
+
+            function fa() {
+                var a = this;
+                a.exporting = {
+                    update: function(b, c) {
+                        a.isDirtyExporting = !0;
+                        p(!0, a.options.exporting, b);
+                        q(c, !0) && a.redraw()
+                    }
+                };
+                k.compose(a).navigation.addUpdate(function(b, c) {
+                    a.isDirtyExporting = !0;
+                    p(!0, a.options.navigation, b);
+                    q(c, !0) && a.redraw()
+                })
+            }
+
+            function ha() {
+                var a = this;
+                a.isPrinting || (H = a, d.isSafari || a.beforePrint(), setTimeout(function() {
+                    x.focus();
+                    x.print();
+                    d.isSafari || setTimeout(function() {
+                        a.afterPrint()
+                    }, 1E3)
+                }, 1))
+            }
+
+            function ia() {
+                var a =
+                    this,
+                    b = a.options.exporting,
+                    d = b.buttons,
+                    g = a.isDirtyExporting || !a.exportSVGElements;
+                a.buttonOffset = 0;
+                a.isDirtyExporting && a.destroyExport();
+                g && !1 !== b.enabled && (a.exportEvents = [], a.exportingGroup = a.exportingGroup || a.renderer.g("exporting-group").attr({
+                    zIndex: 3
+                }).add(), P(d, function(b) {
+                    a.addButton(b)
+                }), a.isDirtyExporting = !1)
+            }
+
+            function ja(a, b) {
+                var c = a.indexOf("</svg>") + 6,
+                    d = a.substr(c);
+                a = a.substr(0, c);
+                b && b.exporting && b.exporting.allowHTML && d && (d = '<foreignObject x="0" y="0" width="' + b.chart.width + '" height="' +
+                    b.chart.height + '"><body xmlns="http://www.w3.org/1999/xhtml">' + d.replace(/(<(?:img|br).*?(?=>))>/g, "$1 />") + "</body></foreignObject>", a = a.replace("</svg>", d + "</svg>"));
+                a = a.replace(/zIndex="[^"]+"/g, "").replace(/symbolName="[^"]+"/g, "").replace(/jQuery[0-9]+="[^"]+"/g, "").replace(/url\(("|&quot;)(.*?)("|&quot;);?\)/g, "url($2)").replace(/url\([^#]+#/g, "url(#").replace(/<svg /, '<svg xmlns:xlink="http://www.w3.org/1999/xlink" ').replace(/ (|NS[0-9]+:)href=/g, " xlink:href=").replace(/\n/, " ").replace(/(fill|stroke)="rgba\(([ 0-9]+,[ 0-9]+,[ 0-9]+),([ 0-9\.]+)\)"/g,
+                    '$1="rgb($2)" $1-opacity="$3"').replace(/&nbsp;/g, "\u00a0").replace(/&shy;/g, "\u00ad");
+                this.ieSanitizeSVG && (a = this.ieSanitizeSVG(a));
+                return a
+            }
+            var M = [],
+                da = [/-/, /^(clipPath|cssText|d|height|width)$/, /^font$/, /[lL]ogical(Width|Height)$/, /perspective/, /TapHighlightColor/, /^transition/, /^length$/],
+                L = "fill stroke strokeLinecap strokeLinejoin strokeWidth textAnchor x y".split(" ");
+            b.inlineWhitelist = [];
+            var ca = ["clipPath", "defs", "desc"],
+                H;
+            b.compose = function(a, b) {
+                z.compose(b);
+                A.compose(a); - 1 === M.indexOf(a) &&
+                    (M.push(a), b = a.prototype, b.afterPrint = D, b.exportChart = V, b.inlineStyles = ba, b.print = ha, b.sanitizeSVG = ja, b.getChartHTML = W, b.getSVG = Y, b.getSVGForExport = Z, b.getFilename = X, b.moveContainers = ea, b.beforePrint = G, b.contextMenu = T, b.addButton = n, b.destroyExport = U, b.renderExporting = ia, b.callbacks.push(S), B(a, "init", fa), d.isSafari && d.win.matchMedia("print").addListener(function(a) {
+                        H && (a.matches ? H.beforePrint() : H.afterPrint())
+                    }))
+            }
+        })(G || (G = {}));
+        b.exporting = p(n.exporting, b.exporting);
+        b.lang = p(n.lang, b.lang);
+        b.navigation =
+            p(n.navigation, b.navigation);
+        "";
+        "";
+        return G
+    });
+    k(a, "masters/modules/exporting.src.js", [a["Core/Globals.js"], a["Extensions/Exporting/Exporting.js"], a["Core/HttpUtilities.js"]], function(a, b, k) {
+        a.HttpUtilities = k;
+        a.ajax = k.ajax;
+        a.getJSON = k.getJSON;
+        a.post = k.post;
+        b.compose(a.Chart, a.Renderer)
+    })
+});
+//# sourceMappingURL=exporting.js.map
