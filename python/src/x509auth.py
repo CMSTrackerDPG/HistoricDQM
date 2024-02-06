@@ -24,8 +24,8 @@ def x509_params():
 
  x509_path = os.getenv("X509_USER_PROXY", None)
  if x509_path and os.path.exists(x509_path):
-##   key_file = cert_file = x509_path
-   key_file = cert_file = "/tmp/x509up_u133079"
+ ##   key_file = cert_file = x509_path
+  key_file = cert_file = "/tmp/x509up_u133079"
 
  if not key_file:
    x509_path = "/tmp/x509up_u133079"

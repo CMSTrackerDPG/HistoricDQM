@@ -503,6 +503,7 @@ def main(argv=None):
         if cache == None or runs[run][1] not in runInCache:
             print("------------>>> RUN %s NOT IN CACHE"%(runs[run][1]))
             rc = dqm_get_json(runs[run][0],runs[run][1],runs[run][2], "Info/ProvInfo")
+            print(rc)
             try:
                 print("------------>>> RunIsComplete flag: " , rc['runIsComplete']['value'])
                 isDone = int(rc['runIsComplete']['value'])

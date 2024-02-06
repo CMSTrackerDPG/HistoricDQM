@@ -17,10 +17,12 @@ print(X509CertAuth.ssl_key_file)
 print(X509CertAuth.ssl_cert_file)
 print(x509_params())
 
+#"https://cmsweb.cern.ch/dqm/offline",'.*/StreamExpress/Run2023.*Express*.*v*/DQMIO',"offline_data"
 def dqm_get_json(server, run, dataset, folder, rootContent=False):
     postfix = "?rootcontent=1" if rootContent else ""
     print(('%s/data/json/archive/%s/%s/%s%s') % (server, run, dataset, folder, postfix))
     datareq = urllib.request.Request(('%s/data/json/archive/%s/%s/%s%s') % (server, run, dataset, folder, postfix))
+    #print(datareq)
     datareq.add_header('User-agent', ident)
     # Get data
     data = eval(re.sub(r"\bnan\b", "0", urllib.request.build_opener(X509CertOpen()).open(datareq).read().decode('utf-8')),
@@ -51,9 +53,12 @@ def dqm_get_json(server, run, dataset, folder, rootContent=False):
     return dict( [ (x['obj'], x) for x in data['contents'][1:] if 'obj' in x] )
 
 def dqm_get_samples(server, match, type="offline_data"):
+    print(('%s/data/json/samples?match=%s') % (server, match))
+    #datareq = urllib.request.Request(('%s/data/json/samples?match=%s') % (server, match), context=sslcontext)
     datareq = urllib.request.Request(('%s/data/json/samples?match=%s') % (server, match))
     datareq.add_header('User-agent', ident)
     # Get data
+#    data = eval(re.sub(r"\bnan\b", "0", urllib.request.build_opener(X509CertOpen()).open(datareq).read().decode('utf-8',context=sslcontext)),
     data = eval(re.sub(r"\bnan\b", "0", urllib.request.build_opener(X509CertOpen()).open(datareq).read().decode('utf-8')),
                { "__builtins__": None }, {})
     ret = []

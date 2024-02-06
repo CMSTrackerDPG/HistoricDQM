@@ -39,12 +39,12 @@ def x509_params():
      cert_file = x509_path
 
  if not key_file:
-   x509_path = os.getenv("HOME") + "/.globus/userkey.pem"
+   x509_path = os.getenv("HOME") + "/private/userkey.pem"
    if os.path.exists(x509_path):
      key_file = x509_path
 
  if not cert_file:
-   x509_path = os.getenv("HOME") + "/.globus/usercert.pem"
+   x509_path = os.getenv("HOME") + "/private/usercert.pem"
    if os.path.exists(x509_path):
      cert_file = x509_path
 
