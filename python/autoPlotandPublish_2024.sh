@@ -1,8 +1,8 @@
 #!/bin/bash
 
-WORKDIR="/home/dpgtkdqm/cronjobs/HDQM/CMSSW_14_0_0/HistoricDQM/python"
-LOGDIR="/home/dpgtkdqm/cronjobs/HDQM/CMSSW_14_0_0/HistoricDQM/Logs"
-DCSONLY="/home/dpgtkdqm/cronjobs/HDQM/CMSSW_14_0_0/HistoricDQM/python/DCSonly"
+WORKDIR="/home/dpgtkdqm/cronjobs/HDQM/CMSSW_14_0_7/HistoricDQM/python"
+LOGDIR="/home/dpgtkdqm/cronjobs/HDQM/CMSSW_14_0_7/HistoricDQM/Logs"
+DCSONLY="/home/dpgtkdqm/cronjobs/HDQM/CMSSW_14_0_7/HistoricDQM/python/DCSonly"
 OUTDIR="/eos/cms/store/group/tracker-cctrack/www/HDQM/v4"
 
 # ++++++++++++++++++++++++++++++++      RunList    +++++++++++++++++++++++++++++++++++++++                                                       
