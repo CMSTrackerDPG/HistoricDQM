@@ -1,0 +1,12 @@
+#Logs
+Logs/
+log.cron
+
+#Cache
+python/.DQMCache*
+python/.done*
+
+#pycache
+python/fig/
+python/metrics/__pycache__/
+python/src/__pycache__/
