@@ -7,10 +7,6 @@ OUTDIR="/eos/cms/store/group/tracker-cctrack/www/HDQM/v4"
 
 # ++++++++++++++++++++++++++++++++      RunList    +++++++++++++++++++++++++++++++++++++++                                                       
 
-export SSO_CLIENT_ID=tkhdqm
-export SSO_CLIENT_SECRET=ushe20s3EXe3yjmH8rerBD8LNRRfFKUL
-#export ENVIRONMENT=qa
-
 #export PYTHONPATH="${PYTHONPATH}:${DCSONLY}/.python_packages/"
 cd $DCSONLY
 subT=`date`
