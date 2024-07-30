@@ -1,7 +1,7 @@
 #!/bin/bash
 
 vocms_path="/home/dpgtkdqm/cronjobs/HDQM/" #vocms065
-#vocms_path="/data/users/event_display/dpgtkdqm/HDQM/" #vocms064
+#vocms_path="/data/users/event_display/dpgtkdqm/cronjobs/HDQM/" #vocms064
 
 CMSSW_version="CMSSW_14_0_8"
 
@@ -11,6 +11,9 @@ DCSONLY=$vocms_path$CMSSW_version"/HistoricDQM/python/DCSonly"
 OUTDIR="/eos/cms/store/group/tracker-cctrack/www/HDQM/v4"
 
 # ++++++++++++++++++++++++++++++++      RunList    +++++++++++++++++++++++++++++++++++++++                                                       
+
+export SSO_CLIENT_ID=tkhdqm
+export SSO_CLIENT_SECRET="INSERT-SECRET-CODE-HERE"
 
 #export PYTHONPATH="${PYTHONPATH}:${DCSONLY}/.python_packages/"
 cd $DCSONLY
