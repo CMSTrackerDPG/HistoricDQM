@@ -7,7 +7,7 @@ CMSSW_version="CMSSW_14_0_14"
 WORKDIR=$vocms_path$CMSSW_version"/HistoricDQM/python"
 LOGDIR=$vocms_path$CMSSW_version"/HistoricDQM/Logs"
 DCSONLY=$vocms_path$CMSSW_version"/HistoricDQM/python/DCSonly"
-OUTDIR="/eos/cms/store/group/tracker-cctrack/www/HDQM/v5"
+OUTDIR="/eos/cms/store/group/tracker-cctrack/www/HDQM/v4"
 
 YEAR="2025"
 FIRST_COSMICS="389000"

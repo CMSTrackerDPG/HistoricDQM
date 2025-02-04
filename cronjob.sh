@@ -9,7 +9,7 @@ eosfusebind
 aklog CERN.CH
 
 #Only update the CMSSW release
-CMSSW_REL=CMSSW_14_0_8
+CMSSW_REL=CMSSW_14_0_14
 
 WORKINGDIR="/data/users/event_display/dpgtkdqm/cronjobs/HDQM/"${CMSSW_REL}"/HistoricDQM/python" #2025
 
@@ -29,4 +29,4 @@ cat $WORKINGDIR/../log.cron >> $WORKINGDIR/../../../../../cronlogs/hdqm.log
 
 echo "Copy cache to eos"
 
-cp $WORKINGDIR/.DQMCache* /eos/cms/store/group/tracker-cctrack/www/HDQM/v5/cache/.
+cp $WORKINGDIR/.DQMCache* /eos/cms/store/group/tracker-cctrack/www/HDQM/v4/cache/.
