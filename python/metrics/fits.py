@@ -11,7 +11,7 @@ class LanGau(BaseMetric):
         
     def calculate(self, histo):
         import ROOT
-        ROOT.gSystem.Load("/data/users/HDQM/CMSSW_10_1_0_pre3/HistoricDQM/python/metrics/langau_c")
+        ROOT.gSystem.Load("/home/dpgtkdqm/cronjobs/HDQM/CMSSW_14_0_8/HistoricDQM/python/metrics/langau_c.so")
         from ROOT import langaufun
         from ROOT import TF1
         fit = TF1("langau",langaufun, self.range[0],self.range[1],4)
@@ -54,9 +54,11 @@ class LanGauAroundMax(BaseMetric):
         self.controlVal = controlVal 
         
     def calculate(self, histo):
+        '''
         import ROOT
-        ROOT.gSystem.Load("/data/users/HDQM/CMSSW_10_1_0_pre3/HistoricDQM/python/metrics/langau_c")
-        from ROOT import langaufun
+        ROOT.gSystem.Load("/home/dpgtkdqm/cronjobs/HDQM/CMSSW_14_0_8/HistoricDQM/python/metrics/langaus_C.so")
+        langaufun = ROOT.gROOT.GetFunction("langaufun")
+        #from ROOT import langaufun
         from ROOT import TF1
         if(histo.GetEntries()<150):
             histo.Rebin(2)
@@ -88,10 +90,19 @@ class LanGauAroundMax(BaseMetric):
         result = (fit.GetParameter(self.desired), fit.GetParError(self.desired))
         del fit
         return result
+        '''
+        import ROOT
+        from metrics.langaus import LanGausFit
+        fit = LanGausFit()
+        func = fit.fit(histo)
+        maximum = func.GetMaximumX()
+        #print(f"Maximum: {maximum:.2f} ... Landau MPV: {func.GetParameter(1):.2f} +/- {func.GetParError(1):.2f}")
+        result = (maximum, func.GetParError(1))
+        #return func
+        del fit
+        return result
 
-
-
-class GauLand(BaseMetric):
+class Gauland(BaseMetric):
     def __init__(self, diseredParameter, minVal, maxVal, paramDefaults):
         BaseMetric.__init__(self)
         self.range = [minVal, maxVal]
@@ -226,7 +237,6 @@ class LandauAroundMax(BaseMetric):
         del fit
         return result
 
-
 class Gaussian(BaseMetric):
     def __init__(self, diseredParameter, minVal, maxVal, paramDefaults):
         BaseMetric.__init__(self)
@@ -254,7 +264,7 @@ class StudentT(BaseMetric):
     def calculate(self, histo):
         import ROOT
         import math
-        ROOT.gSystem.Load("/data/users/HDQM/CMSSW_10_1_0_pre3/HistoricDQM/python/metrics/residuals_c")
+        ROOT.gSystem.Load("/home/dpgtkdqm/cronjobs/HDQM/CMSSW_14_0_8/HistoricDQM/python/metrics/residuals_c")
         from ROOT import tStud
         from ROOT import TF1
         fit = TF1("tStud",tStud,self.range[0],self.range[1],5)
