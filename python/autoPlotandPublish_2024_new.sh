@@ -47,6 +47,7 @@ touch .doneStreamExpress
 subT=`date`
 echo "      --->>> Strip DECO Ended at ${subT}"
 
+
 subT=`date`
 echo "      --->>> Strip PEAK Started at ${subT}"
 rm -rf ./JSON/*
@@ -68,24 +69,34 @@ echo "      --->>> Strip ALL Ended at ${subT}"
 
 #StreamExpress Strips Gains
 subT=`date`
-echo "      --->>> Strip GAIN Started at ${subT}"
+echo "      --->>> Strip GAIN Started at ${subT}" #  -C cfg/trendPlotsStrip_GainsAAG_Langau.ini
 rm -rf ./JSON/*
-python3 ./trendPlots_2022.py -C cfg/trendPlotsDQM_cronPPExpressStrips.ini -C cfg/trendPlotsStrip_GainsAAG.ini --dataset StreamExpress --dataset StreamHIExpressRawPrime --epoch Commissioning2024 --epoch Run2024 --epoch HIRun2024 -r "run >= 376824" --reco PromptCalibProdSiStripGainsAAG-Express --datatier ALCAPROMPT -J "${DCSONLY}/json_DCSONLY_DECO.txt"  &> "${LOGDIR}/expressStripGAIN.log"
+python3 ./trendPlots_2022.py -C cfg/trendPlotsDQM_cronPPExpressStrips.ini -C cfg/trendPlotsStrip_GainsAAG.ini --dataset StreamExpress --dataset StreamHIExpress --dataset StreamHIExpressRawPrime --epoch Commissioning2024 --epoch Run2024 --epoch HIRun2024 -r "run >= 378000" --reco PromptCalibProdSiStripGainsAAG-Express --datatier ALCAPROMPT -J "${DCSONLY}/json_DCSONLY_DECO.txt"  &> "${LOGDIR}/expressStripGAIN.log"
 cp ./JSON/* "${OUTDIR}/alljsons/2024/StreamExpress/Strips/DECO/"
 touch .doneStreamExpress
 subT=`date`
 echo "      --->>> Strip Gain Ended at ${subT}"
 
-#StreamExpress PIXEL
-subT=`date`
-echo "      --->>> Pixel Started at ${subT}"
-rm -rf ./JSON/*
-python3 ./trendPlots_2022.py -C cfg/trendPlotsDQM_cronPPExpressPixel.ini -C cfg/trendPlotsPixelPhase1_clustersV3.ini -C cfg/trendPlotsPixelPhase1_FED.ini -C cfg/trendPlotsPixelPhase1_ADCDIGI.ini -C cfg/trendPlotsPixelPhase1_BPIX_Residuals.ini -C cfg/trendPlotsPixelPhase1_FPIX_Residuals.ini -C cfg/trendPlotsPixelPhase1_clustersBPIX_v2.ini -C cfg/trendPlotsPixelPhase1_clustersFPIX_v2.ini -C cfg/trendPlotsPixelPhase1_HitsEfficiency.ini -C cfg/trendPlotsPixelPhase1_DigiCluster.ini -C cfg/trendPlotsPixelPhase1_clustersFPIX_test.ini -C cfg/trendPlotsPixelPhase1_clustersFPixByRing.ini -C cfg/trendPlotsPixelPhase1_clustersBPixByModule.ini -C cfg/trendPlotsPixelPhase1_deadROC.ini -C cfg/trendPlotsPixelPhase1_DamagedL2Module.ini -C cfg/trendPlotsPixelPhase1_DamagedL4Module.ini -C cfg/trendPlotsPixelPhase1_DamagedL3Module.ini -C cfg/trendPlotsPixelPhase1_DamagedRing2Module.ini -C cfg/trendPlotsPixelPhase1_DamagedRing1Module.ini -C cfg/trendPlotsPixelPhase1_ROCocc.ini -C cfg/trendPlotsPixelPhase1_templateCorrBPIX.ini  -C cfg/trendPlotsPixelPhase1_templateCorrFPIX.ini -C cfg/trendPlotsPixelPhase1_DRM_BPix.ini -C cfg/trendPlotsPixelPhase1_DRM_FPix.ini --dataset StreamExpress --dataset StreamHIExpressRawPrime --epoch Commissioning2024 --epoch Run2024 --epoch HIRun2024 -r "run >= 292505" --reco Express -J "${DCSONLY}/json_DCSONLY.txt"  &> "${LOGDIR}/expressPixel.log"
-cp ./JSON/* "${OUTDIR}/alljsons/2024/StreamExpress/PixelPhase1/"
-touch .doneStreamExpressPixel
-subT=`date`
-echo "      --->>> Pixel Ended at ${subT}"
 
+#StreamExpress PIXEL part_1
+subT=`date`
+echo "      --->>> Pixel part_1 Started at ${subT}"
+rm -rf ./JSON/*
+python3 ./trendPlots_2022.py -C cfg/trendPlotsDQM_cronPPExpressPixel_1.ini -C cfg/trendPlotsPixelPhase1_clustersV3.ini -C cfg/trendPlotsPixelPhase1_FED.ini -C cfg/trendPlotsPixelPhase1_ADCDIGI.ini -C cfg/trendPlotsPixelPhase1_BPIX_Residuals.ini -C cfg/trendPlotsPixelPhase1_FPIX_Residuals.ini -C cfg/trendPlotsPixelPhase1_clustersBPIX_v2.ini -C cfg/trendPlotsPixelPhase1_clustersFPIX_v2.ini -C cfg/trendPlotsPixelPhase1_HitsEfficiency.ini -C cfg/trendPlotsPixelPhase1_DigiCluster.ini -C cfg/trendPlotsPixelPhase1_clustersFPIX_test.ini -C cfg/trendPlotsPixelPhase1_clustersFPixByRing.ini -C cfg/trendPlotsPixelPhase1_clustersBPixByModule.ini -C cfg/trendPlotsPixelPhase1_deadROC.ini -C cfg/trendPlotsPixelPhase1_ROCocc.ini -C cfg/trendPlotsPixelPhase1_templateCorrBPIX.ini  -C cfg/trendPlotsPixelPhase1_templateCorrFPIX.ini -C cfg/trendPlotsPixelPhase1_DRM_BPix.ini -C cfg/trendPlotsPixelPhase1_DRM_FPix.ini --dataset StreamExpress --dataset StreamHIExpressRawPrime --epoch Commissioning2024 --epoch Run2024 --epoch HIRun2024 -r "run >= 292505" --reco Express -J "${DCSONLY}/json_DCSONLY.txt"  &> "${LOGDIR}/expressPixel_1.log"
+cp ./JSON/* "${OUTDIR}/alljsons/2024/StreamExpress/PixelPhase1/"
+touch .doneStreamExpressPixel_1
+subT=`date`
+echo "      --->>> Pixel part_1 Ended at ${subT}"
+
+#StreamExpress PIXEL part_2
+subT=`date`
+echo "      --->>> Pixel part_2 Started at ${subT}"
+rm -rf ./JSON/*
+#python3 ./trendPlots_2022.py -C cfg/trendPlotsDQM_cronPPExpressPixel_2.ini -C cfg/trendPlotsPixelPhase1_DamagedL2Module.ini -C cfg/trendPlotsPixelPhase1_DamagedL4Module.ini -C cfg/trendPlotsPixelPhase1_DamagedL3Module.ini -C cfg/trendPlotsPixelPhase1_DamagedRing2Module.ini -C cfg/trendPlotsPixelPhase1_DamagedRing1Module.ini --dataset StreamExpress --dataset StreamHIExpressRawPrime --epoch Commissioning2024 --epoch Run2024 --epoch HIRun2024 -r "run >= 292505" --reco Express -J "${DCSONLY}/json_DCSONLY.txt"  &> "${LOGDIR}/expressPixel_2.log"
+cp ./JSON/* "${OUTDIR}/alljsons/2024/StreamExpress/PixelPhase1/"
+touch .doneStreamExpressPixel_2
+subT=`date`
+echo "      --->>> Pixel part_2 Ended at ${subT}"
 
 #StreamExpress TRACKING
 subT=`date`
@@ -139,6 +150,7 @@ touch .doneZeroBias
 subT=`date`
 echo "      --->>> Strip DECO Ended at ${subT}"
 
+
 subT=`date`
 echo "      --->>> Strip PEAK Started at ${subT}"
 rm -rf ./JSON/*
@@ -158,16 +170,26 @@ touch .doneZeroBias
 subT=`date`
 echo "      --->>> Strip ALL Ended at ${subT}"
 
-#ZeroBias PIXEL
-subT=`date`
-echo "      --->>> Pixel Started at ${subT}"
-rm -rf ./JSON/*
-python3 ./trendPlots_2022.py -C cfg/trendPlotsDQM_cronPPPromptPixel.ini -C cfg/trendPlotsPixelPhase1_clustersV3.ini -C cfg/trendPlotsPixelPhase1_FED.ini -C cfg/trendPlotsPixelPhase1_ADCDIGI.ini -C cfg/trendPlotsPixelPhase1_BPIX_Residuals.ini -C cfg/trendPlotsPixelPhase1_FPIX_Residuals.ini -C cfg/trendPlotsPixelPhase1_clustersBPIX_v2.ini -C cfg/trendPlotsPixelPhase1_clustersFPIX_v2.ini -C cfg/trendPlotsPixelPhase1_HitsEfficiency.ini -C cfg/trendPlotsPixelPhase1_DigiCluster.ini -C cfg/trendPlotsPixelPhase1_clustersFPIX_test.ini -C cfg/trendPlotsPixelPhase1_clustersFPixByRing.ini -C cfg/trendPlotsPixelPhase1_clustersBPixByModule.ini -C cfg/trendPlotsPixelPhase1_deadROC.ini -C cfg/trendPlotsPixelPhase1_DamagedL2Module.ini -C cfg/trendPlotsPixelPhase1_DamagedL4Module.ini -C cfg/trendPlotsPixelPhase1_DamagedL3Module.ini -C cfg/trendPlotsPixelPhase1_DamagedRing2Module.ini -C cfg/trendPlotsPixelPhase1_DamagedRing1Module.ini -C cfg/trendPlotsPixelPhase1_templateCorrBPIX.ini  -C cfg/trendPlotsPixelPhase1_templateCorrFPIX.ini -C cfg/trendPlotsPixelPhase1_DRM_BPix.ini -C cfg/trendPlotsPixelPhase1_DRM_FPix.ini --dataset ZeroBias --dataset HIPhysicsRawPrime0 --epoch Run2024 --epoch HIRun2024 --epoch Commissioning2024 --epoch HIRun2024 -r "run >= 292505" --reco Prompt -J "${DCSONLY}/json_DCSONLY.txt"  &> "${LOGDIR}/promptPixel.log"
-cp ./JSON/* "${OUTDIR}/alljsons/2024/Prompt/ZeroBias/PixelPhase1/"
-touch .doneZeroBiasPixel
-subT=`date`
-echo "      --->>> Pixel Ended at ${subT}"
 
+#ZeroBias PIXEL part_1
+subT=`date`
+echo "      --->>> Pixel part_1 Started at ${subT}"
+rm -rf ./JSON/*
+python3 ./trendPlots_2022.py -C cfg/trendPlotsDQM_cronPPPromptPixel_1.ini -C cfg/trendPlotsPixelPhase1_clustersV3.ini -C cfg/trendPlotsPixelPhase1_FED.ini -C cfg/trendPlotsPixelPhase1_ADCDIGI.ini -C cfg/trendPlotsPixelPhase1_BPIX_Residuals.ini -C cfg/trendPlotsPixelPhase1_FPIX_Residuals.ini -C cfg/trendPlotsPixelPhase1_clustersBPIX_v2.ini -C cfg/trendPlotsPixelPhase1_clustersFPIX_v2.ini -C cfg/trendPlotsPixelPhase1_HitsEfficiency.ini -C cfg/trendPlotsPixelPhase1_DigiCluster.ini -C cfg/trendPlotsPixelPhase1_clustersFPIX_test.ini -C cfg/trendPlotsPixelPhase1_clustersFPixByRing.ini -C cfg/trendPlotsPixelPhase1_clustersBPixByModule.ini -C cfg/trendPlotsPixelPhase1_deadROC.ini -C cfg/trendPlotsPixelPhase1_templateCorrBPIX.ini  -C cfg/trendPlotsPixelPhase1_templateCorrFPIX.ini -C cfg/trendPlotsPixelPhase1_DRM_BPix.ini -C cfg/trendPlotsPixelPhase1_DRM_FPix.ini --dataset ZeroBias --dataset HIPhysicsRawPrime0 --epoch Run2024 --epoch HIRun2024 --epoch Commissioning2024 --epoch HIRun2024 -r "run >= 292505" --reco Prompt -J "${DCSONLY}/json_DCSONLY.txt"  &> "${LOGDIR}/promptPixel_1.log"
+cp ./JSON/* "${OUTDIR}/alljsons/2024/Prompt/ZeroBias/PixelPhase1/"
+touch .doneZeroBiasPixel_1
+subT=`date`
+echo "      --->>> Pixel part_1 Ended at ${subT}"
+
+#ZeroBias PIXEL part_2
+subT=`date`
+echo "      --->>> Pixel part_2 Started at ${subT}"
+rm -rf ./JSON/*
+#python3 ./trendPlots_2022.py -C cfg/trendPlotsDQM_cronPPPromptPixel_2.ini -C cfg/trendPlotsPixelPhase1_DamagedL2Module.ini -C cfg/trendPlotsPixelPhase1_DamagedL4Module.ini -C cfg/trendPlotsPixelPhase1_DamagedL3Module.ini -C cfg/trendPlotsPixelPhase1_DamagedRing2Module.ini -C cfg/trendPlotsPixelPhase1_DamagedRing1Module.ini --dataset ZeroBias --dataset HIPhysicsRawPrime0 --epoch Run2024 --epoch HIRun2024 --epoch Commissioning2024 --epoch HIRun2024 -r "run >= 292505" --reco Prompt -J "${DCSONLY}/json_DCSONLY.txt"  &> "${LOGDIR}/promptPixel_2.log"
+cp ./JSON/* "${OUTDIR}/alljsons/2024/Prompt/ZeroBias/PixelPhase1/"
+touch .doneZeroBiasPixel_2
+subT=`date`
+echo "      --->>> Pixel part_2 Ended at ${subT}"
 
 #ZeroBias TRACKING
 subT=`date`
@@ -192,8 +214,6 @@ subT=`date`
 echo "      --->>> RecoErrors Ended at ${subT}"
 
 
-
-
 # ++++++++++++++++++++++++++++++++   StreamExpressCosmics  +++++++++++++++++++++++++++++++++++++++
 echo " "
 echo " "
@@ -210,6 +230,7 @@ cp ./JSON/* "${OUTDIR}/alljsons/2024/StreamExpressCosmics/Strips/DECO/"
 touch .doneStreamExpressCosmics
 subT=`date`
 echo "      --->>> Strips DECO Ended at ${subT}"
+
 
 subT=`date`
 echo "      --->>> Strips PEAK Started at ${subT}"
@@ -228,6 +249,7 @@ cp ./JSON/* "${OUTDIR}/alljsons/2024/StreamExpressCosmics/Strips/ALL/"
 touch .doneStreamExpressCosmics
 subT=`date`
 echo "      --->>> Strips ALL Ended at ${subT}"
+
 
 #StreamExpressCosmics PIXEL
 subT=`date`
@@ -251,8 +273,6 @@ subT=`date`
 echo "      --->>> Tracking Ended at ${subT}"
 
 
-
-
 # ++++++++++++++++++++++++++++++++   Cosmics  +++++++++++++++++++++++++++++++++++++++
 echo " "
 echo " "
@@ -268,6 +288,7 @@ cp ./JSON/* "${OUTDIR}/alljsons/2024/Prompt/Cosmics/Strips/DECO/"
 touch .doneCosmics
 subT=`date`
 echo "      --->>> Strips DECO Ended at ${subT}"
+
 
 subT=`date`
 echo "      --->>> Strips PEAK Started at ${subT}"
@@ -286,6 +307,7 @@ cp ./JSON/* "${OUTDIR}/alljsons/2024/Prompt/Cosmics/Strips/ALL/"
 touch .doneCosmics
 subT=`date`
 echo "      --->>> Strips ALL Ended at ${subT}"
+
 
 #Cosmics PIXEL
 subT=`date`
@@ -307,5 +329,4 @@ python3 MakeIncremental.py -h "${OUTDIR}/alljsons/2024/Prompt/Cosmics/Tracking/"
 touch .doneCosmicsTracking
 subT=`date`
 echo "      --->>> Tracking Ended at ${subT}"
-
 
