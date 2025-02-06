@@ -2,7 +2,7 @@ import json
 import os
 from collections import OrderedDict
 
-for y in range(2000, 2018):
+for y in range(2024, 2027):
     fname = "collections_" + str(y) + ".json"
     if os.path.isfile(fname):
         f = open(fname, "r")
@@ -13,10 +13,10 @@ for y in range(2000, 2018):
             for file in data[key]:
                 print(file)
                 if len(file) > 1:
-                    name = os.path.commonprefix(file)
+                    name = os.path.commonpath(file)
                     if '_' in name:
                         name = name[:name.rindex("_")+1]
-                    suffix = os.path.commonprefix([f[::-1] for f in file])[::-1]
+                    suffix = os.path.commonpath([f[::-1] for f in file])[::-1]
                     if '_' in suffix:
                         suffix = suffix[suffix.index("_"):]
                     if sum(len(x) - len(name) - len(suffix) for x in file) <= 14:

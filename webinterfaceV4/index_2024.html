@@ -58,7 +58,7 @@ header {
 	display: inline-block;
 }
 .contact-input1 {
-	width: 10%;
+	width: 23%;
 	overflow: hidden;
 	/*margin-bottom: 20px;*/
 	margin: 10px;
@@ -350,12 +350,7 @@ textarea {
 }
 
 #runs-mode-container {
-    /* width: 150px; */
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    min-width: 150px;
-    flex-wrap: nowrap;
+	width: 150px;
 }
 
 input[type="checkbox"] {
@@ -377,18 +372,17 @@ input[type="checkbox"] {
 			<label for="select" class="select"> <select id="year"
 				name="Year" onchange="update_collections();update_runDurationFile();">
 					<option value="" selected>Choose Year...</option>
-					<!--<option>2011</option>
+					<option>2011</option>
 					<option>2012</option>
 					<option>2013</option>
 					<option>2015</option>
 					<option>2016</option>
 					<option>2017</option>
 					<option>2018</option>
-					<option>2021</option>-->
+					<option>2021</option>
 					<option>2022</option>
 					<option>2023</option>
 					<option>2024</option>
-					<option value="2025" selected>2025</option>
 			</select></label>
 		</p>
 		<p class="contact-input">
@@ -406,6 +400,15 @@ input[type="checkbox"] {
 					<option>StreamHLTMonitor</option>-->
 			</select></label>
 		</p>
+		<p class="contact-input1">
+			<label for="select" class="select"> <select id="apvMode"
+				name="apvmode">
+					<option value="" selected>Choose Strip APV Mode...</option>
+					<option>DECO</option>
+					<!--<option>PEAK</option>
+					<option value="ALL">PEAK + DECO</option>-->
+			</select></label>
+		</p>
 		<p class="contact-input">
 			<label for="select" class="select"> <select id="subsystem"
 				name="subsystem"  onchange="update_subsystem();">
@@ -416,22 +419,6 @@ input[type="checkbox"] {
 					<option>Tracking</option>
 					<!--<option>RecoErrors</option>-->
 					<!--<option>Alignment</option></p-->
-			</select></label>
-		</p>
-		<p class="contact-input1">
-		        <label for="select" class="select"> <select id="apvMode"
-				name="apvmode">
-			    <option value="">APV mode...</option>
-			    <option value="DECO" selected>DECO</option>
-			    <option>PEAK</option>
-			</select></label>
-		</p>
-		<p class="contact-input">
-		  <label for="select" class="select"> <select id="fullMode"
-							      name="fullmode">
-			    <option value="">Main histograms or Extra ones...</option>
-		            <option value="Main" selected>Main</option>
-		            <option>Extra</option>
 			</select></label>
 		</p>
 		<br />
@@ -466,7 +453,7 @@ input[type="checkbox"] {
 				<input type="file" id="list-file">
 			</div>
 			<p class="contact-corr" style="align: right">
-                                <button id="corr" onclick="location.href='correlation.html';">Change mode: Correlation Plots</button>
+                                <button id="corr" onclick="location.href='correlation.html';">Go to Correlation Plots</button>
 			</p>
 		</div>
 
@@ -516,11 +503,11 @@ input[type="checkbox"] {
 				</span>
 			</span>
 			<p class="contact-submit" style="text-align: center">
-				<button id="search">Show plots</button>
+				<button id="search">Submit</button>
 			</p>
 		</div>
 		<!-- Trigger/Open The Modal -->
-   			<button id="myBtn"><font color="red">Instructions</font></button>
+   			<button id="myBtn"><font color="red">Short Help Instructions</font></button>
 
 		<!-- The Modal -->
 			<div id="myModal" class="modal">
@@ -529,12 +516,10 @@ input[type="checkbox"] {
   				<div class="modal-content">
     					<div class="modal-header">
       					    <span class="close">&times;</span>
-      					    <h2>How to use HDQM</h2>
+      					    <h2>How to use the hDQM</h2>
     					</div>
 				        <div class="modal-body">
                                             <ul>
-					        <li>Examples in the <a href="https://tkdqm.docs.cern.ch/Tools_hDQM/" target="_blank">TkDQM Documentation page</a></li>
-     					        <br>      
 					        <li>In the <b>RunRange(From)</b>, put <b>0</b> if you want to start from the first run of the collection </li>
      					        <br>      
       						<li>In the <b>RunRange(To)</b>, put <b>0</b> if you want to end  with the last run of the collection</li>

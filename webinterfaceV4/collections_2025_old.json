@@ -108,28 +108,28 @@
             ]
         },
         {
-            "name": "Cluster size OnTrack Barrel (mean)",
+            "name": "size_ONTk_Barrel_mean",
             "corr": false,
             "files": [
                 "size_ONTk_Barrel_mean"
             ]
         },
         {
-            "name": "Cluster size OnTrack Endcap (mean)",
+            "name": "size_ONTk_Endcap_mean",
             "corr": false,
             "files": [
                 "size_ONTk_Endcap_mean"
             ]
         },
         {
-            "name": "Cluster size Barrel (mean)",
+            "name": "size_ALL_Barrel_mean",
             "corr": false,
             "files": [
                 "size_ALL_Barrel_mean"
             ]
         },
         {
-            "name": "Cluster size Endcap (mean)",
+            "name": "size_ALL_Endcap_mean",
             "corr": false,
             "files": [
                 "size_ALL_Endcap_mean"
@@ -138,21 +138,21 @@
     ],
     "CosmicsPixelPhase1Extra": [
         {
-            "name": "Cluster size X Barrel (mean)",
+            "name": "sizex_ALL_Barrel_mean",
             "corr": false,
             "files": [
                 "sizex_ALL_Barrel_mean"
             ]
         },
         {
-            "name": "Cluster size X Endcap (mean)",
+            "name": "sizex_ALL_Endcap_mean",
             "corr": false,
             "files": [
                 "sizex_ALL_Endcap_mean"
             ]
         },
         {
-            "name": "Cluster size Y Barrel (mean)",
+            "name": "sizey_ALL_Barrel_mean",
             "corr": false,
             "files": [
                 "sizey_ALL_Barrel_mean"
@@ -368,8 +368,6 @@
             ]
         }
     ],
-    "CosmicsStripsExtra": [
-    ],
     "CosmicsTracking": [
         {
             "name": "Number of Cosmics Tracks (mean)",
@@ -546,28 +544,28 @@
             ]
         },
         {
-            "name": "Cluster size OnTrack Barrel (mean)",
+            "name": "size_ONTk_Barrel_mean",
             "corr": false,
             "files": [
                 "size_ONTk_Barrel_mean"
             ]
         },
         {
-            "name": "Cluster size OnTrack Endcap (mean)",
+            "name": "size_ONTk_Endcap_mean",
             "corr": false,
             "files": [
                 "size_ONTk_Endcap_mean"
             ]
         },
         {
-            "name": "Cluster size Barrel (mean)",
+            "name": "size_ALL_Barrel_mean",
             "corr": false,
             "files": [
                 "size_ALL_Barrel_mean"
             ]
         },
         {
-            "name": "Cluster size Endcap (mean)",
+            "name": "size_ALL_Endcap_mean",
             "corr": false,
             "files": [
                 "size_ALL_Endcap_mean"
@@ -576,21 +574,21 @@
     ],
     "ExpressCosmicsPixelPhase1Extra": [
         {
-            "name": "Cluster size X Barrel (mean)",
+            "name": "sizex_ALL_Barrel_mean",
             "corr": false,
             "files": [
                 "sizex_ALL_Barrel_mean"
             ]
         },
         {
-            "name": "Cluster size X Endcap (mean)",
+            "name": "sizex_ALL_Endcap_mean",
             "corr": false,
             "files": [
                 "sizex_ALL_Endcap_mean"
             ]
         },
         {
-            "name": "Cluster size Y Barrel (mean)",
+            "name": "sizey_ALL_Barrel_mean",
             "corr": false,
             "files": [
                 "sizey_ALL_Barrel_mean"
@@ -806,8 +804,6 @@
             ]
         }
     ],
-    "ExpressCosmicsStripsExtra": [
-    ],
     "ExpressCosmicsTracking": [
         {
             "name": "Number of Cosmics Tracks (mean)",
@@ -916,6 +912,14 @@
             "corr": false,
             "files": [
                 "NClus_Endcap_mean"
+            ]
+        },
+        {
+            "name": "Number of Clusters (mean) Strip vs Pixel",
+            "corr": true,
+            "files": [
+                "NClus_All_Pixel_mean",
+                "NClust_All_Strip_mean"
             ]
         },
         {
@@ -1301,7 +1305,7 @@
             ]
         },
         {
-            "name": "Cluster charge OnTrack Barrel per Inner/Outer Layer (mpv)",
+            "name": "Clust charge OnTrack Barrel per Inner/Outer Layer (mpv)",
             "corr": false,
             "files": [
                 "clustCharge_ONTk_BPix_perInOutLayer_mpv",
@@ -1415,7 +1419,7 @@
             ]
         },
         {
-            "name": "Dead ROC fraction per Layer",
+            "name": "Dead ROC per Layer",
             "corr": false,
             "files": [
                 "deadROC_BPix_L1",
@@ -1425,7 +1429,7 @@
             ]
         },
         {
-            "name": "Dead ROC fraction per Ring",
+            "name": "Dead ROC per Ring",
             "corr": false,
             "files": [
                 "deadROC_FPix_R1",
@@ -1433,7 +1437,7 @@
             ]
         },
         {
-            "name": "Inefficient ROC fraction per Layer",
+            "name": "Inefficient ROC per Layer",
             "corr": false,
             "files": [
                 "ineffROC_BPix_L1",
@@ -1443,7 +1447,7 @@
             ]
         },
         {
-            "name": "Inefficient ROC fraction per Ring",
+            "name": "Inefficient ROC per Ring",
             "corr": false,
             "files": [
                 "ineffROC_FPix_R1",
@@ -2221,7 +2225,11 @@
             "corr": false,
             "files": [
                 "clusterStoN_ONTk_TEC_MINUS_mpv",
-                "clusterStoN_ONTk_TEC_PLUS_mpv"
+                "clusterStoN_ONTk_TEC_PLUS_mpv",
+                "clusterStoN_ONTk_TEC_PLUS_thick_mpv",
+                "clusterStoN_ONTk_TEC_PLUS_thin_mpv",
+                "clusterStoN_ONTk_TEC_MINUS_thick_mpv",
+                "clusterStoN_ONTk_TEC_MINUS_thin_mpv"
             ]
         },
         {
@@ -2827,6 +2835,81 @@
             ]
         },
         {
+            "name": "InefficientModules",
+            "corr": false,
+            "files": [
+                "TIB Inefficient Modules",
+                "TID Inefficient Modules",
+                "TOB Inefficient Modules",
+                "TEC Inefficient Modules",
+                "Tracker Inefficient Modules"
+            ]
+        },
+        {
+            "name": "InefficientModulesTIB",
+            "corr": false,
+            "files": [
+                "TIBLayer1 Inefficient Modules",
+                "TIBLayer2 Inefficient Modules",
+                "TIBLayer3 Inefficient Modules",
+                "TIBLayer4 Inefficient Modules"
+            ]
+        },
+        {
+            "name": "InefficientModulesTID",
+            "corr": false,
+            "files": [
+                "TIDmDisk1 Inefficient Modules",
+                "TIDmDisk2 Inefficient Modules",
+                "TIDmDisk3 Inefficient Modules",
+                "TIDpDisk1 Inefficient Modules",
+                "TIDpDisk2 Inefficient Modules",
+                "TIDpDisk3 Inefficient Modules"
+            ]
+        },
+        {
+            "name": "InefficientModulesTOB",
+            "corr": false,
+            "files": [
+                "TOBLayer1 Inefficient Modules",
+                "TOBLayer2 Inefficient Modules",
+                "TOBLayer3 Inefficient Modules",
+                "TOBLayer4 Inefficient Modules",
+                "TOBLayer5 Inefficient Modules",
+                "TOBLayer6 Inefficient Modules"
+            ]
+        },
+        {
+            "name": "InefficientModulesTECMinus",
+            "corr": false,
+            "files": [
+                "TECmDisk1 Inefficient Modules",
+                "TECmDisk2 Inefficient Modules",
+                "TECmDisk3 Inefficient Modules",
+                "TECmDisk4 Inefficient Modules",
+                "TECmDisk5 Inefficient Modules",
+                "TECmDisk6 Inefficient Modules",
+                "TECmDisk7 Inefficient Modules",
+                "TECmDisk8 Inefficient Modules",
+                "TECmDisk9 Inefficient Modules"
+            ]
+        },
+        {
+            "name": "InefficientModulesTECPlus",
+            "corr": false,
+            "files": [
+                "TECpDisk1 Inefficient Modules",
+                "TECpDisk2 Inefficient Modules",
+                "TECpDisk3 Inefficient Modules",
+                "TECpDisk4 Inefficient Modules",
+                "TECpDisk5 Inefficient Modules",
+                "TECpDisk6 Inefficient Modules",
+                "TECpDisk7 Inefficient Modules",
+                "TECpDisk8 Inefficient Modules",
+                "TECpDisk9 Inefficient Modules"
+            ]
+        },
+        {
             "name": "FED50_AnyFEerrors",
             "corr": false,
             "files": [
@@ -3195,6 +3278,14 @@
             "corr": false,
             "files": [
                 "NClus_Endcap_mean"
+            ]
+        },
+        {
+            "name": "Number of Clusters (mean) Strip vs Pixel",
+            "corr": true,
+            "files": [
+                "NClus_All_Pixel_mean",
+                "NClust_All_Strip_mean"
             ]
         },
         {
@@ -3694,7 +3785,7 @@
             ]
         },
         {
-            "name": "Dead ROC fraction per Layer",
+            "name": "Dead ROC per Layer",
             "corr": false,
             "files": [
                 "deadROC_BPix_L1",
@@ -3704,7 +3795,7 @@
             ]
         },
         {
-            "name": "Dead ROC fraction per Ring",
+            "name": "Dead ROC per Ring",
             "corr": false,
             "files": [
                 "deadROC_FPix_R1",
@@ -3712,7 +3803,7 @@
             ]
         },
         {
-            "name": "Inefficient ROC fraction per Layer",
+            "name": "Inefficient ROC per Layer",
             "corr": false,
             "files": [
                 "ineffROC_BPix_L1",
@@ -3722,7 +3813,7 @@
             ]
         },
         {
-            "name": "Inefficient ROC fraction per Ring",
+            "name": "Inefficient ROC per Ring",
             "corr": false,
             "files": [
                 "ineffROC_FPix_R1",
@@ -4500,7 +4591,11 @@
             "corr": false,
             "files": [
                 "clusterStoN_ONTk_TEC_MINUS_mpv",
-                "clusterStoN_ONTk_TEC_PLUS_mpv"
+                "clusterStoN_ONTk_TEC_PLUS_mpv",
+                "clusterStoN_ONTk_TEC_PLUS_thick_mpv",
+                "clusterStoN_ONTk_TEC_PLUS_thin_mpv",
+                "clusterStoN_ONTk_TEC_MINUS_thick_mpv",
+                "clusterStoN_ONTk_TEC_MINUS_thin_mpv"
             ]
         },
         {
@@ -5033,6 +5128,81 @@
             "corr": false,
             "files": [
                 "Main_Diagonal_Position"
+            ]
+        },
+        {
+            "name": "InefficientModules",
+            "corr": false,
+            "files": [
+                "TIB Inefficient Modules",
+                "TID Inefficient Modules",
+                "TOB Inefficient Modules",
+                "TEC Inefficient Modules",
+                "Tracker Inefficient Modules"
+            ]
+        },
+        {
+            "name": "InefficientModulesTIB",
+            "corr": false,
+            "files": [
+                "TIBLayer1 Inefficient Modules",
+                "TIBLayer2 Inefficient Modules",
+                "TIBLayer3 Inefficient Modules",
+                "TIBLayer4 Inefficient Modules"
+            ]
+        },
+        {
+            "name": "InefficientModulesTID",
+            "corr": false,
+            "files": [
+                "TIDmDisk1 Inefficient Modules",
+                "TIDmDisk2 Inefficient Modules",
+                "TIDmDisk3 Inefficient Modules",
+                "TIDpDisk1 Inefficient Modules",
+                "TIDpDisk2 Inefficient Modules",
+                "TIDpDisk3 Inefficient Modules"
+            ]
+        },
+        {
+            "name": "InefficientModulesTOB",
+            "corr": false,
+            "files": [
+                "TOBLayer1 Inefficient Modules",
+                "TOBLayer2 Inefficient Modules",
+                "TOBLayer3 Inefficient Modules",
+                "TOBLayer4 Inefficient Modules",
+                "TOBLayer5 Inefficient Modules",
+                "TOBLayer6 Inefficient Modules"
+            ]
+        },
+        {
+            "name": "InefficientModulesTECMinus",
+            "corr": false,
+            "files": [
+                "TECmDisk1 Inefficient Modules",
+                "TECmDisk2 Inefficient Modules",
+                "TECmDisk3 Inefficient Modules",
+                "TECmDisk4 Inefficient Modules",
+                "TECmDisk5 Inefficient Modules",
+                "TECmDisk6 Inefficient Modules",
+                "TECmDisk7 Inefficient Modules",
+                "TECmDisk8 Inefficient Modules",
+                "TECmDisk9 Inefficient Modules"
+            ]
+        },
+        {
+            "name": "InefficientModulesTECPlus",
+            "corr": false,
+            "files": [
+                "TECpDisk1 Inefficient Modules",
+                "TECpDisk2 Inefficient Modules",
+                "TECpDisk3 Inefficient Modules",
+                "TECpDisk4 Inefficient Modules",
+                "TECpDisk5 Inefficient Modules",
+                "TECpDisk6 Inefficient Modules",
+                "TECpDisk7 Inefficient Modules",
+                "TECpDisk8 Inefficient Modules",
+                "TECpDisk9 Inefficient Modules"
             ]
         },
         {
