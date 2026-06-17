@@ -9,9 +9,9 @@ LOGDIR=$vocms_path$CMSSW_version"/HistoricDQM/Logs"
 DCSONLY=$vocms_path$CMSSW_version"/HistoricDQM/python/DCSonly"
 OUTDIR="/eos/cms/store/group/tracker-cctrack/www/HDQM/v4"
 
-YEAR="2025"
-FIRST_COSMICS="389000"
-FIRST_COLLISIONS="390000"
+YEAR="2026"
+FIRST_COSMICS="400600"
+FIRST_COLLISIONS="401620"
 
 
 # ++++++++++++++++++++++++++++++++      RunList    +++++++++++++++++++++++++++++++++++++++                                                       
@@ -23,13 +23,13 @@ export SSO_CLIENT_SECRET=hidden
 cd $DCSONLY
 subT=`date`
 echo "      --->>> Start Cosmics Run List generation at ${subT}"
-python3 ./dcsonly_2022.py -c Cosmics25 -m "${FIRST_COSMICS}" -f
+python3 ./dcsonly_2022.py -c Cosmics26 -m "${FIRST_COSMICS}" -f
 subT=`date`
 echo "      --->>> Cosmics Run List generation ended at ${subT}"
 cp Run_LHCFill_RunDuration_Cosmics.json "${OUTDIR}/alljsons/${YEAR}/"
 subT=`date`
 echo "      --->>> Start Collisions Run List generation at ${subT}"
-python3 ./dcsonly_2022.py -c Collisions25 -m "${FIRST_COLLISIONS}" -f
+python3 ./dcsonly_2022.py -c Collisions26 -m "${FIRST_COLLISIONS}" -f
 subT=`date`
 echo "      --->>> Collisions Run List generation ended at ${subT}"
 cp Run_LHCFill_RunDuration.json "${OUTDIR}/alljsons/${YEAR}/"

@@ -21,11 +21,11 @@ cmsenv
 
 echo "Starting json preparation"
 
-./autoPlotandPublish_2025.sh >& "$WORKINGDIR/../log.cron"
+./autoPlotandPublish_2026.sh >& "$WORKINGDIR/../log.cron"
 
 echo "Job completed, copy log"
 
-cat $WORKINGDIR/../log.cron >> $WORKINGDIR/../../../../../cronlogs/hdqm.log
+#cat $WORKINGDIR/../log.cron >> $WORKINGDIR/../../../../cronlogs/hdqm.log
 
 echo "Copy cache to eos"
 
